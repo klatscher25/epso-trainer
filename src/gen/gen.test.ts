@@ -72,6 +72,28 @@ describe('numerical', () => {
   });
 });
 
+describe('Schätzen und Grammatik', () => {
+  it('schaetzen: nie Option E „Keine“, richtige Option ist eindeutig die nächste', () => {
+    for (let s = 0; s < 800; s++) {
+      const it = numerical.generate(s, { category: 'schaetzen' });
+      expect(it.options).not.toContain('Keine der oben genannten');
+      const h = (it as any).__data;
+      const truth = h.solve(h.data);
+      const d = h.optVals.map((v: number) => Math.abs(v - truth) / truth);
+      const best = d.indexOf(Math.min(...d));
+      expect(best).toBe(it.answer);
+      const sorted = [...d].sort((a, b) => a - b);
+      expect(sorted[1]).toBeGreaterThan(sorted[0] * 2);
+    }
+  });
+  it('Niederlande mit Artikel', () => {
+    for (let s = 0; s < 3000; s++) {
+      const it = numerical.generate(s);
+      expect(it.prompt).not.toMatch(/\b(in|von|zwischen|und|hatte) Niederlande\b/);
+    }
+  });
+});
+
 describe('abstract', () => {
   it('ist deterministisch', () => {
     for (const s of [1, 2, 99, 12345]) expect(JSON.stringify(abstract.generate(s))).toBe(JSON.stringify(abstract.generate(s)));

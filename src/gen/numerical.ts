@@ -218,6 +218,14 @@ interface Hidden {
   noneIdx: number;
 }
 
+/** Länder mit Artikel (nur „die Niederlande“ in unserer Länderliste): richtige Fälle im Fragetext. */
+function grammar(p: string): string {
+  return p
+    .replace(/\b(hatte|hat) Niederlande\b/g, '$1 die Niederlande')
+    .replace(/\b(in|von|zwischen|und|bei|mit|zu|nach) Niederlande\b/g, '$1 den Niederlanden')
+    .replace(/, Niederlande\b/g, ', den Niederlanden');
+}
+
 const NONE = 'Keine der oben genannten';
 const LETTERS = ['A', 'B', 'C', 'D', 'E'];
 
@@ -250,7 +258,7 @@ function assemble(spec: Spec, r: Rng, seed: number, tpl: Template): GenItem | nu
   }
   const chosen: Cand[] = [];
   const m = r.next();
-  const mode = m < 0.075 ? 'noneCorrect' : m < 0.15 ? 'noneDistractor' : 'normal';
+  const mode = est ? 'normal' : m < 0.075 ? 'noneCorrect' : m < 0.15 ? 'noneDistractor' : 'normal'; // Schätzen: nie „Keine der oben genannten“
   const sep = mode === 'noneCorrect' ? Math.max(minGap, 0.05) : minGap;
   // Ablenker bevorzugt nahe am richtigen Wert (Fehlerwerte 5–40 %), dann Ersatzwerte, zuletzt weit entfernte Fehlerwerte
   const WIN = 0.4;
@@ -290,7 +298,7 @@ function assemble(spec: Spec, r: Rng, seed: number, tpl: Template): GenItem | nu
   const steps = spec.steps.slice();
   if (est) steps.push(`Schätzaufgabe: gerundet ≈ ${tc.t}.`);
   steps.push(mode === 'noneCorrect' ? `Der richtige Wert (${tc.t}) steht unter A–D nicht zur Auswahl, also E) ${NONE}.` : `Antwort: ${LETTERS[answer]}) ${tc.t}.`);
-  const prompt = (est ? 'Welcher Wert kommt dem Ergebnis am nächsten (Schätzaufgabe)? ' : '') + spec.prompt + (est || !spec.note ? '' : ` ${spec.note}`);
+  const prompt = grammar((est ? 'Welcher Wert kommt dem Ergebnis am nächsten (Schätzaufgabe)? ' : '') + spec.prompt + (est || !spec.note ? '' : ` ${spec.note}`));
   const hidden: Hidden = { optVals: opts.map((o) => o.v), data: spec.data, solve: spec.solve, tol, noneIdx: mode === 'normal' ? -1 : 4 };
   const item: GenItem = {
     id: `num-${seed}`,
