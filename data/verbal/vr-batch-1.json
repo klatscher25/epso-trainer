@@ -1,0 +1,1225 @@
+[
+ {
+  "id": "vr-0001",
+  "topic": "EU-Institutionen",
+  "difficulty": 1,
+  "text": "Der Europäische Rechnungshof mit Sitz in Luxemburg prüft die Einnahmen und Ausgaben der Europäischen Union. Er wurde 1977 gegründet und ist seit dem Vertrag von Maastricht ein Organ der Union. Jeder Mitgliedstaat entsendet ein Mitglied in das Kollegium; die Mitglieder werden vom Rat nach Anhörung des Europäischen Parlaments ernannt und üben ihr Amt in völliger Unabhängigkeit aus. Der Rechnungshof besitzt keine richterlichen Befugnisse. Stellt er Unregelmäßigkeiten fest, kann er daher weder Sanktionen verhängen noch Gelder zurückfordern, sondern lediglich Berichte veröffentlichen und Empfehlungen aussprechen. Verdachtsfälle auf Betrug meldet er dem Europäischen Amt für Betrugsbekämpfung. Einmal jährlich legt er einen Bericht über die Ausführung des Haushalts vor, der auch eine Erklärung zur Zuverlässigkeit der Rechnungsführung enthält. Daneben veröffentlicht er Sonderberichte zu einzelnen Politikbereichen, deren Themen er selbst auswählt. Die Berichte dienen dem Parlament und dem Rat als Grundlage, wenn sie darüber entscheiden, ob der Kommission für die Haushaltsführung Entlastung erteilt wird. Seine Prüfungen finden teils vor Ort bei den Empfängern von Unionsmitteln, teils anhand von Unterlagen der Organe statt.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Der Rechnungshof kann bei festgestellten Unregelmäßigkeiten Gelder von den jeweiligen Empfängern zurückfordern.",
+   "Die Themen der Sonderberichte des Rechnungshofs werden vom Parlament und vom Rat vorgegeben, die ihm dazu jährlich eine Themenliste übermitteln.",
+   "Der Rechnungshof kann bei Unregelmäßigkeiten keine Sanktionen verhängen, wohl aber Empfehlungen aussprechen.",
+   "Die Mitglieder des Rechnungshofs werden von ihren jeweiligen Mitgliedstaaten allein ernannt, ohne dass Rat oder Parlament dabei mitwirken."
+  ],
+  "answer": 2,
+  "why": [
+   "Falsch: Der Text sagt ausdrücklich, dass er keine Gelder zurückfordern kann.",
+   "Falsch: Die Themen der Sonderberichte wählt der Rechnungshof laut Text „selbst“ aus.",
+   "Richtig: Er kann „weder Sanktionen verhängen noch Gelder zurückfordern, sondern lediglich Berichte veröffentlichen und Empfehlungen aussprechen“.",
+   "Falsch: Die Mitgliedstaaten „entsenden“ je ein Mitglied, ernannt werden die Mitglieder aber „vom Rat nach Anhörung des Europäischen Parlaments“."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Teilweise richtig"
+  ]
+ },
+ {
+  "id": "vr-0002",
+  "topic": "Demografie",
+  "difficulty": 1,
+  "text": "Eine Regionalverwaltung in einem mittelgroßen EU-Land hat einen Bericht zur Bevölkerungsentwicklung vorgelegt. Danach ist die Einwohnerzahl der Region in den vergangenen zwanzig Jahren um etwa sieben Prozent gesunken. Der Rückgang betrifft vor allem die ländlichen Gemeinden im Norden, während die Hauptstadt der Region leicht gewachsen ist. Als Ursache nennt der Bericht in erster Linie die Abwanderung junger Erwachsener, die für Ausbildung und Beruf in andere Landesteile ziehen. Die Geburtenrate liegt in der Region geringfügig unter dem Landesdurchschnitt. Zugleich ist das Durchschnittsalter der Bevölkerung gestiegen, weil ältere Menschen überwiegend bleiben, während weniger junge nachkommen. Die Verwaltung erwartet, dass sich dieser Trend ohne Gegenmaßnahmen fortsetzt. Sie schlägt deshalb vor, den öffentlichen Nahverkehr auszubauen, Breitbandanschlüsse in abgelegenen Gemeinden zu fördern und Unternehmen bei der Ansiedlung zu unterstützen. Ob diese Maßnahmen die Abwanderung tatsächlich bremsen, lasse sich frühestens nach mehreren Jahren beurteilen. Der Bericht betont, dass die Lage zwischen den Gemeinden stark variiert und einzelne Orte im Süden sogar Zuzug verzeichnen. Der Bericht stützt sich auf Daten der kommunalen Melderegister.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Die Hauptstadt der Region hat leicht an Einwohnern gewonnen, obwohl die Region insgesamt schrumpfte.",
+   "Der Bevölkerungsrückgang ist in sämtlichen Gemeinden der Region in gleichem Maße zu beobachten, auch im Norden und im Süden der Region.",
+   "Die Geburtenrate der Region liegt deutlich über dem Durchschnitt des gesamten Landes, wie der Bericht ausdrücklich hervorhebt.",
+   "Die vorgeschlagenen Maßnahmen haben die Abwanderung in der Region bereits spürbar verringert, wie die Verwaltung bei der Vorstellung betonte."
+  ],
+  "answer": 0,
+  "why": [
+   "Richtig: Die Region schrumpfte insgesamt, „die Hauptstadt der Region ist [aber] leicht gewachsen“.",
+   "Falsch: Der Bericht betont, die Lage variiere „stark“ und manche Orte im Süden verzeichneten Zuzug.",
+   "Falsch: Die Geburtenrate liegt „geringfügig unter“, nicht über dem Landesdurchschnitt.",
+   "Falsch: Die Maßnahmen sind erst vorgeschlagen; ihre Wirkung lasse sich „frühestens nach mehreren Jahren beurteilen“."
+  ],
+  "traps": [
+   "Überverallgemeinerung",
+   "Gegenteil",
+   "Nicht im Text (Weltwissen)"
+  ]
+ },
+ {
+  "id": "vr-0003",
+  "topic": "Recht",
+  "difficulty": 1,
+  "text": "Im deutschen Zivilrecht regelt die Verjährung, ab wann ein Anspruch nicht mehr gerichtlich durchgesetzt werden kann. Die regelmäßige Verjährungsfrist beträgt drei Jahre. Sie beginnt am Ende des Jahres, in dem der Anspruch entstanden ist und der Gläubiger von den anspruchsbegründenden Umständen und der Person des Schuldners Kenntnis erlangt hat oder ohne grobe Fahrlässigkeit hätte erlangen müssen. Für bestimmte Ansprüche gelten längere Fristen, etwa für Herausgabeansprüche aus Eigentum. Die Verjährung lässt den Anspruch nicht erlöschen; der Schuldner erhält lediglich das Recht, die Leistung zu verweigern. Er muss sich ausdrücklich darauf berufen, denn das Gericht prüft die Verjährung nicht von Amts wegen. Zahlt der Schuldner trotz eingetretener Verjährung, kann er das Geleistete nicht zurückfordern. Die Frist kann gehemmt werden, zum Beispiel durch Verhandlungen zwischen den Parteien oder durch die Erhebung einer Klage. In diesem Fall wird der Zeitraum der Hemmung nicht in die Verjährungsfrist eingerechnet. Das Verjährungsrecht dient der Rechtssicherheit, weil es verhindert, dass sehr alte Streitigkeiten ohne zeitliche Grenze geführt werden können.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Mit dem Eintritt der Verjährung erlischt der Anspruch des Gläubigers vollständig, sodass der Gläubiger ihn nicht mehr einfordern dürfte.",
+   "Die regelmäßige Verjährungsfrist beginnt an dem Tag, an dem der Anspruch entsteht, unabhängig von der Kenntnis des Gläubigers.",
+   "Wer nach Eintritt der Verjährung noch zahlt, kann den gezahlten Betrag zurückverlangen, sofern er die Zahlung innerhalb eines Jahres geltend macht.",
+   "Das Gericht prüft die Verjährung nur, wenn sich der Schuldner darauf beruft."
+  ],
+  "answer": 3,
+  "why": [
+   "Falsch: Die Verjährung „lässt den Anspruch nicht erlöschen“, sie gibt nur ein Leistungsverweigerungsrecht.",
+   "Falsch: Die Frist beginnt erst „am Ende des Jahres“ und setzt Kenntnis des Gläubigers voraus.",
+   "Falsch: Wer trotz Verjährung zahlt, „kann [...] das Geleistete nicht zurückfordern“.",
+   "Richtig: Das Gericht prüft die Verjährung „nicht von Amts wegen“, der Schuldner muss sich darauf berufen."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Zeitangabe verdreht"
+  ]
+ },
+ {
+  "id": "vr-0004",
+  "topic": "Medien",
+  "difficulty": 2,
+  "text": "Eine Erhebung in einem mittelgroßen EU-Land untersuchte, wie sich Menschen verschiedener Altersgruppen über das politische Tagesgeschehen informieren. Von den befragten Personen unter dreißig nannten mehr als die Hälfte soziale Netzwerke als wichtigste Nachrichtenquelle, bei den Befragten über sechzig war es nur ein kleiner Anteil. Diese bevorzugten das Fernsehen und die Tageszeitung. Auffällig war, dass die Befragten unter dreißig zwar häufiger auf soziale Netzwerke zurückgriffen, aber seltener angaben, den dort verbreiteten Inhalten zu vertrauen, als die älteren Befragten dem Fernsehen. Die Studienautoren warnen davor, daraus auf eine geringere Informiertheit der Jüngeren zu schließen: Dafür enthalte die Erhebung keine Daten, da nur die Nutzung und das Vertrauen, nicht aber das tatsächliche Wissen abgefragt wurden. Ergänzend zeigte sich, dass ein Drittel der jungen Befragten mindestens einmal pro Woche auch die Webseite einer Zeitung aufruft. Die Erhebung beruht auf einer Zufallsstichprobe, doch lag die Teilnahmequote bei den Älteren höher als bei den Jüngeren. Befragt wurden mehrere tausend Personen aus allen Landesteilen, und zwar in persönlichen Interviews und online.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Die Befragten unter dreißig sind nach den Ergebnissen weniger gut über das politische Geschehen informiert als die Älteren.",
+   "Die Erhebung liefert keine Angaben dazu, wie gut die einzelnen Altersgruppen tatsächlich über Politik informiert sind.",
+   "Befragte unter dreißig vertrauen den Inhalten sozialer Netzwerke stärker als ältere Befragte dem Fernsehen.",
+   "Ein Drittel aller befragten Personen ruft mindestens einmal pro Woche die Webseite einer Zeitung auf."
+  ],
+  "answer": 1,
+  "why": [
+   "Falsch: Die Autoren „warnen davor“, auf eine geringere Informiertheit der Jüngeren zu schließen.",
+   "Richtig: Es wurden „nur die Nutzung und das Vertrauen, nicht aber das tatsächliche Wissen abgefragt“.",
+   "Falsch: Die Jüngeren vertrauen den Inhalten „seltener“ als die Älteren dem Fernsehen.",
+   "Falsch: Das Drittel bezieht sich nur auf „die jungen Befragten“, nicht auf alle Befragten."
+  ],
+  "traps": [
+   "Kausalität unterstellt",
+   "Gegenteil",
+   "Überverallgemeinerung"
+  ]
+ },
+ {
+  "id": "vr-0005",
+  "topic": "Verwaltung",
+  "difficulty": 2,
+  "text": "Viele Verwaltungen in Europa arbeiten daran, Bürgerinnen und Bürgern den Kontakt mit Behörden zu erleichtern. Ein Leitgedanke ist das sogenannte Once-only-Prinzip: Personen und Unternehmen sollen bestimmte Angaben den Behörden nur einmal mitteilen müssen. Anschließend sollen die Behörden die Daten untereinander austauschen, sofern die Betroffenen zustimmen oder eine gesetzliche Grundlage besteht. Die Umsetzung ist technisch und rechtlich anspruchsvoll, weil Register häufig nach unterschiedlichen Standards geführt werden und der Datenschutz gewahrt bleiben muss. In einigen Ländern scheiterten frühe Projekte daran, dass die beteiligten Behörden keine gemeinsame Kennung für Personen verwendeten. Andere Länder haben hierfür eine einheitliche Identifikationsnummer eingeführt, was in der Öffentlichkeit teils auf Skepsis stieß. Befürworter verweisen auf Zeitersparnis und geringere Fehlerquoten, Kritiker auf das Risiko, dass umfangreiche Datensammlungen missbraucht werden könnten. Die Europäische Union fördert grenzüberschreitende Lösungen, doch die Verantwortung für die Register liegt weiterhin bei den Mitgliedstaaten. Fachleute betonen, dass technische Lösungen allein nicht genügen, weil auch Abläufe, Zuständigkeiten und Gesetze angepasst werden müssen, damit Behörden Daten tatsächlich gemeinsam nutzen können.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Manche frühe Projekte scheiterten auch daran, dass die Behörden keine gemeinsame Personenkennung nutzten.",
+   "In allen Ländern, die eine einheitliche Identifikationsnummer eingeführt haben, stieß diese auf öffentliche Skepsis.",
+   "Der Datenaustausch zwischen Behörden ist technisch einfach, scheitert aber am Datenschutz, weshalb er bislang nur in Ausnahmefällen stattfindet.",
+   "Die Kritiker des Once-only-Prinzips bestreiten, dass es Zeit spart, und halten auch die Fehlerquoten für unverändert."
+  ],
+  "answer": 0,
+  "why": [
+   "Richtig: Frühe Projekte scheiterten, weil die Behörden „keine gemeinsame Kennung für Personen verwendeten“.",
+   "Falsch: Die Nummer stieß nur „teils“ auf Skepsis, nicht überall.",
+   "Falsch: Die Umsetzung gilt als „technisch und rechtlich anspruchsvoll“, nicht als technisch einfach.",
+   "Falsch: Die Kritiker verweisen laut Text auf das Missbrauchsrisiko; die Zeitersparnis betonen die Befürworter, bestritten wird sie nicht."
+  ],
+  "traps": [
+   "Überverallgemeinerung",
+   "Gegenteil",
+   "Nicht im Text (Weltwissen)"
+  ]
+ },
+ {
+  "id": "vr-0006",
+  "topic": "Geschichte",
+  "difficulty": 2,
+  "text": "Der Westfälische Friede von 1648 beendete den Dreißigjährigen Krieg, der große Teile des Heiligen Römischen Reiches verwüstet hatte. Die Verhandlungen fanden in den beiden westfälischen Städten Münster und Osnabrück statt, weil die katholischen und die protestantischen Gesandten sich nicht auf einen gemeinsamen Verhandlungsort einigen konnten. Sie zogen sich über mehrere Jahre hin, und während dieser Zeit gingen die Kampfhandlungen weiter. Der Friedensschluss bestätigte die Gleichberechtigung der drei großen Konfessionen im Reich, der katholischen, der lutherischen und der reformierten. Die Reichsstände erhielten das Recht, untereinander und mit auswärtigen Mächten Bündnisse zu schließen, sofern diese sich nicht gegen Kaiser und Reich richteten. Damit wurde die Stellung des Kaisers gegenüber den Territorialfürsten geschwächt. Frankreich und Schweden erhielten Gebiete und gewannen politischen Einfluss im Reich. Spätere Historiker haben die Ordnung von 1648 oft als Ausgangspunkt eines europäischen Staatensystems beschrieben, das auf dem Gleichgewicht souveräner Staaten beruhte; ob die Zeitgenossen dies bereits so sahen, ist jedoch umstritten. Insgesamt waren Gesandte aus vielen europäischen Staaten an den Verhandlungen beteiligt.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Die Reichsstände durften Bündnisse auch dann schließen, wenn sich diese gegen Kaiser und Reich richteten.",
+   "Die Zeitgenossen erkannten in dem Frieden bereits den Beginn eines Systems souveräner Staaten.",
+   "Münster und Osnabrück wurden als Verhandlungsorte gewählt, weil sie in der Mitte des Reiches lagen.",
+   "Während über den Frieden verhandelt wurde, wurde weiter gekämpft."
+  ],
+  "answer": 3,
+  "why": [
+   "Falsch: Bündnisse waren nur erlaubt, „sofern diese sich nicht gegen Kaiser und Reich richteten“.",
+   "Falsch: Ob die Zeitgenossen dies „bereits so sahen, ist [...] umstritten“.",
+   "Falsch: Der Text nennt als Grund, dass sich die Gesandten „nicht auf einen gemeinsamen Verhandlungsort einigen konnten“, nicht die Lage.",
+   "Richtig: Die Verhandlungen „zogen sich über mehrere Jahre hin, und während dieser Zeit gingen die Kampfhandlungen weiter“."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Modalität (kann/muss)",
+   "Kausalität unterstellt"
+  ]
+ },
+ {
+  "id": "vr-0007",
+  "topic": "Politik",
+  "difficulty": 3,
+  "text": "Wahlsysteme lassen sich grob in Mehrheits- und Verhältniswahlsysteme einteilen. Bei der Mehrheitswahl in Einerwahlkreisen zieht in jedem Wahlkreis nur die Kandidatin oder der Kandidat mit den meisten Stimmen ins Parlament ein; die Stimmen für die unterlegenen Bewerber bleiben ohne Einfluss auf die Sitzverteilung. Dieses System begünstigt in der Regel große Parteien und führt häufiger zu klaren Regierungsmehrheiten. Bei der Verhältniswahl werden die Sitze dagegen im Verhältnis zu den landesweit oder regional erzielten Stimmenanteilen verteilt. Kleinere Parteien haben dadurch bessere Chancen, Mandate zu erhalten, allerdings sind Koalitionen dann häufiger notwendig. Um eine starke Zersplitterung des Parlaments zu vermeiden, sehen viele Verhältniswahlsysteme eine Sperrklausel vor, die Parteien unterhalb eines bestimmten Stimmenanteils von der Sitzverteilung ausschließt. Es gibt zudem Mischformen, die beide Prinzipien kombinieren. Welches System als gerechter gilt, hängt davon ab, ob man die Repräsentation aller Wählergruppen oder die Bildung stabiler Regierungen höher gewichtet. Die genaue Ausgestaltung der Systeme unterscheidet sich von Land zu Land erheblich, etwa bei der Größe der Wahlkreise und der Zahl der Sitze.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Bei der Mehrheitswahl fließen auch die Stimmen für unterlegene Bewerber in die Sitzverteilung ein.",
+   "Eine Sperrklausel soll verhindern, dass das Parlament in viele kleine Gruppen zerfällt.",
+   "Verhältniswahlsysteme führen stets zur Bildung von Koalitionsregierungen.",
+   "Das Mehrheitswahlsystem gilt wegen der klaren Regierungsmehrheiten als gerechter als die Verhältniswahl."
+  ],
+  "answer": 1,
+  "why": [
+   "Falsch: Die Stimmen für die Unterlegenen „bleiben ohne Einfluss auf die Sitzverteilung“.",
+   "Richtig: Sie dient dazu, „eine starke Zersplitterung des Parlaments zu vermeiden“.",
+   "Falsch: Koalitionen sind „häufiger notwendig“, aber nicht in jedem Fall.",
+   "Falsch: Was als gerechter gilt, „hängt davon ab“, wie man Repräsentation und Stabilität gewichtet; der Text entscheidet das nicht."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Überverallgemeinerung",
+   "Nicht im Text (Weltwissen)"
+  ]
+ },
+ {
+  "id": "vr-0008",
+  "topic": "Migration",
+  "difficulty": 2,
+  "text": "Ein Bericht über Sprachkurse für Zugewanderte in einer europäischen Großstadt kommt zu gemischten Ergebnissen. Die Stadt bietet seit fünf Jahren kostenlose Kurse an, an denen im vergangenen Jahr rund viertausend Personen teilnahmen. Etwa zwei Drittel der Teilnehmenden schlossen den Kurs mit dem angestrebten Sprachniveau ab. Die Abbruchquote war bei Teilnehmenden mit kleinen Kindern am höchsten; die Autoren führen dies auf fehlende Betreuungsplätze zurück, räumen aber ein, dass hierzu keine eigene Befragung durchgeführt wurde. Wer den Kurs erfolgreich abschloss, fand nach Angaben der Stadt im Durchschnitt schneller eine Arbeit als Personen ohne Kurs. Der Bericht weist jedoch darauf hin, dass sich die beiden Gruppen in Motivation und Vorkenntnissen unterscheiden könnten, sodass der Unterschied nicht allein dem Kurs zugeschrieben werden dürfe. Als nächsten Schritt plant die Stadt, Kurse am Abend und an Wochenenden anzubieten sowie kostenlose Kinderbetreuung während der Unterrichtszeiten bereitzustellen. Die Kosten dafür sollen aus dem bestehenden Haushalt gedeckt werden. Die Kurse werden von mehreren freien Trägern im Auftrag der Stadt durchgeführt.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Die hohe Abbruchquote bei Eltern kleiner Kinder wurde durch eine Befragung der Teilnehmenden belegt.",
+   "Zwei Drittel aller Zugewanderten der Stadt haben inzwischen das angestrebte Sprachniveau erreicht.",
+   "Der Bericht lässt offen, ob der Vorsprung der Absolventen nur auf den Kurs zurückgeht.",
+   "Im vergangenen Jahr haben rund viertausend Personen die Kurse erfolgreich abgeschlossen."
+  ],
+  "answer": 2,
+  "why": [
+   "Falsch: Es „wurde keine eigene Befragung durchgeführt“, die Erklärung ist nur eine Vermutung der Autoren.",
+   "Falsch: Die zwei Drittel betreffen nur die Kursteilnehmenden, nicht alle Zugewanderten der Stadt.",
+   "Richtig: Die Gruppen könnten sich „in Motivation und Vorkenntnissen unterscheiden“, der Unterschied dürfe „nicht allein dem Kurs zugeschrieben werden“.",
+   "Falsch: Viertausend Personen „nahmen teil“; erfolgreich abgeschlossen haben nur etwa zwei Drittel davon."
+  ],
+  "traps": [
+   "Kausalität unterstellt",
+   "Überverallgemeinerung",
+   "Zahl/Menge verdreht"
+  ]
+ },
+ {
+  "id": "vr-0009",
+  "topic": "Gesellschaft",
+  "difficulty": 3,
+  "text": "Das Ehrenamt gilt als tragende Säule des gesellschaftlichen Zusammenhalts, doch die Zahlen zeigen ein differenziertes Bild. In einem mittelgroßen EU-Land engagierten sich nach einer repräsentativen Befragung knapp vierzig Prozent der Erwachsenen mindestens gelegentlich freiwillig, ein Wert, der sich innerhalb eines Jahrzehnts kaum verändert hat. Verschoben hat sich jedoch die Art des Engagements: Dauerhafte Mitgliedschaften in Vereinen gehen zurück, während zeitlich begrenzte Projekte an Bedeutung gewinnen. Personen mit höherem Bildungsabschluss engagieren sich häufiger als solche mit niedrigerem, und in ländlichen Regionen ist der Anteil höher als in Großstädten. Letzteres wird teilweise damit erklärt, dass dort Vereine oft die einzige Möglichkeit zur Begegnung bieten; belegt ist diese Erklärung allerdings nicht. Auffällig ist, dass Ältere ab 65 Jahren ihren Anteil an den Engagierten ausgebaut haben, während der Anteil der unter Dreißigjährigen leicht sank. Die Forschenden betonen, dass die Befragung nur freiwillige Tätigkeiten erfasst, die regelmäßig oder in einem organisatorischen Rahmen stattfinden; spontane Nachbarschaftshilfe bleibt unberücksichtigt. Die Befragung wurde von einem unabhängigen Institut durchgeführt.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Der Anteil der Engagierten blieb stabil, doch dauerhafte Vereinsbindungen werden seltener und befristete Projekte wichtiger.",
+   "Das stärkere Engagement auf dem Land ist darauf zurückzuführen, dass Vereine dort die einzige Begegnungsmöglichkeit bieten.",
+   "Die Befragung zeigt, dass spontane Nachbarschaftshilfe in den letzten Jahren abgenommen hat.",
+   "Der Anteil der unter Dreißigjährigen unter den Engagierten ist stärker gesunken als der der Älteren gestiegen ist."
+  ],
+  "answer": 0,
+  "why": [
+   "Richtig: Der Wert „hat sich [...] kaum verändert“, aber „Dauerhafte Mitgliedschaften [...] gehen zurück, während zeitlich begrenzte Projekte an Bedeutung gewinnen“.",
+   "Falsch: Diese Erklärung ist laut Text nur eine teilweise Deutung; „belegt ist [sie] allerdings nicht“.",
+   "Falsch: Spontane Nachbarschaftshilfe „bleibt unberücksichtigt“, die Befragung kann dazu nichts zeigen.",
+   "Falsch: Der Text nennt für die Jüngeren nur ein „leichtes“ Sinken und macht keinen Größenvergleich mit dem Anstieg bei den Älteren."
+  ],
+  "traps": [
+   "Kausalität unterstellt",
+   "Nicht im Text (Weltwissen)",
+   "Vergleich verdreht"
+  ]
+ },
+ {
+  "id": "vr-0010",
+  "topic": "Recht",
+  "difficulty": 3,
+  "text": "Der Grundsatz des Vorrangs des Unionsrechts besagt, dass bei einem Widerspruch zwischen Unionsrecht und nationalem Recht das Unionsrecht anzuwenden ist. Er ist in den Verträgen nicht ausdrücklich verankert, sondern wurde vom Gerichtshof der Europäischen Union in seiner Rechtsprechung entwickelt. Der Vorrang bedeutet nicht, dass das entgegenstehende nationale Recht automatisch ungültig wird; es darf lediglich im konkreten Fall nicht angewandt werden. Nationale Gerichte sind verpflichtet, dies von sich aus zu beachten, ohne zuvor die Aufhebung der nationalen Vorschrift durch den Gesetzgeber oder ein Verfassungsgericht abzuwarten. Die Verfassungsgerichte einiger Mitgliedstaaten haben den Vorrang des Unionsrechts allerdings nur unter Vorbehalten anerkannt, etwa im Hinblick auf die Grundrechte oder die nationale Verfassungsidentität. Vom Vorrang zu unterscheiden ist die unmittelbare Wirkung: Sie betrifft die Frage, ob sich Einzelne vor nationalen Gerichten direkt auf eine Vorschrift des Unionsrechts berufen können. Nicht jede Vorschrift hat unmittelbare Wirkung, während der Vorrang grundsätzlich für das gesamte Unionsrecht gilt. Die Entwicklung dieser Grundsätze geht auf Streitfälle zurück, die nationale Gerichte dem Gerichtshof vorgelegt haben.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Der Vorrang bewirkt, dass entgegenstehendes nationales Recht aufgehoben wird.",
+   "Die Verfassungsgerichte einiger Mitgliedstaaten lehnen den Vorrang des Unionsrechts grundsätzlich ab.",
+   "Nationale Gerichte dürfen Unionsrecht erst anwenden, wenn das nationale Verfassungsgericht die entgegenstehende Vorschrift aufgehoben hat.",
+   "Auch eine Vorschrift des Unionsrechts ohne unmittelbare Wirkung genießt grundsätzlich Vorrang vor widersprechendem nationalem Recht."
+  ],
+  "answer": 3,
+  "why": [
+   "Falsch: Nationales Recht wird nicht „automatisch ungültig“, es „darf lediglich im konkreten Fall nicht angewandt werden“.",
+   "Falsch: Die Verfassungsgerichte erkennen den Vorrang „nur unter Vorbehalten“ an, das ist keine grundsätzliche Ablehnung.",
+   "Falsch: Die Gerichte müssen dies beachten, „ohne zuvor die Aufhebung [...] abzuwarten“.",
+   "Richtig: Nicht jede Vorschrift hat unmittelbare Wirkung, „während der Vorrang grundsätzlich für das gesamte Unionsrecht gilt“."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Teilweise richtig",
+   "Überverallgemeinerung"
+  ]
+ },
+ {
+  "id": "vr-0011",
+  "topic": "EU-Institutionen",
+  "difficulty": 1,
+  "text": "Der Europäische Ausschuss der Regionen ist eine beratende Versammlung der Europäischen Union. Er wurde 1994 eingerichtet und besteht aus Vertreterinnen und Vertretern regionaler und lokaler Gebietskörperschaften der Mitgliedstaaten, etwa aus Bürgermeistern, Regionalparlamentariern oder Regionalpräsidenten. Die Mitglieder werden auf Vorschlag ihrer Mitgliedstaaten für fünf Jahre ernannt und müssen ein Wahlmandat auf lokaler oder regionaler Ebene innehaben oder gegenüber einer gewählten Versammlung politisch verantwortlich sein. Die Kommission, der Rat und das Europäische Parlament müssen den Ausschuss anhören, wenn sie Rechtsakte in Bereichen vorbereiten, die die regionale oder lokale Ebene unmittelbar betreffen, zum Beispiel Verkehr, Umwelt oder Bildung. Die Stellungnahmen des Ausschusses sind für diese Organe nicht bindend. Hält der Ausschuss einen Rechtsakt für unvereinbar mit dem Subsidiaritätsprinzip, kann er jedoch vor dem Gerichtshof der Europäischen Union Klage erheben. Der Ausschuss tagt in Plenarsitzungen in Brüssel, in denen Stellungnahmen verabschiedet werden, und bereitet seine Arbeit in Fachkommissionen vor. Der Ausschuss gibt Stellungnahmen auch aus eigener Initiative ab, nicht nur auf Anfrage der anderen Organe.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Die Stellungnahmen des Ausschusses binden Kommission, Rat und Parlament bei ihren Entscheidungen.",
+   "Der Ausschuss kann bei vermuteter Verletzung des Subsidiaritätsprinzips vor dem Gerichtshof klagen.",
+   "Die Mitglieder des Ausschusses werden vom Europäischen Parlament für fünf Jahre gewählt, nachdem die Mitgliedstaaten Kandidaten vorgeschlagen haben.",
+   "Der Ausschuss muss bei jedem Rechtsakt der Union von den Organen angehört werden, unabhängig vom jeweiligen Politikbereich."
+  ],
+  "answer": 1,
+  "why": [
+   "Falsch: Die Stellungnahmen „sind [...] nicht bindend“.",
+   "Richtig: Bei vermuteter Unvereinbarkeit mit dem Subsidiaritätsprinzip „kann er [...] vor dem Gerichtshof [...] Klage erheben“.",
+   "Falsch: Die Mitglieder werden „auf Vorschlag ihrer Mitgliedstaaten [...] ernannt“, nicht vom Parlament gewählt.",
+   "Falsch: Die Anhörung ist nur für Rechtsakte in Bereichen vorgeschrieben, die die regionale oder lokale Ebene „unmittelbar betreffen“."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Überverallgemeinerung"
+  ]
+ },
+ {
+  "id": "vr-0012",
+  "topic": "Politik",
+  "difficulty": 1,
+  "text": "Der Grundsatz der Gewaltenteilung geht auf Überlegungen von Denkern der Aufklärung zurück, insbesondere auf den französischen Philosophen Montesquieu. Er unterscheidet drei Staatsgewalten: die Gesetzgebung, die Ausführung der Gesetze und die Rechtsprechung. Zweck der Trennung ist es, die Macht zu begrenzen, indem keine Institution allein über alle drei Funktionen verfügt. In parlamentarischen Demokratien ist die Trennung zwischen Gesetzgebung und Regierung allerdings nicht vollständig, da die Regierung vom Vertrauen der Parlamentsmehrheit abhängt und die Regierungsmitglieder oft zugleich Abgeordnete sind. Stärker ausgeprägt ist die Trennung in präsidentiellen Systemen, in denen der Präsident unabhängig vom Parlament gewählt wird. Die Unabhängigkeit der Gerichte gilt in beiden Systemformen als unverzichtbar; Richter dürfen in ihrer Entscheidung nur dem Gesetz unterworfen sein. Neben der horizontalen Gewaltenteilung zwischen den Staatsorganen gibt es die vertikale zwischen verschiedenen staatlichen Ebenen, etwa in Bundesstaaten zwischen dem Gesamtstaat und den Gliedstaaten. Die Ausgestaltung der Gewaltenteilung unterscheidet sich zudem je nach Verfassungstradition, und in keinem Staat sind die drei Gewalten völlig ohne Berührungspunkte.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "In parlamentarischen Demokratien sind Gesetzgebung und Regierung vollständig voneinander getrennt.",
+   "Die Unabhängigkeit der Gerichte gilt nur in präsidentiellen Systemen als unverzichtbar.",
+   "Präsidentielle Systeme trennen Gesetzgebung und Regierung stärker als parlamentarische.",
+   "Die vertikale Gewaltenteilung betrifft die Trennung von Gesetzgebung, Ausführung und Rechtsprechung."
+  ],
+  "answer": 2,
+  "why": [
+   "Falsch: In parlamentarischen Demokratien ist sie „nicht vollständig“.",
+   "Falsch: Die Unabhängigkeit der Gerichte gilt „in beiden Systemformen als unverzichtbar“.",
+   "Richtig: Die Trennung ist „stärker ausgeprägt [...] in präsidentiellen Systemen“.",
+   "Falsch: Die vertikale Gewaltenteilung betrifft die Trennung „zwischen verschiedenen staatlichen Ebenen“, die genannte Dreiteilung ist die horizontale."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Überverallgemeinerung"
+  ]
+ },
+ {
+  "id": "vr-0013",
+  "topic": "Geschichte",
+  "difficulty": 2,
+  "text": "Die Europäische Gemeinschaft für Kohle und Stahl wurde 1951 durch den Vertrag von Paris gegründet und nahm 1952 ihre Arbeit auf. Ihr gehörten sechs Staaten an: Belgien, die Bundesrepublik Deutschland, Frankreich, Italien, Luxemburg und die Niederlande. Die Mitgliedstaaten stellten ihre Kohle- und Stahlproduktion unter die Aufsicht einer gemeinsamen Behörde, der Hohen Behörde, die in bestimmten Fragen Entscheidungen treffen konnte, die für die Mitgliedstaaten verbindlich waren. Ein wichtiges Ziel bestand darin, einen gemeinsamen Markt für beide Rohstoffe zu schaffen und damit zugleich die wirtschaftliche Verflechtung der früheren Kriegsgegner zu vertiefen. Der Vertrag war auf fünfzig Jahre befristet und lief 2002 aus; seine Aufgaben gingen auf die Europäische Gemeinschaft über. Die Römischen Verträge von 1957, mit denen die Europäische Wirtschaftsgemeinschaft und die Europäische Atomgemeinschaft gegründet wurden, bauten auf den Erfahrungen der Montanunion auf, sahen jedoch keine Behörde mit vergleichbaren Befugnissen vor, sondern setzten stärker auf die Mitwirkung der Regierungen im Rat. Die Zahl der Mitgliedstaaten blieb bis zum ersten Beitritt im Jahr 1973 unverändert.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Die Hohe Behörde konnte ihre Beschlüsse nur als unverbindliche Empfehlungen aussprechen.",
+   "Die Montanunion nahm bereits im Jahr 1951 ihre Arbeit auf, unmittelbar nach der Unterzeichnung des Vertrags von Paris.",
+   "Die Montanunion wurde durch die Römischen Verträge von 1957 abgelöst, die auch die bisherige Hohe Behörde fortführten.",
+   "Die Wirtschaftsgemeinschaft setzte stärker als die Montanunion auf die Mitwirkung der Regierungen im Rat."
+  ],
+  "answer": 3,
+  "why": [
+   "Falsch: Die Behörde konnte Entscheidungen treffen, „die für die Mitgliedstaaten verbindlich waren“.",
+   "Falsch: Gegründet wurde die Gemeinschaft 1951, ihre Arbeit „nahm“ sie aber „1952“ auf.",
+   "Falsch: Der Vertrag „lief 2002 aus“; die Römischen Verträge „bauten“ nur auf den Erfahrungen auf.",
+   "Richtig: Die Römischen Verträge „setzten stärker auf die Mitwirkung der Regierungen im Rat“ und sahen keine Behörde mit vergleichbaren Befugnissen vor."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Zeitangabe verdreht"
+  ]
+ },
+ {
+  "id": "vr-0014",
+  "topic": "Medien",
+  "difficulty": 2,
+  "text": "Öffentlich-rechtliche Rundfunkanstalten finanzieren sich in vielen europäischen Ländern ganz oder überwiegend aus einer Abgabe, die von Haushalten gezahlt wird, und nicht aus Werbeeinnahmen oder staatlichen Zuweisungen aus dem allgemeinen Haushalt. Das soll ihre Unabhängigkeit von Regierungen und von Werbekunden sichern. Ihr Auftrag umfasst in der Regel Information, Bildung und Unterhaltung, wobei die genaue Gewichtung gesetzlich festgelegt ist. Kritiker bemängeln, dass die Anstalten dadurch kaum wirtschaftlichem Druck ausgesetzt seien und ihre Angebote zu wenig an den Interessen der Zuschauer ausrichteten. Befürworter erwidern, dass gerade die Unabhängigkeit vom Quotendruck es erlaube, auch Programme für kleinere Zielgruppen anzubieten. Die Aufsicht übernehmen meist Gremien, in denen verschiedene gesellschaftliche Gruppen vertreten sind; die Regierung soll darin nicht die Mehrheit stellen. In einigen Ländern ist zusätzlich geregelt, dass die Anstalten nur in begrenztem Umfang Werbung ausstrahlen dürfen, damit private Sender nicht benachteiligt werden. Ob die Abgabe pro Haushalt oder pro Gerät erhoben wird, unterscheidet sich von Land zu Land. Daneben unterscheiden sich die Anstalten in Größe und Angebot an Hörfunk-, Fernseh- und Onlineprogrammen erheblich.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Befürworter meinen, die Unabhängigkeit vom Quotendruck erlaube auch Programme für kleinere Zielgruppen.",
+   "In allen europäischen Ländern finanzieren sich die öffentlich-rechtlichen Anstalten ausschließlich aus Abgaben.",
+   "Nach den gesetzlichen Vorgaben besteht der Auftrag der Anstalten überwiegend aus Unterhaltung.",
+   "Die Kritiker lehnen die Abgabe ab, weil sie Werbekunden gegenüber den Zuschauern bevorzuge."
+  ],
+  "answer": 0,
+  "why": [
+   "Richtig: Befürworter sehen, dass „gerade die Unabhängigkeit vom Quotendruck es erlaube, auch Programme für kleinere Zielgruppen anzubieten“.",
+   "Falsch: Die Finanzierung aus Abgaben gilt „in vielen“ Ländern und „ganz oder überwiegend“, nicht in allen und nicht ausschließlich.",
+   "Falsch: Der Text nennt nur Information, Bildung und Unterhaltung; die „Gewichtung“ nennt er nicht.",
+   "Falsch: Die Kritiker bemängeln, die Anstalten seien „kaum wirtschaftlichem Druck ausgesetzt“, nicht eine Bevorzugung von Werbekunden."
+  ],
+  "traps": [
+   "Überverallgemeinerung",
+   "Nicht im Text (Weltwissen)",
+   "Gegenteil"
+  ]
+ },
+ {
+  "id": "vr-0015",
+  "topic": "Verwaltung",
+  "difficulty": 2,
+  "text": "In der Verwaltung eines mittelgroßen EU-Landes unterscheidet man traditionell zwischen Beamten und Angestellten. Beamte stehen in einem öffentlich-rechtlichen Dienst- und Treueverhältnis, werden ernannt und nicht durch einen Arbeitsvertrag eingestellt und dürfen nicht streiken. Ihre Besoldung ist gesetzlich geregelt und wird nicht in Tarifverhandlungen ausgehandelt. Angestellte dagegen haben einen privatrechtlichen Arbeitsvertrag, ihre Vergütung beruht auf Tarifverträgen, und sie dürfen sich an Arbeitskämpfen beteiligen. Der Staat weist Beamten vor allem Aufgaben zu, die hoheitliche Befugnisse umfassen, etwa im Bereich der Polizei oder der Steuerverwaltung. In der Praxis erledigen jedoch auch Angestellte viele Aufgaben, die sich inhaltlich nicht von denen der Beamten unterscheiden. Reformvorschläge, den Beamtenstatus auf Kernbereiche zu beschränken, werden seit Jahren diskutiert; Gegner verweisen auf die Sicherheit, die der Status der Verwaltung bei der Gewinnung von Nachwuchs verschaffe, Befürworter auf die geringere Flexibilität bei Personalentscheidungen. Ein Beschluss steht bisher aus. Die Verteilung auf beide Gruppen schwankt zwischen den Verwaltungsbereichen: Während etwa Schulen und Hochschulen viele Beamte beschäftigen, sind es in manchen Fachbehörden überwiegend Angestellte.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Beamte dürfen sich an Arbeitskämpfen beteiligen, sofern ihr Dienstherr dem zustimmt.",
+   "Der Beamtenstatus wurde bereits auf die Kernbereiche der Verwaltung beschränkt.",
+   "Angestellte erledigen oft dieselben Aufgaben wie Beamte, werden aber nach Tarifvertrag bezahlt.",
+   "Beamte werden durch einen privatrechtlichen Vertrag eingestellt, der ihre Besoldung gesetzlich festlegt."
+  ],
+  "answer": 2,
+  "why": [
+   "Falsch: Beamte „dürfen nicht streiken“, eine Ausnahme nennt der Text nicht.",
+   "Falsch: Die Reformvorschläge werden „seit Jahren diskutiert“; „ein Beschluss steht bisher aus“.",
+   "Richtig: Angestellte erledigen „viele Aufgaben, die sich inhaltlich nicht von denen der Beamten unterscheiden“, ihre Vergütung beruht aber auf Tarifverträgen, die Besoldung der Beamten ist gesetzlich geregelt.",
+   "Falsch: Beamte werden „ernannt und nicht durch einen Arbeitsvertrag eingestellt“; der privatrechtliche Vertrag gilt für Angestellte."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Zeitangabe verdreht",
+   "Teilweise richtig"
+  ]
+ },
+ {
+  "id": "vr-0016",
+  "topic": "Demografie",
+  "difficulty": 2,
+  "text": "Die Lebenserwartung bei der Geburt ist in Europa im 20. Jahrhundert deutlich gestiegen. Hauptursache war zunächst der Rückgang der Säuglings- und Kindersterblichkeit, der auf bessere Hygiene, Ernährung und medizinische Versorgung zurückgeht. In den letzten Jahrzehnten stieg die Lebenserwartung vor allem deshalb weiter, weil Menschen höheren Alters seltener an Herz-Kreislauf-Erkrankungen sterben. Die Lebenserwartung von Frauen liegt in nahezu allen europäischen Ländern über der von Männern, wobei der Abstand in vielen Ländern in den vergangenen Jahrzehnten kleiner wurde. Zwischen den Ländern bestehen erhebliche Unterschiede: Östliche Mitgliedstaaten der EU weisen im Durchschnitt eine niedrigere Lebenserwartung auf als westliche und südliche. Nicht jedes zusätzliche Lebensjahr wird in guter Gesundheit verbracht. Der Anteil der Lebensjahre, die ohne schwere Einschränkungen verbracht werden, ist in manchen Ländern langsamer gestiegen als die Lebenserwartung insgesamt. Demografen weisen darauf hin, dass sich daraus ein wachsender Bedarf an Pflege ergeben kann; die tatsächliche Entwicklung hänge jedoch auch von künftigen medizinischen Fortschritten ab. Die genannten Entwicklungen verliefen in den einzelnen Ländern zu unterschiedlichen Zeitpunkten.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Der Abstand zwischen der Lebenserwartung von Frauen und Männern hat sich in den meisten Ländern vergrößert.",
+   "In manchen Ländern wächst die Zahl der Jahre ohne schwere Einschränkungen langsamer als die Lebenserwartung.",
+   "Der Anstieg der Lebenserwartung in den letzten Jahrzehnten geht vor allem auf die gesunkene Säuglingssterblichkeit zurück.",
+   "Ein wachsender Pflegebedarf ist die sichere Folge der gestiegenen Lebenserwartung."
+  ],
+  "answer": 1,
+  "why": [
+   "Falsch: Der Abstand „wurde“ in vielen Ländern „kleiner“, nicht größer.",
+   "Richtig: Der Anteil der Jahre ohne schwere Einschränkungen „ist in manchen Ländern langsamer gestiegen als die Lebenserwartung insgesamt“.",
+   "Falsch: Die Säuglingssterblichkeit war die Hauptursache „zunächst“; in den letzten Jahrzehnten waren es seltenere Herz-Kreislauf-Todesfälle im höheren Alter.",
+   "Falsch: Ein wachsender Bedarf „kann“ sich ergeben; er hänge auch von „künftigen medizinischen Fortschritten“ ab."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Zeitangabe verdreht",
+   "Modalität (kann/muss)"
+  ]
+ },
+ {
+  "id": "vr-0017",
+  "topic": "Gesellschaft",
+  "difficulty": 3,
+  "text": "Der Anteil der Teilzeitbeschäftigten an allen Erwerbstätigen unterscheidet sich zwischen den EU-Staaten erheblich. In einigen westlichen Mitgliedstaaten arbeitet mehr als ein Viertel aller Erwerbstätigen in Teilzeit, in mehreren östlichen Mitgliedstaaten dagegen weniger als jeder Zehnte. Frauen arbeiten in allen Mitgliedstaaten häufiger in Teilzeit als Männer. Als Hauptgrund geben Frauen in vielen Ländern die Betreuung von Kindern oder pflegebedürftigen Angehörigen an, Männer nennen dagegen häufiger Aus- oder Weiterbildung. Ein erheblicher Teil der Teilzeitbeschäftigten würde gern mehr arbeiten; dieser Anteil ist in südlichen Mitgliedstaaten besonders hoch, wo Teilzeit seltener freiwillig gewählt wird. Untersuchungen legen nahe, dass ein gut ausgebauter Betreuungsbereich die Teilzeitquote von Müttern senkt, doch ist der Zusammenhang nicht in allen Ländern gleich stark. Die Folgen langer Teilzeitphasen zeigen sich später: Wer über Jahre weniger arbeitet, erwirbt geringere Rentenansprüche. Ob dies im Einzelfall zu Altersarmut führt, hängt vom Alterssicherungssystem und vom Haushaltseinkommen ab. Die Daten stammen aus regelmäßigen Erhebungen der Statistikbehörden, in denen Erwerbstätige nach Umfang und Gründen ihrer Arbeitszeit befragt werden.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Ein gut ausgebauter Betreuungsbereich senkt in allen Ländern gleich stark die Teilzeitquote von Müttern.",
+   "Lange Phasen der Teilzeitarbeit führen zwangsläufig zu Altersarmut, unabhängig vom Alterssicherungssystem und vom Haushaltseinkommen.",
+   "In sämtlichen östlichen Mitgliedstaaten arbeitet weniger als jeder Zehnte in Teilzeit, wie die Statistikbehörden jährlich ausweisen.",
+   "Südliche Mitgliedstaaten weisen viele Teilzeitbeschäftigte auf, die gern mehr arbeiten würden."
+  ],
+  "answer": 3,
+  "why": [
+   "Falsch: Der Zusammenhang „ist [...] nicht in allen Ländern gleich stark“.",
+   "Falsch: Ob es zu Altersarmut führt, „hängt vom Alterssicherungssystem und vom Haushaltseinkommen ab“; belegt sind nur geringere Rentenansprüche.",
+   "Falsch: Der Text spricht nur von „mehreren östlichen Mitgliedstaaten“, nicht von allen.",
+   "Richtig: Der Anteil derer, die „gern mehr arbeiten“ würden, ist „in südlichen Mitgliedstaaten besonders hoch“."
+  ],
+  "traps": [
+   "Überverallgemeinerung",
+   "Modalität (kann/muss)",
+   "Gegenteil"
+  ]
+ },
+ {
+  "id": "vr-0018",
+  "topic": "Migration",
+  "difficulty": 3,
+  "text": "Die Dublin-Regeln legen fest, welcher Mitgliedstaat einen Asylantrag prüft. Es gilt eine Rangfolge von Kriterien. An erster Stelle stehen familiäre Bindungen: Hat die antragstellende Person nahe Angehörige in einem Mitgliedstaat, die dort Schutz genießen, ist dieser Staat in der Regel zuständig. Fehlen solche Bindungen, kommt es unter anderem darauf an, welcher Staat ein Visum oder einen Aufenthaltstitel erteilt hat. Greifen auch diese Kriterien nicht, ist in der Regel der Staat zuständig, in dem die Person erstmals in die Union eingereist ist. Kritiker bemängeln, dass diese Regelung Staaten an den Außengrenzen stärker belastet als andere. Befürworter entgegnen, dass sie verhindern soll, dass Antragsteller mehrere Anträge in verschiedenen Staaten stellen. Wird ein Antrag in einem anderen als dem zuständigen Staat gestellt, kann dieser die Person in den zuständigen Staat überstellen; Ausnahmen gelten insbesondere, wenn dort systemische Mängel im Asylverfahren bestehen. Die Regeln bestimmen nur die Zuständigkeit, nicht den Ausgang des Verfahrens. Die Fristen für Überstellungsverfahren und die Pflichten der beteiligten Behörden sind in der Verordnung im Einzelnen geregelt.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Die Ersteinreise ist als Zuständigkeitskriterium den familiären Bindungen nachgeordnet.",
+   "Der Staat der Ersteinreise ist in jedem Fall für den Asylantrag zuständig, auch wenn nahe Angehörige in einem anderen Staat Schutz genießen.",
+   "Eine Überstellung in den zuständigen Staat ist ausnahmslos zulässig, auch wenn im zuständigen Staat systemische Mängel bestehen.",
+   "Ein Visum oder Aufenthaltstitel ist das einzige Kriterium, das nach den familiären Bindungen geprüft wird."
+  ],
+  "answer": 0,
+  "why": [
+   "Richtig: Familiäre Bindungen stehen „an erster Stelle“, die Ersteinreise greift erst, wenn „auch diese Kriterien nicht greifen“.",
+   "Falsch: Die Zuständigkeit des Ersteinreisestaats gilt nur „in der Regel“ und erst nachrangig.",
+   "Falsch: Es gelten Ausnahmen, etwa bei „systemischen Mängeln im Asylverfahren“.",
+   "Falsch: Es kommt „unter anderem“ auf Visum oder Aufenthaltstitel an, es ist also nicht das einzige Kriterium."
+  ],
+  "traps": [
+   "Überverallgemeinerung",
+   "Teilweise richtig"
+  ]
+ },
+ {
+  "id": "vr-0019",
+  "topic": "Politik",
+  "difficulty": 3,
+  "text": "Volksabstimmungen können in repräsentativen Demokratien auf unterschiedliche Weise eingesetzt werden. Bei obligatorischen Referenden ist die Zustimmung des Volkes zwingend vorgeschrieben, etwa bei Verfassungsänderungen. Fakultative Referenden finden dagegen nur statt, wenn eine bestimmte Zahl von Bürgern oder Parlamentariern dies verlangt. Wieder anders ist das Plebiszit, das von der Regierung oder dem Staatsoberhaupt angesetzt wird und rechtlich häufig nicht bindend ist. Befürworter von Volksabstimmungen sehen darin ein Mittel, die Legitimität politischer Entscheidungen zu erhöhen. Skeptiker geben zu bedenken, dass komplexe Sachfragen sich nicht immer auf eine Ja-Nein-Entscheidung reduzieren lassen und dass die Abstimmungskampagnen von finanzstarken Interessengruppen dominiert werden können. Empirische Studien, insbesondere aus der Schweiz, zeigen, dass in Kantonen mit weitreichenden Volksrechten die Staatsverschuldung tendenziell niedriger ausfällt; ob die Volksrechte dafür ursächlich sind, ist allerdings nicht geklärt. Die Beteiligung an Volksabstimmungen liegt häufig unter der bei Parlamentswahlen. Die Regeln für Volksabstimmungen unterscheiden sich stark: In manchen Staaten kommen sie auch bei einfachen Gesetzen vor, in anderen sind sie überhaupt nicht vorgesehen.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Plebiszite sind rechtlich stets unverbindlich, gleichgültig, von wem sie angesetzt werden.",
+   "Fakultative Referenden müssen von der Regierung angesetzt werden, andernfalls finden sie nicht statt.",
+   "Aus der niedrigeren Verschuldung folgt nicht, dass die Volksrechte der Grund dafür sind.",
+   "Skeptiker halten Volksabstimmungen für ungeeignet, weil diese die Legitimität politischer Entscheidungen verringerten."
+  ],
+  "answer": 2,
+  "why": [
+   "Falsch: Plebiszite sind „häufig“ nicht bindend, nicht „stets“.",
+   "Falsch: Fakultative Referenden finden statt, „wenn eine bestimmte Zahl von Bürgern oder Parlamentariern dies verlangt“; das von der Regierung angesetzte ist das Plebiszit.",
+   "Richtig: Ob die Volksrechte dafür „ursächlich sind, ist allerdings nicht geklärt“.",
+   "Falsch: Die Skeptiker nennen die Reduktion auf Ja-Nein und die Dominanz finanzstarker Gruppen; dass die Legitimität sinke, behaupten laut Text nicht sie, sondern erhoffen die Befürworter das Gegenteil."
+  ],
+  "traps": [
+   "Überverallgemeinerung",
+   "Gegenteil",
+   "Kausalität unterstellt"
+  ]
+ },
+ {
+  "id": "vr-0020",
+  "topic": "Geschichte",
+  "difficulty": 1,
+  "text": "Die Berliner Mauer wurde im August 1961 von der Regierung der DDR errichtet, um die Abwanderung von Bürgern in den Westen zu stoppen. Zuvor hatten Hunderttausende die DDR verlassen, viele von ihnen über Berlin, wo die Sektorengrenzen bis dahin offen waren. Die Sperranlagen bestanden anfangs aus Stacheldraht, später aus Betonelementen und einem breiten Grenzstreifen mit Wachtürmen. Sie trennten nicht nur West-Berlin von Ost-Berlin, sondern auch West-Berlin vom umliegenden Gebiet der DDR. Die DDR bezeichnete die Mauer offiziell als „antifaschistischen Schutzwall“. Im November 1989 öffnete die Regierung der DDR nach wochenlangen Protesten und wachsendem Druck die Grenzübergänge. Die Mauer wurde in den folgenden Monaten größtenteils abgerissen; einzelne Abschnitte blieben als Gedenkstätten erhalten. Die Zahl der Menschen, die bei Fluchtversuchen an der Berliner Grenze ums Leben kamen, ist Gegenstand historischer Forschung, und die Angaben der verschiedenen Studien weichen voneinander ab. Auch nach der Öffnung der Grenzübergänge blieb der Grenzstreifen noch eine Zeit lang bestehen, bevor die Anlagen beseitigt wurden.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Die Sperranlagen bestanden von Beginn an aus Betonelementen.",
+   "Die Sperranlagen trennten West-Berlin auch von dem Gebiet, das die Stadt umgab.",
+   "Die Mauer wurde unmittelbar nach der Grenzöffnung 1989 vollständig beseitigt.",
+   "In der Forschung besteht Einigkeit über die Zahl der Todesopfer bei Fluchtversuchen."
+  ],
+  "answer": 1,
+  "why": [
+   "Falsch: Sie bestanden „anfangs aus Stacheldraht, später aus Betonelementen“.",
+   "Richtig: Die Anlagen trennten West-Berlin „vom umliegenden Gebiet der DDR“.",
+   "Falsch: Die Mauer wurde „in den folgenden Monaten größtenteils“ abgerissen, einzelne Abschnitte blieben erhalten.",
+   "Falsch: Die Angaben der Studien „weichen voneinander ab“."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Zeitangabe verdreht"
+  ]
+ },
+ {
+  "id": "vr-0021",
+  "topic": "EU-Institutionen",
+  "difficulty": 2,
+  "text": "Der Europäische Rat und der Rat der Europäischen Union werden häufig verwechselt, sind aber verschiedene Organe. Der Europäische Rat setzt sich aus den Staats- und Regierungschefs der Mitgliedstaaten, seinem Präsidenten und dem Präsidenten der Kommission zusammen. Er tritt mehrmals im Jahr zusammen und legt die allgemeinen politischen Zielsetzungen der Union fest, übt aber keine gesetzgebende Funktion aus. Der Rat der Europäischen Union, kurz Rat, besteht dagegen aus je einer Ministerin oder einem Minister jedes Mitgliedstaats und tagt in wechselnden Zusammensetzungen, je nachdem, welches Fachgebiet behandelt wird. Er verabschiedet gemeinsam mit dem Europäischen Parlament Rechtsvorschriften und stimmt den Haushalt der Union ab. Den Vorsitz im Rat führen die Mitgliedstaaten im Wechsel für jeweils sechs Monate, während der Präsident des Europäischen Rates für eine Amtszeit von zweieinhalb Jahren gewählt wird, die einmal verlängert werden kann. Mit dem Europarat, der keine Einrichtung der Union ist, haben beide Organe nichts zu tun. Beide Organe wirken an wichtigen Entscheidungen der Union mit, tun dies aber in unterschiedlicher Weise und mit unterschiedlicher Zusammensetzung.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Der Europäische Rat verabschiedet gemeinsam mit dem Parlament die Rechtsvorschriften der Union.",
+   "Der Rat der Europäischen Union tagt stets in derselben Zusammensetzung von Fachministern.",
+   "Der Präsident des Europäischen Rates wird für fünf Jahre gewählt, eine Verlängerung ist ausgeschlossen.",
+   "Der Ratsvorsitz wechselt häufiger als das Amt des Präsidenten des Europäischen Rates."
+  ],
+  "answer": 3,
+  "why": [
+   "Falsch: Der Europäische Rat „übt aber keine gesetzgebende Funktion aus“; das tut der Rat gemeinsam mit dem Parlament.",
+   "Falsch: Der Rat tagt „in wechselnden Zusammensetzungen“, je nach Fachgebiet.",
+   "Falsch: Die Amtszeit beträgt „zweieinhalb Jahre“ und kann „einmal verlängert werden“.",
+   "Richtig: Der Ratsvorsitz wechselt „für jeweils sechs Monate“, der Präsident des Europäischen Rates wird für „zweieinhalb Jahre“ gewählt."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Zahl/Menge verdreht"
+  ]
+ },
+ {
+  "id": "vr-0022",
+  "topic": "Politik",
+  "difficulty": 2,
+  "text": "Föderale Staaten verteilen die staatlichen Aufgaben zwischen einer Zentralebene und Gliedstaaten. Welche Aufgaben bei welcher Ebene liegen, ist in der Verfassung festgelegt. In einigen Bundesstaaten liegt die Gesetzgebung in den meisten Politikbereichen beim Gesamtstaat, während die Gliedstaaten vor allem für die Ausführung der Gesetze zuständig sind. In anderen haben die Gliedstaaten eigene umfassende Gesetzgebungsbefugnisse, etwa im Bildungswesen oder bei der Polizei. Befürworter des Föderalismus argumentieren, dass Entscheidungen näher an den Bürgern getroffen werden und dass die Gliedstaaten als Experimentierfelder für neue politische Lösungen dienen können. Kritiker verweisen auf die Gefahr unterschiedlicher Lebensverhältnisse und auf die Länge von Entscheidungsprozessen, wenn viele Ebenen beteiligt sind. Ein Staat wird nicht schon deshalb zum Bundesstaat, weil er in Regionen gegliedert ist: Entscheidend ist, dass die Gliedstaaten eigene, verfassungsrechtlich gesicherte Zuständigkeiten besitzen, die der Zentralstaat nicht einseitig ändern kann. In der Praxis ist die Abgrenzung nicht immer eindeutig, denn auch in Einheitsstaaten übertragen Regierungen Aufgaben an Regionen und Gemeinden, ohne dass dies ihre Verfassungsordnung verändert.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Jeder Staat, der in Regionen gegliedert ist, gilt damit als Bundesstaat, sobald seine Verwaltung Aufgaben an Gemeinden überträgt.",
+   "In allen Bundesstaaten sind die Gliedstaaten für das Bildungswesen und die Polizei zuständig.",
+   "Regionen ohne verfassungsrechtlich gesicherte Zuständigkeiten machen einen Staat nicht zum Bundesstaat.",
+   "Der Zentralstaat kann die Zuständigkeiten der Gliedstaaten durch ein einfaches Gesetz ändern."
+  ],
+  "answer": 2,
+  "why": [
+   "Falsch: Ein Staat wird „nicht schon deshalb zum Bundesstaat, weil er in Regionen gegliedert ist“.",
+   "Falsch: Das gilt nur für „andere“ Bundesstaaten; in einigen liegt die Gesetzgebung überwiegend beim Gesamtstaat.",
+   "Richtig: Entscheidend sind „eigene, verfassungsrechtlich gesicherte Zuständigkeiten“; eine bloße Gliederung in Regionen genügt nicht.",
+   "Falsch: Die Zuständigkeiten sind gesichert, „die der Zentralstaat nicht einseitig ändern kann“."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Überverallgemeinerung"
+  ]
+ },
+ {
+  "id": "vr-0023",
+  "topic": "Recht",
+  "difficulty": 2,
+  "text": "Die Unschuldsvermutung ist ein Grundsatz des Strafverfahrens, nach dem eine beschuldigte Person bis zum rechtskräftigen Nachweis ihrer Schuld als unschuldig gilt. Sie ist in der Europäischen Menschenrechtskonvention und in der Grundrechtecharta der Europäischen Union verankert. Aus dem Grundsatz folgt, dass die Beweislast bei der Anklage liegt: Die beschuldigte Person muss ihre Unschuld nicht beweisen. Bleiben nach der Beweisaufnahme Zweifel an der Schuld, muss das Gericht freisprechen. Die Unschuldsvermutung bindet nicht nur Gerichte, sondern auch andere staatliche Stellen; sie dürfen eine Person nicht öffentlich als schuldig darstellen, solange kein Urteil vorliegt. Für private Medien gilt sie nicht unmittelbar, doch kann eine Vorverurteilung in der Berichterstattung presserechtliche Folgen haben und ein späteres Verfahren beeinträchtigen. Die Vermutung schließt Zwangsmaßnahmen wie die Untersuchungshaft nicht grundsätzlich aus, doch müssen diese besonders begründet und verhältnismäßig sein. Ein Freispruch bedeutet nicht notwendigerweise, dass das Gericht die Unschuld festgestellt hat; er kann auch darauf beruhen, dass die Schuld nicht nachweisbar war. In einigen Rechtsordnungen ist der Grundsatz zusätzlich in der Verfassung ausdrücklich genannt.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Auch andere staatliche Stellen als Gerichte dürfen eine Person vor einem Urteil nicht als schuldig hinstellen.",
+   "Die Unschuldsvermutung gilt unmittelbar auch für private Medien, sodass jede Vorverurteilung dort unzulässig ist.",
+   "Die Unschuldsvermutung schließt die Anordnung von Untersuchungshaft aus, selbst bei dringendem Tatverdacht.",
+   "Ein Freispruch setzt voraus, dass das Gericht die Unschuld der angeklagten Person festgestellt hat."
+  ],
+  "answer": 0,
+  "why": [
+   "Richtig: Die Unschuldsvermutung „bindet nicht nur Gerichte, sondern auch andere staatliche Stellen“.",
+   "Falsch: Für private Medien „gilt sie nicht unmittelbar“.",
+   "Falsch: Sie schließt Untersuchungshaft „nicht grundsätzlich aus“, verlangt aber besondere Begründung.",
+   "Falsch: Ein Freispruch kann auch darauf beruhen, „dass die Schuld nicht nachweisbar war“."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Überverallgemeinerung"
+  ]
+ },
+ {
+  "id": "vr-0024",
+  "topic": "Gesellschaft",
+  "difficulty": 2,
+  "text": "Ein Forschungsinstitut hat untersucht, wie stark der Bildungsweg von Kindern vom Bildungsabschluss ihrer Eltern abhängt. In der Untersuchung, die mehrere Jahrgänge eines mittelgroßen EU-Landes umfasste, erreichte rund die Hälfte der Kinder von Eltern mit Hochschulabschluss selbst einen Hochschulabschluss, bei den Kindern von Eltern ohne Berufsabschluss war es nur etwa jedes zehnte. Die Autoren betonen, dass die Unterschiede schon beim Übergang von der Grundschule zur weiterführenden Schule sichtbar werden, und zwar auch bei Kindern mit vergleichbaren Noten: Kinder aus akademischen Haushalten werden bei gleichen Leistungen häufiger für den Besuch eines Gymnasiums empfohlen. Eine Erklärung dafür bietet die Studie nicht an. Der Zusammenhang hat sich im Beobachtungszeitraum leicht abgeschwächt, bleibt aber deutlich. Die Forscher regen an, Übergangsempfehlungen stärker an standardisierten Leistungstests auszurichten, räumen jedoch ein, dass die Wirkung einer solchen Maßnahme noch nicht erprobt ist. Die Daten stammen aus Registern und einer Befragung der Familien, in die auch Angaben zu Einkommen und Wohnort einflossen. Die Auswertung erfasst jeweils den höchsten erreichten Abschluss.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Die Studie führt die Unterschiede bei den Empfehlungen auf Vorurteile von Lehrkräften zurück, wie ein Vergleich der Notenvergabe zeigt.",
+   "Auch bei gleichen Leistungen empfehlen die Schulen Kinder aus akademischen Haushalten häufiger für das Gymnasium.",
+   "Der Zusammenhang zwischen Elternabschluss und Bildungsweg hat sich im Beobachtungszeitraum verstärkt.",
+   "Standardisierte Leistungstests haben die Übergangsempfehlungen bereits gerechter gemacht, wie Vergleiche mit Schulen ohne Tests belegen."
+  ],
+  "answer": 1,
+  "why": [
+   "Falsch: „Eine Erklärung dafür bietet die Studie nicht an.“",
+   "Richtig: Kinder aus akademischen Haushalten werden „bei gleichen Leistungen häufiger für den Besuch eines Gymnasiums empfohlen“.",
+   "Falsch: Der Zusammenhang „hat sich [...] leicht abgeschwächt“.",
+   "Falsch: Die Wirkung der Tests sei „noch nicht erprobt“; sie sind nur eine Anregung."
+  ],
+  "traps": [
+   "Kausalität unterstellt",
+   "Gegenteil",
+   "Nicht im Text (Weltwissen)"
+  ]
+ },
+ {
+  "id": "vr-0025",
+  "topic": "Geschichte",
+  "difficulty": 2,
+  "text": "Die Erfindung des Buchdrucks mit beweglichen Metalllettern wird in Europa traditionell Johannes Gutenberg zugeschrieben, der um die Mitte des 15. Jahrhunderts in Mainz arbeitete. Der Druck mit Holzplatten und mit beweglichen Lettern war in Ostasien bereits früher bekannt; Gutenbergs Beitrag bestand in der Kombination mehrerer Techniken, darunter eine Legierung für das Gießen der Lettern, eine für Papier geeignete ölhaltige Farbe und eine Presse. Die Verbreitung der neuen Technik verlief rasch: Schon wenige Jahrzehnte später gab es in vielen europäischen Städten Druckereien. Die Folgen für die Gesellschaft sind Gegenstand lebhafter Debatten. Unbestritten ist, dass Bücher billiger wurden und dass die Zahl der Titel stark zunahm. Ob der Buchdruck die Reformation ausgelöst hat, wird von Historikern unterschiedlich beurteilt; weitgehend einig sind sie sich, dass er die Verbreitung reformatorischer Schriften beschleunigte. Dass die Alphabetisierung ausschließlich durch den Druck zunahm, vertritt dagegen kaum jemand, da auch der Ausbau von Schulen und Stadtverwaltungen eine Rolle spielte. Die Papierherstellung hatte sich in Europa zu dieser Zeit bereits verbreitet.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Gutenberg führte den Druck mit beweglichen Lettern weltweit erstmals ein, ohne dass es zuvor Vorläufer gab.",
+   "Nach einhelliger Auffassung der Historiker hat der Buchdruck die Reformation ausgelöst.",
+   "Die Zunahme der Alphabetisierung ist allein dem Buchdruck zu verdanken, wie Historiker übereinstimmend betonen.",
+   "Historiker sehen weitgehend übereinstimmend, dass der Buchdruck reformatorische Schriften schneller verbreitete."
+  ],
+  "answer": 3,
+  "why": [
+   "Falsch: Der Druck mit beweglichen Lettern „war in Ostasien bereits früher bekannt“.",
+   "Falsch: Ob der Buchdruck die Reformation ausgelöst hat, „wird von Historikern unterschiedlich beurteilt“.",
+   "Falsch: Dass die Alphabetisierung „ausschließlich“ durch den Druck zunahm, „vertritt [...] kaum jemand“.",
+   "Richtig: Historiker sind sich „weitgehend einig [...], dass er die Verbreitung reformatorischer Schriften beschleunigte“."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Überverallgemeinerung"
+  ]
+ },
+ {
+  "id": "vr-0026",
+  "topic": "Verwaltung",
+  "difficulty": 2,
+  "text": "Das Amt des Europäischen Bürgerbeauftragten wurde mit dem Vertrag von Maastricht geschaffen. Die Person wird vom Europäischen Parlament für die Dauer der Wahlperiode gewählt und nimmt Beschwerden von Bürgern, Unternehmen und Vereinigungen über Missstände in der Verwaltungstätigkeit der Organe, Einrichtungen und sonstigen Stellen der Union entgegen. Ausgenommen ist die Rechtsprechungstätigkeit des Gerichtshofs der Europäischen Union. Zuständig ist die Stelle nicht für Beschwerden gegen nationale, regionale oder lokale Verwaltungen, auch wenn diese Unionsrecht anwenden; solche Beschwerden leitet sie gegebenenfalls an andere Stellen weiter. Der Bürgerbeauftragte kann Untersuchungen von sich aus einleiten und Zugang zu Akten verlangen; er kann aber keine verbindlichen Entscheidungen treffen. Stellt er einen Missstand fest, bemüht er sich zunächst um eine gütliche Einigung und kann Empfehlungen aussprechen. Wird diesen nicht gefolgt, kann er dem Parlament einen Sonderbericht vorlegen. Die Beschwerde muss binnen zwei Jahren nach Kenntnis der Tatsachen eingereicht werden, und die Person muss sich zuvor in der Regel selbst an die betroffene Stelle gewandt haben.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Gegen nationale Verwaltungen kann der Bürgerbeauftragte auch dann nicht tätig werden, wenn sie Unionsrecht anwenden.",
+   "Der Bürgerbeauftragte kann gegen Organe der Union verbindliche Entscheidungen treffen, sobald er einen Missstand festgestellt hat.",
+   "Der Bürgerbeauftragte prüft auch die Rechtsprechungstätigkeit des Gerichtshofs, sofern Bürger sich darüber beschweren.",
+   "Eine Beschwerde kann zu jedem beliebigen Zeitpunkt nach dem Missstand eingereicht werden."
+  ],
+  "answer": 0,
+  "why": [
+   "Richtig: Nicht zuständig ist die Stelle für Beschwerden gegen nationale Verwaltungen, „auch wenn diese Unionsrecht anwenden“.",
+   "Falsch: Er „kann aber keine verbindlichen Entscheidungen treffen“.",
+   "Falsch: „Ausgenommen ist die Rechtsprechungstätigkeit“ des Gerichtshofs.",
+   "Falsch: Die Beschwerde muss „binnen zwei Jahren nach Kenntnis der Tatsachen“ eingereicht werden."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Zeitangabe verdreht"
+  ]
+ },
+ {
+  "id": "vr-0027",
+  "topic": "Demografie",
+  "difficulty": 3,
+  "text": "Weltweit leben heute mehr Menschen in Städten als auf dem Land, und der Anteil der städtischen Bevölkerung wächst weiter. In Europa lag dieser Anteil schon im 20. Jahrhundert bei mehr als der Hälfte, sodass das Wachstum hier langsamer verläuft als in vielen anderen Weltregionen. Dabei wachsen nicht alle Städte: In einigen Regionen, in denen Industrien weggebrochen sind, schrumpfen Städte seit Jahrzehnten. Zugleich dehnen sich die Randgebiete wachsender Städte aus, weil Haushalte auf der Suche nach günstigerem Wohnraum ins Umland ziehen. Dies führt zu mehr Pendlerverkehr und zu einem höheren Flächenverbrauch. Stadtplaner schlagen daher eine stärkere Verdichtung der Bebauung in bestehenden Siedlungen vor, wobei Verdichtung nach ihrer Einschätzung nur dann akzeptiert wird, wenn zugleich Grünflächen erhalten bleiben. Der Begriff „Stadt“ wird in den Statistiken der Länder unterschiedlich definiert, etwa nach Einwohnerzahl oder Verwaltungsstatus; internationale Vergleiche sind daher nur mit Vorsicht möglich. Besonders schnell wachsen derzeit Städte in Regionen, in denen es viele Arbeitsplätze und ein breites Bildungsangebot gibt.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "In Europa wächst der Anteil der Stadtbevölkerung langsamer als in allen anderen Weltregionen, weil er hier bereits hoch ist.",
+   "Der Flächenverbrauch sinkt, weil Haushalte auf der Suche nach günstigerem Wohnraum ins Umland ziehen, und auch der Pendlerverkehr nimmt ab.",
+   "Wegen unterschiedlicher Stadtdefinitionen sind internationale Vergleiche des Stadtanteils nur eingeschränkt aussagekräftig.",
+   "Städte schrumpfen in Europa vor allem dort, wo die Randgebiete wachsender Städte sich ausdehnen, weil Haushalte ins Umland abwandern."
+  ],
+  "answer": 2,
+  "why": [
+   "Falsch: Das Wachstum verläuft langsamer „als in vielen anderen Weltregionen“, nicht als in allen.",
+   "Falsch: Der Umzug ins Umland führt „zu einem höheren Flächenverbrauch“.",
+   "Richtig: Der Begriff wird „unterschiedlich definiert“, daher seien Vergleiche „nur mit Vorsicht möglich“.",
+   "Falsch: Städte schrumpfen laut Text dort, „wo Industrien weggebrochen sind“, ein Zusammenhang mit dem Umland wird nicht hergestellt."
+  ],
+  "traps": [
+   "Überverallgemeinerung",
+   "Gegenteil",
+   "Kausalität unterstellt"
+  ]
+ },
+ {
+  "id": "vr-0028",
+  "topic": "Migration",
+  "difficulty": 1,
+  "text": "Ein Land der Europäischen Union hat vor einigen Jahren ein Gesetz zur Anwerbung von Fachkräften aus Nicht-EU-Staaten eingeführt. Danach können Personen mit anerkanntem Berufs- oder Hochschulabschluss ein Visum zur Arbeitsplatzsuche für sechs Monate erhalten, sofern sie ausreichende Sprachkenntnisse und die Sicherung ihres Lebensunterhalts nachweisen. Während dieser Zeit dürfen sie Probearbeit von bis zu zehn Stunden pro Woche leisten, aber keine reguläre Beschäftigung aufnehmen. Wer innerhalb der sechs Monate ein Arbeitsangebot erhält, kann in einen Aufenthaltstitel zur Erwerbstätigkeit wechseln. Die Zahl der erteilten Visa blieb in den ersten Jahren hinter den Erwartungen zurück. Als Ursachen nennen Fachleute die lange Dauer der Anerkennungsverfahren für ausländische Abschlüsse und die Komplexität der Antragsunterlagen. Ob eine Vereinfachung des Verfahrens zu mehr Anträgen führen würde, ist offen. Arbeitgeberverbände fordern, die Anerkennung bereits im Herkunftsland zu ermöglichen. Der Gesetzgeber hatte mit mehreren tausend Visa pro Jahr gerechnet; tatsächlich lag die Zahl in den ersten Jahren deutlich darunter. Die Regierung will die Entwicklung nach einer Evaluation überprüfen, die für das kommende Jahr vorgesehen ist.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Das Suchvisum erlaubt die sofortige Aufnahme einer regulären Beschäftigung, sofern die Sprachkenntnisse nachgewiesen sind.",
+   "Die Zahl der erteilten Visa hat die Erwartungen in den ersten Jahren übertroffen, wie die Regierung berichtet.",
+   "Eine Vereinfachung des Verfahrens würde die Zahl der Anträge sicher erhöhen, wie die Arbeitgeberverbände erwarten.",
+   "Während der Suche sind nur begrenzte Probearbeit, aber keine reguläre Beschäftigung erlaubt."
+  ],
+  "answer": 3,
+  "why": [
+   "Falsch: Reguläre Beschäftigung ist ausdrücklich ausgeschlossen.",
+   "Falsch: Die Zahl „blieb [...] hinter den Erwartungen zurück“.",
+   "Falsch: Ob eine Vereinfachung zu mehr Anträgen führen würde, „ist offen“.",
+   "Richtig: Erlaubt ist „Probearbeit von bis zu zehn Stunden pro Woche“, aber „keine reguläre Beschäftigung“."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Modalität (kann/muss)"
+  ]
+ },
+ {
+  "id": "vr-0029",
+  "topic": "Medien",
+  "difficulty": 1,
+  "text": "Falschinformationen verbreiten sich in sozialen Netzwerken oft schneller als geprüfte Meldungen, weil sie meist emotionaler formuliert sind und daher häufiger geteilt werden. Medienwissenschaftler unterscheiden zwischen Misinformation, bei der falsche Angaben ohne Täuschungsabsicht weitergegeben werden, und Desinformation, die bewusst irreführend verbreitet wird. Faktenprüfungsstellen, die behauptete Tatsachen überprüfen, sind in vielen Ländern entstanden, häufig als Teil von Zeitungsredaktionen oder als unabhängige Organisationen. Ihre Arbeit erreicht jedoch oft weniger Menschen als die ursprüngliche Falschmeldung. Untersuchungen deuten darauf hin, dass Korrekturen wirksam sein können, aber nicht alle Betroffenen erreichen. Die Betreiber der Plattformen haben begonnen, zweifelhafte Beiträge mit Hinweisen zu versehen oder ihre Reichweite zu verringern; die Wirkung dieser Maßnahmen ist bislang nur teilweise erforscht. Mehrere Staaten setzen zusätzlich auf Medienbildung in Schulen, damit junge Menschen lernen, Quellen kritisch einzuordnen. Besonders emotionale Beiträge zu Wahlen, Gesundheit oder Migration werden dabei häufig geteilt, bevor eine Überprüfung überhaupt möglich ist. Wer sie weiterleitet, hält sie oft selbst für zutreffend. Auch ältere Menschen sind davon betroffen.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Faktenprüfungsstellen erreichen in der Regel mehr Menschen als die ursprünglichen Falschmeldungen.",
+   "Desinformation wird bewusst irreführend verbreitet, Misinformation dagegen ohne Täuschungsabsicht.",
+   "Die Wirkung der Plattformmaßnahmen gegen zweifelhafte Beiträge ist durch Studien umfassend belegt.",
+   "Faktenprüfungsstellen gibt es ausschließlich als Teil von Zeitungsredaktionen."
+  ],
+  "answer": 1,
+  "why": [
+   "Falsch: Ihre Arbeit erreicht „oft weniger Menschen als die ursprüngliche Falschmeldung“.",
+   "Richtig: Desinformation „wird bewusst irreführend verbreitet“, Misinformation „ohne Täuschungsabsicht“.",
+   "Falsch: Die Wirkung ist „bislang nur teilweise erforscht“.",
+   "Falsch: Sie entstanden „häufig“ in Redaktionen „oder als unabhängige Organisationen“."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Überverallgemeinerung"
+  ]
+ },
+ {
+  "id": "vr-0030",
+  "topic": "EU-Institutionen",
+  "difficulty": 3,
+  "text": "Die Europäische Zentralbank mit Sitz in Frankfurt am Main ist für die Geldpolitik der Länder des Euroraums zuständig. Ihr vorrangiges Ziel ist laut den Verträgen die Preisstabilität; soweit dies ohne Beeinträchtigung dieses Ziels möglich ist, unterstützt sie die allgemeine Wirtschaftspolitik der Union. Die Bank ist von politischen Weisungen unabhängig: Weder sie noch die Mitglieder ihrer Beschlussorgane dürfen Weisungen von Organen der Union oder von Regierungen der Mitgliedstaaten einholen oder entgegennehmen. Zugleich ist sie rechenschaftspflichtig, etwa durch regelmäßige Berichte an das Europäische Parlament. Die Mitglieder des Direktoriums werden vom Europäischen Rat mit qualifizierter Mehrheit ernannt und für acht Jahre bestellt, ohne dass eine Wiederernennung möglich ist. Die Mitglieder des EZB-Rates, in dem auch die Notenbankchefs der Euro-Staaten sitzen, verfolgen bei geldpolitischen Entscheidungen das Interesse des Euroraums insgesamt, nicht ihres Heimatlandes. Die Unabhängigkeit der Bank bedeutet nicht, dass sie ihre Ziele selbst festlegt: Diese sind in den Verträgen vorgegeben. Der EZB-Rat tritt regelmäßig zusammen und fasst dort die wesentlichen geldpolitischen Beschlüsse für den Euroraum.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Die Bank ist weisungsunabhängig, ihre Ziele sind ihr aber durch die Verträge vorgegeben.",
+   "Die Bank muss die allgemeine Wirtschaftspolitik der Union in jedem Fall unterstützen.",
+   "Die Mitglieder des Direktoriums können nach acht Jahren einmal wiederernannt werden.",
+   "Die Bank ist dem Parlament gegenüber nicht rechenschaftspflichtig, weil sie unabhängig ist."
+  ],
+  "answer": 0,
+  "why": [
+   "Richtig: Sie ist weisungsunabhängig, aber ihre Ziele „sind in den Verträgen vorgegeben“.",
+   "Falsch: Sie unterstützt die Wirtschaftspolitik nur, „soweit dies ohne Beeinträchtigung“ der Preisstabilität „möglich ist“.",
+   "Falsch: Die Bestellung erfolgt für acht Jahre, „ohne dass eine Wiederernennung möglich ist“.",
+   "Falsch: Sie „ist [...] rechenschaftspflichtig, etwa durch regelmäßige Berichte an das Europäische Parlament“."
+  ],
+  "traps": [
+   "Modalität (kann/muss)",
+   "Gegenteil",
+   "Kausalität unterstellt"
+  ]
+ },
+ {
+  "id": "vr-0031",
+  "topic": "Politik",
+  "difficulty": 2,
+  "text": "Interessenvertretung gegenüber politischen Entscheidungsträgern, im Alltag meist Lobbyismus genannt, gehört zum normalen Ablauf demokratischer Politik. Verbände, Unternehmen und Nichtregierungsorganisationen informieren Abgeordnete und Beamte über die Folgen geplanter Regelungen. Kritisch wird dies, wenn Einfluss undurchsichtig bleibt oder einzelne Gruppen deutlich bessere Zugänge haben als andere. Als Gegenmittel haben mehrere Staaten und die Europäische Union Transparenzregister eingeführt, in die sich Interessenvertreter eintragen sollen. In der EU ist die Eintragung ins Transparenzregister zwar formal freiwillig, doch ist sie in der Praxis Voraussetzung für bestimmte Vorteile, etwa für Treffen mit hochrangigen Mitgliedern der Kommission und für Zugangsausweise zum Parlament. Kritiker bemängeln, dass das Register die Richtigkeit der Angaben nicht umfassend prüft und keine weitergehenden Sanktionen bei Verstößen vorsieht. Befürworter halten dem entgegen, dass das Register überhaupt erst einen Überblick über die Zahl der Interessenvertreter ermöglicht habe. Zu den Interessenvertretern zählen Wirtschaftsverbände, Gewerkschaften, Umweltorganisationen, Beratungsfirmen und Anwaltskanzleien, die in unterschiedlichem Umfang Mittel für diese Arbeit einsetzen. Die Regeln für die Eintragung werden regelmäßig überarbeitet.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Die Eintragung ins EU-Transparenzregister ist für alle Interessenvertreter gesetzlich vorgeschrieben.",
+   "Nach Ansicht der Kritiker prüft das Register sämtliche Angaben gründlich auf ihre Richtigkeit.",
+   "Die Eintragung ist zwar nicht vorgeschrieben, bringt in der Praxis aber Zugangsvorteile.",
+   "Der Text bezeichnet Lobbyismus als grundsätzlich unvereinbar mit demokratischer Politik."
+  ],
+  "answer": 2,
+  "why": [
+   "Falsch: Sie ist „formal freiwillig“.",
+   "Falsch: Kritiker bemängeln gerade, dass das Register die Richtigkeit „nicht umfassend prüft“.",
+   "Richtig: Die Eintragung ist „formal freiwillig“, aber „in der Praxis Voraussetzung für bestimmte Vorteile“.",
+   "Falsch: Interessenvertretung „gehört zum normalen Ablauf demokratischer Politik“, kritisch ist nur undurchsichtiger Einfluss."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Überverallgemeinerung"
+  ]
+ },
+ {
+  "id": "vr-0032",
+  "topic": "Recht",
+  "difficulty": 1,
+  "text": "Nach den Regeln der Europäischen Union haben Verbraucher beim Kauf im Fernabsatz, etwa im Internet, ein Widerrufsrecht. Sie können den Vertrag innerhalb von vierzehn Tagen ohne Angabe von Gründen widerrufen. Die Frist beginnt in der Regel mit dem Erhalt der Ware. Wird der Verbraucher vom Unternehmer nicht ordnungsgemäß über das Widerrufsrecht belehrt, verlängert sich die Frist, sie endet jedoch spätestens zwölf Monate und vierzehn Tage nach dem Beginn der regulären Frist. Nach einem Widerruf muss der Unternehmer den Kaufpreis erstatten, und zwar spätestens vierzehn Tage nach Zugang der Widerrufserklärung; er kann die Rückzahlung allerdings verweigern, bis er die Ware zurückerhalten hat oder der Verbraucher nachweist, dass er sie zurückgeschickt hat. Die Kosten der Rücksendung trägt der Verbraucher, wenn der Unternehmer ihn vorher darüber informiert hat. Für bestimmte Waren besteht kein Widerrufsrecht, zum Beispiel für Waren, die nach Kundenspezifikation angefertigt wurden, oder für schnell verderbliche Waren. Die Regeln sollen das Vertrauen in den grenzüberschreitenden Handel stärken, bei dem Verbraucher die Ware vor dem Kauf nicht prüfen können.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Verbraucher müssen ihren Widerruf gegenüber dem Unternehmer begründen.",
+   "Für Waren, die eigens nach den Wünschen des Kunden angefertigt wurden, besteht kein Widerrufsrecht.",
+   "Der Unternehmer muss den Kaufpreis auch dann erstatten, wenn er die Ware weder erhalten noch einen Nachweis der Rücksendung bekommen hat.",
+   "Wurde der Verbraucher nicht belehrt, kann er den Vertrag unbegrenzt lange widerrufen."
+  ],
+  "answer": 1,
+  "why": [
+   "Falsch: Der Widerruf ist möglich „ohne Angabe von Gründen“.",
+   "Richtig: Kein Widerrufsrecht besteht bei Waren, „die nach Kundenspezifikation angefertigt wurden“.",
+   "Falsch: Der Unternehmer „kann die Rückzahlung allerdings verweigern“, bis er die Ware zurückerhalten hat oder der Nachweis vorliegt.",
+   "Falsch: Die Frist endet auch dann „spätestens zwölf Monate und vierzehn Tage“ nach dem regulären Fristbeginn."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Überverallgemeinerung"
+  ]
+ },
+ {
+  "id": "vr-0033",
+  "topic": "EU-Institutionen",
+  "difficulty": 3,
+  "text": "Die Europäische Union setzt Rechtsakte unterschiedlicher Art ein. Eine Verordnung hat allgemeine Geltung, ist in allen ihren Teilen verbindlich und gilt unmittelbar in jedem Mitgliedstaat, ohne dass es eines nationalen Umsetzungsakts bedarf. Eine Richtlinie ist dagegen für jeden Mitgliedstaat, an den sie gerichtet ist, hinsichtlich des zu erreichenden Ziels verbindlich, überlässt jedoch den innerstaatlichen Stellen die Wahl der Form und der Mittel. Die Mitgliedstaaten müssen Richtlinien innerhalb einer festgesetzten Frist in nationales Recht umsetzen. Setzt ein Mitgliedstaat eine Richtlinie nicht rechtzeitig um, kann die Kommission ein Vertragsverletzungsverfahren einleiten, an dessen Ende der Gerichtshof ein Zwangsgeld verhängen kann. Unter bestimmten Voraussetzungen können sich Einzelne gegenüber dem Staat auf eine nicht umgesetzte Richtlinie berufen, wenn deren Bestimmungen hinreichend genau und unbedingt sind. Beschlüsse sind in allen ihren Teilen verbindlich, aber nur für diejenigen, die sie bezeichnen. Empfehlungen und Stellungnahmen sind dagegen nicht verbindlich. Welche Art von Rechtsakt gewählt wird, richtet sich nach den Verträgen und nach dem Ziel, das die Union im Einzelfall verfolgt.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Eine Richtlinie bedarf wie eine Verordnung keines nationalen Umsetzungsakts, sofern sie hinreichend genau formuliert ist.",
+   "Beschlüsse der Union sind für alle Mitgliedstaaten verbindlich, unabhängig davon, wen sie bezeichnen.",
+   "Die Kommission kann gegen einen säumigen Mitgliedstaat selbst ein Zwangsgeld verhängen.",
+   "Einzelne können sich unter Umständen auf eine nicht umgesetzte Richtlinie berufen, wenn deren Bestimmungen genau und unbedingt sind."
+  ],
+  "answer": 3,
+  "why": [
+   "Falsch: Nur die Verordnung gilt ohne nationalen Umsetzungsakt; Richtlinien müssen „in nationales Recht umgesetzt“ werden.",
+   "Falsch: Beschlüsse sind „nur für diejenigen“ verbindlich, „die sie bezeichnen“.",
+   "Falsch: Die Kommission kann nur ein Verfahren einleiten; das Zwangsgeld verhängt „der Gerichtshof“.",
+   "Richtig: Einzelne können sich „unter bestimmten Voraussetzungen“ auf eine nicht umgesetzte Richtlinie berufen, wenn deren Bestimmungen „hinreichend genau und unbedingt“ sind."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Teilweise richtig"
+  ]
+ },
+ {
+  "id": "vr-0034",
+  "topic": "Gesellschaft",
+  "difficulty": 2,
+  "text": "Seit der verstärkten Verbreitung von Heimarbeit hat sich die Arbeitswelt in vielen Branchen verändert. Befragungen in verschiedenen Mitgliedstaaten zeigen, dass Beschäftigte, die zumindest an einigen Tagen von zu Hause arbeiten, häufiger angeben, Beruf und Familie besser vereinbaren zu können. Zugleich berichtet ein größerer Teil von ihnen, dass die Grenze zwischen Arbeit und Freizeit verschwimmt und dass sie auch außerhalb der vereinbarten Zeiten erreichbar sind. Unternehmen schätzen die Möglichkeit, Büroflächen zu sparen, beklagen aber teils einen schwächeren Zusammenhalt in den Teams und mehr Aufwand bei der Einarbeitung neuer Mitarbeiter. Welche Auswirkungen Heimarbeit auf die Produktivität hat, ist nach Einschätzung der Forschung nicht eindeutig: Einige Studien finden Zuwächse, andere Rückgänge, wieder andere keine Veränderung. Dies hänge unter anderem von der Art der Tätigkeit und der Organisation ab. Nicht alle Berufe eignen sich für Heimarbeit; bei Tätigkeiten, die körperliche Anwesenheit erfordern, ist sie nicht möglich, sodass sich Unterschiede zwischen Berufsgruppen verstärken können. Dies gilt vor allem für Tätigkeiten am Computer, etwa in Verwaltung, Beratung und Softwareentwicklung.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Die Forschung findet keinen einheitlichen Effekt der Heimarbeit auf die Produktivität.",
+   "Heimarbeit steigert die Produktivität der Beschäftigten nachweislich, wie mehrere Studien übereinstimmend zeigen.",
+   "Alle Berufe eignen sich grundsätzlich für Heimarbeit, auch solche mit körperlicher Anwesenheit.",
+   "Heimarbeit führt zwangsläufig zu einem schwächeren Zusammenhalt in den Teams, sobald Beschäftigte öfter zu Hause arbeiten."
+  ],
+  "answer": 0,
+  "why": [
+   "Richtig: Die Auswirkungen sind „nicht eindeutig“: „Einige Studien finden Zuwächse, andere Rückgänge, wieder andere keine Veränderung“.",
+   "Falsch: Die Studienlage ist uneinheitlich, ein Anstieg ist nicht nachgewiesen.",
+   "Falsch: „Nicht alle Berufe eignen sich für Heimarbeit.“",
+   "Falsch: Unternehmen „beklagen [...] teils“ schwächeren Zusammenhalt; zwangsläufig ist das nicht."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Modalität (kann/muss)",
+   "Überverallgemeinerung"
+  ]
+ },
+ {
+  "id": "vr-0035",
+  "topic": "Geschichte",
+  "difficulty": 2,
+  "text": "Die Industrialisierung begann in Großbritannien in der zweiten Hälfte des 18. Jahrhunderts und erfasste später weite Teile des europäischen Kontinents. Zu Beginn standen die Mechanisierung der Textilherstellung und die Nutzung der Dampfkraft; später kamen Eisenbahnen, die Eisen- und Stahlproduktion und die chemische Industrie hinzu. Der Übergang von der Handarbeit in Werkstätten zur Fabrikproduktion veränderte die Lebensverhältnisse tiefgreifend. In den entstehenden Industriestädten fehlte es zunächst an Wohnraum, Hygiene und Arbeitsschutz; Kinderarbeit war verbreitet. Aus diesen Missständen erwuchs die soziale Frage, auf die Staaten im Laufe des 19. Jahrhunderts allmählich mit Gesetzen reagierten, etwa mit Beschränkungen der Kinderarbeit und später mit Sozialversicherungen. Historiker betonen, dass die Industrialisierung kein plötzlicher Bruch war, sondern ein langer Prozess, der sich in den einzelnen Regionen zu verschiedenen Zeitpunkten und in verschiedenem Tempo vollzog. Die Reallöhne breiter Bevölkerungsschichten stiegen nach verbreiteter Einschätzung erst im Verlauf des 19. Jahrhunderts spürbar an. Die Geschwindigkeit des Wandels wurde zudem durch Rohstoffvorkommen, Verkehrswege und die Nachfrage auf den Märkten beeinflusst, die regional stark voneinander abwichen.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Die chemische Industrie bildete den Auftakt der Industrialisierung in Großbritannien, noch vor Textilherstellung und Dampfkraft.",
+   "Die Industrialisierung verlief nach Ansicht der Historiker nicht überall gleichzeitig und gleich schnell.",
+   "Sozialversicherungen wurden bereits zeitgleich mit den ersten Fabriken eingeführt, um Arbeiter vor Unfällen zu schützen.",
+   "Die Reallöhne breiter Schichten stiegen von Beginn der Industrialisierung an spürbar, wie Historiker verbreitet einschätzen."
+  ],
+  "answer": 1,
+  "why": [
+   "Falsch: Die chemische Industrie kam „später“ hinzu; zu Beginn standen Textilmechanisierung und Dampfkraft.",
+   "Richtig: Der Prozess vollzog sich „in den einzelnen Regionen zu verschiedenen Zeitpunkten und in verschiedenem Tempo“.",
+   "Falsch: Sozialversicherungen kamen „später“, nach ersten Beschränkungen der Kinderarbeit.",
+   "Falsch: Die Reallöhne stiegen „erst im Verlauf des 19. Jahrhunderts spürbar“."
+  ],
+  "traps": [
+   "Zeitangabe verdreht",
+   "Gegenteil"
+  ]
+ },
+ {
+  "id": "vr-0036",
+  "topic": "Verwaltung",
+  "difficulty": 2,
+  "text": "Öffentliche Haushalte folgen Grundsätzen, die ihre Planung und Kontrolle sichern sollen. Nach dem Grundsatz der Einheit werden alle Einnahmen und Ausgaben in einem einzigen Plan dargestellt, nach dem Grundsatz der Vollständigkeit dürfen sie nicht miteinander verrechnet werden. Der Grundsatz der Jährlichkeit bedeutet, dass der Haushalt für ein Haushaltsjahr aufgestellt wird; für mehrjährige Vorhaben haben sich jedoch Verpflichtungsermächtigungen und mehrjährige Finanzplanungen etabliert. Das Parlament beschließt den Haushalt, die Regierung führt ihn aus. Die Ausgaben sind im Haushaltsplan nach Zwecken getrennt ausgewiesen; Überschreitungen einzelner Ansätze bedürfen grundsätzlich der Zustimmung der zuständigen Stelle. Die kamerale Buchführung verbucht Einnahmen und Ausgaben nach dem Zeitpunkt der Zahlung, während die doppische Buchführung auch Vermögen und Schulden erfasst und Aufwendungen und Erträge dem Zeitraum zuordnet, in dem sie wirtschaftlich entstehen. Viele Kommunen haben auf die Doppik umgestellt, weil sie dadurch ein vollständigeres Bild der Finanzlage erwarten; die Umstellung hat aber erheblichen Aufwand verursacht. Die Haushaltsgrundsätze finden sich meist in Verfassung oder Haushaltsordnung und gelten für Bund, Länder und Gemeinden in jeweils angepasster Form.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Nach dem Grundsatz der Vollständigkeit dürfen Einnahmen mit Ausgaben verrechnet werden.",
+   "Der Haushalt wird vom Parlament beschlossen und von diesem auch ausgeführt.",
+   "Im Unterschied zur kameralen Buchführung erfasst die doppische auch Vermögen und Schulden.",
+   "Wegen des Grundsatzes der Jährlichkeit sind mehrjährige Vorhaben im öffentlichen Haushalt ausgeschlossen."
+  ],
+  "answer": 2,
+  "why": [
+   "Falsch: Einnahmen und Ausgaben „dürfen sie nicht miteinander verrechnet werden“.",
+   "Falsch: „Das Parlament beschließt den Haushalt, die Regierung führt ihn aus.“",
+   "Richtig: Die doppische Buchführung „erfasst auch Vermögen und Schulden“, die kamerale verbucht nur Zahlungen.",
+   "Falsch: Für mehrjährige Vorhaben „haben sich [...] Verpflichtungsermächtigungen und mehrjährige Finanzplanungen etabliert“."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Überverallgemeinerung"
+  ]
+ },
+ {
+  "id": "vr-0037",
+  "topic": "Demografie",
+  "difficulty": 3,
+  "text": "Die zusammengefasste Geburtenziffer gibt an, wie viele Kinder eine Frau im Laufe ihres Lebens durchschnittlich bekäme, wenn die Geburtenhäufigkeit eines Jahres für alle Altersstufen gleich bliebe. Sie ist damit ein Maß für das Jahr, nicht für einzelne Jahrgänge. Als Wert, bei dem eine Bevölkerung ohne Zuwanderung langfristig konstant bleibt, gilt ein Wert von etwa 2,1. In den meisten EU-Staaten liegt die Ziffer seit Jahrzehnten darunter. Ein niedriger Wert bedeutet nicht zwingend, dass Frauen weniger Kinder bekommen werden als frühere Generationen: Verschieben Frauen die Geburt ihrer Kinder auf ein höheres Alter, sinkt die Ziffer in den Jahren der Verschiebung, auch wenn die endgültige Kinderzahl der betreffenden Jahrgänge unverändert bleibt. Dieser Effekt wird als Tempoeffekt bezeichnet. Die Ziffer allein lässt zudem keine Aussage zu, wie sich die Bevölkerungszahl entwickelt, denn diese hängt auch von Sterblichkeit und Wanderung ab. In Ländern mit hoher Zuwanderung kann die Bevölkerung daher trotz niedriger Geburtenziffer wachsen. Die Ziffer wird von den Statistikämtern jährlich berechnet und dient auch als Grundlage für Bevölkerungsvorausberechnungen.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Eine Ziffer unter 2,1 führt in jedem Land zu einem Rückgang der Bevölkerung, unabhängig von Zuwanderung und Sterblichkeit.",
+   "Die zusammengefasste Geburtenziffer beschreibt die tatsächliche Kinderzahl eines bestimmten Frauenjahrgangs.",
+   "Der Tempoeffekt verringert die endgültige Kinderzahl der betroffenen Jahrgänge, da später geborene Kinder nicht mitgezählt würden.",
+   "Sinkt die Ziffer in einem Jahr, kann das auch daran liegen, dass Geburten auf ein höheres Alter verschoben werden."
+  ],
+  "answer": 3,
+  "why": [
+   "Falsch: Die Bevölkerung hängt auch von Sterblichkeit und Wanderung ab und kann „trotz niedriger Geburtenziffer wachsen“.",
+   "Falsch: Sie ist „ein Maß für das Jahr, nicht für einzelne Jahrgänge“.",
+   "Falsch: Beim Tempoeffekt bleibt die endgültige Kinderzahl „unverändert“.",
+   "Richtig: Bei einer Verschiebung der Geburten „sinkt die Ziffer in den Jahren der Verschiebung“, auch bei unveränderter Kinderzahl."
+  ],
+  "traps": [
+   "Überverallgemeinerung",
+   "Gegenteil"
+  ]
+ },
+ {
+  "id": "vr-0038",
+  "topic": "Migration",
+  "difficulty": 1,
+  "text": "In vielen europäischen Staaten kann man die Staatsangehörigkeit durch Einbürgerung erwerben. Meist wird dafür ein mehrjähriger rechtmäßiger Aufenthalt verlangt; die geforderte Dauer unterscheidet sich zwischen den Staaten und liegt häufig zwischen fünf und zehn Jahren. Zu den weiteren Voraussetzungen gehören in der Regel Sprachkenntnisse, ein gesicherter Lebensunterhalt und das Fehlen schwerer Straftaten. Einige Staaten verlangen zusätzlich einen Test zu Geschichte und Gesellschaft des Landes oder ein Bekenntnis zur Verfassung. Ob die bisherige Staatsangehörigkeit beibehalten werden darf, ist unterschiedlich geregelt: Manche Staaten erlauben die doppelte Staatsangehörigkeit, andere verlangen die Aufgabe der früheren, wobei es meist Ausnahmen gibt, etwa für Angehörige anderer EU-Staaten. Die Einbürgerungsquote, also der Anteil der jährlich Eingebürgerten an der ausländischen Bevölkerung, ist in den Staaten der Union sehr verschieden und liegt oft im niedrigen einstelligen Prozentbereich. Fachleute sehen die Ursachen sowohl in den rechtlichen Hürden als auch in der Entscheidung vieler Zugewanderter, die Staatsangehörigkeit nicht zu wechseln. Wer die Voraussetzungen erfüllt, hat in vielen Staaten einen Rechtsanspruch auf Einbürgerung, in anderen entscheidet die Behörde nach Ermessen.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Wie lange der Aufenthalt vor einer Einbürgerung dauern muss, ist von Staat zu Staat verschieden.",
+   "In allen europäischen Staaten muss bei einer Einbürgerung die frühere Staatsangehörigkeit aufgegeben werden.",
+   "Alle europäischen Staaten verlangen für die Einbürgerung einen Test zu Geschichte und Gesellschaft.",
+   "Die Einbürgerungsquote liegt in allen Staaten der Union einheitlich im niedrigen einstelligen Prozentbereich."
+  ],
+  "answer": 0,
+  "why": [
+   "Richtig: „Die geforderte Dauer unterscheidet sich zwischen den Staaten.“",
+   "Falsch: „Manche Staaten erlauben die doppelte Staatsangehörigkeit.“",
+   "Falsch: Einen Test verlangen nur „einige Staaten“.",
+   "Falsch: Die Quote ist „sehr verschieden“ und liegt nur „oft“ im niedrigen einstelligen Bereich."
+  ],
+  "traps": [
+   "Überverallgemeinerung",
+   "Gegenteil"
+  ]
+ },
+ {
+  "id": "vr-0039",
+  "topic": "Medien",
+  "difficulty": 3,
+  "text": "In vielen europäischen Ländern ist der Zeitungsmarkt in den vergangenen Jahrzehnten stark konzentriert worden. Verlage haben Titel zusammengelegt, und in vielen Regionen gibt es nur noch eine lokale Tageszeitung. Fachleute sprechen von Einzeitungskreisen. Als Gründe gelten sinkende Auflagen und der Rückgang der Anzeigeneinnahmen, die zunehmend zu Internetplattformen abwandern. Die Konzentration muss nicht zwangsläufig zu einem Verlust an inhaltlicher Vielfalt führen: Manche Verlage unterhalten mehrere Redaktionen mit eigener Ausrichtung. Studien aus mehreren Ländern deuten jedoch darauf hin, dass dort, wo eine lokale Zeitung wegfällt, die Berichterstattung über lokale Politik abnimmt und die Wahlbeteiligung bei Kommunalwahlen leicht sinkt. Ob die Wahlbeteiligung wegen der fehlenden Berichterstattung sinkt, lässt sich aus diesen Studien nicht sicher ableiten. Medienpolitiker diskutieren Förderungen für lokale Medien, die jedoch die Gefahr einer politischen Abhängigkeit der Redaktionen mit sich bringen könnten, wenn die Vergabe nicht transparent und unabhängig erfolgt. Zugleich nutzen viele Leser Nachrichten zunehmend über Smartphones und soziale Netzwerke, wodurch lokale Angebote mit überregionalen und internationalen Quellen konkurrieren.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Wo eine Lokalzeitung wegfällt, geht die Wahlbeteiligung bei Kommunalwahlen deutlich zurück.",
+   "Die Konzentration des Zeitungsmarkts führt zwangsläufig zu geringerer inhaltlicher Vielfalt.",
+   "Aus den Studien folgt nicht sicher, dass fehlende Lokalberichterstattung die Wahlbeteiligung senkt.",
+   "Medienförderung bringt in jedem Fall die Gefahr einer politischen Abhängigkeit der Redaktionen mit sich."
+  ],
+  "answer": 2,
+  "why": [
+   "Falsch: Die Wahlbeteiligung sinkt nur „leicht“, nicht „deutlich“.",
+   "Falsch: Die Konzentration „muss nicht zwangsläufig“ zu weniger Vielfalt führen.",
+   "Richtig: „Ob die Wahlbeteiligung wegen der fehlenden Berichterstattung sinkt, lässt sich aus diesen Studien nicht sicher ableiten.“",
+   "Falsch: Die Gefahr besteht nur, „wenn die Vergabe nicht transparent und unabhängig erfolgt“."
+  ],
+  "traps": [
+   "Zahl/Menge verdreht",
+   "Modalität (kann/muss)",
+   "Überverallgemeinerung"
+  ]
+ },
+ {
+  "id": "vr-0040",
+  "topic": "Politik",
+  "difficulty": 2,
+  "text": "In parlamentarischen Demokratien hängt die Regierung vom Vertrauen des Parlaments ab. Dieses kann ihr durch ein Misstrauensvotum entzogen werden. Die Verfassungen regeln das Verfahren unterschiedlich. In manchen Ländern genügt die einfache Mehrheit der Abgeordneten, um die Regierung zu stürzen. Andere Länder, darunter Deutschland, kennen das konstruktive Misstrauensvotum: Das Parlament kann dem Regierungschef das Misstrauen nur aussprechen, indem es zugleich einen Nachfolger wählt. Damit soll verhindert werden, dass Regierungen von einer Mehrheit gestürzt werden, die sich auf keine Alternative einigen kann. Das Instrument wird daher als Beitrag zur Stabilität angesehen, auch wenn es die Möglichkeiten der Opposition zur Kontrolle der Regierung begrenzt. Eine Auflösung des Parlaments und Neuwahlen sind davon zu unterscheiden; sie sind in einigen Ländern an strenge Voraussetzungen gebunden. In Deutschland kann der Bundeskanzler die Vertrauensfrage stellen und, wenn er sie verliert, dem Bundespräsidenten die Auflösung des Bundestages vorschlagen. Welche Hürden ein Misstrauensvotum hat, beeinflusst, wie lange Regierungen im Durchschnitt im Amt bleiben, doch spielen auch Parteiensystem und Wahlrecht eine Rolle.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Das konstruktive Misstrauensvotum ist in allen parlamentarischen Demokratien vorgesehen.",
+   "Das konstruktive Misstrauensvotum soll verhindern, dass eine Mehrheit ohne Alternative eine Regierung stürzt.",
+   "In Ländern mit konstruktivem Misstrauensvotum kann eine Regierung nur durch Neuwahlen abgelöst werden.",
+   "Das konstruktive Misstrauensvotum erweitert die Kontrollmöglichkeiten der Opposition gegenüber der Regierung."
+  ],
+  "answer": 1,
+  "why": [
+   "Falsch: Es gibt „andere Länder“ mit dem Instrument, in manchen genügt „die einfache Mehrheit“.",
+   "Richtig: Es soll verhindern, dass Regierungen „von einer Mehrheit gestürzt werden, die sich auf keine Alternative einigen kann“.",
+   "Falsch: Das Parlament kann den Regierungschef stürzen, wenn es zugleich einen Nachfolger wählt; Neuwahlen sind davon „zu unterscheiden“.",
+   "Falsch: Es „begrenzt“ die Möglichkeiten der Opposition zur Kontrolle."
+  ],
+  "traps": [
+   "Überverallgemeinerung",
+   "Nicht im Text (Weltwissen)",
+   "Gegenteil"
+  ]
+ },
+ {
+  "id": "vr-0041",
+  "topic": "EU-Institutionen",
+  "difficulty": 3,
+  "text": "Das Europäische Parlament wird seit 1979 direkt von den Bürgerinnen und Bürgern der Mitgliedstaaten gewählt, zunächst durch jeweils nationale Wahlverfahren, die sich bis heute im Detail unterscheiden. Gemeinsame Grundsätze sind, dass die Wahl allgemein, unmittelbar, frei und geheim ist und nach dem Verhältniswahlprinzip erfolgt. Die Zahl der Sitze je Mitgliedstaat richtet sich nach dem Prinzip der degressiven Proportionalität: Größere Staaten erhalten mehr Sitze als kleinere, aber ein Abgeordneter eines großen Staates vertritt mehr Einwohner als ein Abgeordneter eines kleinen Staates. Die Abgeordneten schließen sich nicht nach Nationalität, sondern nach politischer Zugehörigkeit zu Fraktionen zusammen. Das Parlament ist im ordentlichen Gesetzgebungsverfahren gleichberechtigt mit dem Rat an der Rechtsetzung beteiligt, hat jedoch kein Recht, Gesetzgebungsvorschläge einzubringen; dieses Initiativrecht liegt grundsätzlich bei der Kommission. Das Parlament kann die Kommission jedoch auffordern, einen Vorschlag zu unterbreiten. Es wählt auf Vorschlag des Europäischen Rates den Kommissionspräsidenten und kann der Kommission als Ganzer das Misstrauen aussprechen. Die Wahlperiode beträgt fünf Jahre, und die Abgeordneten sind an keine Weisungen ihrer Heimatstaaten gebunden.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Das Parlament kann zwar selbst keine Gesetzgebungsvorschläge einbringen, die Kommission aber zu einem Vorschlag auffordern.",
+   "Ein Abgeordneter eines großen Staates vertritt im Durchschnitt weniger Einwohner als ein Abgeordneter eines kleinen Staates.",
+   "Die Wahlverfahren zum Parlament sind in allen Mitgliedstaaten einheitlich geregelt.",
+   "Das Parlament wählt den Kommissionspräsidenten unabhängig von einem Vorschlag des Europäischen Rates."
+  ],
+  "answer": 0,
+  "why": [
+   "Richtig: Das Parlament hat „kein Recht, Gesetzgebungsvorschläge einzubringen“, kann die Kommission aber „auffordern, einen Vorschlag zu unterbreiten“.",
+   "Falsch: Ein Abgeordneter eines großen Staates „vertritt mehr Einwohner“.",
+   "Falsch: Die Verfahren „unterscheiden sich bis heute im Detail“; nur Grundsätze sind gemeinsam.",
+   "Falsch: Es wählt den Präsidenten „auf Vorschlag des Europäischen Rates“."
+  ],
+  "traps": [
+   "Vergleich verdreht",
+   "Gegenteil"
+  ]
+ },
+ {
+  "id": "vr-0042",
+  "topic": "Politik",
+  "difficulty": 1,
+  "text": "Eine Verfassung ist die grundlegende Rechtsordnung eines Staates. Sie regelt den Aufbau der staatlichen Organe, deren Befugnisse und das Verhältnis zwischen Staat und Bürgern. Die meisten Staaten haben eine geschriebene Verfassung in einer einzigen Urkunde. Das Vereinigte Königreich gilt als bekanntes Beispiel für eine Ausnahme: Seine Verfassungsordnung beruht auf mehreren Gesetzen, Gerichtsentscheidungen und Gewohnheiten. Verfassungen können in der Regel nur mit besonderen Mehrheiten geändert werden, die höher sind als bei gewöhnlichen Gesetzen. Dadurch soll verhindert werden, dass vorübergehende politische Mehrheiten die Grundordnung nach Belieben ändern. Einige Verfassungen enthalten sogenannte Ewigkeitsklauseln, die bestimmte Grundsätze, etwa die Menschenwürde, ausdrücklich von jeder Änderung ausnehmen. Staaten mit Verfassungsgerichten können Gesetze auf ihre Vereinbarkeit mit der Verfassung überprüfen lassen; in anderen Staaten übernehmen diese Aufgabe die ordentlichen Gerichte oder das Parlament selbst. Neben der Verfassung im förmlichen Sinn gibt es in vielen Staaten ergänzende Gesetze, die das Verfahren von Wahlen, die Organisation der Gerichte oder die Rechte der Parlamentsminderheit näher regeln, ohne selbst Verfassungsrang zu haben.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Das Vereinigte Königreich besitzt keine Verfassungsordnung, weil seine Regeln nirgends schriftlich festgehalten sind.",
+   "In allen Staaten überprüfen Verfassungsgerichte die Gesetze auf ihre Vereinbarkeit mit der Verfassung.",
+   "Ewigkeitsklauseln sind in sämtlichen Verfassungen enthalten, auch in der Verfassung des Vereinigten Königreichs.",
+   "Erhöhte Mehrheiten für Verfassungsänderungen schützen die Grundordnung vor vorübergehenden Mehrheiten."
+  ],
+  "answer": 3,
+  "why": [
+   "Falsch: Seine Verfassungsordnung „beruht auf mehreren Gesetzen, Gerichtsentscheidungen und Gewohnheiten“.",
+   "Falsch: „In anderen Staaten“ übernehmen ordentliche Gerichte oder das Parlament diese Aufgabe.",
+   "Falsch: Nur „einige Verfassungen“ enthalten Ewigkeitsklauseln.",
+   "Richtig: Dadurch soll verhindert werden, „dass vorübergehende politische Mehrheiten die Grundordnung nach Belieben ändern“."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Überverallgemeinerung"
+  ]
+ },
+ {
+  "id": "vr-0043",
+  "topic": "Recht",
+  "difficulty": 2,
+  "text": "Die Datenschutz-Grundverordnung gilt seit dem 25. Mai 2018 unmittelbar in allen Mitgliedstaaten der Europäischen Union. Sie regelt die Verarbeitung personenbezogener Daten durch Unternehmen und Behörden. Verarbeitung ist nur zulässig, wenn eine Rechtsgrundlage besteht; dazu zählen unter anderem die Einwilligung der betroffenen Person, die Erfüllung eines Vertrags oder eine rechtliche Verpflichtung. Betroffene Personen haben Rechte, etwa auf Auskunft über die zu ihrer Person gespeicherten Daten, auf Berichtigung und unter bestimmten Voraussetzungen auf Löschung. Verantwortliche müssen Verletzungen des Schutzes personenbezogener Daten in der Regel innerhalb von 72 Stunden der Aufsichtsbehörde melden. Verstöße können mit Geldbußen geahndet werden, die sich nach dem weltweiten Jahresumsatz eines Unternehmens richten können. Die Verordnung gilt auch für Unternehmen außerhalb der Union, wenn sie Waren oder Dienstleistungen in der Union anbieten. Rein private Datenverarbeitung im familiären Bereich fällt dagegen nicht unter die Verordnung. Zuständig für die Überwachung sind unabhängige Aufsichtsbehörden der Mitgliedstaaten, die bei grenzüberschreitenden Fällen zusammenarbeiten und einheitliche Auslegungen anstreben. Sie können auch Beschwerden von Betroffenen bearbeiten.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Personenbezogene Daten dürfen nur mit Einwilligung der betroffenen Person verarbeitet werden.",
+   "Auch ein Unternehmen außerhalb der Union kann gebunden sein, wenn es in der Union Dienstleistungen anbietet.",
+   "Datenschutzverletzungen sind der Aufsichtsbehörde ausnahmslos innerhalb von 72 Stunden zu melden.",
+   "Auch die rein private Datenverarbeitung im Familienkreis unterliegt der Verordnung, wenn dabei Daten von Kindern verarbeitet werden."
+  ],
+  "answer": 1,
+  "why": [
+   "Falsch: Die Einwilligung ist nur eine von mehreren Rechtsgrundlagen („unter anderem“).",
+   "Richtig: Die Verordnung „gilt auch für Unternehmen außerhalb der Union, wenn sie Waren oder Dienstleistungen in der Union anbieten“.",
+   "Falsch: Die Meldung ist „in der Regel“ binnen 72 Stunden vorgesehen, nicht ausnahmslos.",
+   "Falsch: Private Verarbeitung im familiären Bereich „fällt [...] nicht unter die Verordnung“."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Überverallgemeinerung"
+  ]
+ },
+ {
+  "id": "vr-0044",
+  "topic": "Gesellschaft",
+  "difficulty": 2,
+  "text": "Die Armutsgefährdungsquote gehört zu den meistverwendeten Indikatoren der Sozialstatistik in der Europäischen Union. Als armutsgefährdet gilt, wer in einem Haushalt lebt, dessen Einkommen unter sechzig Prozent des mittleren Einkommens im jeweiligen Land liegt. Es handelt sich also um ein relatives Maß: Es sagt nichts darüber aus, ob die Betroffenen ihre Grundbedürfnisse decken können, sondern misst den Abstand zur Einkommensmitte. Wächst das Einkommen aller Haushalte gleichmäßig, bleibt die Quote unverändert. Steigen dagegen nur die höheren Einkommen, kann die Quote zunehmen, obwohl sich die Lage der Betroffenen nicht verschlechtert hat. Aus diesem Grund ergänzt die EU die Quote um Indikatoren der materiellen und sozialen Deprivation, die erfassen, ob sich Haushalte bestimmte Güter und Aktivitäten, etwa eine angemessen geheizte Wohnung, nicht leisten können. Ein Vergleich der Quoten zwischen Ländern sagt daher nichts über das absolute Wohlstandsniveau aus: Ein Land mit hohem Wohlstand kann eine höhere Quote aufweisen als ein ärmeres. Der Bezugswert wird jährlich neu berechnet und beruht auf Einkommensangaben aus repräsentativen Haushaltsbefragungen.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Die Quote gibt an, wie viele Menschen ihre Grundbedürfnisse nicht decken können.",
+   "Eine höhere Quote zeigt stets an, dass ein Land insgesamt ärmer ist.",
+   "Wachsen alle Einkommen im gleichen Maß, ändert sich die Quote nicht.",
+   "Die Quote steigt nur dann, wenn sich die Lage der Betroffenen verschlechtert."
+  ],
+  "answer": 2,
+  "why": [
+   "Falsch: Sie „sagt nichts darüber aus, ob die Betroffenen ihre Grundbedürfnisse decken können“.",
+   "Falsch: Ein wohlhabendes Land „kann eine höhere Quote aufweisen als ein ärmeres“.",
+   "Richtig: „Wächst das Einkommen aller Haushalte gleichmäßig, bleibt die Quote unverändert.“",
+   "Falsch: Sie kann auch zunehmen, wenn nur die höheren Einkommen steigen, „obwohl sich die Lage der Betroffenen nicht verschlechtert hat“."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Überverallgemeinerung",
+   "Kausalität unterstellt"
+  ]
+ },
+ {
+  "id": "vr-0045",
+  "topic": "Geschichte",
+  "difficulty": 3,
+  "text": "Der Wiener Kongress, der von 1814 bis 1815 tagte, ordnete Europa nach den napoleonischen Kriegen neu. Er war keine reguläre Vollversammlung, bei der alle Delegationen gemeinsam verhandelten; die wesentlichen Entscheidungen wurden vielmehr in kleinen Ausschüssen und in Gesprächen der großen Mächte Österreich, Russland, Preußen und Großbritannien getroffen, zu denen später auch das besiegte Frankreich hinzutrat. Leitgedanken der Verhandlungen waren die Wiederherstellung monarchischer Herrschaft, die als legitim galt, und ein Gleichgewicht der Mächte, das neue Kriege verhindern sollte. Dabei wurden Gebietsveränderungen vorgenommen, die nicht immer den Wünschen der Bevölkerung entsprachen. Aus dem Heiligen Römischen Reich, das 1806 aufgelöst worden war, ging nicht das alte Reich hervor, sondern der Deutsche Bund, ein loser Zusammenschluss souveräner Staaten. Die Ordnung des Kongresses hielt in ihren Grundzügen mehrere Jahrzehnte, geriet aber unter den Druck nationaler und liberaler Bewegungen. Bereits während der Beratungen wurden zahlreiche Feste, Bälle und gesellschaftliche Veranstaltungen organisiert, die den Rahmen für informelle Gespräche der Delegierten boten. Der Kongress dauerte mehrere Monate.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Frankreich nahm an den Beratungen der großen Mächte erst im weiteren Verlauf des Kongresses teil.",
+   "Die Beschlüsse des Kongresses wurden von den Delegationen aller Staaten in Vollversammlungen gefasst.",
+   "Das Heilige Römische Reich wurde durch den Wiener Kongress aufgelöst.",
+   "Der Kongress sollte nationale und liberale Bewegungen in Europa fördern."
+  ],
+  "answer": 0,
+  "why": [
+   "Richtig: Zu den großen Mächten trat „später auch das besiegte Frankreich hinzu“.",
+   "Falsch: Der Kongress „war keine reguläre Vollversammlung“, die wesentlichen Entscheidungen fielen in kleinen Ausschüssen und unter den großen Mächten.",
+   "Falsch: Das Reich war bereits „1806 aufgelöst worden“, vor dem Kongress.",
+   "Falsch: Leitgedanke war die Wiederherstellung monarchischer Herrschaft; nationale und liberale Bewegungen setzten die Ordnung „unter Druck“."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Zeitangabe verdreht",
+   "Nicht im Text (Weltwissen)"
+  ]
+ },
+ {
+  "id": "vr-0046",
+  "topic": "Verwaltung",
+  "difficulty": 1,
+  "text": "Ein Verwaltungsakt ist eine hoheitliche Maßnahme einer Behörde zur Regelung eines Einzelfalls mit Außenwirkung, beispielsweise die Erteilung einer Baugenehmigung oder die Festsetzung einer Steuer. Er muss für die Betroffenen verständlich begründet werden und enthält in der Regel eine Rechtsbehelfsbelehrung, die über die Möglichkeit informiert, dagegen vorzugehen. Wer einen Verwaltungsakt für rechtswidrig hält, kann in der Regel zunächst Widerspruch bei der Behörde einlegen, die ihn erlassen hat; bleibt dieser erfolglos, steht der Weg zum Verwaltungsgericht offen. Die Widerspruchsfrist beträgt üblicherweise einen Monat. Wird sie versäumt, wird der Verwaltungsakt bestandskräftig und kann nur noch unter engen Voraussetzungen geändert werden. Ein Verwaltungsakt, der an einem besonders schwerwiegenden und offensichtlichen Fehler leidet, ist nichtig; er entfaltet von Anfang an keine Rechtswirkung. Allgemeine Regelungen, die für eine unbestimmte Zahl von Fällen gelten, etwa Gesetze oder Verordnungen, sind keine Verwaltungsakte. Die Behörde kann einen Verwaltungsakt von Amts wegen oder auf Antrag erlassen; schriftliche Bescheide werden den Betroffenen in der Regel förmlich bekannt gegeben, sodass der Zeitpunkt des Zugangs feststeht.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Der Widerspruch gegen einen Verwaltungsakt wird beim Verwaltungsgericht eingelegt.",
+   "Nach Ablauf der Widerspruchsfrist kann ein Verwaltungsakt in keinem Fall mehr geändert werden.",
+   "Jeder rechtswidrige Verwaltungsakt ist von Anfang an nichtig, gleichgültig, wie geringfügig der Fehler ist.",
+   "Ein Verwaltungsakt regelt einen Einzelfall, Gesetze und Verordnungen gelten für unbestimmt viele Fälle."
+  ],
+  "answer": 3,
+  "why": [
+   "Falsch: Der Widerspruch geht „bei der Behörde“, die den Verwaltungsakt erlassen hat.",
+   "Falsch: Er kann „nur noch unter engen Voraussetzungen geändert werden“, nicht gar nicht.",
+   "Falsch: Nichtig ist nur ein Verwaltungsakt mit einem „besonders schwerwiegenden und offensichtlichen Fehler“.",
+   "Richtig: Ein Verwaltungsakt dient der „Regelung eines Einzelfalls“; Gesetze und Verordnungen gelten „für eine unbestimmte Zahl von Fällen“ und sind keine Verwaltungsakte."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Überverallgemeinerung"
+  ]
+ },
+ {
+  "id": "vr-0047",
+  "topic": "Demografie",
+  "difficulty": 2,
+  "text": "Der Altenquotient setzt die Zahl der Menschen im Rentenalter ins Verhältnis zur Zahl der Menschen im Erwerbsalter. In den meisten EU-Staaten ist er seit Jahrzehnten gestiegen und wird nach den Bevölkerungsvorausberechnungen weiter steigen. Wie stark der Anstieg ausfällt, hängt von Annahmen über Geburtenzahlen, Lebenserwartung und Zuwanderung ab. Für die umlagefinanzierten Rentensysteme, in denen die laufenden Beiträge der Erwerbstätigen die laufenden Renten finanzieren, bedeutet ein steigender Altenquotient eine Belastung. Staaten haben darauf unterschiedlich reagiert: durch eine Anhebung des Rentenalters, durch Anpassungen der Rentenhöhe oder durch den Aufbau kapitalgedeckter Zusatzvorsorge. Die Zahl der Erwerbstätigen hängt jedoch nicht nur vom Bevölkerungsaufbau ab, sondern auch davon, wie viele Menschen tatsächlich arbeiten; eine höhere Erwerbsbeteiligung von Frauen und Älteren kann den Effekt teilweise ausgleichen. Auch die Produktivität spielt eine Rolle, denn wenn jeder Erwerbstätige mehr erwirtschaftet, können weniger Erwerbstätige mehr Rentner finanzieren. Auch die Gesundheits- und Pflegeausgaben steigen mit dem Anteil älterer Menschen, da diese im Durchschnitt häufiger medizinische Leistungen in Anspruch nehmen; ob dies die Systeme überfordert, hängt von den jeweiligen Rahmenbedingungen ab.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Der Altenquotient ist in allen EU-Staaten seit Jahrzehnten gestiegen, und wird überall gleich stark weiter steigen.",
+   "Der Aufbau kapitalgedeckter Zusatzvorsorge ist die am häufigsten gewählte Reaktion der Staaten.",
+   "Eine höhere Erwerbsbeteiligung kann die Folgen eines steigenden Altenquotienten teilweise ausgleichen.",
+   "Eine steigende Produktivität verschärft die Belastung der umlagefinanzierten Rentensysteme."
+  ],
+  "answer": 2,
+  "why": [
+   "Falsch: Der Anstieg gilt für „die meisten EU-Staaten“, nicht für alle.",
+   "Falsch: Der Text nennt drei Reaktionen, ohne eine als häufigste auszuzeichnen.",
+   "Richtig: Eine höhere Erwerbsbeteiligung „kann den Effekt teilweise ausgleichen“.",
+   "Falsch: Mit höherer Produktivität „können weniger Erwerbstätige mehr Rentner finanzieren“, die Belastung sinkt also eher."
+  ],
+  "traps": [
+   "Überverallgemeinerung",
+   "Nicht im Text (Weltwissen)",
+   "Gegenteil"
+  ]
+ },
+ {
+  "id": "vr-0048",
+  "topic": "Migration",
+  "difficulty": 2,
+  "text": "Die Genfer Flüchtlingskonvention von 1951 definiert, wer als Flüchtling gilt: eine Person, die sich aus der begründeten Furcht vor Verfolgung wegen ihrer Rasse, Religion, Nationalität, Zugehörigkeit zu einer bestimmten sozialen Gruppe oder wegen ihrer politischen Überzeugung außerhalb ihres Herkunftslandes befindet und dessen Schutz nicht in Anspruch nehmen kann oder wegen dieser Furcht nicht will. Wer vor Armut, Naturkatastrophen oder allgemeiner Gewalt flieht, erfüllt diese Definition für sich genommen nicht; für Menschen, die vor Bürgerkrieg fliehen, bestehen in der Europäischen Union aber ergänzende Schutzformen, etwa den subsidiären Schutz. Ein zentraler Grundsatz der Konvention ist das Verbot der Zurückweisung: Flüchtlinge dürfen nicht in ein Gebiet zurückgeschickt werden, in dem ihnen Verfolgung droht. Die Konvention verpflichtet die Staaten nicht, jedem Menschen, der einen Antrag stellt, den Flüchtlingsstatus zu gewähren; ob die Voraussetzungen vorliegen, wird im Einzelfall geprüft. Mit dem Zusatzprotokoll von 1967 wurde die ursprüngliche zeitliche und räumliche Beschränkung auf Ereignisse in Europa vor 1951 aufgehoben. Die Konvention wurde nach den Erfahrungen des Zweiten Weltkriegs ausgehandelt.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Wer vor Armut flieht, ist nach der Konvention als Flüchtling anzusehen, auch wenn er nicht verfolgt wird.",
+   "Für Bürgerkriegsflüchtlinge gibt es in der Union auch dann ergänzende Schutzformen, wenn sie nicht unter die Definition fallen.",
+   "Die Staaten müssen jedem Antragsteller den Flüchtlingsstatus gewähren, ohne dass die Voraussetzungen im Einzelfall geprüft werden.",
+   "Die Beschränkung auf Ereignisse in Europa wurde durch das Zusatzprotokoll von 1967 erstmals eingeführt."
+  ],
+  "answer": 1,
+  "why": [
+   "Falsch: Wer vor Armut flieht, „erfüllt diese Definition für sich genommen nicht“.",
+   "Richtig: Für Bürgerkriegsflüchtlinge „bestehen in der Europäischen Union aber ergänzende Schutzformen, etwa den subsidiären Schutz“.",
+   "Falsch: Die Konvention „verpflichtet die Staaten nicht“, jedem Antragsteller den Status zu gewähren.",
+   "Falsch: Das Zusatzprotokoll „hob“ die Beschränkung „auf“, es führte sie nicht ein."
+  ],
+  "traps": [
+   "Gegenteil",
+   "Zeitangabe verdreht"
+  ]
+ },
+ {
+  "id": "vr-0049",
+  "topic": "Medien",
+  "difficulty": 3,
+  "text": "Meinungsumfragen vor Wahlen prägen die Berichterstattung, doch ihre Aussagekraft wird häufig überschätzt. Eine Umfrage beruht auf einer Stichprobe, und selbst bei einer zufälligen Auswahl von etwa tausend Personen ergibt sich eine statistische Schwankungsbreite von mehreren Prozentpunkten. Geringe Unterschiede zwischen Parteien liegen daher oft innerhalb dieser Schwankung und erlauben keine Aussage, wer vorn liegt. Hinzu kommen systematische Fehlerquellen: Nicht alle Gruppen sind gleich bereit, an Umfragen teilzunehmen, und manche Befragte geben nicht an, was sie tatsächlich wählen werden. Die Institute gleichen solche Verzerrungen durch Gewichtung aus, die jedoch auf Annahmen beruht. Mehrere Studien kommen zu dem Ergebnis, dass die Abweichung zwischen Umfragen kurz vor der Wahl und dem Ergebnis im Durchschnitt nicht größer geworden ist, obwohl die Erreichbarkeit der Befragten zurückgegangen ist. Ob Umfragen das Wahlverhalten beeinflussen, ist umstritten: Ein Mitläufereffekt zugunsten der führenden Partei ist ebenso behauptet worden wie ein Effekt zugunsten des Außenseiters, eindeutig belegt ist keiner von beiden. Die Ergebnisse werden meist in Prozentanteilen veröffentlicht, ohne dass die Schwankungsbreite jedes Mal mitgeteilt wird.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Durch die Gewichtung werden die Verzerrungen in den Umfragen vollständig ausgeglichen.",
+   "Die Abweichung zwischen Umfragen und Wahlergebnissen ist im Durchschnitt größer geworden.",
+   "Ein Mitläufereffekt zugunsten der führenden Partei ist durch Studien eindeutig belegt.",
+   "Knappe Abstände zwischen zwei Parteien lassen sich aus einer Umfrage nicht verlässlich deuten."
+  ],
+  "answer": 3,
+  "why": [
+   "Falsch: Die Gewichtung gleicht aus, „beruht jedoch auf Annahmen“; von vollständigem Ausgleich ist nicht die Rede.",
+   "Falsch: Die Abweichung ist im Durchschnitt „nicht größer geworden“.",
+   "Falsch: „Eindeutig belegt ist keiner von beiden“ Effekten.",
+   "Richtig: Geringe Unterschiede liegen „oft innerhalb dieser Schwankung und erlauben keine Aussage, wer vorn liegt“."
+  ],
+  "traps": [
+   "Überverallgemeinerung",
+   "Gegenteil"
+  ]
+ },
+ {
+  "id": "vr-0050",
+  "topic": "Recht",
+  "difficulty": 3,
+  "text": "Der Grundsatz der Verhältnismäßigkeit begrenzt staatliches Handeln, das in Rechte der Bürger eingreift. Eine Maßnahme ist verhältnismäßig, wenn sie ein legitimes Ziel verfolgt und zur Erreichung dieses Ziels geeignet ist, wenn kein milderes, gleich wirksames Mittel zur Verfügung steht und wenn der Eingriff nicht außer Verhältnis zum angestrebten Nutzen steht. Der letzte Prüfungsschritt wird als Angemessenheit bezeichnet. Eine Maßnahme kann also auch dann unverhältnismäßig sein, wenn sie geeignet und erforderlich ist. Der Grundsatz gilt im deutschen Recht als Teil des Rechtsstaatsprinzips, im Unionsrecht ist er ausdrücklich in den Verträgen genannt und wirkt sowohl gegenüber den Organen der Union als auch gegenüber den Mitgliedstaaten, wenn sie Unionsrecht anwenden. Gerichte prüfen Maßnahmen der Verwaltung grundsätzlich vollständig auf ihre Verhältnismäßigkeit, bei Gesetzen gesteht man dem Gesetzgeber jedoch einen Einschätzungsspielraum zu, besonders wenn die Folgen einer Regelung schwer vorherzusagen sind. Der Grundsatz verbietet es nicht, schwere Eingriffe vorzunehmen; sie bedürfen jedoch einer entsprechend gewichtigen Rechtfertigung. Welche Mittel in der Praxis zur Wahl stehen, wird im Einzelfall anhand der konkreten Umstände beurteilt.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Eine Maßnahme ist bereits verhältnismäßig, wenn sie ein legitimes Ziel verfolgt und dafür geeignet ist.",
+   "Der Grundsatz der Verhältnismäßigkeit verbietet schwere Eingriffe in die Rechte der Bürger.",
+   "Eine geeignete und erforderliche Maßnahme kann dennoch unangemessen und damit unverhältnismäßig sein.",
+   "Gerichte prüfen Gesetze ebenso umfassend wie Maßnahmen der Verwaltung auf ihre Verhältnismäßigkeit."
+  ],
+  "answer": 2,
+  "why": [
+   "Falsch: Es muss zusätzlich „kein milderes, gleich wirksames Mittel“ bestehen und der Eingriff darf nicht „außer Verhältnis“ zum Nutzen stehen.",
+   "Falsch: Der Grundsatz „verbietet es nicht, schwere Eingriffe vorzunehmen“; sie brauchen eine gewichtige Rechtfertigung.",
+   "Richtig: Der letzte Schritt, die Angemessenheit, kann scheitern, obwohl die Maßnahme „geeignet und erforderlich“ ist.",
+   "Falsch: Bei Gesetzen gesteht man dem Gesetzgeber „einen Einschätzungsspielraum“ zu, bei der Verwaltung wird „vollständig“ geprüft."
+  ],
+  "traps": [
+   "Teilweise richtig",
+   "Gegenteil",
+   "Vergleich verdreht"
+  ]
+ }
+]
