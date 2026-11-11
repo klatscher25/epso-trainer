@@ -7,7 +7,7 @@ import { Rng, mixSeed } from './rng';
 
 export type Shape = 'arrow' | 'triangle' | 'circle' | 'square' | 'star' | 'line' | 'dot';
 const SHAPES: Shape[] = ['arrow', 'triangle', 'circle', 'square', 'star', 'line', 'dot'];
-const ROTMOD: Record<Shape, number> = { arrow: 8, triangle: 8, circle: 1, square: 2, star: 1, line: 4, dot: 1 };
+const ROTMOD: Record<Shape, number> = { arrow: 8, triangle: 8, circle: 1, square: 2, star: 8, line: 4, dot: 1 };
 const HASFILL: Record<Shape, boolean> = { arrow: false, triangle: true, circle: true, square: true, star: true, line: false, dot: false };
 type Dim = 'n' | 'pos' | 'rot' | 'fill' | 'size';
 const DIMS: Dim[] = ['n', 'pos', 'rot', 'fill', 'size'];
@@ -53,10 +53,13 @@ export function figCanon(f: Fig): string {
   return f.map(trackCanon).sort().join('/');
 }
 function overlaps(f: Fig): boolean {
-  const seen = new Set<number>();
-  for (const t of f) for (const c of cells(t)) {
-    if (seen.has(c)) return true;
-    seen.add(c);
+  // Elemente dürfen nicht dasselbe oder ein waagerecht/senkrecht benachbartes Feld belegen (große Symbole würden sich berühren)
+  const all: number[] = [];
+  for (const t of f) for (const c of cells(t)) all.push(c);
+  for (let i = 0; i < all.length; i++) for (let j = i + 1; j < all.length; j++) {
+    const [ax, ay] = cellXY(all[i]);
+    const [bx2, by2] = cellXY(all[j]);
+    if (Math.abs(ax - bx2) + Math.abs(ay - by2) <= 1) return true;
   }
   return false;
 }
@@ -344,18 +347,19 @@ function variants(b: Built): Variant[] {
 
 /* ---------- Rendering ---------- */
 
-const BOX = 66;
-const CELL = 22;
+const BOX = 68;
+const C0 = 13; // Mitte des ersten Feldes
+const PITCH = 21;
 
 function cellXY(c: number): [number, number] {
   return c === 8 ? [1, 1] : RING[c];
 }
 
 function elemSvg(shape: Shape, cx: number, cy: number, rot: number, fill: number, size: number, pid: string): string {
-  const e = size ? 8.6 : 5;
+  const e = size ? 10.5 : 7;
   const f = fill === 1 ? 'currentColor' : fill === 2 ? `url(#${pid})` : 'none';
   const tr = `transform="translate(${cx.toFixed(1)} ${cy.toFixed(1)}) rotate(${rot * 45})"`;
-  const st = `stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"`;
+  const st = `stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"`;
   const n = (x: number) => x.toFixed(1);
   switch (shape) {
     case 'arrow':
@@ -378,15 +382,15 @@ function elemSvg(shape: Shape, cx: number, cy: number, rot: number, fill: number
     case 'line':
       return `<path ${tr} d="M${n(-e)} 0H${n(e)}" fill="none" ${st}/>`;
     case 'dot':
-      return `<circle cx="${n(cx)}" cy="${n(cy)}" r="${n(e * 0.5)}" fill="currentColor" stroke="none"/>`;
+      return `<circle cx="${n(cx)}" cy="${n(cy)}" r="${n(e * 0.62)}" fill="currentColor" stroke="none"/>`;
   }
 }
 
 function boxSvg(f: Fig, x: number, y: number, pid: string, accent = false): string {
-  let s = `<rect x="${x}" y="${y}" width="${BOX}" height="${BOX}" fill="none" stroke="${accent ? 'var(--accent)' : 'currentColor'}" stroke-width="${accent ? 3.2 : 1.5}"/>`;
+  let s = `<rect x="${x}" y="${y}" width="${BOX}" height="${BOX}" fill="none" stroke="${accent ? 'var(--accent)' : 'currentColor'}" stroke-width="${accent ? 4 : 2}"/>`;
   for (const t of f) for (const c of cells(t)) {
     const [gx, gy] = cellXY(c);
-    s += elemSvg(t.shape, x + (gx + 0.5) * CELL, y + (gy + 0.5) * CELL, t.rot, t.fill, t.size, pid);
+    s += elemSvg(t.shape, x + C0 + gx * PITCH, y + C0 + gy * PITCH, t.rot, t.fill, t.size, pid);
   }
   return s;
 }
@@ -394,11 +398,11 @@ function boxSvg(f: Fig, x: number, y: number, pid: string, accent = false): stri
 function svgOpen(h: number, label: string, pid: string): string {
   return (
     `<svg viewBox="0 0 360 ${h}" width="100%" style="max-width:480px;display:block;margin:0 auto" role="img" aria-label="${label}" font-family="inherit">` +
-    `<defs><pattern id="${pid}" width="3" height="3" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="3" stroke="currentColor" stroke-width="1.1"/></pattern></defs>`
+    `<defs><pattern id="${pid}" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="5" stroke="currentColor" stroke-width="1.7"/></pattern></defs>`
   );
 }
 
-const bx = (i: number) => 3 + i * 72;
+const bx = (i: number) => 2 + i * 72;
 
 function stimulusSvg(shown: Fig[], uid: string): string {
   const pid = `p${uid}s`;
@@ -420,7 +424,7 @@ function solutionSvg(shown: Fig[], ans: Fig, letter: string, uid: string): strin
   let s = svgOpen(172, 'Lösung: Reihe mit richtiger Figur', pid);
   shown.forEach((f, i) => (s += boxSvg(f, bx(i), 3, pid)));
   s += `<text x="180" y="96" text-anchor="middle" font-size="13" fill="currentColor">↓ sechste Figur = Antwort ${letter}</text>`;
-  s += boxSvg(ans, 147, 103, pid, true);
+  s += boxSvg(ans, 146, 103, pid, true);
   return s + '</svg>';
 }
 

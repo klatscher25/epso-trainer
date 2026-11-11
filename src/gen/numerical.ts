@@ -21,6 +21,33 @@ interface Ind {
 }
 
 const COUNTRIES = ['Belgien', 'Dänemark', 'Deutschland', 'Finnland', 'Frankreich', 'Griechenland', 'Irland', 'Italien', 'Niederlande', 'Österreich', 'Polen', 'Portugal', 'Schweden', 'Spanien', 'Tschechien', 'Ungarn'];
+// Grobe reale Größenordnungen (2020er): Bevölkerung in Mio., BIP in Mrd. €
+const BASE: Record<string, { pop: number; gdp: number; u: number }> = {
+  Belgien: { pop: 11.6, gdp: 580, u: 6 }, Dänemark: { pop: 5.9, gdp: 400, u: 5 }, Deutschland: { pop: 83.2, gdp: 3900, u: 4 }, Finnland: { pop: 5.5, gdp: 270, u: 8 },
+  Frankreich: { pop: 67.8, gdp: 2600, u: 8 }, Griechenland: { pop: 10.4, gdp: 200, u: 14 }, Irland: { pop: 5.1, gdp: 500, u: 5 }, Italien: { pop: 59.0, gdp: 1900, u: 9 },
+  Niederlande: { pop: 17.6, gdp: 1000, u: 4 }, Österreich: { pop: 9.0, gdp: 480, u: 5 }, Polen: { pop: 37.7, gdp: 700, u: 3.5 }, Portugal: { pop: 10.3, gdp: 240, u: 7 },
+  Schweden: { pop: 10.5, gdp: 560, u: 8 }, Spanien: { pop: 47.4, gdp: 1350, u: 13 }, Tschechien: { pop: 10.7, gdp: 290, u: 3 }, Ungarn: { pop: 9.7, gdp: 180, u: 4.5 },
+};
+const pl = (i: Ind) => ['exp', 'bes', 'fue', 'emi'].includes(i.key);
+const vb = (i: Ind, sg: string, plu: string) => (pl(i) ? plu : sg);
+const jit = (r: Rng, p: number) => r.float(1 - p, 1 + p);
+function indBase(r: Rng, ind: Ind, c: string): number {
+  const b = BASE[c];
+  switch (ind.key) {
+    case 'alq': return b.u * jit(r, 0.25);
+    case 'pop': return b.pop * jit(r, 0.01);
+    case 'exp': return b.gdp * r.float(0.18, 0.42);
+    case 'en': return b.pop * r.float(2.0, 3.6);
+    case 'fue': return b.gdp * r.float(0.01, 0.032);
+    case 'emi': return b.pop * r.float(5, 9);
+    default: return ind.lo + (ind.hi - ind.lo) * r.next();
+  }
+}
+function allPairs(n: number): [number, number][] {
+  const o: [number, number][] = [];
+  for (let i = 0; i < n; i++) for (let j = 0; j < n; j++) if (i !== j) o.push([i, j]);
+  return o;
+}
 const PROGRAMS = ['Erasmus+', 'Horizont', 'LIFE', 'Digital EU', 'Kreativ EU', 'EU4Health', 'Binnenmarkt', 'Justiz'];
 const CITIES = ['Wien', 'Lyon', 'Porto', 'Gent', 'Turin', 'Brünn', 'Aarhus', 'Graz', 'Split', 'Bremen', 'Malmö', 'Cork'];
 const POOLS = { c: COUNTRIES, p: PROGRAMS, s: CITIES };
@@ -54,11 +81,12 @@ function makeSeries(r: Rng, ind: Ind, ne: number, ny: number): Series {
   const ents = sortDe(r.shuffle(POOLS[ind.set]).slice(0, ne));
   const y0 = r.int(2008, 2023 - ny);
   const years = Array.from({ length: ny }, (_, i) => y0 + i);
-  const v = ents.map(() => {
-    let base = ind.lo + (ind.hi - ind.lo) * (0.08 + 0.92 * Math.pow(r.next(), 1.25));
+  const v = ents.map((_, ei) => {
+  const ent = ents[ei];
+    let base = ind.set === 'c' ? indBase(r, ind, ent) : ind.lo + (ind.hi - ind.lo) * (0.08 + 0.92 * Math.pow(r.next(), 1.25));
     return years.map((_, i) => {
       if (i > 0) {
-        if (ind.rate) base = Math.min(18, Math.max(2.5, base + r.float(-1.6, 1.6)));
+        if (ind.rate) base = Math.min(20, Math.max(2, base + r.float(-0.7, 0.7)));
         else base *= 1 + r.float(ind.gr[0], ind.gr[1]);
       }
       return rd(base, ind.dec);
@@ -159,6 +187,7 @@ interface Spec {
   minGap?: number;
   estimate?: boolean;
   allowNeg?: boolean;
+  pad?: Cand[]; // Ersatz-Ablenker (Verhältnisse)
 }
 interface Template {
   id: string;
@@ -223,7 +252,21 @@ function assemble(spec: Spec, r: Rng, seed: number, tpl: Template): GenItem | nu
   const m = r.next();
   const mode = m < 0.075 ? 'noneCorrect' : m < 0.15 ? 'noneDistractor' : 'normal';
   const sep = mode === 'noneCorrect' ? Math.max(minGap, 0.05) : minGap;
-  for (const c of pool) {
+  // Ablenker bevorzugt nahe am richtigen Wert (Fehlerwerte 5–40 %), dann Ersatzwerte, zuletzt weit entfernte Fehlerwerte
+  const WIN = 0.4;
+  const nearP = pool.filter((c) => gap(c.v, tc.v) <= WIN);
+  const farP = pool.filter((c) => gap(c.v, tc.v) > WIN);
+  let pad: Cand[] = [];
+  if (spec.pad) pad = r.shuffle(spec.pad).filter((c) => gap(c.v, tc.v) <= 0.5 && !seen.has(c.t!));
+  else if (!spec.truth) {
+    for (const dl of r.shuffle(est ? [-0.4, -0.3, -0.2, 0.2, 0.3, 0.45, 0.6] : [-0.3, -0.22, -0.15, -0.09, -0.05, 0.05, 0.09, 0.15, 0.22, 0.3, 0.4])) {
+      const c = mk(truth * (1 + dl));
+      if (c && !seen.has(c.t!)) pad.push(c);
+    }
+  }
+  for (const c of [...nearP, ...pad, ...farP]) {
+    if (chosen.length >= 4) break;
+    if (c.t === tc.t || chosen.some((x) => x.t === c.t)) continue;
     if (gap(c.v, tc.v) < sep) continue;
     if (chosen.some((x) => gap(x.v, c.v) < minGap)) continue;
     chosen.push(c);
@@ -247,7 +290,7 @@ function assemble(spec: Spec, r: Rng, seed: number, tpl: Template): GenItem | nu
   const steps = spec.steps.slice();
   if (est) steps.push(`Schätzaufgabe: gerundet ≈ ${tc.t}.`);
   steps.push(mode === 'noneCorrect' ? `Der richtige Wert (${tc.t}) steht unter A–D nicht zur Auswahl, also E) ${NONE}.` : `Antwort: ${LETTERS[answer]}) ${tc.t}.`);
-  const prompt = (est ? 'Schätzen Sie: ' : '') + spec.prompt + (est || !spec.note ? '' : ` ${spec.note}`);
+  const prompt = (est ? 'Welcher Wert kommt dem Ergebnis am nächsten (Schätzaufgabe)? ' : '') + spec.prompt + (est || !spec.note ? '' : ` ${spec.note}`);
   const hidden: Hidden = { optVals: opts.map((o) => o.v), data: spec.data, solve: spec.solve, tol, noneIdx: mode === 'normal' ? -1 : 4 };
   const item: GenItem = {
     id: `num-${seed}`,
@@ -312,7 +355,7 @@ const P1: Template = {
     const t = solve({ a, b });
     return {
       data: { a, b }, solve, stimulus: renderSeries(s, sh.mode, uid),
-      prompt: `Wie viel Prozent ${ind.gen} von ${B} entsprach im Jahr ${Y} ${ind.nom} von ${A}?`,
+      prompt: `Wie viel Prozent ${ind.gen} von ${B} ${vb(ind, 'entsprach', 'entsprachen')} im Jahr ${Y} ${ind.nom} von ${A}?`,
       note: `(${rn(1)})`, dec: 1, unit: `${NB}%`,
       distract: [(b / a) * 100, ((a - b) / b) * 100, ((a - b) / a) * 100, (a / (a + b)) * 100, t * 10, t / 10],
       steps: [`1. Wert ${A} ${Y}: ${fmt(a, ind.dec)}; Wert ${B} ${Y}: ${fmt(b, ind.dec)} (${ind.unit}).`, `2. Anteil = ${fmt(a, ind.dec)} / ${fmt(b, ind.dec)} × 100 = ${fmt(t, 1)} %.`],
@@ -368,8 +411,8 @@ const P3: Template = {
     return {
       data: { a, b }, solve, stimulus: renderSeries(s, sh.mode, uid),
       prompt: pp
-        ? `Um wie viele Prozentpunkte ist ${ind.nom} von ${s.ents[e]} zwischen ${s.years[y1]} und ${s.years[y2]} ${dir}?`
-        : `Um wie viel Prozent ist ${ind.nom} von ${s.ents[e]} zwischen ${s.years[y1]} und ${s.years[y2]} ${dir}? (Veränderung relativ zum Wert in ${s.years[y1]})`,
+        ? `Um wie viele Prozentpunkte ${vb(ind, 'ist', 'sind')} ${ind.nom} von ${s.ents[e]} zwischen ${s.years[y1]} und ${s.years[y2]} ${dir}?`
+        : `Um wie viel Prozent ${vb(ind, 'ist', 'sind')} ${ind.nom} von ${s.ents[e]} zwischen ${s.years[y1]} und ${s.years[y2]} ${dir}? (Veränderung relativ zum Wert in ${s.years[y1]})`,
       note: `(${rn(1)})`, dec: 1, unit: pp ? `${NB}Prozentpunkte` : `${NB}%`,
       distract: pp ? [(d / a) * 100, (d / b) * 100, diff2, d * 10, d / 10] : [d, (d / b) * 100, (d / a) * 10, t * 10, (diff2 / s.v[e2][y1]) * 100],
       steps: [`1. ${s.ents[e]}: ${fmt(a, 1)} % (${s.years[y1]}) und ${fmt(b, 1)} % (${s.years[y2]}).`, pp ? `2. Differenz = |${fmt(b, 1)} − ${fmt(a, 1)}| = ${fmt(t, 1)} Prozentpunkte.` : `2. Differenz = ${fmt(d, 1)} Prozentpunkte; relativ zum Ausgangswert: ${fmt(d, 1)} / ${fmt(a, 1)} × 100 = ${fmt(t, 1)} %.`],
@@ -383,7 +426,7 @@ const P4: Template = {
   build(r) {
     const n = r.int(3, 5);
     const names = sortDe(r.shuffle(COUNTRIES).slice(0, n));
-    const rows = names.map(() => ({ pop: rd(r.float(5, 40), 1), e: rd(r.float(46, 66), 1), u: rd(r.float(3.5, 14), 1) }));
+    const rows = names.map((nm) => ({ pop: rd(BASE[nm].pop * jit(r, 0.02), 1), e: rd(r.float(46, 66), 1), u: rd(BASE[nm].u * jit(r, 0.3), 1) }));
     const k = r.int(0, n - 1);
     const year = r.int(2012, 2023);
     const solve = (d: any) => d.pop * 1000 * (d.e / 100) * (d.u / 100);
@@ -536,7 +579,7 @@ const W1: Template = {
     const t = solve({ a, b });
     return {
       data: { a, b }, solve, stimulus: renderSeries(s, sh.mode, uid),
-      prompt: `Wie hat sich ${ind.nom} von ${s.ents[e]} von ${s.years[y1]} bis ${s.years[y2]} in Prozent verändert?`,
+      prompt: `Wie ${vb(ind, 'hat', 'haben')} sich ${ind.nom} von ${s.ents[e]} von ${s.years[y1]} bis ${s.years[y2]} in Prozent verändert?`,
       note: `(${rn(1)}; Rückgang mit Minuszeichen)`, dec: 1, unit: `${NB}%`, allowNeg: true,
       distract: [((b - a) / b) * 100, (b / a) * 100, (a / b) * 100, -t, b - a, ((b - a) / a) * 10],
       steps: [`1. ${s.ents[e]}: ${fmt(a, ind.dec)} (${s.years[y1]}) → ${fmt(b, ind.dec)} (${s.years[y2]}).`, `2. Veränderung = (${fmt(b, ind.dec)} − ${fmt(a, ind.dec)}) / ${fmt(a, ind.dec)} × 100 = ${fmt(t, 1)} %.`],
@@ -590,7 +633,7 @@ const W3: Template = {
         groups: [{ h: 'Veränderung ggü. Vorjahr', u: 'in %', span: ny }], subs: Array.from({ length: ny }, (_, i) => String(y0 + 1 + i)),
         rows: names.map((nm, i) => [nm, ...g[i].map((x) => fmt(x, 1))]),
       }),
-      prompt: `Um wie viel Prozent lag ${ind.nom} von ${names[e]} Ende ${y0 + ny} über bzw. unter dem Wert von Ende ${y0}?`,
+      prompt: `Um wie viel Prozent ${vb(ind, 'lag', 'lagen')} ${ind.nom} von ${names[e]} Ende ${y0 + ny} über bzw. unter dem Wert von Ende ${y0}?`,
       note: `(${rn(1)}; Rückgang mit Minuszeichen)`, dec: 1, unit: `${NB}%`, allowNeg: true,
       distract: [sum, sum / ny, (g[e].slice(0, -1).reduce((p, x) => p * (1 + x / 100), 1) - 1) * 100, g[e][ny - 1], (g[e].reduce((p, x) => p * (1 - x / 100), 1) - 1) * 100, -t],
       steps: [`1. ${names[e]}: ${g[e].map((x) => fmt(x, 1, true) + ' %').join(', ')}.`, `2. Faktoren: ${fac} = ${fmt(g[e].reduce((p, x) => p * (1 + x / 100), 1), 4)}.`, `3. Gesamtveränderung = ${fmt(t, 1)} %.`],
@@ -606,7 +649,7 @@ const W4: Template = {
     const n = r.int(3, 5);
     const names = sortDe(r.shuffle(POOLS[ind.set]).slice(0, n));
     const y1 = r.int(2012, 2021), y2 = y1 + r.int(1, 3);
-    const rows = names.map(() => ({ b: rd(r.float(ind.lo, ind.hi), 0), g: rd(r.pick([-1, 1, 1]) * r.float(4, 22), 1) }));
+    const rows = names.map((nm) => ({ b: rd(ind.set === 'c' ? indBase(r, ind, nm) : r.float(ind.lo, ind.hi), 0), g: rd(r.pick([-1, 1, 1]) * r.float(4, 22), 1) }));
     const e = r.int(0, n - 1);
     const { b, g } = rows[e];
     const solve = (d: any) => d.b / (1 + d.g / 100);
@@ -618,7 +661,7 @@ const W4: Template = {
         groups: [{ h: `${ind.name} ${y2}`, u: ind.unit, span: 1 }, { h: `Veränderung ${y1}–${y2}`, u: 'in %', span: 1 }],
         rows: names.map((nm, i) => [nm, fmt(rows[i].b), fmt(rows[i].g, 1, true)]),
       }),
-      prompt: `Wie hoch war ${ind.nom} von ${names[e]} im Jahr ${y1} (in ${ind.unit})?`,
+      prompt: `Wie hoch ${vb(ind, 'war', 'waren')} ${ind.nom} von ${names[e]} im Jahr ${y1} (in ${ind.unit})?`,
       note: `(${rn(1)})`, dec: 1,
       distract: [b * (1 - g / 100), b * (1 + g / 100), b / (g / 100), b - g, b / (1 - g / 100)],
       steps: [`1. ${y2}: ${fmt(b)} ${ind.unit}; Veränderung ${fmt(g, 1, true)} %, also Faktor ${fmt(1 + g / 100, 3)}.`, `2. Ausgangswert ${y1} = ${fmt(b)} / ${fmt(1 + g / 100, 3)} = ${fmt(t, 1)} ${ind.unit}.`],
@@ -635,6 +678,11 @@ function ratioCand(a: number, b: number): Cand {
   const g = gcd(a, b);
   return { v: a / b, t: `${a / g}:${b / g}` };
 }
+const SIMPLE: Cand[] = (() => {
+  const o: Cand[] = [];
+  for (let a = 1; a <= 6; a++) for (let b = 1; b <= 6; b++) if (gcd(a, b) === 1) o.push(ratioCand(a, b));
+  return o;
+})();
 function nearestSimple(x: number, maxN = 6): Cand {
   let best: [number, number] = [1, 1];
   let bd = Infinity;
@@ -648,26 +696,27 @@ const V1: Template = {
     const ind = pickInd(r, (i) => !i.rate && (i.dec === 0 || i.key === 'pop' || i.key === 'fue'));
     const sh = pickShape(r, { minEnts: 2 });
     const s = makeSeries(r, ind, sh.ne, sh.ny);
-    const [i, j] = pickTwo(r, s.ents.length);
     const y = r.int(0, s.years.length - 1);
-    const [pa, pb] = r.pick(RATIOS);
-    const u = ind.dec === 0 ? r.int(Math.ceil(30 / Math.min(pa, pb)), Math.floor(Math.min(ind.hi, 900) / Math.max(pa, pb))) : rd(r.float(2, 12), 1);
-    if (!(u > 0)) return null;
-    const vb = rd(pb * u, ind.dec), va = rd(pa * u, ind.dec);
-    if (va < ind.lo * 0.5 || vb < ind.lo * 0.5) return null;
-    for (const [k, nv] of [[i, va], [j, vb]] as [number, number][]) {
-      const old = s.v[k].slice();
-      const f = nv / old[y];
-      s.v[k] = old.map((x, yy) => (yy === y ? nv : rd(x * f, ind.dec)));
+    let found: [number, number, number, number, number] | null = null;
+    for (const [i0, j0] of r.shuffle(allPairs(s.ents.length))) {
+      const va0 = s.v[i0][y], vb0 = s.v[j0][y];
+      let best = RATIOS[0];
+      for (const q of RATIOS) if (Math.abs(Math.log(va0 / vb0 / (q[0] / q[1]))) < Math.abs(Math.log(va0 / vb0 / (best[0] / best[1])))) best = q;
+      const nb = rd((va0 * best[1]) / best[0], ind.dec);
+      if (nb > 0 && Math.abs(nb - vb0) / vb0 <= 0.15 && Math.abs(va0 / nb - best[0] / best[1]) / (best[0] / best[1]) <= 0.01) { found = [i0, j0, best[0], best[1], nb]; break; }
     }
+    if (!found) return null;
+    const [i, j, pa, pb, vb] = found;
+    const va = s.v[i][y];
+    { const old = s.v[j].slice(); const f = vb / old[y]; s.v[j] = old.map((x, yy) => (yy === y ? vb : rd(x * f, ind.dec))); }
     const solve = (d: any) => d.a / d.b;
-    if (Math.abs(va / vb - pa / pb) / (pa / pb) > 0.01) return null;
     const A = s.ents[i], B = s.ents[j];
     const cand = ratioCand(pa, pb);
     return {
       data: { a: va, b: vb }, solve, stimulus: renderSeries(s, sh.mode, uid),
       prompt: `Wie lautet im Jahr ${s.years[y]} das Verhältnis ${ind.gen} zwischen ${A} und ${B} (${A} : ${B})?`,
       truth: cand, dec: 2, tol: 0.02, minGap: 0.06,
+      pad: SIMPLE,
       distract: [ratioCand(pb, pa), ratioCand(pa + 1, pb), ratioCand(pa, pb + 1), ratioCand(pa * 2, pb), ratioCand(pa, pb * 2), nearestSimple((va - vb) / vb + 1.0001, 6), ratioCand(pa + pb, pb), ratioCand(pa, pa + pb)].filter((c) => c.v < 12 && c.v > 0.08),
       steps: [`1. ${A} ${s.years[y]}: ${fmt(va, ind.dec)}; ${B} ${s.years[y]}: ${fmt(vb, ind.dec)} (${ind.unit}).`, `2. Verhältnis = ${fmt(va, ind.dec)} : ${fmt(vb, ind.dec)} ≈ ${fmt(va / vb, 2)} : 1 = ${cand.t} (gekürzt).`],
       tip: 'Beide Werte durch den kleineren teilen und mit dem nächsten einfachen Bruch vergleichen; Reihenfolge „erste zu zweiter“ beachten.',
@@ -681,9 +730,9 @@ const V2: Template = {
     const n = r.int(3, 5);
     const names = sortDe(r.shuffle(COUNTRIES).slice(0, n));
     const year = r.int(2012, 2023);
-    const rows = names.map(() => {
-      const pop = r.int(30, 450) * 100;
-      return { pop, exp: Math.round((pop * r.float(0.06, 1.8)) / 10) * 10 };
+    const rows = names.map((nm) => {
+      const pop = Math.round((BASE[nm].pop * 1000 * jit(r, 0.02)) / 10) * 10;
+      return { pop, exp: Math.round((BASE[nm].gdp * 1000 * jit(r, 0.05) * r.float(0.035, 0.065)) / 10) * 10 };
     });
     const e = r.int(0, n - 1);
     const { pop, exp } = rows[e];
@@ -711,14 +760,19 @@ const V3: Template = {
     const n = r.int(4, 5);
     const names = sortDe(r.shuffle(COUNTRIES).slice(0, n));
     const year = r.int(2000, 2023);
-    const [pa, pb] = r.pick(RATIOS);
-    const u = r.int(20, 60);
-    const [i, j] = pickTwo(r, n);
-    const rows = names.map(() => ({ s: rd(r.float(1.2, 4.2), 2), exp: 0 }));
-    rows.forEach((x, k) => {
-      const gdp = k === i ? pa * u * 1000 : k === j ? pb * u * 1000 : r.int(40, 2000) * 1000;
-      x.exp = Math.round((gdp * x.s) / 100);
-    });
+    const gdps = names.map((nm) => BASE[nm].gdp * 1000 * jit(r, 0.04));
+    let found: [number, number, number, number] | null = null;
+    for (const [i0, j0] of r.shuffle(allPairs(n))) {
+      for (const [a, b] of r.shuffle(RATIOS)) {
+        const gj = (gdps[i0] * b) / a;
+        if (gj >= gdps[j0] * 0.8 && gj <= gdps[j0] * 1.25) { found = [i0, j0, a, b]; break; }
+      }
+      if (found) break;
+    }
+    if (!found) return null;
+    const [i, j, pa, pb] = found;
+    gdps[j] = (gdps[i] * pb) / pa;
+    const rows = names.map((_, k) => { const sh = rd(r.float(1.2, 4.2), 2); return { s: sh, exp: Math.round((gdps[k] * sh) / 100) }; });
     const solve = (d: any) => (d.e1 / d.s1) / (d.e2 / d.s2);
     const data = { e1: rows[i].exp, s1: rows[i].s, e2: rows[j].exp, s2: rows[j].s };
     if (Math.abs(solve(data) - pa / pb) / (pa / pb) > 0.01) return null;
@@ -733,6 +787,7 @@ const V3: Template = {
       }),
       prompt: `Wie war im Jahr ${year} das Verhältnis des BIP von ${names[i]} zum BIP von ${names[j]}?`,
       truth: cand, dec: 2, tol: 0.02, minGap: 0.06,
+      pad: SIMPLE,
       distract: [ratioCand(pb, pa), nearestSimple(data.e1 / data.e2), nearestSimple(data.s1 / data.s2), nearestSimple(data.s2 / data.s1), nearestSimple((data.e1 * data.s1) / (data.e2 * data.s2))].filter((c) => c.v > 0.08 && c.v < 12),
       steps: [`1. BIP = FuE-Ausgaben / Anteil am BIP. ${names[i]}: ${fmt(data.e1)} / ${fmt(data.s1, 2)} % = ${fmt(g1)} Mio. €.`, `2. ${names[j]}: ${fmt(data.e2)} / ${fmt(data.s2, 2)} % = ${fmt(g2)} Mio. €.`, `3. Verhältnis = ${fmt(g1)} : ${fmt(g2)} ≈ ${fmt(g1 / g2, 2)} = ${cand.t}.`],
       tip: 'Das BIP steckt nicht in der Tabelle: Ausgaben ÷ Anteil. Beim Verhältnis die Prozentwerte nicht vergessen zu kehren (Anteil im Nenner).',
@@ -748,7 +803,7 @@ const A1: Template = {
     const n = r.int(3, 5);
     const names = sortDe(r.shuffle(COUNTRIES).slice(0, n));
     const year = r.int(2000, 2023);
-    const rows = names.map(() => ({ s: rd(r.float(1.2, 4.2), 2), exp: r.int(1500, 42000) }));
+    const rows = names.map((nm) => { const sh = rd(r.float(1.2, 4.2), 2); return { s: sh, exp: Math.round((BASE[nm].gdp * 1000 * jit(r, 0.05) * sh) / 100) }; });
     const e = r.int(0, n - 1);
     const { s, exp } = rows[e];
     const solve = (d: any) => (d.exp / d.s) * 100;
@@ -775,11 +830,10 @@ const A2: Template = {
     const n = r.int(3, 5);
     const names = sortDe(r.shuffle(COUNTRIES).slice(0, n));
     const year = r.int(2000, 2023);
-    const rows = names.map(() => {
-      const pop = rd(r.float(4, 40), 1);
+    const rows = names.map((nm) => {
+      const pop = rd(BASE[nm].pop * jit(r, 0.02), 1);
       const s = rd(r.float(1.2, 4.2), 2);
-      const gdpPc = r.int(160, 450) * 100;
-      return { pop, s, exp: Math.round((pop * gdpPc * s) / 100) };
+      return { pop, s, exp: Math.round((BASE[nm].gdp * 1000 * jit(r, 0.05) * s) / 100) };
     });
     const e = r.int(0, n - 1);
     const { pop, s, exp } = rows[e];
@@ -808,9 +862,9 @@ const A4: Template = {
     const n = r.int(3, 5);
     const names = sortDe(r.shuffle(COUNTRIES).slice(0, n));
     const year = r.int(2005, 2023);
-    const rows = names.map(() => {
-      const pop = r.int(55, 600) / 10;
-      const per = r.int(30, 400) * 10;
+    const rows = names.map((nm) => {
+      const pop = BASE[nm].pop * jit(r, 0.02);
+      const per = Math.round(((BASE[nm].gdp * 1000) / BASE[nm].pop * r.float(0.07, 0.12)) / 10) * 10;
       return { per, exp: Math.round(pop * per) };
     });
     const e = r.int(0, n - 1);
@@ -973,7 +1027,7 @@ const M1: Template = {
     const o = s.v[(e + 1) % s.ents.length];
     return {
       data: { vals }, solve, stimulus: renderSeries(s, sh.mode, uid),
-      prompt: `Wie hoch war ${ind.nom} von ${s.ents[e]} im Durchschnitt der Jahre ${s.years[0]} bis ${s.years[s.years.length - 1]} (in ${ind.unit})?`,
+      prompt: `Wie hoch ${vb(ind, 'war', 'waren')} ${ind.nom} von ${s.ents[e]} im Durchschnitt der Jahre ${s.years[0]} bis ${s.years[s.years.length - 1]} (in ${ind.unit})?`,
       note: `(${rn(ind.dec === 0 ? 1 : 2)})`, dec: ind.dec === 0 ? 1 : 2,
       distract: [(vals[0] + vals[vals.length - 1]) / 2, med, sum, sum / (vals.length + 1), (sum - vals[0]) / (vals.length - 1), o.reduce((p, x) => p + x, 0) / o.length, (sum - vals[vals.length - 1]) / (vals.length - 1)],
       steps: [`1. Summe: ${vals.map((x) => fmt(x, ind.dec)).join(' + ')} = ${fmt(sum, ind.dec)}.`, `2. Durchschnitt = ${fmt(sum, ind.dec)} / ${vals.length} = ${fmt(t, 2)} ${ind.unit}.`],
@@ -1003,7 +1057,7 @@ const M2: Template = {
     const dec = ind.dec === 0 ? 1 : 2;
     return {
       data, solve, stimulus: renderSeries(s, sh.mode, uid),
-      prompt: `Um wie viel (in ${ind.unit}) weicht ${ind.nom} von ${s.ents[i]} im Jahr ${s.years[y]} vom Durchschnitt aller dargestellten ${NOUN_PL[ind.set]} ab?`,
+      prompt: `Um wie viel (in ${ind.unit}) ${vb(ind, 'weicht', 'weichen')} ${ind.nom} von ${s.ents[i]} im Jahr ${s.years[y]} vom Durchschnitt aller dargestellten ${NOUN_PL[ind.set]} ab?`,
       note: `(${rn(dec)})`, dec,
       distract: [mean, Math.abs(vals[i] - med), Math.abs(vals[i] - (sum - vals[i]) / (n - 1)), Math.abs(vals[i] - Math.max(...vals)), (t / mean) * 100, Math.abs(vals[i] - sum / (n + 1))],
       steps: [`1. Durchschnitt ${s.years[y]} = (${vals.map((x) => fmt(x, ind.dec)).join(' + ')}) / ${n} = ${fmt(mean, 2)}.`, `2. ${s.ents[i]}: ${fmt(vals[i], ind.dec)}; Abweichung = |${fmt(vals[i], ind.dec)} − ${fmt(mean, 2)}| = ${fmt(t, 2)} ${ind.unit}.`],
@@ -1018,7 +1072,7 @@ const M3: Template = {
     const n = r.int(4, 5);
     const names = sortDe(r.shuffle(COUNTRIES).slice(0, n));
     const year = r.int(2010, 2023);
-    const rows = names.map(() => ({ pop: rd(r.float(4, 60), 1), u: rd(r.float(3, 16), 1) }));
+    const rows = names.map((nm) => ({ pop: rd(BASE[nm].pop * jit(r, 0.02), 1), u: rd(BASE[nm].u * jit(r, 0.3), 1) }));
     const idx = r.shuffle([...Array(n).keys()]).slice(0, 3).sort((a, b) => a - b);
     const sel = idx.map((k) => rows[k]);
     const solve = (d: any) => d.sel.reduce((p: number, x: any) => p + x.pop * x.u, 0) / d.sel.reduce((p: number, x: any) => p + x.pop, 0);
@@ -1043,13 +1097,99 @@ const M3: Template = {
   },
 };
 
+/* ---------- „Angenommen …“ ---------- */
+
+const H1: Template = {
+  id: 'h1', cat: 'wachstum', diff: 2,
+  build(r, uid) {
+    const ind = pickInd(r, (i) => !i.rate && i.key !== 'pop');
+    const sh = pickShape(r, { minEnts: 2, minYears: 2 });
+    const s = makeSeries(r, ind, sh.ne, sh.ny);
+    const e = r.int(0, s.ents.length - 1);
+    const last = s.v[e][s.years.length - 1];
+    const ly = s.years[s.years.length - 1];
+    const g = r.pick([4, 5, 6, 8, 10, 12, 15]);
+    const n = r.int(2, 3);
+    const solve = (d: any) => d.last * Math.pow(1 + d.g / 100, d.n);
+    const t = solve({ last, g, n });
+    const dec = ind.dec;
+    return {
+      data: { last, g, n }, solve, stimulus: renderSeries(s, sh.mode, uid),
+      prompt: `Angenommen, ${ind.nom} von ${s.ents[e]} ${vb(ind, 'wächst', 'wachsen')} nach ${ly} in jedem der nächsten ${n} Jahre um ${g} %. Wie hoch wäre der Wert im Jahr ${ly + n} (in ${ind.unit})?`,
+      note: `(${rn(dec)})`, dec,
+      distract: [last * (1 + (n * g) / 100), last * (1 + g / 100), last * Math.pow(1 + g / 100, n + 1), last * Math.pow(1 + g / 100, n - 1), last * (1 + g / 100) * (1 + (n - 1) * g / 200)],
+      steps: [`1. Letzter Wert (${ly}): ${fmt(last, dec)} ${ind.unit}; Faktor je Jahr: ${fmt(1 + g / 100, 2)}.`, `2. Nach ${n} Jahren: ${fmt(last, dec)} × ${fmt(1 + g / 100, 2)}^${n} = ${fmt(t, 2)} ${ind.unit}.`],
+      tip: 'Mehrjähriges Wachstum: Faktor potenzieren, nicht die Prozentsätze addieren.',
+    };
+  },
+};
+
+const H2: Template = {
+  id: 'h2', cat: 'wachstum', diff: 3,
+  build(r, uid) {
+    const ind = pickInd(r, (i) => !i.rate && i.key !== 'pop');
+    const sh = pickShape(r, { minEnts: 2, minYears: 2 });
+    const s = makeSeries(r, ind, sh.ne, sh.ny);
+    const e = r.int(0, s.ents.length - 1);
+    const y1 = 0, y2 = s.years.length - 1;
+    const a = s.v[e][y1], b = s.v[e][y2];
+    const g = r.pick([5, 8, 10, 12, 15, 20]);
+    const solve = (d: any) => ((d.b * (1 + d.g / 100)) / d.a - 1) * 100;
+    const t = solve({ a, b, g });
+    if (t < 6) return null;
+    const cur = ((b - a) / a) * 100;
+    return {
+      data: { a, b, g }, solve, stimulus: renderSeries(s, sh.mode, uid), allowNeg: true,
+      prompt: `Angenommen, ${ind.nom} von ${s.ents[e]} ${vb(ind, 'steigt', 'steigen')} ${s.years[y2] + 1} um ${g} % gegenüber ${s.years[y2]}. Um wie viel Prozent läge der Wert ${s.years[y2] + 1} dann über dem Wert von ${s.years[y1]}?`,
+      note: `(${rn(1)})`, dec: 1, unit: `${NB}%`,
+      distract: [cur + g, cur, (b * (1 + g / 100) - a), ((b * (1 + g / 100)) / a) * 100, ((a * (1 + g / 100)) / b - 1) * 100, ((b - a) / a) * 100 * (1 + g / 100)],
+      steps: [`1. ${s.years[y1]}: ${fmt(a, ind.dec)}; ${s.years[y2]}: ${fmt(b, ind.dec)}.`, `2. Wert ${s.years[y2] + 1} = ${fmt(b, ind.dec)} × ${fmt(1 + g / 100, 2)} = ${fmt(b * (1 + g / 100), 2)}.`, `3. Veränderung ggü. ${s.years[y1]} = (${fmt(b * (1 + g / 100), 2)} − ${fmt(a, ind.dec)}) / ${fmt(a, ind.dec)} × 100 = ${fmt(t, 1)} %.`],
+      tip: 'Prozentsätze verschiedener Zeiträume nie addieren – erst den neuen Wert bestimmen, dann zum Ausgangswert in Beziehung setzen.',
+    };
+  },
+};
+
+const H3: Template = {
+  id: 'h3', cat: 'ableitung', diff: 3,
+  build(r) {
+    const n = r.int(3, 5);
+    const names = sortDe(r.shuffle(COUNTRIES).slice(0, n));
+    const y1 = r.int(2005, 2016), y2 = y1 + r.int(3, 6);
+    const rows = names.map((nm) => {
+      const g1 = BASE[nm].gdp * 1000 * jit(r, 0.05);
+      const g2 = g1 * r.float(1.08, 1.28);
+      const s1 = rd(r.float(1.3, 3.4), 2), s2 = rd(s1 * r.float(0.85, 1.25), 2);
+      return { e1: Math.round((g1 * s1) / 100), e2: Math.round((g2 * s2) / 100), s1, s2 };
+    });
+    const k = r.int(0, n - 1);
+    const x = rows[k];
+    const solve = (d: any) => ((d.e2 / d.s2) / (d.e1 / d.s1) - 1) * 100;
+    const t = solve(x);
+    const eg = (x.e2 / x.e1 - 1) * 100, sg = (x.s2 / x.s1 - 1) * 100;
+    return {
+      data: x, solve,
+      stimulus: tableHtml({
+        title: 'FuE-Ausgaben nach Ländern', first: 'Land',
+        groups: [{ h: 'FuE-Ausgaben', u: 'in Mio. €', span: 2 }, { h: 'FuE-Ausgaben', u: 'in % des BIP', span: 2 }],
+        subs: [String(y1), String(y2), String(y1), String(y2)],
+        rows: names.map((nm, i) => [nm, fmt(rows[i].e1), fmt(rows[i].e2), fmt(rows[i].s1, 2), fmt(rows[i].s2, 2)]),
+      }),
+      prompt: `Um wie viel Prozent ist das BIP von ${names[k]} zwischen ${y1} und ${y2} gestiegen?`,
+      note: `(${rn(1)})`, dec: 1, unit: `${NB}%`, allowNeg: true,
+      distract: [eg, eg - sg, eg + sg, sg, ((x.e2 / x.s2) / (x.e1 / x.s1)) * 100, (x.e2 / x.s2 - x.e1 / x.s1) / 100],
+      steps: [`1. BIP ${y1} = ${fmt(x.e1)} / ${fmt(x.s1, 2)} % = ${fmt((x.e1 / x.s1) * 100)} Mio. €.`, `2. BIP ${y2} = ${fmt(x.e2)} / ${fmt(x.s2, 2)} % = ${fmt((x.e2 / x.s2) * 100)} Mio. €.`, `3. Wachstum = ${fmt((x.e2 / x.s2) * 100)} / ${fmt((x.e1 / x.s1) * 100)} − 1 = ${fmt(t, 1)} %.`],
+      tip: 'Das BIP steht nirgends: erst für beide Jahre Ausgaben ÷ Anteil rechnen, dann das Wachstum bestimmen. Das Wachstum der Ausgaben allein ist ein Fehlerwert.',
+    };
+  },
+};
+
 /* ---------- Schätzen (gerundete Optionen, große Abstände) ---------- */
 
 function est(base: Template, id: string): Template {
   return { id, cat: 'schaetzen', diff: base.diff, build: (r, uid) => { const s = base.build(r, uid); return s ? { ...s, estimate: true } : null; } };
 }
 
-const TEMPLATES: Template[] = [P1, P2, P3, P4, PIE1, PIE2, PIE3, STACK, W1, W2, W3, W4, V1, V2, V3, A1, A2, A4, D1, D2, D3, D4, M1, M2, M3, est(P1, 's1'), est(V2, 's2'), est(A2, 's3')];
+const TEMPLATES: Template[] = [H1, H2, H3, P1, P2, P3, P4, PIE1, PIE2, PIE3, STACK, W1, W2, W3, W4, V1, V2, V3, A1, A2, A4, D1, D2, D3, D4, M1, M2, M3, est(P1, 's1'), est(V2, 's2'), est(A2, 's3')];
 
 export const CATEGORIES = [
   { id: 'prozent', label: 'Prozent & Anteile' },
@@ -1072,7 +1212,8 @@ export const numerical: Generator = {
       if (!pool.length) pool = TEMPLATES.filter((t) => t.cat === cat);
       if (!pool.length) pool = TEMPLATES;
       // gleichmäßig über Schwierigkeiten
-      const d = opts?.difficulty ?? r.pick([1, 2, 3] as const);
+      const dr = r.next();
+      const d = opts?.difficulty ?? (dr < 0.2 ? 1 : dr < 0.7 ? 2 : 3);
       const byDiff = pool.filter((t) => t.diff === d);
       const tpl = r.pick(byDiff.length ? byDiff : pool);
       const spec = tpl.build(r, `n${seed}`);
