@@ -89,7 +89,7 @@ Deno.serve(async (req) => {
     const r = await fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',
       headers: { 'x-api-key': key, 'anthropic-version': '2023-06-01', 'content-type': 'application/json' },
-      body: JSON.stringify({ model: Deno.env.get('GRADER_MODEL') ?? 'claude-sonnet-5-5', max_tokens: 1500, temperature: 0, system: SYSTEM, messages: [{ role: 'user', content: userMsg }] }),
+      body: JSON.stringify({ model: Deno.env.get('GRADER_MODEL') ?? 'claude-sonnet-5-5', max_tokens: 1500, system: SYSTEM, messages: [{ role: 'user', content: userMsg }] }),
     });
     const out = await r.json().catch(() => null);
     if (!r.ok || !out) return json(req, { error: 'Bewertungsdienst nicht erreichbar' }, 502);
