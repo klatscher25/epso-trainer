@@ -7,6 +7,7 @@ import { Progress } from './pages/Progress';
 import { Learn, Lesson } from './pages/Learn';
 import { Settings } from './pages/Settings';
 import { Essay } from './pages/Essay';
+import { Preview } from './pages/Preview';
 
 export function App() {
   const { segs } = useRoute();
@@ -18,6 +19,7 @@ export function App() {
     case 'progress': return <Progress />;
     case 'learn': return segs[1] ? <Lesson slug={segs[1]} /> : <Learn />;
     case 'settings': return <Settings />;
+    case 'preview': return <Preview id={segs[1] ?? ''} />;
     case 'essay': return <Essay />;
     default: return <Home />;
   }

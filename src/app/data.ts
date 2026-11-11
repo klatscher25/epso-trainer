@@ -22,6 +22,17 @@ export const verbalById = new Map(verbalPool.map((i) => [i.id, i]));
 
 export interface Lesson { slug: string; title: string; group: string; order: number; html: string }
 
+/** Für die Karten-Darstellung schmaler Tabellen: jede Zelle bekommt die Spaltenüberschrift als data-label. */
+export function labelCells(html: string): string {
+  return html.replace(/<table>[\s\S]*?<\/table>/g, (t) => {
+    const heads = [...(t.match(/<thead>[\s\S]*?<\/thead>/)?.[0] ?? '').matchAll(/<th[^>]*>([\s\S]*?)<\/th>/g)].map((m) => m[1].replace(/<[^>]+>/g, '').replace(/"/g, '&quot;'));
+    return t.replace(/<tbody>[\s\S]*?<\/tbody>/, (body) => body.replace(/<tr>[\s\S]*?<\/tr>/g, (tr) => {
+      let i = 0;
+      return tr.replace(/<td([^>]*)>/g, (_m, attrs) => `<td${attrs} data-label="${heads[i++] ?? ''}">`);
+    }));
+  });
+}
+
 export function parseLesson(path: string, raw: string): Lesson {
   const slug = path.split('/').pop()!.replace(/\.md$/, '');
   let title = slug, group = 'logik', order = 999, body = raw;
@@ -37,7 +48,7 @@ export function parseLesson(path: string, raw: string): Lesson {
       else if (kv[1] === 'order') order = Number(v) || 999;
     }
   }
-  return { slug, title, group, order, html: (marked.parse(body, { async: false }) as string).replace(/<table>/g, '<div class="tbl"><table>').replace(/<\/table>/g, '</table></div>') };
+  return { slug, title, group, order, html: labelCells(marked.parse(body, { async: false }) as string).replace(/<table>/g, '<div class="tbl"><table>').replace(/<\/table>/g, '</table></div>') };
 }
 
 export const lessons: Lesson[] = pick(lessonFiles && Object.fromEntries(Object.entries(lessonFiles).map(([p, r]) => [p, { p, r }])))

@@ -59,7 +59,7 @@ export function PracticeSession({ title, ids, perQuestionSec, mode, onDone, onEx
         </div>
         <button class="btn small ghost" onClick={onExit}>Beenden</button>
       </header>
-      <main class="rmain">
+      <main class={`rmain${revealed ? ' scroll' : ''}`}>
         <QuestionView key={q.id + idx} q={q} selected={chosen} onSelect={reveal} reveal={revealed}>
           {revealed ? (
             <div ref={fbRef} class="feedback" data-testid="feedback">

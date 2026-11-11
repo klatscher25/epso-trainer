@@ -1,10 +1,12 @@
 import { expect, test, type Page } from '@playwright/test';
+import fs from 'node:fs';
+import path from 'node:path';
 
 const SHOTS = 'docs/screenshots/';
-const shot = async (page: Page, name: string) => {
+const shot = async (page: Page, name: string, save = true) => {
   const ok = await page.evaluate(() => document.scrollingElement!.scrollWidth <= window.innerWidth);
   expect(ok, `horizontaler Überlauf auf ${name}`).toBe(true);
-  await page.screenshot({ path: `${SHOTS}${name}.png` });
+  if (save) await page.screenshot({ path: `${SHOTS}${name}.png` });
 };
 
 test('Home, Üben, Simulation (3 Teile), Fortschritt, Lektion', async ({ page }) => {
@@ -37,7 +39,7 @@ test('Home, Üben, Simulation (3 Teile), Fortschritt, Lektion', async ({ page })
   await page.getByTestId('part-start').click();
   await expect(page.getByTestId('timer')).toContainText('min');
   await page.getByTestId('opt-B').click();
-  await shot(page, '02-verbal');
+  await shot(page, '02-verbal', false);
   await page.getByTestId('bookmark').click();
   await page.getByTestId('tool-calc').click();
   for (const k of ['1', '2', '×', '3', '=']) await page.getByTestId('calculator').getByRole('button', { name: k, exact: true }).click();
@@ -58,7 +60,7 @@ test('Home, Üben, Simulation (3 Teile), Fortschritt, Lektion', async ({ page })
   await expect(page.getByText('Teil 2 von 3')).toBeVisible();
   await page.getByTestId('part-start').click();
   await page.getByTestId('opt-C').click();
-  await shot(page, '03-numerical');
+  await shot(page, '03-numerical', false);
   await page.getByTestId('overview-btn').click();
   await page.getByTestId('submit-part').click();
   await page.getByTestId('confirm-submit').click();
@@ -66,7 +68,7 @@ test('Home, Üben, Simulation (3 Teile), Fortschritt, Lektion', async ({ page })
   await expect(page.getByText('Teil 3 von 3')).toBeVisible();
   await page.getByTestId('part-start').click();
   await page.getByTestId('opt-D').click();
-  await shot(page, '03b-abstract');
+  await shot(page, '03b-abstract', false);
   await page.getByTestId('overview-btn').click();
   await page.getByTestId('submit-part').click();
   await page.getByTestId('confirm-submit').click();
@@ -137,4 +139,46 @@ test('Offline nach erstem Laden', async ({ page, context }) => {
   await page.reload();
   await expect(page.getByRole('heading', { name: 'EPSO-Trainer' })).toBeVisible();
   await context.setOffline(false);
+});
+
+const pool = (dir: string) =>
+  fs.readdirSync(dir).filter((f) => f.endsWith('.json') && !f.startsWith('_')).flatMap((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')));
+
+/** Kein Scrollen innerhalb einer Frage (iPhone 15 Hochformat 393×852), Optionen vollständig sichtbar. */
+async function fits(page: Page, id: string, shotName?: string) {
+  await page.goto(`./#/preview/${id}`);
+  await page.locator('.opt').first().waitFor();
+  const r = await page.evaluate(() => {
+    const se = document.scrollingElement!;
+    const opts = [...document.querySelectorAll('.opt')].map((e) => e.getBoundingClientRect());
+    return { sh: se.scrollHeight, ih: window.innerHeight, sw: se.scrollWidth, iw: window.innerWidth,
+      minTop: Math.min(...opts.map((o) => o.top)), maxBottom: Math.max(...opts.map((o) => o.bottom)),
+      bar: document.querySelector('.rbar')!.getBoundingClientRect().top };
+  });
+  expect(r.sh, `${id}: Seite scrollt`).toBeLessThanOrEqual(r.ih + 1);
+  expect(r.sw, `${id}: horizontaler Überlauf`).toBeLessThanOrEqual(r.iw);
+  expect(r.minTop, `${id}: erste Option sichtbar`).toBeGreaterThanOrEqual(0);
+  expect(r.maxBottom, `${id}: letzte Option über der Leiste`).toBeLessThanOrEqual(r.bar + 1);
+  if (shotName) await page.screenshot({ path: `${SHOTS}${shotName}.png` });
+}
+
+test('Keine Scrollbalken in der Frage (echte Items)', async ({ page }) => {
+  await page.setViewportSize({ width: 393, height: 852 });
+  const verbal = pool('data/verbal').sort((a: any, b: any) => a.text.length - b.text.length);
+  await fits(page, verbal[Math.floor(verbal.length / 2)].id, '02-verbal');
+  await fits(page, verbal[verbal.length - 1].id, '02b-verbal-longest');
+  for (const seed of [1, 2, 3, 4]) await fits(page, `num-${seed}`, seed === 1 ? '03-numerical' : undefined);
+  for (const seed of [1, 2, 3, 4]) await fits(page, `abs-${seed}`, seed === 1 ? '03b-abstract' : undefined);
+  const f = pool('data/frmcq/ast3-daten');
+  await fits(page, f[0].id, '03c-frmcq');
+  const longest = f.sort((a: any, b: any) => (b.question + b.options.join('')).length - (a.question + a.options.join('')).length)[0];
+  await fits(page, longest.id);
+});
+
+test('Lektionstabelle als Karten (schmal)', async ({ page }) => {
+  await page.goto('./#/learn/start-00-welcher-test');
+  await expect(page.locator('.md td[data-label]').first()).toBeVisible();
+  const ok = await page.evaluate(() => document.scrollingElement!.scrollWidth <= window.innerWidth);
+  expect(ok).toBe(true);
+  await page.screenshot({ path: `${SHOTS}10b-lesson-table.png`, fullPage: false });
 });
