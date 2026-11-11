@@ -61,12 +61,10 @@ function SyncSection() {
           <p class="muted small">Optional: Mit Anmeldung (Magic-Link per E-Mail) werden Fortschritt und Aufsätze zwischen Geräten abgeglichen und die KI-Bewertung freigeschaltet. Ohne Anmeldung bleibt alles lokal.</p>
           <label class="fld">E-Mail<input class="inp" type="email" inputMode="email" autocomplete="email" value={email} data-testid="sync-email-input" onInput={(e) => setEmail((e.target as HTMLInputElement).value)} /></label>
           <button class="btn primary wide" disabled={busy || cool > 0 || !/.+@.+\..+/.test(email)} data-testid="sync-send" onClick={send}>{cool > 0 ? `Erneut senden in ${cool} s` : 'Anmeldelink senden'}</button>
-          {true ? (
-            <>
+          <>
               <label class="fld">Code aus der E-Mail (optional)<input class="inp" inputMode="numeric" autocomplete="one-time-code" maxLength={8} value={code} data-testid="sync-code-input" onInput={(e) => setCode((e.target as HTMLInputElement).value.replace(/\D/g, ''))} /></label>
               <button class="btn wide" disabled={busy || code.length < 6 || !(pending || /.+@.+\..+/.test(email))} data-testid="sync-verify" onClick={verify}>Anmelden</button>
-            </>
-          ) : null}
+          </>
           <p class="small muted">Enthält die Mail einen 6-stelligen Code, hier eingeben – das klappt auch in der installierten App. Sonst den Link öffnen (auf Android klappt das meist auch für die installierte App; danach die App einmal neu öffnen).</p>
         </>
       )}
