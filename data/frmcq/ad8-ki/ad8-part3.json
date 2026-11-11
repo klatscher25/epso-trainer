@@ -1,0 +1,1902 @@
+[
+  {
+    "id": "ad8-0201",
+    "pkg": "ad8-ki",
+    "area": "digital-policy",
+    "difficulty": 1,
+    "question": "Under Decision (EU) 2022/2481, what share of people aged 16-74 should have at least basic digital skills by 2030?",
+    "options": [
+      "At least 60 %",
+      "At least 70 %",
+      "At least 80 %",
+      "At least 90 %"
+    ],
+    "answer": 2,
+    "explanation": "Art. 4(1)(1)(a) sets the skills target at 80 % of those aged 16-74. The 90 % figure is tempting but relates to SMEs reaching a basic level of digital intensity (Art. 4(1)(3)(b)).",
+    "source": {
+      "title": "Decision (EU) 2022/2481 (Digital Decade Policy Programme 2030), Art. 4(1)(1)(a)",
+      "url": "https://eur-lex.europa.eu/eli/dec/2022/2481/oj"
+    }
+  },
+  {
+    "id": "ad8-0202",
+    "pkg": "ad8-ki",
+    "area": "digital-policy",
+    "difficulty": 1,
+    "question": "How many ICT specialists should be employed within the Union by 2030 according to the Digital Decade Policy Programme?",
+    "options": [
+      "At least 10 million",
+      "At least 20 million",
+      "At least 15 million",
+      "At least 30 million"
+    ],
+    "answer": 1,
+    "explanation": "Art. 4(1)(1)(b) sets at least 20 million ICT specialists, while promoting women's access to the field. The other values are not in the Decision.",
+    "source": {
+      "title": "Decision (EU) 2022/2481 (Digital Decade Policy Programme 2030), Art. 4(1)(1)(b)",
+      "url": "https://eur-lex.europa.eu/eli/dec/2022/2481/oj"
+    }
+  },
+  {
+    "id": "ad8-0203",
+    "pkg": "ad8-ki",
+    "area": "digital-policy",
+    "difficulty": 2,
+    "question": "Which 2030 target does Decision 2022/2481 set for enterprises and cloud computing, big data or artificial intelligence?",
+    "options": [
+      "At least 90 % of Union enterprises use all three of them",
+      "At least 75 % of Union enterprises use one or more of them",
+      "At least 50 % of Union enterprises use one or more of them",
+      "All large Union enterprises use at least one of them"
+    ],
+    "answer": 1,
+    "explanation": "Art. 4(1)(3)(a) requires at least 75 % of enterprises to have taken up one or more of cloud, big data or AI. The 90 % figure belongs to the separate SME digital-intensity target.",
+    "source": {
+      "title": "Decision (EU) 2022/2481 (Digital Decade Policy Programme 2030), Art. 4(1)(3)(a)",
+      "url": "https://eur-lex.europa.eu/eli/dec/2022/2481/oj"
+    }
+  },
+  {
+    "id": "ad8-0204",
+    "pkg": "ad8-ki",
+    "area": "digital-policy",
+    "difficulty": 2,
+    "question": "The Digital Decade targets for 2030 include how many climate-neutral, highly secure edge nodes deployed in the Union?",
+    "options": [
+      "10 000",
+      "1 000",
+      "5 000",
+      "50 000"
+    ],
+    "answer": 0,
+    "explanation": "Art. 4(1)(2)(c) sets at least 10 000 climate-neutral, highly secure edge nodes, distributed so that low-latency data services are available wherever businesses are located.",
+    "source": {
+      "title": "Decision (EU) 2022/2481 (Digital Decade Policy Programme 2030), Art. 4(1)(2)(c)",
+      "url": "https://eur-lex.europa.eu/eli/dec/2022/2481/oj"
+    }
+  },
+  {
+    "id": "ad8-0205",
+    "pkg": "ad8-ki",
+    "area": "digital-policy",
+    "difficulty": 2,
+    "question": "By 2030, the Union's production of cutting-edge semiconductors should reach what share of world production in value?",
+    "options": [
+      "At least 10 %",
+      "At least 30 %",
+      "At least 40 %",
+      "At least 20 %"
+    ],
+    "answer": 3,
+    "explanation": "Art. 4(1)(2)(b) sets the target at at least 20 % of world production in value, in accordance with Union environmental sustainability law.",
+    "source": {
+      "title": "Decision (EU) 2022/2481 (Digital Decade Policy Programme 2030), Art. 4(1)(2)(b)",
+      "url": "https://eur-lex.europa.eu/eli/dec/2022/2481/oj"
+    }
+  },
+  {
+    "id": "ad8-0206",
+    "pkg": "ad8-ki",
+    "area": "digital-policy",
+    "difficulty": 2,
+    "question": "As adopted, which infrastructure target did Decision 2022/2481 set for the year 2025?",
+    "options": [
+      "The Union's first exascale supercomputer",
+      "The Union's first computer with quantum acceleration",
+      "A Union-wide quantum communication network",
+      "A fault-tolerant quantum computer with logical qubits"
+    ],
+    "answer": 1,
+    "explanation": "Art. 4(1)(2)(d) states that the Union has, by 2025, its first computer with quantum acceleration, paving the way to quantum leadership by 2030. The other items are not 2025 targets in the Decision.",
+    "source": {
+      "title": "Decision (EU) 2022/2481 (Digital Decade Policy Programme 2030), Art. 4(1)(2)(d)",
+      "url": "https://eur-lex.europa.eu/eli/dec/2022/2481/oj"
+    }
+  },
+  {
+    "id": "ad8-0207",
+    "pkg": "ad8-ki",
+    "area": "digital-policy",
+    "difficulty": 3,
+    "question": "As adopted, by which date must the Commission review the digital targets and relevant definitions of Decision 2022/2481?",
+    "options": [
+      "31 December 2024",
+      "31 December 2027",
+      "30 June 2030",
+      "30 June 2026"
+    ],
+    "answer": 3,
+    "explanation": "Art. 4(2) requires the Commission to review the targets and definitions by 30 June 2026, report to Parliament and Council, and propose amendments where necessary. 2030 is the target year, not the review date.",
+    "source": {
+      "title": "Decision (EU) 2022/2481 (Digital Decade Policy Programme 2030), Art. 4(2)",
+      "url": "https://eur-lex.europa.eu/eli/dec/2022/2481/oj"
+    }
+  },
+  {
+    "id": "ad8-0208",
+    "pkg": "ad8-ki",
+    "area": "digital-policy",
+    "difficulty": 3,
+    "question": "By which date did Member States have to submit their national digital decade strategic roadmaps to the Commission?",
+    "options": [
+      "9 October 2023",
+      "9 January 2023",
+      "9 January 2024",
+      "9 October 2024"
+    ],
+    "answer": 0,
+    "explanation": "Art. 7(1) sets 9 October 2023. 9 January 2024 is tempting because it is the deadline for the Commission's first Report on the Digital Decade (Art. 6(1)).",
+    "source": {
+      "title": "Decision (EU) 2022/2481 (Digital Decade Policy Programme 2030), Arts. 6(1) and 7(1)",
+      "url": "https://eur-lex.europa.eu/eli/dec/2022/2481/oj"
+    }
+  },
+  {
+    "id": "ad8-0209",
+    "pkg": "ad8-ki",
+    "area": "digital-policy",
+    "difficulty": 2,
+    "question": "On what does the Commission's annual Report on the Digital Decade mainly base its assessment of progress towards the targets?",
+    "options": [
+      "Voluntary self-assessments submitted by Member States",
+      "Eurostat statistics on national GDP growth rates",
+      "Audit reports of the European Court of Auditors",
+      "DESI indicators compared with projected trajectories"
+    ],
+    "answer": 3,
+    "explanation": "Art. 6(2) says the assessment is based in particular on DESI analysis and KPIs compared with Union-level and national projected trajectories. Art. 5(1) has the KPIs set by implementing act.",
+    "source": {
+      "title": "Decision (EU) 2022/2481 (Digital Decade Policy Programme 2030), Arts. 5(1) and 6(2)",
+      "url": "https://eur-lex.europa.eu/eli/dec/2022/2481/oj"
+    }
+  },
+  {
+    "id": "ad8-0210",
+    "pkg": "ad8-ki",
+    "area": "digital-policy",
+    "difficulty": 2,
+    "question": "Which implementation mechanism for multi-country projects was introduced by Decision 2022/2481 itself (Arts. 13-21)?",
+    "options": [
+      "European digital infrastructure consortium (EDIC)",
+      "European Economic Interest Grouping (EEIG)",
+      "European Grouping of Territorial Cooperation (EGTC)",
+      "Societas Europaea (SE)"
+    ],
+    "answer": 0,
+    "explanation": "Art. 11(5)(f) lists European digital infrastructure consortia, regulated in Arts. 13-21. EEIG, EGTC and SE are real EU legal forms but are not Digital Decade mechanisms.",
+    "source": {
+      "title": "Decision (EU) 2022/2481 (Digital Decade Policy Programme 2030), Arts. 11(5) and 13-21",
+      "url": "https://eur-lex.europa.eu/eli/dec/2022/2481/oj"
+    }
+  },
+  {
+    "id": "ad8-0211",
+    "pkg": "ad8-ki",
+    "area": "digital-policy",
+    "difficulty": 3,
+    "question": "As originally adopted, by which date, as a rule, had calls for proposals and tenders under the EuroHPC Regulation (EU) 2021/1173 to be launched?",
+    "options": [
+      "31 December 2027",
+      "31 December 2025",
+      "31 December 2030",
+      "31 December 2033"
+    ],
+    "answer": 0,
+    "explanation": "Art. 1(2) requires launch by 31 December 2027 (31 December 2028 in duly justified cases), matching the 2021-2027 MFF. 31 December 2033 is the end of the Joint Undertaking's existence (Art. 1(1)).",
+    "source": {
+      "title": "Regulation (EU) 2021/1173 (EuroHPC Joint Undertaking), as originally adopted, Art. 1(2)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2021/1173/oj"
+    }
+  },
+  {
+    "id": "ad8-0212",
+    "pkg": "ad8-ki",
+    "area": "digital-policy",
+    "difficulty": 1,
+    "question": "Announced in February 2025, what amount of AI investment does the InvestAI initiative aim to mobilise?",
+    "options": [
+      "EUR 20 billion",
+      "EUR 200 billion",
+      "EUR 50 billion",
+      "EUR 100 billion"
+    ],
+    "answer": 1,
+    "explanation": "The AI Continent Action Plan refers to InvestAI as an initiative to mobilise EUR 200 billion. The EUR 20 billion figure is the InvestAI Facility for AI Gigafactories.",
+    "source": {
+      "title": "Communication COM(2025) 165, AI Continent Action Plan, Introduction and Section 1",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/ai-continent-action-plan"
+    }
+  },
+  {
+    "id": "ad8-0213",
+    "pkg": "ad8-ki",
+    "area": "digital-policy",
+    "difficulty": 2,
+    "question": "In the AI Continent Action Plan, the InvestAI Facility is to mobilise EUR 20 billion, notably targeting up to how many AI Gigafactories?",
+    "options": [
+      "2",
+      "10",
+      "5",
+      "13"
+    ],
+    "answer": 2,
+    "explanation": "The Communication speaks of up to 5 AI Gigafactories across the Union. The number 13 is tempting because it is the number of AI Factories selected by March 2025.",
+    "source": {
+      "title": "Communication COM(2025) 165, AI Continent Action Plan, Section 1",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/ai-continent-action-plan"
+    }
+  },
+  {
+    "id": "ad8-0214",
+    "pkg": "ad8-ki",
+    "area": "digital-policy",
+    "difficulty": 3,
+    "question": "According to the AI Continent Action Plan, AI Gigafactories will integrate computing power exceeding how many advanced AI processors?",
+    "options": [
+      "100 000",
+      "10 000",
+      "25 000",
+      "1 000 000"
+    ],
+    "answer": 0,
+    "explanation": "The Plan describes AI Gigafactories as integrating massive computing power exceeding 100 000 advanced AI processors, to train models with hundreds of trillions of parameters.",
+    "source": {
+      "title": "Communication COM(2025) 165, AI Continent Action Plan, Section 1",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/ai-continent-action-plan"
+    }
+  },
+  {
+    "id": "ad8-0215",
+    "pkg": "ad8-ki",
+    "area": "digital-policy",
+    "difficulty": 2,
+    "question": "With what aim does the AI Continent Action Plan announce a Cloud and AI Development Act?",
+    "options": [
+      "At least doubling EU data-centre capacity within three years",
+      "Capping data-centre energy consumption at 2025 levels",
+      "At least tripling EU data-centre capacity within five to seven years",
+      "Placing hyperscale cloud providers under public ownership"
+    ],
+    "answer": 2,
+    "explanation": "The Plan says the Act should at least triple EU data-centre capacity within the next five to seven years, with simplified permitting for resource-efficient projects.",
+    "source": {
+      "title": "Communication COM(2025) 165, AI Continent Action Plan, Section 1",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/ai-continent-action-plan"
+    }
+  },
+  {
+    "id": "ad8-0216",
+    "pkg": "ad8-ki",
+    "area": "digital-policy",
+    "difficulty": 1,
+    "question": "Which is one of the five key areas of the AI Continent Action Plan?",
+    "options": [
+      "Replacing national market surveillance authorities",
+      "Nationalising Europe's AI Gigafactories",
+      "Banning open-source AI models in public bodies",
+      "Strengthening AI skills and talent"
+    ],
+    "answer": 3,
+    "explanation": "The Plan has five areas: computing and data infrastructure, data for AI, adoption in strategic sectors, AI skills and talent, and regulatory compliance and simplification. The other options appear nowhere in it.",
+    "source": {
+      "title": "Communication COM(2025) 165, AI Continent Action Plan, Sections 1-5",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/ai-continent-action-plan"
+    }
+  },
+  {
+    "id": "ad8-0217",
+    "pkg": "ad8-ki",
+    "area": "digital-policy",
+    "difficulty": 1,
+    "question": "Which description fits the AI Factories launched under the EuroHPC framework?",
+    "options": [
+      "Notified bodies that assess conformity of high-risk AI systems before placing",
+      "Market surveillance authorities that supervise compliance with AI Act rules",
+      "Ecosystems combining AI-optimised supercomputing, data and talent for trustworthy generative AI",
+      "Public registries in which all high-risk AI systems must be recorded"
+    ],
+    "answer": 2,
+    "explanation": "The Commission describes AI Factories as EU-backed hubs combining computing power, data and talent, drawing on EuroHPC supercomputing. Conformity assessment, supervision and registration are AI Act functions.",
+    "source": {
+      "title": "European Commission, AI Factories (Shaping Europe's digital future)",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-factories"
+    }
+  },
+  {
+    "id": "ad8-0218",
+    "pkg": "ad8-ki",
+    "area": "digital-policy",
+    "difficulty": 2,
+    "question": "Which EU programmes fund the GenAI4EU initiative on generative AI in strategic sectors?",
+    "options": [
+      "Horizon Europe, the Digital Europe Programme and the European Innovation Council",
+      "Cohesion Fund, European Social Fund Plus and Erasmus+",
+      "InvestEU, Connecting Europe Facility and the European Defence Fund",
+      "LIFE, Creative Europe and the EU4Health programme"
+    ],
+    "answer": 0,
+    "explanation": "The Commission's GenAI4EU page lists calls under Horizon Europe, the Digital Europe Programme and the EIC, with close to EUR 700 million of investment.",
+    "source": {
+      "title": "European Commission, GenAI4EU (Shaping Europe's digital future)",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/genai4eu"
+    }
+  },
+  {
+    "id": "ad8-0219",
+    "pkg": "ad8-ki",
+    "area": "digital-policy",
+    "difficulty": 3,
+    "question": "Around how much does the Commission mobilise from EU funding programmes to implement the actions of the Apply AI Strategy?",
+    "options": [
+      "EUR 100 million",
+      "EUR 10 billion",
+      "EUR 20 billion",
+      "EUR 1 billion"
+    ],
+    "answer": 3,
+    "explanation": "The Apply AI Strategy (COM(2025) 723) says the Commission is mobilising around EUR 1 billion from its funding programmes. EUR 20 billion relates to InvestAI for gigafactories.",
+    "source": {
+      "title": "Communication COM(2025) 723, Apply AI Strategy, Section 1",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0723"
+    }
+  },
+  {
+    "id": "ad8-0220",
+    "pkg": "ad8-ki",
+    "area": "digital-policy",
+    "difficulty": 2,
+    "question": "In the Apply AI Strategy, what does the 'AI first' policy encourage?",
+    "options": [
+      "A legal duty for public authorities to use AI in every administrative decision",
+      "Companies and public bodies to consider AI for problem-solving, weighing benefits and risks",
+      "An exemption of public-sector AI systems from the obligations of the AI Act",
+      "A ban on non-European AI models in all public procurement procedures"
+    ],
+    "answer": 1,
+    "explanation": "The Strategy encourages organisations to integrate AI, building on European solutions, while evaluating benefits and risks. It creates no legal obligation, exemption or ban.",
+    "source": {
+      "title": "Communication COM(2025) 723, Apply AI Strategy, Section 1",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0723"
+    }
+  },
+  {
+    "id": "ad8-0221",
+    "pkg": "ad8-ki",
+    "area": "digital-policy",
+    "difficulty": 2,
+    "question": "In the Apply AI Strategy, what are the European Digital Innovation Hubs refocused as?",
+    "options": [
+      "AI Gigafactories",
+      "AI regulatory sandboxes",
+      "Testing and Experimentation Facilities",
+      "Experience Centres for AI"
+    ],
+    "answer": 3,
+    "explanation": "The Strategy states that the EDIHs have been refocused and are now Experience Centres for AI, supporting adoption by SMEs and public administrations. Sandboxes and TEFs are separate instruments.",
+    "source": {
+      "title": "Communication COM(2025) 723, Apply AI Strategy, Section 3",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52025DC0723"
+    }
+  },
+  {
+    "id": "ad8-0222",
+    "pkg": "ad8-ki",
+    "area": "digital-policy",
+    "difficulty": 1,
+    "question": "The Commission's 2021 review of the Coordinated Plan on AI builds on the collaboration established under a first plan published in which year?",
+    "options": [
+      "2016",
+      "2019",
+      "2018",
+      "2020"
+    ],
+    "answer": 2,
+    "explanation": "The 2021 review (21 April 2021) builds on the 2018 Coordinated Plan agreed between the Commission and the Member States.",
+    "source": {
+      "title": "European Commission, Coordinated Plan on Artificial Intelligence (Shaping Europe's digital future)",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/plan-ai"
+    }
+  },
+  {
+    "id": "ad8-0223",
+    "pkg": "ad8-ki",
+    "area": "digital-policy",
+    "difficulty": 3,
+    "question": "Under the Commission's own AI@EC Communication (2024), which body coordinates the AI@EC initiative and drafts operational guidelines for AI use?",
+    "options": [
+      "The AI Office, within DG CNECT",
+      "The European Artificial Intelligence Board",
+      "The European Data Protection Supervisor",
+      "The Interservice Steering Group on AI (ISG-AI)"
+    ],
+    "answer": 3,
+    "explanation": "Section 2.2.1 creates the ISG-AI as a subgroup of the Information Management Steering Board, led by DIGIT. The AI Office and AI Board are AI Act bodies, not internal Commission governance.",
+    "source": {
+      "title": "Communication C(2024) 380, Artificial Intelligence in the European Commission (AI@EC), Section 2.2.1",
+      "url": "https://commission.europa.eu/system/files/2024-01/EN%20Artificial%20Intelligence%20in%20the%20European%20Commission.PDF"
+    }
+  },
+  {
+    "id": "ad8-0224",
+    "pkg": "ad8-ki",
+    "area": "digital-policy",
+    "difficulty": 2,
+    "question": "Under the Digital Services Act, which providers must assess systemic risks, including from their algorithmic systems, at least once every year?",
+    "options": [
+      "Providers of all hosting services offered in the Union",
+      "Providers of very large online platforms and search engines",
+      "Providers of all online platforms offered in the Union",
+      "Providers of micro and small online platforms in the Union"
+    ],
+    "answer": 1,
+    "explanation": "Art. 34(1) imposes annual systemic-risk assessments on VLOPs and VLOSEs, i.e. services with at least 45 million average monthly active recipients in the Union (Art. 33(1)).",
+    "source": {
+      "title": "Regulation (EU) 2022/2065 (Digital Services Act), Arts. 33-34",
+      "url": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj"
+    }
+  },
+  {
+    "id": "ad8-0225",
+    "pkg": "ad8-ki",
+    "area": "digital-policy",
+    "difficulty": 3,
+    "question": "Under the Digital Markets Act, the turnover presumption for significant impact on the internal market requires at least EUR 7.5 billion annual Union turnover in each of how many last financial years?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Five"
+    ],
+    "answer": 2,
+    "explanation": "Art. 3(2)(a) DMA presumes significant impact at annual Union turnover of at least EUR 7.5 billion in each of the last three financial years, or market capitalisation of at least EUR 75 billion in the last one.",
+    "source": {
+      "title": "Regulation (EU) 2022/1925 (Digital Markets Act), Art. 3(2)(a)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2022/1925/oj"
+    }
+  },
+  {
+    "id": "ad8-0226",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 1,
+    "question": "A model is trained on e-mails that humans have labelled 'spam' or 'not spam'. Which learning paradigm is this?",
+    "options": [
+      "Supervised learning",
+      "Unsupervised learning",
+      "Reinforcement learning",
+      "Dimensionality reduction"
+    ],
+    "answer": 0,
+    "explanation": "Learning from labelled input-output examples is supervised learning (classification here). Unsupervised methods use no labels.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0227",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 1,
+    "question": "A retailer groups customers by purchasing behaviour without any predefined labels. Which paradigm is this?",
+    "options": [
+      "Unsupervised learning",
+      "Supervised learning",
+      "Reinforcement learning",
+      "Transfer learning"
+    ],
+    "answer": 0,
+    "explanation": "Finding structure such as clusters in unlabelled data is unsupervised learning. No target variable exists, so it is not supervised.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0228",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 1,
+    "question": "Which paradigm trains an agent by trial and error to maximise cumulative reward?",
+    "options": [
+      "Supervised learning",
+      "Unsupervised learning",
+      "Semi-supervised learning",
+      "Reinforcement learning"
+    ],
+    "answer": 3,
+    "explanation": "In reinforcement learning an agent interacts with an environment and learns a policy from reward signals. Supervised learning needs labelled examples instead.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0229",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 2,
+    "question": "A team wants an independent estimate of a system's performance before placing it on the market. Which AI Act data category is meant for this?",
+    "options": [
+      "Training data",
+      "Validation data",
+      "Testing data",
+      "Input data"
+    ],
+    "answer": 2,
+    "explanation": "Art. 3(32) defines testing data as data used for an independent evaluation confirming expected performance before placing on the market. Validation data (Art. 3(30)) serves tuning.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 3(29)-(33)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0230",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 2,
+    "question": "Under the AI Act definitions, what is validation data used for?",
+    "options": [
+      "Evaluating the trained system and tuning its non-learnable parameters",
+      "Fitting the learnable parameters of the trained system",
+      "Independently confirming performance before market placement",
+      "Supplying the data on which a deployed system produces outputs"
+    ],
+    "answer": 0,
+    "explanation": "Art. 3(30) defines validation data as data used to evaluate the trained system and tune non-learnable parameters, inter alia to prevent under- or overfitting. Fitting parameters uses training data (Art. 3(29)).",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 3(29)-(33)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0231",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 1,
+    "question": "In 5-fold cross-validation on 1 000 labelled samples, how many samples are used for training in each fold?",
+    "options": [
+      "200",
+      "500",
+      "800",
+      "1 000"
+    ],
+    "answer": 2,
+    "explanation": "The data are split into 5 folds of 200. Each iteration trains on 4 folds (800) and validates on the remaining 200. 200 is the validation size.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0232",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 1,
+    "question": "Which pattern most clearly indicates overfitting?",
+    "options": [
+      "High training error and high validation error",
+      "Equal training and validation error at a low level",
+      "Validation error far lower than training error",
+      "Low training error but much higher validation error"
+    ],
+    "answer": 3,
+    "explanation": "Overfitting means the model memorises training specifics and generalises poorly, giving a large gap with validation error. High error on both indicates underfitting.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0233",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 2,
+    "question": "Which regularisation penalty tends to drive some model coefficients exactly to zero?",
+    "options": [
+      "L2 penalty (ridge)",
+      "L1 penalty (lasso)",
+      "Batch normalisation",
+      "Gradient clipping"
+    ],
+    "answer": 1,
+    "explanation": "The L1 penalty's geometry produces sparse solutions. The L2 penalty shrinks coefficients towards zero without usually reaching it, and the other two are not penalties.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0234",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 3,
+    "question": "Expected error = bias squared + variance + irreducible noise. Model A: bias squared 4, variance 1. Model B: bias squared 1, variance 3. The noise is 2. Which model has the lower expected error?",
+    "options": [
+      "Model A, with 5 versus 6",
+      "Model B, with 6 versus 7",
+      "Model A, with 7 versus 8",
+      "Both are equal at 7"
+    ],
+    "answer": 1,
+    "explanation": "Model A: 4 + 1 + 2 = 7. Model B: 1 + 3 + 2 = 6. Noise adds equally to both, and low variance alone does not decide.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0235",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 2,
+    "question": "Training and validation accuracy are both about 60 % and have plateaued. What is the most appropriate next step?",
+    "options": [
+      "Add stronger regularisation to the training objective",
+      "Stop the training run earlier than planned",
+      "Collect more copies of the existing training rows",
+      "Increase model capacity or add informative features"
+    ],
+    "answer": 3,
+    "explanation": "Both scores being low signals underfitting (high bias), so the model needs more capacity or better features. Regularisation and early stopping fight overfitting and would make it worse.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0236",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 2,
+    "question": "What is the typical consequence of setting the learning rate of gradient descent far too high?",
+    "options": [
+      "The loss oscillates or diverges",
+      "Training converges faster to the global minimum",
+      "The model stops learning because gradients vanish by design",
+      "Overfitting is automatically avoided"
+    ],
+    "answer": 0,
+    "explanation": "Excessively large steps overshoot minima, so the loss can oscillate or diverge. Too small a rate causes slow progress, not divergence.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0237",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 3,
+    "question": "Compared with full-batch gradient descent, which statement about mini-batch stochastic gradient descent is correct?",
+    "options": [
+      "Each update uses a noisy gradient estimate from a subset, at lower cost",
+      "Each update uses the exact gradient, so the loss falls monotonically",
+      "It requires the loss function to be convex to converge",
+      "It needs no learning rate because batches are small"
+    ],
+    "answer": 0,
+    "explanation": "Mini-batch gradients are noisy estimates of the full gradient and cheaper per update, which often helps escape poor regions. It still needs a learning rate and does not need convexity.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0238",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 1,
+    "question": "A classifier produces TP = 40, FP = 10, FN = 20 and TN = 130. What is its precision?",
+    "options": [
+      "0.67",
+      "0.80",
+      "0.73",
+      "0.85"
+    ],
+    "answer": 1,
+    "explanation": "Precision = TP / (TP + FP) = 40 / 50 = 0.80. Recall is 0.67, F1 is 0.73 and accuracy is 0.85.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0239",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 2,
+    "question": "A fraud model flags 90 transactions, 72 of which are real fraud. In total 120 real fraud cases exist. What is the recall?",
+    "options": [
+      "0.75",
+      "0.60",
+      "0.80",
+      "0.90"
+    ],
+    "answer": 1,
+    "explanation": "Recall = 72 / 120 = 0.60. The value 0.80 is the precision (72 / 90).",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0240",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 2,
+    "question": "A model has precision 0.9 and recall 0.6. What is its F1 score?",
+    "options": [
+      "0.60",
+      "0.72",
+      "0.75",
+      "0.90"
+    ],
+    "answer": 1,
+    "explanation": "F1 is the harmonic mean: 2 x 0.9 x 0.6 / 1.5 = 0.72. The arithmetic mean 0.75 overstates it because the harmonic mean is pulled towards the lower value.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0241",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 3,
+    "question": "A rare-disease model predicts 'healthy' for everyone, and 1 % of the population is ill. Which metric exposes the failure?",
+    "options": [
+      "Overall accuracy (99 %)",
+      "Specificity (100 %)",
+      "Recall on the positive class (0 %)",
+      "Negative predictive value (99 %)"
+    ],
+    "answer": 2,
+    "explanation": "Always predicting 'healthy' yields 99 % accuracy, 100 % specificity and 99 % NPV, but recall for the ill class is 0 %.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0242",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 2,
+    "question": "What does a ROC-AUC of 0.8 mean?",
+    "options": [
+      "A random positive outranks a random negative with probability 0.8",
+      "80 % of all predictions are correct at the threshold of 0.5",
+      "Precision equals 0.8 at every possible decision threshold",
+      "80 % of positives are found without producing false positives"
+    ],
+    "answer": 0,
+    "explanation": "AUC equals the probability that a randomly chosen positive is ranked above a randomly chosen negative. It is threshold-independent, so it says nothing about accuracy at 0.5.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0243",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 3,
+    "question": "For a detection task with 0.5 % positives, why can ROC-AUC look flattering?",
+    "options": [
+      "The false-positive rate divides by the huge negative class, so false alarms barely register",
+      "ROC curves ignore the true-positive rate of the classifier",
+      "AUC is mathematically undefined for imbalanced data sets",
+      "Precision is computed over the negative class only"
+    ],
+    "answer": 0,
+    "explanation": "FPR = FP / (FP + TN) stays small even with many false alarms when negatives dominate, whereas precision falls. Precision-recall curves are more informative here.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0244",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 3,
+    "question": "At threshold 0.5 a model has TP = 40, FP = 10, FN = 20. At threshold 0.3 it has TP = 50, FP = 30, FN = 10. What changed?",
+    "options": [
+      "Recall fell from 0.83 to 0.67; precision rose from 0.63 to 0.80",
+      "Recall rose from 0.67 to 0.83; precision stayed at 0.80",
+      "Recall stayed at 0.67; precision fell from 0.80 to 0.63",
+      "Recall rose from 0.67 to 0.83; precision fell from 0.80 to 0.63"
+    ],
+    "answer": 3,
+    "explanation": "Lowering the threshold: recall 50/60 = 0.83 (was 40/60), precision 50/80 = 0.63 (was 40/50). It is the classic trade-off: more positives found, more false alarms.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0245",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 3,
+    "question": "Which approach addresses class imbalance at the algorithm level without altering the data?",
+    "options": [
+      "Oversampling the minority class before the train/test split",
+      "Weighting minority-class errors more heavily in the loss",
+      "Undersampling the majority class in the test set",
+      "Reporting accuracy instead of recall"
+    ],
+    "answer": 1,
+    "explanation": "Class weights change the loss, not the data. Oversampling before the split leaks duplicates into the test set, and altering the test set or reporting accuracy distorts evaluation.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0246",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 3,
+    "question": "A team fits a feature scaler on the full data set, then splits it into training and test sets. What problem arises?",
+    "options": [
+      "Concept drift once the model runs in production",
+      "Data leakage, which gives an optimistic test estimate",
+      "Class imbalance within the final test set",
+      "Underfitting of the final trained model"
+    ],
+    "answer": 1,
+    "explanation": "Test-set statistics influence the preprocessing, so information leaks into training and the test score is optimistic. Scalers must be fitted on training data only.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0247",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 2,
+    "question": "A linear model must use 'country', a nominal variable with 27 unordered categories. Which encoding is most appropriate?",
+    "options": [
+      "Integer codes 1 to 27",
+      "Alphabetical rank scaled to 0-1",
+      "One-hot encoding",
+      "Replacing each country by its string length"
+    ],
+    "answer": 2,
+    "explanation": "One-hot encoding avoids imposing a false order on nominal categories. Integer codes would let a linear model treat 'country 27' as 27 times 'country 1'.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0248",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 3,
+    "question": "A decision-tree node holds 6 positive and 4 negative samples. What is its Gini impurity?",
+    "options": [
+      "0.24",
+      "0.52",
+      "0.96",
+      "0.48"
+    ],
+    "answer": 3,
+    "explanation": "Gini = 1 - (0.6^2 + 0.4^2) = 1 - 0.52 = 0.48. The value 0.52 is the sum of squared proportions, which the formula subtracts from 1.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0249",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 2,
+    "question": "How does a random forest reduce prediction variance compared with a single deep decision tree?",
+    "options": [
+      "It fits each new tree sequentially to the residuals of the previous trees",
+      "It prunes a single tree until its training error is exactly zero",
+      "It averages many trees fitted on bootstrap samples with random feature subsets",
+      "It trains one tree on features sorted by their correlation with the label"
+    ],
+    "answer": 2,
+    "explanation": "Random forests combine bagging with random feature selection, so decorrelated trees average out variance. Sequential residual fitting describes gradient boosting.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0250",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 2,
+    "question": "Which description fits gradient boosting?",
+    "options": [
+      "Trees are trained independently on bootstrap samples and then averaged",
+      "A single deep tree is pruned using cross-validation scores",
+      "Trees are trained on disjoint feature sets and then vote",
+      "Trees are added sequentially, each fitted to the current ensemble's errors"
+    ],
+    "answer": 3,
+    "explanation": "Boosting builds an additive model stage by stage, each learner fitting the negative gradient (residuals) of the loss. Independent bootstrap averaging is bagging.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0251",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 2,
+    "question": "Why do neural networks need non-linear activation functions such as ReLU?",
+    "options": [
+      "They are required to compute the loss function value",
+      "They reduce the number of trainable parameters per layer",
+      "They guarantee convergence to a global loss minimum",
+      "Without them, stacked layers collapse into one linear transformation"
+    ],
+    "answer": 3,
+    "explanation": "A composition of linear maps is itself linear, so depth would add no expressive power. Activations provide non-linearity but guarantee neither convergence nor fewer parameters.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0252",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 2,
+    "question": "What does backpropagation compute in a neural network?",
+    "options": [
+      "The optimal learning rate for every layer of the network",
+      "The final class labels for all samples of the test set",
+      "Gradients of the loss with respect to the weights, via the chain rule",
+      "The best activation function for each individual neuron"
+    ],
+    "answer": 2,
+    "explanation": "Backpropagation applies the chain rule layer by layer to obtain gradients, which an optimiser such as gradient descent then uses to update the weights.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0253",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 1,
+    "question": "What property do good text embeddings have?",
+    "options": [
+      "Every text is mapped to a vector of the same length as the text",
+      "Different languages are mapped to identical vectors",
+      "Semantically similar texts are mapped to nearby vectors",
+      "Vectors encode only the spelling of each word"
+    ],
+    "answer": 2,
+    "explanation": "Embeddings are dense vectors in which semantic similarity corresponds to geometric closeness, e.g. high cosine similarity. Their dimension is fixed, independent of text length.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0254",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 2,
+    "question": "What is the cosine similarity of the vectors (3, 4) and (4, 3)?",
+    "options": [
+      "0.75",
+      "0.84",
+      "0.96",
+      "1.00"
+    ],
+    "answer": 2,
+    "explanation": "The dot product is 3x4 + 4x3 = 24 and each norm is 5, so the cosine is 24 / 25 = 0.96. It would be 1.00 only for vectors in the same direction.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0255",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 3,
+    "question": "What does dropout do during neural-network training?",
+    "options": [
+      "Randomly deactivates units in each step, acting as a regulariser",
+      "Permanently removes the least important neurons after training",
+      "Reduces the learning rate when validation loss rises",
+      "Drops training samples that have high loss"
+    ],
+    "answer": 0,
+    "explanation": "Dropout randomly zeroes activations during training so units cannot co-adapt, which reduces overfitting. At inference all units are used, with scaling to compensate.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0256",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 2,
+    "question": "How does federated learning differ from centralised training?",
+    "options": [
+      "Raw data stay on local devices or sites; only model updates are shared",
+      "All raw data are first pooled in one central data lake for training",
+      "Training happens without any exchange of gradients or parameters",
+      "Data are anonymised, so privacy risks disappear entirely"
+    ],
+    "answer": 0,
+    "explanation": "In federated learning clients train locally and send updates for aggregation. EDPS notes that this reduces data movement but does not eliminate privacy risks, since updates can still leak information.",
+    "source": {
+      "title": "EDPS, TechDispatch #1/2025 - Federated Learning",
+      "url": "https://www.edps.europa.eu/data-protection/our-work/publications/techdispatch/2025-06-10-techdispatch-12025-federated-learning_en"
+    }
+  },
+  {
+    "id": "ad8-0257",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 3,
+    "question": "A diagnostic test has 95 % sensitivity and 95 % specificity. The disease prevalence is 1 %. What is the probability of disease given a positive test, approximately?",
+    "options": [
+      "About 50 %",
+      "About 16 %",
+      "About 90 %",
+      "About 95 %"
+    ],
+    "answer": 1,
+    "explanation": "Per 10 000 people: 95 true positives (100 x 0.95) and 495 false positives (9 900 x 0.05). The positive predictive value is 95 / 590, about 16 %. Many mistake it for sensitivity.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0258",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 3,
+    "question": "How does the choice of k affect a k-nearest-neighbours classifier?",
+    "options": [
+      "A very small k gives high bias but low variance",
+      "A very small k gives low bias but high variance",
+      "k does not influence the bias-variance trade-off",
+      "A very large k gives low bias but high variance"
+    ],
+    "answer": 1,
+    "explanation": "With k = 1 the decision boundary follows individual points (low bias, high variance). Larger k smooths predictions, increasing bias and lowering variance.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0259",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 2,
+    "question": "Which statement about explaining a model's predictions is correct?",
+    "options": [
+      "Post-hoc explanations are always exact reproductions of model reasoning",
+      "Deep neural networks are inherently self-interpretable by design",
+      "Self-interpretable models show input influence directly; black-box models need post-hoc methods",
+      "Explainability only becomes relevant once a model is in production"
+    ],
+    "answer": 2,
+    "explanation": "EDPS distinguishes self-interpretable models from opaque ones that need post-hoc techniques, whose faithfulness is limited. Neither claim of exactness nor inherent deep-network interpretability holds.",
+    "source": {
+      "title": "EDPS, TechDispatch #2/2023 - Explainable Artificial Intelligence",
+      "url": "https://www.edps.europa.eu/data-protection/our-work/publications/techdispatch/2023-11-16-techdispatch-22023-explainable-artificial-intelligence_en"
+    }
+  },
+  {
+    "id": "ad8-0260",
+    "pkg": "ad8-ki",
+    "area": "ml-foundations",
+    "difficulty": 1,
+    "question": "What does early stopping do during model training?",
+    "options": [
+      "It halts training once training loss reaches exactly zero",
+      "It halts training after a fixed wall-clock time regardless of loss",
+      "It removes samples that the model misclassifies",
+      "It halts training once validation loss stops improving"
+    ],
+    "answer": 3,
+    "explanation": "Early stopping monitors a validation metric and stops (often restoring the best checkpoint) when it no longer improves, limiting overfitting. Training loss keeps falling even while generalisation worsens.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0261",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 1,
+    "question": "In an LLM, what is a token?",
+    "options": [
+      "A subword unit produced by the tokeniser",
+      "A complete sentence of the prompt",
+      "A single trainable model weight",
+      "A credential granting access to the model"
+    ],
+    "answer": 0,
+    "explanation": "Tokenisers split text into units such as words or word fragments that are mapped to IDs. Context limits and API pricing are expressed in tokens.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Recital 97 (training of general-purpose AI models)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0262",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 1,
+    "question": "What is the context window of an LLM?",
+    "options": [
+      "The maximum number of tokens it can process in one request, output included",
+      "The number of documents contained in its training corpus",
+      "The period of time that its training data covers",
+      "The number of parameters contained in its attention layers"
+    ],
+    "answer": 0,
+    "explanation": "The context window bounds how many tokens (prompt and generated text) the model can attend to at once. The training-data period is the knowledge cutoff.",
+    "source": {
+      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
+      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+    }
+  },
+  {
+    "id": "ad8-0263",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 1,
+    "question": "What does lowering the sampling temperature towards 0 do?",
+    "options": [
+      "It makes output more varied, as low-probability tokens gain extra weight",
+      "It makes output more deterministic, as the likeliest token is nearly always chosen",
+      "It makes output longer, as the end-of-sequence token is suppressed",
+      "It makes output factually correct, as hallucinations are switched off"
+    ],
+    "answer": 1,
+    "explanation": "Temperature rescales the logits before sampling; at 0 the model effectively performs greedy decoding. This improves repeatability, not truthfulness.",
+    "source": {
+      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
+      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+    }
+  },
+  {
+    "id": "ad8-0264",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 1,
+    "question": "How are large generative language models typically pre-trained?",
+    "options": [
+      "By self-supervised prediction of the next token on very large text corpora",
+      "By supervised learning on human-labelled question-answer pairs only",
+      "By reinforcement learning from human feedback starting from random weights",
+      "By clustering documents without any prediction objective"
+    ],
+    "answer": 0,
+    "explanation": "Recital 97 of the AI Act notes that such models are typically trained on large amounts of data using methods such as self-supervised learning. Human feedback comes later, during alignment.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Recital 97",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0265",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 1,
+    "question": "Which measure most directly reduces ungrounded answers from an enterprise assistant?",
+    "options": [
+      "Raising the sampling temperature to encourage more diverse wording",
+      "Retrieving approved documents and requiring answers from them, with citations",
+      "Increasing the maximum output length allowed per answer",
+      "Removing the system prompt to give the model more freedom"
+    ],
+    "answer": 1,
+    "explanation": "Grounding answers in retrieved sources and requiring citations constrains the model and lets users verify claims. Higher temperature increases randomness, so it worsens fabrication.",
+    "source": {
+      "title": "EDPS, Generative AI and the EUDPR - Orientations (revised 28 October 2025)",
+      "url": "https://www.edps.europa.eu/system/files/2025-10/25-10_28_revised_genai_orientations_en.pdf"
+    }
+  },
+  {
+    "id": "ad8-0266",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 1,
+    "question": "In a RAG system, what is the role of an embedding model?",
+    "options": [
+      "It generates the final answer text from the retrieved chunks",
+      "It ranks candidate tokens by probability during decoding",
+      "It filters out prompts that violate the usage policy",
+      "It maps text to vectors so that similar passages lie close together"
+    ],
+    "answer": 3,
+    "explanation": "Embedding models turn queries and chunks into vectors for similarity search. The generator, a separate LLM, writes the answer.",
+    "source": {
+      "title": "EDPS, Generative AI and the EUDPR - Orientations (revised 28 October 2025)",
+      "url": "https://www.edps.europa.eu/system/files/2025-10/25-10_28_revised_genai_orientations_en.pdf"
+    }
+  },
+  {
+    "id": "ad8-0267",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 1,
+    "question": "What is few-shot prompting?",
+    "options": [
+      "Fine-tuning the model on a few examples using gradient updates",
+      "Training the model on only a few tokens from each sample",
+      "Including a few worked examples in the prompt, with no weight updates",
+      "Running the model a few times and averaging the resulting weights"
+    ],
+    "answer": 2,
+    "explanation": "Few-shot prompting uses in-context examples; the weights stay fixed. Fine-tuning changes the weights, so it is a different technique.",
+    "source": {
+      "title": "EDPS, Generative AI and the EUDPR - Orientations (revised 28 October 2025)",
+      "url": "https://www.edps.europa.eu/system/files/2025-10/25-10_28_revised_genai_orientations_en.pdf"
+    }
+  },
+  {
+    "id": "ad8-0268",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 2,
+    "question": "In a transformer, how are the self-attention weights of a token computed?",
+    "options": [
+      "From a fixed table of word co-occurrence counts built in advance",
+      "From a recurrent state passed on sequentially from the previous token",
+      "From scaled query-key dot products across all tokens, normalised by softmax",
+      "From the token's position index alone, ignoring all content vectors"
+    ],
+    "answer": 2,
+    "explanation": "Attention scores come from query-key dot products, scaled by the square root of the key dimension and passed through softmax to weight the value vectors. Recurrence belongs to RNNs.",
+    "source": {
+      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
+      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+    }
+  },
+  {
+    "id": "ad8-0269",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 2,
+    "question": "In nucleus (top-p) sampling with p = 0.9, from which tokens does the model sample?",
+    "options": [
+      "The smallest set of likeliest tokens whose cumulative probability reaches 0.9",
+      "The 90 likeliest tokens, regardless of their probabilities",
+      "Every token whose individual probability lies above 0.9",
+      "The top 90 % of the vocabulary ranked by training frequency"
+    ],
+    "answer": 0,
+    "explanation": "Top-p adapts the candidate set size to the distribution. A fixed number of candidates such as 90 is top-k sampling.",
+    "source": {
+      "title": "EDPS, Generative AI and the EUDPR - Orientations (revised 28 October 2025)",
+      "url": "https://www.edps.europa.eu/system/files/2025-10/25-10_28_revised_genai_orientations_en.pdf"
+    }
+  },
+  {
+    "id": "ad8-0270",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 2,
+    "question": "In RLHF, how is the reward model typically trained?",
+    "options": [
+      "On the next-token likelihood of the original pre-training corpus",
+      "On human rankings of alternative responses to the same prompt",
+      "On unlabelled embeddings that have been clustered by topic",
+      "On the outcomes of automatically executed unit tests alone"
+    ],
+    "answer": 1,
+    "explanation": "Annotators rank candidate responses; the reward model learns to predict these preferences and guides policy optimisation. The pre-training objective is next-token prediction.",
+    "source": {
+      "title": "EDPS, Generative AI and the EUDPR - Orientations (revised 28 October 2025)",
+      "url": "https://www.edps.europa.eu/system/files/2025-10/25-10_28_revised_genai_orientations_en.pdf"
+    }
+  },
+  {
+    "id": "ad8-0271",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 2,
+    "question": "A ministry's chatbot must answer from policy documents that change weekly and show its sources. Which approach fits best?",
+    "options": [
+      "Fine-tuning the model weekly on the new documents",
+      "Pre-training a new model from scratch each quarter",
+      "Retrieval-augmented generation over the document store",
+      "Increasing the sampling temperature"
+    ],
+    "answer": 2,
+    "explanation": "RAG reflects document changes at once through the index and can cite the retrieved passages. Fine-tuning bakes knowledge into weights, which is slow and offers no source attribution.",
+    "source": {
+      "title": "EDPS, Generative AI and the EUDPR - Orientations (revised 28 October 2025)",
+      "url": "https://www.edps.europa.eu/system/files/2025-10/25-10_28_revised_genai_orientations_en.pdf"
+    }
+  },
+  {
+    "id": "ad8-0272",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 2,
+    "question": "What does LoRA do during fine-tuning?",
+    "options": [
+      "It freezes pre-trained weights and trains small low-rank update matrices",
+      "It retrains every weight of the model at reduced numerical precision",
+      "It permanently prunes the weights with the lowest magnitude",
+      "It trains a second model to imitate the first model's outputs"
+    ],
+    "answer": 0,
+    "explanation": "LoRA adds trainable low-rank matrices to selected layers while the original weights stay frozen, cutting trainable parameters and memory. Imitating a larger model is distillation.",
+    "source": {
+      "title": "EDPS, Generative AI and the EUDPR - Orientations (revised 28 October 2025)",
+      "url": "https://www.edps.europa.eu/system/files/2025-10/25-10_28_revised_genai_orientations_en.pdf"
+    }
+  },
+  {
+    "id": "ad8-0273",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 2,
+    "question": "Which sequence describes a basic RAG pipeline at query time?",
+    "options": [
+      "Generate an answer first, embed it, then search for chunks to keep",
+      "Embed the query, retrieve nearest chunks, optionally rerank, add to prompt, generate",
+      "Fine-tune on the retrieved chunks, then embed the query, then generate",
+      "Rerank all documents, chunk the winners, then embed the query"
+    ],
+    "answer": 1,
+    "explanation": "At query time the query is embedded, top-k chunks retrieved, optionally reranked, inserted into the prompt and the LLM generates the answer. Chunking and indexing happen beforehand.",
+    "source": {
+      "title": "EDPS, Generative AI and the EUDPR - Orientations (revised 28 October 2025)",
+      "url": "https://www.edps.europa.eu/system/files/2025-10/25-10_28_revised_genai_orientations_en.pdf"
+    }
+  },
+  {
+    "id": "ad8-0274",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 2,
+    "question": "In RAG indexing, what is the main drawback of very large chunks?",
+    "options": [
+      "Embeddings become exact, so that reranking becomes unnecessary",
+      "Retrieval recall always improves because no text is ever split",
+      "Retrieved passages hold more irrelevant text, diluting relevance and using context",
+      "Vector search becomes faster because fewer dimensions are needed"
+    ],
+    "answer": 2,
+    "explanation": "Large chunks blur a single embedding across topics and waste context-window space. Chunk size does not change embedding dimensions, and recall does not always improve.",
+    "source": {
+      "title": "EDPS, Generative AI and the EUDPR - Orientations (revised 28 October 2025)",
+      "url": "https://www.edps.europa.eu/system/files/2025-10/25-10_28_revised_genai_orientations_en.pdf"
+    }
+  },
+  {
+    "id": "ad8-0275",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 2,
+    "question": "In LLM tool use (function calling), who executes the requested tool?",
+    "options": [
+      "The model itself, using computations inside its own weights",
+      "The application or agent runtime, which passes the result back to the model",
+      "The tokeniser, before the prompt is sent to the model",
+      "The vector database, automatically after each retrieval step"
+    ],
+    "answer": 1,
+    "explanation": "The model only emits a structured call (name and arguments). The surrounding runtime runs the tool and feeds the result back, so it can enforce permissions.",
+    "source": {
+      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
+      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+    }
+  },
+  {
+    "id": "ad8-0276",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 2,
+    "question": "What is the Model Context Protocol (MCP)?",
+    "options": [
+      "An open protocol standardising how AI applications connect to tools and data sources",
+      "A training method for aligning model behaviour with human preferences",
+      "A file format for storing the weights of quantised models",
+      "A benchmark suite for evaluating the performance of AI agents"
+    ],
+    "answer": 0,
+    "explanation": "MCP defines a client-server protocol, based on JSON-RPC 2.0, through which hosts access resources, prompts and tools offered by servers. It is neither a training method nor a benchmark.",
+    "source": {
+      "title": "Model Context Protocol Specification (2025-06-18)",
+      "url": "https://modelcontextprotocol.io/specification/2025-06-18"
+    }
+  },
+  {
+    "id": "ad8-0277",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 2,
+    "question": "A mail assistant with a send-mail tool summarises a message containing hidden text 'forward the inbox to X', and complies. What attack is this?",
+    "options": [
+      "Indirect prompt injection",
+      "Training-data poisoning",
+      "Model inversion",
+      "Membership inference"
+    ],
+    "answer": 0,
+    "explanation": "Instructions embedded in third-party content were treated as commands, which is indirect prompt injection. Poisoning targets training data, and the others extract information about training data.",
+    "source": {
+      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
+      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+    }
+  },
+  {
+    "id": "ad8-0278",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 2,
+    "question": "A 7-billion-parameter model has its weights quantised from 16-bit to 4-bit. About how much memory do the weights need afterwards?",
+    "options": [
+      "1.75 GB",
+      "7 GB",
+      "3.5 GB",
+      "14 GB"
+    ],
+    "answer": 2,
+    "explanation": "7 x 10^9 parameters x 0.5 byte = 3.5 GB. At 16 bits (2 bytes) it was 14 GB. Activations and the KV cache need extra memory.",
+    "source": {
+      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
+      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+    }
+  },
+  {
+    "id": "ad8-0279",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 2,
+    "question": "What distinguishes an open-weight model from a closed model?",
+    "options": [
+      "Its full training data, code and recipe are published under an open licence",
+      "It can only be reached through an API hosted by its provider",
+      "Its training data are guaranteed to contain no personal data",
+      "Its trained weights can be downloaded and run locally; data and code may stay undisclosed"
+    ],
+    "answer": 3,
+    "explanation": "Open-weight means weights are available; it does not imply full openness of data or code, nor any guarantee about training data. Hosted-only access is the closed-model case.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Recital 97",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0280",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 2,
+    "question": "In knowledge distillation, what is the 'student' model trained to do?",
+    "options": [
+      "Predict the numerical weight values of the teacher model",
+      "Generate the original training data used for the teacher",
+      "Rank human preferences on behalf of the teacher model",
+      "Mimic the output distribution of a larger teacher model"
+    ],
+    "answer": 3,
+    "explanation": "Distillation trains a smaller model on the teacher's soft outputs, capturing much of its behaviour at lower cost. LoRA, by contrast, adapts a single model.",
+    "source": {
+      "title": "EDPS, Generative AI and the EUDPR - Orientations (revised 28 October 2025)",
+      "url": "https://www.edps.europa.eu/system/files/2025-10/25-10_28_revised_genai_orientations_en.pdf"
+    }
+  },
+  {
+    "id": "ad8-0281",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 2,
+    "question": "A retriever returns 5 chunks, of which 3 are relevant. In total 4 relevant chunks exist. What are precision@5 and recall@5?",
+    "options": [
+      "0.75 and 0.60",
+      "0.60 and 0.60",
+      "0.75 and 0.75",
+      "0.60 and 0.75"
+    ],
+    "answer": 3,
+    "explanation": "Precision@5 = 3/5 = 0.60 and recall@5 = 3/4 = 0.75. Swapping the denominators gives the tempting wrong pair.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0282",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 3,
+    "question": "Why do transformers add positional information to token embeddings?",
+    "options": [
+      "To reduce the size of the vocabulary used by the tokeniser",
+      "To make the cost of attention linear in sequence length",
+      "To replace the feed-forward layers inside every block",
+      "Attention has no notion of token order, which would otherwise be lost"
+    ],
+    "answer": 3,
+    "explanation": "Self-attention treats the input as a set of vectors; positional encodings inject order. Standard attention cost remains quadratic in sequence length.",
+    "source": {
+      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
+      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+    }
+  },
+  {
+    "id": "ad8-0283",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 3,
+    "question": "A 4096 x 4096 weight matrix is adapted with LoRA of rank r = 8 (A: 8 x 4096, B: 4096 x 8). How many trainable parameters does the adapter add?",
+    "options": [
+      "32 768",
+      "65 536",
+      "131 072",
+      "16 777 216"
+    ],
+    "answer": 1,
+    "explanation": "2 x 4096 x 8 = 65 536. The value 16 777 216 is the full matrix, 32 768 counts only one factor, and 131 072 would correspond to r = 16.",
+    "source": {
+      "title": "EDPS, Generative AI and the EUDPR - Orientations (revised 28 October 2025)",
+      "url": "https://www.edps.europa.eu/system/files/2025-10/25-10_28_revised_genai_orientations_en.pdf"
+    }
+  },
+  {
+    "id": "ad8-0284",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 3,
+    "question": "Why do production RAG systems often use approximate nearest-neighbour indexes such as HNSW?",
+    "options": [
+      "They guarantee exact top-k results while using less memory",
+      "They remove the need for embeddings by indexing keywords instead",
+      "They trade a little recall for much lower latency on large collections",
+      "They shrink vector dimensionality without any loss of information"
+    ],
+    "answer": 2,
+    "explanation": "ANN indexes avoid exhaustive comparison and may miss some true neighbours. They are therefore approximate, not exact.",
+    "source": {
+      "title": "EDPS, Generative AI and the EUDPR - Orientations (revised 28 October 2025)",
+      "url": "https://www.edps.europa.eu/system/files/2025-10/25-10_28_revised_genai_orientations_en.pdf"
+    }
+  },
+  {
+    "id": "ad8-0285",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 3,
+    "question": "Why is a cross-encoder reranker applied only to the top-k candidates of first-stage retrieval?",
+    "options": [
+      "It scores passages independently of the query, which makes it cheaper",
+      "It scores each query-passage pair jointly: accurate, but too costly for the whole corpus",
+      "It is less accurate than bi-encoder retrieval but runs faster",
+      "It writes the final answer text separately for each candidate"
+    ],
+    "answer": 1,
+    "explanation": "Joint encoding of query and passage captures fine interactions but requires one forward pass per pair, so it is used on a short list. Bi-encoders allow pre-computed vectors and fast search.",
+    "source": {
+      "title": "EDPS, Generative AI and the EUDPR - Orientations (revised 28 October 2025)",
+      "url": "https://www.edps.europa.eu/system/files/2025-10/25-10_28_revised_genai_orientations_en.pdf"
+    }
+  },
+  {
+    "id": "ad8-0286",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 3,
+    "question": "Which transports does the MCP specification define for client-server communication?",
+    "options": [
+      "gRPC and MQTT",
+      "stdio and Streamable HTTP",
+      "SOAP and WebDAV",
+      "WebRTC and SMTP"
+    ],
+    "answer": 1,
+    "explanation": "The 2025-06-18 specification defines two standard transports, stdio for local processes and Streamable HTTP for remote servers. Messages are JSON-RPC 2.0 in both cases.",
+    "source": {
+      "title": "Model Context Protocol Specification (2025-06-18), Transports",
+      "url": "https://modelcontextprotocol.io/specification/2025-06-18/basic/transports"
+    }
+  },
+  {
+    "id": "ad8-0287",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 3,
+    "question": "Which control best limits the damage of a successful prompt injection against a tool-using agent?",
+    "options": [
+      "A system prompt that tells the model to ignore malicious instructions",
+      "Setting the sampling temperature to zero for all requests",
+      "Enlarging the context window to hold more safety instructions",
+      "Least-privilege tool permissions plus human approval of sensitive actions"
+    ],
+    "answer": 3,
+    "explanation": "Because injected text cannot be reliably told apart from legitimate instructions, defence relies on limiting what the agent can do. Prompt wording and temperature do not constrain a compromised model.",
+    "source": {
+      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
+      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+    }
+  },
+  {
+    "id": "ad8-0288",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 3,
+    "question": "A model scores very high on a public benchmark but poorly on a new private test of the same skill. What is the most likely cause?",
+    "options": [
+      "Underfitting caused by an excessive number of training tokens",
+      "A learning rate that was set too low during inference",
+      "Class imbalance among the benchmark's answer options",
+      "Benchmark contamination: test items leaked into the training data"
+    ],
+    "answer": 3,
+    "explanation": "Public benchmarks can appear in web-scale training corpora, inflating scores through memorisation. Private fresh test sets are therefore used to check generalisation.",
+    "source": {
+      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
+      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+    }
+  },
+  {
+    "id": "ad8-0289",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 3,
+    "question": "Which known weakness affects 'LLM-as-a-judge' evaluation?",
+    "options": [
+      "It cannot score free-text answers at all",
+      "Repeated runs never differ because it is deterministic by design",
+      "Bias toward longer answers and toward the answer presented first",
+      "It requires gold reference answers for every item"
+    ],
+    "answer": 2,
+    "explanation": "LLM judges show verbosity and position biases, which is why order is randomised and results calibrated against human ratings. They can grade free text without references.",
+    "source": {
+      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
+      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+    }
+  },
+  {
+    "id": "ad8-0290",
+    "pkg": "ad8-ki",
+    "area": "genai-llm",
+    "difficulty": 3,
+    "question": "What does the KV cache do during autoregressive generation?",
+    "options": [
+      "It stores keys and values of earlier tokens, avoiding their recomputation",
+      "It caches earlier user answers to return identical responses",
+      "It stores the vocabulary embeddings on disk between requests",
+      "It keeps the training corpus available for later retrieval"
+    ],
+    "answer": 0,
+    "explanation": "Each new token attends to all earlier tokens; caching their key and value tensors avoids recomputation, at the price of memory growing with context length.",
+    "source": {
+      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
+      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+    }
+  },
+  {
+    "id": "ad8-0291",
+    "pkg": "ad8-ki",
+    "area": "data-mlops",
+    "difficulty": 1,
+    "question": "In a customer table, 8 % of mandatory 'date of birth' fields are empty. Which data-quality dimension is mainly affected?",
+    "options": [
+      "Accuracy",
+      "Uniqueness",
+      "Timeliness",
+      "Completeness"
+    ],
+    "answer": 3,
+    "explanation": "Missing mandatory values reduce completeness. Art. 10(3) of the AI Act requires data sets to be, as far as possible, free of errors and complete in view of the intended purpose.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 10(3)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0292",
+    "pkg": "ad8-ki",
+    "area": "data-mlops",
+    "difficulty": 1,
+    "question": "What does data lineage record?",
+    "options": [
+      "The access-control list that applies to each data set",
+      "The origin of data and the transformations applied along its path",
+      "The storage cost per terabyte for each data store",
+      "The distribution of every feature over time in production"
+    ],
+    "answer": 1,
+    "explanation": "Lineage traces sources and processing steps, supporting audits. Art. 10(2)(b)-(c) of the AI Act requires governance of data origin, collection and preparation such as cleaning and labelling.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 10(2)(b)-(c)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0293",
+    "pkg": "ad8-ki",
+    "area": "data-mlops",
+    "difficulty": 1,
+    "question": "What is the main purpose of a model registry?",
+    "options": [
+      "Storing raw training data together with row-level lineage records",
+      "Serving predictions to client applications at very low latency",
+      "Versioned storage of trained models with metadata and stage, for controlled promotion",
+      "Labelling new training data through a pool of crowd workers"
+    ],
+    "answer": 2,
+    "explanation": "A registry keeps model artefacts, versions, metrics and stage (e.g. staging or production), enabling traceable promotion and rollback. It does not serve predictions or hold raw data.",
+    "source": {
+      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
+      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+    }
+  },
+  {
+    "id": "ad8-0294",
+    "pkg": "ad8-ki",
+    "area": "data-mlops",
+    "difficulty": 2,
+    "question": "Which problem does a feature store mainly help prevent?",
+    "options": [
+      "Training-serving skew from computing features differently offline and online",
+      "Overfitting that results from having too many model parameters",
+      "Label noise that is already present in the training set",
+      "Vanishing gradients that occur in very deep networks"
+    ],
+    "answer": 0,
+    "explanation": "A feature store provides one definition of each feature for both training and serving, so that the model sees consistent inputs. It does not address overfitting or label quality.",
+    "source": {
+      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
+      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+    }
+  },
+  {
+    "id": "ad8-0295",
+    "pkg": "ad8-ki",
+    "area": "data-mlops",
+    "difficulty": 2,
+    "question": "Besides code tests, what should a CI/CD pipeline for ML use to gate promotion of a new model?",
+    "options": [
+      "Only unit tests that cover the model-serving code",
+      "A decrease of the training loss, taken on its own",
+      "Data validation and evaluation against a baseline model",
+      "The size of the container image, taken on its own"
+    ],
+    "answer": 2,
+    "explanation": "ML pipelines must validate data and compare evaluation metrics with the current model before release, since failures often come from data or performance regressions, not code.",
+    "source": {
+      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
+      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+    }
+  },
+  {
+    "id": "ad8-0296",
+    "pkg": "ad8-ki",
+    "area": "data-mlops",
+    "difficulty": 2,
+    "question": "Input feature distributions are unchanged, but the relationship between inputs and the correct label has shifted because fraud tactics changed. Which drift is this?",
+    "options": [
+      "Covariate shift (data drift)",
+      "Schema drift",
+      "Concept drift",
+      "Training-serving skew"
+    ],
+    "answer": 2,
+    "explanation": "Concept drift means P(y|x) changes. Covariate shift concerns changes in P(x) with a stable relationship, which is not the case here.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0297",
+    "pkg": "ad8-ki",
+    "area": "data-mlops",
+    "difficulty": 2,
+    "question": "Which technique compares a numeric feature's production distribution with its training distribution to detect drift?",
+    "options": [
+      "Confusion matrix on live labels",
+      "k-fold cross-validation",
+      "Backpropagation",
+      "Two-sample Kolmogorov-Smirnov test"
+    ],
+    "answer": 3,
+    "explanation": "The two-sample KS test measures the maximum distance between two empirical distributions and needs no labels. A confusion matrix requires ground truth.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ad8-0298",
+    "pkg": "ad8-ki",
+    "area": "data-mlops",
+    "difficulty": 3,
+    "question": "A team wants to compare a new model's predictions on live traffic without any user seeing them. Which deployment pattern fits?",
+    "options": [
+      "Shadow deployment",
+      "Canary release",
+      "Blue-green deployment",
+      "A/B test"
+    ],
+    "answer": 0,
+    "explanation": "In shadow mode the new model receives a copy of production requests but its outputs are only logged. A canary release serves real responses to a small share of users, as does an A/B test.",
+    "source": {
+      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
+      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+    }
+  },
+  {
+    "id": "ad8-0299",
+    "pkg": "ad8-ki",
+    "area": "data-mlops",
+    "difficulty": 3,
+    "question": "Under the AI Act, how must high-risk systems that continue to learn after deployment be developed with regard to their outputs?",
+    "options": [
+      "To forbid any retraining once the system is on the market",
+      "To retrain automatically whenever accuracy drops by 1 %",
+      "To log outputs without taking any steps against feedback loops",
+      "To eliminate or reduce the risk of biased outputs feeding future inputs (feedback loops)"
+    ],
+    "answer": 3,
+    "explanation": "Art. 15(4) requires such systems to be developed so that feedback loops are eliminated or reduced and duly addressed with mitigation measures. It neither forbids learning nor fixes a retraining trigger.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 15(4)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0300",
+    "pkg": "ad8-ki",
+    "area": "data-mlops",
+    "difficulty": 3,
+    "question": "What is the purpose of post-market monitoring by providers of high-risk AI systems?",
+    "options": [
+      "To replace the conformity assessment done before market placement",
+      "To collect and analyse performance data over the lifetime to check continuing compliance",
+      "To let deployers retrain models without any documentation duties",
+      "To register every single inference in an EU-wide database"
+    ],
+    "answer": 1,
+    "explanation": "Art. 72(2) requires a system that actively and systematically collects, documents and analyses performance data throughout the lifetime. It complements, not replaces, ex-ante conformity assessment.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 72",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  }
+]
