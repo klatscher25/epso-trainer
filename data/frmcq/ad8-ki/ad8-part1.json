@@ -80,7 +80,7 @@
     "pkg": "ad8-ki",
     "area": "ai-act",
     "difficulty": 1,
-    "question": "A company established in the Union places on the Union market an AI system that bears the name and trademark of a company established in the US. In AI Act terms, the Union company is the system's",
+    "question": "A company established in the Union buys AI systems developed by a US company and places them on the Union market unchanged, under the US company's name and trademark. In AI Act terms, the Union company is the system's",
     "options": [
       "distributor",
       "provider",
