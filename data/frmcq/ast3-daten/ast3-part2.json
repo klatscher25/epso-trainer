@@ -14,7 +14,7 @@
   "answer": 3,
   "explanation": "A left join keeps all rows of the left table and fills the right-hand columns with NULL when there is no match. An inner join drops unmatched customers, and a right join would instead keep all orders.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -33,7 +33,7 @@
   "answer": 1,
   "explanation": "HAVING filters groups after aggregation. WHERE is evaluated before grouping and cannot contain aggregate functions.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -52,7 +52,7 @@
   "answer": 0,
   "explanation": "Aggregate functions other than COUNT(*) ignore NULLs, so AVG is 60 / 3 = 20. Dividing by all five rows (12) is the tempting but wrong reading.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -71,7 +71,7 @@
   "answer": 2,
   "explanation": "NULL means unknown, so comparisons with = or <> evaluate to UNKNOWN and select no rows; only IS NULL tests for it. An empty string is a value, not NULL.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -90,7 +90,7 @@
   "answer": 1,
   "explanation": "x NOT IN (…, NULL) evaluates to UNKNOWN for every x not matched by a non-NULL value, so no row qualifies. NOT EXISTS avoids this trap.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -109,7 +109,7 @@
   "answer": 2,
   "explanation": "DENSE_RANK gives tied rows the same rank without gaps (1, 1, 2). RANK would give 1, 1, 3 and ROW_NUMBER would give 1, 2, 3.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -128,7 +128,7 @@
   "answer": 3,
   "explanation": "A window SUM with PARTITION BY country and ORDER BY month accumulates within each country while keeping row-level detail. GROUP BY would collapse the rows.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -147,7 +147,7 @@
   "answer": 0,
   "explanation": "An index is an extra structure that must be maintained on every write, so it trades write performance and space for faster reads. Referential integrity is enforced by foreign keys.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -166,7 +166,7 @@
   "answer": 1,
   "explanation": "Applying a function to the indexed column hides it from the index, whereas a plain half-open range on the raw column is sargable. The other forms still wrap or convert the column.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -185,7 +185,7 @@
   "answer": 0,
   "explanation": "A primary key uniquely identifies each row and cannot be NULL. Referencing another table is the role of a foreign key.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -204,7 +204,7 @@
   "answer": 3,
   "explanation": "A foreign key enforces referential integrity: child values must exist in the parent key (NULL allowed unless the column is NOT NULL). Uniqueness would require a separate constraint.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -223,7 +223,7 @@
   "answer": 2,
   "explanation": "A non-key attribute depending on another non-key attribute is a transitive dependency, which 3NF forbids. With a single-column key, 2NF cannot be violated by partial dependency.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -242,7 +242,7 @@
   "answer": 3,
   "explanation": "A non-key attribute that depends on only part of a composite key breaks 2NF. The table can still be in 1NF if all values are atomic.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -261,7 +261,7 @@
   "answer": 2,
   "explanation": "Atomicity means a transaction is applied completely or not at all, which is why the debit is rolled back. Durability concerns surviving crashes after commit.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -280,7 +280,7 @@
   "answer": 0,
   "explanation": "A second read of the same row can return a different committed value under READ COMMITTED; REPEATABLE READ prevents this. Dirty reads are already prevented at READ COMMITTED, and phantoms remain possible at REPEATABLE READ in the standard.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -299,7 +299,7 @@
   "answer": 1,
   "explanation": "Durability guarantees that committed changes survive failures, typically through write-ahead logging. Consistency concerns moving between valid states, not crash survival.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -318,7 +318,7 @@
   "answer": 2,
   "explanation": "UNION removes duplicates, so 3 + 3 - 1 = 5. UNION ALL would return all 6 rows.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -337,7 +337,7 @@
   "answer": 0,
   "explanation": "A correlated subquery depends on values from the outer row, so conceptually it is re-evaluated for each outer row (optimisers may rewrite it). An uncorrelated subquery runs independently.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -356,7 +356,7 @@
   "answer": 1,
   "explanation": "Every selected non-aggregated column must be listed in GROUP BY (or be functionally dependent on it). Otherwise the value per group is ambiguous.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -375,7 +375,7 @@
   "answer": 3,
   "explanation": "The default is how='inner', keeping only keys present in both frames. A left join needs how='left'.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -394,7 +394,7 @@
   "answer": 2,
   "explanation": "pivot_table reshapes to a wide table and aggregates duplicates with aggfunc. pivot only reshapes (and fails on duplicate keys), and the other options have rows and columns the wrong way round or lengthen the data.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -413,7 +413,7 @@
   "answer": 3,
   "explanation": "By default skipna=True, so the mean is (2 + 4) / 2 = 3. Dividing by three would give 2.0.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -432,7 +432,7 @@
   "answer": 0,
   "explanation": "all.x = TRUE makes the merge a left join. The default merge is an inner join and all.y = TRUE would keep all rows of y.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -451,7 +451,7 @@
   "answer": 1,
   "explanation": "Exact-match deduplication treats these as different strings; normalising case and whitespace first lets them match. Deleting rows would lose valid records.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -470,7 +470,7 @@
   "answer": 1,
   "explanation": "When the probability of missingness depends on the unobserved value itself, the mechanism is MNAR. MAR would require dependence only on observed variables.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -489,7 +489,7 @@
   "answer": 3,
   "explanation": "Mean imputation leaves the mean unchanged but adds values at the centre, shrinking variance and distorting relationships. Standard errors computed as if the data were complete are too small.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -508,7 +508,7 @@
   "answer": 2,
   "explanation": "Apache Parquet is a columnar, compressed binary format with an embedded schema. CSV is plain text with no types or schema.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -527,7 +527,7 @@
   "answer": 0,
   "explanation": "XML supports hierarchical data and validation with XSD. It is usually larger than CSV, and it still requires a parser.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -546,8 +546,8 @@
   "answer": 3,
   "explanation": "429 means the client exceeded a rate limit and should slow down or retry later. 404 signals a missing resource, 401/403 authorisation problems and 500 a server error.",
   "source": {
-   "title": "Eurostat: API - Getting started",
-   "url": "https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-getting-started"
+   "title": "RFC 6585, Section 4: 429 Too Many Requests",
+   "url": "https://www.rfc-editor.org/rfc/rfc6585#section-4"
   }
  },
  {
@@ -565,7 +565,7 @@
   "answer": 0,
   "explanation": "ELT loads raw data first and uses the compute of the warehouse or lake to transform them. In classic ETL the transformation happens before loading.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -584,7 +584,7 @@
   "answer": 2,
   "explanation": "A warehouse imposes a modelled schema at load time, while a lake stores raw data and applies structure when read. The other pairs reverse or invent the differences.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -603,7 +603,7 @@
   "answer": 1,
   "explanation": "A star schema places measures in a fact table with foreign keys to denormalised dimension tables. A snowflake further normalises the dimensions.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -622,7 +622,7 @@
   "answer": 1,
   "explanation": "Descriptive attributes such as product category belong to the dimension, while numeric measures belong to the fact table.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -641,7 +641,7 @@
   "answer": 2,
   "explanation": "Unmatched customers have NULL in o.status, and NULL = 'paid' is not true, so they are filtered out and the join behaves like an inner join. Moving the condition into ON preserves them.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -660,7 +660,7 @@
   "answer": 0,
   "explanation": "B has only one row and is removed by HAVING; A sums to 30 and C to 15 + 25 + 35 = 75.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -679,7 +679,7 @@
   "answer": 3,
   "explanation": "Completeness is the share of required values that are present. Accuracy would concern whether the present values are correct.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -698,7 +698,7 @@
   "answer": 1,
   "explanation": "The same fact is represented differently across systems, which is a consistency problem. Completeness would require missing values.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -717,7 +717,7 @@
   "answer": 3,
   "explanation": "Descriptive metadata helps people find and understand the dataset. The other options are technical or operational details.",
   "source": {
-   "title": "data.europa.eu, the official portal for European data",
+   "title": "data.europa.eu, the official portal for European data (general reference)",
    "url": "https://data.europa.eu/"
   }
  },
@@ -812,7 +812,7 @@
   "answer": 1,
   "explanation": "Master data describes core business entities used across systems, such as organisations, customers or products. Invoices and readings are transactions or events.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -831,7 +831,7 @@
   "answer": 2,
   "explanation": "Stewards are accountable for definitions, quality rules and fitness of data in their domain. Technical custodians run the infrastructure.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  },
@@ -1002,7 +1002,7 @@
   "answer": 1,
   "explanation": "Art. 23 permits access to confidential data that only allow indirect identification, granted by Eurostat or NSIs. Direct identification is not covered.",
   "source": {
-   "title": "Regulation (EC) No 223/2009 on European statistics, Art. 23",
+   "title": "Regulation (EC) No 223/2009 on European statistics, Art. 23 (as amended by Regulation (EU) 2024/3018)",
    "url": "https://eur-lex.europa.eu/eli/reg/2009/223/oj"
   }
  },
@@ -1019,7 +1019,7 @@
    "To stop the suppressed value being recalculated from totals and other cells"
   ],
   "answer": 3,
-  "explanation": "If a suppressed cell can be derived by subtracting other cells from a published total, another cell must be hidden. This is part of statistical disclosure control (Art. 20(4)).",
+  "explanation": "If a suppressed cell can be derived by subtracting other cells from a published total, another cell must be hidden too. Art. 20(4) obliges statistical authorities to apply statistical disclosure control, of which secondary suppression is one technique.",
   "source": {
    "title": "Regulation (EC) No 223/2009 on European statistics, Art. 20(4)",
    "url": "https://eur-lex.europa.eu/eli/reg/2009/223/oj"
@@ -1456,7 +1456,7 @@
    "Complementary guidance with methods, tools and good practices to implement the Code of Practice"
   ],
   "answer": 3,
-  "explanation": "The QAF supports implementing the Code of Practice. It was adopted in 2011 and revised in 2019 after the 2017 Code revision.",
+  "explanation": "The QAF supports implementing the Code of Practice with methods, tools and good practices; it was revised in 2019 after the 2017 revision of the Code.",
   "source": {
    "title": "Eurostat: Quality Assurance Framework of the ESS",
    "url": "https://ec.europa.eu/eurostat/web/quality/european-quality-standards/quality-assurance-framework"
@@ -1543,7 +1543,7 @@
   "pkg": "ast3-daten",
   "area": "official-stats",
   "difficulty": 3,
-  "question": "A Member State has 1.2 million inhabitants, below the minimum for NUTS 1 and NUTS 2. How does Regulation (EC) No 1059/2003 treat it?",
+  "question": "A Member State has 600,000 inhabitants, below the minimum population for both NUTS 1 and NUTS 2. How does Regulation (EC) No 1059/2003 treat it?",
   "options": [
    "It has no NUTS 1 or 2 but only NUTS 3 units",
    "It is merged into a neighbouring State's units",
@@ -1551,7 +1551,7 @@
    "Its largest city is the NUTS 1 unit"
   ],
   "answer": 2,
-  "explanation": "Art. 3(2): if the population of a whole Member State is below the minimum for a level, the State is one NUTS unit for that level.",
+  "explanation": "Art. 3(2): the minimum is 3 million for NUTS 1 and 800,000 for NUTS 2; if the population of a whole Member State is below the minimum for a level, the whole State forms one NUTS unit for that level.",
   "source": {
    "title": "Regulation (EC) No 1059/2003 (NUTS), Art. 3(2)",
    "url": "https://eur-lex.europa.eu/eli/reg/2003/1059/oj"
@@ -1570,7 +1570,7 @@
    "They are fixed separately by each Member State"
   ],
   "answer": 1,
-  "explanation": "Art. 3(2) refers to the average size of a class of administrative units; Art. 3(5) permits deviations, for example for islands and outermost regions.",
+  "explanation": "Art. 3(2) refers to the average size of a class of administrative units, so single units may lie outside the range; Art. 3(5) additionally lets individual non-administrative units deviate, especially islands and outermost regions.",
   "source": {
    "title": "Regulation (EC) No 1059/2003 (NUTS), Art. 3(2) and (5)",
    "url": "https://eur-lex.europa.eu/eli/reg/2003/1059/oj"
@@ -1581,17 +1581,17 @@
   "pkg": "ast3-daten",
   "area": "official-stats",
   "difficulty": 2,
-  "question": "Under Art. 4 of Regulation (EC) No 1059/2003, which units subdivide NUTS level 3?",
+  "question": "Under Art. 3(3) of Regulation (EC) No 1059/2003, which persons make up the population of a territorial unit for applying the NUTS thresholds?",
   "options": [
-   "NUTS level 4",
-   "Statistical grids of 1 km",
-   "Postal code areas",
-   "Local administrative units (LAU), in one or two levels"
+   "Persons registered on the electoral roll of the area",
+   "Persons physically present in the area on census night",
+   "Only nationals of the Member State who live in the area",
+   "Persons who have their usual place of residence in the area"
   ],
   "answer": 3,
-  "explanation": "Art. 4(1): LAU subdivide NUTS 3 into one or two further levels, at least one being an administrative unit.",
+  "explanation": "Art. 3(3) defines the population of a territorial unit as the persons with their usual place of residence in that area, not voters, nationals or persons merely present.",
   "source": {
-   "title": "Regulation (EC) No 1059/2003 (NUTS), Art. 4(1)",
+   "title": "Regulation (EC) No 1059/2003 (NUTS), Art. 3(3)",
    "url": "https://eur-lex.europa.eu/eli/reg/2003/1059/oj"
   }
  },
@@ -1876,7 +1876,7 @@
   "answer": 1,
   "explanation": "Absolute counts mainly reflect population size. Normalising by population gives comparable rates on a choropleth map.",
   "source": {
-   "title": "Eurostat: GISCO overview",
+   "title": "Eurostat: GISCO overview (context; cartographic practice is a general reference)",
    "url": "https://ec.europa.eu/eurostat/web/gisco/overview"
   }
  },
@@ -1895,7 +1895,7 @@
   "answer": 3,
   "explanation": "Drill-down moves from an aggregate to more detailed levels of a hierarchy; roll-up goes the opposite way.",
   "source": {
-   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "title": "data.europa.eu academy – Improving open data and metadata quality (general reference)",
    "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
   }
  }
