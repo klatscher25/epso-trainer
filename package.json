@@ -11,6 +11,7 @@
     "e2e": "playwright test --trace off"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.119.0",
     "idb-keyval": "^6.3.0",
     "marked": "^18.2.0",
     "preact": "^11.2.0"

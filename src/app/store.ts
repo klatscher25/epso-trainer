@@ -93,8 +93,10 @@ export const allEvents = (): AppEvent[] => events;
 
 /** Union-Merge per id. Gibt Anzahl neuer Ereignisse zurück. */
 export function mergeEvents(incoming: AppEvent[]): number {
-  const fresh = incoming.filter((e) => e && e.id && !ids.has(e.id));
-  fresh.forEach((e) => ids.add(e.id));
+  const fresh = incoming.filter((e) => {
+    if (!e || !e.id || ids.has(e.id)) return false;
+    ids.add(e.id); return true;
+  });
   if (!fresh.length) return 0;
   events = events.concat(fresh).sort((a, b) => a.created_at - b.created_at);
   persist(backend.putEvents(fresh));

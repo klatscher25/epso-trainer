@@ -7,6 +7,7 @@ import { PASS, TESTS } from '../examConfig';
 import { packages } from '../data';
 import { getQ } from '../items';
 import { setPending } from '../pending';
+import { essayTasks, essaysOf } from '../essay';
 
 const areaLabel = (id: string) => packages.flatMap((p) => p.areas).find((a) => a.id === id)?.label ?? id;
 const pct = (x: number | null) => (x === null ? '–' : Math.round(x * 100) + ' %');
@@ -59,6 +60,15 @@ export function Progress() {
         <ul class="list">{sims.map((e) => {
           const s = e.payload.score;
           return <li key={e.id}>{new Date(e.payload.at).toLocaleDateString('de-DE')}: {s.verbal ? `Sprache ${s.verbal.score}/${s.verbal.total} · ` : ''}{s.numAbs ? `Zahlen+Abstrakt ${s.numAbs.score}/${s.numAbs.total}` : ''}{s.frmcq ? ` · Fach ${s.frmcq.score}/${s.frmcq.total}` : ''}</li>;
+        })}</ul>
+      )}
+
+      <h2>Aufsätze</h2>
+      {essaysOf(events).length === 0 ? <p class="muted">Noch kein Aufsatz bewertet.</p> : (
+        <ul class="list" data-testid="essay-history">{essaysOf(events).reverse().map((e) => {
+          const p = e.payload;
+          const t = essayTasks.find((x) => x.id === p.taskId)?.title ?? (String(p.taskId).startsWith('custom') ? 'Eigenes Thema' : p.taskId);
+          return <li key={e.id}>{new Date(p.at).toLocaleDateString('de-DE')}: {t} · <b class={p.total >= 5 ? 'pass' : 'fail'}>{p.total}/10</b> · {p.words} Wörter · {p.minutes} Min. · {p.selfAssessed ? 'Selbstbewertung' : 'KI'}</li>;
         })}</ul>
       )}
 

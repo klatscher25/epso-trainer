@@ -3,6 +3,48 @@ import { Page } from '../components/Page';
 import { useKV } from '../state';
 import { applyTheme } from '../state';
 import { exportAll, importAll, resetAll } from '../store';
+import { countPending, signInWithEmail, signOut, syncNow, useSync } from '../sync';
+import { useEvents } from '../state';
+
+function SyncSection() {
+  const st = useSync();
+  const events = useEvents();
+  const [email, setEmail] = useState('');
+  const [info, setInfo] = useState('');
+  const [busy, setBusy] = useState(false);
+  const send = async () => {
+    setBusy(true); setInfo('');
+    try { await signInWithEmail(email.trim()); setInfo(`Link an ${email.trim()} geschickt. Öffne ihn im selben Browser.`); }
+    catch (e: any) { setInfo('Fehlgeschlagen: ' + (e?.message ?? e)); }
+    setBusy(false);
+  };
+  return (
+    <div class="card" data-testid="sync-card">
+      {st.signedIn ? (
+        <>
+          <p>Angemeldet als <b data-testid="sync-email">{st.email}</b></p>
+          <p class="small muted" data-testid="sync-status">
+            {st.busy ? 'Synchronisiere …' : st.lastSync ? `Letzter Abgleich: ${new Date(st.lastSync).toLocaleTimeString('de-DE')} · ↑ ${st.pushed} ↓ ${st.pulled}` : 'Noch nicht synchronisiert'}
+            {' · '}{events.length} Ereignisse lokal, {countPending()} offen
+          </p>
+          {st.error ? <p class="fail small" role="alert">{st.error}</p> : null}
+          <div class="stack">
+            <button class="btn" disabled={st.busy} data-testid="sync-now" onClick={() => syncNow(true)}>Jetzt synchronisieren</button>
+            <button class="btn ghost" data-testid="sign-out" onClick={signOut}>Abmelden (lokale Daten bleiben)</button>
+          </div>
+        </>
+      ) : (
+        <>
+          <p class="muted small">Optional: Mit Anmeldung (Magic-Link per E-Mail) werden Fortschritt und Aufsätze zwischen Geräten abgeglichen und die KI-Bewertung freigeschaltet. Ohne Anmeldung bleibt alles lokal.</p>
+          <label class="fld">E-Mail<input class="inp" type="email" inputMode="email" autocomplete="email" value={email} data-testid="sync-email-input" onInput={(e) => setEmail((e.target as HTMLInputElement).value)} /></label>
+          <button class="btn primary wide" disabled={busy || !/.+@.+\..+/.test(email)} data-testid="sync-send" onClick={send}>Anmeldelink senden</button>
+          <p class="small muted">Tipp: Den Link im selben Browser öffnen, in dem du ihn angefordert hast (bei installierter App nicht in einem anderen Browser).</p>
+        </>
+      )}
+      {info ? <p role="status" data-testid="sync-info">{info}</p> : null}
+    </div>
+  );
+}
 
 export function Settings() {
   const [theme, setTheme] = useKV<string>('theme', 'system');
@@ -38,7 +80,7 @@ export function Settings() {
       </div>
       {msg ? <p role="status">{msg}</p> : null}
       <h2>Anmelden / Sync</h2>
-      <div class="card"><p class="muted">Geräteübergreifende Synchronisation (Supabase) kommt in einem späteren Schritt. Bis dahin liegen alle Daten nur auf diesem Gerät.</p></div>
+      <SyncSection />
     </Page>
   );
 }
