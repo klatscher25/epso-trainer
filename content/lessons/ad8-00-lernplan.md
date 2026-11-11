@@ -23,7 +23,7 @@ Der Fachtest (30 Fragen, 40 Minuten, Multiple Choice A–D, **Englisch**) prüft
 Summe der Ziele: 300. Davon entfallen rund 62 % auf EU-Recht (AI Act, GPAI, Datenschutz, Datenrecht, Cyber), rund 8 % auf Digitalpolitik und rund 30 % auf Technik (ML, GenAI, Trustworthy AI, MLOps).
 
 ## Was du pro Bereich wissen solltest
-- **AI Act:** Anwendungsbereich, Begriffe (AI system, provider, deployer), Risikostufen, Verbote (Art. 5), Hochrisiko, Transparenz (Art. 50), Strafen, Fristen. Lektion `ad8-10`.
+- **AI Act:** Anwendungsbereich, Begriffe (AI system, provider, deployer), Risikostufen, Verbote (Art. 5, neue Verbote ab 2.12.2026), Hochrisiko, Transparenz (Art. 50), Strafen, Fristen (Hochrisiko 2.12.2027 / 2.8.2028 nach dem Digital Omnibus). Lektion `ad8-10`.
 - **GPAI/Governance:** Pflichten für General-Purpose-Modelle, systemisches Risiko, AI Office, AI Board, nationale Behörden.
 - **Datenschutz:** Rechtsgrundlagen, Art. 22 (automatisierte Entscheidung), DPIA, Datenminimierung, Unterschied GDPR/EUDPR (EU-Institutionen). Lektion `ad8-20`.
 - **Datenrecht:** Data Act (Zugang zu IoT-Daten, Cloud-Wechsel), Data Governance Act (Datenvermittler, Altruismus), Open Data Directive.
@@ -40,6 +40,7 @@ Summe der Ziele: 300. Davon entfallen rund 62 % auf EU-Recht (AI Act, GPAI, Date
 ## Offizielle Quellen
 **Rechtstexte (EUR-Lex)**
 - AI Act: https://eur-lex.europa.eu/eli/reg/2024/1689/oj
+- Digital Omnibus on AI (Änderungsverordnung zum AI Act, Reg. 2026/1744, ABl. 24.7.2026): https://eur-lex.europa.eu/eli/reg/2026/1744/oj
 - GDPR: https://eur-lex.europa.eu/eli/reg/2016/679/oj
 - EUDPR (Reg. 2018/1725): https://eur-lex.europa.eu/eli/reg/2018/1725/oj
 - Data Act: https://eur-lex.europa.eu/eli/reg/2023/2854/oj
@@ -58,4 +59,4 @@ Summe der Ziele: 300. Davon entfallen rund 62 % auf EU-Recht (AI Act, GPAI, Date
 ## Lesetipps
 - Beginne jeweils mit den **Erwägungsgründen und Art. 1–3** (Zweck, Anwendungsbereich, Definitionen). Daraus entstehen viele Fragen.
 - Lerne Begriffe zweisprachig: *provider (Anbieter), deployer (Betreiber/Nutzer), notified body (notifizierte Stelle)*.
-- Prüfe vor dem Test, ob sich Fristen geändert haben (siehe Lektion AI Act).
+- Der AI Act gilt in der durch den Digital Omnibus on AI (Reg. 2026/1744) geänderten Fassung; Fristen und Artikel stehen in der Lektion AI Act und in `docs/omnibus-aenderungen.md`.

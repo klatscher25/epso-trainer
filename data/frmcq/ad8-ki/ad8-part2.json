@@ -1646,9 +1646,9 @@
       "It was notified to ENISA's single reporting platform"
     ],
     "answer": 0,
-    "explanation": "Art. 12(1) deems compliance when the Annex I Part I requirements and vulnerability-handling processes are met and the Art. 15 AI Act level of cybersecurity is demonstrated in the CRA declaration of conformity.",
+    "explanation": "Art. 12(1) deems compliance when the Annex I Part I requirements and vulnerability-handling processes are met and the Art. 15 AI Act level of cybersecurity is demonstrated in the CRA declaration of conformity. The AI Act mirrors this in Art. 42(3), inserted by Regulation (EU) 2026/1744 (Digital Omnibus on AI): such high-risk systems are deemed to comply with Art. 15 AI Act.",
     "source": {
-      "title": "Regulation (EU) 2024/2847 (Cyber Resilience Act), Art. 12(1)",
+      "title": "Regulation (EU) 2024/2847 (Cyber Resilience Act), Art. 12(1); Regulation (EU) 2024/1689, Art. 42(3) as inserted by Regulation (EU) 2026/1744",
       "url": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj"
     }
   },

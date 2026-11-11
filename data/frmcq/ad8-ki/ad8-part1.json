@@ -126,10 +126,10 @@
       "It is no longer its provider but must cooperate and give access"
     ],
     "answer": 3,
-    "explanation": "Art. 25(2) states that the initial provider is no longer considered the provider of that specific system, but shall closely cooperate and provide the information and access reasonably expected so the new provider can comply.",
+    "explanation": "Art. 25(2) states that the initial provider is no longer considered the provider of that specific system but must closely cooperate: it makes available technical documentation, informs the new provider about known limitations and failure modes and gives targeted technical access. Amended by Regulation (EU) 2026/1744 (Digital Omnibus on AI): previously the duty was phrased only generally; it no longer applies where the initial provider clearly specified that its system is not to be changed into a high-risk system.",
     "source": {
-      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 25(2)",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 25(2) as replaced by Regulation (EU) 2026/1744, point (12)(a)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
     }
   },
   {
@@ -194,18 +194,18 @@
     "pkg": "ad8-ki",
     "area": "ai-act",
     "difficulty": 1,
-    "question": "As originally adopted, Art. 4 on AI literacy requires providers and deployers to",
+    "question": "Under Art. 4 of the AI Act on AI literacy, as amended by the Digital Omnibus on AI, providers and deployers of AI systems must",
     "options": [
       "certify every member of staff through an accredited notified body of their choice",
       "appoint a dedicated chief AI officer for each AI system they deploy or provide",
-      "train only the management level that decides on the procurement of AI systems",
-      "take measures to ensure, to their best extent, sufficient AI literacy of staff"
+      "guarantee a specific, verified level of AI literacy for each individual employee",
+      "take measures to support the AI literacy of staff and persons acting for them"
     ],
     "answer": 3,
-    "explanation": "As originally adopted, Art. 4 is a best-efforts duty to ensure sufficient AI literacy of staff and others dealing with the operation and use of AI systems, taking account of their knowledge, experience and context. It prescribes no certification or specific role. (Reg. (EU) 2026/1744, the Digital Omnibus on AI in force since 27 July 2026, has since reworded Art. 4 to a duty to take measures to support AI literacy, with Commission and Member State support.)",
+    "explanation": "Amended by Regulation (EU) 2026/1744 (Digital Omnibus on AI): previously Art. 4 required providers and deployers to take measures to ensure, to their best extent, a sufficient level of AI literacy. Now Art. 4(1) requires them to take measures to support the development of AI literacy of their staff and other persons operating or using AI systems on their behalf, taking account of knowledge, experience, education and context. It expressly does not require guaranteeing a specific level for any individual. The Commission and Member States support providers and deployers, in particular SMEs (Art. 4(2)); the Board adopts recommendations (Art. 4(3)).",
     "source": {
-      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 4",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 4 as replaced by Regulation (EU) 2026/1744, point (5)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
     }
   },
   {
@@ -221,10 +221,10 @@
       "A customer-service chatbot that does not disclose that it is an AI system"
     ],
     "answer": 1,
-    "explanation": "Art. 5(1)(c) prohibits social scoring with detrimental treatment in unrelated contexts or unjustified/disproportionate treatment. Credit scoring and recruitment systems are high-risk (Annex III), and undisclosed chatbots breach Art. 50, but none is prohibited.",
+    "explanation": "Art. 5(1)(c) prohibits social scoring with detrimental treatment in unrelated contexts or unjustified/disproportionate treatment. Credit scoring and recruitment systems are high-risk (Annex III), and undisclosed chatbots breach Art. 50, but none is prohibited. (Regulation (EU) 2026/1744 added further prohibitions, Art. 5(1)(ba) and (bb), applicable from 2 December 2026; the social-scoring ban is unchanged.)",
     "source": {
-      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 5(1)(c)",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 5(1)(c); Art. 5(1)(ba)-(bb) added by Regulation (EU) 2026/1744, point (7)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
     }
   },
   {
@@ -354,10 +354,10 @@
       "The system must, in addition, be listed in one of the areas of Annex III"
     ],
     "answer": 1,
-    "explanation": "Art. 6(1) has two cumulative conditions: safety component (or product itself) under Annex I legislation, and a required third-party conformity assessment for that product.",
+    "explanation": "Art. 6(1) has two cumulative conditions: safety component (or product itself) under Annex I legislation, and a required third-party conformity assessment for that product. Art. 6(1c), inserted by Regulation (EU) 2026/1744, adds that a third-party assessment required solely because of risks other than health and safety (for example radio spectrum or electromagnetic interference) does not meet that condition; Art. 6(1a) excludes pure convenience, efficiency or quality-control functions from the notion of safety component.",
     "source": {
-      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 6(1)",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 6(1) and Art. 6(1a)-(1c) as inserted by Regulation (EU) 2026/1744, point (8)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
     }
   },
   {
@@ -441,7 +441,7 @@
     "pkg": "ad8-ki",
     "area": "ai-act",
     "difficulty": 3,
-    "question": "As originally adopted, under Art. 10(5), when may providers of high-risk systems exceptionally process special categories of personal data for bias detection and correction?",
+    "question": "Under Art. 4a of the AI Act, inserted by the Digital Omnibus on AI, when may providers of high-risk systems exceptionally process special categories of personal data for bias detection and correction?",
     "options": [
       "Whenever the data subjects concerned have given their explicit consent to that purpose",
       "Whenever the national data protection authority has approved the bias-correction project",
@@ -449,10 +449,10 @@
       "Whenever the data concerned have manifestly been made public by the data subjects"
     ],
     "answer": 2,
-    "explanation": "Art. 10(5) allows it exceptionally, to the extent strictly necessary, if bias detection cannot be done with other data (including synthetic or anonymised) and subject to safeguards such as access controls, no onward transfer and deletion after use. (The Digital Omnibus, Reg. (EU) 2026/1744, later moved this rule into a new Art. 4a covering all AI systems; the strict-necessity condition remains.)",
+    "explanation": "Amended by Regulation (EU) 2026/1744 (Digital Omnibus on AI): previously this rule was Art. 10(5), which has been deleted and generalised in new Art. 4a. Art. 4a(1) allows providers of high-risk systems to process special categories of data exceptionally, to the extent strictly necessary for bias detection and correction under Art. 10(2)(f) and (g), only if all conditions are met: bias cannot effectively be addressed with other data (including synthetic or anonymised data), technical limits on re-use, access controls, no onward transfer, deletion once the bias is corrected or retention ends, and documented necessity in the records of processing. Art. 4a(2) extends the possibility to providers and deployers of other AI systems, without creating a duty to detect bias.",
     "source": {
-      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 10(5)",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 4a as inserted by Regulation (EU) 2026/1744, point (6); Art. 10(5) deleted by point (9)(b)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
     }
   },
   {
@@ -763,19 +763,19 @@
     "id": "ad8-0041",
     "pkg": "ad8-ki",
     "area": "ai-act",
-    "difficulty": 3,
-    "question": "High-risk systems in law enforcement, migration, asylum and border control (Annex III points 1, 6, 7) are registered under Art. 49(4)",
+    "difficulty": 2,
+    "question": "Which of the following is prohibited under Art. 5(1), first subparagraph, points (ba) and (bb), applicable from 2 December 2026?",
     "options": [
-      "in the public section of the EU database, with the sensitive data fields redacted",
-      "only in a national register kept by the market surveillance authority concerned",
-      "in a secure non-public section, accessible only to the Commission and national authorities",
-      "in the EU database, in a section visible to all market surveillance authorities and deployers"
+      "Retouching a lawful photograph in a way that does not increase the exposure of any depicted intimate parts",
+      "Marketing a general-purpose image generator with safeguards that reliably prevent intimate-material output",
+      "Using AI to generate realistic sexually explicit images of a real person without explicit consent",
+      "Generating a satirical political caricature of a well-known public figure with an image generator"
     ],
     "answer": 2,
-    "explanation": "Art. 49(4) provides for a secure non-public section containing a reduced data set, accessible only to the Commission and the national authorities referred to in Art. 74(8).",
+    "explanation": "Art. 5(1)(ba), inserted by Regulation (EU) 2026/1744 (Digital Omnibus on AI, point 7), prohibits using AI to generate or manipulate realistic intimate or sexually explicit material of an identifiable person without freely given, specific, informed and explicit consent; point (bb) covers child sexual abuse material. Under Art. 5(1a), providers are caught if this is the intended purpose or a foreseeable, reproducible outcome without reasonable safeguards; deployers if they use the system for that purpose. Art. 5(1b): mere editing that does not increase exposure or alter the sexual activity is not manipulation. Both points apply from 2 December 2026 (Art. 113).",
     "source": {
-      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 49(4)",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 5(1)(ba)-(bb), (1a), (1b) as inserted by Regulation (EU) 2026/1744, point (7); Art. 113 as amended",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
     }
   },
   {
@@ -810,10 +810,10 @@
       "reviewed by a human editor before they are published or otherwise shared"
     ],
     "answer": 2,
-    "explanation": "Art. 50(2) demands machine-readable marking and detectability, with technical solutions that are effective, interoperable, robust and reliable as far as technically feasible. It does not prescribe visible watermarks or registration.",
+    "explanation": "Art. 50(2) demands machine-readable marking and detectability, with technical solutions that are effective, interoperable, robust and reliable as far as technically feasible. It does not prescribe visible watermarks or registration. Amended by Regulation (EU) 2026/1744: providers of generative systems placed on the market before 2 August 2026 have until 2 December 2026 to comply (Art. 111(4)).",
     "source": {
-      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 50(2)",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 50(2); Art. 111(4) as added by Regulation (EU) 2026/1744, point (39)(b)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
     }
   },
   {
@@ -840,18 +840,18 @@
     "pkg": "ad8-ki",
     "area": "ai-act",
     "difficulty": 2,
-    "question": "As originally adopted, by which date must each Member State have at least one national AI regulatory sandbox operational (Art. 57(1))?",
+    "question": "By which date must each Member State have at least one national AI regulatory sandbox operational (Art. 57(1), as amended)?",
     "options": [
-      "2 February 2025",
-      "2 August 2025",
-      "2 August 2027",
-      "2 August 2026"
+      "2 August 2026",
+      "2 December 2026",
+      "2 December 2027",
+      "2 August 2027"
     ],
     "answer": 3,
-    "explanation": "As originally adopted, Art. 57(1) set 2 August 2026 for at least one operational national sandbox, which may be set up jointly with other Member States or by joining an existing sandbox. Note: Reg. (EU) 2026/1744 postponed this date to 2 August 2027.",
+    "explanation": "Amended by Regulation (EU) 2026/1744 (Digital Omnibus on AI): previously the deadline was 2 August 2026. Art. 57(1) now requires at least one operational national sandbox by 2 August 2027; it may be established jointly with other Member States. Additionally, the AI Office may set up a Union-level sandbox for systems under its competence (Art. 57(3a)), and the EDPS may do so for Union institutions (Art. 57(3)).",
     "source": {
-      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 57(1)",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 57(1) as amended by Regulation (EU) 2026/1744, point (22)(a)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
     }
   },
   {
@@ -905,10 +905,10 @@
       "part of the instructions for use given to deployers"
     ],
     "answer": 2,
-    "explanation": "Art. 72(3): the post-market monitoring system is based on a plan that forms part of the technical documentation under Annex IV; the Commission was to adopt a template by implementing act.",
+    "explanation": "Art. 72(3): the post-market monitoring system is based on a plan that forms part of the technical documentation under Annex IV. Amended by Regulation (EU) 2026/1744 (Digital Omnibus on AI): previously the Commission was to adopt a template for the plan by implementing act; that empowerment was removed and the Commission instead issues guidance including a template by 2 September 2027.",
     "source": {
-      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 72(3)",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 72(3) as replaced by Regulation (EU) 2026/1744, point (30)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
     }
   },
   {
@@ -935,18 +935,18 @@
     "pkg": "ad8-ki",
     "area": "ai-act",
     "difficulty": 2,
-    "question": "To which authorities must a provider report a serious incident under Art. 73(1)?",
+    "question": "To which authorities must a provider of a high-risk AI system report a serious incident as a general rule under Art. 73(1)?",
     "options": [
-      "The AI Office, which then informs the Member States concerned of the incident",
+      "The AI Office in every case, which then informs the Member States concerned",
       "The notified body that certified the system in its conformity assessment",
       "The market surveillance authorities of the Member States where it occurred",
       "The authority of the Member State in which the provider is established"
     ],
     "answer": 2,
-    "explanation": "Art. 73(1) requires reports to the market surveillance authorities of the Member States where the incident occurred, not to the AI Office or the home authority of the provider.",
+    "explanation": "Art. 73(1) requires reports to the market surveillance authorities of the Member States where the incident occurred, not to the AI Office in every case and not to the home authority of the provider. Exception introduced by Regulation (EU) 2026/1744 (Digital Omnibus on AI): providers of high-risk systems within the AI Office's exclusive competence under Art. 75(1) report to the AI Office (Art. 75(1a)), which passes the information on to the authority of the Member State where the provider is situated.",
     "source": {
-      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 73(1)",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 73(1); Art. 75(1a) as inserted by Regulation (EU) 2026/1744, point (31)(c)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
     }
   },
   {
@@ -992,37 +992,37 @@
     "pkg": "ad8-ki",
     "area": "ai-act",
     "difficulty": 2,
-    "question": "As originally adopted, how does Art. 99(6) treat fines for SMEs, including start-ups?",
+    "question": "A small mid-cap enterprise (SMC) commits an infringement punishable under Art. 99(4). Under Art. 99(6a), the fine is capped at",
     "options": [
-      "Each fine is capped at the lower of the percentage and the fixed amount",
-      "Each fine is capped at the higher of the percentage and the fixed amount",
-      "SMEs are exempt from fines for first infringements",
-      "SMEs pay half of the fine applicable to other operators"
+      "the lower of EUR 15 million and 3 % of worldwide annual turnover",
+      "the higher of EUR 15 million and 3 % of worldwide annual turnover",
+      "the lower of EUR 35 million and 7 % of worldwide annual turnover",
+      "a flat EUR 7.5 million regardless of the turnover of the enterprise"
     ],
     "answer": 0,
-    "explanation": "Art. 99(6): for SMEs each fine reaches up to the percentage or amount of Art. 99(3)-(5), whichever is lower, whereas for other undertakings the higher figure applies. Reg. (EU) 2026/1744 added a comparable lower-of rule for small mid-cap enterprises (Art. 99(6a)).",
+    "explanation": "Amended by Regulation (EU) 2026/1744 (Digital Omnibus on AI): Art. 99(6a) applies the lower-of rule to SMCs for the fines of Art. 99(4) and (5), as Art. 99(6) already does for SMEs including start-ups (for all three tiers). Other undertakings face the higher figure. The 35 million/7 % tier for prohibited practices (Art. 99(3)) is not covered by the SMC rule. Member States must also take SMC interests into account when setting penalties (Art. 99(1)).",
     "source": {
-      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 99(6)",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 99(4), (6) and Art. 99(6a) as inserted by Regulation (EU) 2026/1744, point (38)(c)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
     }
   },
   {
     "id": "ad8-0054",
     "pkg": "ad8-ki",
     "area": "ai-act",
-    "difficulty": 3,
-    "question": "What is the maximum administrative fine the EDPS can impose on a Union institution for non-compliance with the Art. 5 prohibitions (Art. 100)?",
+    "difficulty": 2,
+    "question": "By when must providers of generative AI systems placed on the market before 2 August 2026 comply with the marking obligation of Art. 50(2) (Art. 111(4))?",
     "options": [
-      "EUR 1 500 000",
-      "EUR 750 000",
-      "EUR 7 500 000",
-      "EUR 35 000 000"
+      "2 December 2026",
+      "2 August 2027",
+      "2 August 2026",
+      "2 February 2027"
     ],
     "answer": 0,
-    "explanation": "Art. 100(2) caps fines on Union institutions, bodies, offices and agencies at EUR 1.5 million for Art. 5 breaches and, under Art. 100(3), EUR 750 000 for other non-compliance.",
+    "explanation": "Art. 111(4), added by Regulation (EU) 2026/1744 (Digital Omnibus on AI, point 39(b)): providers of AI systems, including general-purpose AI systems, that generate synthetic audio, image, video or text content and were placed on the market before 2 August 2026 must take the necessary steps to comply with Art. 50(2) by 2 December 2026. Systems placed on the market from 2 August 2026 must comply from the start.",
     "source": {
-      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 100(2)-(3)",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 111(4) as added by Regulation (EU) 2026/1744, point (39)(b)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
     }
   },
   {
@@ -1068,18 +1068,18 @@
     "pkg": "ad8-ki",
     "area": "ai-act",
     "difficulty": 1,
-    "question": "As originally adopted, from which date did Chapters I and II (general provisions, including AI literacy, and prohibited practices) apply?",
+    "question": "From which date do the high-risk requirements of Chapter III, Sections 1 to 3, apply to AI systems classified as high-risk under Art. 6(2) and Annex III (Art. 113 as amended)?",
     "options": [
-      "From 2 February 2025",
-      "From 1 August 2024",
-      "From 2 August 2025",
-      "From 2 August 2026, together with the high-risk rules"
+      "2 December 2027",
+      "2 August 2026",
+      "2 August 2028",
+      "2 August 2027"
     ],
     "answer": 0,
-    "explanation": "Art. 113 as adopted: entry into force on the twentieth day after publication (1 August 2024); Chapters I and II apply from 2 February 2025, GPAI and governance rules from 2 August 2025, and the bulk of the Regulation from 2 August 2026. Reg. (EU) 2026/1744 postponed the high-risk rules to 2 December 2027 (Annex III) and 2 August 2028 (Annex I); Chapters I and II date is unchanged.",
+    "explanation": "Amended by Regulation (EU) 2026/1744 (Digital Omnibus on AI): previously 2 August 2026. Art. 113(3)(c) now applies Chapter III, Sections 1-3 (except Art. 6(5)) from 2 December 2027 to Annex III systems and from 2 August 2028 to systems that are high-risk under Art. 6(1) and Annex I (previously 2 August 2027). Unchanged: prohibitions apply since 2 February 2025 (new Art. 5(1)(ba), (bb) and (1a), (1b) only from 2 December 2026) and GPAI obligations since 2 August 2025.",
     "source": {
-      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 113",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 113 third paragraph, point (c) as amended by Regulation (EU) 2026/1744, point (40)(b)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
     }
   },
   {
@@ -1087,7 +1087,7 @@
     "pkg": "ad8-ki",
     "area": "ai-act",
     "difficulty": 3,
-    "question": "As originally adopted, by when must providers and deployers of high-risk AI systems intended for use by public authorities that were already on the market comply (Art. 111(2))?",
+    "question": "By when must providers and deployers of high-risk AI systems intended for use by public authorities that were already on the market comply with the Regulation (Art. 111(2))?",
     "options": [
       "2 August 2030",
       "2 August 2027",
@@ -1095,10 +1095,10 @@
       "31 December 2030"
     ],
     "answer": 0,
-    "explanation": "Art. 111(2) sets 2 August 2030 for such public-authority systems. 31 December 2030 is the deadline for components of the large-scale IT systems listed in Annex X (Art. 111(1)). The 2030 date for public-authority systems is not changed by Reg. (EU) 2026/1744.",
+    "explanation": "Art. 111(2), as replaced by Regulation (EU) 2026/1744 (Digital Omnibus on AI), keeps the date: for high-risk systems intended for use by public authorities, providers and deployers must take the necessary steps by 2 August 2030. For other legacy high-risk systems, the Regulation applies only if they undergo significant design changes after the application date of Chapter III (2 December 2027 / 2 August 2028). 31 December 2030 is the deadline for components of the large-scale IT systems in Annex X (Art. 111(1)).",
     "source": {
-      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 111(1)-(2)",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 111(1)-(2) as amended by Regulation (EU) 2026/1744, point (39)(a)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
     }
   },
   {
@@ -1114,10 +1114,10 @@
       "the cybersecurity requirements of Art. 15, so far as the certificate covers them"
     ],
     "answer": 3,
-    "explanation": "Art. 42(2) presumes conformity only with the Art. 15 cybersecurity requirements and only to the extent the certificate covers them. A presumption for Art. 10(4) arises from training on data of the right setting (Art. 42(1)).",
+    "explanation": "Art. 42(2) presumes conformity only with the Art. 15 cybersecurity requirements and only to the extent the certificate covers them. A presumption for Art. 10(4) arises from training on data of the right setting (Art. 42(1)). Art. 42(3), added by Regulation (EU) 2026/1744 (Digital Omnibus on AI), adds that high-risk systems within the scope of the Cyber Resilience Act that meet the conditions of its Art. 12(1) are deemed to comply with Art. 15.",
     "source": {
-      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 42(2)",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 42(2); Art. 42(3) as inserted by Regulation (EU) 2026/1744, point (18)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
     }
   },
   {
@@ -1238,19 +1238,19 @@
     "id": "ad8-0066",
     "pkg": "ad8-ki",
     "area": "gpai-office",
-    "difficulty": 2,
-    "question": "After the Commission designates a model as presenting systemic risk, a provider may submit a reasoned request for reassessment at the earliest",
+    "difficulty": 3,
+    "question": "A market surveillance authority suspects that the provider of an AI system within the AI Office's competence has infringed the Regulation and asks the AI Office to assess the matter. By when must the AI Office tell the single point of contact whether it will act (Art. 75(2a))?",
     "options": [
-      "one month after the designation decision",
-      "six months after the designation decision",
-      "three months after the designation decision",
-      "one year after the designation decision"
+      "Within two weeks of the date on which it receives the request",
+      "Without undue delay and at the latest four months after receipt",
+      "Within thirty days, extendable once by an opinion of the Board",
+      "Within twelve months, once its own investigation has been completed"
     ],
     "answer": 1,
-    "explanation": "Art. 52(5): requests must contain objective, detailed and new reasons and may be made at the earliest six months after the designation decision (and again six months after any maintaining decision).",
+    "explanation": "Art. 75(2a), inserted by Regulation (EU) 2026/1744 (Digital Omnibus on AI, point 31(d)): on a duly reasoned request the AI Office must, without undue delay and no later than four months after receipt, inform the single point of contact of its intention to use its powers under Art. 75a or of its reasons for not doing so. If it acts, it periodically reports major developments and the outcome without disclosing confidential information.",
     "source": {
-      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 52(5)",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 75(2a) as inserted by Regulation (EU) 2026/1744, point (31)(d)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
     }
   },
   {
@@ -1391,7 +1391,7 @@
     "pkg": "ad8-ki",
     "area": "gpai-office",
     "difficulty": 2,
-    "question": "As originally adopted, Art. 56(9) required codes of practice for GPAI to be ready at the latest by",
+    "question": "Art. 56(9) required codes of practice for general-purpose AI to be ready at the latest by",
     "options": [
       "2 February 2025",
       "2 August 2025",
@@ -1399,9 +1399,9 @@
       "2 August 2026"
     ],
     "answer": 2,
-    "explanation": "Art. 56(9): codes of practice were to be ready by 2 May 2025; if none could be finalised or was deemed inadequate by 2 August 2025, the Commission could adopt common rules by implementing act.",
+    "explanation": "Art. 56(9): codes of practice were to be ready by 2 May 2025; if none could be finalised or was deemed inadequate by 2 August 2025, the Commission could adopt common rules by implementing act. Art. 56(9) is not changed by Regulation (EU) 2026/1744 (Digital Omnibus on AI), which amended only Art. 56(6).",
     "source": {
-      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 56(9)",
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 56(9); not amended by Regulation (EU) 2026/1744 (Art. 56(6) was)",
       "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
     }
   },
@@ -1410,18 +1410,18 @@
     "pkg": "ad8-ki",
     "area": "gpai-office",
     "difficulty": 3,
-    "question": "How can the Commission give an approved code of practice general validity within the Union (Art. 56(6))?",
+    "question": "How does the Commission deal with a code of practice for general-purpose AI under Art. 56(6), as amended?",
     "options": [
-      "By a delegated act adopted by the Commission under the procedure of Art. 97",
-      "By a binding opinion that is adopted by the European AI Board",
-      "By an implementing act adopted under the examination procedure",
-      "By a decision that is taken by the AI Office on its own authority"
+      "It approves the code by a delegated act adopted under the procedure of Art. 97",
+      "It adopts a binding opinion of the Board that gives the code general validity",
+      "It checks whether the code covers Arts. 53 and 55 and publishes the result",
+      "It certifies each participating provider through a notified body of its choosing"
     ],
     "answer": 2,
-    "explanation": "Art. 56(6) lets the Commission approve a code by implementing act under the examination procedure, giving it general validity. A delegated act is the tool for amending thresholds and annexes.",
+    "explanation": "Amended by Regulation (EU) 2026/1744 (Digital Omnibus on AI): previously the Commission could approve a code by implementing act and give it general validity within the Union. That power was removed. Art. 56(6) now provides that the Commission and the Board monitor the codes, and the Commission, taking utmost account of the Board's opinion, assesses whether they cover the obligations of Arts. 53 and 55 and publishes its assessment of adequacy. Providers can rely on codes assessed as adequate (Art. 53(4), Art. 55(2)). The same logic applies to codes on labelling under Art. 50(7).",
     "source": {
-      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 56(6)",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 56(6) as replaced by Regulation (EU) 2026/1744, point (21); see also Art. 50(7), point (20)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
     }
   },
   {
@@ -1447,19 +1447,19 @@
     "id": "ad8-0077",
     "pkg": "ad8-ki",
     "area": "gpai-office",
-    "difficulty": 2,
-    "question": "The European AI Office was established by a Commission Decision of 24 January 2024 as part of",
+    "difficulty": 3,
+    "question": "Under Art. 75(1), as amended, which AI system falls within the exclusive supervisory competence of the AI Office?",
     "options": [
-      "an independent decentralised EU agency with its own legal personality",
-      "the administrative structure of DG CNECT in the Commission",
-      "an executive agency of the Commission managed by a steering committee",
-      "the secretariat of the European Data Protection Board in Brussels"
+      "A recruitment system under Annex III point 4 that a deployer built on a third-party general-purpose AI model",
+      "A chatbot built on a general-purpose AI model by the very provider that developed the model",
+      "An AI system that is a safety component of a machine covered by Annex I harmonisation legislation",
+      "An AI system for the administration of justice under Annex III point 8 supplied by the model's own provider"
     ],
     "answer": 1,
-    "explanation": "The Decision set up the AI Office inside the Commission, in the administrative structure of the Directorate-General for Communications Networks, Content and Technology; Art. 64 AI Act refers to it as the Commission's AI expertise body.",
+    "explanation": "Art. 75(1)(a), as replaced by Regulation (EU) 2026/1744 (point 31(b)), gives the AI Office exclusive competence for AI systems based on general-purpose AI models where model and system come from the same provider or undertaking, except Annex I products, Annex III point 2, certain law-enforcement, border and financial-institution systems and point 8 justice systems. It also covers AI integrated in designated very large online platforms and search engines. A system built by a third party stays with the national market surveillance authorities.",
     "source": {
-      "title": "European Commission, Commission Decision establishing the European AI Office (24 January 2024)",
-      "url": "https://digital-strategy.ec.europa.eu/en/library/commission-decision-establishing-european-ai-office"
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 75(1) as replaced by Regulation (EU) 2026/1744, point (31)(b)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
     }
   },
   {
@@ -1665,10 +1665,10 @@
       "The European Data Protection Supervisor, in cooperation with the AI Office"
     ],
     "answer": 0,
-    "explanation": "Art. 88(1): the Commission has exclusive powers over Chapter V, delegated in practice to the AI Office; market surveillance authorities can only request the Commission to act (Art. 88(2)).",
+    "explanation": "Art. 88(1): the Commission has exclusive powers over Chapter V, delegated in practice to the AI Office; market surveillance authorities can only request the Commission to act (Art. 88(2)). Regulation (EU) 2026/1744 (Digital Omnibus on AI) additionally makes the AI Office exclusively competent, under Art. 75(1) as replaced, for AI systems built on a GPAI model by the same provider and for AI in designated very large platforms and search engines.",
     "source": {
-      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 88(1)",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 88(1); Art. 75(1) as replaced by Regulation (EU) 2026/1744, point (31)(b)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
     }
   },
   {
@@ -1676,18 +1676,18 @@
     "pkg": "ad8-ki",
     "area": "gpai-office",
     "difficulty": 3,
-    "question": "Among the criteria in Annex XIII, impact on the internal market is presumed when a GPAI model has been made available to at least",
+    "question": "Where an operator within its competence ignores a decision, the AI Office may impose periodic penalty payments under Art. 75c(5), which where applicable may not exceed, per day, a share of average daily income or worldwide annual turnover of",
     "options": [
-      "1 000 registered business users established in the Union",
-      "10 000 registered business users in the Union",
-      "100 000 registered end-users in the Union",
-      "10 million registered end-users worldwide"
+      "1 %",
+      "5 %",
+      "3 %",
+      "7 %"
     ],
     "answer": 1,
-    "explanation": "Annex XIII(f) presumes high impact on the internal market when the model is available to at least 10 000 registered business users established in the Union; the number of registered end-users is a separate criterion (g) without a stated threshold.",
+    "explanation": "Art. 75c(5), inserted by Regulation (EU) 2026/1744 (Digital Omnibus on AI, point 32): the AI Office may impose periodic penalty payments to compel investigations, information, inspections or compliance with decisions and commitments; they must be effective and proportionate and, where applicable, do not exceed 5 % of the average daily income or worldwide annual turnover of the preceding financial year per day. Fines follow Art. 99(3)-(7) mutatis mutandis; the Court of Justice has unlimited jurisdiction (Art. 75c(6)).",
     "source": {
-      "title": "Regulation (EU) 2024/1689 (AI Act), Annex XIII(f)",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 75c(5) as inserted by Regulation (EU) 2026/1744, point (32)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
     }
   },
   {
