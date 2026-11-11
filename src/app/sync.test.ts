@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, it } from 'vitest';
 import { addEvent, allEvents, getKV, getKVEntries, initStore, memoryBackend, mergeEvents, resetAll, setKV } from './store';
-import { applyRemoteKV, eventToRow, isSyncedKey, kvToPush, kvToRow, rowToEvent, unsyncedEvents } from './sync';
+import { applyRemoteKV, authErrorText, eventToRow, isSyncedKey, kvToPush, kvToRow, rowToEvent, unsyncedEvents } from './sync';
 import { wordCount } from './essay';
 
 const ev = (id: string, t: number) => ({ id, kind: 'answer', payload: { n: id }, created_at: t });
@@ -67,5 +67,14 @@ describe('wordCount', () => {
     expect(wordCount('   \n ')).toBe(0);
     expect(wordCount('one')).toBe(1);
     expect(wordCount(' one  two\nthree\tfour ')).toBe(4);
+  });
+});
+
+describe('authErrorText', () => {
+  it('übersetzt bekannte Fehler', () => {
+    expect(authErrorText('email rate limit exceeded')).toMatch(/Zu viele Anmelde-Mails/);
+    expect(authErrorText('For security purposes, you can only request this after 42 seconds.')).toBe('Bitte 42 Sekunden warten.');
+    expect(authErrorText('Token has expired or is invalid')).toBe('Code falsch oder abgelaufen – neuen anfordern.');
+    expect(authErrorText('etwas anderes')).toBe('etwas anderes');
   });
 });

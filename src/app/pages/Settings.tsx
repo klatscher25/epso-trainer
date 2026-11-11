@@ -1,21 +1,44 @@
-import { useState } from 'preact/hooks';
+import { useEffect, useState } from 'preact/hooks';
 import { Page } from '../components/Page';
 import { useKV } from '../state';
 import { applyTheme } from '../state';
 import { exportAll, importAll, resetAll } from '../store';
-import { countPending, signInWithEmail, signOut, syncNow, useSync } from '../sync';
+import { countPending, signInWithEmail, signOut, syncNow, useSync, verifyEmailCode } from '../sync';
 import { useEvents } from '../state';
 
 function SyncSection() {
   const st = useSync();
   const events = useEvents();
-  const [email, setEmail] = useState('');
+  const lsGet = (k: string) => { try { return localStorage.getItem(k) ?? ''; } catch { return ''; } };
+  const lsSet = (k: string, v: string) => { try { localStorage.setItem(k, v); } catch { /* ignore */ } };
+  const [email, setEmail] = useState(() => lsGet('sync:pendingEmail'));
+  const [pending, setPending] = useState(() => lsGet('sync:pendingEmail'));
+  const [code, setCode] = useState('');
   const [info, setInfo] = useState('');
   const [busy, setBusy] = useState(false);
+  const [cool, setCool] = useState(0);
+  useEffect(() => {
+    if (cool <= 0) return;
+    const t = setTimeout(() => setCool(cool - 1), 1000);
+    return () => clearTimeout(t);
+  }, [cool]);
   const send = async () => {
+    const addr = email.trim();
     setBusy(true); setInfo('');
-    try { await signInWithEmail(email.trim()); setInfo(`Link an ${email.trim()} geschickt. Öffne ihn im selben Browser.`); }
-    catch (e: any) { setInfo('Fehlgeschlagen: ' + (e?.message ?? e)); }
+    try {
+      await signInWithEmail(addr);
+      lsSet('sync:pendingEmail', addr); setPending(addr); setCool(60);
+      setInfo(`Mail an ${addr} geschickt. Code eingeben oder Link öffnen.`);
+    } catch (e: any) {
+      setInfo(e?.message ?? String(e));
+      const w = /Bitte (\d+) Sekunden/.exec(e?.message ?? ''); if (w) setCool(Number(w[1]));
+    }
+    setBusy(false);
+  };
+  const verify = async () => {
+    setBusy(true); setInfo('');
+    try { await verifyEmailCode(pending, code); setCode(''); }
+    catch (e: any) { setInfo(e?.message ?? String(e)); }
     setBusy(false);
   };
   return (
@@ -37,8 +60,14 @@ function SyncSection() {
         <>
           <p class="muted small">Optional: Mit Anmeldung (Magic-Link per E-Mail) werden Fortschritt und Aufsätze zwischen Geräten abgeglichen und die KI-Bewertung freigeschaltet. Ohne Anmeldung bleibt alles lokal.</p>
           <label class="fld">E-Mail<input class="inp" type="email" inputMode="email" autocomplete="email" value={email} data-testid="sync-email-input" onInput={(e) => setEmail((e.target as HTMLInputElement).value)} /></label>
-          <button class="btn primary wide" disabled={busy || !/.+@.+\..+/.test(email)} data-testid="sync-send" onClick={send}>Anmeldelink senden</button>
-          <p class="small muted">Tipp: Den Link im selben Browser öffnen, in dem du ihn angefordert hast (bei installierter App nicht in einem anderen Browser).</p>
+          <button class="btn primary wide" disabled={busy || cool > 0 || !/.+@.+\..+/.test(email)} data-testid="sync-send" onClick={send}>{cool > 0 ? `Erneut senden in ${cool} s` : 'Anmeldelink senden'}</button>
+          {pending ? (
+            <>
+              <label class="fld">Code aus der E-Mail<input class="inp" inputMode="numeric" autocomplete="one-time-code" maxLength={8} value={code} data-testid="sync-code-input" onInput={(e) => setCode((e.target as HTMLInputElement).value.replace(/\D/g, ''))} /></label>
+              <button class="btn primary wide" disabled={busy || code.length < 6} data-testid="sync-verify" onClick={verify}>Anmelden</button>
+            </>
+          ) : null}
+          <p class="small muted">Den Code aus der Mail hier eingeben – das klappt auch in der installierten App. Alternativ den Link im selben Browser öffnen.</p>
         </>
       )}
       {info ? <p role="status" data-testid="sync-info">{info}</p> : null}

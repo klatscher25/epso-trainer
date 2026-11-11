@@ -137,10 +137,28 @@ export function scheduleSync(ms = 3000) {
   debounce = setTimeout(() => { syncNow(); }, ms);
 }
 
+/** Übersetzt Supabase-Auth-Fehler in verständliches Deutsch. */
+export function authErrorText(msg: string): string {
+  const m = String(msg ?? '');
+  const wait = m.match(/only request this after (\d+) seconds?/i);
+  if (wait) return `Bitte ${wait[1]} Sekunden warten.`;
+  if (/rate limit/i.test(m)) return 'Zu viele Anmelde-Mails. Supabase erlaubt nur wenige pro Stunde – bitte später erneut versuchen oder den Code aus der letzten Mail eingeben.';
+  if (/token has expired|otp_expired|invalid|expired/i.test(m)) return 'Code falsch oder abgelaufen – neuen anfordern.';
+  return m;
+}
+
 export async function signInWithEmail(email: string): Promise<void> {
   const client = await getClient();
   const { error } = await client.auth.signInWithOtp({ email, options: { emailRedirectTo: location.origin + location.pathname } });
-  if (error) throw error;
+  if (error) throw new Error(authErrorText(error.message));
+}
+/** Anmeldung mit dem 6-stelligen Code aus der Mail. */
+export async function verifyEmailCode(email: string, token: string): Promise<void> {
+  const client = await getClient();
+  const { data, error } = await client.auth.verifyOtp({ email, token: token.trim(), type: 'email' });
+  if (error) throw new Error(authErrorText(error.message));
+  setStatus({ signedIn: true, email: data.session?.user.email ?? email, error: undefined });
+  setTimeout(() => syncNow(true), 0);
 }
 export async function signOut(): Promise<void> {
   const client = await getClient();
