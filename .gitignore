@@ -1,0 +1,8 @@
+node_modules
+dist
+docs/referenz/
+test-results
+playwright-report
+dev-dist
+docs/quellen-text/
+docs/referenz/

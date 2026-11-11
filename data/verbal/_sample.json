@@ -1,0 +1,74 @@
+[
+ {
+  "id": "vr-s1",
+  "topic": "Umwelt",
+  "difficulty": 2,
+  "text": "Die Stadt Musterdorf hat 2020 ein Programm zur Begrünung von Dächern gestartet. Bis Ende 2023 wurden 140 Dächer begrünt, vor allem auf Schulen und Verwaltungsgebäuden. Messungen zeigen, dass begrünte Dächer im Sommer die Innentemperatur um durchschnittlich zwei Grad senken. Ob die Maßnahme auch die Luftqualität verbessert, wurde bisher nicht untersucht. Private Eigentümer können einen Zuschuss beantragen, der die Hälfte der Kosten deckt, höchstens jedoch 5.000 Euro.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Beispielaussage A zum Text.",
+   "Beispielaussage B zum Text.",
+   "Beispielaussage C zum Text.",
+   "Beispielaussage D zum Text."
+  ],
+  "answer": 1,
+  "why": [
+   "Warum A (Beispiel).",
+   "Warum B (Beispiel).",
+   "Warum C (Beispiel).",
+   "Warum D (Beispiel)."
+  ],
+  "traps": [
+   "Überverallgemeinerung",
+   "Kausalität unterstellt"
+  ]
+ },
+ {
+  "id": "vr-s2",
+  "topic": "Verkehr",
+  "difficulty": 2,
+  "text": "Im Jahr 2022 nutzten in der Region täglich rund 80.000 Menschen den Nahverkehr. Nach der Einführung eines Pauschaltickets stieg die Zahl im Folgejahr um 15 Prozent. Die Verkehrsbetriebe weisen darauf hin, dass der Anstieg teilweise auch auf gestiegene Benzinpreise zurückzuführen sein könnte. Eine Befragung ergab, dass jeder dritte Neukunde zuvor überwiegend das Auto genutzt hatte.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Beispielaussage A zum Text.",
+   "Beispielaussage B zum Text.",
+   "Beispielaussage C zum Text.",
+   "Beispielaussage D zum Text."
+  ],
+  "answer": 2,
+  "why": [
+   "Warum A (Beispiel).",
+   "Warum B (Beispiel).",
+   "Warum C (Beispiel).",
+   "Warum D (Beispiel)."
+  ],
+  "traps": [
+   "Überverallgemeinerung",
+   "Kausalität unterstellt"
+  ]
+ },
+ {
+  "id": "vr-s3",
+  "topic": "Bildung",
+  "difficulty": 2,
+  "text": "Eine Studie unter 1.200 Schülerinnen und Schülern untersuchte den Zusammenhang zwischen Schlafdauer und Konzentration. Wer weniger als sieben Stunden schlief, schnitt in Konzentrationstests im Mittel schlechter ab. Die Autoren betonen, dass die Studie keine Aussage darüber erlaubt, ob der Schlafmangel die Ursache ist, da andere Faktoren nicht kontrolliert wurden.",
+  "question": "Welche der folgenden Aussagen ist zutreffend?",
+  "options": [
+   "Beispielaussage A zum Text.",
+   "Beispielaussage B zum Text.",
+   "Beispielaussage C zum Text.",
+   "Beispielaussage D zum Text."
+  ],
+  "answer": 0,
+  "why": [
+   "Warum A (Beispiel).",
+   "Warum B (Beispiel).",
+   "Warum C (Beispiel).",
+   "Warum D (Beispiel)."
+  ],
+  "traps": [
+   "Überverallgemeinerung",
+   "Kausalität unterstellt"
+  ]
+ }
+]

@@ -1,0 +1,142 @@
+{
+  "version": 1,
+  "packages": [
+    {
+      "id": "ad8-ki",
+      "title": "AD8 Künstliche Intelligenz",
+      "competition": "EPSO/AD/430/26 – Fachgebiet Künstliche Intelligenz",
+      "grade": "AD 8",
+      "frmcq": {
+        "questions": 30,
+        "minutes": 40,
+        "pass": 15,
+        "options": 4,
+        "lang": "en"
+      },
+      "essay": {
+        "minutes": 40,
+        "pass": 5,
+        "max": 10,
+        "lang": "en"
+      },
+      "areas": [
+        {
+          "id": "ai-act",
+          "label": "AI Act (Regulation 2024/1689)",
+          "target": 60
+        },
+        {
+          "id": "gpai-office",
+          "label": "General-purpose AI, AI Office, AI Board, governance & enforcement",
+          "target": 30
+        },
+        {
+          "id": "data-protection",
+          "label": "GDPR & EUDPR (Regulation 2018/1725) for AI",
+          "target": 35
+        },
+        {
+          "id": "data-acts",
+          "label": "Data Act, Data Governance Act, Open Data, European data spaces",
+          "target": 30
+        },
+        {
+          "id": "cyber-law",
+          "label": "NIS2, Cyber Resilience Act, Cybersecurity Act & ENISA",
+          "target": 30
+        },
+        {
+          "id": "digital-policy",
+          "label": "EU digital strategy: Digital Decade, Coordinated Plan on AI, AI Continent, EuroHPC/AI Factories, DSA/DMA basics",
+          "target": 25
+        },
+        {
+          "id": "ml-foundations",
+          "label": "ML foundations: learning paradigms, evaluation metrics, overfitting, model selection",
+          "target": 35
+        },
+        {
+          "id": "genai-llm",
+          "label": "GenAI & LLMs: transformers, RAG, agents, MCP, fine-tuning, prompt injection, evaluation",
+          "target": 30
+        },
+        {
+          "id": "trustworthy-ai",
+          "label": "Trustworthy AI: explainability, fairness, robustness, benchmarking, AI literacy, procurement",
+          "target": 15
+        },
+        {
+          "id": "data-mlops",
+          "label": "Data management & MLOps: data quality, lineage, governance, deployment, monitoring",
+          "target": 10
+        }
+      ]
+    },
+    {
+      "id": "ast3-daten",
+      "title": "AST3 Datenanalyse & Statistik",
+      "competition": "EPSO/AST/158/26 – Fachgebiet Datenverarbeitung, Analytik und Statistik",
+      "grade": "AST 3",
+      "frmcq": {
+        "questions": 30,
+        "minutes": 40,
+        "pass": 15,
+        "options": 4,
+        "lang": "en"
+      },
+      "essay": {
+        "minutes": 40,
+        "pass": 5,
+        "max": 10,
+        "lang": "en"
+      },
+      "areas": [
+        {
+          "id": "descriptive-stats",
+          "label": "Descriptive statistics & data visualisation",
+          "target": 30
+        },
+        {
+          "id": "probability-inference",
+          "label": "Probability, sampling, estimation, hypothesis testing",
+          "target": 35
+        },
+        {
+          "id": "regression-ml",
+          "label": "Regression, classification & basic machine learning",
+          "target": 30
+        },
+        {
+          "id": "data-processing",
+          "label": "Data processing: SQL, Python/R, data cleaning, file formats, databases",
+          "target": 35
+        },
+        {
+          "id": "data-governance",
+          "label": "Data governance, quality, metadata, GDPR/EUDPR, open data",
+          "target": 30
+        },
+        {
+          "id": "official-stats",
+          "label": "European statistics: Eurostat, ESS, Regulation 223/2009, Code of Practice, SDMX, NUTS",
+          "target": 25
+        },
+        {
+          "id": "bi-geo",
+          "label": "Dashboards, BI and geospatial data (INSPIRE, GIS basics)",
+          "target": 15
+        }
+      ]
+    },
+    {
+      "id": "cast-fg4",
+      "title": "CAST FG IV (Projektmanagement, IT)",
+      "competition": "EPSO CAST – Funktionsgruppe IV",
+      "grade": "FG IV",
+      "frmcq": null,
+      "essay": null,
+      "logicOnly": true,
+      "areas": []
+    }
+  ]
+}
