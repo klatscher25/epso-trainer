@@ -55,10 +55,10 @@ export function Home() {
           <span class="t2">{doneToday ? 'Heute erledigt ✔' : 'unter 5 Minuten'} · 🔥 {st} {st === 1 ? 'Tag' : 'Tage'}</span>
         </button>
         <button class="tile" data-testid="tile-practice" onClick={() => go('practice')}><span class="t1">Üben</span><span class="t2">mit Erklärung</span></button>
-        <button class="tile" data-testid="tile-sim" onClick={() => go('sim')}><span class="t1">Prüfungssimulation</span><span class="t2">{running ? 'läuft – fortsetzen' : 'wie im Original'}</span></button>
+        <button class="tile" data-testid="tile-sim" onClick={() => go('sim')}><span class="t1">Prüfungs­simulation</span><span class="t2">{running ? 'läuft – fortsetzen' : 'wie im Original'}</span></button>
         <button class="tile" data-testid="tile-learn" onClick={() => go('learn')}><span class="t1">Lernen</span><span class="t2">Lektionen</span></button>
         <button class="tile" data-testid="tile-progress" onClick={() => go('progress')}><span class="t1">Fortschritt</span><span class="t2">Statistik, Fehlerliste</span></button>
-        <button class="tile wide" data-testid="tile-essay" onClick={() => go('essay')}><span class="t1">Aufsatz</span><span class="t2">kommt in Schritt 4</span></button>
+        <button class="tile wide" data-testid="tile-essay" onClick={() => go('essay')}><span class="t1">Aufsatz</span><span class="t2">Schreiben üben</span></button>
       </div>
     </div>
   );

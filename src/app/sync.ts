@@ -142,6 +142,9 @@ export function authErrorText(msg: string): string {
   const m = String(msg ?? '');
   const wait = m.match(/only request this after (\d+) seconds?/i);
   if (wait) return `Bitte ${wait[1]} Sekunden warten.`;
+  if (/invalid login credentials/i.test(m)) return 'E-Mail oder Passwort falsch. Noch kein Passwort? Einmal per Link anmelden und hier festlegen.';
+  if (/at least \d+ characters|password should be/i.test(m)) return 'Das Passwort muss mindestens 8 Zeichen lang sein.';
+  if (/same as the old|different from the old/i.test(m)) return 'Das neue Passwort muss sich vom alten unterscheiden.';
   if (/rate limit/i.test(m)) return 'Zu viele Anmelde-Mails. Supabase erlaubt nur wenige pro Stunde – bitte später erneut versuchen oder den Code aus der letzten Mail eingeben.';
   if (/token has expired|otp_expired|invalid|expired/i.test(m)) return 'Code falsch oder abgelaufen – neuen anfordern.';
   return m;
@@ -159,6 +162,20 @@ export async function verifyEmailCode(email: string, token: string): Promise<voi
   if (error) throw new Error(authErrorText(error.message));
   setStatus({ signedIn: true, email: data.session?.user.email ?? email, error: undefined });
   setTimeout(() => syncNow(true), 0);
+}
+/** Anmeldung mit E-Mail + Passwort (kein signUp: Konto entsteht per Link, Passwort wird danach gesetzt). */
+export async function signInWithPassword(email: string, password: string): Promise<void> {
+  const client = await getClient();
+  const { data, error } = await client.auth.signInWithPassword({ email: email.trim(), password });
+  if (error) throw new Error(authErrorText(error.message));
+  setStatus({ signedIn: true, email: data.session?.user.email ?? email, error: undefined });
+  setTimeout(() => syncNow(true), 0);
+}
+/** Passwort festlegen/ändern (nur angemeldet). */
+export async function setPassword(password: string): Promise<void> {
+  const client = await getClient();
+  const { error } = await client.auth.updateUser({ password });
+  if (error) throw new Error(authErrorText(error.message));
 }
 export async function signOut(): Promise<void> {
   const client = await getClient();

@@ -36,7 +36,7 @@ export function Explanation({ q }: { q: Q }) {
         <h3>{q.type === 'numerical' ? 'Rechenweg' : 'Regeln'}</h3>
         {q.type === 'abstract' && e.rules?.length ? <ul>{e.rules.map((r, i) => <li key={i}>{r}</li>)}</ul> : null}
         {q.type === 'abstract' && e.solutionHtml ? <div class="stim" dangerouslySetInnerHTML={{ __html: e.solutionHtml }} /> : null}
-        {e.steps?.length ? (q.type === 'numerical' ? <ol>{e.steps.map((s, i) => <li key={i}>{s}</li>)}</ol> : <ul>{e.steps.map((s, i) => <li key={i}>{s}</li>)}</ul>) : null}
+        {e.steps?.length ? (q.type === 'numerical' ? <ol>{e.steps.map((s, i) => <li key={i}>{s.replace(/^\d+\.\s*/, '')}</li>)}</ol> : <ul>{e.steps.map((s, i) => <li key={i}>{s}</li>)}</ul>) : null}
         {e.tip ? <p class="tip"><b>Tipp:</b> {e.tip}</p> : null}
       </div>
     );

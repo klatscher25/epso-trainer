@@ -75,6 +75,8 @@ describe('authErrorText', () => {
     expect(authErrorText('email rate limit exceeded')).toMatch(/Zu viele Anmelde-Mails/);
     expect(authErrorText('For security purposes, you can only request this after 42 seconds.')).toBe('Bitte 42 Sekunden warten.');
     expect(authErrorText('Token has expired or is invalid')).toBe('Code falsch oder abgelaufen – neuen anfordern.');
+    expect(authErrorText('Invalid login credentials')).toMatch(/E-Mail oder Passwort falsch.*Link/);
+    expect(authErrorText('Password should be at least 6 characters')).toMatch(/8 Zeichen/);
     expect(authErrorText('etwas anderes')).toBe('etwas anderes');
   });
 });

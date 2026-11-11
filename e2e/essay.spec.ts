@@ -47,8 +47,13 @@ test('Entwurf bleibt nach Reload erhalten', async ({ page }) => {
 
 test('Einstellungen: Sync-Bereich', async ({ page }) => {
   await page.goto('./#/settings');
-  await expect(page.getByTestId('sync-send')).toBeDisabled();
+  await expect(page.getByTestId('pw-login')).toBeDisabled();
+  await expect(page.getByTestId('pw-input')).toHaveAttribute('autocomplete', 'current-password');
+  await expect(page.getByTestId('sync-email-input')).toHaveAttribute('autocomplete', 'email');
   await page.getByTestId('sync-email-input').fill('test@example.com');
+  await page.getByTestId('pw-input').fill('geheim123');
+  await expect(page.getByTestId('pw-login')).toBeEnabled();
+  await page.getByTestId('link-flow').locator('summary').click();
   await expect(page.getByTestId('sync-send')).toBeEnabled();
   await shot(page, '23-settings-sync');
 });
