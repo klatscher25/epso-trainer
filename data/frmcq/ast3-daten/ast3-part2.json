@@ -1,0 +1,1902 @@
+[
+ {
+  "id": "ast3-0101",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 1,
+  "question": "A customers table (4 rows) is joined to an orders table. The result must list every customer, with NULL order columns for customers that have no orders. Which join achieves this?",
+  "options": [
+   "INNER JOIN of customers and orders",
+   "RIGHT JOIN from customers to orders",
+   "CROSS JOIN of customers and orders",
+   "LEFT JOIN from customers to orders"
+  ],
+  "answer": 3,
+  "explanation": "A left join keeps all rows of the left table and fills the right-hand columns with NULL when there is no match. An inner join drops unmatched customers, and a right join would instead keep all orders.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0102",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 1,
+  "question": "A query must keep only those country groups whose summed value exceeds 1,000. Which clause is applied after GROUP BY to filter on the aggregate?",
+  "options": [
+   "WHERE SUM(value) > 1000",
+   "HAVING SUM(value) > 1000",
+   "ORDER BY SUM(value) > 1000",
+   "GROUP BY SUM(value) > 1000"
+  ],
+  "answer": 1,
+  "explanation": "HAVING filters groups after aggregation. WHERE is evaluated before grouping and cannot contain aggregate functions.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0103",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 2,
+  "question": "A column holds the values 10, NULL, 20, NULL, 30. What does SELECT AVG(col) return?",
+  "options": [
+   "20",
+   "12",
+   "15",
+   "30"
+  ],
+  "answer": 0,
+  "explanation": "Aggregate functions other than COUNT(*) ignore NULLs, so AVG is 60 / 3 = 20. Dividing by all five rows (12) is the tempting but wrong reading.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0104",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 1,
+  "question": "Which predicate correctly selects rows in which the column region has no value?",
+  "options": [
+   "WHERE region = NULL",
+   "WHERE region = ''",
+   "WHERE region IS NULL",
+   "WHERE region <> NULL"
+  ],
+  "answer": 2,
+  "explanation": "NULL means unknown, so comparisons with = or <> evaluate to UNKNOWN and select no rows; only IS NULL tests for it. An empty string is a value, not NULL.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0105",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 3,
+  "question": "A query uses WHERE id NOT IN (SELECT ref_id FROM t), and the subquery result contains one NULL among otherwise non-NULL values. What does the query return?",
+  "options": [
+   "All rows whose id is absent from the non-NULL values",
+   "No rows at all",
+   "An error caused by the NULL in the subquery",
+   "Only the rows whose id is itself NULL"
+  ],
+  "answer": 1,
+  "explanation": "x NOT IN (…, NULL) evaluates to UNKNOWN for every x not matched by a non-NULL value, so no row qualifies. NOT EXISTS avoids this trap.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0106",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 2,
+  "question": "Scores 100, 100 and 90 are ranked in descending order. Which window function returns the ranks 1, 1, 2?",
+  "options": [
+   "RANK()",
+   "ROW_NUMBER()",
+   "DENSE_RANK()",
+   "NTILE(3)"
+  ],
+  "answer": 2,
+  "explanation": "DENSE_RANK gives tied rows the same rank without gaps (1, 1, 2). RANK would give 1, 1, 3 and ROW_NUMBER would give 1, 2, 3.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0107",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 2,
+  "question": "A table has columns country, month and sales. Which expression gives a running total of sales per country in month order, keeping every row?",
+  "options": [
+   "SUM(sales) OVER (PARTITION BY month)",
+   "SUM(sales) OVER (ORDER BY country)",
+   "SUM(sales) with GROUP BY country, month",
+   "SUM(sales) OVER (PARTITION BY country ORDER BY month)"
+  ],
+  "answer": 3,
+  "explanation": "A window SUM with PARTITION BY country and ORDER BY month accumulates within each country while keeping row-level detail. GROUP BY would collapse the rows.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0108",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 2,
+  "question": "Which statement about adding a database index to a frequently filtered column is correct?",
+  "options": [
+   "It speeds up lookups but adds storage and slows inserts and updates",
+   "It speeds up both lookups and writes at no extra cost",
+   "It enforces referential integrity with other tables",
+   "It reduces storage by compressing the column"
+  ],
+  "answer": 0,
+  "explanation": "An index is an extra structure that must be maintained on every write, so it trades write performance and space for faster reads. Referential integrity is enforced by foreign keys.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0109",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 3,
+  "question": "A B-tree index exists on orders.order_date. Which rewrite of WHERE YEAR(order_date) = 2025 allows the index to be used for a range seek?",
+  "options": [
+   "WHERE CAST(order_date AS CHAR(4)) = '2025'",
+   "WHERE order_date >= DATE '2025-01-01' AND order_date < DATE '2026-01-01'",
+   "WHERE order_date + 0 LIKE '2025%'",
+   "WHERE YEAR(order_date) IN (2025)"
+  ],
+  "answer": 1,
+  "explanation": "Applying a function to the indexed column hides it from the index, whereas a plain half-open range on the raw column is sargable. The other forms still wrap or convert the column.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0110",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 1,
+  "question": "Which property must a primary key column satisfy?",
+  "options": [
+   "Its values are unique and not NULL in every row",
+   "Its values are unique but may contain one NULL",
+   "Its values may repeat but must be sorted",
+   "Its values must reference another table"
+  ],
+  "answer": 0,
+  "explanation": "A primary key uniquely identifies each row and cannot be NULL. Referencing another table is the role of a foreign key.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0111",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 1,
+  "question": "What does a foreign key constraint enforce?",
+  "options": [
+   "Each value must be unique within its own table",
+   "Each value must be stored in sorted order",
+   "Each value must be an integer",
+   "Each value must match an existing key in the referenced table or be NULL"
+  ],
+  "answer": 3,
+  "explanation": "A foreign key enforces referential integrity: child values must exist in the parent key (NULL allowed unless the column is NOT NULL). Uniqueness would require a separate constraint.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0112",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 3,
+  "question": "In a table with the single-column key customer_id, customer_city depends on customer_id and postal_zone depends on customer_city. Which normal form is violated?",
+  "options": [
+   "First normal form (1NF)",
+   "Second normal form (2NF)",
+   "Third normal form (3NF)",
+   "No normal form, as the key is a single column"
+  ],
+  "answer": 2,
+  "explanation": "A non-key attribute depending on another non-key attribute is a transitive dependency, which 3NF forbids. With a single-column key, 2NF cannot be violated by partial dependency.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0113",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 2,
+  "question": "A table orderlines has the composite key (order_id, product_id) and the column product_name, which depends only on product_id. Which normal form is violated?",
+  "options": [
+   "First normal form (1NF), because of repeated groups",
+   "Third normal form (3NF), because of a transitive dependency",
+   "No normal form, because the key is composite",
+   "Second normal form (2NF), because of a partial dependency"
+  ],
+  "answer": 3,
+  "explanation": "A non-key attribute that depends on only part of a composite key breaks 2NF. The table can still be in 1NF if all values are atomic.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0114",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 1,
+  "question": "A bank transfer debits account A successfully, but crediting account B fails, so the debit is undone. Which ACID property does this illustrate?",
+  "options": [
+   "Consistency",
+   "Isolation",
+   "Atomicity",
+   "Durability"
+  ],
+  "answer": 2,
+  "explanation": "Atomicity means a transaction is applied completely or not at all, which is why the debit is rolled back. Durability concerns surviving crashes after commit.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0115",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 3,
+  "question": "According to the SQL standard, which anomaly is possible under READ COMMITTED but prevented under REPEATABLE READ?",
+  "options": [
+   "Non-repeatable read",
+   "Dirty read",
+   "Phantom read",
+   "Lost durability"
+  ],
+  "answer": 0,
+  "explanation": "A second read of the same row can return a different committed value under READ COMMITTED; REPEATABLE READ prevents this. Dirty reads are already prevented at READ COMMITTED, and phantoms remain possible at REPEATABLE READ in the standard.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0116",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 2,
+  "question": "After a transaction has committed, the server crashes and restarts. The committed changes are still present. Which ACID property guarantees this?",
+  "options": [
+   "Atomicity",
+   "Durability",
+   "Isolation",
+   "Consistency"
+  ],
+  "answer": 1,
+  "explanation": "Durability guarantees that committed changes survive failures, typically through write-ahead logging. Consistency concerns moving between valid states, not crash survival.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0117",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 1,
+  "question": "Table X has 3 rows and table Y has 3 rows with the same columns; exactly one row appears in both. How many rows does X UNION Y return?",
+  "options": [
+   "6",
+   "3",
+   "5",
+   "4"
+  ],
+  "answer": 2,
+  "explanation": "UNION removes duplicates, so 3 + 3 - 1 = 5. UNION ALL would return all 6 rows.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0118",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 2,
+  "question": "Which description fits a correlated subquery?",
+  "options": [
+   "It references a column of the outer query and is logically evaluated per outer row",
+   "It runs once and its result is cached for the whole query",
+   "It can only appear in the FROM clause",
+   "It must return exactly one column and one row"
+  ],
+  "answer": 0,
+  "explanation": "A correlated subquery depends on values from the outer row, so conceptually it is re-evaluated for each outer row (optimisers may rewrite it). An uncorrelated subquery runs independently.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0119",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 3,
+  "question": "A strict SQL engine rejects SELECT country, city, COUNT(*) FROM t GROUP BY country. What is the cause?",
+  "options": [
+   "COUNT(*) cannot be combined with GROUP BY",
+   "city is neither in GROUP BY nor inside an aggregate function",
+   "country must be wrapped in an aggregate function",
+   "GROUP BY requires an accompanying HAVING clause"
+  ],
+  "answer": 1,
+  "explanation": "Every selected non-aggregated column must be listed in GROUP BY (or be functionally dependent on it). Otherwise the value per group is ambiguous.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0120",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 1,
+  "question": "In pandas, pd.merge(a, b, on='id') is called without the how argument. Which kind of join is performed?",
+  "options": [
+   "A left join",
+   "An outer join",
+   "A cross join",
+   "An inner join"
+  ],
+  "answer": 3,
+  "explanation": "The default is how='inner', keeping only keys present in both frames. A left join needs how='left'.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0121",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 2,
+  "question": "Which pandas call produces a table with countries as rows, years as columns and summed values in the cells?",
+  "options": [
+   "df.groupby('year')['v'].sum().unstack('country')",
+   "df.melt(id_vars='country', value_vars='year')",
+   "df.pivot_table(index='country', columns='year', values='v', aggfunc='sum')",
+   "df.pivot(index='year', columns='country', values='v')"
+  ],
+  "answer": 2,
+  "explanation": "pivot_table reshapes to a wide table and aggregates duplicates with aggfunc. pivot only reshapes (and fails on duplicate keys), and the other options have rows and columns the wrong way round or lengthen the data.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0122",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 2,
+  "question": "A pandas Series holds 2, NaN and 4. What does s.mean() return with default settings?",
+  "options": [
+   "NaN",
+   "2.0",
+   "6.0",
+   "3.0"
+  ],
+  "answer": 3,
+  "explanation": "By default skipna=True, so the mean is (2 + 4) / 2 = 3. Dividing by three would give 2.0.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0123",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 2,
+  "question": "In base R, which call keeps all rows of data frame x and adds matching columns from y by 'id'?",
+  "options": [
+   "merge(x, y, by = 'id', all.x = TRUE)",
+   "merge(x, y, by = 'id')",
+   "merge(x, y, by = 'id', all.y = TRUE)",
+   "rbind(x, y)"
+  ],
+  "answer": 0,
+  "explanation": "all.x = TRUE makes the merge a left join. The default merge is an inner join and all.y = TRUE would keep all rows of y.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0124",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 3,
+  "question": "Customer names appear as 'Müller GmbH', ' müller gmbh' and 'MÜLLER GMBH ' in one column. What is the best first step before removing duplicates?",
+  "options": [
+   "Drop all rows with differing spelling",
+   "Standardise case and whitespace, then deduplicate on the cleaned value",
+   "Apply drop_duplicates directly on the raw column",
+   "Impute the most frequent spelling by sampling"
+  ],
+  "answer": 1,
+  "explanation": "Exact-match deduplication treats these as different strings; normalising case and whitespace first lets them match. Deleting rows would lose valid records.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0125",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 3,
+  "question": "In a survey, high earners are more likely to leave the income question blank, because of the income level itself. How is this missingness classified?",
+  "options": [
+   "Missing completely at random (MCAR)",
+   "Missing not at random (MNAR)",
+   "Missing at random (MAR)",
+   "Structurally missing"
+  ],
+  "answer": 1,
+  "explanation": "When the probability of missingness depends on the unobserved value itself, the mechanism is MNAR. MAR would require dependence only on observed variables.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0126",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 3,
+  "question": "An analyst replaces missing values of a variable by its mean. What is a known side effect for the variable?",
+  "options": [
+   "Its mean is biased upward",
+   "Its median moves to the maximum",
+   "Its correlation with other variables increases",
+   "Its variance and standard error are underestimated"
+  ],
+  "answer": 3,
+  "explanation": "Mean imputation leaves the mean unchanged but adds values at the centre, shrinking variance and distorting relationships. Standard errors computed as if the data were complete are too small.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0127",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 1,
+  "question": "Which file format stores data column by column, applies compression and embeds the schema?",
+  "options": [
+   "CSV",
+   "JSON Lines",
+   "Parquet",
+   "Fixed-width text"
+  ],
+  "answer": 2,
+  "explanation": "Apache Parquet is a columnar, compressed binary format with an embedded schema. CSV is plain text with no types or schema.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0128",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 2,
+  "question": "What is a typical advantage of XML over CSV when exchanging statistical data?",
+  "options": [
+   "It represents nested structures and can be validated against a schema",
+   "It is always smaller in size",
+   "It needs no parser to be read by software",
+   "It stores numeric types natively in binary form"
+  ],
+  "answer": 0,
+  "explanation": "XML supports hierarchical data and validation with XSD. It is usually larger than CSV, and it still requires a parser.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0129",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 2,
+  "question": "A script calling a REST API receives HTTP status 429. What does this indicate?",
+  "options": [
+   "The requested resource does not exist",
+   "The client is not authorised",
+   "The server had an internal error",
+   "Too many requests were sent in a given time (rate limit)"
+  ],
+  "answer": 3,
+  "explanation": "429 means the client exceeded a rate limit and should slow down or retry later. 404 signals a missing resource, 401/403 authorisation problems and 500 a server error.",
+  "source": {
+   "title": "Eurostat: API - Getting started",
+   "url": "https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-getting-started"
+  }
+ },
+ {
+  "id": "ast3-0130",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 2,
+  "question": "In an ELT pipeline, where does the main transformation take place?",
+  "options": [
+   "Inside the target platform, after raw data are loaded",
+   "On a separate staging server before loading",
+   "In the source system before extraction",
+   "Only in the reporting tool"
+  ],
+  "answer": 0,
+  "explanation": "ELT loads raw data first and uses the compute of the warehouse or lake to transform them. In classic ETL the transformation happens before loading.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0131",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 2,
+  "question": "Which pair correctly contrasts a data warehouse with a data lake?",
+  "options": [
+   "Warehouse: schema-on-read, raw; lake: schema-on-write, curated",
+   "Warehouse: unstructured only; lake: relational only",
+   "Warehouse: schema-on-write, curated; lake: schema-on-read, raw",
+   "Warehouse: no governance; lake: strict governance"
+  ],
+  "answer": 2,
+  "explanation": "A warehouse imposes a modelled schema at load time, while a lake stores raw data and applies structure when read. The other pairs reverse or invent the differences.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0132",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 1,
+  "question": "What is the structure of a star schema?",
+  "options": [
+   "A chain of tables, each linked only to the next one",
+   "A central fact table linked to surrounding dimension tables",
+   "One wide table without keys",
+   "Several fact tables without any dimensions"
+  ],
+  "answer": 1,
+  "explanation": "A star schema places measures in a fact table with foreign keys to denormalised dimension tables. A snowflake further normalises the dimensions.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0133",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 2,
+  "question": "A sales fact table has the columns date_key, product_key, store_key, quantity and net_revenue. Which item belongs in a dimension table rather than the fact table?",
+  "options": [
+   "Quantity sold",
+   "Product category",
+   "Net revenue",
+   "Number of transactions"
+  ],
+  "answer": 1,
+  "explanation": "Descriptive attributes such as product category belong to the dimension, while numeric measures belong to the fact table.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0134",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 3,
+  "question": "SELECT … FROM customers c LEFT JOIN orders o ON o.cid = c.id WHERE o.status = 'paid' omits customers without orders. Why?",
+  "options": [
+   "LEFT JOIN cannot be combined with WHERE",
+   "The ON clause is evaluated after WHERE",
+   "The WHERE condition on o.status removes the NULL-extended rows",
+   "The paid status is stored in customers"
+  ],
+  "answer": 2,
+  "explanation": "Unmatched customers have NULL in o.status, and NULL = 'paid' is not true, so they are filtered out and the join behaves like an inner join. Moving the condition into ON preserves them.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0135",
+  "pkg": "ast3-daten",
+  "area": "data-processing",
+  "difficulty": 3,
+  "question": "Rows (region, x): A 10, A 20, B 5, C 15, C 25, C 35. A query groups by region and uses HAVING COUNT(*) >= 2 with SUM(x). What does it return?",
+  "options": [
+   "Two rows: A with 30 and C with 75",
+   "Three rows: A 30, B 5 and C 75",
+   "Two rows: A with 30 and B with 5",
+   "One row: C with 75"
+  ],
+  "answer": 0,
+  "explanation": "B has only one row and is removed by HAVING; A sums to 30 and C to 15 + 25 + 35 = 75.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0136",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 1,
+  "question": "A register of 1,000 enterprises has a postal code for 920 of them. Which data quality dimension, measured at 92 %, is this?",
+  "options": [
+   "Accuracy",
+   "Timeliness",
+   "Uniqueness",
+   "Completeness"
+  ],
+  "answer": 3,
+  "explanation": "Completeness is the share of required values that are present. Accuracy would concern whether the present values are correct.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0137",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 1,
+  "question": "The CRM holds one birth date for a person and the billing system another. Which quality dimension is breached?",
+  "options": [
+   "Completeness",
+   "Consistency",
+   "Timeliness",
+   "Uniqueness"
+  ],
+  "answer": 1,
+  "explanation": "The same fact is represented differently across systems, which is a consistency problem. Completeness would require missing values.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0138",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 1,
+  "question": "Which item is descriptive metadata for an open dataset?",
+  "options": [
+   "Table partitioning and index design",
+   "The server's backup schedule",
+   "The hash of the last commit",
+   "Title, description and keywords"
+  ],
+  "answer": 3,
+  "explanation": "Descriptive metadata helps people find and understand the dataset. The other options are technical or operational details.",
+  "source": {
+   "title": "data.europa.eu, the official portal for European data",
+   "url": "https://data.europa.eu/"
+  }
+ },
+ {
+  "id": "ast3-0139",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 1,
+  "question": "What is DCAT-AP?",
+  "options": [
+   "A binary format for compressing datasets",
+   "A statistical classification of territorial units",
+   "An application profile of W3C DCAT for describing public sector datasets in European data portals",
+   "A licence template for open data"
+  ],
+  "answer": 2,
+  "explanation": "DCAT-AP builds on the W3C Data Catalogue vocabulary to exchange dataset descriptions between portals so they can be searched across borders.",
+  "source": {
+   "title": "Interoperable Europe: DCAT-AP",
+   "url": "https://interoperable-europe.ec.europa.eu/collection/semic-support-centre/dcat-ap"
+  }
+ },
+ {
+  "id": "ast3-0140",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 2,
+  "question": "How do datasets of national open data portals typically become searchable on data.europa.eu?",
+  "options": [
+   "Their DCAT-AP metadata are harvested by the portal",
+   "Providers upload the data files manually each day",
+   "The Commission scrapes web pages without metadata",
+   "Eurostat copies them into its database"
+  ],
+  "answer": 0,
+  "explanation": "data.europa.eu aggregates catalogues from many countries by harvesting metadata, and DCAT-AP is the common exchange profile. The data files themselves stay with the provider.",
+  "source": {
+   "title": "data.europa.eu, the official portal for European data",
+   "url": "https://data.europa.eu/"
+  }
+ },
+ {
+  "id": "ast3-0141",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 1,
+  "question": "What do the letters of FAIR data principles stand for?",
+  "options": [
+   "Formatted, Archived, Indexed, Replicable",
+   "Findable, Authorised, Integrated, Reliable",
+   "Fast, Accurate, Independent, Relevant",
+   "Findable, Accessible, Interoperable, Reusable"
+  ],
+  "answer": 3,
+  "explanation": "The FAIR principles are Findable, Accessible, Interoperable and Reusable, promoted in EU open science policy.",
+  "source": {
+   "title": "European Commission: Open science (FAIR principles)",
+   "url": "https://research-and-innovation.ec.europa.eu/strategy/strategy-2020-2024/our-digital-future/open-science_en"
+  }
+ },
+ {
+  "id": "ast3-0142",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 2,
+  "question": "A dataset receives a persistent identifier (DOI) and rich searchable metadata. Which FAIR principle does this mainly serve?",
+  "options": [
+   "Findable",
+   "Accessible",
+   "Interoperable",
+   "Reusable"
+  ],
+  "answer": 0,
+  "explanation": "Persistent identifiers and rich metadata make data discoverable. Interoperability would need shared vocabularies and formats.",
+  "source": {
+   "title": "European Commission: Open science (FAIR principles)",
+   "url": "https://research-and-innovation.ec.europa.eu/strategy/strategy-2020-2024/our-digital-future/open-science_en"
+  }
+ },
+ {
+  "id": "ast3-0143",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 2,
+  "question": "Which example is master data rather than transactional data?",
+  "options": [
+   "A single invoice issued yesterday",
+   "The register of legal entities shared by several systems",
+   "One sensor reading at 10:05",
+   "A log entry of a login attempt"
+  ],
+  "answer": 1,
+  "explanation": "Master data describes core business entities used across systems, such as organisations, customers or products. Invoices and readings are transactions or events.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0144",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 2,
+  "question": "Which task is typical for a data steward in a domain?",
+  "options": [
+   "Administering the physical servers",
+   "Writing all application code",
+   "Defining data standards and monitoring data quality for that domain",
+   "Approving the annual budget of the institution"
+  ],
+  "answer": 2,
+  "explanation": "Stewards are accountable for definitions, quality rules and fitness of data in their domain. Technical custodians run the infrastructure.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ },
+ {
+  "id": "ast3-0145",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 2,
+  "question": "Which statement distinguishes pseudonymised from anonymous data under the GDPR?",
+  "options": [
+   "Both remain personal data if stored by the controller",
+   "Pseudonymised data fall outside the GDPR if a key exists",
+   "Anonymous data still need a legal basis under Art. 6",
+   "Pseudonymised data remain personal data, anonymous data fall outside the GDPR"
+  ],
+  "answer": 3,
+  "explanation": "Under Art. 4(5) and Recital 26, pseudonymised data can still be attributed to a person with additional information and stay personal data. Truly anonymous information is not covered.",
+  "source": {
+   "title": "Regulation (EU) 2016/679 (GDPR), Art. 4(5) and Recital 26",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+  }
+ },
+ {
+  "id": "ast3-0146",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 3,
+  "question": "According to Recital 26 GDPR, which test decides whether a person is identifiable?",
+  "options": [
+   "Whether the controller's own staff can identify them",
+   "Whether the means reasonably likely to be used by anyone could identify them",
+   "Whether a name appears in the dataset",
+   "Whether the data were collected with consent"
+  ],
+  "answer": 1,
+  "explanation": "Recital 26 considers all means reasonably likely to be used, by the controller or another person, taking account of cost, time and technology.",
+  "source": {
+   "title": "Regulation (EU) 2016/679 (GDPR), Recital 26",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+  }
+ },
+ {
+  "id": "ast3-0147",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 2,
+  "question": "Under Article 5(1)(b) GDPR, how is further processing for statistical purposes treated, subject to Article 89(1)?",
+  "options": [
+   "It always requires fresh consent",
+   "It is prohibited for special categories",
+   "It is not considered incompatible with the initial purposes",
+   "It requires prior approval by the supervisory authority"
+  ],
+  "answer": 2,
+  "explanation": "Art. 5(1)(b) states that further processing for archiving, scientific or historical research or statistical purposes is not incompatible with the original purpose when Art. 89(1) safeguards apply.",
+  "source": {
+   "title": "Regulation (EU) 2016/679 (GDPR), Art. 5(1)(b)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+  }
+ },
+ {
+  "id": "ast3-0148",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 2,
+  "question": "Which storage limitation exception does Article 5(1)(e) GDPR provide?",
+  "options": [
+   "Longer storage is allowed solely for archiving, research or statistical purposes with safeguards",
+   "Data may be kept indefinitely if pseudonymised for any purpose",
+   "Statistical offices need not apply storage limitation",
+   "Data may be kept as long as the controller wishes if stored securely"
+  ],
+  "answer": 0,
+  "explanation": "Art. 5(1)(e) allows longer retention only when processing is solely for archiving in the public interest, research or statistics, subject to appropriate technical and organisational measures.",
+  "source": {
+   "title": "Regulation (EU) 2016/679 (GDPR), Art. 5(1)(e)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+  }
+ },
+ {
+  "id": "ast3-0149",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 3,
+  "question": "A statistical office can reach its aim using data that no longer identify individuals. What does Article 89(1) GDPR require?",
+  "options": [
+   "Pseudonymised data must still be used",
+   "Identifiable data may be kept for later reuse",
+   "Consent must be collected from every person",
+   "The purpose must be fulfilled that way"
+  ],
+  "answer": 3,
+  "explanation": "Art. 89(1) says that where statistical purposes can be fulfilled by further processing not permitting identification, they shall be fulfilled in that manner; pseudonymisation is only used where anonymisation cannot meet the purpose.",
+  "source": {
+   "title": "Regulation (EU) 2016/679 (GDPR), Art. 89(1)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+  }
+ },
+ {
+  "id": "ast3-0150",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 3,
+  "question": "For statistical purposes, which data-subject rights may Union or Member State law derogate from under Article 89(2) GDPR?",
+  "options": [
+   "Access, erasure, portability and objection (Arts. 15, 17, 20, 21)",
+   "Information, rectification, erasure and portability (Arts. 13, 16, 17, 20)",
+   "Access, rectification, restriction and objection (Arts. 15, 16, 18, 21)",
+   "Restriction, notification, portability and objection (Arts. 18, 19, 20, 21)"
+  ],
+  "answer": 2,
+  "explanation": "Art. 89(2) lists Articles 15, 16, 18 and 21 for research and statistics. Art. 89(3), for archiving in the public interest, adds Articles 19 and 20.",
+  "source": {
+   "title": "Regulation (EU) 2016/679 (GDPR), Art. 89(2)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+  }
+ },
+ {
+  "id": "ast3-0151",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 2,
+  "question": "Which regulation's safeguards for statistical processing, Article 13, apply to personal data processed by an EU institution such as the Commission?",
+  "options": [
+   "Regulation (EU) 2018/1725 (EUDPR)",
+   "Regulation (EU) 2016/679 (GDPR) Art. 89",
+   "Directive (EU) 2016/680",
+   "Regulation (EC) No 223/2009"
+  ],
+  "answer": 0,
+  "explanation": "EUDPR applies to EU institutions; its Article 13 mirrors Art. 89(1) GDPR for archiving, research and statistics. The GDPR governs Member State bodies such as NSIs.",
+  "source": {
+   "title": "Regulation (EU) 2018/1725 (EUDPR), Art. 13",
+   "url": "https://eur-lex.europa.eu/eli/reg/2018/1725/oj"
+  }
+ },
+ {
+  "id": "ast3-0152",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 2,
+  "question": "Under Regulation (EC) No 223/2009, Art. 20, confidential data obtained exclusively for European statistics may be used for another purpose when?",
+  "options": [
+   "The Commission requests them for policy evaluation",
+   "The statistical unit has unambiguously given its consent",
+   "The head of the NSI approves the other use",
+   "The data are transmitted to another ESS authority"
+  ],
+  "answer": 1,
+  "explanation": "Art. 20(2) restricts use to statistical purposes unless the unit unambiguously consents. Art. 21 transmission between ESS authorities remains for statistical purposes only.",
+  "source": {
+   "title": "Regulation (EC) No 223/2009 on European statistics, Art. 20(2)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2009/223/oj"
+  }
+ },
+ {
+  "id": "ast3-0153",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 3,
+  "question": "Under Regulation (EC) No 223/2009, Art. 23, which data may researchers access for scientific purposes?",
+  "options": [
+   "Directly identifiable data if the unit has not objected",
+   "Confidential data allowing only indirect identification of statistical units",
+   "Only published aggregate tables",
+   "Any confidential data approved by the ESS Committee"
+  ],
+  "answer": 1,
+  "explanation": "Art. 23 permits access to confidential data that only allow indirect identification, granted by Eurostat or NSIs. Direct identification is not covered.",
+  "source": {
+   "title": "Regulation (EC) No 223/2009 on European statistics, Art. 23",
+   "url": "https://eur-lex.europa.eu/eli/reg/2009/223/oj"
+  }
+ },
+ {
+  "id": "ast3-0154",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 2,
+  "question": "Why is secondary suppression needed after primary suppression of a sensitive cell in a table with published totals?",
+  "options": [
+   "To reduce the file size of the table",
+   "To round the totals to protect them",
+   "To anonymise the respondents' names",
+   "To stop the suppressed value being recalculated from totals and other cells"
+  ],
+  "answer": 3,
+  "explanation": "If a suppressed cell can be derived by subtracting other cells from a published total, another cell must be hidden. This is part of statistical disclosure control (Art. 20(4)).",
+  "source": {
+   "title": "Regulation (EC) No 223/2009 on European statistics, Art. 20(4)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2009/223/oj"
+  }
+ },
+ {
+  "id": "ast3-0155",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 3,
+  "question": "A table row shows total 100 with cells 60, X and Y. X is primary-suppressed (true value 4) but Y is published as 36. What is the problem?",
+  "options": [
+   "X can be derived as 100 - 60 - 36, so another cell must also be suppressed",
+   "No problem, because X itself is hidden",
+   "The total must be rounded to the nearest ten",
+   "Cell Y must be moved into another row"
+  ],
+  "answer": 0,
+  "explanation": "With one hidden cell, subtraction from the published total reveals it; a secondary suppression of at least one more cell is needed.",
+  "source": {
+   "title": "Regulation (EC) No 223/2009 on European statistics, Art. 20(4)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2009/223/oj"
+  }
+ },
+ {
+  "id": "ast3-0156",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 2,
+  "question": "Under the Data Governance Act, Art. 4(4), what is the maximum duration of an exclusive right to re-use data in the general interest?",
+  "options": [
+   "3 months",
+   "24 months",
+   "12 months",
+   "5 years"
+  ],
+  "answer": 2,
+  "explanation": "Art. 4(4) DGA caps exclusive rights, which are allowed only where necessary for a service in the general interest, at 12 months.",
+  "source": {
+   "title": "Regulation (EU) 2022/868 (Data Governance Act), Art. 4(4)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2022/868/oj"
+  }
+ },
+ {
+  "id": "ast3-0157",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 3,
+  "question": "Chapter II of the Data Governance Act covers data held by public sector bodies protected on which ground?",
+  "options": [
+   "Public service broadcasting remit",
+   "Statistical confidentiality",
+   "Public security and defence",
+   "Holdings of cultural establishments"
+  ],
+  "answer": 1,
+  "explanation": "Art. 3(1) lists commercial confidentiality, statistical confidentiality, third-party IPR and personal data. Art. 3(2) excludes broadcasters, cultural establishments and public security data.",
+  "source": {
+   "title": "Regulation (EU) 2022/868 (Data Governance Act), Art. 3(1)-(2)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2022/868/oj"
+  }
+ },
+ {
+  "id": "ast3-0158",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 3,
+  "question": "Under Art. 9(1) of the Data Governance Act, within what time must a public sector body decide on a re-use request, unless shorter national limits apply?",
+  "options": [
+   "One month, extendable by up to 15 days",
+   "Two months, extendable by up to 3 months",
+   "Twenty working days, extendable by 20 working days",
+   "Two months, extendable by up to 30 days for complex requests"
+  ],
+  "answer": 3,
+  "explanation": "Art. 9(1) DGA sets two months, extendable by up to 30 days. Twenty plus twenty working days is the general rule of the Open Data Directive.",
+  "source": {
+   "title": "Regulation (EU) 2022/868 (Data Governance Act), Art. 9(1)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2022/868/oj"
+  }
+ },
+ {
+  "id": "ast3-0159",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 3,
+  "question": "Which condition applies to providers of data intermediation services under Art. 12 of the Data Governance Act?",
+  "options": [
+   "They must be established in a public sector body",
+   "They must charge a fee based on data value",
+   "They must provide the services through a separate legal person",
+   "They must convert all data to one common format"
+  ],
+  "answer": 2,
+  "explanation": "Art. 12(a) requires a separate legal person and prohibits using the data for other purposes than making them available to data users.",
+  "source": {
+   "title": "Regulation (EU) 2022/868 (Data Governance Act), Art. 12(a)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2022/868/oj"
+  }
+ },
+ {
+  "id": "ast3-0160",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 1,
+  "question": "Under the Open Data Directive, Art. 6(1), what is the general rule for charging for re-use of documents?",
+  "options": [
+   "Free of charge, with recovery of marginal costs allowed",
+   "Cost recovery plus a reasonable return",
+   "Fees set freely by each public sector body",
+   "Free only for non-commercial re-use"
+  ],
+  "answer": 0,
+  "explanation": "Art. 6(1) states re-use is free, but marginal reproduction, provision and dissemination costs may be recovered. Cost recovery with a return applies only to the exceptions in Art. 6(2).",
+  "source": {
+   "title": "Directive (EU) 2019/1024 (Open Data Directive), Art. 6(1)",
+   "url": "https://eur-lex.europa.eu/eli/dir/2019/1024/oj"
+  }
+ },
+ {
+  "id": "ast3-0161",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 2,
+  "question": "Under Art. 5(5) of the Open Data Directive, how must public sector bodies make dynamic data available?",
+  "options": [
+   "Immediately after collection, via suitable APIs",
+   "Within one month, as annual extracts",
+   "Only on request, in PDF format",
+   "After quality review, in monthly batches"
+  ],
+  "answer": 0,
+  "explanation": "Art. 5(5) requires dynamic data to be available for re-use immediately after collection, via suitable APIs and where relevant bulk download.",
+  "source": {
+   "title": "Directive (EU) 2019/1024 (Open Data Directive), Art. 5(5)",
+   "url": "https://eur-lex.europa.eu/eli/dir/2019/1024/oj"
+  }
+ },
+ {
+  "id": "ast3-0162",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 1,
+  "question": "Which of these is a thematic category of high-value datasets in Annex I of the Open Data Directive?",
+  "options": [
+   "Health records",
+   "Statistics",
+   "Education",
+   "Public finance"
+  ],
+  "answer": 1,
+  "explanation": "Annex I lists geospatial, earth observation and environment, meteorological, statistics, companies and company ownership, and mobility.",
+  "source": {
+   "title": "Directive (EU) 2019/1024 (Open Data Directive), Annex I",
+   "url": "https://eur-lex.europa.eu/eli/dir/2019/1024/oj"
+  }
+ },
+ {
+  "id": "ast3-0163",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 2,
+  "question": "According to Art. 14(1) of the Open Data Directive, which requirement applies to high-value datasets?",
+  "options": [
+   "Charged at marginal cost, available as PDF",
+   "Provided only on request through a single information point",
+   "Free of charge, machine-readable, provided via APIs and as bulk download where relevant",
+   "Published once a year in open formats"
+  ],
+  "answer": 2,
+  "explanation": "Art. 14(1) lists free of charge, machine readable, provided via APIs and bulk download where relevant.",
+  "source": {
+   "title": "Directive (EU) 2019/1024 (Open Data Directive), Art. 14(1)",
+   "url": "https://eur-lex.europa.eu/eli/dir/2019/1024/oj"
+  }
+ },
+ {
+  "id": "ast3-0164",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 3,
+  "question": "Under Art. 4(2) of the Open Data Directive, where no other time limits exist, how soon must a body deliver documents for re-use?",
+  "options": [
+   "Within 5 working days, extendable by 5",
+   "Within one calendar month, not extendable",
+   "Within 3 months, extendable by 1 month",
+   "As soon as possible and within 20 working days, extendable by 20 working days"
+  ],
+  "answer": 3,
+  "explanation": "Art. 4(2) fixes 20 working days, extendable by a further 20 for extensive or complex requests, with notice to the applicant.",
+  "source": {
+   "title": "Directive (EU) 2019/1024 (Open Data Directive), Art. 4(2)",
+   "url": "https://eur-lex.europa.eu/eli/dir/2019/1024/oj"
+  }
+ },
+ {
+  "id": "ast3-0165",
+  "pkg": "ast3-daten",
+  "area": "data-governance",
+  "difficulty": 1,
+  "question": "Who operates the data.europa.eu portal?",
+  "options": [
+   "The Publications Office of the European Union",
+   "Eurostat",
+   "The European Data Protection Supervisor",
+   "ENISA"
+  ],
+  "answer": 0,
+  "explanation": "data.europa.eu, the official portal for European data, is run by the Publications Office of the EU.",
+  "source": {
+   "title": "data.europa.eu, the official portal for European data",
+   "url": "https://data.europa.eu/"
+  }
+ },
+ {
+  "id": "ast3-0166",
+  "pkg": "ast3-daten",
+  "area": "official-stats",
+  "difficulty": 1,
+  "question": "According to Regulation (EC) No 223/2009, Art. 4, what is the European Statistical System (ESS)?",
+  "options": [
+   "A network of central banks led by the ECB",
+   "A committee of ministers of statistics",
+   "An agency under the Council",
+   "A partnership of Eurostat, the NSIs and other national authorities"
+  ],
+  "answer": 3,
+  "explanation": "Art. 4 defines the ESS as the partnership between Eurostat and the NSIs and other national authorities. The ESCB is separate and cooperates with it (Art. 9).",
+  "source": {
+   "title": "Regulation (EC) No 223/2009 on European statistics, Art. 4",
+   "url": "https://eur-lex.europa.eu/eli/reg/2009/223/oj"
+  }
+ },
+ {
+  "id": "ast3-0167",
+  "pkg": "ast3-daten",
+  "area": "official-stats",
+  "difficulty": 1,
+  "question": "Which statistical principle in Art. 2(1) of Regulation (EC) No 223/2009 requires costs to be proportionate and response burden minimised?",
+  "options": [
+   "Reliability",
+   "Cost effectiveness",
+   "Impartiality",
+   "Objectivity"
+  ],
+  "answer": 1,
+  "explanation": "Art. 2(1)(f) defines cost effectiveness in this way. Reliability concerns faithful measurement of reality.",
+  "source": {
+   "title": "Regulation (EC) No 223/2009 on European statistics, Art. 2(1)(f)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2009/223/oj"
+  }
+ },
+ {
+  "id": "ast3-0168",
+  "pkg": "ast3-daten",
+  "area": "official-stats",
+  "difficulty": 2,
+  "question": "Which principle in Art. 2(1) of Regulation (EC) No 223/2009 means all users are given equal treatment?",
+  "options": [
+   "Objectivity",
+   "Professional independence",
+   "Impartiality",
+   "Statistical confidentiality"
+  ],
+  "answer": 2,
+  "explanation": "Art. 2(1)(b) ties impartiality to neutrality and equal treatment of all users. Objectivity concerns systematic, reliable and unbiased production.",
+  "source": {
+   "title": "Regulation (EC) No 223/2009 on European statistics, Art. 2(1)(b)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2009/223/oj"
+  }
+ },
+ {
+  "id": "ast3-0169",
+  "pkg": "ast3-daten",
+  "area": "official-stats",
+  "difficulty": 1,
+  "question": "Who chairs the European Statistical System Committee under Art. 7 of Regulation (EC) No 223/2009?",
+  "options": [
+   "A President elected from among the NSI heads",
+   "The Council Presidency in rotation",
+   "The Director of the ECB statistics department",
+   "The Commission (Eurostat)"
+  ],
+  "answer": 3,
+  "explanation": "Art. 7(2): the ESSC consists of NSI representatives and is chaired by the Commission (Eurostat).",
+  "source": {
+   "title": "Regulation (EC) No 223/2009 on European statistics, Art. 7(2)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2009/223/oj"
+  }
+ },
+ {
+  "id": "ast3-0170",
+  "pkg": "ast3-daten",
+  "area": "official-stats",
+  "difficulty": 2,
+  "question": "Under Art. 6(2) of Regulation (EC) No 223/2009, who has sole responsibility for deciding on methods, standards, and content and timing of statistical releases at Union level?",
+  "options": [
+   "The Commission (Eurostat)",
+   "The ESS Committee",
+   "Each NSI for its own country",
+   "The Council by qualified majority"
+  ],
+  "answer": 0,
+  "explanation": "Art. 6(2) gives Eurostat sole responsibility for these decisions at Community level, ensuring professional independence.",
+  "source": {
+   "title": "Regulation (EC) No 223/2009 on European statistics, Art. 6(2)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2009/223/oj"
+  }
+ },
+ {
+  "id": "ast3-0171",
+  "pkg": "ast3-daten",
+  "area": "official-stats",
+  "difficulty": 2,
+  "question": "What role does Art. 5 of Regulation (EC) No 223/2009 give to the NSI designated by each Member State?",
+  "options": [
+   "It decides the content of European statistics",
+   "It coordinates national activities and is the contact point for Eurostat",
+   "It chairs national statistical advisory boards",
+   "It approves Eurostat's work programme"
+  ],
+  "answer": 1,
+  "explanation": "Art. 5(1): the NSI coordinates all national activities for European statistics and is Eurostat's contact point.",
+  "source": {
+   "title": "Regulation (EC) No 223/2009 on European statistics, Art. 5(1)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2009/223/oj"
+  }
+ },
+ {
+  "id": "ast3-0172",
+  "pkg": "ast3-daten",
+  "area": "official-stats",
+  "difficulty": 3,
+  "question": "Which quality criterion in Art. 12 of Regulation (EC) No 223/2009 refers to the delay between the release date and the target date?",
+  "options": [
+   "Timeliness",
+   "Coherence",
+   "Punctuality",
+   "Accessibility"
+  ],
+  "answer": 2,
+  "explanation": "Art. 12(1)(d) defines punctuality as the delay between actual release and target date; timeliness is the delay between availability of information and the event described.",
+  "source": {
+   "title": "Regulation (EC) No 223/2009 on European statistics, Art. 12(1)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2009/223/oj"
+  }
+ },
+ {
+  "id": "ast3-0173",
+  "pkg": "ast3-daten",
+  "area": "official-stats",
+  "difficulty": 2,
+  "question": "Which quality criterion of Art. 12 means data can be reliably combined in different ways and for various uses?",
+  "options": [
+   "Comparability",
+   "Accuracy",
+   "Relevance",
+   "Coherence"
+  ],
+  "answer": 3,
+  "explanation": "Art. 12(1)(g) defines coherence this way; comparability concerns differences in concepts and methods across areas or time.",
+  "source": {
+   "title": "Regulation (EC) No 223/2009 on European statistics, Art. 12(1)(g)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2009/223/oj"
+  }
+ },
+ {
+  "id": "ast3-0174",
+  "pkg": "ast3-daten",
+  "area": "official-stats",
+  "difficulty": 1,
+  "question": "Who reviews and updates the European Statistics Code of Practice under Art. 11 of Regulation (EC) No 223/2009?",
+  "options": [
+   "The ESS Committee",
+   "The European Parliament",
+   "The Court of Auditors",
+   "The Council working party on statistics"
+  ],
+  "answer": 0,
+  "explanation": "Art. 11(2): the Code of Practice is reviewed and updated as necessary by the ESS Committee, and the Commission publishes amendments.",
+  "source": {
+   "title": "Regulation (EC) No 223/2009 on European statistics, Art. 11",
+   "url": "https://eur-lex.europa.eu/eli/reg/2009/223/oj"
+  }
+ },
+ {
+  "id": "ast3-0175",
+  "pkg": "ast3-daten",
+  "area": "official-stats",
+  "difficulty": 2,
+  "question": "For which period is the European statistical programme set under Art. 13 of Regulation (EC) No 223/2009, and who decides it?",
+  "options": [
+   "Exactly seven years, adopted by the Commission",
+   "Not more than three years, decided by the ESSC",
+   "Not more than five years, decided by Parliament and Council",
+   "Ten years, decided by the Council alone"
+  ],
+  "answer": 2,
+  "explanation": "Art. 13(1) says the programme covers a period not exceeding five years and is decided by the Parliament and the Council.",
+  "source": {
+   "title": "Regulation (EC) No 223/2009 on European statistics, Art. 13(1)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2009/223/oj"
+  }
+ },
+ {
+  "id": "ast3-0176",
+  "pkg": "ast3-daten",
+  "area": "official-stats",
+  "difficulty": 3,
+  "question": "How is the European Statistics Code of Practice, as revised in 2017, structured?",
+  "options": [
+   "10 principles with 63 indicators",
+   "16 principles with 84 indicators",
+   "15 principles with 35 indicators",
+   "20 principles with 100 indicators"
+  ],
+  "answer": 1,
+  "explanation": "The Code consists of 16 principles (including 1bis) and 84 indicators following the 2017 revision.",
+  "source": {
+   "title": "Eurostat: European Statistics Code of Practice",
+   "url": "https://ec.europa.eu/eurostat/web/quality/european-quality-standards/european-statistics-code-of-practice"
+  }
+ },
+ {
+  "id": "ast3-0177",
+  "pkg": "ast3-daten",
+  "area": "official-stats",
+  "difficulty": 2,
+  "question": "What is the ESS Quality Assurance Framework (QAF)?",
+  "options": [
+   "A regulation setting binding quality targets",
+   "A database of quality reports of the Member States",
+   "A rulebook on statistical confidentiality",
+   "Complementary guidance with methods, tools and good practices to implement the Code of Practice"
+  ],
+  "answer": 3,
+  "explanation": "The QAF supports implementing the Code of Practice. It was adopted in 2011 and revised in 2019 after the 2017 Code revision.",
+  "source": {
+   "title": "Eurostat: Quality Assurance Framework of the ESS",
+   "url": "https://ec.europa.eu/eurostat/web/quality/european-quality-standards/quality-assurance-framework"
+  }
+ },
+ {
+  "id": "ast3-0178",
+  "pkg": "ast3-daten",
+  "area": "official-stats",
+  "difficulty": 3,
+  "question": "Which formats can the Eurostat SDMX 2.1 API return, besides SDMX-ML 2.1?",
+  "options": [
+   "XLSX, ODS and PDF",
+   "SDMX-CSV 1.0, JSON-stat 2.0 and TSV",
+   "SDMX-CSV 2.0 only",
+   "GeoJSON and Shapefile"
+  ],
+  "answer": 1,
+  "explanation": "Eurostat's documentation lists SDMX-CSV 1.0, JSON-stat 2.0 and TSV for the 2.1 API. SDMX-CSV 2.0 belongs to the 3.0 API.",
+  "source": {
+   "title": "Eurostat: API - Getting started",
+   "url": "https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-getting-started"
+  }
+ },
+ {
+  "id": "ast3-0179",
+  "pkg": "ast3-daten",
+  "area": "official-stats",
+  "difficulty": 2,
+  "question": "In the SDMX model, which combination of components identifies a single observation in a data structure?",
+  "options": [
+   "The values of all attributes",
+   "The dataflow name only",
+   "The values of all dimensions",
+   "The code lists used by the attributes"
+  ],
+  "answer": 2,
+  "explanation": "Dimensions form the key identifying an observation, while attributes (such as observation status flags) describe it without identifying it.",
+  "source": {
+   "title": "Eurostat: SDMX InfoSpace",
+   "url": "https://ec.europa.eu/eurostat/web/sdmx-infospace"
+  }
+ },
+ {
+  "id": "ast3-0180",
+  "pkg": "ast3-daten",
+  "area": "official-stats",
+  "difficulty": 2,
+  "question": "In the Eurostat database, which code list holds the flag describing the confidentiality of an observation?",
+  "options": [
+   "Conf_status",
+   "Obs_status",
+   "Freq",
+   "Unit"
+  ],
+  "answer": 0,
+  "explanation": "Eurostat splits data flags into Obs_status and Conf_status code lists since 27 January 2025; confidentiality belongs to Conf_status.",
+  "source": {
+   "title": "Eurostat: Database",
+   "url": "https://ec.europa.eu/eurostat/web/main/data/database"
+  }
+ },
+ {
+  "id": "ast3-0181",
+  "pkg": "ast3-daten",
+  "area": "official-stats",
+  "difficulty": 2,
+  "question": "Under Regulation (EC) No 1059/2003, Art. 3(2), within which population range should the average size of NUTS 2 units lie?",
+  "options": [
+   "800,000 to 3 million",
+   "150,000 to 800,000",
+   "3 million to 7 million",
+   "7 million to 15 million"
+  ],
+  "answer": 0,
+  "explanation": "Art. 3(2) sets NUTS 1 at 3-7 million, NUTS 2 at 800,000-3 million and NUTS 3 at 150,000-800,000.",
+  "source": {
+   "title": "Regulation (EC) No 1059/2003 (NUTS), Art. 3(2)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2003/1059/oj"
+  }
+ },
+ {
+  "id": "ast3-0182",
+  "pkg": "ast3-daten",
+  "area": "official-stats",
+  "difficulty": 3,
+  "question": "A Member State has 1.2 million inhabitants, below the minimum for NUTS 1 and NUTS 2. How does Regulation (EC) No 1059/2003 treat it?",
+  "options": [
+   "It has no NUTS 1 or 2 but only NUTS 3 units",
+   "It is merged into a neighbouring State's units",
+   "The whole State forms one NUTS 1 and one NUTS 2 unit",
+   "Its largest city is the NUTS 1 unit"
+  ],
+  "answer": 2,
+  "explanation": "Art. 3(2): if the population of a whole Member State is below the minimum for a level, the State is one NUTS unit for that level.",
+  "source": {
+   "title": "Regulation (EC) No 1059/2003 (NUTS), Art. 3(2)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2003/1059/oj"
+  }
+ },
+ {
+  "id": "ast3-0183",
+  "pkg": "ast3-daten",
+  "area": "official-stats",
+  "difficulty": 3,
+  "question": "Which statement about the NUTS population thresholds is correct under Art. 3 of Regulation (EC) No 1059/2003?",
+  "options": [
+   "Every unit must lie strictly within the range",
+   "They apply to the average size of a class of units, and some units may deviate",
+   "They apply to area in square kilometres",
+   "They are fixed separately by each Member State"
+  ],
+  "answer": 1,
+  "explanation": "Art. 3(2) refers to the average size of a class of administrative units; Art. 3(5) permits deviations, for example for islands and outermost regions.",
+  "source": {
+   "title": "Regulation (EC) No 1059/2003 (NUTS), Art. 3(2) and (5)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2003/1059/oj"
+  }
+ },
+ {
+  "id": "ast3-0184",
+  "pkg": "ast3-daten",
+  "area": "official-stats",
+  "difficulty": 2,
+  "question": "Under Art. 4 of Regulation (EC) No 1059/2003, which units subdivide NUTS level 3?",
+  "options": [
+   "NUTS level 4",
+   "Statistical grids of 1 km",
+   "Postal code areas",
+   "Local administrative units (LAU), in one or two levels"
+  ],
+  "answer": 3,
+  "explanation": "Art. 4(1): LAU subdivide NUTS 3 into one or two further levels, at least one being an administrative unit.",
+  "source": {
+   "title": "Regulation (EC) No 1059/2003 (NUTS), Art. 4(1)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2003/1059/oj"
+  }
+ },
+ {
+  "id": "ast3-0185",
+  "pkg": "ast3-daten",
+  "area": "official-stats",
+  "difficulty": 2,
+  "question": "Under Art. 3(2) of Regulation (EU) 2016/792, what kind of index are the harmonised indices of consumer prices?",
+  "options": [
+   "Fixed-base Paasche indices",
+   "Annually chain-linked Laspeyres-type indices",
+   "Monthly chain-linked Fisher indices",
+   "Unweighted geometric means of prices"
+  ],
+  "answer": 1,
+  "explanation": "Art. 3(2) states that the harmonised indices are annually chain-linked Laspeyres-type indices.",
+  "source": {
+   "title": "Regulation (EU) 2016/792 (HICP and HPI), Art. 3(2)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/792/oj"
+  }
+ },
+ {
+  "id": "ast3-0186",
+  "pkg": "ast3-daten",
+  "area": "official-stats",
+  "difficulty": 3,
+  "question": "Under Art. 3(4) of Regulation (EU) 2016/792, which transactions between households fall within the HICP?",
+  "options": [
+   "Rents paid by tenants to private landlords acting as market producers",
+   "Second-hand car sales",
+   "Gifts in kind between relatives",
+   "Private sales of dwellings"
+  ],
+  "answer": 0,
+  "explanation": "Art. 3(4): the HICP does not cover transactions between households except rentals paid to private landlords who act as market producers of services.",
+  "source": {
+   "title": "Regulation (EU) 2016/792 (HICP and HPI), Art. 3(4)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/792/oj"
+  }
+ },
+ {
+  "id": "ast3-0187",
+  "pkg": "ast3-daten",
+  "area": "official-stats",
+  "difficulty": 2,
+  "question": "What does the HICP at constant tax rates (HICP-CT) measure?",
+  "options": [
+   "Consumer price changes without energy and food",
+   "Price changes using fixed weights from the base year",
+   "Changes in prices paid by tax authorities",
+   "Consumer price changes without the impact of changes in tax rates"
+  ],
+  "answer": 3,
+  "explanation": "Art. 2(7): the HICP-CT removes the impact of changes in tax rates on products over the same period.",
+  "source": {
+   "title": "Regulation (EU) 2016/792 (HICP and HPI), Art. 2(7)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/792/oj"
+  }
+ },
+ {
+  "id": "ast3-0188",
+  "pkg": "ast3-daten",
+  "area": "official-stats",
+  "difficulty": 3,
+  "question": "Which Member States provide a flash estimate of the HICP according to Art. 2(13) of Regulation (EU) 2016/792?",
+  "options": [
+   "All Member States",
+   "Only the five largest Member States",
+   "Those whose currency is the euro",
+   "Those outside the euro area"
+  ],
+  "answer": 2,
+  "explanation": "Art. 2(13) defines the flash estimate as an early estimate provided by Member States whose currency is the euro.",
+  "source": {
+   "title": "Regulation (EU) 2016/792 (HICP and HPI), Art. 2(13)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/792/oj"
+  }
+ },
+ {
+  "id": "ast3-0189",
+  "pkg": "ast3-daten",
+  "area": "official-stats",
+  "difficulty": 3,
+  "question": "Which statement about ESA 2010 under Regulation (EU) No 549/2013, Art. 1, is correct?",
+  "options": [
+   "It obliges all Member States to use it for national accounts",
+   "It covers only government finance",
+   "It replaces the NUTS classification",
+   "It sets a methodology (Annex A) and a data transmission programme (Annex B)"
+  ],
+  "answer": 3,
+  "explanation": "Art. 1(2) establishes methodology and programme, while Art. 1(4) says it does not oblige Member States to use ESA for their own purposes.",
+  "source": {
+   "title": "Regulation (EU) No 549/2013 (ESA 2010), Art. 1",
+   "url": "https://eur-lex.europa.eu/eli/reg/2013/549/oj"
+  }
+ },
+ {
+  "id": "ast3-0190",
+  "pkg": "ast3-daten",
+  "area": "official-stats",
+  "difficulty": 3,
+  "question": "Weights are already adjusted to the price reference period (December). Item A (weight 60 %) rises 5 %, item B (40 %) falls 5 %. What is the Laspeyres-type index?",
+  "options": [
+   "100.0",
+   "101.0",
+   "102.0",
+   "99.0"
+  ],
+  "answer": 1,
+  "explanation": "The weighted average is 0.6 x 105 + 0.4 x 95 = 63 + 38 = 101. A simple average of price changes would give 100.",
+  "source": {
+   "title": "Regulation (EU) 2016/792 (HICP and HPI), Art. 2(14)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/792/oj"
+  }
+ },
+ {
+  "id": "ast3-0191",
+  "pkg": "ast3-daten",
+  "area": "bi-geo",
+  "difficulty": 1,
+  "question": "Which principle is among INSPIRE's founding principles?",
+  "options": [
+   "Collect data separately for each administrative level",
+   "Keep all spatial data in one central EU database",
+   "Collect data once and keep them where they can be maintained most effectively",
+   "Charge users for each download"
+  ],
+  "answer": 2,
+  "explanation": "INSPIRE aims for data collection once and maintenance at the most effective level, with seamless combination and sharing.",
+  "source": {
+   "title": "INSPIRE Knowledge Base: Overview",
+   "url": "https://knowledge-base.inspire.ec.europa.eu/overview_en"
+  }
+ },
+ {
+  "id": "ast3-0192",
+  "pkg": "ast3-daten",
+  "area": "bi-geo",
+  "difficulty": 3,
+  "question": "How many spatial data themes does Annex I of Directive 2007/2/EC contain?",
+  "options": [
+   "9",
+   "4",
+   "21",
+   "34"
+  ],
+  "answer": 0,
+  "explanation": "Annex I has nine themes, Annex II four and Annex III 21, making 34 in total.",
+  "source": {
+   "title": "Directive 2007/2/EC (INSPIRE), Annex I",
+   "url": "https://eur-lex.europa.eu/eli/dir/2007/2/oj"
+  }
+ },
+ {
+  "id": "ast3-0193",
+  "pkg": "ast3-daten",
+  "area": "bi-geo",
+  "difficulty": 1,
+  "question": "Which INSPIRE network service lets users search spatial datasets by metadata content?",
+  "options": [
+   "View service",
+   "Download service",
+   "Discovery service",
+   "Transformation service"
+  ],
+  "answer": 2,
+  "explanation": "Art. 11(1)(a) defines discovery services based on the content of metadata. View services only display data.",
+  "source": {
+   "title": "Directive 2007/2/EC (INSPIRE), Art. 11(1)",
+   "url": "https://eur-lex.europa.eu/eli/dir/2007/2/oj"
+  }
+ },
+ {
+  "id": "ast3-0194",
+  "pkg": "ast3-daten",
+  "area": "bi-geo",
+  "difficulty": 2,
+  "question": "What does Art. 4(4) of the INSPIRE Directive say about new data collection?",
+  "options": [
+   "The Directive does not require the collection of new spatial data",
+   "Member States must digitise all analogue maps",
+   "Public authorities must collect data for all 34 themes",
+   "The Commission collects missing data centrally"
+  ],
+  "answer": 0,
+  "explanation": "Art. 4(4) states that the Directive does not require collection of new spatial data; it concerns existing datasets.",
+  "source": {
+   "title": "Directive 2007/2/EC (INSPIRE), Art. 4(4)",
+   "url": "https://eur-lex.europa.eu/eli/dir/2007/2/oj"
+  }
+ },
+ {
+  "id": "ast3-0195",
+  "pkg": "ast3-daten",
+  "area": "bi-geo",
+  "difficulty": 2,
+  "question": "In which Annex of Directive 2007/2/EC is the theme 'Statistical units' listed?",
+  "options": [
+   "Annex I",
+   "Annex II",
+   "It is not listed in any Annex",
+   "Annex III"
+  ],
+  "answer": 3,
+  "explanation": "Statistical units, 'units for dissemination or use of statistical information', is theme 1 of Annex III.",
+  "source": {
+   "title": "Directive 2007/2/EC (INSPIRE), Annex III",
+   "url": "https://eur-lex.europa.eu/eli/dir/2007/2/oj"
+  }
+ },
+ {
+  "id": "ast3-0196",
+  "pkg": "ast3-daten",
+  "area": "bi-geo",
+  "difficulty": 2,
+  "question": "What does the INSPIRE theme 'Coordinate reference systems' define?",
+  "options": [
+   "Colour palettes for thematic maps",
+   "Systems for uniquely referencing spatial information as coordinates based on a geodetic datum",
+   "Standard map scales for printing",
+   "Rules for naming geographical features"
+  ],
+  "answer": 1,
+  "explanation": "Annex I defines it as systems for uniquely referencing spatial information in space as coordinates (x, y, z or latitude, longitude, height) based on a geodetic datum.",
+  "source": {
+   "title": "Directive 2007/2/EC (INSPIRE), Annex I",
+   "url": "https://eur-lex.europa.eu/eli/dir/2007/2/oj"
+  }
+ },
+ {
+  "id": "ast3-0197",
+  "pkg": "ast3-daten",
+  "area": "bi-geo",
+  "difficulty": 1,
+  "question": "Annex II of Directive 2007/2/EC lists 'Orthoimagery' as geo-referenced image data. Which data model typically represents such imagery?",
+  "options": [
+   "Vector polygons",
+   "Relational tables only",
+   "Raster",
+   "Graph networks"
+  ],
+  "answer": 2,
+  "explanation": "Satellite and airborne images are stored as grids of pixels (raster), unlike vector features with points, lines and polygons.",
+  "source": {
+   "title": "Directive 2007/2/EC (INSPIRE), Annex II",
+   "url": "https://eur-lex.europa.eu/eli/dir/2007/2/oj"
+  }
+ },
+ {
+  "id": "ast3-0198",
+  "pkg": "ast3-daten",
+  "area": "bi-geo",
+  "difficulty": 2,
+  "question": "Which geometry type best stores the boundaries of NUTS 2 regions for a map download?",
+  "options": [
+   "Vector polygons",
+   "A raster grid of pixels",
+   "Point features only",
+   "A text-only table"
+  ],
+  "answer": 0,
+  "explanation": "Administrative boundaries are areas with sharp edges and are stored as vector polygons, as in GISCO's NUTS boundary files.",
+  "source": {
+   "title": "Eurostat: GISCO overview",
+   "url": "https://ec.europa.eu/eurostat/web/gisco/overview"
+  }
+ },
+ {
+  "id": "ast3-0199",
+  "pkg": "ast3-daten",
+  "area": "bi-geo",
+  "difficulty": 2,
+  "question": "A choropleth map shades regions by total hospital beds. Why can this be misleading, and what is a better practice?",
+  "options": [
+   "Colours cannot encode numbers; use symbols",
+   "Large regions have more beds; use a rate such as beds per 1,000 inhabitants",
+   "Maps must always use raster data",
+   "Totals must be hidden; use a pie chart"
+  ],
+  "answer": 1,
+  "explanation": "Absolute counts mainly reflect population size. Normalising by population gives comparable rates on a choropleth map.",
+  "source": {
+   "title": "Eurostat: GISCO overview",
+   "url": "https://ec.europa.eu/eurostat/web/gisco/overview"
+  }
+ },
+ {
+  "id": "ast3-0200",
+  "pkg": "ast3-daten",
+  "area": "bi-geo",
+  "difficulty": 3,
+  "question": "A dashboard user clicks a country bar and sees its regional breakdown. Which BI concept is this?",
+  "options": [
+   "Data masking",
+   "Roll-up of a fact table to a dimension key",
+   "Row-level security",
+   "Drill-down"
+  ],
+  "answer": 3,
+  "explanation": "Drill-down moves from an aggregate to more detailed levels of a hierarchy; roll-up goes the opposite way.",
+  "source": {
+   "title": "data.europa academy: Improving open data and metadata quality (closest official EU resource)",
+   "url": "https://data.europa.eu/en/academy/improving-open-data-and-metadata-quality"
+  }
+ }
+]
