@@ -1,1902 +1,1902 @@
 [
- {
-  "id": "ast3-0001",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 1,
-  "question": "What is the median of the values 4, 8, 6, 5, 3, 10?",
-  "options": [
-   "5.5",
-   "5.0",
-   "6.0",
-   "6.5"
-  ],
-  "answer": 0,
-  "explanation": "Sorted: 3, 4, 5, 6, 8, 10; with an even count the median is the average of the 3rd and 4th values, (5+6)/2 = 5.5. The value 6.0 is the arithmetic mean, not the median.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Median",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Median"
+  {
+    "id": "ast3-0001",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 1,
+    "question": "What is the median of the values 4, 8, 6, 5, 3, 10?",
+    "options": [
+      "6.5",
+      "5.5",
+      "5.0",
+      "6.0"
+    ],
+    "answer": 1,
+    "explanation": "Sorted: 3, 4, 5, 6, 8, 10; with an even count the median is the average of the 3rd and 4th values, (5+6)/2 = 5.5. The value 6.0 is the arithmetic mean, not the median.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Median",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Median"
+    }
+  },
+  {
+    "id": "ast3-0002",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 1,
+    "question": "Five values have a mean of 10. A sixth value, 22, is added. What is the new mean?",
+    "options": [
+      "11",
+      "12",
+      "16",
+      "13"
+    ],
+    "answer": 1,
+    "explanation": "The sum was 50; adding 22 gives 72, and 72/6 = 12. Averaging 10 and 22 (giving 16) ignores the different numbers of observations behind each figure.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Average",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Average"
+    }
+  },
+  {
+    "id": "ast3-0003",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 2,
+    "question": "Group A (40 % of staff) has an average salary of 50 and group B (60 %) has 80. What is the overall average salary?",
+    "options": [
+      "68",
+      "70",
+      "65",
+      "66"
+    ],
+    "answer": 0,
+    "explanation": "Weighted mean = 0.4 × 50 + 0.6 × 80 = 20 + 48 = 68. The simple mean of the two group averages (65) ignores the group sizes.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Weighted average",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Weighted_average"
+    }
+  },
+  {
+    "id": "ast3-0004",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 1,
+    "question": "Every value in a dataset is multiplied by 3. What happens to the standard deviation?",
+    "options": [
+      "It is multiplied by 9",
+      "It stays unchanged",
+      "It is multiplied by 3",
+      "It is increased by 3"
+    ],
+    "answer": 2,
+    "explanation": "Standard deviation is expressed in the units of the data and scales linearly with a multiplicative factor; only the variance is multiplied by 9. Adding a constant, by contrast, would leave it unchanged.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Standard deviation",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Standard_deviation"
+    }
+  },
+  {
+    "id": "ast3-0005",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 2,
+    "question": "What is the sample variance (divisor n − 1) of the values 2, 4, 6?",
+    "options": [
+      "2.67",
+      "2",
+      "8",
+      "4"
+    ],
+    "answer": 3,
+    "explanation": "Mean = 4; squared deviations are 4, 0, 4, summing to 8; 8/(3−1) = 4. The figure 2.67 results from dividing by n, which gives the population variance.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Standard deviation",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Standard_deviation"
+    }
+  },
+  {
+    "id": "ast3-0006",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 2,
+    "question": "Tukey's rule flags values beyond 1.5 × IQR from the quartiles. With Q1 = 20 and Q3 = 36, which observation is flagged as an upper outlier?",
+    "options": [
+      "58",
+      "64",
+      "55",
+      "59"
+    ],
+    "answer": 1,
+    "explanation": "IQR = 16, so the upper fence is 36 + 1.5 × 16 = 60. Only 64 lies beyond it; the others are below 60.",
+    "source": {
+      "title": "Data Visualisation Guide (Publications Office, data.europa.eu), Box plots (quartiles, whiskers, 1.5 × IQR outlier rule)",
+      "url": "https://data.europa.eu/apps/data-visualisation-guide/box-plots"
+    }
+  },
+  {
+    "id": "ast3-0007",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 1,
+    "question": "In a distribution the mean is clearly larger than the median. Which description is most likely?",
+    "options": [
+      "Uniform",
+      "Right-skewed (positive skew)",
+      "Left-skewed (negative skew)",
+      "Symmetric"
+    ],
+    "answer": 1,
+    "explanation": "A long right tail pulls the mean upward while the median stays near the bulk of the data. In a left-skewed distribution the mean falls below the median.",
+    "source": {
+      "title": "Data Visualisation Guide (Publications Office, data.europa.eu), The mean versus the median",
+      "url": "https://data.europa.eu/apps/data-visualisation-guide/the-mean-versus-the-median"
+    }
+  },
+  {
+    "id": "ast3-0008",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 1,
+    "question": "A value of 130 comes from a distribution with mean 100 and standard deviation 15. What is its z-score?",
+    "options": [
+      "2.5",
+      "1.5",
+      "2.0",
+      "30"
+    ],
+    "answer": 2,
+    "explanation": "z = (130 − 100)/15 = 2.0, i.e. two standard deviations above the mean. The value 30 is the raw difference, not standardised.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Standard deviation (basis of standardisation and z-scores)",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Standard_deviation"
+    }
+  },
+  {
+    "id": "ast3-0009",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 2,
+    "question": "A price index (2015 = 100) shows 125 in 2020 and 150 in 2024. What is the 2024 value when the index is rebased to 2020 = 100?",
+    "options": [
+      "120",
+      "150",
+      "75",
+      "125"
+    ],
+    "answer": 0,
+    "explanation": "Rebasing divides by the new base value: 150/125 × 100 = 120. Simply subtracting 25 points would give 125, which ignores that the base changed proportionally.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Index number",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Index_number"
+    }
+  },
+  {
+    "id": "ast3-0010",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 2,
+    "question": "A value rises by 20 % and then falls by 20 %. How does the final value compare with the start?",
+    "options": [
+      "The same",
+      "4 % lower",
+      "20 % lower",
+      "4 % higher"
+    ],
+    "answer": 1,
+    "explanation": "1.20 × 0.80 = 0.96, so the final value is 4 % below the start. Percentage changes are applied to different bases and do not cancel out.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Percentage change",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Percentage_change"
+    }
+  },
+  {
+    "id": "ast3-0011",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 1,
+    "question": "The unemployment rate rises from 5 % to 6 %. Which statement is correct?",
+    "options": [
+      "It rose by 20 percentage points, or 1 % in relative terms",
+      "It rose by 1 percentage point, or 1 % in relative terms",
+      "It rose by 1 percentage point, or 20 % in relative terms",
+      "It rose by 1 %, or 20 percentage points"
+    ],
+    "answer": 2,
+    "explanation": "The absolute difference of rates is expressed in percentage points (6 − 5 = 1); the relative change is 1/5 = 20 %. Mixing the two units is a common reporting error.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Percentage point",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Percentage_point"
+    }
+  },
+  {
+    "id": "ast3-0012",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 3,
+    "question": "A series grows by 10 % in year 1 and 20 % in year 2. Compared with 15 %, its average annual growth rate (geometric) is:",
+    "options": [
+      "Exactly 15 %",
+      "Cannot be compared without absolute levels",
+      "Slightly below 15 %",
+      "Slightly above 15 %"
+    ],
+    "answer": 2,
+    "explanation": "The geometric average is √(1.10 × 1.20) − 1 = √1.32 − 1 ≈ 14.9 %. The arithmetic mean of growth rates (15 %) overstates compound growth.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Geometric mean",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Geometric_mean"
+    }
+  },
+  {
+    "id": "ast3-0013",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 2,
+    "question": "A frequency table shows value 1 (5 cases), 2 (8), 3 (4), 4 (3). What is the median?",
+    "options": [
+      "3",
+      "2.5",
+      "2.25",
+      "2"
+    ],
+    "answer": 3,
+    "explanation": "With n = 20 the median lies between the 10th and 11th ordered values; cumulative counts are 5, 13, … so both are 2. The value 2.25 is the mean.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Median",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Median"
+    }
+  },
+  {
+    "id": "ast3-0014",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 1,
+    "question": "Which chart type is best suited to show the distribution of a continuous variable such as household income?",
+    "options": [
+      "Stacked bar chart",
+      "Pie chart",
+      "Line chart",
+      "Histogram"
+    ],
+    "answer": 3,
+    "explanation": "A histogram groups a continuous variable into adjacent classes and shows its shape. A pie chart shows shares of a whole, and a line chart shows development over time.",
+    "source": {
+      "title": "Data Visualisation Guide (Publications Office, data.europa.eu), Histograms (background; the area rule for unequal bins is general statistics practice)",
+      "url": "https://data.europa.eu/apps/data-visualisation-guide/histograms"
+    }
+  },
+  {
+    "id": "ast3-0015",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 1,
+    "question": "A bar chart compares two values (98 and 102) using a y-axis starting at 96. What is the main problem?",
+    "options": [
+      "The values are too close to compare",
+      "The bars should be replaced by a pie chart",
+      "The truncated axis exaggerates the difference",
+      "Bar charts cannot show two values"
+    ],
+    "answer": 2,
+    "explanation": "Bars encode value by length, so a non-zero baseline distorts the ratio: with the axis starting at 96 the bars measure 2 and 6, so a 4 % difference looks threefold. Bar charts should normally start at zero.",
+    "source": {
+      "title": "Data Visualisation Guide (Publications Office, data.europa.eu), Starting bars at zero",
+      "url": "https://data.europa.eu/apps/data-visualisation-guide/starting-bars-at-zero"
+    }
+  },
+  {
+    "id": "ast3-0016",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 2,
+    "question": "Why is a 3D pie chart with 12 slices considered poor practice?",
+    "options": [
+      "Pie charts cannot display percentages",
+      "Twelve slices always sum to more than 100 %",
+      "3D effects increase the data precision",
+      "Perspective and many slices distort and hinder comparison of shares"
+    ],
+    "answer": 3,
+    "explanation": "Human perception compares angles and areas poorly, and 3D perspective enlarges front slices. A sorted bar chart communicates the same shares more accurately.",
+    "source": {
+      "title": "Data Visualisation Guide (Publications Office, data.europa.eu), Guidelines for pie charts",
+      "url": "https://data.europa.eu/apps/data-visualisation-guide/guidelines-for-pie-charts"
+    }
+  },
+  {
+    "id": "ast3-0017",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 2,
+    "question": "An indicator has mean 40 and standard deviation 6. What is its coefficient of variation?",
+    "options": [
+      "240 %",
+      "0.15 units",
+      "15 %",
+      "6 %"
+    ],
+    "answer": 2,
+    "explanation": "CV = SD/mean = 6/40 = 0.15 = 15 %. Being unit-free, it allows comparing the variability of variables measured on different scales.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Coefficient of variation",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Coefficient_of_variation"
+    }
+  },
+  {
+    "id": "ast3-0018",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 2,
+    "question": "Country A has a labour force of 10 million and unemployment of 4 %; country B has 30 million and 8 %. What is the combined unemployment rate?",
+    "options": [
+      "12 %",
+      "6.5 %",
+      "7 %",
+      "6 %"
+    ],
+    "answer": 2,
+    "explanation": "Unemployed: 0.4 + 2.4 = 2.8 million out of 40 million = 7 %. The simple average (6 %) ignores the very different labour-force weights.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Weighted average",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Weighted_average"
+    }
+  },
+  {
+    "id": "ast3-0019",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 3,
+    "question": "A histogram has unequal class widths. To represent frequencies correctly, which element must be proportional to the frequency?",
+    "options": [
+      "The height of each bar",
+      "The position of each bar",
+      "The width of each bar",
+      "The area of each bar"
+    ],
+    "answer": 3,
+    "explanation": "With unequal classes, height would mislead; bar area (height × width) must correspond to frequency, so height shows density. With equal widths, height and area are interchangeable.",
+    "source": {
+      "title": "Data Visualisation Guide (Publications Office, data.europa.eu), Histograms (background; the area rule for unequal bins is general statistics practice)",
+      "url": "https://data.europa.eu/apps/data-visualisation-guide/histograms"
+    }
+  },
+  {
+    "id": "ast3-0020",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 1,
+    "question": "In a dataset of more than two values, the largest value is replaced by a far larger value. Which measure remains unchanged?",
+    "options": [
+      "Standard deviation",
+      "Mean",
+      "Range",
+      "Median"
+    ],
+    "answer": 3,
+    "explanation": "The median depends only on the middle position of the ordered data, so it is robust to extreme values. Mean, range and standard deviation all change.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Median",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Median"
+    }
+  },
+  {
+    "id": "ast3-0021",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 1,
+    "question": "Q1 = 12 and Q3 = 30. What is the interquartile range?",
+    "options": [
+      "21",
+      "18",
+      "42",
+      "9"
+    ],
+    "answer": 1,
+    "explanation": "IQR = Q3 − Q1 = 30 − 12 = 18. It measures the spread of the central 50 % of observations.",
+    "source": {
+      "title": "Data Visualisation Guide (Publications Office, data.europa.eu), Box plots (quartiles, whiskers, 1.5 × IQR outlier rule)",
+      "url": "https://data.europa.eu/apps/data-visualisation-guide/box-plots"
+    }
+  },
+  {
+    "id": "ast3-0022",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 2,
+    "question": "What distinguishes a Laspeyres price index from a Paasche price index?",
+    "options": [
+      "Laspeyres weights prices by base-period quantities",
+      "Laspeyres uses current-period quantities",
+      "Laspeyres uses unweighted prices",
+      "Laspeyres is a geometric mean of both"
+    ],
+    "answer": 0,
+    "explanation": "A Laspeyres index prices the fixed base-period basket in the current period, while Paasche uses current-period quantities. The geometric mean of the two is the Fisher index.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Index number (general index concept; Laspeyres/Paasche weighting is standard index theory)",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Index_number"
+    }
+  },
+  {
+    "id": "ast3-0023",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 3,
+    "question": "A vehicle drives out at 60 km/h and returns at 40 km/h over the same road. What is the average speed for the round trip?",
+    "options": [
+      "49 km/h",
+      "50 km/h",
+      "52 km/h",
+      "48 km/h"
+    ],
+    "answer": 3,
+    "explanation": "Average speed is total distance over total time, i.e. the harmonic mean: 2/(1/60 + 1/40) = 48. The arithmetic mean (50) wrongly weights by time rather than distance.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Average",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Average"
+    }
+  },
+  {
+    "id": "ast3-0024",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 1,
+    "question": "After standardising a variable to z-scores, what are its mean and standard deviation?",
+    "options": [
+      "Mean 0, standard deviation 1",
+      "Mean 1, standard deviation 0",
+      "Mean 1, standard deviation 1",
+      "Mean 0, standard deviation 0"
+    ],
+    "answer": 0,
+    "explanation": "Subtracting the mean centres the data at 0 and dividing by the standard deviation scales the spread to 1.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Standard deviation (basis of standardisation and z-scores)",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Standard_deviation"
+    }
+  },
+  {
+    "id": "ast3-0025",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 2,
+    "question": "A region is at the 90th percentile of an income distribution. What does this mean?",
+    "options": [
+      "About 90 % of regions have an income at or below it",
+      "Its income is 90 % of the mean",
+      "It has 90 % of the total income",
+      "It is 90 units above the median"
+    ],
+    "answer": 0,
+    "explanation": "The p-th percentile is the value below which (about) p % of observations fall. It says nothing about shares of total income.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Median (the 50th percentile; other percentiles generalise it)",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Median"
+    }
+  },
+  {
+    "id": "ast3-0026",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 3,
+    "question": "On a logarithmic y-axis, equal vertical distances between points represent equal:",
+    "options": [
+      "Standard deviations",
+      "Cumulative frequencies",
+      "Ratios (percentage changes)",
+      "Absolute differences"
+    ],
+    "answer": 2,
+    "explanation": "On a log scale, a constant slope means a constant growth rate, so equal distances correspond to equal ratios. On a linear axis, equal distances represent equal differences.",
+    "source": {
+      "title": "Data Visualisation Guide (Publications Office, data.europa.eu), Logarithmic y axes",
+      "url": "https://data.europa.eu/apps/data-visualisation-guide/logarithmic-y-axes"
+    }
+  },
+  {
+    "id": "ast3-0027",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 2,
+    "question": "In a stacked bar chart with four segments, which comparison is hardest for readers?",
+    "options": [
+      "The size of a middle segment across different bars",
+      "The size of the bottom segment across bars",
+      "The total height of each bar",
+      "The ranking of the bar totals"
+    ],
+    "answer": 0,
+    "explanation": "Only the bottom segment and the total share a common baseline; middle segments float, so their lengths cannot be compared easily. Grouped bars or small multiples avoid this.",
+    "source": {
+      "title": "Data Visualisation Guide (Publications Office, data.europa.eu), Stacked bars",
+      "url": "https://data.europa.eu/apps/data-visualisation-guide/stacked-bars"
+    }
+  },
+  {
+    "id": "ast3-0028",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 3,
+    "question": "Nominal wages rise by 21 % while consumer prices rise by 10 %. By how much do real wages rise?",
+    "options": [
+      "10 %",
+      "31 %",
+      "12.1 %",
+      "11 %"
+    ],
+    "answer": 0,
+    "explanation": "Real growth is 1.21/1.10 − 1 = 10 %. Subtracting 10 points gives 11 %, which is only an approximation that works for small rates.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Inflation (inflation rate as percentage change of a price index)",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Inflation"
+    }
+  },
+  {
+    "id": "ast3-0029",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 3,
+    "question": "5 units have a mean of 2,000 and 15 units have a mean of 3,000. What is the mean of all 20 units?",
+    "options": [
+      "2,667",
+      "2,500",
+      "2,750",
+      "3,000"
+    ],
+    "answer": 2,
+    "explanation": "(5 × 2,000 + 15 × 3,000)/20 = 55,000/20 = 2,750. The unweighted average of the group means (2,500) is wrong because the groups differ in size.",
+    "source": {
+      "title": "Data Visualisation Guide (Publications Office, data.europa.eu), The mean versus the median",
+      "url": "https://data.europa.eu/apps/data-visualisation-guide/the-mean-versus-the-median"
+    }
+  },
+  {
+    "id": "ast3-0030",
+    "pkg": "ast3-daten",
+    "area": "descriptive-stats",
+    "difficulty": 3,
+    "question": "In a box plot the median line sits close to Q1 and the upper whisker is much longer than the lower one. What does this suggest?",
+    "options": [
+      "A left-skewed distribution",
+      "A right-skewed distribution",
+      "A bimodal distribution",
+      "A symmetric distribution"
+    ],
+    "answer": 1,
+    "explanation": "A median near the lower quartile combined with a long upper tail indicates positive (right) skew. Box plots cannot reliably reveal bimodality.",
+    "source": {
+      "title": "Data Visualisation Guide (Publications Office, data.europa.eu), Box plots (quartiles, whiskers, 1.5 × IQR outlier rule)",
+      "url": "https://data.europa.eu/apps/data-visualisation-guide/box-plots"
+    }
+  },
+  {
+    "id": "ast3-0031",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 1,
+    "question": "P(A) = 0.3, P(B) = 0.4 and P(A and B) = 0.1. What is P(A or B)?",
+    "options": [
+      "0.5",
+      "0.12",
+      "0.7",
+      "0.6"
+    ],
+    "answer": 3,
+    "explanation": "P(A∪B) = P(A) + P(B) − P(A∩B) = 0.3 + 0.4 − 0.1 = 0.6. Adding without subtracting the overlap (0.7) double-counts it.",
+    "source": {
+      "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
+    }
+  },
+  {
+    "id": "ast3-0032",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 1,
+    "question": "Events A and B are independent with P(A) = 0.5 and P(B) = 0.2. What is P(A and B)?",
+    "options": [
+      "0.70",
+      "0.10",
+      "0.25",
+      "0.30"
+    ],
+    "answer": 1,
+    "explanation": "For independent events P(A∩B) = P(A) × P(B) = 0.1. The value 0.70 is the sum, which would apply to disjoint events' union.",
+    "source": {
+      "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
+    }
+  },
+  {
+    "id": "ast3-0033",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 1,
+    "question": "P(A and B) = 0.12 and P(B) = 0.40. What is P(A | B)?",
+    "options": [
+      "0.30",
+      "0.12",
+      "0.48",
+      "0.052"
+    ],
+    "answer": 0,
+    "explanation": "P(A|B) = P(A∩B)/P(B) = 0.12/0.40 = 0.30. Conditioning restricts the sample space to B, so we divide by P(B).",
+    "source": {
+      "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
+    }
+  },
+  {
+    "id": "ast3-0034",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 3,
+    "question": "A disease has 1 % prevalence. A test has 90 % sensitivity and a 9 % false-positive rate. About what share of positive results are true cases?",
+    "options": [
+      "9 %",
+      "50 %",
+      "90 %",
+      "1 %"
+    ],
+    "answer": 0,
+    "explanation": "True positives 0.009; false positives 0.99 × 0.09 = 0.0891; P(D|+) = 0.009/0.0981 ≈ 9.2 %. Ignoring the low base rate leads to the 90 % misreading.",
+    "source": {
+      "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
+    }
+  },
+  {
+    "id": "ast3-0035",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 2,
+    "question": "A fair coin is tossed 4 times. What is the probability of exactly 2 heads?",
+    "options": [
+      "0.5",
+      "0.25",
+      "0.125",
+      "0.375"
+    ],
+    "answer": 3,
+    "explanation": "Binomial: C(4,2) × 0.5⁴ = 6/16 = 0.375. The value 0.5 confuses 'exactly 2' with the expected proportion of heads.",
+    "source": {
+      "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
+    }
+  },
+  {
+    "id": "ast3-0036",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 2,
+    "question": "X is binomial with n = 100 and p = 0.2. What are its mean and variance?",
+    "options": [
+      "20 and 16",
+      "20 and 20",
+      "16 and 20",
+      "20 and 4"
+    ],
+    "answer": 0,
+    "explanation": "Mean = np = 20 and variance = np(1−p) = 16. Mean equal to variance characterises the Poisson distribution.",
+    "source": {
+      "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
+    }
+  },
+  {
+    "id": "ast3-0037",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 2,
+    "question": "For a Poisson-distributed count with mean 3, what is the variance?",
+    "options": [
+      "3",
+      "√3",
+      "1/3",
+      "9"
+    ],
+    "answer": 0,
+    "explanation": "A Poisson distribution has variance equal to its mean (λ). Equidispersion is the property tested when checking for overdispersion in count data.",
+    "source": {
+      "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
+    }
+  },
+  {
+    "id": "ast3-0038",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 1,
+    "question": "IQ scores are approximately normal with mean 100 and SD 15. Roughly what share lies between 70 and 130?",
+    "options": [
+      "99.7 %",
+      "95 %",
+      "50 %",
+      "68 %"
+    ],
+    "answer": 1,
+    "explanation": "70 and 130 are ±2 SD from the mean, which covers about 95 % of a normal distribution. ±1 SD covers about 68 % and ±3 SD about 99.7 %.",
+    "source": {
+      "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
+    }
+  },
+  {
+    "id": "ast3-0039",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 2,
+    "question": "What does the central limit theorem state?",
+    "options": [
+      "Samples above 30 are always unbiased",
+      "Every population becomes normal as it grows",
+      "Means of large random samples are approximately normally distributed",
+      "Sample means equal the population mean"
+    ],
+    "answer": 2,
+    "explanation": "For independent observations with finite variance, the sampling distribution of the mean approaches normality as n grows, whatever the population shape. It does not make the population itself normal.",
+    "source": {
+      "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
+    }
+  },
+  {
+    "id": "ast3-0040",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 1,
+    "question": "The population SD is 20 and the sample size is 100. What is the standard error of the sample mean?",
+    "options": [
+      "200",
+      "0.2",
+      "20",
+      "2"
+    ],
+    "answer": 3,
+    "explanation": "SE = σ/√n = 20/10 = 2. Using the SD itself (20) ignores that averaging reduces variability.",
+    "source": {
+      "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
+    }
+  },
+  {
+    "id": "ast3-0041",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 2,
+    "question": "The sample size is multiplied by 4, everything else equal. What happens to the standard error of the mean?",
+    "options": [
+      "It is quartered",
+      "It is doubled",
+      "It is halved",
+      "It is unchanged"
+    ],
+    "answer": 2,
+    "explanation": "SE is proportional to 1/√n, so quadrupling n halves it. Quartering the error would need 16 times the sample.",
+    "source": {
+      "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
+    }
+  },
+  {
+    "id": "ast3-0042",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 2,
+    "question": "A sample mean is 50 with standard error 2. What is the approximate 95 % confidence interval?",
+    "options": [
+      "46.1 to 53.9",
+      "44.0 to 56.0",
+      "48.0 to 52.0",
+      "49.0 to 51.0"
+    ],
+    "answer": 0,
+    "explanation": "50 ± 1.96 × 2 = 50 ± 3.92, giving 46.1 to 53.9. The range 48–52 is ±1 SE, a confidence level of only about 68 %.",
+    "source": {
+      "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
+    }
+  },
+  {
+    "id": "ast3-0043",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 3,
+    "question": "Which interpretation of a 95 % confidence interval is correct?",
+    "options": [
+      "The estimate is correct with probability 0.95",
+      "There is a 95 % chance the true value lies in this particular interval",
+      "95 % of the observations lie in the interval",
+      "If the procedure were repeated, about 95 % of such intervals would contain the true parameter"
+    ],
+    "answer": 3,
+    "explanation": "Confidence refers to the long-run coverage of the procedure; a given interval either contains the parameter or not. The probability reading belongs to Bayesian credible intervals.",
+    "source": {
+      "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
+    }
+  },
+  {
+    "id": "ast3-0044",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 2,
+    "question": "What does a p-value measure?",
+    "options": [
+      "The probability that the result is due to chance alone",
+      "The probability of data at least as extreme as observed, assuming H0 is true",
+      "The probability that H0 is true",
+      "The probability that H1 is true"
+    ],
+    "answer": 1,
+    "explanation": "The p-value is computed under the assumption that the null hypothesis holds; it is not the probability of the hypothesis itself. Treating it as P(H0) is a classic misinterpretation.",
+    "source": {
+      "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
+    }
+  },
+  {
+    "id": "ast3-0045",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 1,
+    "question": "What is a type I error?",
+    "options": [
+      "Using the wrong sample size",
+      "Rejecting a true null hypothesis",
+      "Failing to reject a false null hypothesis",
+      "Accepting a false alternative"
+    ],
+    "answer": 1,
+    "explanation": "A type I error is a false positive whose probability is the significance level α. Failing to reject a false null is a type II error.",
+    "source": {
+      "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
+    }
+  },
+  {
+    "id": "ast3-0046",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 2,
+    "question": "If the probability of a type II error is β = 0.2, what is the power of the test?",
+    "options": [
+      "0.80",
+      "0.95",
+      "0.05",
+      "0.20"
+    ],
+    "answer": 0,
+    "explanation": "Power = 1 − β = 0.80, the probability of rejecting a false null hypothesis. The value 0.95 relates to 1 − α.",
+    "source": {
+      "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
+    }
+  },
+  {
+    "id": "ast3-0047",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 2,
+    "question": "Which change increases the power of a test, other things equal?",
+    "options": [
+      "A larger standard deviation",
+      "A smaller true effect",
+      "A smaller significance level α",
+      "A larger sample size"
+    ],
+    "answer": 3,
+    "explanation": "More observations reduce the standard error and make a given effect easier to detect. Lowering α, larger variance or smaller effects all reduce power.",
+    "source": {
+      "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
+    }
+  },
+  {
+    "id": "ast3-0048",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 2,
+    "question": "Mean income is to be compared across three independent regions. Which test is appropriate?",
+    "options": [
+      "Chi-square test of independence",
+      "Paired t-test",
+      "Pearson correlation test",
+      "One-way ANOVA"
+    ],
+    "answer": 3,
+    "explanation": "ANOVA tests equality of more than two group means; repeated pairwise t-tests inflate the type I error. Chi-square suits categorical variables.",
+    "source": {
+      "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
+    }
+  },
+  {
+    "id": "ast3-0049",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 1,
+    "question": "Which test examines whether two categorical variables (e.g. region and employment status) are associated?",
+    "options": [
+      "Two-sample t-test",
+      "Chi-square test of independence",
+      "Paired t-test",
+      "One-way ANOVA"
+    ],
+    "answer": 1,
+    "explanation": "The chi-square test compares observed with expected counts in a contingency table. The t-test and ANOVA compare means of numeric variables.",
+    "source": {
+      "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
+    }
+  },
+  {
+    "id": "ast3-0050",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 2,
+    "question": "Employees' test scores are recorded before and after training. Which test is most appropriate to assess the mean change?",
+    "options": [
+      "One-way ANOVA with three groups",
+      "Chi-square test",
+      "Paired t-test",
+      "Two-sample t-test for independent groups"
+    ],
+    "answer": 2,
+    "explanation": "Before and after values come from the same units and are dependent, so the differences are analysed with a paired t-test. An independent test ignores that pairing and loses power.",
+    "source": {
+      "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
+    }
+  },
+  {
+    "id": "ast3-0051",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 2,
+    "question": "Which design best describes stratified random sampling?",
+    "options": [
+      "Every k-th unit is selected from a list",
+      "The population is split into homogeneous groups and each is sampled randomly",
+      "Whole groups are selected at random and fully surveyed",
+      "Volunteers are accepted until a quota is met"
+    ],
+    "answer": 1,
+    "explanation": "Stratification samples within every stratum, which ensures representation and usually improves precision. Selecting whole groups describes cluster sampling.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Stratum",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Stratum"
+    }
+  },
+  {
+    "id": "ast3-0052",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 3,
+    "question": "For the same sample size, cluster sampling typically yields estimates that are:",
+    "options": [
+      "Equally precise, as selection is random",
+      "Unbiased and exact for any cluster size",
+      "More precise, because clusters are homogeneous",
+      "Less precise than simple random sampling, because units in a cluster are similar"
+    ],
+    "answer": 3,
+    "explanation": "Intra-cluster correlation raises variance (the design effect exceeds 1). Cluster sampling is chosen for lower fieldwork cost, not for precision.",
+    "source": {
+      "title": "ESS Handbook for Quality and Metadata Reports (2021), accuracy: sampling and non-sampling errors",
+      "url": "https://ec.europa.eu/eurostat/web/products-manuals-and-guidelines/-/ks-gq-21-021"
+    }
+  },
+  {
+    "id": "ast3-0053",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 1,
+    "question": "A list holds 1,200 units and a systematic sample of 60 is needed. What is the sampling interval?",
+    "options": [
+      "20",
+      "1,140",
+      "60",
+      "12"
+    ],
+    "answer": 0,
+    "explanation": "The interval is k = N/n = 1,200/60 = 20, with a random start between 1 and 20. Periodicity in the list is the main risk of this design.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Sample survey (general background on sampling)",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Sample_survey"
+    }
+  },
+  {
+    "id": "ast3-0054",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 2,
+    "question": "Unit non-response in a survey is most problematic when:",
+    "options": [
+      "The frame is up to date",
+      "The response rate is above 50 %",
+      "The sample size is large",
+      "Respondents and non-respondents differ on the variable of interest"
+    ],
+    "answer": 3,
+    "explanation": "Non-response creates bias only if non-respondents systematically differ from respondents. A low rate alone does not prove bias, nor does a high rate rule it out.",
+    "source": {
+      "title": "ESS Handbook for Quality and Metadata Reports (2021), accuracy: sampling and non-sampling errors",
+      "url": "https://ec.europa.eu/eurostat/web/products-manuals-and-guidelines/-/ks-gq-21-021"
+    }
+  },
+  {
+    "id": "ast3-0055",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 2,
+    "question": "A unit is selected with inclusion probability 1/50. What is its design weight?",
+    "options": [
+      "0.02",
+      "50",
+      "1",
+      "49"
+    ],
+    "answer": 1,
+    "explanation": "The design weight is the inverse of the inclusion probability: 1/(1/50) = 50, i.e. the unit represents 50 population units.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Weight",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Weight"
+    }
+  },
+  {
+    "id": "ast3-0056",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 2,
+    "question": "A sampling frame omits people living in new buildings. Which error results?",
+    "options": [
+      "Sampling error from small n",
+      "Processing error",
+      "Measurement error",
+      "Coverage error (under-coverage)"
+    ],
+    "answer": 3,
+    "explanation": "Units missing from the frame have no chance of selection, so estimates can be biased regardless of sample size. This is a non-sampling error.",
+    "source": {
+      "title": "ESS Handbook for Quality and Metadata Reports (2021), accuracy: sampling and non-sampling errors",
+      "url": "https://ec.europa.eu/eurostat/web/products-manuals-and-guidelines/-/ks-gq-21-021"
+    }
+  },
+  {
+    "id": "ast3-0057",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 2,
+    "question": "According to the ESS guidelines, which components does a seasonally adjusted series contain?",
+    "options": [
+      "Trend-cycle and irregular components",
+      "Trend-cycle and calendar components",
+      "Trend-cycle, seasonal and irregular components",
+      "Seasonal and irregular components only"
+    ],
+    "answer": 0,
+    "explanation": "Seasonal adjustment removes seasonal (and, where relevant, calendar) effects, leaving trend-cycle plus irregular. Adding back seasonality gives the unadjusted series.",
+    "source": {
+      "title": "Eurostat, ESS guidelines on seasonal adjustment (2015 edition)",
+      "url": "https://ec.europa.eu/eurostat/web/products-manuals-and-guidelines/-/ks-gq-15-001"
+    }
+  },
+  {
+    "id": "ast3-0058",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 2,
+    "question": "What does calendar adjustment of a monthly series correct for?",
+    "options": [
+      "Differences in working days and moving holidays such as Easter",
+      "Random sampling error",
+      "Inflation between months",
+      "Population ageing"
+    ],
+    "answer": 0,
+    "explanation": "Calendar adjustment removes the effect of varying trading days and moving holidays. Removing price effects is deflation.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Calendar adjustment",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Calendar_adjustment"
+    }
+  },
+  {
+    "id": "ast3-0059",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 3,
+    "question": "Twenty independent hypothesis tests are run at α = 0.05 and all null hypotheses are true. How many significant results are expected by chance?",
+    "options": [
+      "About 10",
+      "About 5",
+      "About 1",
+      "None"
+    ],
+    "answer": 2,
+    "explanation": "Expected false positives = 20 × 0.05 = 1. Without a multiple-testing correction, the chance of at least one is 1 − 0.95²⁰ ≈ 64 %.",
+    "source": {
+      "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
+    }
+  },
+  {
+    "id": "ast3-0060",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 3,
+    "question": "For a proportion p = 0.5 and n = 400, what is the approximate 95 % margin of error?",
+    "options": [
+      "±9.8 percentage points",
+      "±2.5 percentage points",
+      "±4.9 percentage points",
+      "±1.96 percentage points"
+    ],
+    "answer": 2,
+    "explanation": "SE = √(0.25/400) = 0.025; margin = 1.96 × 0.025 ≈ 0.049. The value ±2.5 is one standard error only.",
+    "source": {
+      "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
+    }
+  },
+  {
+    "id": "ast3-0061",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 2,
+    "question": "Strata contain 600 and 400 units. With proportional allocation of n = 100, how many units come from each stratum?",
+    "options": [
+      "60 and 40",
+      "50 and 50",
+      "70 and 30",
+      "40 and 60"
+    ],
+    "answer": 0,
+    "explanation": "Proportional allocation matches sample shares to population shares: 100 × 0.6 and 100 × 0.4. Equal allocation gives 50 and 50.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Stratum",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Stratum"
+    }
+  },
+  {
+    "id": "ast3-0062",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 3,
+    "question": "A game pays 10 with probability 0.2 and costs 3 with probability 0.8. What is the expected gain per play?",
+    "options": [
+      "+0.4",
+      "+2.0",
+      "−2.4",
+      "−0.4"
+    ],
+    "answer": 3,
+    "explanation": "E = 0.2 × 10 − 0.8 × 3 = 2 − 2.4 = −0.4. The values +2.0 and −2.4 each take only one branch of the outcomes.",
+    "source": {
+      "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
+    }
+  },
+  {
+    "id": "ast3-0063",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 3,
+    "question": "With a very large sample, a tiny difference becomes statistically significant. What follows?",
+    "options": [
+      "The p-value is invalid",
+      "The null hypothesis is certainly false in practice",
+      "Significance does not imply the effect is practically relevant",
+      "The effect must be large"
+    ],
+    "answer": 2,
+    "explanation": "Statistical significance reflects detectability, which grows with n; the effect size and its confidence interval decide relevance. A small p-value does not measure magnitude.",
+    "source": {
+      "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
+    }
+  },
+  {
+    "id": "ast3-0064",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 3,
+    "question": "Three independent events each have probability 0.1. What is the probability that at least one occurs?",
+    "options": [
+      "0.729",
+      "0.271",
+      "0.001",
+      "0.300"
+    ],
+    "answer": 1,
+    "explanation": "1 − 0.9³ = 1 − 0.729 = 0.271. The sum 0.3 ignores the overlap, and 0.729 is the probability that none occurs.",
+    "source": {
+      "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
+    }
+  },
+  {
+    "id": "ast3-0065",
+    "pkg": "ast3-daten",
+    "area": "probability-inference",
+    "difficulty": 3,
+    "question": "A two-sided z-test gives z = 2.1 at α = 0.05. What is the conclusion?",
+    "options": [
+      "Reject H0 only at α = 0.01",
+      "Reject H0, since |z| exceeds 1.96",
+      "Do not reject H0, since z is above 0",
+      "Do not reject H0, since z is below 2.58"
+    ],
+    "answer": 1,
+    "explanation": "The two-sided 5 % critical value is 1.96; 2.1 exceeds it (p ≈ 0.036). At α = 0.01 the critical value 2.58 would not be exceeded.",
+    "source": {
+      "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
+    }
+  },
+  {
+    "id": "ast3-0066",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 1,
+    "question": "Ice-cream sales and drowning incidents are strongly correlated across months. What is the most likely explanation?",
+    "options": [
+      "Ice cream causes drowning",
+      "Drowning increases ice-cream sales",
+      "The correlation must be a coding error",
+      "A confounder, such as hot weather, drives both"
+    ],
+    "answer": 3,
+    "explanation": "Correlation does not establish causation; a common cause (temperature) can produce association between unrelated outcomes. Causal claims need design or adjustment.",
+    "source": {
+      "title": "Data Visualisation Guide (Publications Office, data.europa.eu), Correlation is not causation",
+      "url": "https://data.europa.eu/apps/data-visualisation-guide/correlation-is-not-causation"
+    }
+  },
+  {
+    "id": "ast3-0067",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 1,
+    "question": "What does a Pearson correlation coefficient of −0.9 indicate?",
+    "options": [
+      "A strong negative linear association",
+      "A weak negative association",
+      "That 90 % of variance is explained",
+      "A strong positive association"
+    ],
+    "answer": 0,
+    "explanation": "The sign gives the direction and magnitude near 1 a strong linear relationship. Variance explained is r² = 0.81, not 0.9.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Correlation coefficient",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Correlation_coefficient"
+    }
+  },
+  {
+    "id": "ast3-0068",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 2,
+    "question": "Y = X² for X symmetric around 0 gives r ≈ 0. What does this show?",
+    "options": [
+      "Pearson r measures only linear association",
+      "X and Y are independent",
+      "There is no functional relationship",
+      "The relationship is weak"
+    ],
+    "answer": 0,
+    "explanation": "A perfect quadratic dependence can have zero linear correlation. Zero r therefore does not imply independence.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Correlation coefficient",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Correlation_coefficient"
+    }
+  },
+  {
+    "id": "ast3-0069",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 1,
+    "question": "A simple regression has r = 0.8. What is R²?",
+    "options": [
+      "0.89",
+      "0.80",
+      "0.64",
+      "0.16"
+    ],
+    "answer": 2,
+    "explanation": "In simple linear regression R² = r² = 0.64, i.e. 64 % of the variance of y is explained by x. The value 0.89 is √0.8.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Correlation coefficient",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Correlation_coefficient"
+    }
+  },
+  {
+    "id": "ast3-0070",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 1,
+    "question": "In wage = 1,200 + 2.5 × years of experience, what does 2.5 mean?",
+    "options": [
+      "Experience explains 2.5 % of wages",
+      "Wages rise 2.5 % per year",
+      "The average experience is 2.5 years",
+      "Each extra year of experience is associated with 2.5 units higher expected wage"
+    ],
+    "answer": 3,
+    "explanation": "The slope is the expected change in y per one-unit change in x, holding other things equal. It is not a percentage unless y is logged.",
+    "source": {
+      "title": "Standard econometrics result without an official EU definition; general background: JRC/OECD Handbook on Constructing Composite Indicators (JRC47008)",
+      "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC47008"
+    }
+  },
+  {
+    "id": "ast3-0071",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 2,
+    "question": "In ln(wage) = a + 0.05 × education (years), what is the approximate interpretation of 0.05?",
+    "options": [
+      "One more year of education is associated with about 5 % higher wage",
+      "Education explains 5 % of variance",
+      "Wages rise 0.05 % per year",
+      "One more year adds 0.05 to the wage"
+    ],
+    "answer": 0,
+    "explanation": "In a log-linear model small coefficients approximate proportional changes, so 0.05 ≈ 5 %. A level change of 0.05 would apply to a linear model.",
+    "source": {
+      "title": "Standard econometrics result without an official EU definition; general background: JRC/OECD Handbook on Constructing Composite Indicators (JRC47008)",
+      "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC47008"
+    }
+  },
+  {
+    "id": "ast3-0072",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 2,
+    "question": "What is the main consequence of strong multicollinearity among regressors in OLS?",
+    "options": [
+      "Inflated standard errors of the coefficient estimates",
+      "Autocorrelated residuals",
+      "Biased estimates of every coefficient",
+      "A smaller R²"
+    ],
+    "answer": 0,
+    "explanation": "Collinear regressors remain unbiased but individual coefficients become imprecise, shown by high variance inflation factors. R² is not reduced.",
+    "source": {
+      "title": "Standard econometrics result without an official EU definition; general background: JRC/OECD Handbook on Constructing Composite Indicators (JRC47008)",
+      "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC47008"
+    }
+  },
+  {
+    "id": "ast3-0073",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 2,
+    "question": "A categorical variable has 4 categories. How many dummy variables enter a regression with an intercept?",
+    "options": [
+      "4",
+      "2",
+      "5",
+      "3"
+    ],
+    "answer": 3,
+    "explanation": "Using all 4 would make the dummies sum to the intercept column (perfect collinearity, the dummy variable trap). Dropping one gives the reference category.",
+    "source": {
+      "title": "Standard econometrics result without an official EU definition; general background: JRC/OECD Handbook on Constructing Composite Indicators (JRC47008)",
+      "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC47008"
+    }
+  },
+  {
+    "id": "ast3-0074",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 2,
+    "question": "A dummy for 'female' has coefficient −300 in a wage regression (male is the reference). What does this mean?",
+    "options": [
+      "Men earn 300 less than women",
+      "Gender explains 300 units of variance",
+      "Women earn 300 in total",
+      "Women earn 300 less on average than men, other variables held constant"
+    ],
+    "answer": 3,
+    "explanation": "A dummy coefficient is the difference from the reference group, ceteris paribus. It does not describe an absolute level.",
+    "source": {
+      "title": "Standard econometrics result without an official EU definition; general background: JRC/OECD Handbook on Constructing Composite Indicators (JRC47008)",
+      "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC47008"
+    }
+  },
+  {
+    "id": "ast3-0075",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 2,
+    "question": "Residuals fan out as fitted values grow. Which OLS assumption is violated?",
+    "options": [
+      "Linearity of the mean",
+      "Homoscedasticity (constant error variance)",
+      "Exogeneity of regressors",
+      "No perfect multicollinearity"
+    ],
+    "answer": 1,
+    "explanation": "A funnel-shaped residual plot signals heteroscedasticity: coefficients remain unbiased but conventional standard errors are invalid. Robust standard errors are a remedy.",
+    "source": {
+      "title": "Standard econometrics result without an official EU definition; general background: JRC/OECD Handbook on Constructing Composite Indicators (JRC47008)",
+      "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC47008"
+    }
+  },
+  {
+    "id": "ast3-0076",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 3,
+    "question": "After adding an irrelevant regressor to an OLS model, what happens?",
+    "options": [
+      "R² may fall",
+      "R² cannot fall, but adjusted R² may fall",
+      "Both R² and adjusted R² must rise",
+      "Both stay unchanged"
+    ],
+    "answer": 1,
+    "explanation": "R² never decreases when a variable is added, whereas adjusted R² penalises extra parameters. This is why adjusted R² compares models better.",
+    "source": {
+      "title": "Standard econometrics result without an official EU definition; general background: JRC/OECD Handbook on Constructing Composite Indicators (JRC47008)",
+      "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC47008"
+    }
+  },
+  {
+    "id": "ast3-0077",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 3,
+    "question": "Wage is regressed on education, but ability (correlated with both) is omitted. What results?",
+    "options": [
+      "Biased estimate of the education coefficient",
+      "Heteroscedasticity only",
+      "No effect on the estimate",
+      "Only larger standard errors"
+    ],
+    "answer": 0,
+    "explanation": "An omitted variable correlated with the regressor and affecting the outcome causes omitted variable bias. More data does not remove it.",
+    "source": {
+      "title": "Standard econometrics result without an official EU definition; general background: JRC/OECD Handbook on Constructing Composite Indicators (JRC47008)",
+      "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC47008"
+    }
+  },
+  {
+    "id": "ast3-0078",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 2,
+    "question": "A logistic regression coefficient is 0.693. What is the odds ratio per one-unit increase?",
+    "options": [
+      "About 0.5",
+      "About 0.693",
+      "About 2",
+      "About 1.69"
+    ],
+    "answer": 2,
+    "explanation": "Odds ratio = exp(β) = exp(0.693) ≈ 2, meaning the odds double. The coefficient itself is a change in log-odds.",
+    "source": {
+      "title": "Standard econometrics result without an official EU definition; general background: JRC/OECD Handbook on Constructing Composite Indicators (JRC47008)",
+      "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC47008"
+    }
+  },
+  {
+    "id": "ast3-0079",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 1,
+    "question": "Odds of an event are 3 to 1. What is its probability?",
+    "options": [
+      "0.33",
+      "0.75",
+      "0.60",
+      "3.00"
+    ],
+    "answer": 1,
+    "explanation": "p = odds/(1 + odds) = 3/4 = 0.75. The value 0.33 confuses the odds 3 : 1 with their reciprocal 1/3.",
+    "source": {
+      "title": "Standard econometrics result without an official EU definition; general background: JRC/OECD Handbook on Constructing Composite Indicators (JRC47008)",
+      "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC47008"
+    }
+  },
+  {
+    "id": "ast3-0080",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 1,
+    "question": "What is the purpose of splitting data into training and test sets?",
+    "options": [
+      "To increase the sample size",
+      "To balance the classes",
+      "To estimate performance on unseen data",
+      "To remove outliers"
+    ],
+    "answer": 2,
+    "explanation": "Testing on data not used for fitting gives an honest estimate of generalisation error. The AI Act likewise distinguishes training, validation and testing data.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 3(29), (30) and (32) (definitions of training, validation and testing data)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ast3-0081",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 2,
+    "question": "A model has 99 % training accuracy but 70 % test accuracy. What is the likely problem?",
+    "options": [
+      "Overfitting",
+      "Class balance",
+      "Multicollinearity only",
+      "Underfitting"
+    ],
+    "answer": 0,
+    "explanation": "A large gap between training and test performance indicates the model memorised noise. Underfitting would show poor performance on both.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 3(30) (validation data used to prevent underfitting or overfitting)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ast3-0082",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 2,
+    "question": "In 5-fold cross-validation, how often is each observation used for validation?",
+    "options": [
+      "Four times",
+      "Never",
+      "Exactly once",
+      "Five times"
+    ],
+    "answer": 2,
+    "explanation": "The data are split into 5 folds; each serves once as validation set while the other four train the model. Each observation is used for training four times.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 3(31) (validation data set as a fixed or variable split)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ast3-0083",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 3,
+    "question": "Features are standardised using the mean and SD of the full dataset before splitting into train and test. What is this called?",
+    "options": [
+      "Stratification",
+      "Regularisation",
+      "Bagging",
+      "Data leakage"
+    ],
+    "answer": 3,
+    "explanation": "Test-set information influences preprocessing, making evaluation optimistic. Scaling parameters must be learned on the training data only.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 3(32) (testing data as independent evaluation) and Art. 10(3)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ast3-0084",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 2,
+    "question": "Which statement about k-means clustering is correct?",
+    "options": [
+      "It is unaffected by variable scales",
+      "It is a supervised method",
+      "The number of clusters k must be chosen in advance",
+      "It always finds the global optimum"
+    ],
+    "answer": 2,
+    "explanation": "K-means is unsupervised, minimises within-cluster distances for a given k, and depends on initialisation and scaling. Unscaled variables with large ranges dominate distances.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021), general ML background; the tested term is standard ML practice, not defined in EU law",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ast3-0085",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 2,
+    "question": "Why are fully grown decision trees often problematic?",
+    "options": [
+      "They require linear relationships",
+      "They cannot handle categorical variables",
+      "They always underfit",
+      "They tend to overfit the training data"
+    ],
+    "answer": 3,
+    "explanation": "Deep trees fit noise, giving high variance; pruning or depth limits help. Trees handle categories and non-linearity well.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021), general ML background; the tested term is standard ML practice, not defined in EU law",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ast3-0086",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 2,
+    "question": "A classifier gives TP = 40, FP = 10, FN = 20, TN = 30. What is its precision?",
+    "options": [
+      "0.80",
+      "0.70",
+      "0.75",
+      "0.67"
+    ],
+    "answer": 0,
+    "explanation": "Precision = TP/(TP + FP) = 40/50 = 0.80. The value 0.67 is recall, 40/60; 0.70 is accuracy.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 15(3) (accuracy and relevant accuracy metrics to be declared)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ast3-0087",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 2,
+    "question": "With TP = 40, FP = 10, FN = 20, TN = 30, what is the recall (sensitivity)?",
+    "options": [
+      "0.80",
+      "0.67",
+      "0.70",
+      "0.75"
+    ],
+    "answer": 1,
+    "explanation": "Recall = TP/(TP + FN) = 40/60 ≈ 0.67. The value 0.80 is precision, and 0.75 is specificity.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 15(3) (accuracy and relevant accuracy metrics to be declared)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ast3-0088",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 1,
+    "question": "With TP = 40, FP = 10, FN = 20, TN = 30, what is the accuracy?",
+    "options": [
+      "0.80",
+      "0.60",
+      "0.70",
+      "0.67"
+    ],
+    "answer": 2,
+    "explanation": "Accuracy = (TP + TN)/total = 70/100 = 0.70. Precision and recall use only parts of the matrix.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 15(3) (accuracy and relevant accuracy metrics to be declared)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ast3-0089",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 3,
+    "question": "With TP = 40, FP = 10, FN = 20, TN = 30, what is the specificity?",
+    "options": [
+      "0.67",
+      "0.75",
+      "0.70",
+      "0.80"
+    ],
+    "answer": 1,
+    "explanation": "Specificity = TN/(TN + FP) = 30/40 = 0.75, the share of true negatives correctly identified. Recall is 0.67.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 15(3) (accuracy and relevant accuracy metrics to be declared)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ast3-0090",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 3,
+    "question": "Only 1 % of cases are positive. A classifier predicts 'negative' for everyone. What are its accuracy and recall?",
+    "options": [
+      "Accuracy 1 %, recall 99 %",
+      "Accuracy 50 %, recall 0 %",
+      "Accuracy 99 %, recall 0 %",
+      "Accuracy 99 %, recall 100 %"
+    ],
+    "answer": 2,
+    "explanation": "All negatives are classified correctly (99 %) but no positive is found (recall 0). Accuracy is misleading with imbalanced classes.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 15(3) (accuracy and relevant accuracy metrics to be declared)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ast3-0091",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 3,
+    "question": "A classifier has precision 1.0 and recall 0.5. What is its F1 score?",
+    "options": [
+      "0.50",
+      "0.67",
+      "1.00",
+      "0.75"
+    ],
+    "answer": 1,
+    "explanation": "F1 is the harmonic mean: 2 × 1 × 0.5/1.5 ≈ 0.67. The arithmetic mean (0.75) is not used because the harmonic mean penalises imbalance.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 15(3) (accuracy and relevant accuracy metrics to be declared)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ast3-0092",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 2,
+    "question": "What does regularisation such as ridge or lasso do?",
+    "options": [
+      "It makes the model unbiased",
+      "It penalises large coefficients to reduce overfitting",
+      "It increases the number of predictors",
+      "It removes the need for a test set"
+    ],
+    "answer": 1,
+    "explanation": "A penalty term shrinks coefficients, trading some bias for lower variance; lasso can set coefficients exactly to zero. Evaluation on held-out data is still required.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021), general ML background; the tested term is standard ML practice, not defined in EU law",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ast3-0093",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 3,
+    "question": "As model complexity increases, what generally happens?",
+    "options": [
+      "Both rise",
+      "Bias and variance both fall",
+      "Bias falls and variance rises",
+      "Bias rises and variance falls"
+    ],
+    "answer": 2,
+    "explanation": "Flexible models fit the training data better (lower bias) but are more sensitive to sample noise (higher variance). Optimal complexity balances the two.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021), general ML background; the tested term is standard ML practice, not defined in EU law",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ast3-0094",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 3,
+    "question": "How does a random forest improve over a single decision tree?",
+    "options": [
+      "It averages many trees built on bootstrap samples, reducing variance",
+      "It uses one deeper tree",
+      "It guarantees zero bias",
+      "It removes the need for features"
+    ],
+    "answer": 0,
+    "explanation": "Bagging with random feature subsets decorrelates trees, so averaging reduces variance. Bias remains similar to individual trees.",
+    "source": {
+      "title": "ENISA, Securing Machine Learning Algorithms (2021), general ML background; the tested term is standard ML practice, not defined in EU law",
+      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+    }
+  },
+  {
+    "id": "ast3-0095",
+    "pkg": "ast3-daten",
+    "area": "regression-ml",
+    "difficulty": 2,
+    "question": "A binary classifier has a ROC AUC of 0.5. What does this indicate?",
+    "options": [
+      "Accuracy of exactly 50 % on any dataset",
+      "A precision of 0.5 at every threshold",
+      "Discrimination no better than random guessing",
+      "Perfect separation of the classes"
+    ],
+    "answer": 2,
+    "explanation": "AUC is the probability that a random positive is ranked above a random negative; 0.5 means no discrimination, 1.0 perfect. It is threshold-independent, so it does not fix accuracy or precision.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 15(3) (accuracy and relevant accuracy metrics to be declared)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ast3-0096",
+    "pkg": "ast3-daten",
+    "area": "bi-geo",
+    "difficulty": 2,
+    "question": "Which principle is central to effective dashboard design?",
+    "options": [
+      "Hide the definitions of indicators",
+      "Show the few key indicators the audience needs, at a glance",
+      "Use decorative 3D effects to attract attention",
+      "Include every available indicator on one screen"
+    ],
+    "answer": 1,
+    "explanation": "A dashboard supports monitoring and decisions for a defined audience, so clutter hurts. Metadata and definitions should remain accessible.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Statistical indicator",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Statistical_indicator"
+    }
+  },
+  {
+    "id": "ast3-0097",
+    "pkg": "ast3-daten",
+    "area": "bi-geo",
+    "difficulty": 1,
+    "question": "Which feature makes a KPI useful for management?",
+    "options": [
+      "Being measurable only once a year",
+      "Being independent of any objective",
+      "Being reported in many different units",
+      "A clear definition, baseline and target"
+    ],
+    "answer": 3,
+    "explanation": "A KPI tracks progress towards an objective and needs a precise definition, baseline and target to be interpretable.",
+    "source": {
+      "title": "Eurostat Statistics Explained, Glossary: Indicator",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Indicator"
+    }
+  },
+  {
+    "id": "ast3-0098",
+    "pkg": "ast3-daten",
+    "area": "bi-geo",
+    "difficulty": 2,
+    "question": "A choropleth map shows the number of unemployed people by NUTS 2 region. What is the main flaw?",
+    "options": [
+      "The colour scale is too pale",
+      "Absolute counts mostly reflect population size; rates should be mapped",
+      "NUTS 2 regions cannot be mapped",
+      "Choropleth maps only work with text"
+    ],
+    "answer": 1,
+    "explanation": "Shading areas by raw counts makes populous regions look like problem regions. Choropleth maps should show normalised values such as rates or per-capita figures.",
+    "source": {
+      "title": "Data Visualisation Guide (Publications Office, data.europa.eu), Normalising data for mapping",
+      "url": "https://data.europa.eu/apps/data-visualisation-guide/normalising-data-for-mapping"
+    }
+  },
+  {
+    "id": "ast3-0099",
+    "pkg": "ast3-daten",
+    "area": "bi-geo",
+    "difficulty": 3,
+    "question": "Which colour scheme suits a choropleth map of unemployment rates?",
+    "options": [
+      "A diverging scheme around zero",
+      "Alternating red and green",
+      "A random categorical palette",
+      "A sequential scheme from light to dark"
+    ],
+    "answer": 3,
+    "explanation": "Ordered, one-directional data call for a sequential palette in which darker means higher. Diverging palettes need a meaningful midpoint.",
+    "source": {
+      "title": "Data Visualisation Guide (Publications Office, data.europa.eu), Colour for numerical data: colour scales (sequential vs diverging)",
+      "url": "https://data.europa.eu/apps/data-visualisation-guide/colour-for-numerical-data-colour-scales"
+    }
+  },
+  {
+    "id": "ast3-0100",
+    "pkg": "ast3-daten",
+    "area": "bi-geo",
+    "difficulty": 3,
+    "question": "On a choropleth map, which classification method places an equal number of regions in each class?",
+    "options": [
+      "Equal intervals",
+      "Natural breaks",
+      "Quantiles",
+      "Standard deviations"
+    ],
+    "answer": 2,
+    "explanation": "Quantile classification gives each class the same number of areas, which can hide the actual gaps in values. Equal intervals divide the value range evenly.",
+    "source": {
+      "title": "Data Visualisation Guide (Publications Office, data.europa.eu), Choropleth classification methods",
+      "url": "https://data.europa.eu/apps/data-visualisation-guide/choropleth-classification-methods"
+    }
   }
- },
- {
-  "id": "ast3-0002",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 1,
-  "question": "Five values have a mean of 10. A sixth value, 22, is added. What is the new mean?",
-  "options": [
-   "11",
-   "12",
-   "13",
-   "16"
-  ],
-  "answer": 1,
-  "explanation": "The sum was 50; adding 22 gives 72, and 72/6 = 12. Averaging 10 and 22 (giving 16) ignores the different numbers of observations behind each figure.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Average",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Average"
-  }
- },
- {
-  "id": "ast3-0003",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 2,
-  "question": "Group A (40 % of staff) has an average salary of 50 and group B (60 %) has 80. What is the overall average salary?",
-  "options": [
-   "65",
-   "66",
-   "68",
-   "70"
-  ],
-  "answer": 2,
-  "explanation": "Weighted mean = 0.4 × 50 + 0.6 × 80 = 20 + 48 = 68. The simple mean of the two group averages (65) ignores the group sizes.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Weighted average",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Weighted_average"
-  }
- },
- {
-  "id": "ast3-0004",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 1,
-  "question": "Every value in a dataset is multiplied by 3. What happens to the standard deviation?",
-  "options": [
-   "It is multiplied by 9",
-   "It stays unchanged",
-   "It is increased by 3",
-   "It is multiplied by 3"
-  ],
-  "answer": 3,
-  "explanation": "Standard deviation is expressed in the units of the data and scales linearly with a multiplicative factor; only the variance is multiplied by 9. Adding a constant, by contrast, would leave it unchanged.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Standard deviation",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Standard_deviation"
-  }
- },
- {
-  "id": "ast3-0005",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 2,
-  "question": "What is the sample variance (divisor n − 1) of the values 2, 4, 6?",
-  "options": [
-   "4",
-   "2.67",
-   "8",
-   "2"
-  ],
-  "answer": 0,
-  "explanation": "Mean = 4; squared deviations are 4, 0, 4, summing to 8; 8/(3−1) = 4. The figure 2.67 results from dividing by n, which gives the population variance.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Standard deviation",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Standard_deviation"
-  }
- },
- {
-  "id": "ast3-0006",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 2,
-  "question": "Tukey's rule flags values beyond 1.5 × IQR from the quartiles. With Q1 = 20 and Q3 = 36, which observation is flagged as an upper outlier?",
-  "options": [
-   "55",
-   "64",
-   "58",
-   "59"
-  ],
-  "answer": 1,
-  "explanation": "IQR = 16, so the upper fence is 36 + 1.5 × 16 = 60. Only 64 lies beyond it; the others are below 60.",
-  "source": {
-   "title": "Data Visualisation Guide (Publications Office, data.europa.eu), Box plots (quartiles, whiskers, 1.5 × IQR outlier rule)",
-   "url": "https://data.europa.eu/apps/data-visualisation-guide/box-plots"
-  }
- },
- {
-  "id": "ast3-0007",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 1,
-  "question": "In a distribution the mean is clearly larger than the median. Which description is most likely?",
-  "options": [
-   "Left-skewed (negative skew)",
-   "Symmetric",
-   "Right-skewed (positive skew)",
-   "Uniform"
-  ],
-  "answer": 2,
-  "explanation": "A long right tail pulls the mean upward while the median stays near the bulk of the data. In a left-skewed distribution the mean falls below the median.",
-  "source": {
-   "title": "Data Visualisation Guide (Publications Office, data.europa.eu), The mean versus the median",
-   "url": "https://data.europa.eu/apps/data-visualisation-guide/the-mean-versus-the-median"
-  }
- },
- {
-  "id": "ast3-0008",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 1,
-  "question": "A value of 130 comes from a distribution with mean 100 and standard deviation 15. What is its z-score?",
-  "options": [
-   "1.5",
-   "2.5",
-   "30",
-   "2.0"
-  ],
-  "answer": 3,
-  "explanation": "z = (130 − 100)/15 = 2.0, i.e. two standard deviations above the mean. The value 30 is the raw difference, not standardised.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Standard deviation (basis of standardisation and z-scores)",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Standard_deviation"
-  }
- },
- {
-  "id": "ast3-0009",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 2,
-  "question": "A price index (2015 = 100) shows 125 in 2020 and 150 in 2024. What is the 2024 value when the index is rebased to 2020 = 100?",
-  "options": [
-   "120",
-   "125",
-   "150",
-   "75"
-  ],
-  "answer": 0,
-  "explanation": "Rebasing divides by the new base value: 150/125 × 100 = 120. Simply subtracting 25 points would give 125, which ignores that the base changed proportionally.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Index number",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Index_number"
-  }
- },
- {
-  "id": "ast3-0010",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 2,
-  "question": "A value rises by 20 % and then falls by 20 %. How does the final value compare with the start?",
-  "options": [
-   "The same",
-   "4 % lower",
-   "4 % higher",
-   "20 % lower"
-  ],
-  "answer": 1,
-  "explanation": "1.20 × 0.80 = 0.96, so the final value is 4 % below the start. Percentage changes are applied to different bases and do not cancel out.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Percentage change",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Percentage_change"
-  }
- },
- {
-  "id": "ast3-0011",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 1,
-  "question": "The unemployment rate rises from 5 % to 6 %. Which statement is correct?",
-  "options": [
-   "It rose by 1 %, or 20 percentage points",
-   "It rose by 1 percentage point, or 1 % in relative terms",
-   "It rose by 1 percentage point, or 20 % in relative terms",
-   "It rose by 20 percentage points, or 1 % in relative terms"
-  ],
-  "answer": 2,
-  "explanation": "The absolute difference of rates is expressed in percentage points (6 − 5 = 1); the relative change is 1/5 = 20 %. Mixing the two units is a common reporting error.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Percentage point",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Percentage_point"
-  }
- },
- {
-  "id": "ast3-0012",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 3,
-  "question": "A series grows by 10 % in year 1 and 20 % in year 2. Compared with 15 %, its average annual growth rate (geometric) is:",
-  "options": [
-   "Exactly 15 %",
-   "Slightly above 15 %",
-   "Cannot be compared without absolute levels",
-   "Slightly below 15 %"
-  ],
-  "answer": 3,
-  "explanation": "The geometric average is √(1.10 × 1.20) − 1 = √1.32 − 1 ≈ 14.9 %. The arithmetic mean of growth rates (15 %) overstates compound growth.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Geometric mean",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Geometric_mean"
-  }
- },
- {
-  "id": "ast3-0013",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 2,
-  "question": "A frequency table shows value 1 (5 cases), 2 (8), 3 (4), 4 (3). What is the median?",
-  "options": [
-   "2",
-   "2.25",
-   "2.5",
-   "3"
-  ],
-  "answer": 0,
-  "explanation": "With n = 20 the median lies between the 10th and 11th ordered values; cumulative counts are 5, 13, … so both are 2. The value 2.25 is the mean.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Median",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Median"
-  }
- },
- {
-  "id": "ast3-0014",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 1,
-  "question": "Which chart type is best suited to show the distribution of a continuous variable such as household income?",
-  "options": [
-   "Pie chart",
-   "Histogram",
-   "Line chart",
-   "Stacked bar chart"
-  ],
-  "answer": 1,
-  "explanation": "A histogram groups a continuous variable into adjacent classes and shows its shape. A pie chart shows shares of a whole, and a line chart shows development over time.",
-  "source": {
-   "title": "Data Visualisation Guide (Publications Office, data.europa.eu), Histograms (background; the area rule for unequal bins is general statistics practice)",
-   "url": "https://data.europa.eu/apps/data-visualisation-guide/histograms"
-  }
- },
- {
-  "id": "ast3-0015",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 1,
-  "question": "A bar chart compares two values (98 and 102) using a y-axis starting at 96. What is the main problem?",
-  "options": [
-   "The values are too close to compare",
-   "Bar charts cannot show two values",
-   "The truncated axis exaggerates the difference",
-   "The bars should be replaced by a pie chart"
-  ],
-  "answer": 2,
-  "explanation": "Bars encode value by length, so a non-zero baseline distorts the ratio: with the axis starting at 96 the bars measure 2 and 6, so a 4 % difference looks threefold. Bar charts should normally start at zero.",
-  "source": {
-   "title": "Data Visualisation Guide (Publications Office, data.europa.eu), Starting bars at zero",
-   "url": "https://data.europa.eu/apps/data-visualisation-guide/starting-bars-at-zero"
-  }
- },
- {
-  "id": "ast3-0016",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 2,
-  "question": "Why is a 3D pie chart with 12 slices considered poor practice?",
-  "options": [
-   "Pie charts cannot display percentages",
-   "3D effects increase the data precision",
-   "Twelve slices always sum to more than 100 %",
-   "Perspective and many slices distort and hinder comparison of shares"
-  ],
-  "answer": 3,
-  "explanation": "Human perception compares angles and areas poorly, and 3D perspective enlarges front slices. A sorted bar chart communicates the same shares more accurately.",
-  "source": {
-   "title": "Data Visualisation Guide (Publications Office, data.europa.eu), Guidelines for pie charts",
-   "url": "https://data.europa.eu/apps/data-visualisation-guide/guidelines-for-pie-charts"
-  }
- },
- {
-  "id": "ast3-0017",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 2,
-  "question": "An indicator has mean 40 and standard deviation 6. What is its coefficient of variation?",
-  "options": [
-   "15 %",
-   "6 %",
-   "0.15 units",
-   "240 %"
-  ],
-  "answer": 0,
-  "explanation": "CV = SD/mean = 6/40 = 0.15 = 15 %. Being unit-free, it allows comparing the variability of variables measured on different scales.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Coefficient of variation",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Coefficient_of_variation"
-  }
- },
- {
-  "id": "ast3-0018",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 2,
-  "question": "Country A has a labour force of 10 million and unemployment of 4 %; country B has 30 million and 8 %. What is the combined unemployment rate?",
-  "options": [
-   "6 %",
-   "7 %",
-   "6.5 %",
-   "12 %"
-  ],
-  "answer": 1,
-  "explanation": "Unemployed: 0.4 + 2.4 = 2.8 million out of 40 million = 7 %. The simple average (6 %) ignores the very different labour-force weights.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Weighted average",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Weighted_average"
-  }
- },
- {
-  "id": "ast3-0019",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 3,
-  "question": "A histogram has unequal class widths. To represent frequencies correctly, which element must be proportional to the frequency?",
-  "options": [
-   "The height of each bar",
-   "The width of each bar",
-   "The area of each bar",
-   "The position of each bar"
-  ],
-  "answer": 2,
-  "explanation": "With unequal classes, height would mislead; bar area (height × width) must correspond to frequency, so height shows density. With equal widths, height and area are interchangeable.",
-  "source": {
-   "title": "Data Visualisation Guide (Publications Office, data.europa.eu), Histograms (background; the area rule for unequal bins is general statistics practice)",
-   "url": "https://data.europa.eu/apps/data-visualisation-guide/histograms"
-  }
- },
- {
-  "id": "ast3-0020",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 1,
-  "question": "In a dataset of more than two values, the largest value is replaced by a far larger value. Which measure remains unchanged?",
-  "options": [
-   "Mean",
-   "Range",
-   "Standard deviation",
-   "Median"
-  ],
-  "answer": 3,
-  "explanation": "The median depends only on the middle position of the ordered data, so it is robust to extreme values. Mean, range and standard deviation all change.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Median",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Median"
-  }
- },
- {
-  "id": "ast3-0021",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 1,
-  "question": "Q1 = 12 and Q3 = 30. What is the interquartile range?",
-  "options": [
-   "18",
-   "21",
-   "42",
-   "9"
-  ],
-  "answer": 0,
-  "explanation": "IQR = Q3 − Q1 = 30 − 12 = 18. It measures the spread of the central 50 % of observations.",
-  "source": {
-   "title": "Data Visualisation Guide (Publications Office, data.europa.eu), Box plots (quartiles, whiskers, 1.5 × IQR outlier rule)",
-   "url": "https://data.europa.eu/apps/data-visualisation-guide/box-plots"
-  }
- },
- {
-  "id": "ast3-0022",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 2,
-  "question": "What distinguishes a Laspeyres price index from a Paasche price index?",
-  "options": [
-   "Laspeyres uses current-period quantities",
-   "Laspeyres weights prices by base-period quantities",
-   "Laspeyres uses unweighted prices",
-   "Laspeyres is a geometric mean of both"
-  ],
-  "answer": 1,
-  "explanation": "A Laspeyres index prices the fixed base-period basket in the current period, while Paasche uses current-period quantities. The geometric mean of the two is the Fisher index.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Index number (general index concept; Laspeyres/Paasche weighting is standard index theory)",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Index_number"
-  }
- },
- {
-  "id": "ast3-0023",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 3,
-  "question": "A vehicle drives out at 60 km/h and returns at 40 km/h over the same road. What is the average speed for the round trip?",
-  "options": [
-   "50 km/h",
-   "49 km/h",
-   "48 km/h",
-   "52 km/h"
-  ],
-  "answer": 2,
-  "explanation": "Average speed is total distance over total time, i.e. the harmonic mean: 2/(1/60 + 1/40) = 48. The arithmetic mean (50) wrongly weights by time rather than distance.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Average",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Average"
-  }
- },
- {
-  "id": "ast3-0024",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 1,
-  "question": "After standardising a variable to z-scores, what are its mean and standard deviation?",
-  "options": [
-   "Mean 1, standard deviation 0",
-   "Mean 0, standard deviation 0",
-   "Mean 1, standard deviation 1",
-   "Mean 0, standard deviation 1"
-  ],
-  "answer": 3,
-  "explanation": "Subtracting the mean centres the data at 0 and dividing by the standard deviation scales the spread to 1.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Standard deviation (basis of standardisation and z-scores)",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Standard_deviation"
-  }
- },
- {
-  "id": "ast3-0025",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 2,
-  "question": "A region is at the 90th percentile of an income distribution. What does this mean?",
-  "options": [
-   "About 90 % of regions have an income at or below it",
-   "It has 90 % of the total income",
-   "Its income is 90 % of the mean",
-   "It is 90 units above the median"
-  ],
-  "answer": 0,
-  "explanation": "The p-th percentile is the value below which (about) p % of observations fall. It says nothing about shares of total income.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Median (the 50th percentile; other percentiles generalise it)",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Median"
-  }
- },
- {
-  "id": "ast3-0026",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 3,
-  "question": "On a logarithmic y-axis, equal vertical distances between points represent equal:",
-  "options": [
-   "Absolute differences",
-   "Ratios (percentage changes)",
-   "Standard deviations",
-   "Cumulative frequencies"
-  ],
-  "answer": 1,
-  "explanation": "On a log scale, a constant slope means a constant growth rate, so equal distances correspond to equal ratios. On a linear axis, equal distances represent equal differences.",
-  "source": {
-   "title": "Data Visualisation Guide (Publications Office, data.europa.eu), Logarithmic y axes",
-   "url": "https://data.europa.eu/apps/data-visualisation-guide/logarithmic-y-axes"
-  }
- },
- {
-  "id": "ast3-0027",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 2,
-  "question": "In a stacked bar chart with four segments, which comparison is hardest for readers?",
-  "options": [
-   "The total height of each bar",
-   "The size of the bottom segment across bars",
-   "The size of a middle segment across different bars",
-   "The ranking of the bar totals"
-  ],
-  "answer": 2,
-  "explanation": "Only the bottom segment and the total share a common baseline; middle segments float, so their lengths cannot be compared easily. Grouped bars or small multiples avoid this.",
-  "source": {
-   "title": "Data Visualisation Guide (Publications Office, data.europa.eu), Stacked bars",
-   "url": "https://data.europa.eu/apps/data-visualisation-guide/stacked-bars"
-  }
- },
- {
-  "id": "ast3-0028",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 3,
-  "question": "Nominal wages rise by 21 % while consumer prices rise by 10 %. By how much do real wages rise?",
-  "options": [
-   "11 %",
-   "12.1 %",
-   "31 %",
-   "10 %"
-  ],
-  "answer": 3,
-  "explanation": "Real growth is 1.21/1.10 − 1 = 10 %. Subtracting 10 points gives 11 %, which is only an approximation that works for small rates.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Inflation (inflation rate as percentage change of a price index)",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Inflation"
-  }
- },
- {
-  "id": "ast3-0029",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 3,
-  "question": "5 units have a mean of 2,000 and 15 units have a mean of 3,000. What is the mean of all 20 units?",
-  "options": [
-   "2,750",
-   "2,500",
-   "2,667",
-   "3,000"
-  ],
-  "answer": 0,
-  "explanation": "(5 × 2,000 + 15 × 3,000)/20 = 55,000/20 = 2,750. The unweighted average of the group means (2,500) is wrong because the groups differ in size.",
-  "source": {
-   "title": "Data Visualisation Guide (Publications Office, data.europa.eu), The mean versus the median",
-   "url": "https://data.europa.eu/apps/data-visualisation-guide/the-mean-versus-the-median"
-  }
- },
- {
-  "id": "ast3-0030",
-  "pkg": "ast3-daten",
-  "area": "descriptive-stats",
-  "difficulty": 3,
-  "question": "In a box plot the median line sits close to Q1 and the upper whisker is much longer than the lower one. What does this suggest?",
-  "options": [
-   "A left-skewed distribution",
-   "A right-skewed distribution",
-   "A symmetric distribution",
-   "A bimodal distribution"
-  ],
-  "answer": 1,
-  "explanation": "A median near the lower quartile combined with a long upper tail indicates positive (right) skew. Box plots cannot reliably reveal bimodality.",
-  "source": {
-   "title": "Data Visualisation Guide (Publications Office, data.europa.eu), Box plots (quartiles, whiskers, 1.5 × IQR outlier rule)",
-   "url": "https://data.europa.eu/apps/data-visualisation-guide/box-plots"
-  }
- },
- {
-  "id": "ast3-0031",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 1,
-  "question": "P(A) = 0.3, P(B) = 0.4 and P(A and B) = 0.1. What is P(A or B)?",
-  "options": [
-   "0.7",
-   "0.12",
-   "0.6",
-   "0.5"
-  ],
-  "answer": 2,
-  "explanation": "P(A∪B) = P(A) + P(B) − P(A∩B) = 0.3 + 0.4 − 0.1 = 0.6. Adding without subtracting the overlap (0.7) double-counts it.",
-  "source": {
-   "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
-  }
- },
- {
-  "id": "ast3-0032",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 1,
-  "question": "Events A and B are independent with P(A) = 0.5 and P(B) = 0.2. What is P(A and B)?",
-  "options": [
-   "0.70",
-   "0.30",
-   "0.25",
-   "0.10"
-  ],
-  "answer": 3,
-  "explanation": "For independent events P(A∩B) = P(A) × P(B) = 0.1. The value 0.70 is the sum, which would apply to disjoint events' union.",
-  "source": {
-   "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
-  }
- },
- {
-  "id": "ast3-0033",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 1,
-  "question": "P(A and B) = 0.12 and P(B) = 0.40. What is P(A | B)?",
-  "options": [
-   "0.30",
-   "0.48",
-   "0.12",
-   "0.052"
-  ],
-  "answer": 0,
-  "explanation": "P(A|B) = P(A∩B)/P(B) = 0.12/0.40 = 0.30. Conditioning restricts the sample space to B, so we divide by P(B).",
-  "source": {
-   "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
-  }
- },
- {
-  "id": "ast3-0034",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 3,
-  "question": "A disease has 1 % prevalence. A test has 90 % sensitivity and a 9 % false-positive rate. About what share of positive results are true cases?",
-  "options": [
-   "90 %",
-   "9 %",
-   "50 %",
-   "1 %"
-  ],
-  "answer": 1,
-  "explanation": "True positives 0.009; false positives 0.99 × 0.09 = 0.0891; P(D|+) = 0.009/0.0981 ≈ 9.2 %. Ignoring the low base rate leads to the 90 % misreading.",
-  "source": {
-   "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
-  }
- },
- {
-  "id": "ast3-0035",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 2,
-  "question": "A fair coin is tossed 4 times. What is the probability of exactly 2 heads?",
-  "options": [
-   "0.25",
-   "0.5",
-   "0.375",
-   "0.125"
-  ],
-  "answer": 2,
-  "explanation": "Binomial: C(4,2) × 0.5⁴ = 6/16 = 0.375. The value 0.5 confuses 'exactly 2' with the expected proportion of heads.",
-  "source": {
-   "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
-  }
- },
- {
-  "id": "ast3-0036",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 2,
-  "question": "X is binomial with n = 100 and p = 0.2. What are its mean and variance?",
-  "options": [
-   "20 and 20",
-   "20 and 4",
-   "16 and 20",
-   "20 and 16"
-  ],
-  "answer": 3,
-  "explanation": "Mean = np = 20 and variance = np(1−p) = 16. Mean equal to variance characterises the Poisson distribution.",
-  "source": {
-   "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
-  }
- },
- {
-  "id": "ast3-0037",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 2,
-  "question": "For a Poisson-distributed count with mean 3, what is the variance?",
-  "options": [
-   "3",
-   "9",
-   "√3",
-   "1/3"
-  ],
-  "answer": 0,
-  "explanation": "A Poisson distribution has variance equal to its mean (λ). Equidispersion is the property tested when checking for overdispersion in count data.",
-  "source": {
-   "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
-  }
- },
- {
-  "id": "ast3-0038",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 1,
-  "question": "IQ scores are approximately normal with mean 100 and SD 15. Roughly what share lies between 70 and 130?",
-  "options": [
-   "68 %",
-   "95 %",
-   "99.7 %",
-   "50 %"
-  ],
-  "answer": 1,
-  "explanation": "70 and 130 are ±2 SD from the mean, which covers about 95 % of a normal distribution. ±1 SD covers about 68 % and ±3 SD about 99.7 %.",
-  "source": {
-   "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
-  }
- },
- {
-  "id": "ast3-0039",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 2,
-  "question": "What does the central limit theorem state?",
-  "options": [
-   "Every population becomes normal as it grows",
-   "Sample means equal the population mean",
-   "Means of large random samples are approximately normally distributed",
-   "Samples above 30 are always unbiased"
-  ],
-  "answer": 2,
-  "explanation": "For independent observations with finite variance, the sampling distribution of the mean approaches normality as n grows, whatever the population shape. It does not make the population itself normal.",
-  "source": {
-   "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
-  }
- },
- {
-  "id": "ast3-0040",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 1,
-  "question": "The population SD is 20 and the sample size is 100. What is the standard error of the sample mean?",
-  "options": [
-   "0.2",
-   "20",
-   "200",
-   "2"
-  ],
-  "answer": 3,
-  "explanation": "SE = σ/√n = 20/10 = 2. Using the SD itself (20) ignores that averaging reduces variability.",
-  "source": {
-   "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
-  }
- },
- {
-  "id": "ast3-0041",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 2,
-  "question": "The sample size is multiplied by 4, everything else equal. What happens to the standard error of the mean?",
-  "options": [
-   "It is halved",
-   "It is quartered",
-   "It is doubled",
-   "It is unchanged"
-  ],
-  "answer": 0,
-  "explanation": "SE is proportional to 1/√n, so quadrupling n halves it. Quartering the error would need 16 times the sample.",
-  "source": {
-   "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
-  }
- },
- {
-  "id": "ast3-0042",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 2,
-  "question": "A sample mean is 50 with standard error 2. What is the approximate 95 % confidence interval?",
-  "options": [
-   "48.0 to 52.0",
-   "46.1 to 53.9",
-   "44.0 to 56.0",
-   "49.0 to 51.0"
-  ],
-  "answer": 1,
-  "explanation": "50 ± 1.96 × 2 = 50 ± 3.92, giving 46.1 to 53.9. The range 48–52 is ±1 SE, a confidence level of only about 68 %.",
-  "source": {
-   "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
-  }
- },
- {
-  "id": "ast3-0043",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 3,
-  "question": "Which interpretation of a 95 % confidence interval is correct?",
-  "options": [
-   "There is a 95 % chance the true value lies in this particular interval",
-   "95 % of the observations lie in the interval",
-   "If the procedure were repeated, about 95 % of such intervals would contain the true parameter",
-   "The estimate is correct with probability 0.95"
-  ],
-  "answer": 2,
-  "explanation": "Confidence refers to the long-run coverage of the procedure; a given interval either contains the parameter or not. The probability reading belongs to Bayesian credible intervals.",
-  "source": {
-   "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
-  }
- },
- {
-  "id": "ast3-0044",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 2,
-  "question": "What does a p-value measure?",
-  "options": [
-   "The probability that H0 is true",
-   "The probability that the result is due to chance alone",
-   "The probability that H1 is true",
-   "The probability of data at least as extreme as observed, assuming H0 is true"
-  ],
-  "answer": 3,
-  "explanation": "The p-value is computed under the assumption that the null hypothesis holds; it is not the probability of the hypothesis itself. Treating it as P(H0) is a classic misinterpretation.",
-  "source": {
-   "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
-  }
- },
- {
-  "id": "ast3-0045",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 1,
-  "question": "What is a type I error?",
-  "options": [
-   "Rejecting a true null hypothesis",
-   "Failing to reject a false null hypothesis",
-   "Accepting a false alternative",
-   "Using the wrong sample size"
-  ],
-  "answer": 0,
-  "explanation": "A type I error is a false positive whose probability is the significance level α. Failing to reject a false null is a type II error.",
-  "source": {
-   "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
-  }
- },
- {
-  "id": "ast3-0046",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 2,
-  "question": "If the probability of a type II error is β = 0.2, what is the power of the test?",
-  "options": [
-   "0.20",
-   "0.80",
-   "0.95",
-   "0.05"
-  ],
-  "answer": 1,
-  "explanation": "Power = 1 − β = 0.80, the probability of rejecting a false null hypothesis. The value 0.95 relates to 1 − α.",
-  "source": {
-   "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
-  }
- },
- {
-  "id": "ast3-0047",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 2,
-  "question": "Which change increases the power of a test, other things equal?",
-  "options": [
-   "A smaller significance level α",
-   "A larger standard deviation",
-   "A larger sample size",
-   "A smaller true effect"
-  ],
-  "answer": 2,
-  "explanation": "More observations reduce the standard error and make a given effect easier to detect. Lowering α, larger variance or smaller effects all reduce power.",
-  "source": {
-   "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
-  }
- },
- {
-  "id": "ast3-0048",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 2,
-  "question": "Mean income is to be compared across three independent regions. Which test is appropriate?",
-  "options": [
-   "Chi-square test of independence",
-   "Paired t-test",
-   "Pearson correlation test",
-   "One-way ANOVA"
-  ],
-  "answer": 3,
-  "explanation": "ANOVA tests equality of more than two group means; repeated pairwise t-tests inflate the type I error. Chi-square suits categorical variables.",
-  "source": {
-   "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
-  }
- },
- {
-  "id": "ast3-0049",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 1,
-  "question": "Which test examines whether two categorical variables (e.g. region and employment status) are associated?",
-  "options": [
-   "Chi-square test of independence",
-   "Two-sample t-test",
-   "One-way ANOVA",
-   "Paired t-test"
-  ],
-  "answer": 0,
-  "explanation": "The chi-square test compares observed with expected counts in a contingency table. The t-test and ANOVA compare means of numeric variables.",
-  "source": {
-   "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
-  }
- },
- {
-  "id": "ast3-0050",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 2,
-  "question": "Employees' test scores are recorded before and after training. Which test is most appropriate to assess the mean change?",
-  "options": [
-   "Two-sample t-test for independent groups",
-   "Paired t-test",
-   "Chi-square test",
-   "One-way ANOVA with three groups"
-  ],
-  "answer": 1,
-  "explanation": "Before and after values come from the same units and are dependent, so the differences are analysed with a paired t-test. An independent test ignores that pairing and loses power.",
-  "source": {
-   "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
-  }
- },
- {
-  "id": "ast3-0051",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 2,
-  "question": "Which design best describes stratified random sampling?",
-  "options": [
-   "Whole groups are selected at random and fully surveyed",
-   "Every k-th unit is selected from a list",
-   "The population is split into homogeneous groups and each is sampled randomly",
-   "Volunteers are accepted until a quota is met"
-  ],
-  "answer": 2,
-  "explanation": "Stratification samples within every stratum, which ensures representation and usually improves precision. Selecting whole groups describes cluster sampling.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Stratum",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Stratum"
-  }
- },
- {
-  "id": "ast3-0052",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 3,
-  "question": "For the same sample size, cluster sampling typically yields estimates that are:",
-  "options": [
-   "More precise, because clusters are homogeneous",
-   "Equally precise, as selection is random",
-   "Unbiased and exact for any cluster size",
-   "Less precise than simple random sampling, because units in a cluster are similar"
-  ],
-  "answer": 3,
-  "explanation": "Intra-cluster correlation raises variance (the design effect exceeds 1). Cluster sampling is chosen for lower fieldwork cost, not for precision.",
-  "source": {
-   "title": "ESS Handbook for Quality and Metadata Reports (2021), accuracy: sampling and non-sampling errors",
-   "url": "https://ec.europa.eu/eurostat/web/products-manuals-and-guidelines/-/ks-gq-21-021"
-  }
- },
- {
-  "id": "ast3-0053",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 1,
-  "question": "A list holds 1,200 units and a systematic sample of 60 is needed. What is the sampling interval?",
-  "options": [
-   "20",
-   "60",
-   "12",
-   "1,140"
-  ],
-  "answer": 0,
-  "explanation": "The interval is k = N/n = 1,200/60 = 20, with a random start between 1 and 20. Periodicity in the list is the main risk of this design.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Sample survey (general background on sampling)",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Sample_survey"
-  }
- },
- {
-  "id": "ast3-0054",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 2,
-  "question": "Unit non-response in a survey is most problematic when:",
-  "options": [
-   "The sample size is large",
-   "Respondents and non-respondents differ on the variable of interest",
-   "The frame is up to date",
-   "The response rate is above 50 %"
-  ],
-  "answer": 1,
-  "explanation": "Non-response creates bias only if non-respondents systematically differ from respondents. A low rate alone does not prove bias, nor does a high rate rule it out.",
-  "source": {
-   "title": "ESS Handbook for Quality and Metadata Reports (2021), accuracy: sampling and non-sampling errors",
-   "url": "https://ec.europa.eu/eurostat/web/products-manuals-and-guidelines/-/ks-gq-21-021"
-  }
- },
- {
-  "id": "ast3-0055",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 2,
-  "question": "A unit is selected with inclusion probability 1/50. What is its design weight?",
-  "options": [
-   "0.02",
-   "1",
-   "50",
-   "49"
-  ],
-  "answer": 2,
-  "explanation": "The design weight is the inverse of the inclusion probability: 1/(1/50) = 50, i.e. the unit represents 50 population units.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Weight",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Weight"
-  }
- },
- {
-  "id": "ast3-0056",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 2,
-  "question": "A sampling frame omits people living in new buildings. Which error results?",
-  "options": [
-   "Measurement error",
-   "Sampling error from small n",
-   "Processing error",
-   "Coverage error (under-coverage)"
-  ],
-  "answer": 3,
-  "explanation": "Units missing from the frame have no chance of selection, so estimates can be biased regardless of sample size. This is a non-sampling error.",
-  "source": {
-   "title": "ESS Handbook for Quality and Metadata Reports (2021), accuracy: sampling and non-sampling errors",
-   "url": "https://ec.europa.eu/eurostat/web/products-manuals-and-guidelines/-/ks-gq-21-021"
-  }
- },
- {
-  "id": "ast3-0057",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 2,
-  "question": "According to the ESS guidelines, which components does a seasonally adjusted series contain?",
-  "options": [
-   "Trend-cycle and irregular components",
-   "Trend-cycle, seasonal and irregular components",
-   "Seasonal and irregular components only",
-   "Trend-cycle and calendar components"
-  ],
-  "answer": 0,
-  "explanation": "Seasonal adjustment removes seasonal (and, where relevant, calendar) effects, leaving trend-cycle plus irregular. Adding back seasonality gives the unadjusted series.",
-  "source": {
-   "title": "Eurostat, ESS guidelines on seasonal adjustment (2015 edition)",
-   "url": "https://ec.europa.eu/eurostat/web/products-manuals-and-guidelines/-/ks-gq-15-001"
-  }
- },
- {
-  "id": "ast3-0058",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 2,
-  "question": "What does calendar adjustment of a monthly series correct for?",
-  "options": [
-   "Inflation between months",
-   "Differences in working days and moving holidays such as Easter",
-   "Random sampling error",
-   "Population ageing"
-  ],
-  "answer": 1,
-  "explanation": "Calendar adjustment removes the effect of varying trading days and moving holidays. Removing price effects is deflation.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Calendar adjustment",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Calendar_adjustment"
-  }
- },
- {
-  "id": "ast3-0059",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 3,
-  "question": "Twenty independent hypothesis tests are run at α = 0.05 and all null hypotheses are true. How many significant results are expected by chance?",
-  "options": [
-   "None",
-   "About 5",
-   "About 1",
-   "About 10"
-  ],
-  "answer": 2,
-  "explanation": "Expected false positives = 20 × 0.05 = 1. Without a multiple-testing correction, the chance of at least one is 1 − 0.95²⁰ ≈ 64 %.",
-  "source": {
-   "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
-  }
- },
- {
-  "id": "ast3-0060",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 3,
-  "question": "For a proportion p = 0.5 and n = 400, what is the approximate 95 % margin of error?",
-  "options": [
-   "±2.5 percentage points",
-   "±9.8 percentage points",
-   "±1.96 percentage points",
-   "±4.9 percentage points"
-  ],
-  "answer": 3,
-  "explanation": "SE = √(0.25/400) = 0.025; margin = 1.96 × 0.025 ≈ 0.049. The value ±2.5 is one standard error only.",
-  "source": {
-   "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
-  }
- },
- {
-  "id": "ast3-0061",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 2,
-  "question": "Strata contain 600 and 400 units. With proportional allocation of n = 100, how many units come from each stratum?",
-  "options": [
-   "60 and 40",
-   "50 and 50",
-   "40 and 60",
-   "70 and 30"
-  ],
-  "answer": 0,
-  "explanation": "Proportional allocation matches sample shares to population shares: 100 × 0.6 and 100 × 0.4. Equal allocation gives 50 and 50.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Stratum",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Stratum"
-  }
- },
- {
-  "id": "ast3-0062",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 3,
-  "question": "A game pays 10 with probability 0.2 and costs 3 with probability 0.8. What is the expected gain per play?",
-  "options": [
-   "+2.0",
-   "−0.4",
-   "−2.4",
-   "+0.4"
-  ],
-  "answer": 1,
-  "explanation": "E = 0.2 × 10 − 0.8 × 3 = 2 − 2.4 = −0.4. The values +2.0 and −2.4 each take only one branch of the outcomes.",
-  "source": {
-   "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
-  }
- },
- {
-  "id": "ast3-0063",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 3,
-  "question": "With a very large sample, a tiny difference becomes statistically significant. What follows?",
-  "options": [
-   "The effect must be large",
-   "The null hypothesis is certainly false in practice",
-   "Significance does not imply the effect is practically relevant",
-   "The p-value is invalid"
-  ],
-  "answer": 2,
-  "explanation": "Statistical significance reflects detectability, which grows with n; the effect size and its confidence interval decide relevance. A small p-value does not measure magnitude.",
-  "source": {
-   "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
-  }
- },
- {
-  "id": "ast3-0064",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 3,
-  "question": "Three independent events each have probability 0.1. What is the probability that at least one occurs?",
-  "options": [
-   "0.300",
-   "0.001",
-   "0.729",
-   "0.271"
-  ],
-  "answer": 3,
-  "explanation": "1 − 0.9³ = 1 − 0.729 = 0.271. The sum 0.3 ignores the overlap, and 0.729 is the probability that none occurs.",
-  "source": {
-   "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
-  }
- },
- {
-  "id": "ast3-0065",
-  "pkg": "ast3-daten",
-  "area": "probability-inference",
-  "difficulty": 3,
-  "question": "A two-sided z-test gives z = 2.1 at α = 0.05. What is the conclusion?",
-  "options": [
-   "Reject H0, since |z| exceeds 1.96",
-   "Do not reject H0, since z is below 2.58",
-   "Do not reject H0, since z is above 0",
-   "Reject H0 only at α = 0.01"
-  ],
-  "answer": 0,
-  "explanation": "The two-sided 5 % critical value is 1.96; 2.1 exceeds it (p ≈ 0.036). At α = 0.01 the critical value 2.58 would not be exceeded.",
-  "source": {
-   "title": "Standard textbook result without an official EU definition; related concept: Eurostat Statistics Explained, Glossary: Estimator",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Estimator"
-  }
- },
- {
-  "id": "ast3-0066",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 1,
-  "question": "Ice-cream sales and drowning incidents are strongly correlated across months. What is the most likely explanation?",
-  "options": [
-   "Ice cream causes drowning",
-   "A confounder, such as hot weather, drives both",
-   "Drowning increases ice-cream sales",
-   "The correlation must be a coding error"
-  ],
-  "answer": 1,
-  "explanation": "Correlation does not establish causation; a common cause (temperature) can produce association between unrelated outcomes. Causal claims need design or adjustment.",
-  "source": {
-   "title": "Data Visualisation Guide (Publications Office, data.europa.eu), Correlation is not causation",
-   "url": "https://data.europa.eu/apps/data-visualisation-guide/correlation-is-not-causation"
-  }
- },
- {
-  "id": "ast3-0067",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 1,
-  "question": "What does a Pearson correlation coefficient of −0.9 indicate?",
-  "options": [
-   "A weak negative association",
-   "A strong positive association",
-   "A strong negative linear association",
-   "That 90 % of variance is explained"
-  ],
-  "answer": 2,
-  "explanation": "The sign gives the direction and magnitude near 1 a strong linear relationship. Variance explained is r² = 0.81, not 0.9.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Correlation coefficient",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Correlation_coefficient"
-  }
- },
- {
-  "id": "ast3-0068",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 2,
-  "question": "Y = X² for X symmetric around 0 gives r ≈ 0. What does this show?",
-  "options": [
-   "X and Y are independent",
-   "The relationship is weak",
-   "There is no functional relationship",
-   "Pearson r measures only linear association"
-  ],
-  "answer": 3,
-  "explanation": "A perfect quadratic dependence can have zero linear correlation. Zero r therefore does not imply independence.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Correlation coefficient",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Correlation_coefficient"
-  }
- },
- {
-  "id": "ast3-0069",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 1,
-  "question": "A simple regression has r = 0.8. What is R²?",
-  "options": [
-   "0.64",
-   "0.80",
-   "0.89",
-   "0.16"
-  ],
-  "answer": 0,
-  "explanation": "In simple linear regression R² = r² = 0.64, i.e. 64 % of the variance of y is explained by x. The value 0.89 is √0.8.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Correlation coefficient",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Correlation_coefficient"
-  }
- },
- {
-  "id": "ast3-0070",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 1,
-  "question": "In wage = 1,200 + 2.5 × years of experience, what does 2.5 mean?",
-  "options": [
-   "Wages rise 2.5 % per year",
-   "Each extra year of experience is associated with 2.5 units higher expected wage",
-   "Experience explains 2.5 % of wages",
-   "The average experience is 2.5 years"
-  ],
-  "answer": 1,
-  "explanation": "The slope is the expected change in y per one-unit change in x, holding other things equal. It is not a percentage unless y is logged.",
-  "source": {
-   "title": "Standard econometrics result without an official EU definition; general background: JRC/OECD Handbook on Constructing Composite Indicators (JRC47008)",
-   "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC47008"
-  }
- },
- {
-  "id": "ast3-0071",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 2,
-  "question": "In ln(wage) = a + 0.05 × education (years), what is the approximate interpretation of 0.05?",
-  "options": [
-   "One more year adds 0.05 to the wage",
-   "Wages rise 0.05 % per year",
-   "One more year of education is associated with about 5 % higher wage",
-   "Education explains 5 % of variance"
-  ],
-  "answer": 2,
-  "explanation": "In a log-linear model small coefficients approximate proportional changes, so 0.05 ≈ 5 %. A level change of 0.05 would apply to a linear model.",
-  "source": {
-   "title": "Standard econometrics result without an official EU definition; general background: JRC/OECD Handbook on Constructing Composite Indicators (JRC47008)",
-   "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC47008"
-  }
- },
- {
-  "id": "ast3-0072",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 2,
-  "question": "What is the main consequence of strong multicollinearity among regressors in OLS?",
-  "options": [
-   "Biased estimates of every coefficient",
-   "A smaller R²",
-   "Autocorrelated residuals",
-   "Inflated standard errors of the coefficient estimates"
-  ],
-  "answer": 3,
-  "explanation": "Collinear regressors remain unbiased but individual coefficients become imprecise, shown by high variance inflation factors. R² is not reduced.",
-  "source": {
-   "title": "Standard econometrics result without an official EU definition; general background: JRC/OECD Handbook on Constructing Composite Indicators (JRC47008)",
-   "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC47008"
-  }
- },
- {
-  "id": "ast3-0073",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 2,
-  "question": "A categorical variable has 4 categories. How many dummy variables enter a regression with an intercept?",
-  "options": [
-   "3",
-   "4",
-   "2",
-   "5"
-  ],
-  "answer": 0,
-  "explanation": "Using all 4 would make the dummies sum to the intercept column (perfect collinearity, the dummy variable trap). Dropping one gives the reference category.",
-  "source": {
-   "title": "Standard econometrics result without an official EU definition; general background: JRC/OECD Handbook on Constructing Composite Indicators (JRC47008)",
-   "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC47008"
-  }
- },
- {
-  "id": "ast3-0074",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 2,
-  "question": "A dummy for 'female' has coefficient −300 in a wage regression (male is the reference). What does this mean?",
-  "options": [
-   "Women earn 300 in total",
-   "Women earn 300 less on average than men, other variables held constant",
-   "Men earn 300 less than women",
-   "Gender explains 300 units of variance"
-  ],
-  "answer": 1,
-  "explanation": "A dummy coefficient is the difference from the reference group, ceteris paribus. It does not describe an absolute level.",
-  "source": {
-   "title": "Standard econometrics result without an official EU definition; general background: JRC/OECD Handbook on Constructing Composite Indicators (JRC47008)",
-   "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC47008"
-  }
- },
- {
-  "id": "ast3-0075",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 2,
-  "question": "Residuals fan out as fitted values grow. Which OLS assumption is violated?",
-  "options": [
-   "Linearity of the mean",
-   "No perfect multicollinearity",
-   "Homoscedasticity (constant error variance)",
-   "Exogeneity of regressors"
-  ],
-  "answer": 2,
-  "explanation": "A funnel-shaped residual plot signals heteroscedasticity: coefficients remain unbiased but conventional standard errors are invalid. Robust standard errors are a remedy.",
-  "source": {
-   "title": "Standard econometrics result without an official EU definition; general background: JRC/OECD Handbook on Constructing Composite Indicators (JRC47008)",
-   "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC47008"
-  }
- },
- {
-  "id": "ast3-0076",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 3,
-  "question": "After adding an irrelevant regressor to an OLS model, what happens?",
-  "options": [
-   "Both R² and adjusted R² must rise",
-   "R² may fall",
-   "Both stay unchanged",
-   "R² cannot fall, but adjusted R² may fall"
-  ],
-  "answer": 3,
-  "explanation": "R² never decreases when a variable is added, whereas adjusted R² penalises extra parameters. This is why adjusted R² compares models better.",
-  "source": {
-   "title": "Standard econometrics result without an official EU definition; general background: JRC/OECD Handbook on Constructing Composite Indicators (JRC47008)",
-   "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC47008"
-  }
- },
- {
-  "id": "ast3-0077",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 3,
-  "question": "Wage is regressed on education, but ability (correlated with both) is omitted. What results?",
-  "options": [
-   "Biased estimate of the education coefficient",
-   "Only larger standard errors",
-   "No effect on the estimate",
-   "Heteroscedasticity only"
-  ],
-  "answer": 0,
-  "explanation": "An omitted variable correlated with the regressor and affecting the outcome causes omitted variable bias. More data does not remove it.",
-  "source": {
-   "title": "Standard econometrics result without an official EU definition; general background: JRC/OECD Handbook on Constructing Composite Indicators (JRC47008)",
-   "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC47008"
-  }
- },
- {
-  "id": "ast3-0078",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 2,
-  "question": "A logistic regression coefficient is 0.693. What is the odds ratio per one-unit increase?",
-  "options": [
-   "About 0.5",
-   "About 2",
-   "About 0.693",
-   "About 1.69"
-  ],
-  "answer": 1,
-  "explanation": "Odds ratio = exp(β) = exp(0.693) ≈ 2, meaning the odds double. The coefficient itself is a change in log-odds.",
-  "source": {
-   "title": "Standard econometrics result without an official EU definition; general background: JRC/OECD Handbook on Constructing Composite Indicators (JRC47008)",
-   "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC47008"
-  }
- },
- {
-  "id": "ast3-0079",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 1,
-  "question": "Odds of an event are 3 to 1. What is its probability?",
-  "options": [
-   "0.33",
-   "0.60",
-   "0.75",
-   "3.00"
-  ],
-  "answer": 2,
-  "explanation": "p = odds/(1 + odds) = 3/4 = 0.75. The value 0.33 confuses the odds 3 : 1 with their reciprocal 1/3.",
-  "source": {
-   "title": "Standard econometrics result without an official EU definition; general background: JRC/OECD Handbook on Constructing Composite Indicators (JRC47008)",
-   "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC47008"
-  }
- },
- {
-  "id": "ast3-0080",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 1,
-  "question": "What is the purpose of splitting data into training and test sets?",
-  "options": [
-   "To increase the sample size",
-   "To remove outliers",
-   "To balance the classes",
-   "To estimate performance on unseen data"
-  ],
-  "answer": 3,
-  "explanation": "Testing on data not used for fitting gives an honest estimate of generalisation error. The AI Act likewise distinguishes training, validation and testing data.",
-  "source": {
-   "title": "Regulation (EU) 2024/1689 (AI Act), Art. 3(29), (30) and (32) (definitions of training, validation and testing data)",
-   "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
-  }
- },
- {
-  "id": "ast3-0081",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 2,
-  "question": "A model has 99 % training accuracy but 70 % test accuracy. What is the likely problem?",
-  "options": [
-   "Overfitting",
-   "Underfitting",
-   "Class balance",
-   "Multicollinearity only"
-  ],
-  "answer": 0,
-  "explanation": "A large gap between training and test performance indicates the model memorised noise. Underfitting would show poor performance on both.",
-  "source": {
-   "title": "Regulation (EU) 2024/1689 (AI Act), Art. 3(30) (validation data used to prevent underfitting or overfitting)",
-   "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
-  }
- },
- {
-  "id": "ast3-0082",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 2,
-  "question": "In 5-fold cross-validation, how often is each observation used for validation?",
-  "options": [
-   "Five times",
-   "Exactly once",
-   "Never",
-   "Four times"
-  ],
-  "answer": 1,
-  "explanation": "The data are split into 5 folds; each serves once as validation set while the other four train the model. Each observation is used for training four times.",
-  "source": {
-   "title": "Regulation (EU) 2024/1689 (AI Act), Art. 3(31) (validation data set as a fixed or variable split)",
-   "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
-  }
- },
- {
-  "id": "ast3-0083",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 3,
-  "question": "Features are standardised using the mean and SD of the full dataset before splitting into train and test. What is this called?",
-  "options": [
-   "Regularisation",
-   "Bagging",
-   "Data leakage",
-   "Stratification"
-  ],
-  "answer": 2,
-  "explanation": "Test-set information influences preprocessing, making evaluation optimistic. Scaling parameters must be learned on the training data only.",
-  "source": {
-   "title": "Regulation (EU) 2024/1689 (AI Act), Art. 3(32) (testing data as independent evaluation) and Art. 10(3)",
-   "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
-  }
- },
- {
-  "id": "ast3-0084",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 2,
-  "question": "Which statement about k-means clustering is correct?",
-  "options": [
-   "It is a supervised method",
-   "It is unaffected by variable scales",
-   "It always finds the global optimum",
-   "The number of clusters k must be chosen in advance"
-  ],
-  "answer": 3,
-  "explanation": "K-means is unsupervised, minimises within-cluster distances for a given k, and depends on initialisation and scaling. Unscaled variables with large ranges dominate distances.",
-  "source": {
-   "title": "ENISA, Securing Machine Learning Algorithms (2021), general ML background; the tested term is standard ML practice, not defined in EU law",
-   "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
-  }
- },
- {
-  "id": "ast3-0085",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 2,
-  "question": "Why are fully grown decision trees often problematic?",
-  "options": [
-   "They tend to overfit the training data",
-   "They cannot handle categorical variables",
-   "They require linear relationships",
-   "They always underfit"
-  ],
-  "answer": 0,
-  "explanation": "Deep trees fit noise, giving high variance; pruning or depth limits help. Trees handle categories and non-linearity well.",
-  "source": {
-   "title": "ENISA, Securing Machine Learning Algorithms (2021), general ML background; the tested term is standard ML practice, not defined in EU law",
-   "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
-  }
- },
- {
-  "id": "ast3-0086",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 2,
-  "question": "A classifier gives TP = 40, FP = 10, FN = 20, TN = 30. What is its precision?",
-  "options": [
-   "0.67",
-   "0.80",
-   "0.70",
-   "0.75"
-  ],
-  "answer": 1,
-  "explanation": "Precision = TP/(TP + FP) = 40/50 = 0.80. The value 0.67 is recall, 40/60; 0.70 is accuracy.",
-  "source": {
-   "title": "Regulation (EU) 2024/1689 (AI Act), Art. 15(3) (accuracy and relevant accuracy metrics to be declared)",
-   "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
-  }
- },
- {
-  "id": "ast3-0087",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 2,
-  "question": "With TP = 40, FP = 10, FN = 20, TN = 30, what is the recall (sensitivity)?",
-  "options": [
-   "0.80",
-   "0.75",
-   "0.67",
-   "0.70"
-  ],
-  "answer": 2,
-  "explanation": "Recall = TP/(TP + FN) = 40/60 ≈ 0.67. The value 0.80 is precision, and 0.75 is specificity.",
-  "source": {
-   "title": "Regulation (EU) 2024/1689 (AI Act), Art. 15(3) (accuracy and relevant accuracy metrics to be declared)",
-   "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
-  }
- },
- {
-  "id": "ast3-0088",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 1,
-  "question": "With TP = 40, FP = 10, FN = 20, TN = 30, what is the accuracy?",
-  "options": [
-   "0.80",
-   "0.67",
-   "0.60",
-   "0.70"
-  ],
-  "answer": 3,
-  "explanation": "Accuracy = (TP + TN)/total = 70/100 = 0.70. Precision and recall use only parts of the matrix.",
-  "source": {
-   "title": "Regulation (EU) 2024/1689 (AI Act), Art. 15(3) (accuracy and relevant accuracy metrics to be declared)",
-   "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
-  }
- },
- {
-  "id": "ast3-0089",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 3,
-  "question": "With TP = 40, FP = 10, FN = 20, TN = 30, what is the specificity?",
-  "options": [
-   "0.75",
-   "0.80",
-   "0.67",
-   "0.70"
-  ],
-  "answer": 0,
-  "explanation": "Specificity = TN/(TN + FP) = 30/40 = 0.75, the share of true negatives correctly identified. Recall is 0.67.",
-  "source": {
-   "title": "Regulation (EU) 2024/1689 (AI Act), Art. 15(3) (accuracy and relevant accuracy metrics to be declared)",
-   "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
-  }
- },
- {
-  "id": "ast3-0090",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 3,
-  "question": "Only 1 % of cases are positive. A classifier predicts 'negative' for everyone. What are its accuracy and recall?",
-  "options": [
-   "Accuracy 50 %, recall 0 %",
-   "Accuracy 99 %, recall 0 %",
-   "Accuracy 99 %, recall 100 %",
-   "Accuracy 1 %, recall 99 %"
-  ],
-  "answer": 1,
-  "explanation": "All negatives are classified correctly (99 %) but no positive is found (recall 0). Accuracy is misleading with imbalanced classes.",
-  "source": {
-   "title": "Regulation (EU) 2024/1689 (AI Act), Art. 15(3) (accuracy and relevant accuracy metrics to be declared)",
-   "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
-  }
- },
- {
-  "id": "ast3-0091",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 3,
-  "question": "A classifier has precision 1.0 and recall 0.5. What is its F1 score?",
-  "options": [
-   "0.75",
-   "0.50",
-   "0.67",
-   "1.00"
-  ],
-  "answer": 2,
-  "explanation": "F1 is the harmonic mean: 2 × 1 × 0.5/1.5 ≈ 0.67. The arithmetic mean (0.75) is not used because the harmonic mean penalises imbalance.",
-  "source": {
-   "title": "Regulation (EU) 2024/1689 (AI Act), Art. 15(3) (accuracy and relevant accuracy metrics to be declared)",
-   "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
-  }
- },
- {
-  "id": "ast3-0092",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 2,
-  "question": "What does regularisation such as ridge or lasso do?",
-  "options": [
-   "It increases the number of predictors",
-   "It removes the need for a test set",
-   "It makes the model unbiased",
-   "It penalises large coefficients to reduce overfitting"
-  ],
-  "answer": 3,
-  "explanation": "A penalty term shrinks coefficients, trading some bias for lower variance; lasso can set coefficients exactly to zero. Evaluation on held-out data is still required.",
-  "source": {
-   "title": "ENISA, Securing Machine Learning Algorithms (2021), general ML background; the tested term is standard ML practice, not defined in EU law",
-   "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
-  }
- },
- {
-  "id": "ast3-0093",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 3,
-  "question": "As model complexity increases, what generally happens?",
-  "options": [
-   "Bias falls and variance rises",
-   "Bias and variance both fall",
-   "Bias rises and variance falls",
-   "Both rise"
-  ],
-  "answer": 0,
-  "explanation": "Flexible models fit the training data better (lower bias) but are more sensitive to sample noise (higher variance). Optimal complexity balances the two.",
-  "source": {
-   "title": "ENISA, Securing Machine Learning Algorithms (2021), general ML background; the tested term is standard ML practice, not defined in EU law",
-   "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
-  }
- },
- {
-  "id": "ast3-0094",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 3,
-  "question": "How does a random forest improve over a single decision tree?",
-  "options": [
-   "It uses one deeper tree",
-   "It averages many trees built on bootstrap samples, reducing variance",
-   "It removes the need for features",
-   "It guarantees zero bias"
-  ],
-  "answer": 1,
-  "explanation": "Bagging with random feature subsets decorrelates trees, so averaging reduces variance. Bias remains similar to individual trees.",
-  "source": {
-   "title": "ENISA, Securing Machine Learning Algorithms (2021), general ML background; the tested term is standard ML practice, not defined in EU law",
-   "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
-  }
- },
- {
-  "id": "ast3-0095",
-  "pkg": "ast3-daten",
-  "area": "regression-ml",
-  "difficulty": 2,
-  "question": "A binary classifier has a ROC AUC of 0.5. What does this indicate?",
-  "options": [
-   "Perfect separation of the classes",
-   "Accuracy of exactly 50 % on any dataset",
-   "Discrimination no better than random guessing",
-   "A precision of 0.5 at every threshold"
-  ],
-  "answer": 2,
-  "explanation": "AUC is the probability that a random positive is ranked above a random negative; 0.5 means no discrimination, 1.0 perfect. It is threshold-independent, so it does not fix accuracy or precision.",
-  "source": {
-   "title": "Regulation (EU) 2024/1689 (AI Act), Art. 15(3) (accuracy and relevant accuracy metrics to be declared)",
-   "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
-  }
- },
- {
-  "id": "ast3-0096",
-  "pkg": "ast3-daten",
-  "area": "bi-geo",
-  "difficulty": 2,
-  "question": "Which principle is central to effective dashboard design?",
-  "options": [
-   "Include every available indicator on one screen",
-   "Use decorative 3D effects to attract attention",
-   "Hide the definitions of indicators",
-   "Show the few key indicators the audience needs, at a glance"
-  ],
-  "answer": 3,
-  "explanation": "A dashboard supports monitoring and decisions for a defined audience, so clutter hurts. Metadata and definitions should remain accessible.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Statistical indicator",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Statistical_indicator"
-  }
- },
- {
-  "id": "ast3-0097",
-  "pkg": "ast3-daten",
-  "area": "bi-geo",
-  "difficulty": 1,
-  "question": "Which feature makes a KPI useful for management?",
-  "options": [
-   "A clear definition, baseline and target",
-   "Being measurable only once a year",
-   "Being reported in many different units",
-   "Being independent of any objective"
-  ],
-  "answer": 0,
-  "explanation": "A KPI tracks progress towards an objective and needs a precise definition, baseline and target to be interpretable.",
-  "source": {
-   "title": "Eurostat Statistics Explained, Glossary: Indicator",
-   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Indicator"
-  }
- },
- {
-  "id": "ast3-0098",
-  "pkg": "ast3-daten",
-  "area": "bi-geo",
-  "difficulty": 2,
-  "question": "A choropleth map shows the number of unemployed people by NUTS 2 region. What is the main flaw?",
-  "options": [
-   "The colour scale is too pale",
-   "Absolute counts mostly reflect population size; rates should be mapped",
-   "NUTS 2 regions cannot be mapped",
-   "Choropleth maps only work with text"
-  ],
-  "answer": 1,
-  "explanation": "Shading areas by raw counts makes populous regions look like problem regions. Choropleth maps should show normalised values such as rates or per-capita figures.",
-  "source": {
-   "title": "Data Visualisation Guide (Publications Office, data.europa.eu), Normalising data for mapping",
-   "url": "https://data.europa.eu/apps/data-visualisation-guide/normalising-data-for-mapping"
-  }
- },
- {
-  "id": "ast3-0099",
-  "pkg": "ast3-daten",
-  "area": "bi-geo",
-  "difficulty": 3,
-  "question": "Which colour scheme suits a choropleth map of unemployment rates?",
-  "options": [
-   "A random categorical palette",
-   "A diverging scheme around zero",
-   "A sequential scheme from light to dark",
-   "Alternating red and green"
-  ],
-  "answer": 2,
-  "explanation": "Ordered, one-directional data call for a sequential palette in which darker means higher. Diverging palettes need a meaningful midpoint.",
-  "source": {
-   "title": "Data Visualisation Guide (Publications Office, data.europa.eu), Colour for numerical data: colour scales (sequential vs diverging)",
-   "url": "https://data.europa.eu/apps/data-visualisation-guide/colour-for-numerical-data-colour-scales"
-  }
- },
- {
-  "id": "ast3-0100",
-  "pkg": "ast3-daten",
-  "area": "bi-geo",
-  "difficulty": 3,
-  "question": "On a choropleth map, which classification method places an equal number of regions in each class?",
-  "options": [
-   "Equal intervals",
-   "Natural breaks",
-   "Standard deviations",
-   "Quantiles"
-  ],
-  "answer": 3,
-  "explanation": "Quantile classification gives each class the same number of areas, which can hide the actual gaps in values. Equal intervals divide the value range evenly.",
-  "source": {
-   "title": "Data Visualisation Guide (Publications Office, data.europa.eu), Choropleth classification methods",
-   "url": "https://data.europa.eu/apps/data-visualisation-guide/choropleth-classification-methods"
-  }
- }
 ]
