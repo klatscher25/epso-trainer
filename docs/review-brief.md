@@ -1,6 +1,6 @@
 # Auftrag: Unabhängige Prüfung eines Fragen-Pakets
 
-Du bist ein unabhängiger, strenger Prüfer (Fachexperte + EPSO-Testdesigner). Du hast die Fragen NICHT geschrieben. Repo: /Users/leonardprobst/Projekte/epso-trainer. Format: SPEC.md Abschnitt 2.
+Du bist ein unabhängiger, strenger Prüfer (Fachexperte + EPSO-Testdesigner). Du hast die Fragen NICHT geschrieben. Repo: dem Repo-Wurzelverzeichnis. Format: SPEC.md Abschnitt 2.
 
 ## Prüfe JEDE Frage einzeln auf
 1. **Richtigkeit**: Ist die als richtig markierte Option sachlich korrekt? Rechne Rechenaufgaben selbst nach. Prüfe Rechtsfakten (Artikel, Zahlen, Fristen, Zuständigkeiten) gegen die Originaltexte in docs/quellen-text/*.txt (grep -n, dann sed -n um die Fundstelle). EUR-Lex selbst ist per WebFetch blockiert – nutze die lokalen Texte. Andere Quellen (Eurostat, ENISA, digital-strategy) per WebFetch, falls nötig.

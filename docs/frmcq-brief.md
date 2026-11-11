@@ -1,6 +1,6 @@
 # Auftrag: Fachtest-Fragen (FRMCQ) schreiben
 
-Repo: /Users/leonardprobst/Projekte/epso-trainer. Lies SPEC.md Abschnitt 2 „Fachtest“ (JSON-Format) und data/packages.json (Bereiche).
+Repo: dem Repo-Wurzelverzeichnis. Lies SPEC.md Abschnitt 2 „Fachtest“ (JSON-Format) und data/packages.json (Bereiche).
 
 ## Prüfung
 EPSO field-related multiple-choice test: 30 questions in 40 minutes (≈80 s each), four options, exactly one correct, in English (candidate's 2nd language). It is the RANKING test: only the best candidates progress, so questions must discriminate between good and excellent specialists. Level: AD8 = experienced specialist (≥ 9 years after degree); AST3 = experienced assistant/technician.
