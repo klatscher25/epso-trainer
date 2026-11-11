@@ -1,0 +1,752 @@
+[
+  {
+    "id": "vr-0181",
+    "topic": "Wissenschaft",
+    "difficulty": 3,
+    "text": "Ein Fachverband für Psychologie ließ vor einigen Jahren hundert veröffentlichte Experimente von unabhängigen Teams wiederholen. Bei der Wiederholung erreichten nur etwa vierzig Prozent der Studien erneut ein statistisch signifikantes Ergebnis, obwohl die Teams die ursprünglichen Verfahren möglichst genau befolgten. Die Autoren des Berichts betonen, dass ein ausbleibender Effekt eine Erstveröffentlichung nicht automatisch widerlege, denn schon kleine Unterschiede in der Stichprobe könnten Ergebnisse verschieben. Kritiker meinen, die Nachprüfungen seien teils mit weniger Teilnehmern durchgeführt worden als die Originale, was die Trefferquote zusätzlich gedrückt habe; der Bericht weist dagegen darauf hin, dass die Teilnehmerzahlen in der Mehrzahl der Fälle gleich oder höher lagen. Zeitschriften, die eine Vorabregistrierung verlangen, also die Festlegung von Hypothese und Auswertung vor der Datenerhebung, verzeichnen nach dem Bericht weniger Ergebnisse, die allein durch die Auswahl der Analyse zustande kommen. Ob dies ursächlich an der Vorabregistrierung liegt oder daran, dass sich eher sorgfältig arbeitende Gruppen für sie entscheiden, lässt der Bericht ausdrücklich offen. Einig sind sich Befürworter wie Skeptiker, dass bislang nur wenige Wiederholungsstudien durchgeführt werden, weil sie der Laufbahn von Forschenden kaum nützen.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Die geringere Zahl an Teilnehmern bei den Wiederholungen erklärt den größten Teil der verfehlten Bestätigungen.",
+      "Der Bericht lässt ungeklärt, ob Vorabregistrierung selbst weniger auffällige Ergebnisse hervorbringt.",
+      "Nach Ansicht der Autoren zeigt ein ausbleibender Effekt, dass die ursprüngliche Veröffentlichung fehlerhaft war.",
+      "Die Vorabregistrierung hat nach dem Bericht wahrscheinlich dazu geführt, dass mehr Wiederholungsstudien durchgeführt werden."
+    ],
+    "answer": 1,
+    "why": [
+      "Das ist die Sicht der „Kritiker“; der Bericht hält dagegen, die Teilnehmerzahlen hätten „in der Mehrzahl der Fälle gleich oder höher“ gelegen.",
+      "Zutreffend: Der Bericht sieht den Rückgang bei Zeitschriften mit Vorabregistrierung, lässt aber „ausdrücklich offen“, ob die Registrierung die Ursache oder die Selbstauswahl sorgfältiger Gruppen dahintersteht; also keine Entscheidung möglich.",
+      "Die Autoren betonen, ein ausbleibender Effekt widerlege die Erstveröffentlichung „nicht automatisch“; Fehlerhaftigkeit folgt daraus nicht.",
+      "Wiederholungsstudien sind laut Text selten, weil sie „für Laufbahnen wenig“ bringen; ein Anstieg durch Vorabregistrierung steht nicht im Text."
+    ],
+    "traps": [
+      "Meinung als Tatsache",
+      "Gegenteil",
+      "Kausalität unterstellt"
+    ]
+  },
+  {
+    "id": "vr-0182",
+    "topic": "Wissenschaft",
+    "difficulty": 3,
+    "text": "Die Radiokohlenstoffmethode bestimmt das Alter organischer Funde, indem sie den verbliebenen Anteil des Kohlenstoffisotops C-14 misst. Lebende Organismen nehmen es laufend auf; nach dem Tod zerfällt es mit einer Halbwertszeit von rund fünftausendsiebenhundert Jahren. Nach etwa fünfzigtausend Jahren ist so wenig übrig, dass die Messung unzuverlässig wird, weshalb das Verfahren für noch ältere Funde nicht verwendet wird. Die rohen Messwerte werden mit Kalibrierkurven abgeglichen, da der C-14-Anteil in der Atmosphäre früher schwankte; die Kalibrierung stützt sich unter anderem auf Jahresringe von Bäumen. Für Proben aus dem Meer ist eine zusätzliche Korrektur nötig, weil dort ältere, gelöste Kohlenstoffverbindungen das Ergebnis scheinbar altern lassen. Ein Labor weist darauf hin, dass Verunreinigungen durch jüngeres Material, etwa durch Wurzeln oder Konservierungsmittel, das Alter zu niedrig erscheinen lassen können. Einige Archäologen meinen, die Methode sei für die letzten tausend Jahre zu ungenau, um Ereignisse auf wenige Jahrzehnte zu datieren. Die Laborleiter räumen ein, dass die Kalibrierkurve in manchen Zeitabschnitten flach verläuft und dann breitere Zeitspannen ergibt, bestreiten aber eine generelle Ungeeignetheit. Kalibrierkurven werden regelmäßig überarbeitet, sobald neue Daten aus Baumringen, Seesedimenten oder Korallen vorliegen; die Unsicherheit eines einzelnen Ergebnisses wird in Jahren angegeben.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Verunreinigungen durch Wurzeln lassen einen Fund älter erscheinen, als er ist.",
+      "Wegen des flachen Verlaufs der Kalibrierkurve ist die Methode für die letzten tausend Jahre ungeeignet, um Ereignisse auf Jahrzehnte zu datieren.",
+      "Nach etwa fünfzigtausend Jahren ist das C-14 vollständig zerfallen, weshalb dort die Anwendbarkeit endet.",
+      "Ohne die Zusatzkorrektur würde ein Fund aus dem Meer tendenziell älter datiert, als er tatsächlich ist."
+    ],
+    "answer": 3,
+    "why": [
+      "Jüngeres Material durch Wurzeln lässt das Alter „zu niedrig“ erscheinen, nicht zu hoch.",
+      "Die Ungenauigkeit behaupten nur „einige Archäologen“; die Laborleiter bestreiten eine „generelle Ungeeignetheit“, die Kurve ist nur „in manchen Zeitabschnitten“ flach.",
+      "Nach „etwa fünfzigtausend Jahren“ ist „so wenig übrig“ – nicht alles; die Grenze ergibt sich aus der Unzuverlässigkeit der Messung.",
+      "Zutreffend: Gelöster älterer Kohlenstoff „lässt das Ergebnis scheinbar altern“; fehlt die Korrektur, erscheint die Probe also älter."
+    ],
+    "traps": [
+      "Gegenteil",
+      "Meinung als Tatsache",
+      "Überverallgemeinerung"
+    ]
+  },
+  {
+    "id": "vr-0183",
+    "topic": "Medizin/Gesundheit",
+    "difficulty": 3,
+    "text": "Ein Bericht wertete ein Früherkennungsprogramm für eine bestimmte Krebsart in einem mittelgroßen EU-Land aus. Von tausend untersuchten Personen wurden hundert zu einer Nachuntersuchung eingeladen. Bei neunzig dieser hundert stellte sich der Befund als harmlos heraus; bei den übrigen zehn bestätigte sich die Erkrankung. Zusätzlich traten bis zur nächsten Routineuntersuchung bei drei Personen mit unauffälligem Erstbefund Tumoren auf, sogenannte Intervallkarzinome. Die Programmleitung wertet das Ergebnis als Erfolg, da die Erkrankung meist in einem frühen Stadium entdeckt worden sei. Kritiker halten die Zahl der Fehlalarme für zu hoch, weil sie unnötige Angst und Folgeuntersuchungen verursache; sie verweisen zudem auf eine Studie, nach der ein Teil der entdeckten Tumoren zeitlebens nie Beschwerden verursacht hätte. Der Bericht räumt ein, dass sich dieser Anteil im Einzelfall nicht feststellen lasse, und nennt dazu keine Zahl. Ob das Programm die Sterblichkeit senkt, kann aus den vorliegenden Daten nicht abgeleitet werden, da dafür ein Vergleich mit einer nicht untersuchten Gruppe über viele Jahre nötig wäre. Die Programmleitung kündigt an, die Einladungskriterien beizubehalten. Die Programmleitung veröffentlicht die Zahlen jährlich und lässt sie von einem unabhängigen Beirat prüfen, der sich auch zur Verständlichkeit der Einladungsschreiben äußert.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Von den zur Nachuntersuchung Gebetenen war nur jeder Zehnte tatsächlich erkrankt.",
+      "Das Programm hat die Sterblichkeit an der untersuchten Krebsart nachweislich gesenkt.",
+      "Unter allen tausend Untersuchten waren zehn Prozent erkrankt.",
+      "Der Bericht beziffert den Anteil harmloser Tumoren unter den entdeckten Fällen auf eine Minderheit."
+    ],
+    "answer": 0,
+    "why": [
+      "Zutreffend: Von hundert Eingeladenen waren „bei den übrigen zehn“ erkrankt, also ein Zehntel; 90 Befunde waren harmlos.",
+      "Der Text sagt, die Wirkung auf die Sterblichkeit „kann aus den vorliegenden Daten nicht abgeleitet werden“; früh entdeckt ist nicht gesenkte Sterblichkeit.",
+      "Zehn Fälle beziehen sich auf die hundert Eingeladenen, nicht auf tausend; bezogen auf alle wären es ein Prozent (plus drei Intervallkarzinome).",
+      "Der Bericht „nennt dazu keine Zahl“; eine Angabe wie „Minderheit“ steht nicht im Text."
+    ],
+    "traps": [
+      "Kausalität unterstellt",
+      "Zahl/Menge verdreht",
+      "Nicht im Text (Weltwissen)"
+    ]
+  },
+  {
+    "id": "vr-0184",
+    "topic": "Medizin/Gesundheit",
+    "difficulty": 3,
+    "text": "Vergleiche zwischen Ländern zeigen, dass Staaten mit Widerspruchsregelung im Durchschnitt höhere Spenderzahlen je Million Einwohner aufweisen als Staaten, in denen eine ausdrückliche Zustimmung zur Organspende nötig ist. Befürworter der Widerspruchsregelung sehen darin einen Beleg für deren Wirkung. Eine Auswertung weist jedoch darauf hin, dass mehrere Staaten mit hohen Spenderzahlen zusätzlich über gut ausgestattete Transplantationszentren und eine feste Ansprechperson in jedem Krankenhaus verfügen. In einem Land, das von der Zustimmungs- zur Widerspruchslösung wechselte, stiegen die Spenderzahlen in den ersten drei Jahren nicht, wohl aber nach dem Ausbau der Klinikorganisation. In der Praxis werden zudem auch bei Widerspruchsregelung die Angehörigen befragt, und in einem Teil der Fälle lehnen diese die Spende ab, obwohl kein Widerspruch der verstorbenen Person vorliegt. Die Studienautoren folgern, dass die Rechtslage allein die Unterschiede zwischen den Ländern nicht erkläre, ohne ihr jeden Einfluss abzusprechen. Offen bleibt, wie stark das Vertrauen der Bevölkerung in das Gesundheitswesen die Zustimmung beeinflusst; dazu liegen lediglich Umfragen aus wenigen Ländern vor. Die Studie erschien in einer Fachzeitschrift für Transplantationsmedizin; die Autoren danken den beteiligten Kliniken, nennen aber keine Zahlen zur Qualität der jeweiligen Organisation vor Ort.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Im untersuchten Land stiegen die Spenderzahlen bereits in den ersten drei Jahren nach dem Wechsel zur Widerspruchslösung.",
+      "Bei Widerspruchsregelung entfällt die Befragung der Angehörigen, sodass deren Ablehnung keine Rolle spielt.",
+      "Länderunterschiede sprechen gegen eine alleinige Wirkung der Gesetzeslage, schließen sie aber nicht aus.",
+      "Die Umfragen belegen, dass das Vertrauen in das Gesundheitswesen die Zustimmung stark beeinflusst."
+    ],
+    "answer": 2,
+    "why": [
+      "Die Zahlen stiegen „in den ersten drei Jahren nicht“, erst nach dem Ausbau der Klinikorganisation.",
+      "Auch bei Widerspruchsregelung werden „die Angehörigen befragt“ und lehnen teils ab.",
+      "Zutreffend: Die Autoren folgern, die Rechtslage „allein“ erkläre die Unterschiede nicht, „ohne ihr jeden Einfluss abzusprechen“.",
+      "Wie stark das Vertrauen wirkt, „bleibt offen“; es gibt nur Umfragen aus wenigen Ländern."
+    ],
+    "traps": [
+      "Zeitangabe verdreht",
+      "Gegenteil",
+      "Nicht im Text (Weltwissen)"
+    ]
+  },
+  {
+    "id": "vr-0185",
+    "topic": "Umwelt/Klima",
+    "difficulty": 3,
+    "text": "Eine Langzeitstudie in Schutzgebieten eines mittelgroßen EU-Landes ermittelte die Gesamtmasse gefangener Fluginsekten über siebenundzwanzig Jahre und stellte einen Rückgang um mehr als siebzig Prozent fest. Die Fallen standen stets an denselben Orten und wurden nach demselben Verfahren geleert. Einzelne Fachleute meinen, die Standorte, die überwiegend an Waldrändern und auf Wiesen lagen, erlaubten keine Aussage über Städte oder Äcker. Die Autoren halten dagegen, die umgebende Landnutzung habe sich stark verändert, und sehen Hinweise auf einen Zusammenhang mit intensiver Bewirtschaftung der Umgebung, schließen Klimafaktoren aber nicht aus. Der Rückgang betrifft die Masse, nicht die Zahl der Arten; wie viele Arten verschwunden sind, wurde nicht in allen Jahren bestimmt. In den ersten neun Jahren der Reihe war der Rückgang nach Angaben der Studie schwächer als später. Eine zweite Untersuchung in einem Nachbarland fand in Wäldern keinen Rückgang, in Grünland jedoch einen vergleichbaren. Die Autoren der ersten Studie bezeichnen ihre Daten als Warnsignal, nicht als Beweis für ein flächendeckendes Insektensterben, und fordern weitere Messreihen in anderen Lebensräumen. Die Messungen fanden jeweils zwischen Mai und August statt; Daten aus dem Winter liegen nicht vor, weil die Fallen in dieser Zeit nicht im Einsatz waren.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Die Studie weist nach, dass intensive Landwirtschaft die Ursache des Rückgangs war.",
+      "Der Rückgang betraf die Zahl der Arten und die Gesamtmasse in gleichem Maß.",
+      "Die zweite Untersuchung legt nahe, dass der Rückgang je nach Lebensraum unterschiedlich ausfällt.",
+      "Die Autoren halten ihre Ergebnisse auch für Städte und Äcker für aussagekräftig."
+    ],
+    "answer": 2,
+    "why": [
+      "Die Autoren sehen nur „Hinweise auf einen Zusammenhang“ und schließen Klimafaktoren „nicht aus“.",
+      "Der Rückgang betrifft „die Masse, nicht die Zahl der Arten“; Artenverluste wurden nicht durchgehend erfasst.",
+      "Zutreffend: Im Nachbarland gab es in Wäldern „keinen Rückgang“, im Grünland einen „vergleichbaren“ – ein Hinweis auf Abhängigkeit vom Lebensraum (nicht Beweis).",
+      "Eine Aussage über Städte und Äcker bezweifeln „einzelne Fachleute“; die Autoren sprechen nur von einem „Warnsignal“ und fordern weitere Messreihen."
+    ],
+    "traps": [
+      "Kausalität unterstellt",
+      "Teilmenge ↔ Gesamtmenge",
+      "Geltungsbereich verschoben"
+    ]
+  },
+  {
+    "id": "vr-0186",
+    "topic": "Umwelt/Klima",
+    "difficulty": 3,
+    "text": "Nach der Einführung einer Umweltzone in einer mittelgroßen Stadt sank die Feinstaubkonzentration an der verkehrsnächsten Messstelle im Jahresmittel um acht Prozent. Die Stadtverwaltung führt den Rückgang auf die Zone zurück. Ein Gutachten weist darauf hin, dass zeitgleich ein milder Winter mit weniger Heizbedarf herrschte und ein nahegelegenes Heizkraftwerk stillgelegt wurde; auch an einer Vergleichsmessstelle in einer Stadt ohne Umweltzone ging der Wert um fünf Prozent zurück. Der Verkehr trägt nach dem Gutachten nur einen Teil zur Belastung bei, ein größerer Teil stamme aus Heizungen, Industrie und aus dem Ausland herangetragener Luft. Gewerbetreibende klagen, die Zone verursache Umsatzeinbußen in der Innenstadt; eine Befragung unter Händlern ergab, dass ein Drittel sinkende Kundenzahlen verzeichnete, ein Viertel dagegen steigende. Die Verwaltung kündigt an, die Zone beizubehalten und zusätzlich Stickstoffdioxid zu messen, da dieser Schadstoff stärker vom Verkehr abhänge. Das Gutachten räumt ein, dass der verbleibende Unterschied von drei Prozentpunkten gegenüber der Vergleichsstadt auf die Zone zurückgehen könnte, aber auch im Schwankungsbereich liege. Die Messstelle liegt an einer vielbefahrenen Straße; die Vergleichsstelle ist ähnlich gelegen, wurde jedoch in einer Stadt mit etwas größerer Einwohnerzahl eingerichtet, worauf die Gutachter ausdrücklich hinweisen.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Der Rückgang an der verkehrsnahen Stelle übertraf den der Vergleichsstadt um drei Prozentpunkte; ob die Zone dafür verantwortlich ist, bleibt offen.",
+      "Das Gutachten stellt fest, dass der Verkehr den größten Teil der Feinstaubbelastung verursacht, nach den im Text genannten Angaben – so die Darstellung im Text.",
+      "Die Befragung belegt, dass die Mehrheit der Händler sinkende Kundenzahlen verzeichnete, wie es im Text ausgeführt wird.",
+      "In der Stadt ohne Umweltzone blieb der Feinstaubwert unverändert – so die Darstellung im Text, wie der Text es darstellt."
+    ],
+    "answer": 0,
+    "why": [
+      "Zutreffend: acht minus fünf Prozent ergibt drei Prozentpunkte; sie könnten „auf die Zone zurückgehen“, liegen aber „auch im Schwankungsbereich“.",
+      "Der Verkehr trägt „nur einen Teil“ bei, „ein größerer Teil“ stammt aus anderen Quellen.",
+      "Nur „ein Drittel“ verzeichnete sinkende Kundenzahlen, also keine Mehrheit.",
+      "Auch dort „ging der Wert um fünf Prozent zurück“."
+    ],
+    "traps": [
+      "Teilmenge ↔ Gesamtmenge",
+      "Zahl/Menge verdreht",
+      "Gegenteil"
+    ]
+  },
+  {
+    "id": "vr-0187",
+    "topic": "Bildung",
+    "difficulty": 3,
+    "text": "Eine Auswertung über mehrere Schuljahrgänge in einem mittelgroßen EU-Land verglich Schülerinnen und Schüler, die eine Klasse wiederholten, mit Mitschülern, die trotz ähnlicher Leistungen versetzt wurden. Ein Jahr nach der Entscheidung schnitten die Wiederholer in Mathematik im Durchschnitt besser ab als die versetzten Vergleichsschüler; nach drei Jahren war dieser Vorteil verschwunden. Befürworter der Wiederholung meinen, sie gebe Kindern Zeit, Lücken zu schließen. Kritiker verweisen auf die Kosten eines zusätzlichen Schuljahres sowie darauf, dass Wiederholer später häufiger die Schule ohne Abschluss verlassen. Die Autoren warnen, dieser Zusammenhang sei nicht zwingend ursächlich, da Schüler mit ohnehin schwierigen Lebensumständen häufiger wiederholen. Lehrkräfte, die in einer Befragung ihre Entscheidungen begründeten, nannten in der Mehrzahl der Fälle schlechte Noten in mindestens zwei Fächern, seltener Fehlzeiten. In Schulen mit zusätzlicher Lernförderung für schwache, aber versetzte Schüler war der Anteil der Wiederholungen niedriger, ohne dass sich die Abschlussquote verschlechterte. Die Studie macht keine Aussage zu den Folgen der Wiederholung für das Selbstvertrauen der Betroffenen. Die Auswertung stützt sich auf Schülerdaten aus acht Jahrgängen und verzichtet bewusst auf Angaben zu einzelnen Schulen, um keine Rangfolgen zwischen Schulen zu begünstigen; Geschlecht und Herkunft flossen in den Vergleich ein.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Die höhere Abbruchquote der Wiederholer ist nach den Autoren eine Folge der Wiederholung, nach den im Text genannten Angaben – so die Darstellung im Text.",
+      "Lehrkräfte begründeten Wiederholungen meist mit Fehlzeiten der Schüler, wie es im Text ausgeführt wird.",
+      "Zusätzliche Lernförderung hat nachweislich dazu geführt, dass weniger Schüler wiederholen mussten, wie der Text es darstellt.",
+      "Wer eine Klasse wiederholte, hatte in Mathematik nur vorübergehend einen Vorteil gegenüber vergleichbaren versetzten Schülern."
+    ],
+    "answer": 3,
+    "why": [
+      "Die Autoren warnen, der Zusammenhang sei „nicht zwingend ursächlich“.",
+      "Genannt wurden „in der Mehrzahl der Fälle“ schlechte Noten, Fehlzeiten „seltener“.",
+      "Der niedrigere Anteil in Schulen mit Förderung ist nur ein Nebeneinander; ein Nachweis der Ursache steht nicht im Text.",
+      "Zutreffend: Nach einem Jahr Vorteil, „nach drei Jahren war dieser Vorteil verschwunden“ – also nur vorübergehend."
+    ],
+    "traps": [
+      "Kausalität unterstellt",
+      "Gegenteil",
+      "Kausalität unterstellt"
+    ]
+  },
+  {
+    "id": "vr-0188",
+    "topic": "Bildung",
+    "difficulty": 3,
+    "text": "In einem mittelgroßen EU-Land können seit einigen Jahren auch Personen ohne Abitur ein Studium aufnehmen, wenn sie eine Berufsausbildung abgeschlossen und mindestens drei Jahre gearbeitet haben. Im ersten Jahr nach der Öffnung nutzten gut zwei von hundert Studienanfängern diesen Weg, zehn Jahre später etwa vier von hundert. Die Abbruchquote dieser Gruppe lag nach einer Auswertung insgesamt über der anderer Anfänger, war aber in Fächern mit starkem Bezug zum erlernten Beruf, etwa Pflege oder Technik, nicht höher. Hochschulvertreter meinen, die Öffnung mildere den Fachkräftemangel; ein Wirtschaftsverband bezweifelt dies, da viele der Studierenden nach dem Abschluss nicht in den früheren Beruf zurückkehrten. Die Auswertung zeigt zugleich, dass Studierende mit Berufserfahrung später begannen und häufiger berufsbegleitend studierten. Wer in Teilzeit studiert, braucht für denselben Abschluss länger, was die Abbruchquote statistisch beeinflussen kann, da die Beobachtungszeit begrenzt ist; die Autoren rechnen diesen Effekt nicht heraus. Eine Prognose, wie sich der Anteil künftig entwickelt, geben sie nicht ab. Die Studienautoren raten, die Entwicklung der Gruppe in den kommenden Jahren weiter zu beobachten, da viele der Betroffenen ihr Studium noch nicht beendet haben und die Zahlen deshalb vorläufig sind.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Die Öffnung hat den Fachkräftemangel nach der Auswertung verringert – so die Darstellung im Text.",
+      "In berufsnahen Fächern brachen die Studierenden ohne Abitur nicht häufiger ab als andere Anfänger, obwohl ihre Quote insgesamt höher lag.",
+      "Die Abbruchquote der Gruppe ohne Abitur war in sämtlichen Fächern höher als bei den übrigen Anfängern, wie es im Text ausgeführt wird, nach den im Text genannten Angaben.",
+      "Die Autoren haben die höhere Abbruchquote um den Einfluss des Teilzeitstudiums bereinigt, wie der Text es darstellt."
+    ],
+    "answer": 1,
+    "why": [
+      "Das meinen die „Hochschulvertreter“; der Wirtschaftsverband bezweifelt es, eine Überprüfung enthält der Text nicht.",
+      "Zutreffend: Insgesamt lag die Quote „über“ der anderer Anfänger, in Fächern mit Berufsbezug war sie „nicht höher“.",
+      "In Pflege oder Technik war sie „nicht höher“; die Aussage gilt also nicht für alle Fächer.",
+      "Die Autoren „rechnen diesen Effekt nicht heraus“."
+    ],
+    "traps": [
+      "Meinung als Tatsache",
+      "Geltungsbereich verschoben",
+      "Gegenteil"
+    ]
+  },
+  {
+    "id": "vr-0189",
+    "topic": "Bildung",
+    "difficulty": 3,
+    "text": "Eine Erhebung unter Eltern in einem mittelgroßen EU-Land ergab, dass rund jedes fünfte Schulkind privaten Nachhilfeunterricht erhält. Der Anteil lag in Haushalten mit höherem Einkommen deutlich über dem in Haushalten mit niedrigem Einkommen, während der Bedarf, gemessen an den Mathematiknoten, in beiden Gruppen ähnlich war. Befürworter bezeichnen Nachhilfe als Ausgleich für überfüllte Klassen; Kritiker meinen, sie vertiefe die Ungleichheit. Eine Untersuchung verglich Schüler mit und ohne Nachhilfe, die vor Beginn gleiche Noten hatten: Nach einem halben Jahr verbesserten sich die Nachhilfeschüler im Durchschnitt um eine halbe Note, die anderen um eine Viertelnote. Die Autoren geben zu bedenken, dass Eltern, die Nachhilfe bezahlen, die Schulaufgaben vermutlich auch sonst stärker begleiten, weshalb der Unterschied nicht allein der Nachhilfe zugerechnet werden könne. Ein Pilotprojekt, in dem Schulen kostenlose Lernstunden anboten, erreichte nach Angaben der Schulen vor allem Kinder, die zuvor keine bezahlte Nachhilfe hatten; zu Noten liegen noch keine Ergebnisse vor. Die Schulbehörde plant, das Projekt auszuweiten. Die Erhebung wurde von einem Elternverband in Auftrag gegeben und von einem unabhängigen Institut durchgeführt; befragt wurden mehrere tausend Haushalte, wobei Familien mit Migrationsgeschichte etwas seltener antworteten.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Der Notenvorsprung der Nachhilfeschüler geht möglicherweise teils auf stärkere elterliche Begleitung zurück.",
+      "Die Erhebung zeigt, dass Kinder aus einkommensstarken Haushalten schlechtere Mathematiknoten haben und deshalb mehr Nachhilfe brauchen.",
+      "Das Pilotprojekt hat die Noten der teilnehmenden Kinder nachweislich verbessert.",
+      "Die Nachhilfeschüler verbesserten sich um eine halbe Note, die übrigen Schüler dagegen gar nicht."
+    ],
+    "answer": 0,
+    "why": [
+      "Zutreffend: Der Unterschied könne „nicht allein der Nachhilfe zugerechnet“ werden, da Eltern vermutlich auch sonst stärker begleiten.",
+      "Der Bedarf war „in beiden Gruppen ähnlich“; höhere Anteile erklärt er nicht.",
+      "„Zu Noten liegen noch keine Ergebnisse vor.“",
+      "Die anderen verbesserten sich „um eine Viertelnote“, nicht gar nicht."
+    ],
+    "traps": [
+      "Kausalität unterstellt",
+      "Nicht im Text (Weltwissen)",
+      "Zahl/Menge verdreht"
+    ]
+  },
+  {
+    "id": "vr-0190",
+    "topic": "Kultur/Geschichte",
+    "difficulty": 3,
+    "text": "Die Hanse war ein Zusammenschluss von Kaufleuten und später von Städten im Nord- und Ostseeraum, der vom zwölften bis ins siebzehnte Jahrhundert bestand. Eine feste Verfassung oder ein eigenes Heer besaß sie nicht; Beschlüsse wurden auf Hansetagen gefasst, zu denen nicht alle Mitgliedsstädte Vertreter entsandten, und ihre Umsetzung blieb von der Bereitschaft der einzelnen Städte abhängig. Zeitweise gelang es, durch Handelssperren Druck auf widerspenstige Handelspartner auszuüben, so gegen Flandern im vierzehnten Jahrhundert; ein Krieg gegen Dänemark Ende der 1360er Jahre endete mit einem für die Städte günstigen Frieden. Historiker streiten, ob die Hanse als Vorläufer eines wirtschaftlichen Binnenmarktes verstanden werden kann; Skeptiker wenden ein, dass es keine gemeinsame Währung und keine einheitlichen Zölle gab. Als Ursachen ihres Niedergangs gelten das Erstarken der Territorialstaaten, die Verlagerung von Handelsrouten und das Auftreten niederländischer und englischer Konkurrenten, wobei die Gewichtung dieser Ursachen in der Forschung umstritten ist. Einige Städte schieden erst aus, als die Hanse kaum noch tagte. Die Überlieferung zu den Hansetagen ist lückenhaft: Nur bei einem Teil der Versammlungen ist bekannt, welche Städte vertreten waren, weshalb Aussagen zur Beteiligung einzelner Städte vorsichtig zu bewerten sind.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Die Hansetage fassten Beschlüsse, die alle Mitgliedsstädte verbindlich umsetzen mussten – so die Darstellung im Text.",
+      "Die Forschung führt den Niedergang übereinstimmend auf das Erstarken der Territorialstaaten zurück, nach den im Text genannten Angaben.",
+      "Die Hanse konnte ihre Beschlüsse nicht selbst erzwingen, übte aber zeitweise wirtschaftlichen Druck auf Handelspartner aus.",
+      "Gegen Flandern führte die Hanse im vierzehnten Jahrhundert einen Krieg."
+    ],
+    "answer": 2,
+    "why": [
+      "Die Umsetzung war vom Willen der Städte abhängig; nicht alle sandten Vertreter.",
+      "Die „Gewichtung dieser Ursachen“ ist „umstritten“.",
+      "Zutreffend: Die Umsetzung blieb „von der Bereitschaft der einzelnen Städte abhängig“, Handelssperren gegen Flandern setzten Druck aus.",
+      "Gegen Flandern gab es eine „Handelssperre“; ein Krieg wird nur gegen Dänemark genannt."
+    ],
+    "traps": [
+      "Überverallgemeinerung",
+      "Überverallgemeinerung",
+      "Teilweise richtig"
+    ]
+  },
+  {
+    "id": "vr-0191",
+    "topic": "Kultur/Geschichte",
+    "difficulty": 3,
+    "text": "Die Pest, die in der Mitte des vierzehnten Jahrhunderts Europa erfasste, forderte nach heutigen Schätzungen den Tod von einem Drittel bis zur Hälfte der Bevölkerung, wobei die Spannweite die dünne Quellenlage widerspiegelt. Regionen waren unterschiedlich betroffen; einzelne Gebiete blieben nach Chroniken weitgehend verschont, doch sind diese Angaben nicht immer durch weitere Quellen gestützt. Als wirtschaftliche Folge gilt, dass Arbeitskräfte knapper wurden. In England stiegen die Löhne in den folgenden Jahrzehnten, obwohl ein Gesetz von 1351 sie auf dem Niveau vor der Pest festschreiben wollte. Ältere Forschung sah in der Pest einen Auslöser für das Ende der Leibeigenschaft in Westeuropa; neuere Arbeiten betonen, dass in Osteuropa in derselben Zeit die Abhängigkeit der Bauern eher zunahm, weshalb eine einfache Kausalität nicht angenommen werden könne. Eine Untersuchung weist darauf hin, dass die verbleibende Bevölkerung bessere Böden bewirtschaftete und Getreideanbau teilweise zugunsten von Viehzucht aufgab. Mehrheitlich nehmen Historiker an, dass die Pest bestehende Entwicklungen beschleunigte, statt sie allein auszulösen, doch ist diese Mehrheitsmeinung nicht unumstritten. Die Zahlen für einzelne Städte beruhen teils auf Steuerlisten, teils auf Schätzungen aus Sterbeverzeichnissen; beide Quellenarten gelten als unvollständig.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Das Gesetz von 1351 verhinderte nach den englischen Quellen einen Anstieg der Löhne.",
+      "Die wachsende Bauernabhängigkeit im Osten Europas spricht gegen eine einfache Verbindung von Pestwelle und Ende der Leibeigenschaft.",
+      "Nach den Chroniken wurde keine Region verschont.",
+      "Die Sterblichkeit lag nach gesicherter Quellenlage bei einem Drittel der Bevölkerung."
+    ],
+    "answer": 1,
+    "why": [
+      "Die Löhne „stiegen“, „obwohl“ das Gesetz sie festschreiben wollte.",
+      "Zutreffend: Neuere Arbeiten sehen im Gegentrend im Osten einen Grund, „eine einfache Kausalität nicht“ anzunehmen.",
+      "„Einzelne Gebiete blieben nach Chroniken weitgehend verschont.“",
+      "Die Schätzungen reichen von einem Drittel bis zur Hälfte; die Spanne spiegelt die „dünne Quellenlage“."
+    ],
+    "traps": [
+      "Gegenteil",
+      "Gegenteil",
+      "Zahl/Menge verdreht"
+    ]
+  },
+  {
+    "id": "vr-0192",
+    "topic": "Kultur/Geschichte",
+    "difficulty": 3,
+    "text": "In einem mittelgroßen EU-Land stehen rund eine halbe Million Gebäude unter Denkmalschutz; die Eigentümer dürfen sie nur mit Genehmigung der Denkmalbehörde äußerlich verändern. Sanierungskosten können sie in bestimmtem Umfang steuerlich geltend machen, doch deckt dies nach einer Erhebung im Mittel nur etwa ein Drittel der Mehrkosten gegenüber einer gewöhnlichen Sanierung. Kritiker meinen, die Auflagen verhinderten die Nachrüstung von Solaranlagen und Wärmedämmung. Die Behörden geben an, die Mehrzahl der Anträge auf Solaranlagen aus den letzten drei Jahren genehmigt zu haben; Anträge für Dächer, die von der Straße aus nicht einsehbar sind, seien alle bewilligt worden. Über Ablehnungen bei einsehbaren Dächern liegen keine vollständigen Zahlen vor. Eine Studie ergab, dass denkmalgeschützte Gebäude in Ortskernen seltener leer stehen als vergleichbare ungeschützte Gebäude; die Autoren führen dies nicht auf den Schutz selbst zurück, sondern vermuten, dass der Schutz vor allem in ohnehin begehrten Lagen verhängt wurde. Ein Verband der Eigentümer fordert höhere Zuschüsse, die Behörden verweisen auf knappe Mittel. Die Behörden verweisen darauf, dass die Auflagen im Einzelfall verhandelbar blieben; Eigentümerverbände sehen das anders und berichten von langen Wartezeiten bei der Bearbeitung von Anträgen.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Die steuerliche Absetzbarkeit gleicht die Mehrkosten der Sanierung denkmalgeschützter Gebäude im Mittel etwa zur Hälfte aus, wie der Text es darstellt, wie es im Text ausgeführt wird.",
+      "Nach der Studie senkt der Denkmalschutz den Leerstand in Ortskernen – so die Darstellung im Text.",
+      "Die Behörden lehnten Anträge auf Solaranlagen bei einsehbaren Dächern meist ab, wie es im Text ausgeführt wird, nach den im Text genannten Angaben.",
+      "Die Behörden haben nach eigenen Angaben die meisten Gesuche um Solarmodule bewilligt, doch fehlen vollständige Angaben zu abgelehnten Fällen bei einsehbaren Dächern."
+    ],
+    "answer": 3,
+    "why": [
+      "Es deckt „etwa ein Drittel“, nicht die Hälfte.",
+      "Die Autoren führen den geringeren Leerstand „nicht auf den Schutz selbst zurück“, sondern vermuten die Lage als Ursache.",
+      "Zu Ablehnungen bei einsehbaren Dächern fehlen vollständige Zahlen; „überwiegend“ ist nicht gedeckt.",
+      "Zutreffend: Die Mehrzahl wurde genehmigt (Angabe der Behörden), „über Ablehnungen bei einsehbaren Dächern liegen keine vollständigen Zahlen vor“."
+    ],
+    "traps": [
+      "Zahl/Menge verdreht",
+      "Kausalität unterstellt",
+      "Nicht im Text (Weltwissen)"
+    ]
+  },
+  {
+    "id": "vr-0193",
+    "topic": "Psychologie",
+    "difficulty": 3,
+    "text": "Im Experiment sollten Teilnehmende den Preis einer Flasche Wein schätzen, nachdem sie zufällig eine zweistellige Zahl, die letzten Ziffern ihrer Telefonnummer, aufgeschrieben hatten. Teilnehmende mit hohen Endziffern nannten im Mittel deutlich höhere Preise als solche mit niedrigen. Dieses Phänomen heißt Ankereffekt. Spätere Studien zeigten, dass der Effekt bei Fachleuten, die sich im Gebiet auskennen, schwächer, aber nicht ausgeschlossen ist; bei einer Untersuchung mit Immobilienmaklern beeinflusste ein genannter Angebotspreis die Schätzungen, obwohl die Makler dies bestritten. Manche Forscher erklären den Effekt damit, dass Menschen von der Zahl ausgehen und zu wenig korrigieren; andere meinen, die Zahl aktiviere passende Informationen im Gedächtnis. Welche Erklärung zutrifft, ist ungeklärt, und beide können nebeneinander gelten. Gezeigt wurde auch, dass eine Warnung vor dem Effekt ihn nur wenig verringert. Kritiker bemängeln, dass viele Experimente mit Studierenden stattfanden und die Größe des Effekts im Alltag unsicher ist. Die Autoren des Experiments weisen darauf hin, dass sie nur Teilnehmende zwischen zwanzig und dreißig Jahren untersuchten und Erfahrung mit Weinkauf nicht erfragten; ob dies das Ergebnis beeinflusste, bleibe offen. Eine Wiederholung mit einem anderen Produkt ist geplant.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Der Ankereffekt tritt nur bei Laien auf, nicht bei Fachleuten, wie der Text es darstellt.",
+      "Die Erklärung durch unzureichende Korrektur gilt gegenüber der Gedächtniserklärung als bestätigt – so die Darstellung im Text.",
+      "Eine Warnung vor dem Effekt hebt ihn auf.",
+      "Auch erfahrene Fachleute können von einer genannten Zahl beeinflusst werden, ohne es einzuräumen."
+    ],
+    "answer": 3,
+    "why": [
+      "Bei Fachleuten ist er „schwächer, aber nicht ausgeschlossen“.",
+      "Welche Erklärung zutrifft, „ist ungeklärt“.",
+      "Eine Warnung verringert ihn „nur wenig“.",
+      "Zutreffend: Bei Maklern wirkte der Angebotspreis, „obwohl die Makler dies bestritten“; bei Fachleuten ist der Effekt „nicht ausgeschlossen“."
+    ],
+    "traps": [
+      "Überverallgemeinerung",
+      "Nicht im Text (Weltwissen)",
+      "Gegenteil"
+    ]
+  },
+  {
+    "id": "vr-0194",
+    "topic": "Psychologie",
+    "difficulty": 3,
+    "text": "Der Zuschauereffekt beschreibt, dass die Wahrscheinlichkeit, einer Person in Not zu helfen, mit der Zahl der anwesenden Zuschauer tendenziell sinkt. Ein oft zitierter Fall aus den sechziger Jahren wurde später relativiert, da sich die Berichte über die Zahl der untätigen Zeugen als ungenau erwiesen. In einer Auswertung von Videoaufnahmen aus mehreren Städten griff bei etwa neun von zehn Vorfällen mindestens eine Person ein, wobei auch das Herbeirufen von Hilfe als Eingreifen zählte. Die Autoren folgern, dass bei eindeutigen Notlagen mit hoher Gefahr die Anwesenheit anderer die Hilfe nicht verringert, möglicherweise sogar fördert, weil mehrere Helfer sich das Risiko teilen. Bei mehrdeutigen Situationen, in denen unklar ist, ob Hilfe gewünscht wird, verringert eine größere Zahl von Zuschauern die Hilfsbereitschaft eher. Kritiker bemängeln, Videoaufnahmen von überwachten öffentlichen Orten stünden nicht stellvertretend für alle Orte. Die Forscher empfehlen daher nicht, aus der Studie auf private oder ländliche Räume zu schließen. Die Forscher werteten nur Vorfälle aus, in denen Gewalt oder Gefahr erkennbar war, und ließen Streitigkeiten ohne Verletzungsrisiko beiseite; die Aufnahmen stammten aus mehreren Jahren.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Der früher viel zitierte Fall belegt, dass bei jedem Notfall die meisten Zeugen untätig bleiben.",
+      "Je eindeutiger die Notlage, desto weniger bremst nach den Autoren die Anwesenheit vieler Menschen die Hilfe.",
+      "Die Auswertung zeigt, dass in überwachten wie in privaten Räumen selten geholfen wird – so die Darstellung im Text.",
+      "Bei eindeutigen Notlagen sinkt die Hilfe mit der Zuschauerzahl, bei mehrdeutigen steigt sie."
+    ],
+    "answer": 1,
+    "why": [
+      "Der Fall wurde „relativiert“, die Berichte waren „ungenau“.",
+      "Zutreffend: Bei eindeutiger Gefahr wird die Hilfe „nicht verringert“, bei Mehrdeutigkeit „eher“ verringert – abhängig von der Eindeutigkeit.",
+      "Bei neun von zehn Vorfällen griff jemand ein, und die Forscher raten, nicht auf private Räume zu schließen.",
+      "Das Verhältnis ist umgekehrt: eindeutig = keine Verringerung, mehrdeutig = Verringerung."
+    ],
+    "traps": [
+      "Überverallgemeinerung",
+      "Geltungsbereich verschoben",
+      "Gegenteil"
+    ]
+  },
+  {
+    "id": "vr-0195",
+    "topic": "Psychologie",
+    "difficulty": 3,
+    "text": "Eine oft zitierte Studie ließ Freiwillige eine neue Handlung, etwa ein Glas Wasser nach dem Frühstück, täglich wiederholen und erfasste, wann sie als automatisch empfunden wurde. Im Mittel dauerte es sechsundsechzig Tage, die Spanne reichte aber von achtzehn bis zu zweihundertvierundfünfzig Tagen; bei einer Person war die Gewohnheit auch am Ende des Beobachtungszeitraums noch nicht erreicht. Die in Ratgebern oft genannten einundzwanzig Tage lassen sich aus der Studie nicht ableiten. Das Auslassen eines einzelnen Tages verringerte den Fortschritt nach den Daten nicht merklich; erst längere Pausen taten dies. Einfache Handlungen wurden schneller zur Gewohnheit als komplexe, etwa Sportübungen. Kritiker wenden ein, dass die Teilnehmenden, überwiegend Studierende, aus eigenem Antrieb mitmachten und die Zahlen sich daher nicht auf Verhaltensänderungen übertragen ließen, die von außen verlangt werden. Die Autoren selbst sprechen von einer Schätzung; die Studie sei klein gewesen, mit weniger als hundert Personen, von denen nur ein Teil den Verlauf vollständig dokumentierte. Ratgeber empfehlen oft, sich kleine Ziele zu setzen; ob dies die Dauer verkürzt, wurde in der Studie nicht geprüft, und die Autoren sprechen dazu keine Empfehlung aus.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Ein einzelner versäumter Tag schadete dem Aufbau der Gewohnheit laut den Daten kaum.",
+      "Nach einundzwanzig Tagen war die Handlung bei allen Teilnehmenden automatisiert.",
+      "Der Mittelwert von sechsundsechzig Tagen gilt für alle Teilnehmenden, da die Abweichungen gering waren.",
+      "Komplexe Handlungen wie Sportübungen wurden schneller zur Gewohnheit als einfache."
+    ],
+    "answer": 0,
+    "why": [
+      "Zutreffend: Das Auslassen eines Tages „verringerte den Fortschritt … nicht merklich“; erst „längere Pausen“ taten es.",
+      "Die „einundzwanzig Tage“ lassen sich „aus der Studie nicht ableiten“; bei einer Person fehlte sogar nach Studienende die Gewohnheit.",
+      "Die Spanne reichte von achtzehn bis zu zweihundertvierundfünfzig Tagen, also große Abweichungen.",
+      "Es war umgekehrt: „Einfache Handlungen“ wurden „schneller“ zur Gewohnheit."
+    ],
+    "traps": [
+      "Zahl/Menge verdreht",
+      "Überverallgemeinerung",
+      "Vergleich verdreht"
+    ]
+  },
+  {
+    "id": "vr-0196",
+    "topic": "Stadtentwicklung",
+    "difficulty": 3,
+    "text": "In einem Stadtviertel, das in den letzten zwölf Jahren saniert und durch eine neue Straßenbahnlinie erschlossen wurde, stieg die Durchschnittsmiete bei Neuvermietungen um etwa die Hälfte, im Rest der Stadt um ein Viertel. Der Anteil von Haushalten mit niedrigem Einkommen im Viertel sank nach einer Auswertung von einunddreißig auf vierundzwanzig Prozent. Befürworter der Sanierung betonen, dass die Zahl leerstehender Wohnungen sank und die Kriminalität zurückging. Kritiker sprechen von Verdrängung. Eine Befragung zeigte, dass von den Haushalten, die das Viertel verließen, etwa ein Drittel dies auf Mieterhöhungen zurückführte; für die übrigen waren Arbeitsplatzwechsel, Familienzuwachs oder Wohnungskauf ausschlaggebend. Die Autoren weisen darauf hin, dass die Befragung nur Haushalte erreichte, die ihre neue Adresse hinterlassen hatten, was die Ergebnisse verzerren kann. Bestandsmieten stiegen, da durch eine Mietpreisbremse begrenzt, im Viertel nur wenig. Wer neu zuzog, zahlte daher im Durchschnitt deutlich mehr als Alteingesessene. Ob die Straßenbahnlinie oder die Sanierung stärker auf die Mieten wirkte, wurde nicht getrennt untersucht. Das Viertel liegt am Stadtrand; Zahlen zur Entwicklung der Gehälter der Bewohner im gleichen Zeitraum wurden von den Autoren nicht herangezogen.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Die Mehrheit der Haushalte, die das Viertel verließen, tat dies wegen Mieterhöhungen, wie es im Text ausgeführt wird.",
+      "Die Sanierung hat die Kriminalität im Viertel gesenkt.",
+      "Neu Zugezogene zahlten im Viertel im Mittel mehr als Alteingesessene, weil Bestandsmieten gedeckelt waren.",
+      "Der Anteil einkommensschwacher Haushalte im Viertel sank um einunddreißig Prozent."
+    ],
+    "answer": 2,
+    "why": [
+      "Nur „ein Drittel“ nannte Mieterhöhungen; die übrigen andere Gründe.",
+      "Das betonen die „Befürworter“; eine Ursache wird im Text nicht belegt.",
+      "Zutreffend: Bestandsmieten stiegen wegen der Mietpreisbremse „nur wenig“, Neuzuzug zahlte „deshalb“ mehr – Kombination zweier Sätze.",
+      "Der Anteil sank von 31 auf 24 Prozent (sieben Prozentpunkte); einunddreißig ist der Ausgangswert."
+    ],
+    "traps": [
+      "Teilmenge ↔ Gesamtmenge",
+      "Meinung als Tatsache",
+      "Zahl/Menge verdreht"
+    ]
+  },
+  {
+    "id": "vr-0197",
+    "topic": "Stadtentwicklung",
+    "difficulty": 3,
+    "text": "Eine Stadt sperrte in einem Wohnquartier den Durchgangsverkehr für Autos, ließ aber Anwohner, Lieferverkehr und Rettungsdienste weiter zu. Nach einem Jahr sank die Zahl der Autos in den inneren Straßen um rund die Hälfte, während sie in den angrenzenden Hauptstraßen um drei Prozent stieg. Die Stadtverwaltung wertet das als Erfolg, da die Gesamtzahl der Fahrten im Gebiet insgesamt leicht gesunken sei. Ein Automobilclub meint, der Verkehr werde lediglich verlagert, und verweist auf die Zunahme an den Hauptstraßen. Eine Messung der Lärmpegel ergab in den inneren Straßen eine Abnahme, an den Hauptstraßen jedoch keine messbare Veränderung. Die Zahl der Einzelhandelsgeschäfte im Quartier blieb unverändert; Umsatzzahlen wurden nicht erhoben. Bei einer Befragung gaben mehr Anwohner an, ihre Straße häufiger zum Aufenthalt zu nutzen, wobei die Teilnahme bei Familien mit Kindern am höchsten war. Die Verwaltung hält zwei weitere Quartiere für geeignet; die Auswahl hänge davon ab, ob die angrenzenden Hauptstraßen die zusätzliche Last aufnehmen können. Die Verkehrszählung erfolgte jeweils an Werktagen im Frühjahr; an Wochenenden wurde nicht gezählt, sodass der Freizeitverkehr in den Zahlen nicht enthalten ist.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Der Verkehr wurde nach den Messungen vollständig auf die Hauptstraßen verlagert, nach den im Text genannten Angaben.",
+      "Der Rückgang des Gesamtverkehrs im Gebiet stammt von der Verwaltung und lässt sich aus den Prozentwerten allein nicht berechnen.",
+      "Der Einzelhandel im Quartier erlitt keine Umsatzeinbußen, wie der Text es darstellt, wie es im Text ausgeführt wird.",
+      "An den Hauptstraßen sank der Lärmpegel in ähnlichem Maß wie in den inneren Straßen – so die Darstellung im Text, wie der Text es darstellt."
+    ],
+    "answer": 1,
+    "why": [
+      "Das behauptet der „Automobilclub“ („lediglich“); die Gesamtzahl sank laut Verwaltung, der Anstieg betrug drei Prozent.",
+      "Zutreffend: Der Text nennt Prozentwerte auf unterschiedlichen Grundlagen (Hälfte der inneren Straßen, drei Prozent der Hauptstraßen); die Gesamtbilanz ist eine Aussage der Verwaltung, aus Prozenten allein nicht herleitbar.",
+      "Die „Umsatzzahlen wurden nicht erhoben“; die Zahl der Geschäfte blieb gleich.",
+      "An den Hauptstraßen gab es „keine messbare Veränderung“."
+    ],
+    "traps": [
+      "Meinung als Tatsache",
+      "Nicht im Text (Weltwissen)",
+      "Gegenteil"
+    ]
+  },
+  {
+    "id": "vr-0198",
+    "topic": "Stadtentwicklung",
+    "difficulty": 3,
+    "text": "Der Anteil leerstehender Ladenlokale in den Innenstädten eines mittelgroßen EU-Landes stieg nach einer Zählung in zehn Jahren von acht auf zwölf Prozent. In Städten mit weniger als fünfzigtausend Einwohnern lag er mit sechzehn Prozent höher als in Großstädten mit neun Prozent. Händlerverbände machen den Onlinehandel verantwortlich. Ein Gutachten widerspricht teilweise: Auch in Städten mit besonders hoher Onlinekaufquote sei der Leerstand uneinheitlich, und in mehreren Kleinstädten seien Geschäfte vor allem wegen fehlender Nachfolger der Inhaber geschlossen worden. Ob der Onlinehandel einen Beitrag leistete, lässt das Gutachten offen. In Städten, die Läden vorübergehend günstig an Kulturinitiativen und Gründer vermieteten, sank der Leerstand nach drei Jahren im Mittel um zwei Prozentpunkte stärker als in vergleichbaren Städten ohne solche Programme. Die Gutachter warnen, dass Städte, die solche Programme starteten, womöglich ohnehin engagierter waren. Weitere Gründe, etwa hohe Mieten von Eigentümern, die auf Wertsteigerung hoffen, seien nicht systematisch untersucht worden. Das Gutachten wurde vom Städtetag in Auftrag gegeben; Händlerverbände kritisieren, dass Kleinstädte mit starkem Tourismus nicht gesondert ausgewiesen wurden, was die Zahlen für diese Gruppe verzerren könne.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "In Kleinstädten stieg der Leerstand ausschließlich wegen fehlender Nachfolger.",
+      "Die Programme zur Zwischenvermietung haben den Leerstand nachweislich um zwei Prozentpunkte stärker gesenkt.",
+      "Das Gutachten hält einen Beitrag des Onlinehandels zum Leerstand für denkbar, stellt ihn aber nicht fest.",
+      "Der Leerstand lag in Großstädten höher als in Städten unter fünfzigtausend Einwohnern – so die Darstellung im Text."
+    ],
+    "answer": 2,
+    "why": [
+      "Geschlossen wurde „vor allem“ wegen fehlender Nachfolger, „in mehreren“ Kleinstädten, nicht ausschließlich.",
+      "Der Unterschied ist ein Mittelwert; die Gutachter warnen vor Selbstauswahl engagierter Städte.",
+      "Zutreffend: Das Gutachten „lässt offen“, ob der Onlinehandel „einen Beitrag leistete“; es widerspricht den Verbänden nur „teilweise“.",
+      "Es ist umgekehrt: sechzehn Prozent in kleinen Städten, neun in Großstädten."
+    ],
+    "traps": [
+      "Überverallgemeinerung",
+      "Kausalität unterstellt",
+      "Vergleich verdreht"
+    ]
+  },
+  {
+    "id": "vr-0199",
+    "topic": "Landwirtschaft",
+    "difficulty": 3,
+    "text": "Bei der teilflächenspezifischen Düngung messen Sensoren am Traktor oder Satellitenbilder den Nährstoffbedarf einzelner Teile eines Feldes, sodass jeder Abschnitt nur die benötigte Menge Dünger erhält. Betriebe, die das System nutzen, sparten laut einer Erhebung im Mittel etwa zehn Prozent Dünger ein, wobei die Spanne von null bis zu dreißig Prozent reichte. Der Ertrag blieb im Durchschnitt unverändert. Wirtschaftlich lohnte sich die Technik nach Berechnung der Autoren vor allem auf Flächen ab etwa hundert Hektar, da die Anschaffungskosten sich sonst nicht ausgleichen. Hersteller meinen, kleinere Betriebe könnten die Technik gemeinsam oder über Lohnunternehmer nutzen; ein Verband von Kleinbetrieben verweist darauf, dass das Datenmanagement Fachwissen erfordert, das nicht überall vorhanden sei. Auf sehr gleichmäßigen Böden fiel die Einsparung gering aus. Umweltverbände sehen im geringeren Düngereinsatz einen Vorteil für Gewässer; die Erhebung selbst maß die Nährstoffeinträge in Gewässer allerdings nicht. Ob sich die Einsparungen bei steigenden Düngerpreisen vergrößern, hänge nach Angaben der Autoren vom Einzelfall ab. Die Spanne der Einsparung erklärt sich nach den Autoren überwiegend durch Bodenverhältnisse und die Größe der Schläge, wobei einzelne Betriebe abweichende Ergebnisse berichten.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Dass weniger Dünger den Gewässern nützt, ist eine plausible Erwartung, die die Erhebung selbst nicht überprüfte.",
+      "Die Technik senkte den Düngerverbrauch bei jedem teilnehmenden Betrieb um zehn Prozent, nach den im Text genannten Angaben.",
+      "Die Anschaffungskosten gleichen sich nach der Erhebung bereits unterhalb von hundert Hektar aus.",
+      "Auf gleichmäßigen Böden fiel die Einsparung am größten aus."
+    ],
+    "answer": 0,
+    "why": [
+      "Zutreffend: Umweltverbände sehen den Vorteil, die Erhebung „maß die Nährstoffeinträge … nicht“.",
+      "Zehn Prozent ist der Mittelwert; die Spanne reichte „von null bis zu dreißig Prozent“.",
+      "Lohnend „vor allem auf Flächen ab etwa hundert Hektar“, „sonst“ gleichen sich die Kosten nicht aus.",
+      "Auf sehr gleichmäßigen Böden war die Einsparung „gering“."
+    ],
+    "traps": [
+      "Überverallgemeinerung",
+      "Geltungsbereich verschoben",
+      "Gegenteil"
+    ]
+  },
+  {
+    "id": "vr-0200",
+    "topic": "Landwirtschaft",
+    "difficulty": 3,
+    "text": "Agroforstsysteme kombinieren Gehölze, etwa Baumreihen, mit Ackerbau oder Weidehaltung auf derselben Fläche. Versuche in gemäßigten Breiten zeigen, dass der Flächenertrag insgesamt, gerechnet als Summe aus Getreide und Holz, bei richtiger Anordnung höher sein kann als bei getrennter Bewirtschaftung der gleichen Flächen; der Getreideertrag allein sinkt dagegen in Baumnähe, da die Bäume Licht und Wasser beanspruchen. Die Baumreihen können Wind bremsen, Erosion mindern und im Sommer die Verdunstung am Boden verringern, so die Autoren; die Wirkung hänge von Baumart und Abstand ab. Landwirte nennen als Hindernisse die Anlaufzeit von Jahren, bis Bäume Erträge liefern, und die Pachtverhältnisse: Rund die Hälfte der Ackerflächen im untersuchten Land ist gepachtet, und Pächter pflanzen selten Bäume, deren Nutzen den Verpächtern zufällt. Förderprogramme für Agroforst gibt es, die Zahl der Anträge blieb aber nach Angaben der Behörde hinter den Erwartungen zurück. Eine Studie rechnet vor, dass sich Agroforst bei Holzpreisen unter einer bestimmten Schwelle ohne Förderung nicht trägt. Versuchsflächen mit Walnuss und Pappel lieferten unterschiedliche Ergebnisse; die Autoren verzichten daher auf eine allgemeine Empfehlung für eine bestimmte Baumart und raten zu regionalen Versuchen.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Der Getreideertrag stieg in Baumnähe, weil die Bäume Wasser speichern.",
+      "Die Förderprogramme für Agroforst wurden oft stärker nachgefragt als erwartet.",
+      "Die Baumreihen mindern die Erosion nach den Autoren unabhängig von Baumart und Abstand.",
+      "Die Summe der Erträge kann steigen, obwohl der Getreideanteil in Baumnähe geringer ausfällt."
+    ],
+    "answer": 3,
+    "why": [
+      "Der Getreideertrag „sinkt“ in Baumnähe.",
+      "Die Zahl der Anträge „blieb … hinter den Erwartungen zurück“.",
+      "Die Wirkung „hänge von Baumart und Abstand ab“.",
+      "Zutreffend: Der Gesamtertrag aus Getreide und Holz „kann höher sein“, während der Getreideertrag „allein“ in Baumnähe sinkt."
+    ],
+    "traps": [
+      "Gegenteil",
+      "Gegenteil",
+      "Bedingung weggelassen"
+    ]
+  },
+  {
+    "id": "vr-0201",
+    "topic": "Landwirtschaft",
+    "difficulty": 3,
+    "text": "Integrierter Pflanzenschutz kombiniert vorbeugende Maßnahmen, Beobachtung von Schädlingen und den Einsatz von Nützlingen, bevor chemische Mittel gespritzt werden. Eine Erhebung unter Obstbaubetrieben eines Landes verglich Betriebe mit und ohne solche Strategie. Betriebe mit integrierter Strategie spritzten im Mittel dreißig Prozent weniger Wirkstoff, ihr Anteil an Obst, das wegen Schädlingsbefalls nicht verkäuflich war, lag jedoch bei fünf statt bei vier Prozent. Die Autoren halten diesen Unterschied für nicht gesichert, da die Zahl der Betriebe klein war. Ein Beraterverband meint, der Mehraufwand durch das regelmäßige Beobachten der Bäume werde von den eingesparten Mitteln nicht ausgeglichen, wenn die Löhne hoch sind. Aus den Daten ergab sich, dass der Aufwand je Hektar in den ersten Jahren höher war und danach auf das Niveau der übrigen Betriebe zurückging. Nützlinge wie Raubmilben hielten Schädlinge nur dann im Zaum, wenn bestimmte Spritzmittel nicht eingesetzt wurden, die auch diese Tiere töten. Die Hersteller solcher Mittel bestreiten, dass ihre Präparate Nützlinge in praxisüblicher Dosierung beeinträchtigen. Die Erhebung umfasste nur Betriebe, die freiwillig Auskunft gaben; die Autoren räumen ein, dass besonders engagierte Betriebe überrepräsentiert sein könnten.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Die Erhebung bestätigt, dass die eingesparten Mittel den Mehraufwand nicht ausgleichen – so die Darstellung im Text, wie der Text es darstellt.",
+      "Die integrierte Strategie hat den Anteil unverkäuflichen Obstes nachweislich gesenkt, nach den im Text genannten Angaben – so die Darstellung im Text.",
+      "Der Mehraufwand der integrierten Strategie war nach den Daten nur anfänglich vorhanden, ein dauerhaftes Defizit gegenüber den anderen Betrieben ist daher nicht belegt.",
+      "Raubmilben halten Schädlinge oft unabhängig von den eingesetzten Spritzmitteln im Zaum, wie der Text es darstellt, wie es im Text ausgeführt wird, nach den im Text genannten Angaben."
+    ],
+    "answer": 2,
+    "why": [
+      "Das „meint“ der Beraterverband; die Daten zeigen, dass der Aufwand später sank.",
+      "Der Anteil lag bei „fünf statt vier Prozent“, also höher, und der Unterschied ist „nicht gesichert“.",
+      "Zutreffend: Der Aufwand je Hektar war „in den ersten Jahren höher“ und ging dann auf das Niveau der übrigen Betriebe zurück; die gegenteilige Sicht ist nur eine Meinung des Beraterverbands.",
+      "Nur „wenn bestimmte Spritzmittel nicht eingesetzt wurden“."
+    ],
+    "traps": [
+      "Meinung als Tatsache",
+      "Gegenteil",
+      "Bedingung weggelassen"
+    ]
+  },
+  {
+    "id": "vr-0202",
+    "topic": "Technikgeschichte",
+    "difficulty": 3,
+    "text": "Vor der Eisenbahn richtete sich die Uhrzeit in jedem Ort nach dem Stand der Sonne, sodass zwei Orte in West-Ost-Richtung mehrere Minuten Zeitunterschied haben konnten. Die Bahngesellschaften in Großbritannien führten ab den 1840er Jahren für ihre Fahrpläne eine einheitliche Zeit ein, die der Zeit von Greenwich folgte; die Uhren in den Bahnhöfen zeigten diese Zeit, während viele Rathausuhren weiter die Ortszeit zeigten. Gesetzlich verbindlich wurde die einheitliche Zeit im Land erst 1880. In den Vereinigten Staaten, wo die Bahnen bis in die 1880er Jahre allein Dutzende verschiedener Zeiten verwendeten, führten die Gesellschaften 1883 vier Zeitzonen ein; erst ein Bundesgesetz von 1918 machte sie verbindlich. In Deutschland vereinheitlichten die Länder die Zeiten zunächst nur für den Bahnbetrieb, bevor 1893 eine mitteleuropäische Zeit im Reich eingeführt wurde. Historiker betonen, dass die Bahn nicht der einzige Anlass war: Auch Telegrafie und Schifffahrt erhöhten den Bedarf nach einheitlicher Zeit; die Gewichtung der Anlässe sei umstritten. Die Zeitumstellung bereitete im Alltag Schwierigkeiten, weil private Uhren häufig nicht nachgestellt wurden und Zeitangaben deshalb je nach Quelle um einige Minuten abweichen konnten.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Amerikas Bahngesellschaften regelten die Zeit mehrere Jahrzehnte vor dem Gesetzgeber.",
+      "In Großbritannien wurde die einheitliche Zeit zuerst gesetzlich vorgeschrieben und dann von den Bahnen übernommen.",
+      "Die Forschung sieht die Eisenbahn als alleinigen Anlass für die Vereinheitlichung der Zeit.",
+      "In Deutschland wurde die Zeit im Reich vereinheitlicht, bevor die Länder sie für den Bahnbetrieb angeglichen hatten."
+    ],
+    "answer": 0,
+    "why": [
+      "Zutreffend: Bahnen führten 1883 Zonen ein, das Bundesgesetz folgte 1918 – fünfunddreißig Jahre später.",
+      "Es war umgekehrt: Bahnen ab den 1840ern, Gesetz „erst 1880“.",
+      "Auch „Telegrafie und Schifffahrt“ erhöhten den Bedarf.",
+      "Die Länder vereinheitlichten „zunächst nur für den Bahnbetrieb“, „bevor 1893“ die Reichszeit kam."
+    ],
+    "traps": [
+      "Zeitangabe verdreht",
+      "Überverallgemeinerung",
+      "Zeitangabe verdreht"
+    ]
+  },
+  {
+    "id": "vr-0203",
+    "topic": "Technikgeschichte",
+    "difficulty": 3,
+    "text": "Das erste transatlantische Telegrafenkabel wurde 1858 verlegt; die erste Nachricht, ein Gruß der Königin, brauchte rund sechzehn Stunden. Nach wenigen Wochen fiel das Kabel aus, vermutlich weil eine zu hohe Spannung die Isolierung beschädigte; die genaue Ursache wurde nie zweifelsfrei geklärt. Ein dauerhaft funktionierendes Kabel gelang erst 1866 mit dem Schiff Great Eastern, das größer war als alle damaligen Schiffe und das gesamte Kabel an Bord nehmen konnte. Mit diesem Kabel sank die Zeit für Nachrichten zwischen Europa und Nordamerika von etwa zehn Tagen mit dem Dampfschiff auf wenige Minuten. Die Preise waren anfangs hoch, sodass vor allem Regierungen und Handelshäuser das Kabel nutzten. Studien zu Preisen im Baumwollhandel zeigen, dass die Preisunterschiede zwischen Liverpool und New York nach 1866 deutlich schwanden; Forscher meinen, das Kabel habe daran großen Anteil, räumen aber ein, dass zugleich Dampfschiffe schneller und billiger wurden. Die Kosten der Verlegung waren erheblich und wurden von privaten Geldgebern getragen; mehrere Versuche scheiterten, weil das Kabel riss, und über die Höhe der Kosten machen die Quellen unterschiedliche Angaben.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Die Königin schickte ihren Gruß über das 1866 verlegte Kabel, wie der Text es darstellt.",
+      "Ob das Kabel allein die Angleichung der Baumwollpreise bewirkte, ist offen, da zugleich die Schifffahrt effizienter wurde.",
+      "Das Kabel von 1858 fiel nach den Quellen zweifelsfrei wegen zu hoher Spannung aus, nach den im Text genannten Angaben – so die Darstellung im Text.",
+      "Schon das Kabel von 1858 verkürzte die Nachrichtenzeit von zehn Tagen auf wenige Minuten, wie es im Text ausgeführt wird."
+    ],
+    "answer": 1,
+    "why": [
+      "Der Gruß lief 1858 über das erste Kabel.",
+      "Zutreffend: Die Forscher räumen ein, dass zugleich „Dampfschiffe schneller und billiger wurden“; alleinige Wirkung ist nicht belegt.",
+      "Die Ursache wurde „nie zweifelsfrei geklärt“, es heißt nur „vermutlich“.",
+      "Der Sprung auf „wenige Minuten“ gelang „mit diesem Kabel“, also dem von 1866; 1858 brauchte die erste Nachricht sechzehn Stunden."
+    ],
+    "traps": [
+      "Zeitangabe verdreht",
+      "Modalität (kann/muss)",
+      "Zeitangabe verdreht"
+    ]
+  },
+  {
+    "id": "vr-0204",
+    "topic": "Technikgeschichte",
+    "difficulty": 3,
+    "text": "Als Fabriken im späten neunzehnten Jahrhundert Elektromotoren einführten, stieg die Produktivität zunächst kaum. Wirtschaftshistoriker erklären dies damit, dass viele Betriebe den Dampfmaschinenantrieb einfach durch einen großen Elektromotor ersetzten und die zentrale Transmission mit Wellen und Riemen beibehielten. Erst als jede Maschine einen eigenen Motor erhielt, konnten Fabriken eingeschossig und nach dem Arbeitsablauf statt nach der Antriebswelle angeordnet werden. In den Vereinigten Staaten trat der Produktivitätszuwachs im verarbeitenden Gewerbe nach Auffassung der Mehrheit der Forscher erst in den 1920er Jahren auf, rund vier Jahrzehnte nach den ersten Kraftwerken. Einige Forscher bestreiten die lange Verzögerung und verweisen darauf, dass sich die Elektrifizierung erst in den 1910er Jahren in großen Teilen der Industrie durchgesetzt habe; die Wartezeit sei daher kürzer. Beide Seiten stimmen darin überein, dass die Umstellung der Fabrikorganisation Zeit brauchte. Heute dient das Beispiel in Debatten über Computer und künstliche Intelligenz, wobei Skeptiker einwenden, dass sich Technologien zu unterschiedlich entwickeln, um Rückschlüsse zu erlauben. Mehrere Forscher weisen darauf hin, dass Wirtschaftsstatistiken aus jener Zeit lückenhaft sind und der Vergleich verschiedener Jahrzehnte deshalb große Unsicherheiten enthält.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Die Mehrheit der Forscher sieht den Produktivitätsschub bereits in den 1890er Jahren.",
+      "Fabriken mit Einzelmotoren blieben an die Anordnung nach der Antriebswelle gebunden.",
+      "Skeptiker halten das Beispiel für eine verlässliche Vorlage für Computer und künstliche Intelligenz, wie es im Text ausgeführt wird.",
+      "Dass der Umbau der Betriebsabläufe Zeit beanspruchte, bestreitet keine der beiden Forschungsrichtungen."
+    ],
+    "answer": 3,
+    "why": [
+      "Die Mehrheit sieht den Zuwachs „erst in den 1920er Jahren“.",
+      "Erst mit Einzelmotoren wurde die Anordnung „nach dem Arbeitsablauf“ möglich.",
+      "Skeptiker wenden ein, Technologien entwickelten sich „zu unterschiedlich“.",
+      "Zutreffend: „Beide Seiten stimmen darin überein“, dass die Umstellung der Fabrikorganisation Zeit brauchte."
+    ],
+    "traps": [
+      "Zeitangabe verdreht",
+      "Gegenteil",
+      "Gegenteil"
+    ]
+  },
+  {
+    "id": "vr-0205",
+    "topic": "Ernährung",
+    "difficulty": 3,
+    "text": "Mehrere Länder haben eine Abgabe auf stark gezuckerte Getränke eingeführt, deren Höhe sich teils nach dem Zuckergehalt richtet. Nach der Einführung einer gestaffelten Abgabe in einem Land sank der durchschnittliche Zuckergehalt der angebotenen Getränke um knapp ein Fünftel, da Hersteller Rezepturen änderten, während der Absatz der Getränke in der höchsten Abgabenstufe zurückging. Untersuchungen zum Körpergewicht der Bevölkerung kommen zu weniger klaren Ergebnissen: In einem Land sank der Anteil übergewichtiger Kinder, doch lag der Rückgang in der Größenordnung eines Trends, der schon vorher bestand. Die Getränkeindustrie meint, die Abgabe treffe vor allem einkommensschwache Haushalte, weil diese einen höheren Anteil ihres Einkommens für Lebensmittel ausgeben; Gesundheitsökonomen entgegnen, gerade diese Haushalte konsumierten im Durchschnitt mehr gesüßte Getränke und könnten daher stärker von einer Verringerung profitieren. Eine Abgabe senkt den Zuckerkonsum nicht, wenn Verbraucher auf andere Süßigkeiten ausweichen; ob sie das tun, wurde nur in wenigen Studien untersucht. Die Einnahmen werden in einigen Ländern für Sportprogramme an Schulen verwendet. Eine Untersuchung in einem Nachbarland fand keinen Unterschied im Zuckergehalt, wohl aber in der Menge der Süßstoffe; die Ergebnisse sind wegen unterschiedlicher Messmethoden nur eingeschränkt vergleichbar.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Der Rückgang des Zuckergehalts ging nach dem Text auf geänderte Rezepturen zurück und nicht allein auf eine geringere Nachfrage.",
+      "Der Rückgang übergewichtiger Kinder belegt die Wirkung der Abgabe.",
+      "Branche und Ökonomen stimmen überein, dass einkommensschwache Haushalte stärker belastet werden.",
+      "In mehreren Studien wurde ein Ausweichen auf andere Süßigkeiten nachgewiesen."
+    ],
+    "answer": 0,
+    "why": [
+      "Zutreffend: Der Zuckergehalt sank, „da Hersteller Rezepturen änderten“; der geringere Absatz betraf nur die höchste Stufe.",
+      "Der Rückgang lag „in der Größenordnung eines Trends, der schon vorher bestand“.",
+      "Die Ökonomen „entgegnen“ und erwarten sogar einen Vorteil für diese Haushalte.",
+      "Ob Verbraucher ausweichen, wurde „nur in wenigen Studien untersucht“; ein Nachweis steht nicht im Text."
+    ],
+    "traps": [
+      "Kausalität unterstellt",
+      "Meinung als Tatsache",
+      "Nicht im Text (Weltwissen)"
+    ]
+  },
+  {
+    "id": "vr-0206",
+    "topic": "Ernährung",
+    "difficulty": 3,
+    "text": "Eine farbige Nährwertkennzeichnung auf Verpackungen soll Käufern helfen, Produkte schnell zu vergleichen. In einem Experiment in Supermärkten eines mittelgroßen EU-Landes wählten Kunden, bei denen Produkte mit einem Farbsystem von Grün bis Rot gekennzeichnet waren, im Mittel Waren mit etwas weniger Zucker und Salz als Kunden eines Vergleichsmarktes ohne Kennzeichnung. Der Unterschied betrug beim Zucker vier Prozent, beim Salz zwei Prozent. Hersteller bemängeln, dass das System Portionsgrößen nicht berücksichtigt und ein Produkt rot bewertet werden kann, das nur in kleinen Mengen verzehrt wird. Verbraucherverbände halten die Einfachheit für den Vorteil. Auffällig war, dass einige Hersteller ihre Rezepturen anpassten, um bessere Farbwerte zu erzielen, und dabei teils die Zuckermenge senkten, aber Süßstoffe oder Fett zusetzten. Eine Befragung ergab, dass Käufer die Farben verstanden, ihre Kaufentscheidung aber nach eigener Angabe vor allem vom Preis abhing. Die Autoren weisen darauf hin, dass der Vergleichsmarkt einen anderen Kundenkreis hatte und der Unterschied daher nicht allein der Kennzeichnung zugerechnet werden könne. Hersteller berichten, die Anpassung der Rezepturen habe Monate gedauert und sei teuer gewesen; belegt wurde dies in der Untersuchung nicht.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Die Käufer im Kennzeichnungsmarkt kauften tendenziell insgesamt vier Prozent weniger Lebensmittel.",
+      "Der Unterschied zum Vergleichsmarkt geht nach den Autoren allein auf die Kennzeichnung zurück.",
+      "Nach eigener Angabe richteten die Käufer ihre Entscheidung vor allem nach den Farben.",
+      "Eine bessere Farbbewertung bedeutete nicht zwingend ein insgesamt ausgewogeneres Produkt."
+    ],
+    "answer": 3,
+    "why": [
+      "Vier Prozent bezieht sich auf den Zuckergehalt der gewählten Waren, nicht auf die Menge.",
+      "Die Autoren sagen, der Unterschied könne „nicht allein“ zugerechnet werden.",
+      "Die Entscheidung hing „vor allem vom Preis“ ab.",
+      "Zutreffend: Einige Hersteller senkten „die Zuckermenge“, setzten aber „Süßstoffe oder Fett“ zu – Farbwert und Gesamtqualität fallen auseinander."
+    ],
+    "traps": [
+      "Zahl/Menge verdreht",
+      "Gegenteil",
+      "Gegenteil"
+    ]
+  },
+  {
+    "id": "vr-0207",
+    "topic": "Ernährung",
+    "difficulty": 3,
+    "text": "Beobachtungsstudien finden häufig, dass Menschen, die sich überwiegend mediterran ernähren, seltener an Herz-Kreislauf-Erkrankungen erkranken. Da solche Studien nur Gruppen vergleichen, die sich ihre Ernährung selbst gewählt haben, können Faktoren wie Bildung, Einkommen und Bewegung die Ergebnisse beeinflussen; Forscher rechnen solche Einflüsse zwar heraus, aber nur für gemessene Merkmale. In einer großen Versuchsreihe wurden Teilnehmende mit erhöhtem Risiko zufällig in Gruppen mit mediterraner Ernährung, ergänzt um Olivenöl oder Nüsse, oder mit fettarmer Kost eingeteilt; nach rund fünf Jahren traten in den mediterranen Gruppen etwa dreißig Prozent weniger schwere Herz-Kreislauf-Ereignisse auf. Nach einer nachträglichen Prüfung musste die Studie teilweise neu ausgewertet werden, weil bei einem Teil der Teilnehmenden die Zuteilung nicht zufällig erfolgt war; das Ergebnis blieb in der Neuauswertung ähnlich. Kritiker weisen darauf hin, dass die Teilnehmenden ein erhöhtes Risiko hatten und die Ergebnisse nicht ohne weiteres auf Gesunde übertragbar seien. Offen ist, welcher Bestandteil der Ernährung die Wirkung trägt. Die Teilnehmenden der Versuchsreihe erhielten Ernährungsberatung und kostenlose Lebensmittel, was im Alltag nicht überall zur Verfügung steht; die Autoren zählen dies zu den Einschränkungen.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Die Beobachtungsstudien rechnen sämtliche Einflüsse von Bildung und Einkommen heraus, wie es im Text ausgeführt wird, nach den im Text genannten Angaben.",
+      "Die Versuchsreihe beweist, dass das Olivenöl der wirksame Bestandteil ist, wie der Text es darstellt, wie es im Text ausgeführt wird.",
+      "Die Neuauswertung der Versuchsreihe bestätigte im Wesentlichen das ursprüngliche Ergebnis, obwohl die Gruppenzuteilung teilweise nicht dem Zufall überlassen worden war.",
+      "Die Ergebnisse gelten nach der Studie auch für gesunde Menschen ohne erhöhtes Risiko, nach den im Text genannten Angaben – so die Darstellung im Text, wie der Text es darstellt."
+    ],
+    "answer": 2,
+    "why": [
+      "Herausgerechnet wird „nur für gemessene Merkmale“.",
+      "„Offen ist, welcher Bestandteil … die Wirkung trägt.“",
+      "Zutreffend: Das Ergebnis „blieb in der Neuauswertung ähnlich“, obwohl die Zuteilung bei einem Teil nicht zufällig war.",
+      "Kritiker halten die Übertragung auf Gesunde für nicht ohne weiteres möglich; die Studie belegt sie nicht."
+    ],
+    "traps": [
+      "Überverallgemeinerung",
+      "Kausalität unterstellt",
+      "Geltungsbereich verschoben"
+    ]
+  },
+  {
+    "id": "vr-0208",
+    "topic": "Wissenschaft",
+    "difficulty": 3,
+    "text": "Der Impact-Faktor einer Fachzeitschrift gibt an, wie oft ihre Aufsätze der beiden Vorjahre im Durchschnitt im laufenden Jahr zitiert wurden. Er wird häufig zur Bewertung von Forschenden herangezogen, obwohl er eine Eigenschaft der Zeitschrift und nicht des einzelnen Aufsatzes beschreibt. Eine Analyse zeigte, dass in vielen Zeitschriften eine kleine Zahl sehr häufig zitierter Aufsätze die Mehrzahl der Zitate auf sich vereint, sodass der Mittelwert über dem liegt, was die meisten Aufsätze erreichen. Zwischen Fachgebieten ist der Faktor nicht vergleichbar, da in der Biomedizin mehr Literatur je Aufsatz zitiert wird als in der Mathematik. Mehrere Förderorganisationen haben erklärt, bei Bewerbungen den Impact-Faktor nicht mehr zu berücksichtigen; eine Umfrage unter Mitgliedern von Berufungskommissionen ergab, dass etwa die Hälfte ihn dennoch weiter heranziehe, meist mit dem Hinweis, er sei ein praktisches Hilfsmittel bei großen Bewerberzahlen. Verteidiger des Maßes meinen, es spiegle zumindest grob die Selektivität der Zeitschriften; Kritiker bezweifeln, dass Selektivität und Qualität des einzelnen Beitrags übereinstimmen. Die Autoren der Analyse betonen, dass der Impact-Faktor nicht alle Fachgebiete gleich abdeckt und manche Teilgebiete, vor allem Geistes- und Sozialwissenschaften, in der zugrunde liegenden Datenbank unterrepräsentiert sind.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Die Hälfte der Förderorganisationen verwendet den Impact-Faktor weiterhin, wie es im Text ausgeführt wird.",
+      "Für einen typischen Aufsatz einer solchen Zeitschrift ist deren Impact-Faktor deshalb meist ein zu hoher Erwartungswert.",
+      "Die Selektivität einer Zeitschrift entspricht nachweislich der Qualität ihrer einzelnen Beiträge, wie der Text es darstellt.",
+      "Ein gleich hoher Wert bedeutet in Mathematik und Biomedizin dieselbe Bedeutung."
+    ],
+    "answer": 1,
+    "why": [
+      "Die Hälfte betrifft „Mitglieder von Berufungskommissionen“, nicht Förderorganisationen; diese haben den Verzicht erklärt.",
+      "Zutreffend: Wenige Aufsätze vereinen die Mehrzahl der Zitate, der Mittelwert liegt „über dem, was die meisten Aufsätze erreichen“.",
+      "Das bezweifeln die „Kritiker“; die Verteidiger sehen nur eine grobe Spiegelung.",
+      "Der Faktor ist zwischen Fachgebieten „nicht vergleichbar“."
+    ],
+    "traps": [
+      "Teilmenge ↔ Gesamtmenge",
+      "Meinung als Tatsache",
+      "Gegenteil"
+    ]
+  },
+  {
+    "id": "vr-0209",
+    "topic": "Medizin/Gesundheit",
+    "difficulty": 3,
+    "text": "Ein Medikament senkte in einer Studie das relative Risiko eines Herzinfarkts innerhalb von fünf Jahren um dreißig Prozent. In der Gruppe ohne Medikament erlitten zehn von tausend Teilnehmenden einen Infarkt, in der behandelten Gruppe sieben von tausend. Die Studie umfasste Personen mittleren Alters ohne Vorerkrankung. Der Hersteller wirbt mit der Angabe von dreißig Prozent; unabhängige Fachleute verweisen darauf, dass der absolute Unterschied drei Fälle je tausend beträgt, und rechnen vor, dass rund dreihundertdreißig Personen fünf Jahre lang behandelt werden müssten, um einen Infarkt zu verhindern. Bei Menschen mit hohem Ausgangsrisiko, etwa nach einem früheren Infarkt, sei der absolute Nutzen größer, auch wenn die relative Senkung ähnlich bleibe, was aber nicht für alle Risikogruppen geprüft wurde. Als Nebenwirkung traten Muskelschmerzen bei vier von hundert behandelten und bei drei von hundert unbehandelten Teilnehmenden auf; die Studienleiter bewerten den Unterschied als nicht eindeutig. Die Zulassungsbehörde verlangt weitere Beobachtung über zehn Jahre. Der Hersteller stellte klar, dass die Studie von einem unabhängigen Institut ausgewertet wurde; die Finanzierung übernahm jedoch das Unternehmen selbst, was Kritiker für problematisch halten.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Von hundert Behandelten verhindert das Medikament nach der Studie dreißig Infarkte.",
+      "Fast alle Teilnehmenden der Vergleichsgruppe blieben im Beobachtungszeitraum ohne Infarkt, weshalb der Nutzen für den Einzelnen klein ausfällt.",
+      "Muskelschmerzen traten nach den Studienleitern eindeutig häufiger unter dem Medikament auf, wie der Text es darstellt.",
+      "Wegen der relativen Senkung um dreißig Prozent müssen dreiunddreißig Personen behandelt werden, um einen Infarkt zu verhindern – so die Darstellung im Text."
+    ],
+    "answer": 1,
+    "why": [
+      "Dreißig Prozent ist die relative Senkung; absolut sind es drei Fälle je tausend, nicht dreißig je hundert.",
+      "Zutreffend: In der Gruppe ohne Medikament erlitten nur zehn von tausend einen Infarkt, also blieben neunhundertneunzig ohne; der absolute Unterschied beträgt drei je tausend.",
+      "Die Studienleiter bewerten den Unterschied als „nicht eindeutig“.",
+      "Rund dreihundertdreißig Personen müssten behandelt werden, nicht dreiunddreißig."
+    ],
+    "traps": [
+      "Zahl/Menge verdreht",
+      "Gegenteil",
+      "Zahl/Menge verdreht"
+    ]
+  },
+  {
+    "id": "vr-0210",
+    "topic": "Umwelt/Klima",
+    "difficulty": 3,
+    "text": "Ein Programm pflanzte in zehn Jahren in einer Region eine Million Bäume, um Kohlenstoff zu binden. Nach einer Untersuchung überlebten nach fünf Jahren siebzig Prozent der Setzlinge auf Flächen, die zuvor Weideland waren, auf ehemaligen Ackerflächen mit verdichtetem Boden dagegen nur etwa vierzig Prozent. Die Bindung von Kohlenstoff hängt von Baumart, Boden und Klima ab; schnell wachsende Arten binden in den ersten Jahrzehnten mehr, sind aber oft weniger langlebig. Kritiker meinen, Pflanzungen in Monokultur seien anfälliger für Schädlinge und böten weniger Lebensraum; in dem Programm bestanden etwa zwei Drittel der Flächen aus nur einer Baumart. Das Programm weist darauf hin, dass die Einzelflächen klein und von Wald umgeben seien, was die Ausbreitung von Schädlingen begrenze; eine Messung dazu liegt nicht vor. Nach einer Berechnung der Programmleitung haben die Bäume nach dreißig Jahren so viel Kohlenstoff gebunden, wie die Region in etwa einem Jahr ausstößt. Unabhängige Fachleute halten die dabei angenommene Überlebensrate für zu optimistisch, da die Zahl von siebzig Prozent auf alle Flächen angewendet werde. Die Programmleitung hat angekündigt, die Überlebensrate künftig für jede Fläche einzeln zu erfassen und die Ergebnisse zu veröffentlichen.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Die Berechnung der Programmleitung stützt sich auf eine Überlebensrate, die nur für einen Teil der Flächen belegt ist.",
+      "Auf ehemaligen Ackerflächen überlebten nach fünf Jahren mehr Setzlinge als auf ehemaligem Weideland, nach den im Text genannten Angaben.",
+      "Eine Messung bestätigt, dass die kleinen Waldflächen die Ausbreitung von Schädlingen begrenzen.",
+      "Schnell wachsende Arten binden meist dauerhaft mehr Kohlenstoff als langsam wachsende – so die Darstellung im Text."
+    ],
+    "answer": 0,
+    "why": [
+      "Zutreffend: Siebzig Prozent gelten für ehemaliges Weideland, werden aber laut Fachleuten „auf alle Flächen angewendet“.",
+      "Auf Weideland überlebten siebzig, auf Ackerflächen nur etwa vierzig Prozent.",
+      "Eine Messung dazu „liegt nicht vor“.",
+      "Schnell wachsende Arten binden nur „in den ersten Jahrzehnten“ mehr und sind „oft weniger langlebig“."
+    ],
+    "traps": [
+      "Vergleich verdreht",
+      "Meinung als Tatsache",
+      "Bedingung weggelassen"
+    ]
+  }
+]
