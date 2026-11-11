@@ -158,6 +158,7 @@ interface Spec {
   tol?: number;
   minGap?: number;
   estimate?: boolean;
+  allowNeg?: boolean;
 }
 interface Template {
   id: string;
