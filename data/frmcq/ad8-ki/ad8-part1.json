@@ -26,7 +26,7 @@
     "question": "Which AI systems are excluded from the AI Act under Art. 2(3), regardless of the type of entity operating them?",
     "options": [
       "Systems used by any public authority in the course of its tasks",
-      "Systems used exclusively for military, defence or national security purposes",
+      "Systems used exclusively for military, defence or national security",
       "Systems used by law enforcement authorities for criminal investigations",
       "Systems used by Union institutions for internal administration"
     ],
@@ -104,7 +104,7 @@
       "a distributor, verifying only the CE marking",
       "a deployer, using the system under its authority",
       "an importer, verifying the conformity assessment",
-      "a provider of the high-risk system, subject to Art. 16"
+      "a provider of the system, subject to Art. 16"
     ],
     "answer": 3,
     "explanation": "Art. 25(1)(a): anyone who puts their name or trademark on a high-risk system already on the market is considered its provider and bears the Art. 16 obligations, without prejudice to contractual allocation.",
@@ -139,7 +139,7 @@
     "difficulty": 2,
     "question": "Which change to a high-risk AI system on the market is a 'substantial modification' within Art. 3(23)?",
     "options": [
-      "A change not foreseen in the initial assessment that affects compliance or purpose",
+      "A change not foreseen at the outset that affects its compliance or purpose",
       "Any software update released after the system has been placed on the market",
       "Any retraining of the underlying model with new data supplied by deployers",
       "Any change of the user-interface language made by an individual deployer"
@@ -202,7 +202,7 @@
       "take measures to ensure, to their best extent, sufficient AI literacy of staff"
     ],
     "answer": 3,
-    "explanation": "As originally adopted, Art. 4 is a best-efforts duty to ensure sufficient AI literacy of staff and others dealing with the operation and use of AI systems, taking account of their knowledge, experience and context. It prescribes no certification or specific role.",
+    "explanation": "As originally adopted, Art. 4 is a best-efforts duty to ensure sufficient AI literacy of staff and others dealing with the operation and use of AI systems, taking account of their knowledge, experience and context. It prescribes no certification or specific role. (Reg. (EU) 2026/1744, the Digital Omnibus on AI in force since 27 July 2026, has since reworded Art. 4 to a duty to take measures to support AI literacy, with Commission and Member State support.)",
     "source": {
       "title": "Regulation (EU) 2024/1689 (AI Act), Art. 4",
       "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
@@ -216,7 +216,7 @@
     "question": "Which practice is prohibited under Art. 5(1) of the AI Act?",
     "options": [
       "AI-based assessment of the creditworthiness of natural persons by a bank",
-      "AI-enabled social scoring causing detrimental treatment in unrelated contexts",
+      "Social scoring causing detrimental treatment in unrelated contexts",
       "AI-based filtering of job applications by an employer for recruitment",
       "A customer-service chatbot that does not disclose that it is an AI system"
     ],
@@ -273,7 +273,7 @@
     "question": "Real-time remote biometric identification in publicly accessible spaces for law enforcement is allowed only where strictly necessary for, among others,",
     "options": [
       "the monitoring of all visitors of a large football match to spot known hooligans",
-      "the targeted search for specific victims of abduction or trafficking and missing persons",
+      "the targeted search for specific victims of abduction and missing persons",
       "the identification of every participant in a political demonstration in the city",
       "routine identity checks of all passers-by in a busy city-centre shopping street"
     ],
@@ -294,7 +294,7 @@
       "Within 12 hours of the first use of the system",
       "Within 48 hours of the first use of the system",
       "Within 7 days of the first use of the system",
-      "Without undue delay and at the latest within 24 hours"
+      "Without undue delay, within 24 hours at most"
     ],
     "answer": 3,
     "explanation": "Art. 5(3) requires the authorisation request without undue delay and at the latest within 24 hours; if rejected, use stops immediately and data are deleted. The 48-hour period belongs to post-remote identification (Art. 26(10)).",
@@ -349,7 +349,7 @@
     "question": "Besides being a safety component of a product covered by Annex I legislation, what must also be true for high-risk status under Art. 6(1)?",
     "options": [
       "The system must perform profiling of natural persons in its intended use",
-      "The product must be required to undergo a third-party conformity assessment",
+      "The product must require a third-party conformity assessment",
       "The product must be placed on the market or used by a public authority",
       "The system must, in addition, be listed in one of the areas of Annex III"
     ],
@@ -370,7 +370,7 @@
       "Obtain a written confirmation from the AI Office before placing it on the market",
       "Ask a notified body to certify that the Art. 6(3) derogation is applicable",
       "Nothing further, as the system then falls entirely outside the Regulation",
-      "Document the assessment before placing on the market and register under Art. 49(2)"
+      "Document the assessment beforehand and register the system under Art. 49(2)"
     ],
     "answer": 3,
     "explanation": "Art. 6(4): the provider must document its assessment before the system is placed on the market, is subject to the registration duty of Art. 49(2) and must hand the documentation to national authorities on request. No prior approval is required.",
@@ -405,10 +405,10 @@
     "difficulty": 1,
     "question": "Which AI use is listed as high-risk in Annex III?",
     "options": [
-      "Detecting financial fraud in card transactions",
+      "Detecting financial fraud in card payment transactions",
       "Evaluating the creditworthiness of natural persons",
-      "Filtering spam in an e-mail service",
-      "Recommending music to subscribers"
+      "Filtering spam messages in a consumer e-mail service",
+      "Recommending music and playlists to streaming subscribers"
     ],
     "answer": 1,
     "explanation": "Annex III point 5(b) covers creditworthiness evaluation and credit scoring of natural persons, expressly excluding systems used to detect financial fraud.",
@@ -425,7 +425,7 @@
     "question": "Under Art. 9, the risk management system for a high-risk AI system is",
     "options": [
       "a one-off assessment that is completed before the system is placed on the market",
-      "a continuous iterative process planned and run throughout the system's lifecycle",
+      "a continuous iterative process planned and run during the system's lifecycle",
       "an annual audit that is carried out by a notified body at the provider's expense",
       "a process that is limited to the phase in which the model is being trained"
     ],
@@ -441,15 +441,15 @@
     "pkg": "ad8-ki",
     "area": "ai-act",
     "difficulty": 3,
-    "question": "Under Art. 10(5), when may providers exceptionally process special categories of personal data for bias detection and correction?",
+    "question": "As originally adopted, under Art. 10(5), when may providers of high-risk systems exceptionally process special categories of personal data for bias detection and correction?",
     "options": [
       "Whenever the data subjects concerned have given their explicit consent to that purpose",
       "Whenever the national data protection authority has approved the bias-correction project",
-      "Only where strictly necessary and other data, even synthetic or anonymised, do not suffice",
+      "Only if strictly necessary and synthetic or anonymised data do not suffice",
       "Whenever the data concerned have manifestly been made public by the data subjects"
     ],
     "answer": 2,
-    "explanation": "Art. 10(5) allows it exceptionally, to the extent strictly necessary, if bias detection cannot be done with other data (including synthetic or anonymised) and subject to safeguards such as access controls, no onward transfer and deletion after use.",
+    "explanation": "Art. 10(5) allows it exceptionally, to the extent strictly necessary, if bias detection cannot be done with other data (including synthetic or anonymised) and subject to safeguards such as access controls, no onward transfer and deletion after use. (The Digital Omnibus, Reg. (EU) 2026/1744, later moved this rule into a new Art. 4a covering all AI systems; the strict-necessity condition remains.)",
     "source": {
       "title": "Regulation (EU) 2024/1689 (AI Act), Art. 10(5)",
       "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
@@ -481,7 +481,7 @@
     "difficulty": 2,
     "question": "For high-risk remote biometric identification systems under Annex III point 1(a), Art. 14(5) says no action or decision may be taken on the basis of an identification unless it has been separately verified and confirmed by",
     "options": [
-      "at least two natural persons with the necessary competence, training and authority",
+      "at least two natural persons with competence, training and authority",
       "a judicial authority, which must confirm each identification individually",
       "one natural person who has been assigned to that task by the provider",
       "the notified body that certified the system during its conformity assessment"
@@ -538,7 +538,7 @@
     "difficulty": 2,
     "question": "A provider finds that a high-risk system already on the market is not in conformity. According to Art. 20, it must",
     "options": [
-      "immediately take corrective action or withdraw, disable or recall it, informing others",
+      "immediately take corrective action or withdraw or recall it, informing others",
       "wait until the market surveillance authority has issued a formal corrective order",
       "inform only the AI Office and continue to supply the system in the meantime",
       "remedy the non-conformity in the next release that has already been planned"
@@ -560,7 +560,7 @@
       "obtain an authorisation from the AI Board for its high-risk system",
       "register as a distributor in at least one Member State of the Union",
       "set up a subsidiary that performs the conformity assessment on its behalf",
-      "appoint, by written mandate, an authorised representative established in the Union"
+      "appoint an authorised representative in the Union by written mandate"
     ],
     "answer": 3,
     "explanation": "Art. 22(1): providers established in third countries must, before making their high-risk systems available in the Union, appoint by written mandate an authorised representative established in the Union.",
@@ -615,7 +615,7 @@
     "question": "Which deployer must carry out a fundamental rights impact assessment under Art. 27 before first use?",
     "options": [
       "A private company using a CV-screening system for its own hiring",
-      "A private bank using a system to assess the creditworthiness of natural persons",
+      "A private bank assessing the creditworthiness of natural persons",
       "A private operator using AI as a safety component in electricity supply",
       "A private university using AI to plan the timetables of its lecture halls"
     ],
@@ -636,7 +636,7 @@
       "a full copy of the system's source code together with its complete training data set",
       "a new human decision on the case within 24 hours, in every single instance",
       "financial compensation for the decision, without any proof of actual damage",
-      "clear and meaningful explanations of the system's role and the decision's main elements"
+      "clear explanations of the system's role and the decision's main elements"
     ],
     "answer": 3,
     "explanation": "Art. 86(1) grants a right to explanation of the system's role and the main elements of the decision when the decision has legal effects or similarly significantly affects health, safety or fundamental rights. It does not grant source-code access.",
@@ -690,7 +690,7 @@
     "difficulty": 3,
     "question": "What is the maximum validity of a certificate issued by a notified body for an AI system covered by Annex III?",
     "options": [
-      "Four years, with extension in further periods of up to four years",
+      "Four years, extendable in further periods of up to four years",
       "Two years, non-renewable",
       "Five years, with extension in further periods of up to five years",
       "Ten years, matching the documentation retention period"
@@ -728,7 +728,7 @@
     "difficulty": 2,
     "question": "For exceptional reasons of public security or protection of life and health, who may authorise the placing on the market of a specific high-risk system before conformity assessment is completed (Art. 46)?",
     "options": [
-      "The market surveillance authority of the Member State concerned, for a limited period",
+      "The market surveillance authority of the Member State concerned",
       "The AI Office, by a decision that is valid for the whole territory of the Union",
       "A notified body chosen by the provider, by a decision valid for five years",
       "The European Commission, by an implementing act adopted after a Board opinion"
@@ -747,7 +747,7 @@
     "difficulty": 2,
     "question": "Which high-risk systems are registered at national level instead of in the EU database (Art. 49)?",
     "options": [
-      "Systems referred to in Annex III point 4 (employment)",
+      "Systems referred to in Annex III point 4 (employment and workers management)",
       "Systems referred to in Annex III point 2 (critical infrastructure)",
       "Systems referred to in Annex III point 3 (education)",
       "Systems referred to in Annex III point 5 (essential services)"
@@ -786,7 +786,7 @@
     "question": "Art. 50(1) requires providers of AI systems intended to interact directly with natural persons to ensure that these persons are informed that they interact with an AI system, unless",
     "options": [
       "this is obvious to a reasonably well-informed, observant and circumspect person",
-      "the provider qualifies as an SME or a start-up under the Union recommendation",
+      "the provider qualifies as a micro, small or medium-sized enterprise or a start-up",
       "the interaction with the system is free of charge for the person concerned",
       "the system has already been registered in the EU database by its provider"
     ],
@@ -826,7 +826,7 @@
       "The publisher qualifies as an SME or start-up within the meaning of Union law",
       "The article is accessible to readers free of charge and without registration",
       "Human review or editorial control occurred and someone is editorially responsible",
-      "The text is published exclusively online and not distributed in any printed form"
+      "The text is published exclusively online and not distributed in any printed form or by broadcast"
     ],
     "answer": 2,
     "explanation": "Art. 50(4), second subparagraph, exempts AI-generated public-interest text that has undergone human review or editorial control where a natural or legal person holds editorial responsibility. Size, price or channel are irrelevant.",
@@ -848,7 +848,7 @@
       "2 August 2026"
     ],
     "answer": 3,
-    "explanation": "As originally adopted, Art. 57(1) set 2 August 2026 for at least one operational national sandbox, which may be set up jointly with other Member States or by joining an existing sandbox.",
+    "explanation": "As originally adopted, Art. 57(1) set 2 August 2026 for at least one operational national sandbox, which may be set up jointly with other Member States or by joining an existing sandbox. Note: Reg. (EU) 2026/1744 postponed this date to 2 August 2027.",
     "source": {
       "title": "Regulation (EU) 2024/1689 (AI Act), Art. 57(1)",
       "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
@@ -901,7 +901,7 @@
     "options": [
       "part of the EU declaration of conformity",
       "a separate document filed only with the notified body",
-      "part of the technical documentation referred to in Annex IV",
+      "part of the technical documentation (Annex IV)",
       "part of the instructions for use given to deployers"
     ],
     "answer": 2,
@@ -921,7 +921,7 @@
       "Not later than 2 days after becoming aware",
       "Not later than 15 days after becoming aware",
       "Not later than 10 days after becoming aware",
-      "Not later than 30 days after becoming aware"
+      "Not later than 30 days after becoming aware of it"
     ],
     "answer": 2,
     "explanation": "Art. 73(4): in the event of death, the report is due immediately after the causal relationship is established or suspected, and not later than 10 days after awareness. The general limit is 15 days (Art. 73(2)); 2 days apply to widespread infringements and critical-infrastructure incidents.",
@@ -939,7 +939,7 @@
     "options": [
       "The AI Office, which then informs the Member States concerned of the incident",
       "The notified body that certified the system in its conformity assessment",
-      "The market surveillance authorities of the Member States where the incident occurred",
+      "The market surveillance authorities of the Member States where it occurred",
       "The authority of the Member State in which the provider is established"
     ],
     "answer": 2,
@@ -1000,7 +1000,7 @@
       "SMEs pay half of the fine applicable to other operators"
     ],
     "answer": 0,
-    "explanation": "Art. 99(6): for SMEs each fine reaches up to the percentage or amount of Art. 99(3)-(5), whichever is lower, whereas for other undertakings the higher figure applies.",
+    "explanation": "Art. 99(6): for SMEs each fine reaches up to the percentage or amount of Art. 99(3)-(5), whichever is lower, whereas for other undertakings the higher figure applies. Reg. (EU) 2026/1744 added a comparable lower-of rule for small mid-cap enterprises (Art. 99(6a)).",
     "source": {
       "title": "Regulation (EU) 2024/1689 (AI Act), Art. 99(6)",
       "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
@@ -1070,13 +1070,13 @@
     "difficulty": 1,
     "question": "As originally adopted, from which date did Chapters I and II (general provisions, including AI literacy, and prohibited practices) apply?",
     "options": [
-      "2 February 2025",
-      "1 August 2024",
-      "2 August 2025",
-      "2 August 2026"
+      "From 2 February 2025",
+      "From 1 August 2024",
+      "From 2 August 2025",
+      "From 2 August 2026, together with the high-risk rules"
     ],
     "answer": 0,
-    "explanation": "Art. 113 as adopted: entry into force on the twentieth day after publication (1 August 2024); Chapters I and II apply from 2 February 2025, GPAI and governance rules from 2 August 2025, and the bulk of the Regulation from 2 August 2026.",
+    "explanation": "Art. 113 as adopted: entry into force on the twentieth day after publication (1 August 2024); Chapters I and II apply from 2 February 2025, GPAI and governance rules from 2 August 2025, and the bulk of the Regulation from 2 August 2026. Reg. (EU) 2026/1744 postponed the high-risk rules to 2 December 2027 (Annex III) and 2 August 2028 (Annex I); Chapters I and II date is unchanged.",
     "source": {
       "title": "Regulation (EU) 2024/1689 (AI Act), Art. 113",
       "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
@@ -1095,7 +1095,7 @@
       "31 December 2030"
     ],
     "answer": 0,
-    "explanation": "Art. 111(2) sets 2 August 2030 for such public-authority systems. 31 December 2030 is the deadline for components of the large-scale IT systems listed in Annex X (Art. 111(1)).",
+    "explanation": "Art. 111(2) sets 2 August 2030 for such public-authority systems. 31 December 2030 is the deadline for components of the large-scale IT systems listed in Annex X (Art. 111(1)). The 2030 date for public-authority systems is not changed by Reg. (EU) 2026/1744.",
     "source": {
       "title": "Regulation (EU) 2024/1689 (AI Act), Art. 111(1)-(2)",
       "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
@@ -1130,7 +1130,7 @@
       "Models that were trained with a large amount of data using self-supervision at scale",
       "Models that can be integrated into a variety of downstream systems or applications",
       "Models that are released under a free and open-source licence by their provider",
-      "AI models used for research, development or prototyping before being placed on the market"
+      "AI models used for research, development or prototyping before market placement"
     ],
     "answer": 3,
     "explanation": "Art. 3(63) excludes pre-market research, development or prototyping models. Self-supervised training at scale and downstream integration are features of the definition, and open-source status does not remove a model from it.",
@@ -1165,7 +1165,7 @@
     "difficulty": 1,
     "question": "A GPAI model is presumed to have high-impact capabilities when the cumulative computation used for training exceeds",
     "options": [
-      "10^23 floating point operations",
+      "10^23 floating point operations in total",
       "10^25 floating point operations",
       "10^24 floating point operations",
       "10^26 floating point operations"
@@ -1205,7 +1205,7 @@
     "options": [
       "Within 72 hours of the completion of the training run of the model",
       "Within 30 days of the placing of the model on the Union market",
-      "Without delay and in any event within two weeks of the requirement being met",
+      "Without delay, and within two weeks of the requirement being met",
       "Within three months of the first completed evaluation of the model"
     ],
     "answer": 2,
@@ -1262,7 +1262,7 @@
     "options": [
       "the weights and the architecture of the model, to be published in full",
       "the compute and the energy consumption of the training run of the model",
-      "the content used for training the model, following an AI Office template",
+      "the content used for training the model, per an AI Office template",
       "the results of the adversarial testing that was carried out on the model"
     ],
     "answer": 2,
@@ -1282,7 +1282,7 @@
       "Article 3 of Directive (EU) 2019/790 on copyright in the Digital Single Market",
       "Article 17 of Directive (EU) 2019/790 on copyright in the Digital Single Market",
       "Article 4(3) of Directive (EU) 2019/790 on copyright in the Digital Single Market",
-      "Article 5 of Directive 2001/29/EC on copyright in the information society"
+      "Article 5 of Directive 2001/29/EC on copyright and related rights in the information society"
     ],
     "answer": 2,
     "explanation": "Art. 53(1)(c) refers to the text-and-data-mining opt-out in Art. 4(3) of Directive (EU) 2019/790. Art. 3 covers research organisations, Art. 17 online content-sharing platforms.",
@@ -1377,7 +1377,7 @@
       "obtain a conformity certificate for the model from an accredited notified body",
       "follow the conformity assessment procedure based on Annex VII of the Regulation",
       "suspend the placing of the model on the Union market until a standard exists",
-      "demonstrate alternative adequate means of compliance for assessment by the Commission"
+      "demonstrate alternative adequate means of compliance to the Commission"
     ],
     "answer": 3,
     "explanation": "Art. 55(2): codes of practice give a route to demonstrate compliance until a harmonised standard exists; those not adhering must demonstrate alternative adequate means, which the Commission assesses.",
@@ -1414,7 +1414,7 @@
     "options": [
       "By a delegated act adopted by the Commission under the procedure of Art. 97",
       "By a binding opinion that is adopted by the European AI Board",
-      "By an implementing act adopted under the examination procedure of Art. 98(2)",
+      "By an implementing act adopted under the examination procedure",
       "By a decision that is taken by the AI Office on its own authority"
     ],
     "answer": 2,
@@ -1434,7 +1434,7 @@
       "Transparency",
       "Safety and Security",
       "Copyright",
-      "Model documentation"
+      "Model documentation duties"
     ],
     "answer": 1,
     "explanation": "The Code has three chapters: Transparency and Copyright (for all GPAI providers, Art. 53) and Safety and Security (only for systemic-risk providers, Art. 55).",
@@ -1451,7 +1451,7 @@
     "question": "The European AI Office was established by a Commission Decision of 24 January 2024 as part of",
     "options": [
       "an independent decentralised EU agency with its own legal personality",
-      "the administrative structure of DG CNECT within the European Commission",
+      "the administrative structure of DG CNECT in the Commission",
       "an executive agency of the Commission managed by a steering committee",
       "the secretariat of the European Data Protection Board in Brussels"
     ],
@@ -1526,7 +1526,7 @@
     "difficulty": 3,
     "question": "Which bodies are permanent members of the advisory forum under Art. 67(5)?",
     "options": [
-      "The EDPS, the EDPB, ENISA, Europol and ETSI",
+      "The EDPS, the EDPB, ENISA, Europol, Eurojust, ETSI and the JRC",
       "The Fundamental Rights Agency, the EDPS, the JRC and ETSI",
       "The Fundamental Rights Agency, ENISA, CEN, CENELEC and ETSI",
       "ENISA, EUIPO, CEN, CENELEC and ISO"
@@ -1604,7 +1604,7 @@
     "options": [
       "Suspending the authorised representative of the provider in the Union",
       "Blocking the provider's access to the EU database for high-risk systems",
-      "Restricting the making available of the model, or withdrawing or recalling it",
+      "Restricting, withdrawing or recalling the model",
       "Revoking the certificate that a notified body issued for the model"
     ],
     "answer": 2,
@@ -1643,7 +1643,7 @@
       "2 August 2026",
       "2 August 2027",
       "2 August 2028",
-      "2 August 2030"
+      "31 December 2030"
     ],
     "answer": 1,
     "explanation": "Art. 111(3): GPAI models placed on the market before 2 August 2025 must comply by 2 August 2027; 2 August 2030 is the deadline for certain public-authority high-risk systems (Art. 111(2)).",
@@ -1679,7 +1679,7 @@
     "question": "Among the criteria in Annex XIII, impact on the internal market is presumed when a GPAI model has been made available to at least",
     "options": [
       "1 000 registered business users established in the Union",
-      "10 000 registered business users established in the Union",
+      "10 000 registered business users in the Union",
       "100 000 registered end-users in the Union",
       "10 million registered end-users worldwide"
     ],
@@ -1695,7 +1695,7 @@
     "pkg": "ad8-ki",
     "area": "ai-act",
     "difficulty": 2,
-    "question": "A company builds a chatbot on top of a third-party model. In AI Act terms, the chatbot is a ... and the company is a ...",
+    "question": "A company builds a chatbot able to serve a variety of purposes on top of a third-party model. In AI Act terms, the chatbot is a ... and the company is a ...",
     "options": [
       "general-purpose AI model; provider of a GPAI model",
       "general-purpose AI system; downstream provider",
@@ -1830,7 +1830,7 @@
     "difficulty": 3,
     "question": "Art. 95 encourages voluntary codes of conduct applying certain requirements to AI systems other than high-risk ones. Which element is listed among the objectives in Art. 95(2)?",
     "options": [
-      "Facilitating inclusive and diverse design, including diverse teams and stakeholders",
+      "Facilitating inclusive and diverse design, including diverse teams",
       "Obtaining a CE marking for AI systems that fall into the minimal-risk category",
       "Registering all low-risk AI systems in the EU database before first use",
       "Replacing the conformity assessment for limited-risk AI systems"
