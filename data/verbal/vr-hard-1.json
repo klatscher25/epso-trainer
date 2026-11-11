@@ -1,0 +1,724 @@
+[
+  {
+    "id": "vr-0151",
+    "topic": "Verwaltung",
+    "difficulty": 3,
+    "text": "Ein Bericht über die öffentliche Auftragsvergabe in einem mittelgroßen EU-Land vergleicht zwei Jahre vor und nach der Einführung einer verpflichtenden elektronischen Vergabeplattform. Verpflichtend ist die Plattform für alle Ausschreibungen oberhalb des EU-Schwellenwerts; darunter dürfen Behörden weiterhin Papierverfahren nutzen, was etwa ein Fünftel der Kommunen tat. Im Durchschnitt stieg die Zahl der Angebote je Ausschreibung von vier auf fünf, wobei der Anstieg bei kleinen und mittleren Unternehmen stärker ausfiel als bei Großunternehmen. Die Verfahrensdauer sank nach Angaben der Vergabestellen um rund ein Zehntel, doch der Rechnungshof des Landes weist darauf hin, dass sich im selben Zeitraum auch die Vorschriften zur Fristsetzung geändert haben. Ein Branchenverband führt den Rückgang der Preise bei Bauleistungen ausdrücklich auf den größeren Wettbewerb zurück; der Bericht selbst hält diese Deutung für plausibel, aber nicht belegt, weil die Baupreise auch aus anderen Gründen gesunken sein könnten. Beschwerden vor der Nachprüfungsstelle nahmen leicht zu. Die Autoren vermuten, dass transparentere Verfahren Unterlegenen den Einblick erleichtern. Unstrittig sei nur, dass die Plattform seit der Einführung für alle Verfahren oberhalb des Schwellenwerts genutzt wird. Rund ein Drittel der Vergabestellen gab in einer Befragung an, die Einführung habe zunächst zusätzlichen Schulungsaufwand verursacht.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Die gesunkenen Baupreise sind nach Darstellung des Berichts eine Folge der größeren Zahl von Bietern.",
+      "Kleine und mittlere Unternehmen konnten seit der Einführung ihren Anteil am gesamten Auftragsvolumen erhöhen.",
+      "Ob die Plattform die Dauer der Vergabeverfahren verkürzt hat, ist dem Bericht nicht eindeutig zu entnehmen, da zugleich eine weitere Rahmenbedingung verändert wurde.",
+      "Für Vergaben unterhalb des EU-Schwellenwerts waren im Berichtszeitraum alle Kommunen zur Nutzung der Plattform gezwungen."
+    ],
+    "answer": 2,
+    "why": [
+      "Falsch: Die Deutung des Branchenverbands wird im Bericht nur als „plausibel, aber nicht belegt“ bezeichnet; eine Meinung wird hier als Tatsache ausgegeben.",
+      "Nicht gestützt: Der Text nennt nur, dass der Anstieg der Angebotszahl bei kleinen und mittleren Unternehmen „stärker ausfiel“, nichts über ihren Anteil am Auftragsvolumen.",
+      "Zwingend: Die „Verfahrensdauer sank“ laut Vergabestellen, doch der Rechnungshof nennt zugleich geänderte „Vorschriften zur Fristsetzung“; der Rückgang lässt sich daher nicht allein der Plattform zuordnen.",
+      "Falsch: Die Pflicht gilt „oberhalb des EU-Schwellenwerts“; darunter „dürfen Behörden weiterhin Papierverfahren nutzen“, der Geltungsbereich wird hier ausgeweitet."
+    ],
+    "traps": [
+      "Korrelation als Ursache",
+      "Geltungsbereich verschoben"
+    ]
+  },
+  {
+    "id": "vr-0152",
+    "topic": "Recht",
+    "difficulty": 3,
+    "text": "In einem EU-Mitgliedstaat wurde vor vier Jahren die Möglichkeit eingeführt, dass anerkannte Verbraucherverbände Schadensersatzansprüche gebündelt für Geschädigte einklagen. Voraussetzung ist, dass mindestens fünfzig Betroffene ihre Ansprüche anmelden; Verbände, die weniger als drei Jahre bestehen, sind ausgeschlossen. Bis Ende des vergangenen Jahres wurden elf solcher Verfahren eingeleitet, von denen vier durch Vergleich endeten und eines mit einem Urteil zugunsten der Verbraucher. Die übrigen sind anhängig. Wirtschaftsverbände behaupten, das Instrument fördere missbräuchliche Klagen, und verweisen auf die hohe Zahl der Anmeldungen. Die Justizverwaltung hält dagegen, dass von den elf Verfahren zehn von Verbänden geführt werden, die bereits vor der Reform bestanden. Im Mittel meldeten sich je Verfahren rund zweihundert Betroffene an, wobei die Spanne von fünfzig bis über tausend reichte. Teilnehmer, die sich nicht anmelden, können weiterhin selbst klagen, sind aber an das Ergebnis des gebündelten Verfahrens nicht gebunden. Eine Auswertung zeigt, dass Vergleiche im Durchschnitt zügiger zustande kamen als das einzige Urteil, wobei die Verfahren sich in Streitwert und Komplexität deutlich unterscheiden und daher nur eingeschränkt vergleichbar sind. Ein Gericht der ersten Instanz prüft jedes Verfahren zunächst auf Zulässigkeit, was bei den bisherigen Fällen im Schnitt mehrere Monate dauerte.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Mindestens sechs der eingeleiteten Sammelverfahren waren am Ende des Berichtszeitraums noch nicht entschieden.",
+      "Die Auswertung belegt, dass ein Vergleich in solchen Verfahren schneller zum Ende führt als ein Urteil, unabhängig vom Streitwert.",
+      "Die Mehrzahl der bisherigen Verfahren wurde von Verbänden geführt, die erst durch die Reform entstanden und daher noch jung sind.",
+      "Wer sich dem gebündelten Verfahren nicht angeschlossen hat, muss dessen Ausgang trotzdem gegen sich gelten lassen, auch wenn er später selbst Klage erhebt."
+    ],
+    "answer": 0,
+    "why": [
+      "Zwingend: Von „elf“ Verfahren endeten „vier“ durch Vergleich und „eines“ mit Urteil; die übrigen sechs sind „anhängig“.",
+      "Falsch: Die Auswertung warnt, die Verfahren seien „nur eingeschränkt vergleichbar“, und es gibt nur ein einziges Urteil; ein Beleg liegt nicht vor.",
+      "Falsch: „Zehn“ von elf Verfahren werden von Verbänden geführt, die „bereits vor der Reform bestanden“.",
+      "Falsch: Nicht angemeldete Teilnehmer „sind aber an das Ergebnis des gebündelten Verfahrens nicht gebunden“, das Gegenteil wird hier behauptet."
+    ],
+    "traps": [
+      "Zahl/Menge verdreht",
+      "Teilweise richtig"
+    ]
+  },
+  {
+    "id": "vr-0153",
+    "topic": "Wirtschaft",
+    "difficulty": 3,
+    "text": "Ein Gesetz zur Sorgfalt in Lieferketten verpflichtet Unternehmen in einem Mitgliedstaat, Menschenrechts- und Umweltrisiken bei unmittelbaren Zulieferern zu analysieren. Es gilt im ersten Jahr für Unternehmen mit mehr als 3.000 Beschäftigten, vom dritten Jahr an für solche mit mehr als 1.000. Mittelständler fallen nicht unmittelbar unter das Gesetz; Branchenverbände berichten jedoch, dass Großkunden ihre Anforderungen vertraglich an kleinere Zulieferer weitergeben. Eine Umfrage unter 400 Mittelständlern ergab, dass sich 55 Prozent bereits mit entsprechenden Fragebögen konfrontiert sahen. Rund ein Drittel dieser Betriebe gab an, dafür zusätzliches Personal eingestellt zu haben. Kritiker meinen, das Gesetz verschiebe Kosten auf Unternehmen, die es gar nicht betrifft; Befürworter entgegnen, die Kosten stünden in keinem Verhältnis zum Reputationsschaden bei Verstößen. Die Aufsichtsbehörde kann Bußgelder verhängen, die sich am weltweiten Jahresumsatz bemessen; im ersten Jahr wurden jedoch nur Verwarnungen ausgesprochen. Die Umfrage war freiwillig, und Betriebe mit negativen Erfahrungen antworteten laut Verfasser vermutlich häufiger. Über die Wirksamkeit der Maßnahmen in den Zulieferländern selbst liegen noch keine belastbaren Daten vor. Die Aufsichtsbehörde hat angekündigt, die Anwendung des Gesetzes nach zwei Jahren öffentlich zu bilanzieren.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Bereits im ersten Jahr nach Inkrafttreten waren Unternehmen ab 1.000 Beschäftigten zur Risikoanalyse verpflichtet.",
+      "Ein Drittel aller befragten Mittelständler hat wegen entsprechender Anforderungen zusätzliches Personal eingestellt.",
+      "Die Kosten der Sorgfaltspflichten sind nachweislich geringer als mögliche Schäden für den Ruf bei Verstößen.",
+      "Kleinere Zulieferer können über die Vertragsbedingungen ihrer Kunden mit Anforderungen des Gesetzes in Berührung kommen, obwohl es für sie selbst nicht gilt."
+    ],
+    "answer": 3,
+    "why": [
+      "Falsch: Im ersten Jahr galt das Gesetz für Unternehmen „mit mehr als 3.000 Beschäftigten“, erst „vom dritten Jahr an“ für mehr als 1.000.",
+      "Falsch: Das „Drittel“ bezieht sich nur auf die Betriebe, die 55 Prozent der Befragten ausmachen und Fragebögen erhielten, also auf einen kleineren Anteil aller Befragten.",
+      "Falsch: Das ist nur die Aussage der Befürworter („entgegnen“); der Text belegt sie nicht.",
+      "Richtig: „Mittelständler fallen nicht unmittelbar unter das Gesetz“, doch Großkunden geben „ihre Anforderungen vertraglich an kleinere Zulieferer weiter“."
+    ],
+    "traps": [
+      "Zahl auf falsche Größe",
+      "Meinung als Tatsache",
+      "Zeitangabe verdreht"
+    ]
+  },
+  {
+    "id": "vr-0154",
+    "topic": "Arbeitsmarkt",
+    "difficulty": 3,
+    "text": "Ein Land mit Pflegekräftemangel hat drei Jahre lang gezielt Pflegefachkräfte aus Nicht-EU-Staaten angeworben. Insgesamt kamen 2.400 Personen, von denen nach Angaben des Ministeriums 1.900 ihre berufliche Anerkennung vollständig erhielten; die übrigen arbeiten vorerst als Hilfskräfte, bis Anpassungslehrgänge abgeschlossen sind. Die Anerkennung dauerte im Mittel acht Monate, in einer Region jedoch fast doppelt so lang. Nach drei Jahren waren noch 78 Prozent der Angeworbenen im Land; die Quote lag bei Personen, deren Familie nachzog, deutlich höher als bei den übrigen. Ein Krankenhausverband erklärt, die Maßnahme habe die Personalnot spürbar gelindert, die Gewerkschaft widerspricht und verweist darauf, dass im selben Zeitraum rund 3.000 inländische Pflegekräfte den Beruf verlassen haben. Die Studie nennt keine Zahl, wie viele der Abgänge auf Arbeitsbedingungen zurückgehen. Unklar bleibt zudem, ob die Angeworbenen in den Herkunftsländern fehlen; das Ministerium verweist auf ein Abkommen, das Anwerbung nur aus Ländern mit Überschuss an Pflegekräften zulässt, überprüft dies aber nur stichprobenartig. Die Hälfte der Angeworbenen kam aus zwei Herkunftsländern; Sprachkenntnisse auf mittlerem Niveau wurden vor der Einreise verlangt.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Die Anwerbung hat nach den Befunden der Studie die Personalnot in der Pflege spürbar gelindert, wenn auch nicht überall gleichmäßig.",
+      "Gut ein Fünftel der Angeworbenen arbeitete zunächst unterhalb der angestrebten Qualifikation.",
+      "Der Nachzug der Familien ist der Grund dafür, dass diese Gruppe nach drei Jahren häufiger noch im Land arbeitete.",
+      "Das Ministerium stellt sicher, dass ausschließlich aus Ländern mit einem Überschuss an Pflegekräften angeworben wird."
+    ],
+    "answer": 1,
+    "why": [
+      "Falsch: Das ist die Meinung des Krankenhausverbands; die Gewerkschaft „widerspricht“, die Studie stellt es nicht fest.",
+      "Richtig: Von „2.400“ Personen erhielten „1.900“ die volle Anerkennung; die übrigen 500, also gut ein Fünftel, arbeiten „vorerst als Hilfskräfte“.",
+      "Falsch: Der Text nennt nur, dass die Quote bei nachgezogener Familie „deutlich höher“ lag; eine Ursache wird nicht benannt (Korrelation).",
+      "Falsch: Das Ministerium „überprüft dies aber nur stichprobenartig“; sichergestellt ist es nicht."
+    ],
+    "traps": [
+      "Meinung als Tatsache",
+      "Kausalität unterstellt",
+      "Überverallgemeinerung"
+    ]
+  },
+  {
+    "id": "vr-0155",
+    "topic": "Digitalisierung",
+    "difficulty": 3,
+    "text": "Eine Studie begleitete die Einführung einer staatlichen digitalen Identität auf dem Smartphone in einem EU-Land. Nach zwei Jahren hatten 38 Prozent der Erwachsenen die Anwendung aktiviert, in der Altersgruppe über 65 waren es 12 Prozent. Die Zahl der Online-Behördengänge, für die die digitale Identität genutzt werden kann, stieg um die Hälfte. Die Verwaltung wertet das als Erfolg; die Verfasser merken an, dass im selben Zeitraum zahlreiche Leistungen nur noch online angeboten wurden, sodass ein Teil des Anstiegs erzwungen gewesen sein dürfte. Technisch läuft die Anwendung nur auf Geräten, die höchstens fünf Jahre alt sind; nach Schätzung der Betreiber betrifft das etwa ein Zehntel der Smartphones im Land. Ältere Menschen nutzen laut einer Befragung mehrheitlich weiterhin den Ausweis mit Chip und Kartenleser, den 21 Prozent der Erwachsenen regelmäßig verwenden. Ein Verbraucherverband kritisiert, die Anwendung speichere zu viele Daten zentral; die Betreiber bestreiten das und verweisen auf eine unabhängige Prüfung, deren Ergebnis bislang nur in Teilen veröffentlicht wurde. Für Personen ohne Smartphone bleiben die Behörden verpflichtet, einen Zugang am Schalter anzubieten. Die Studie wurde von einem Forschungsinstitut im Auftrag des zuständigen Ministeriums durchgeführt und umfasste mehrere tausend Befragte.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Die unabhängige Prüfung hat den Vorwurf zentraler Datenspeicherung bereits ausgeräumt.",
+      "Ein Teil der gestiegenen Zahl an Online-Behördengängen dürfte auf ein verändertes Leistungsangebot zurückgehen und nicht auf die neue Anwendung selbst.",
+      "Rund ein Zehntel der erwachsenen Bevölkerung kann die Anwendung aus technischen Gründen nicht nutzen.",
+      "Mehr als ein Fünftel der Menschen über 65 verwendet regelmäßig den Chip-Ausweis mit Kartenleser."
+    ],
+    "answer": 1,
+    "why": [
+      "Falsch: Das Ergebnis der Prüfung wurde „bislang nur in Teilen veröffentlicht“; ob der Vorwurf entkräftet ist, sagt der Text nicht.",
+      "Richtig: Es wurden „zahlreiche Leistungen nur noch online angeboten“, „sodass ein Teil des Anstiegs erzwungen gewesen sein dürfte“.",
+      "Falsch: Das „Zehntel“ betrifft „der Smartphones im Land“, nicht die erwachsene Bevölkerung.",
+      "Falsch: Die „21 Prozent“ beziehen sich auf alle Erwachsene, nicht auf die Altersgruppe über 65; die Zahl wird auf die falsche Größe bezogen."
+    ],
+    "traps": [
+      "Zahl auf falsche Größe",
+      "Nicht im Text (Weltwissen)"
+    ]
+  },
+  {
+    "id": "vr-0156",
+    "topic": "Datenschutz",
+    "difficulty": 3,
+    "text": "Eine Stadtverwaltung ließ die Wirkung von Videoüberwachung an acht öffentlichen Plätzen über 18 Monate auswerten. Die Kameras dürfen nach den Vorgaben der örtlichen Datenschutzaufsicht nur Plätze erfassen, an denen zuvor eine erhöhte Zahl von Straftaten dokumentiert war, und Aufnahmen müssen nach 72 Stunden gelöscht werden, sofern sie nicht für ein Ermittlungsverfahren benötigt werden. An sechs Plätzen sank die registrierte Zahl von Körperverletzungen; an zwei Plätzen stieg sie, was die Polizei auf die bessere Erfassung durch die Kameras zurückführt. Ein Gutachten der Stadt räumt ein, dass an drei der sechs Plätze zeitgleich die Beleuchtung erneuert wurde. Die Gegner der Überwachung verweisen auf Verdrängungseffekte in Nebenstraßen, für die jedoch keine Zahlen erhoben wurden. Der Datenschutzbeauftragte merkt an, dass die Löschfristen in zwei Fällen überschritten wurden, ohne dass ein Ermittlungsverfahren vorlag; die Stadt spricht von technischen Versehen und hat die Löschung seitdem automatisiert. Befragte Anwohner fühlen sich zu 60 Prozent sicherer, aber nur 40 Prozent der Befragten wussten, an welchen Plätzen Kameras hängen. Die Kosten der Anlagen betrugen rund 1,2 Millionen Euro, die Betriebskosten tragen die Stadtwerke.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Die Löschfristen wurden ausschließlich in solchen Fällen überschritten, in denen zugleich ein Ermittlungsverfahren lief, das die Daten erforderte.",
+      "An den beiden Plätzen mit steigenden Zahlen hat die Zahl der Straftaten nach Auswertung der Stadt tatsächlich zugenommen.",
+      "Dass Straftaten in Nebenstraßen ausgewichen sind, ist durch die Auswertung der Stadt inzwischen zahlenmäßig belegt.",
+      "An mindestens der Hälfte der Plätze mit sinkenden Zahlen ist die Wirkung der Kameras nicht von einer anderen Maßnahme zu trennen."
+    ],
+    "answer": 3,
+    "why": [
+      "Falsch: Die Fristen wurden überschritten, „ohne dass ein Ermittlungsverfahren vorlag“, das Gegenteil wird hier behauptet.",
+      "Falsch: Die Polizei „führt“ den Anstieg „auf die bessere Erfassung durch die Kameras zurück“; eine tatsächliche Zunahme ist nicht belegt.",
+      "Falsch: Zu Verdrängungseffekten wurden „keine Zahlen erhoben“; sie sind eine Behauptung der Gegner.",
+      "Richtig: Bei „drei der sechs Plätze“ mit sinkenden Zahlen wurde „zeitgleich die Beleuchtung erneuert“, die Wirkung der Kameras ist dort nicht isolierbar."
+    ],
+    "traps": [
+      "Meinung als Tatsache",
+      "Gegenteil"
+    ]
+  },
+  {
+    "id": "vr-0157",
+    "topic": "Energie",
+    "difficulty": 3,
+    "text": "Ein Energieversorger bot Haushalten in einem Pilotprojekt dynamische Stromtarife an, bei denen der Arbeitspreis stündlich an den Börsenpreis gekoppelt ist. Voraussetzung war ein intelligenter Zähler, den der Netzbetreiber zum Selbstkostenpreis einbaute. Von 1.200 teilnehmenden Haushalten verlagerten nach Auswertung 40 Prozent spürbar Verbrauch in günstige Stunden, vor allem das Laden von Elektroautos und den Betrieb von Waschmaschinen. Haushalte mit Wärmepumpe und Pufferspeicher verschoben im Mittel mehr als die übrigen, aber die Gruppe war mit 90 Haushalten klein. Die Teilnehmer sparten im Jahresdurchschnitt rund fünf Prozent der Stromkosten; ein Fünftel zahlte jedoch mehr als im Standardtarif, überwiegend Haushalte mit hohem Verbrauch am frühen Abend. Der Versorger betont, dass in dem Winter der Untersuchung die Börsenpreise ungewöhnlich stark schwankten, weshalb sich die Ersparnis in ruhigeren Jahren verringern könnte. Verbraucherschützer fordern, ältere und einkommensschwache Haushalte vor Mehrkosten zu schützen. Der Netzbetreiber sieht den Nutzen vor allem darin, Lastspitzen zu glätten, hat jedoch noch keine Messung dazu vorgelegt. Der Versorger plant, das Angebot bei positivem Ergebnis auf weitere 5.000 Haushalte auszuweiten. Teilnehmende konnten das Projekt jederzeit verlassen und in den Standardtarif zurückkehren, ohne dass ihnen Gebühren entstanden.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Ob die ermittelte Ersparnis in einem ruhigeren Marktjahr ebenso hoch ausfiele, erscheint nach Einschätzung des Versorgers fraglich.",
+      "Der Netzbetreiber hat durch eigene Messungen gezeigt, dass die dynamischen Tarife die Lastspitzen im Netz tatsächlich glätten.",
+      "Die Mehrkosten trafen vor allem Haushalte, die ihren Strom hauptsächlich tagsüber oder spät am Abend nutzen, also außerhalb der Preisspitzen.",
+      "Der Einbau des intelligenten Zählers war für alle Teilnehmer ohne eigene Kosten möglich, da der Netzbetreiber ihn übernahm."
+    ],
+    "answer": 0,
+    "why": [
+      "Richtig: Der Versorger betont die „ungewöhnlich stark“ schwankenden Börsenpreise, weshalb sich die Ersparnis „in ruhigeren Jahren verringern könnte“.",
+      "Falsch: Der Netzbetreiber „hat jedoch noch keine Messung dazu vorgelegt“; der Nutzen ist nur erhofft.",
+      "Falsch: Mehr zahlten „überwiegend Haushalte mit hohem Verbrauch am frühen Abend“, nicht tagsüber oder spät.",
+      "Falsch: Der Zähler wurde „zum Selbstkostenpreis“ eingebaut, nicht kostenlos."
+    ],
+    "traps": [
+      "Meinung als Tatsache",
+      "Zeitangabe verdreht"
+    ]
+  },
+  {
+    "id": "vr-0158",
+    "topic": "Handel",
+    "difficulty": 3,
+    "text": "Ein Handelsabkommen zwischen der Europäischen Union und einem Partnerstaat sieht vor, dass Zölle auf Industriegüter innerhalb von zehn Jahren schrittweise entfallen, während für Rindfleisch und Zucker nur kontingentierte Einfuhren zu ermäßigten Sätzen erlaubt sind. Das erste Kontingent für Rindfleisch beträgt 50.000 Tonnen und entspricht nach Angaben der Kommission weniger als zwei Prozent des Verbrauchs in der Union; in fünf Jahren soll es auf 80.000 Tonnen steigen. Landwirtschaftsverbände halten die Menge für ausreichend, um die Erzeugerpreise zu drücken, und verweisen auf Einfuhren über Zwischenhändler, die zusätzliche Mengen bringen könnten. Das Abkommen enthält ein Kapitel zu Arbeits- und Umweltstandards; Verstöße können Konsultationen auslösen, aber keine automatischen Zollerhöhungen. Ein Teil der Mitgliedstaaten verlangt eine Ratifizierung durch die nationalen Parlamente, andere halten die Zustimmung des Rates und des Europäischen Parlaments für ausreichend. Die Kommission hat angekündigt, den Vertrag in zwei Teile aufzuspalten, damit der Handelsteil unabhängig von den übrigen Teilen in Kraft treten kann, falls nationale Ratifizierungen scheitern. Eine Folgenabschätzung erwartet für die Union ein zusätzliches Wirtschaftswachstum von unter einem halben Prozent, räumt aber Unsicherheit ein. Industrielle Verbände begrüßen den Wegfall der Zölle auf Maschinen, erwarten aber erst nach Jahren spürbare Effekte.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Bei Verstößen gegen die Standards des Nachhaltigkeitskapitels werden automatisch Zölle angehoben.",
+      "Der Handelsteil soll nach der Ankündigung der Kommission erst nach Zustimmung aller nationalen Parlamente in Kraft treten können.",
+      "Nach den Angaben der Kommission werden in der Union jährlich mehr als zweieinhalb Millionen Tonnen Rindfleisch verbraucht.",
+      "Landwirtschaftsverbände haben belegt, dass das vereinbarte Kontingent die Erzeugerpreise in der Union tatsächlich und dauerhaft senkt, auch über Zwischenhändler."
+    ],
+    "answer": 2,
+    "why": [
+      "Falsch: Verstöße „können Konsultationen auslösen, aber keine automatischen Zollerhöhungen“.",
+      "Falsch: Der Handelsteil soll „unabhängig von den übrigen Teilen in Kraft treten“, falls Ratifizierungen scheitern; das Gegenteil wird behauptet.",
+      "Rechnung: „50.000 Tonnen“ sind „weniger als zwei Prozent“ des Verbrauchs; der Verbrauch liegt also über 2,5 Millionen Tonnen.",
+      "Falsch: Die Verbände „halten die Menge für ausreichend“, die Preise zu drücken; das ist ihre Einschätzung, kein Beleg."
+    ],
+    "traps": [
+      "Meinung als Tatsache",
+      "Gegenteil"
+    ]
+  },
+  {
+    "id": "vr-0159",
+    "topic": "Demografie",
+    "difficulty": 3,
+    "text": "In einer ländlichen Region eines EU-Landes ging die Zahl der Einwohner unter 15 Jahren in zwanzig Jahren um ein Drittel zurück, während die Gesamtbevölkerung nur um sieben Prozent schrumpfte. Die Regionalverwaltung schloss in dieser Zeit 30 von 110 Grundschulen. Als Mindestgröße gilt eine Schule mit 40 Kindern; Ausnahmen sind für Schulen erlaubt, die weiter als zehn Kilometer von der nächsten entfernt liegen. Eine Elterninitiative führt die Abwanderung junger Familien auf die Schließungen zurück. Die Verwaltung hält dagegen, dass die Schließungen erst erfolgten, nachdem die Kinderzahlen bereits gesunken waren, und räumt zugleich ein, dass Schließungen die Attraktivität einzelner Orte weiter verringert haben könnten. Die durchschnittliche Schulwegzeit stieg von 14 auf 22 Minuten. Zwei Gemeinden betreiben seitdem jahrgangsübergreifende Kleinschulen mit weniger als 40 Kindern; die Aufsicht duldet dies befristet, solange kein Lehrermangel besteht. Eine Auswertung zeigt, dass die Leistungen der Kinder in diesen Kleinschulen im Mittel nicht schlechter sind als anderswo, wobei die Stichprobe mit 120 Kindern klein ist. Die Regionalverwaltung plant für die kommenden Jahre keine weiteren Schließungen, will aber die Lage jährlich neu bewerten.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Der durchschnittliche Weg zur Schule hat sich seit den Schließungen im Mittel mehr als verdoppelt und ist deutlich länger.",
+      "Prozentual ist die Zahl der Grundschulen in der Region stärker gesunken als die Zahl der Kinder unter 15 Jahren.",
+      "Die Auswertung beweist, dass Kinder in den Kleinschulen der beiden Gemeinden gleich gute Leistungen erzielen wie Kinder in größeren Schulen der Region.",
+      "Nach Darstellung der Verwaltung kann der Rückgang der Kinderzahl nicht allein von den Schließungen herrühren, da er früher einsetzte."
+    ],
+    "answer": 3,
+    "why": [
+      "Falsch: Die Schulwegzeit stieg „von 14 auf 22 Minuten“, das ist weniger als eine Verdopplung.",
+      "Falsch: 30 von 110 Schulen sind etwa 27 Prozent, die Zahl der Kinder sank dagegen um „ein Drittel“; der Vergleich ist umgedreht.",
+      "Falsch: Die Leistungen sind „im Mittel nicht schlechter“, aber „die Stichprobe“ ist „klein“; ein Beweis liegt nicht vor.",
+      "Richtig: Die Verwaltung sagt, die Schließungen erfolgten, „nachdem die Kinderzahlen bereits gesunken waren“; sie räumt aber ein, dass sie den Trend „weiter“ verstärkt haben könnten."
+    ],
+    "traps": [
+      "Vergleich verdreht",
+      "Zahl/Menge verdreht"
+    ]
+  },
+  {
+    "id": "vr-0160",
+    "topic": "Verkehr",
+    "difficulty": 3,
+    "text": "Eine Großstadt führte eine Innenstadtmaut ein, die werktags zwischen sieben und neunzehn Uhr gilt. Fahrzeuge von Anwohnern sind befreit, ebenso Lieferfahrzeuge unter 3,5 Tonnen mit Sondergenehmigung. Im ersten Jahr ging die Zahl der einfahrenden Fahrzeuge um 17 Prozent zurück, die Fahrgastzahlen im Nahverkehr stiegen um 9 Prozent. Die Stickstoffdioxid-Konzentration an drei Messstellen im Mautgebiet sank um durchschnittlich elf Prozent, an einer Messstelle knapp außerhalb stieg sie um zwei Prozent. Das Umweltamt hält die Maut für die Hauptursache der Verbesserung; Gutachter weisen darauf hin, dass im selben Jahr die Hälfte der städtischen Busflotte auf Elektroantrieb umgestellt wurde. Einzelhändler im Zentrum melden einen Umsatzrückgang von vier Prozent, während der Handelsverband der Stadt insgesamt ein Plus von einem Prozent ausweist. Die Einnahmen von 38 Millionen Euro fließen zweckgebunden in den Nahverkehr. Umfragen zufolge befürworteten vor der Einführung 38 Prozent der Einwohner die Maut, ein Jahr danach 52 Prozent. Eine Ausweitung des Mautgebiets um zwei weitere Stadtbezirke wird derzeit im Stadtrat beraten. Die Stadt hat angekündigt, die Wirkung nach drei Jahren durch ein unabhängiges Institut erneut bewerten zu lassen.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Die Luftqualität hat sich an sämtlichen Messstellen außerhalb des Mautgebiets verbessert, wenn auch geringer als innerhalb.",
+      "Der Handelsverband bestätigt den Umsatzrückgang der Einzelhändler im Stadtzentrum und beziffert ihn ebenfalls auf vier Prozent.",
+      "Der Rückgang der Stickstoffdioxid-Werte im Mautgebiet lässt sich nicht eindeutig allein der Maut zuschreiben.",
+      "Schon vor Einführung der Maut befürwortete die Mehrheit der Einwohner die Regelung, danach stieg die Zustimmung weiter."
+    ],
+    "answer": 2,
+    "why": [
+      "Falsch: An einer Messstelle „knapp außerhalb“ stieg der Wert um zwei Prozent.",
+      "Falsch: Der Handelsverband weist für die Stadt „insgesamt“ ein Plus von einem Prozent aus; zum Zentrum äußert er sich im Text nicht.",
+      "Richtig: Das Umweltamt hält die Maut für die „Hauptursache“, doch „im selben Jahr“ wurde die Hälfte der Busflotte auf Elektroantrieb umgestellt.",
+      "Falsch: Vorher befürworteten nur „38 Prozent“, also weniger als die Hälfte, die Maut."
+    ],
+    "traps": [
+      "Korrelation als Ursache",
+      "Geltungsbereich verschoben"
+    ]
+  },
+  {
+    "id": "vr-0161",
+    "topic": "EU-Politik",
+    "difficulty": 3,
+    "text": "Bevor die Europäische Kommission einen Gesetzgebungsvorschlag vorlegt, führt sie in der Regel eine öffentliche Konsultation durch, die mindestens zwölf Wochen offen ist. Die Beiträge werden zusammengefasst, sind für die Kommission aber nicht bindend. Eine Auswertung von 40 Konsultationen eines Jahres zeigt, dass Wirtschaftsverbände rund die Hälfte der Antworten einreichten, während Einzelpersonen etwa ein Viertel stellten; bei Umweltthemen kehrte sich das Verhältnis um. Zivilgesellschaftliche Organisationen kritisieren, dass nur Organisationen mit eigenem Brüsseler Büro die Verfahren systematisch verfolgen könnten. Die Kommission verweist darauf, dass die Zahl der Antworten für ihre Bewertung weniger zählt als deren Begründung, und hat daher bei gleichlautenden Massenantworten festgelegt, dass diese als eine Stellungnahme gewertet werden. Dennoch fanden Forscher in sieben der 40 Fälle, dass der spätere Vorschlag Positionen übernahm, die fast wörtlich einer einzelnen Verbandsantwort entsprachen. Ob diese Übereinstimmung auf Einfluss oder auf eine ohnehin ähnliche Auffassung der Kommission beruht, lassen die Forscher offen. Eine Folgenabschätzung wird nur für Vorhaben mit voraussichtlich erheblichen Auswirkungen erstellt. Die Konsultationsergebnisse werden auf einer Online-Plattform veröffentlicht, sobald die Zusammenfassung vorliegt. Die Auswertung stammt von einem Forschungsteam, das keine Aufträge von Verbänden oder Institutionen annimmt.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Gleichlautende Massenantworten gehen in die Bewertung jeweils einzeln ein, damit keine Stimme verloren geht.",
+      "Dass manche Vorschläge den Positionen einzelner Verbände glichen, beweist nach der Studie noch keinen Einfluss dieser Verbände.",
+      "Vor jedem Gesetzgebungsvorschlag wird eine Folgenabschätzung erstellt, die den Konsultationsergebnissen vorausgeht.",
+      "Die Kommission muss die Ergebnisse einer Konsultation in ihren Vorschlag übernehmen, sobald eine Mehrheit der Antworten dafür spricht."
+    ],
+    "answer": 1,
+    "why": [
+      "Falsch: Gleichlautende Massenantworten werden „als eine Stellungnahme gewertet“.",
+      "Richtig: Die Forscher „lassen“ offen, ob die Übereinstimmung „auf Einfluss oder auf eine ohnehin ähnliche Auffassung“ beruht.",
+      "Falsch: Eine Folgenabschätzung gibt es „nur für Vorhaben mit voraussichtlich erheblichen Auswirkungen“.",
+      "Falsch: Die Beiträge „sind für die Kommission aber nicht bindend“."
+    ],
+    "traps": [
+      "Modalität (kann/muss)",
+      "Gegenteil"
+    ]
+  },
+  {
+    "id": "vr-0162",
+    "topic": "Recht",
+    "difficulty": 3,
+    "text": "Ein Mitgliedstaat begrenzte vor drei Jahren in angespannten Wohnungsmärkten die Wiedervermietungsmiete auf höchstens zehn Prozent über der ortsüblichen Vergleichsmiete. Neubauten, die nach der Einführung erstmals vermietet wurden, sind ausgenommen, ebenso umfassend modernisierte Wohnungen. Eine Auswertung von Inseraten zeigt, dass die verlangten Mieten in den betroffenen Städten langsamer stiegen als in vergleichbaren Städten ohne Regelung: 6 gegenüber 11 Prozent in drei Jahren. Gleichzeitig ging die Zahl der Inserate für Mietwohnungen in den betroffenen Städten um 14 Prozent zurück, in den anderen Städten um 3 Prozent. Vermieterverbände sehen darin eine Folge der Regelung, weil Eigentümer verkauften oder möblierte Kurzzeitvermietung bevorzugten. Mieterverbände vermuten, dass die Inserate zurückgingen, weil Wohnungen nun häufiger im Bekanntenkreis vergeben werden. Beide Deutungen sind laut Verfasser möglich; belegt sei nur der Rückgang. Verstöße gegen die Grenze kann die Mieterseite einklagen, in der Praxis taten dies nur wenige, auch aus Sorge um das Mietverhältnis. Die Verfasser betonen, dass Inseratsmieten nicht dasselbe sind wie tatsächlich bezahlte Mieten. Die Regierung hat angekündigt, die Wirkung der Regelung nach fünf Jahren erneut zu bewerten.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Der gemessene Unterschied beim Mietanstieg betrifft verlangte Mieten und gilt nicht zwingend für tatsächlich vereinbarte.",
+      "Die Einhaltung der Obergrenze wird von Amts wegen überwacht und durchgesetzt, ohne dass Mieter selbst klagen müssen.",
+      "Nach Auffassung der Verfasser ist der Rückgang der Inserate eine Folge der Mietobergrenze, die Eigentümer zum Verkauf bewegte.",
+      "Wohnungen, die umfassend modernisiert wurden, sind wie andere Bestandswohnungen vollständig an die Obergrenze gebunden."
+    ],
+    "answer": 0,
+    "why": [
+      "Richtig: Die Verfasser betonen, dass „Inseratsmieten nicht dasselbe sind wie tatsächlich bezahlte Mieten“.",
+      "Falsch: Verstöße „kann die Mieterseite einklagen“; von einer Durchsetzung von Amts wegen steht nichts im Text.",
+      "Falsch: „Beide Deutungen sind laut Verfasser möglich; belegt sei nur der Rückgang“; die Ursache bleibt offen.",
+      "Falsch: „Umfassend modernisierte Wohnungen“ sind „ausgenommen“."
+    ],
+    "traps": [
+      "Korrelation als Ursache",
+      "Gegenteil"
+    ]
+  },
+  {
+    "id": "vr-0163",
+    "topic": "Wirtschaft",
+    "difficulty": 3,
+    "text": "In einem Pilotversuch erprobten 60 Unternehmen eines EU-Landes ein halbes Jahr lang die Vier-Tage-Woche bei gleichem Lohn; die Wochenarbeitszeit sank von 40 auf 32 Stunden. Teilnehmen durften nur Betriebe, die sich freiwillig meldeten, mehr als zwanzig Beschäftigte hatten und nicht im Schichtbetrieb arbeiteten. Nach Angaben von 41 Unternehmen blieb der Umsatz mindestens gleich; 14 meldeten einen Rückgang, fünf machten keine Angabe. Krankheitstage gingen im Mittel um ein Fünftel zurück, wobei die Betriebe nicht erfassten, ob zuvor Grippewellen den Wert beeinflusst hatten. Beschäftigte berichteten in 70 Prozent der Fälle von geringerer Erschöpfung. Vierzig der sechzig Unternehmen wollen das Modell fortführen, zwölf wollen es teils beibehalten, der Rest kehrt zur Fünf-Tage-Woche zurück. Kritiker halten die Ergebnisse für wenig übertragbar, weil sich vermutlich Betriebe mit guten Voraussetzungen gemeldet haben; Befürworter verweisen auf die Zahl der Fortführer. Die Verfasser räumen ein, dass sechs Monate nicht ausreichen, um langfristige Folgen für die Produktivität zu beurteilen. Für die Fortführung planen mehrere Betriebe eine Anpassung der Arbeitsabläufe, bei der sie Besprechungszeiten verkürzen. Der Versuch wurde von einer Beratungsstelle begleitet, die auch Fragebögen an die Beschäftigten verteilte.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Unter den teilnehmenden Unternehmen meldete weniger als ein Viertel einen Umsatzrückgang.",
+      "Nur etwa ein Drittel der Betriebe will das Modell ganz oder in Teilen weiterführen.",
+      "Der Rückgang der Krankheitstage ist auf die verkürzte Arbeitszeit zurückzuführen.",
+      "Auch Betriebe im Schichtbetrieb durften teilnehmen, sofern sie mehr als zwanzig Beschäftigte hatten."
+    ],
+    "answer": 0,
+    "why": [
+      "Richtig: „14 meldeten einen Rückgang“ bei „60 Unternehmen“; das sind etwa 23 Prozent, also weniger als ein Viertel.",
+      "Falsch: „Vierzig“ wollen fortführen und „zwölf“ teils, also 52 von 60 Betrieben, weit mehr als ein Drittel.",
+      "Falsch: Die Betriebe erfassten nicht, ob „Grippewellen den Wert beeinflusst hatten“; eine Ursache ist nicht gesichert.",
+      "Falsch: Teilnehmen durften nur Betriebe, die „nicht im Schichtbetrieb arbeiteten“."
+    ],
+    "traps": [
+      "Zahl/Menge verdreht",
+      "Kausalität unterstellt"
+    ]
+  },
+  {
+    "id": "vr-0164",
+    "topic": "Arbeitsmarkt",
+    "difficulty": 3,
+    "text": "Ein Gesetz zur Plattformarbeit sieht vor, dass Personen, die über eine digitale Plattform Aufträge erhalten, als Beschäftigte gelten, wenn mindestens zwei von fünf Kriterien erfüllt sind, darunter die Vorgabe von Preisen durch die Plattform und die Überwachung der Arbeitsausführung. Die Plattform kann die Vermutung widerlegen, indem sie im Einzelfall belegt, dass keine abhängige Beschäftigung vorliegt; die Beweislast liegt dann bei ihr. Eine Studie schätzt, dass in einem Land mit 400.000 Plattformtätigen rund 70 Prozent unter die Vermutung fallen würden, wobei die Quote bei Lieferdiensten höher und bei Plattformen für Programmierarbeiten niedriger liege. Plattformbetreiber warnen, sie müssten Dienste einstellen, wenn Beschäftigung vorgeschrieben werde; Gewerkschaften halten das für eine Drohkulisse, da in anderen Ländern nach Gerichtsurteilen Anbieter weitergearbeitet hätten. Rund ein Viertel der Tätigen übt die Arbeit laut einer Befragung als Nebenverdienst aus und lehnt eine Anstellung ab. Die Studie weist darauf hin, dass die Vermutung nur eine Beweislastregel ist und nicht automatisch eine Anstellung bedeutet. Die Gesetzgebung räumt den Mitgliedstaaten eine Frist von zwei Jahren ein, um die Regeln in nationales Recht zu übernehmen.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Die Betreiber haben nachgewiesen, dass eine Pflicht zur Beschäftigung zwangsläufig zur Einstellung ihrer Dienste führen würde.",
+      "Auch bei erfüllten Kriterien gilt eine Person nicht zwingend als Beschäftigte, weil die Plattform die Annahme im Einzelfall entkräften kann.",
+      "Ein Viertel der Plattformtätigen wünscht sich eine Anstellung, kann diese aber wegen der Beweislastregel nicht erhalten.",
+      "Rund 280.000 Plattformtätige würden nach der Studie in jedem Fall als Beschäftigte eingestuft, da sie mindestens zwei der fünf Kriterien erfüllen."
+    ],
+    "answer": 1,
+    "why": [
+      "Falsch: Die Betreiber „warnen“ nur; Gewerkschaften halten das für eine „Drohkulisse“, ein Nachweis liegt nicht vor.",
+      "Richtig: Die Plattform „kann die Vermutung widerlegen“, die Vermutung ist „nur eine Beweislastregel“.",
+      "Falsch: Ein Viertel „lehnt eine Anstellung ab“, wünscht sie also gerade nicht.",
+      "Falsch: 70 Prozent von 400.000 sind 280.000, doch sie „unter die Vermutung fallen würden“; das bedeutet nicht „automatisch eine Anstellung“."
+    ],
+    "traps": [
+      "Zahl auf falsche Größe",
+      "Meinung als Tatsache"
+    ]
+  },
+  {
+    "id": "vr-0165",
+    "topic": "Digitalisierung",
+    "difficulty": 3,
+    "text": "Ein Portal für offene Verwaltungsdaten in einem EU-Land stellt seit sechs Jahren Datensätze zur freien Nutzung bereit. Von den 9.000 veröffentlichten Datensätzen wurden 2.700 im letzten Jahr mindestens einmal heruntergeladen; die zehn beliebtesten Datensätze, vor allem Wetter-, Verkehrs- und Haushaltsdaten, machten 45 Prozent aller Downloads aus. Eine Befragung unter 300 Nutzern ergab, dass 60 Prozent Unternehmen oder Start-ups sind, 25 Prozent Forschende, der Rest Privatpersonen und Journalisten. Von den Unternehmen gaben zwei Drittel an, die Daten für kommerzielle Anwendungen zu nutzen, ein Fünftel davon ließ sie von Dritten aufbereiten. Die Verwaltung bewertet das Portal als wirtschaftlich nützlich und beziffert den Nutzen mit einem Vielfachen der Betriebskosten; ein Rechnungshof-Gutachten hält die Berechnung für methodisch angreifbar, weil sie den Nutzen aus Umsatzangaben der Nutzer hochrechnet, die sich nicht überprüfen lassen. Als häufigstes Hindernis nennen Nutzer fehlende Metadaten, danach uneinheitliche Formate. Nach Einführung einer Qualitätsprüfung stieg der Anteil vollständig beschriebener Datensätze von 40 auf 65 Prozent. Das Portal soll im kommenden Jahr um eine Schnittstelle erweitert werden, die automatisierte Abrufe erleichtert.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Uneinheitliche Datenformate sind das am häufigsten genannte Hindernis bei der Nutzung.",
+      "Etwa ein Fünftel aller befragten Nutzer ließ Daten durch Dritte aufbereiten.",
+      "Mehr als die Hälfte der veröffentlichten Datensätze wurde im letzten Jahr kein einziges Mal abgerufen.",
+      "Der Nutzen des Portals übersteigt die Betriebskosten, wie der Rechnungshof bestätigt, um ein Vielfaches."
+    ],
+    "answer": 2,
+    "why": [
+      "Falsch: Das häufigste Hindernis sind „fehlende Metadaten, danach“ die Formate; die Reihenfolge ist verdreht.",
+      "Falsch: Das „Fünftel“ bezieht sich nur auf die Unternehmen, die die Daten kommerziell nutzen (zwei Drittel von 60 Prozent der Befragten).",
+      "Richtig: Nur „2.700“ von „9.000“ Datensätzen, also 30 Prozent, wurden heruntergeladen; 70 Prozent blieben unberührt.",
+      "Falsch: Der Rechnungshof hält die Berechnung für „methodisch angreifbar“; er bestätigt sie nicht."
+    ],
+    "traps": [
+      "Zahl auf falsche Größe",
+      "Teilweise richtig"
+    ]
+  },
+  {
+    "id": "vr-0166",
+    "topic": "Datenschutz",
+    "difficulty": 3,
+    "text": "Eine Studie untersuchte 1.000 Websites eines Landes daraufhin, wie sie die Einwilligung in Tracking-Cookies einholen. Bei 62 Prozent der Seiten ist die Schaltfläche zum Akzeptieren hervorgehoben, während das Ablehnen mindestens einen zusätzlichen Klick erfordert. Auf Seiten, bei denen beide Optionen gleich gestaltet waren, stimmten 38 Prozent der Besucher dem Tracking zu, auf Seiten mit hervorgehobener Zustimmung 71 Prozent. Die Verfasser schließen daraus, dass die Gestaltung die Entscheidung beeinflusst; sie räumen ein, dass sich die Besucher der Seitengruppen unterscheiden können, etwa in Alter und Themeninteresse. Die Datenschutzbehörde hält hervorgehobene Zustimmungsknöpfe ohne gleichwertige Ablehnung für unzulässig, hat aber bislang nur gegen 14 Seiten Verfahren eröffnet. Betreiber argumentieren, werbefinanzierte Angebote könnten ohne Tracking nicht bestehen; die Studie stellte fest, dass 30 Prozent der Seiten ohne Tracking-Cookies auskommen, darunter überwiegend Behördenseiten. Eine Untergruppe von 100 Seiten wurde nach einer Abmahnung erneut geprüft: 80 davon hatten ihre Gestaltung geändert. Die Untersuchung erfasste nur die Gestaltung der ersten Einwilligungsabfrage, nicht spätere Änderungen durch Besucher. Auffällig war, dass kleinere Betreiber häufiger gleichwertig gestaltete Abfragen anboten als große Medienhäuser.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Gegen sämtliche Seiten mit hervorgehobener Zustimmung hat die Behörde bereits ein Verfahren eröffnet und die Gestaltung beanstandet.",
+      "Unter den Seiten, die ohne Tracking auskommen, sind die meisten private Angebote, die sich anders finanzieren als durch Werbung.",
+      "Nach der Abmahnung änderten 80 Prozent aller 1.000 untersuchten Seiten ihre Gestaltung der Einwilligungsabfrage.",
+      "Ob allein die Gestaltung die höhere Zustimmung bewirkt, ist durch die Studie nicht abschließend gesichert, weil sich die Besuchergruppen unterscheiden können."
+    ],
+    "answer": 3,
+    "why": [
+      "Falsch: Verfahren gab es „nur gegen 14 Seiten“, bei 62 Prozent von 1.000 Seiten mit hervorgehobener Zustimmung.",
+      "Falsch: Die Seiten ohne Tracking sind „überwiegend Behördenseiten“.",
+      "Falsch: Die 80 betreffen nur eine „Untergruppe von 100 Seiten“, nicht alle untersuchten Seiten.",
+      "Richtig: Die Verfasser „räumen ein“, dass „sich die Besucher der Seitengruppen unterscheiden können“; ein reiner Gestaltungseffekt ist nicht bewiesen."
+    ],
+    "traps": [
+      "Kausalität unterstellt",
+      "Teilmenge ↔ Gesamtmenge"
+    ]
+  },
+  {
+    "id": "vr-0167",
+    "topic": "Energie",
+    "difficulty": 3,
+    "text": "Ein Förderprogramm unterstützt den Bau von Elektrolyseuren zur Erzeugung von Wasserstoff aus Strom. Gefördert wird nur Wasserstoff, der mit Strom aus zusätzlichen erneuerbaren Anlagen erzeugt wird, die nicht älter als 36 Monate sind. Das Programm übernimmt bis zu 40 Prozent der Investitionskosten, bei Anlagen mit mehr als 100 Megawatt jedoch nur 25 Prozent. Von 52 Anträgen wurden 19 bewilligt; 11 scheiterten am Nachweis zusätzlicher Erzeugung, die übrigen an anderen Kriterien. Die Industrie kritisiert, die Zusätzlichkeitsregel verteuere den Wasserstoff um etwa ein Fünftel und gefährde die Wettbewerbsfähigkeit; Umweltverbände halten sie für nötig, damit durch die Elektrolyse nicht mehr Strom aus Kohle und Gas erforderlich wird. Die Betreiber der bewilligten Anlagen erwarten Gestehungskosten, die über denen von Wasserstoff aus Erdgas liegen, und rechnen erst nach Ende des Jahrzehnts mit Gleichstand, sofern die CO2-Preise weiter steigen. Der Bedarf der Stahlindustrie an Wasserstoff ist laut einer Schätzung doppelt so hoch wie die geplante Gesamtleistung der bewilligten Anlagen. Die Förderentscheidungen werden jeweils zum Jahresende getroffen; Anträge können nur in einem festen Zeitfenster eingereicht werden. Die Bundesregierung will die Regel nach zwei Jahren überprüfen und gegebenenfalls anpassen, falls die Nachfrage zu gering bleibt.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Die Zusätzlichkeitsregel verteuert den Wasserstoff nachweislich um etwa ein Fünftel.",
+      "Ein Kostengleichstand mit Wasserstoff aus Erdgas wird Ende des Jahrzehnts unabhängig von den CO2-Preisen erwartet.",
+      "Große Anlagen mit mehr als 100 Megawatt erhalten einen höheren Fördersatz als kleinere.",
+      "Die Mehrzahl der abgelehnten Anträge scheiterte nicht an der Regel zur Zusätzlichkeit."
+    ],
+    "answer": 3,
+    "why": [
+      "Falsch: Das ist die Behauptung der Industrie („kritisiert“), kein belegter Befund.",
+      "Falsch: Der Gleichstand wird „erst nach Ende des Jahrzehnts“ erwartet, „sofern die CO2-Preise weiter steigen“; die Bedingung fehlt hier.",
+      "Falsch: Der Satz sinkt bei großen Anlagen von „bis zu 40 Prozent“ auf „nur 25 Prozent“.",
+      "Rechnung: 52 minus 19 sind 33 Ablehnungen, davon scheiterten „11“ am Nachweis zusätzlicher Erzeugung, also die übrigen 22 an „anderen Kriterien“."
+    ],
+    "traps": [
+      "Meinung als Tatsache",
+      "Bedingung weggelassen"
+    ]
+  },
+  {
+    "id": "vr-0168",
+    "topic": "Handel",
+    "difficulty": 3,
+    "text": "Immer mehr Pakete mit kleinen Warenwerten erreichen die Union direkt aus Drittländern. In einem Mitgliedstaat stieg die Zahl der Sendungen mit einem Warenwert unter 150 Euro in fünf Jahren von 20 auf 85 Millionen. Für solche Sendungen entfällt der Zoll, die Einfuhrumsatzsteuer wird jedoch erhoben, sofern der Händler sich nicht im Verfahren zur vereinfachten Abführung registriert hat. Die Zollbehörde kontrolliert etwa jede 500. Sendung physisch; von den kontrollierten Sendungen waren 12 Prozent zu niedrig deklariert oder enthielten nicht zugelassene Produkte. Der Handelsverband des Landes fordert, auch kleine Sendungen mit Zoll zu belegen, weil heimische Händler benachteiligt seien; Verbraucherverbände warnen vor höheren Preisen und längeren Wartezeiten. Die Behörde räumt ein, dass die Zahl der Beanstandungen wegen der kleinen Stichprobe nur eingeschränkt auf alle Sendungen hochgerechnet werden kann, weil gezielt auffällige Pakete kontrolliert werden. Bei einer zufälligen Teilstichprobe von 2.000 Paketen lag die Beanstandungsquote bei sieben Prozent. Die Behörde plant, die Stichprobe im kommenden Jahr zu vergrößern und stärker zufällig auszuwählen. Die Zollbehörde hat zusätzliches Personal beantragt, um die Quote der kontrollierten Pakete zu erhöhen.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Unter allen Paketen liegt der Anteil der beanstandeten Sendungen wahrscheinlich niedriger als unter den kontrollierten.",
+      "Die Verbraucherverbände fordern, auch kleine Sendungen mit Zoll zu belegen, damit heimische Händler nicht benachteiligt werden.",
+      "Auf Sendungen unter 150 Euro wird weder Zoll noch Einfuhrumsatzsteuer erhoben, sodass sie für Händler besonders günstig sind.",
+      "Die Zahl solcher Sendungen hat sich binnen fünf Jahren mehr als verfünffacht und liegt nun bei über 100 Millionen."
+    ],
+    "answer": 0,
+    "why": [
+      "Richtig: Es werden „gezielt auffällige Pakete kontrolliert“ (12 Prozent), die „zufälligen Teilstichprobe“ ergab dagegen nur „sieben Prozent“.",
+      "Falsch: Das fordert der „Handelsverband“; die Verbraucherverbände „warnen“ vor höheren Preisen.",
+      "Falsch: Der Zoll entfällt, die Einfuhrumsatzsteuer wird „jedoch erhoben“, sofern keine Registrierung vorliegt; die Bedingung fehlt hier.",
+      "Falsch: Von „20 auf 85 Millionen“ ist ein Faktor von etwa 4,25, also keine Verfünffachung."
+    ],
+    "traps": [
+      "Zahl/Menge verdreht",
+      "Teilweise richtig"
+    ]
+  },
+  {
+    "id": "vr-0169",
+    "topic": "Demografie",
+    "difficulty": 3,
+    "text": "In einem EU-Land wird der Anteil der Menschen über 80 Jahren bis 2050 voraussichtlich von heute fünf auf elf Prozent steigen. Ein Bericht schätzt, dass die Zahl der Pflegebedürftigen im selben Zeitraum um 60 Prozent zunimmt, weil nicht alle Hochaltrigen pflegebedürftig werden; derzeit sind es etwa ein Drittel dieser Altersgruppe. Zugleich nimmt die Zahl der Einpersonenhaushalte zu, sodass seltener Angehörige zur Pflege bereitstehen. Heute werden drei von vier Pflegebedürftigen zu Hause versorgt, überwiegend durch Angehörige. Der Bericht rechnet vor, dass bei gleichbleibenden Anteilen im Jahr 2050 rund 180.000 zusätzliche Pflegekräfte benötigt würden; er weist aber darauf hin, dass sich der Anteil der Pflegebedürftigen in jedem Alter verringern könnte, wenn die Gesundheit der Älteren sich weiter verbessert, wofür es erste Hinweise gebe. Kritiker bemängeln, die Berechnung unterstelle gleichbleibende Betreuungsschlüssel, während technische Hilfen den Bedarf senken könnten. Die Regierung verweist auf geplante Investitionen in Prävention, nennt aber noch keinen Betrag. Die Zahl der Einpersonenhaushalte soll nach den Annahmen des Berichts bis 2050 um ein Fünftel zunehmen. Der Bericht wurde von einer unabhängigen Kommission verfasst und stützt sich auf Daten der amtlichen Statistik.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Bis 2050 wird ein größerer Anteil der über 80-Jährigen pflegebedürftig sein als heute, weil die Gesundheit der Älteren abnimmt.",
+      "Für die geplanten Präventionsinvestitionen hat die Regierung bereits eine feste Summe zugesagt, die im Haushalt eingestellt wird.",
+      "Die Zahl von 180.000 zusätzlichen Pflegekräften setzt unveränderte Anteile voraus und ist daher ein Szenario, keine Vorhersage.",
+      "Die Mehrzahl der zu Hause versorgten Pflegebedürftigen wird heute von ambulanten Diensten betreut statt von Angehörigen."
+    ],
+    "answer": 2,
+    "why": [
+      "Falsch: Der Anteil „könnte“ sich „verringern“; ein Anstieg des Anteils ist nicht gestützt.",
+      "Falsch: Die Regierung „nennt aber noch keinen Betrag“.",
+      "Richtig: Der Bedarf gilt „bei gleichbleibenden Anteilen“; der Anteil Pflegebedürftiger „könnte“ sich zudem „verringern“.",
+      "Falsch: Die Versorgung zu Hause erfolgt „überwiegend durch Angehörige“, nicht durch ambulante Dienste."
+    ],
+    "traps": [
+      "Bedingung weggelassen",
+      "Teilweise richtig"
+    ]
+  },
+  {
+    "id": "vr-0170",
+    "topic": "Verkehr",
+    "difficulty": 3,
+    "text": "Ein Mitgliedstaat bestellte bei einem Bahnunternehmen drei neue Nachtzugverbindungen zu Nachbarhauptstädten und finanziert sie mit einem Zuschuss von zwölf Millionen Euro jährlich. Die Züge fahren dreimal wöchentlich, mit einer durchschnittlichen Auslastung von 68 Prozent im ersten Jahr; die Bahn hatte 75 Prozent erwartet. Der Fahrpreis liegt im Mittel bei 90 Euro für einen Sitzplatz und 160 Euro für einen Schlafwagenplatz, rund 40 Prozent über dem Preis eines Flugs auf der gleichen Strecke bei Buchung vier Wochen vorher. Eine Befragung unter Fahrgästen ergab, dass 45 Prozent sonst geflogen wären, 20 Prozent gar nicht gereist und der Rest mit dem Auto oder Tagzug gefahren. Das Verkehrsministerium rechnet daraus eine Einsparung von rund 9.000 Tonnen CO2 jährlich; das Umweltbundesamt weist darauf hin, dass die Berechnung den Energieverbrauch der Züge nur mit dem Durchschnittsstrommix ansetzt. Die Befragung erfasste jedoch nur Fahrgäste, die ein Online-Ticket kauften, rund 80 Prozent der Passagiere. Eine Verlängerung des Zuschusses für weitere Strecken wird erst nach Vorliegen der Zweijahresbilanz entschieden. Die Bahn plant, bei guter Entwicklung eine vierte Verbindung in das Netz aufzunehmen, sobald neue Wagen geliefert werden.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Das Umweltbundesamt bestätigt die vom Ministerium berechnete Einsparung von Emissionen und hält den Ansatz für vorsichtig.",
+      "Etwa zwei Drittel der Befragten wären ohne die Nachtzüge entweder geflogen oder gar nicht gereist.",
+      "Die Befragung bildet sämtliche Fahrgäste der Nachtzüge ab, da praktisch alle Reisenden ihre Tickets im Internet kaufen.",
+      "Die Auslastung der Nachtzüge übertraf im ersten Jahr die Erwartungen der Bahn, die mit 75 Prozent gerechnet hatte."
+    ],
+    "answer": 1,
+    "why": [
+      "Falsch: Das Amt „weist darauf hin“, dass die Berechnung den Verbrauch nur mit dem Durchschnittsmix ansetzt; das ist eine Einschränkung, keine Bestätigung.",
+      "Rechnung: „45 Prozent“ wären geflogen und „20 Prozent“ nicht gereist, zusammen 65 Prozent, also etwa zwei Drittel.",
+      "Falsch: Die Befragung erfasste „nur Fahrgäste, die ein Online-Ticket kauften, rund 80 Prozent der Passagiere“.",
+      "Falsch: Erreicht wurden „68 Prozent“, erwartet worden waren „75 Prozent“."
+    ],
+    "traps": [
+      "Gegenteil",
+      "Teilweise richtig"
+    ]
+  },
+  {
+    "id": "vr-0171",
+    "topic": "Verwaltung",
+    "difficulty": 3,
+    "text": "Zur Beschleunigung von Genehmigungsverfahren führte ein Mitgliedstaat für Bauvorhaben bis zu einer bestimmten Größe die Genehmigungsfiktion ein: Entscheidet die Behörde nicht innerhalb von drei Monaten, gilt der Antrag als genehmigt. Die Frist beginnt erst, wenn die Unterlagen vollständig sind; fordert die Behörde einmal Unterlagen nach, beginnt die Frist neu. Nach Einführung sank die mittlere Bearbeitungsdauer von 130 auf 95 Tage. In drei Prozent der Fälle trat die Fiktion ein. Gegen die Hälfte dieser Genehmigungen klagten Nachbarn; in drei Vierteln dieser Verfahren, die alle abgeschlossen sind, hob das Gericht die Genehmigung auf, weil sie dem Planungsrecht widersprach. Die Verwaltung sieht darin keinen Mangel der Regelung, sondern einen Beleg, dass die Ämter überlastet sind. Der Städtetag meint, die Regelung verleite Ämter dazu, Anträge vorsorglich abzulehnen. Eine Auswertung bestätigt dies nicht: Die Ablehnungsquote stieg lediglich von 8 auf 9 Prozent. Die Verfasser betonen, der Rückgang der Bearbeitungsdauer sei auch durch zusätzliche Stellen erklärbar, die im selben Jahr geschaffen wurden. Die Regelung gilt zunächst befristet auf fünf Jahre und soll danach auf Grundlage der Erfahrungen überprüft werden.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Fordert die Behörde Unterlagen nach, läuft die ursprüngliche Frist unverändert weiter, bis der Antrag vollständig ist.",
+      "Mehr als ein Drittel der durch die Fiktion entstandenen Genehmigungen wurde gerichtlich aufgehoben.",
+      "Seit Einführung der Regelung lehnen die Ämter spürbar mehr Anträge vorsorglich ab, um die Frist nicht zu versäumen.",
+      "Die kürzere Bearbeitungsdauer ist auf die Genehmigungsfiktion zurückzuführen, da die Ämter die Frist einhalten wollten."
+    ],
+    "answer": 1,
+    "why": [
+      "Falsch: Bei einer Nachforderung „beginnt die Frist neu“.",
+      "Rechnung: „Gegen die Hälfte“ klagten Nachbarn, „in drei Vierteln dieser Verfahren“ wurde aufgehoben; das sind 37,5 Prozent aller Fiktionsgenehmigungen.",
+      "Falsch: Das behauptet der Städtetag; „eine Auswertung bestätigt dies nicht“, die Quote stieg nur „von 8 auf 9 Prozent“.",
+      "Falsch: Der Rückgang sei „auch durch zusätzliche Stellen erklärbar“, die Ursache ist also nicht eindeutig."
+    ],
+    "traps": [
+      "Zahl/Menge verdreht",
+      "Meinung als Tatsache"
+    ]
+  },
+  {
+    "id": "vr-0172",
+    "topic": "Recht",
+    "difficulty": 3,
+    "text": "Eine Richtlinie verpflichtet Unternehmen ab 50 Beschäftigten, interne Meldekanäle für Hinweisgeber einzurichten; für Unternehmen mit 50 bis 249 Beschäftigten gilt die Pflicht erst zwei Jahre später als für größere. Hinweisgeber dürfen sich auch direkt an eine externe Behörde wenden, ohne zuvor intern zu melden. Wer berechtigt meldet, ist vor Kündigung und Benachteiligung geschützt; wird jemand nach einer Meldung gekündigt, muss der Arbeitgeber beweisen, dass die Kündigung nichts mit der Meldung zu tun hat. Eine Erhebung in einem Mitgliedstaat zeigt, dass ein Jahr nach Ablauf der Frist 71 Prozent der großen, aber nur 38 Prozent der betroffenen kleineren Unternehmen einen Kanal eingerichtet hatten. Die eingegangenen Meldungen betrafen zu 40 Prozent Verstöße gegen Arbeitsschutz, zu 25 Prozent Vergabeverstöße; der Rest verteilt sich auf mehrere Bereiche. Arbeitgeberverbände weisen darauf hin, dass in 55 Prozent der Fälle die Hinweise unbegründet waren; die Behörde erwidert, dass auch unbegründete Meldungen Schutz genießen, solange der Hinweisgeber guten Glaubens war. Anonyme Meldungen sind nicht vorgeschrieben, dürfen aber bearbeitet werden. Verstöße gegen die Pflicht zur Einrichtung eines Kanals können mit Bußgeldern geahndet werden, bislang wurde jedoch kein Bußgeld verhängt.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Nach einer Kündigung muss der Hinweisgeber darlegen und beweisen, dass die Meldung der wahre Grund der Kündigung gewesen ist, und zwar vor dem Arbeitsgericht.",
+      "Anonyme Meldungen müssen von den zuständigen Stellen zwingend bearbeitet werden, sobald sie eingehen.",
+      "Der Schutz vor Benachteiligung hängt nach Auffassung der Behörde nicht davon ab, dass sich der Hinweis als zutreffend erweist.",
+      "Kleinere Unternehmen mussten ihren Meldekanal zeitgleich mit den größeren Unternehmen einrichten, also ohne Aufschub."
+    ],
+    "answer": 2,
+    "why": [
+      "Falsch: Der „Arbeitgeber“ muss „beweisen“, dass die Kündigung nichts mit der Meldung zu tun hat; die Beweislast ist umgekehrt dargestellt.",
+      "Falsch: Anonyme Meldungen „sind nicht vorgeschrieben, dürfen aber bearbeitet werden“; das ist keine Pflicht.",
+      "Richtig: Die Behörde sagt, „auch unbegründete Meldungen“ genössen Schutz, „solange der Hinweisgeber guten Glaubens war“.",
+      "Falsch: Für 50 bis 249 Beschäftigte gilt die Pflicht „erst zwei Jahre später“."
+    ],
+    "traps": [
+      "Modalität (kann/muss)",
+      "Zeitangabe verdreht"
+    ]
+  },
+  {
+    "id": "vr-0173",
+    "topic": "Wirtschaft",
+    "difficulty": 3,
+    "text": "Ein Forschungsinstitut untersuchte, wie sich die Zahl der Unternehmensinsolvenzen in einem EU-Land während und nach einer Phase staatlicher Überbrückungshilfen entwickelt hat. Während der Hilfen lag die Zahl der Insolvenzen 22 Prozent unter dem langjährigen Mittel; in den zwei Jahren nach Auslaufen der Hilfen lag sie 15 Prozent darüber. Das Institut deutet dies teilweise als Nachholeffekt, hält aber auch möglich, dass die Hilfen einzelne dauerhaft nicht tragfähige Unternehmen am Leben hielten. Als Hinweis darauf könnte gelten, dass die Produktivität der später insolventen Betriebe niedriger war als im Durchschnitt; allerdings sei diese Differenz schon vor der Krise gleich groß gewesen. Eine Wirtschaftsvereinigung widerspricht und meint, die Hilfen hätten viele Arbeitsplätze gerettet, die ohne sie verloren gegangen wären; das Institut kann die Zahl der erhaltenen Arbeitsplätze nicht bestimmen, weil der Vergleichsfall fehlt. Unternehmen mit weniger als zehn Beschäftigten stellten drei Viertel der Insolvenzen, machen aber nur zwei Drittel aller Unternehmen aus. Die Zahl der betroffenen Beschäftigten pro Insolvenz sank im Zeitverlauf. Das Institut wertete dafür Daten aus dem Unternehmensregister und aus Steuererklärungen der Betriebe aus.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Der geringere Produktivitätsstand insolventer Betriebe liefert keinen Beleg für die These künstlich erhaltener Unternehmen, da der Abstand schon zuvor bestand.",
+      "Kleinstunternehmen waren unter den Insolvenzen schwächer vertreten, als es ihrem Anteil an allen Unternehmen entspricht.",
+      "Nach Auslaufen der Hilfen lag die Zahl der Insolvenzen zwei Jahre lang 22 Prozent über dem langjährigen Mittel.",
+      "Die Wirtschaftsvereinigung hat die Zahl der durch die Hilfen geretteten Arbeitsplätze mit einer eigenen Rechnung belegt."
+    ],
+    "answer": 0,
+    "why": [
+      "Richtig: Die Differenz sei „schon vor der Krise gleich groß gewesen“, der „Hinweis“ trägt also nicht.",
+      "Falsch: Sie stellten „drei Viertel“ der Insolvenzen bei nur „zwei Drittel“ der Unternehmen, sind also überrepräsentiert.",
+      "Falsch: Nach den Hilfen lag sie „15 Prozent darüber“; die 22 Prozent betreffen die Zeit „unter dem langjährigen Mittel“ während der Hilfen.",
+      "Falsch: Das Institut „kann die Zahl der erhaltenen Arbeitsplätze nicht bestimmen“, weil „der Vergleichsfall fehlt“."
+    ],
+    "traps": [
+      "Meinung als Tatsache",
+      "Zahl/Menge verdreht"
+    ]
+  },
+  {
+    "id": "vr-0174",
+    "topic": "Arbeitsmarkt",
+    "difficulty": 3,
+    "text": "Ein Land führte einen Bildungsurlaub ein: Beschäftigte haben Anspruch auf fünf bezahlte Arbeitstage pro Jahr für anerkannte Weiterbildung; in Betrieben mit weniger als zehn Beschäftigten darf der Arbeitgeber den Anspruch ablehnen, wenn betriebliche Gründe entgegenstehen. Die Teilnahme stieg im ersten Jahr von 11 auf 16 Prozent der Beschäftigten. Bei Beschäftigten mit Hochschulabschluss lag sie bei 27 Prozent, bei jenen ohne Berufsabschluss bei 5 Prozent. Befragte ohne Berufsabschluss nannten als Grund für ihre Nichtteilnahme fehlende Information (44 Prozent), fehlende passende Kurse (31 Prozent) und Sorgen, vom Arbeitgeber schlecht beurteilt zu werden (25 Prozent); Mehrfachnennungen waren nicht möglich. Das Arbeitsministerium sieht in dem Anstieg einen Erfolg; die Gewerkschaften verweisen darauf, dass die Ungleichheit der Teilnahme fortbesteht. Arbeitgeberverbände warnen vor Produktionsausfällen, doch eine Befragung ergab, dass nur 9 Prozent der Betriebe nennenswerte Ausfälle meldeten. Die Kurse mit höchstem Zulauf waren Sprachkurse, gefolgt von IT; eine Auswertung zum Nutzen für das Einkommen liegt noch nicht vor. Das Ministerium kündigte an, die Informationskampagne für Beschäftigte ohne Berufsabschluss im zweiten Jahr zu verstärken. Eine Evaluation der Ergebnisse soll nach dem dritten Jahr durch ein unabhängiges Institut erfolgen und veröffentlicht werden.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Kleinbetriebe müssen den Anspruch ihrer Beschäftigten in jedem Fall gewähren, auch bei betrieblichen Engpässen.",
+      "Der Bildungsurlaub hat das Einkommen der Teilnehmenden im Mittel bereits verbessert, wie erste Erhebungen zeigen.",
+      "Mehr als die Hälfte der Befragten ohne Berufsabschluss nahm wegen mangelnder Information nicht an Kursen teil.",
+      "Die Teilnahmequote erhöhte sich im ersten Jahr um fast die Hälfte ihres bisherigen Wertes."
+    ],
+    "answer": 3,
+    "why": [
+      "Falsch: Kleine Betriebe dürfen den Anspruch ablehnen, „wenn betriebliche Gründe entgegenstehen“.",
+      "Falsch: „Eine Auswertung zum Nutzen für das Einkommen liegt noch nicht vor.“",
+      "Falsch: Fehlende Information nannten „44 Prozent“; Mehrfachnennungen waren ausgeschlossen, mehr als die Hälfte ist es also nicht.",
+      "Rechnung: Von „11 auf 16 Prozent“ sind fünf Prozentpunkte, rund 45 Prozent des Ausgangswerts, also fast die Hälfte."
+    ],
+    "traps": [
+      "Zahl/Menge verdreht",
+      "Nicht im Text (Weltwissen)"
+    ]
+  },
+  {
+    "id": "vr-0175",
+    "topic": "Digitalisierung",
+    "difficulty": 3,
+    "text": "Ein Förderprogramm unterstützt den Glasfaserausbau in Gemeinden, in denen laut Marktanalyse kein Anbieter in den nächsten drei Jahren eigenwirtschaftlich ausbauen würde. Der Bund übernimmt 50 Prozent der Kosten, das Land 30 Prozent, die Gemeinde den Rest; finanzschwache Gemeinden können ihren Anteil auf 5 Prozent senken, dann erhöht das Land seinen Anteil entsprechend. Von 1.400 Gemeinden im Fördergebiet haben 620 Anträge gestellt; bewilligt wurden 480. Am Ende des dritten Jahres waren in 130 der bewilligten Gemeinden Anschlüsse nutzbar. Kritiker bemängeln, dass Gemeinden mit eigener Verwaltungskapazität bevorzugt Anträge stellten; die Behörde bestreitet das nicht, verweist aber auf ein Beratungsangebot für kleine Gemeinden, das bisher 90 in Anspruch genommen hätten. Anbieter beklagen, dass nach Förderung der Ausbau in Nachbargemeinden unrentabel werde, weil der Wettbewerber mit Fördermitteln arbeite; die Behörde verlangt deshalb von Geförderten, ihr Netz anderen Anbietern zu öffnen. Die Zahl der tatsächlich angeschlossenen Haushalte wird erst nach Abschluss erhoben. Für die Zeit nach der Förderung müssen die Betreiber der Netze zehn Jahre lang bestimmte Mindestgeschwindigkeiten gewährleisten. Die Behörde veröffentlicht jährlich eine Übersicht aller bewilligten Vorhaben, einschließlich des jeweiligen Ausbaustands.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Von den Gemeinden, die einen Antrag stellten, wurde die Mehrheit abgelehnt, weil die Mittel nicht reichten.",
+      "In mehr als einem Drittel der bewilligten Gemeinden sind drei Jahre nach dem Start bereits Anschlüsse nutzbar.",
+      "In einer finanzschwachen Gemeinde kann der Landesanteil an den Kosten bis zu 45 Prozent betragen.",
+      "Die Behörde hat belegt, dass ihr Beratungsangebot die Verzerrung bei der Antragstellung weitgehend ausgleicht."
+    ],
+    "answer": 2,
+    "why": [
+      "Falsch: Von „620“ Anträgen wurden „480“ bewilligt, also mehr als drei Viertel.",
+      "Falsch: „130“ von „480“ sind rund 27 Prozent, weniger als ein Drittel.",
+      "Rechnung: Bund 50 plus Gemeinde 5 ergibt 55; das Land trägt dann „entsprechend“ die übrigen 45 Prozent.",
+      "Falsch: Die Behörde „verweist“ nur auf das Angebot, das „90“ Gemeinden nutzten; ein Ausgleich der Verzerrung wird nicht belegt."
+    ],
+    "traps": [
+      "Zahl/Menge verdreht",
+      "Meinung als Tatsache"
+    ]
+  },
+  {
+    "id": "vr-0176",
+    "topic": "Datenschutz",
+    "difficulty": 3,
+    "text": "Ein Gesetz erlaubt die Nutzung von Gesundheitsdaten aus der elektronischen Patientenakte für Forschung, sofern die Daten pseudonymisiert werden und ein Ethikgremium das Vorhaben genehmigt. Patienten können der Nutzung widersprechen. Im ersten Jahr widersprachen 6 Prozent. In einer Region, in der die Krankenkasse die Versicherten aktiv mit einem Brief informierte, waren es 11 Prozent, in den übrigen Regionen 4 Prozent. Forschende befürchten, dass bei einem Widerspruchsanteil, der nach Altersgruppe oder Erkrankung stark variiert, die Datensätze verzerrt würden; bislang liegen dazu Zahlen nur für das Alter vor: Unter 30-Jährige widersprachen doppelt so oft wie über 60-Jährige. Datenschützer kritisieren, dass pseudonymisierte Daten bei seltenen Erkrankungen re-identifiziert werden könnten; das zuständige Institut verlangt daher bei Gruppen mit weniger als zehn Personen eine Zusammenfassung der Daten. Ein Antrag eines Pharmaunternehmens wurde abgelehnt, weil der Nutzen für die Allgemeinheit nicht dargelegt war. Von den bisher 85 Anträgen wurden 70 genehmigt, 9 abgelehnt, der Rest ist offen. Die Aufsichtsbehörde veröffentlicht jährlich einen Bericht über die genehmigten Forschungsvorhaben und deren Zwecke. Die Aufsichtsbehörde führt ein öffentliches Verzeichnis der genehmigten Vorhaben, das jeweils nach Ablauf eines Quartals aktualisiert wird.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Bei seltenen Erkrankungen ist eine Re-Identifizierung nach Auskunft des zuständigen Instituts ausgeschlossen.",
+      "Ältere Versicherte widersprachen der Nutzung ihrer Daten doppelt so oft wie jüngere Versicherte.",
+      "Forschende haben anhand der Zahlen gezeigt, dass die Widersprüche die Datensätze nach Alter und Erkrankung verzerren.",
+      "Über sechs der bisher gestellten Anträge ist noch nicht entschieden worden."
+    ],
+    "answer": 3,
+    "why": [
+      "Falsch: Das Institut verlangt bei Gruppen „mit weniger als zehn Personen eine Zusammenfassung“, gerade weil eine Re-Identifizierung möglich ist.",
+      "Falsch: „Unter 30-Jährige widersprachen doppelt so oft wie über 60-Jährige“; die Richtung ist umgedreht.",
+      "Falsch: Die Forschenden „befürchten“ eine Verzerrung, Zahlen liegen „nur für das Alter“ vor.",
+      "Rechnung: „85 Anträgen“ minus „70 genehmigt“ minus „9 abgelehnt“ ergibt 6; „der Rest ist offen“."
+    ],
+    "traps": [
+      "Vergleich verdreht",
+      "Meinung als Tatsache"
+    ]
+  },
+  {
+    "id": "vr-0177",
+    "topic": "Energie",
+    "difficulty": 3,
+    "text": "Ein Programm förderte die energetische Sanierung von 20.000 Wohngebäuden mit Zuschüssen bis zu 30 Prozent. Nach den Berechnungen auf Grundlage des Energieausweises sollte der Heizenergiebedarf der Gebäude um 45 Prozent sinken. Gemessen an den tatsächlichen Verbrauchsabrechnungen von 3.000 Gebäuden betrug der Rückgang im Mittel 28 Prozent. Die Programmträger nennen als Gründe, dass Bewohner nach der Sanierung stärker heizen und dass die Berechnung von Temperaturen ausgeht, die in unsanierten Gebäuden selten erreicht wurden. Eine Untersuchung stellte fest, dass in Gebäuden mit Wärmepumpe der Unterschied zwischen Berechnung und Messung kleiner war, bei Gebäuden mit unsachgemäß eingebauter Lüftung größer. Kritiker meinen, die Förderung sei zu teuer, weil pro eingesparter Kilowattstunde die Kosten höher lägen als bei neuen Windparks; die Programmträger halten den Vergleich für unpassend, da die Sanierung zusätzlich den Wohnwert steigere. Mieter profitierten nur, wenn der Vermieter die Modernisierungsumlage nicht voll ansetzt; das gelang nach einer Stichprobe in etwa der Hälfte der Fälle. Das Programm läuft noch zwei Jahre, und eine Verlängerung hängt von der Haushaltslage des Landes ab. Die Gebäude wurden nach Baujahr und Größe in vier Gruppen eingeteilt, die getrennt ausgewertet wurden.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Das stärkere Heizen der Bewohner nach der Sanierung ist die einzige Ursache für die Abweichung zwischen Rechnung und Messung.",
+      "Der gemessene Rückgang des Heizenergiebedarfs lag bei mehr als drei Fünfteln des errechneten.",
+      "Bei Gebäuden mit Wärmepumpe wich die Berechnung stärker von der Messung ab als bei den übrigen Gebäuden.",
+      "Die Programmträger räumen ein, dass die Förderung je eingesparter Kilowattstunde teurer ist als der Bau neuer Windparks."
+    ],
+    "answer": 1,
+    "why": [
+      "Falsch: Die Träger nennen auch die Temperaturannahmen der Berechnung, und bei „unsachgemäß eingebauter Lüftung“ war der Unterschied größer.",
+      "Rechnung: „28 Prozent“ gemessen gegenüber „45 Prozent“ berechnet; 28 geteilt durch 45 sind rund 62 Prozent, also mehr als drei Fünftel.",
+      "Falsch: Bei Wärmepumpen war der Unterschied „kleiner“.",
+      "Falsch: Das behaupten die „Kritiker“; die Träger „halten den Vergleich für unpassend“."
+    ],
+    "traps": [
+      "Vergleich verdreht",
+      "Überverallgemeinerung"
+    ]
+  },
+  {
+    "id": "vr-0178",
+    "topic": "Handel",
+    "difficulty": 3,
+    "text": "Die Europäische Kommission leitete ein Antidumpingverfahren gegen Einfuhren eines bestimmten Stahlerzeugnisses aus einem Drittstaat ein, nachdem Hersteller aus der Union geltend gemacht hatten, die Einfuhren würden zu Preisen unter den Herstellungskosten angeboten. Das Verfahren darf höchstens vierzehn Monate dauern; vorläufige Zölle dürfen frühestens nach sechzig Tagen erhoben werden. Dumping allein genügt nicht: Die Union muss auch nachweisen, dass den Herstellern der Union dadurch ein bedeutender Schaden entsteht und dass die Maßnahme nicht gegen das Interesse der Union verstößt, zu dem auch das Interesse der Verwender des Erzeugnisses zählt. Die Verwender, vor allem aus der Bauindustrie, wenden ein, Zölle würden ihre Kosten steigern. Im untersuchten Zeitraum stieg der Marktanteil der Einfuhren von 8 auf 15 Prozent; zugleich sank der Preis des Erzeugnisses um 12 Prozent, doch die Hersteller räumen ein, dass auch die Rohstoffkosten fielen. Der Drittstaat bestreitet das Dumping und kündigte Gegenmaßnahmen an, falls Zölle erhoben werden. Vorläufige Zölle werden zurückgezahlt, wenn das Verfahren ohne endgültige Maßnahmen endet. Das Verfahren ist öffentlich, und alle Beteiligten, auch die Verwender, können Stellungnahmen einreichen.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Selbst bei nachgewiesenem Dumping können Zölle ausbleiben, wenn sie den Belangen der Union zuwiderliefen.",
+      "Der Preisrückgang des Erzeugnisses geht nach den Herstellern ausschließlich auf die Einfuhren aus dem Drittstaat zurück.",
+      "Vorläufig erhobene Zölle verbleiben bei der Union, auch wenn am Ende keine endgültigen Maßnahmen folgen.",
+      "Der Marktanteil der Einfuhren hat sich im untersuchten Zeitraum mehr als verdoppelt und liegt nun über einem Siebtel."
+    ],
+    "answer": 0,
+    "why": [
+      "Richtig: „Dumping allein genügt nicht“; die Maßnahme darf „nicht gegen das Interesse der Union verstößt“, zu dem das der Verwender zählt.",
+      "Falsch: Die Hersteller „räumen ein, dass auch die Rohstoffkosten fielen“.",
+      "Falsch: Sie „werden zurückgezahlt, wenn das Verfahren ohne endgültige Maßnahmen endet“.",
+      "Falsch: „Von 8 auf 15 Prozent“ ist weniger als eine Verdopplung (16 wären nötig)."
+    ],
+    "traps": [
+      "Teilweise richtig",
+      "Zahl/Menge verdreht"
+    ]
+  },
+  {
+    "id": "vr-0179",
+    "topic": "Demografie",
+    "difficulty": 3,
+    "text": "In einem EU-Land wurde das gesetzliche Rentenalter in Schritten von 65 auf 67 Jahre angehoben; die Anhebung lief über zwölf Jahre. Die Erwerbstätigenquote der 60- bis 64-Jährigen stieg in dieser Zeit von 40 auf 62 Prozent, die der 55- bis 59-Jährigen von 72 auf 80 Prozent. Die Regierung führt den Anstieg auf die Reform zurück; Ökonomen weisen darauf hin, dass die Quote schon in den zwölf Jahren davor um zwölf Prozentpunkte gestiegen war, vor allem wegen eines höheren Bildungsstands der jüngeren Älteren. Der Anteil der Arbeitslosen unter den 60- bis 64-Jährigen stieg von 4 auf 7 Prozent. Die Zahl der Erwerbsminderungsrentner in dieser Altersgruppe nahm ebenfalls zu, um etwa ein Fünftel. Gewerkschaften sehen darin den Beleg, dass nicht alle bis 67 durchhalten; das Ministerium hält die Entwicklung für noch im üblichen Schwankungsbereich. Eine Berechnung des Rentenversicherungsträgers kommt zu dem Ergebnis, dass die Anhebung den Beitragssatz im Jahr 2040 um 0,6 Prozentpunkte niedriger halten würde als ohne Anhebung; dabei sei angenommen, dass die Erwerbsquote Älterer weiter steige. Für Beschäftigte mit besonders belastenden Tätigkeiten gelten befristet Ausnahmen, deren Zahl bislang gering ist.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Da schon vor der Reform ein Aufwärtstrend bestand, dürfte der Anstieg der Quote nicht ganz auf die Reform zurückgehen.",
+      "Das Ministerium räumt ein, dass nicht alle Beschäftigten bis zum Alter von 67 Jahren durchhalten können.",
+      "Bei den 55- bis 59-Jährigen stieg die Erwerbstätigenquote stärker als bei den 60- bis 64-Jährigen im selben Zeitraum.",
+      "Die Berechnung zum Beitragssatz gilt unabhängig davon, wie sich die Erwerbsquote Älterer in den kommenden Jahren entwickelt."
+    ],
+    "answer": 0,
+    "why": [
+      "Richtig: Die Quote war „schon in den zwölf Jahren davor“ um zwölf Prozentpunkte gestiegen; die Reform erklärt also nicht den ganzen Anstieg.",
+      "Falsch: Das sehen die „Gewerkschaften“ so; das Ministerium hält die Entwicklung für „im üblichen Schwankungsbereich“.",
+      "Falsch: „von 72 auf 80 Prozent“ sind 8 Punkte, „von 40 auf 62 Prozent“ sind 22 Punkte; der Vergleich ist umgedreht.",
+      "Falsch: Die Berechnung setzt voraus, „dass die Erwerbsquote Älterer weiter steige“."
+    ],
+    "traps": [
+      "Bedingung weggelassen",
+      "Vergleich verdreht"
+    ]
+  },
+  {
+    "id": "vr-0180",
+    "topic": "Verkehr",
+    "difficulty": 3,
+    "text": "Die Binnenschifffahrt transportiert in einem EU-Land rund sieben Prozent der Güter, bei Massengütern wie Kohle, Erzen und Mineralölprodukten jedoch etwa jede fünfte Tonne. Bei Niedrigwasser müssen Schiffe weniger laden: Pro zehn Zentimeter Pegelrückgang sinkt die mögliche Ladung eines typischen Frachters um etwa 25 bis 30 Tonnen. In einem Trockenjahr verdoppelten sich die Frachtraten, und die Schienenbetreiber meldeten eine um zwölf Prozent höhere Nachfrage für Massengüter, die sie nur zum Teil bedienen konnten, weil Wagen und Lokführer fehlten. Reeder sehen in der Zunahme extremer Trockenperioden ein wachsendes Risiko; die Wasserstraßenverwaltung verweist auf die Schwankungsbreite der letzten hundert Jahre und hält eine Aussage zum Trend für verfrüht, plant aber die Vertiefung der Fahrrinne an drei Engstellen. Umweltverbände lehnen die Vertiefung ab, weil sie den Grundwasserspiegel in der Aue senken könne. Eine Studie der Hafenwirtschaft meint, dass bei Niedrigwasser rund ein Viertel der Ladung auf die Straße verlagert wird, ohne dass die Studie dies für andere Jahre untersucht hat. Ein Ausbau der Hafenanlagen für den Umschlag zwischen Schiff und Schiene ist in der Planung, aber noch nicht finanziert.",
+    "question": "Welche der folgenden Aussagen ist zutreffend?",
+    "options": [
+      "Umweltverbände haben nachgewiesen, dass die Vertiefung der Fahrrinne den Grundwasserspiegel in der Aue senkt.",
+      "Die Schiene konnte die zusätzliche Nachfrage im Trockenjahr nicht vollständig aufnehmen.",
+      "Die Wasserstraßenverwaltung bestätigt, dass extreme Trockenperioden in den vergangenen Jahrzehnten zugenommen haben.",
+      "Bei einem Pegelrückgang von dreißig Zentimetern sinkt die mögliche Ladung eines Frachters um etwa 25 bis 30 Tonnen."
+    ],
+    "answer": 1,
+    "why": [
+      "Falsch: Die Verbände lehnen ab, „weil sie den Grundwasserspiegel“ senken „könne“; das ist eine Befürchtung, kein Nachweis.",
+      "Richtig: Die Schienenbetreiber konnten die Nachfrage „nur zum Teil bedienen“, weil „Wagen und Lokführer fehlten“.",
+      "Falsch: Die Verwaltung hält „eine Aussage zum Trend für verfrüht“; die Zunahme sehen die „Reeder“.",
+      "Falsch: Die 25 bis 30 Tonnen gelten „pro zehn Zentimeter“, bei dreißig Zentimetern wären es etwa 75 bis 90 Tonnen."
+    ],
+    "traps": [
+      "Zahl auf falsche Größe",
+      "Modalität (kann/muss)"
+    ]
+  }
+]
