@@ -9,19 +9,18 @@
    "Das tägliche Training an Bord soll den Verlust von Muskeln und Knochensubstanz eindämmen.",
    "Das Training an Bord verhindert den Abbau von Muskeln und Knochen vollständig.",
    "Auf der Raumstation ist kein Training nötig, weil die Schwerelosigkeit die Muskeln schont.",
-   "Nach der Landung müssen alle Rückkehrer mehrere Wochen im Krankenhaus bleiben."
+   "Die Gleichgewichtsprobleme der Rückkehrer entstehen laut Text vor allem durch das tägliche Training an Bord."
   ],
   "answer": 0,
   "why": [
    "Richtig: Das Training dient laut Text dazu, „diesen Abbau zu begrenzen“.",
    "Falsch: Der Text sagt „Trotz dieser Maßnahmen“ gibt es Probleme; von „vollständig“ verhindern ist nicht die Rede.",
    "Falsch: Laut Text wird die Belastung verringert und die Muskelmasse nimmt „ohne Gegenmaßnahmen“ ab, das Training ist also nötig.",
-   "Falsch: Der Text nennt ein Rehabilitationsprogramm, aber weder Krankenhausaufenthalte noch eine Dauer von Wochen."
+   "Falsch: Der Text nennt keine Ursache der Gleichgewichtsprobleme; „Trotz dieser Maßnahmen“ zeigt nur, dass sie trotz des Trainings auftreten."
   ],
   "traps": [
    "Überverallgemeinerung",
-   "Gegenteil",
-   "Nicht im Text (Weltwissen)"
+   "Kausalität unterstellt"
   ]
  },
  {
@@ -33,15 +32,15 @@
   "options": [
    "Ein Mittagsschlaf ersetzt den Nachtschlaf nach Meinung der meisten Fachleute vollständig.",
    "Die Schlafgruppe erinnerte sich im Mittel an mehr Wortpaare als die wache Gruppe.",
-   "Erwachsene benötigen nach Ansicht der Forschenden genau acht Stunden Schlaf pro Nacht.",
-   "Der Tiefschlaf ist die einzige Schlafphase, die für das Gedächtnis eine Rolle spielt."
+   "Erwachsenen werden nach Ansicht der Forschenden mindestens acht Stunden Schlaf pro Nacht empfohlen.",
+   "Die Überführung neuer Inhalte in langfristige Speicher wird im Text dem REM-Schlaf zugeschrieben."
   ],
   "answer": 1,
   "why": [
    "Falsch: Der Text sagt, der Mittagsschlaf „ersetzt“ den Nachtschlaf „keinen ausreichenden“, also das Gegenteil.",
    "Richtig: Der Test zeigte, dass „die Schlafgruppe im Durchschnitt an mehr Wortpaare“ erinnerte.",
-   "Falsch: Genannt wird „sieben bis neun Stunden“ und ein individuell verschiedener Bedarf, nicht genau acht Stunden.",
-   "Falsch: Auch der REM-Schlaf wird als bedeutsam beschrieben, wenn auch für Emotionen und Problemlösung; „einzige“ geht über den Text hinaus."
+   "Falsch: Genannt werden „sieben bis neun Stunden“ bei individuell verschiedenem Bedarf; eine Untergrenze von acht Stunden steht nicht im Text.",
+   "Falsch: Das Festigen und Überführen in langfristige Speicher wird dem Tiefschlaf zugeschrieben; der REM-Schlaf gilt als bedeutsam für Emotionen und Problemlösung."
   ],
   "traps": [
    "Überverallgemeinerung",
@@ -57,45 +56,46 @@
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
    "Romanische Kirchen besaßen größere Glasflächen als die später entstandenen gotischen Kathedralen in Nordfrankreich.",
-   "Die Kathedralen wurden ausschließlich durch Spenden der Bevölkerung finanziert.",
-   "Gotische Kathedralen wurden stets innerhalb weniger Jahre fertiggestellt.",
+   "Die Finanzierung der Kathedralen beruhte vor allem auf Beiträgen der Bischöfe.",
+   "Der Spitzbogen leitet den Druck des Gewölbes stärker zur Seite als der Rundbogen.",
    "Das Strebewerk nimmt seitliche Kräfte auf und entlastet dadurch die Außenwände."
   ],
   "answer": 3,
   "why": [
    "Falsch: Romanische Bauten hatten laut Text „kleine Fenster“, gotische dagegen große Glasflächen.",
-   "Falsch: Genannt werden auch Beiträge der Bischöfe und Wallfahrtseinnahmen; „ausschließlich“ ist nicht gedeckt.",
-   "Falsch: Viele Bauten wurden „über Generationen hinweg“ errichtet, manche blieben unvollendet.",
+   "Falsch: Genannt werden Spenden der Bevölkerung, Beiträge der Bischöfe und Wallfahrtseinnahmen; ein Schwerpunkt bei den Bischöfen steht nicht im Text.",
+   "Falsch: Der Spitzbogen leitet den Druck „stärker nach unten“ als der Rundbogen.",
    "Richtig: Das Strebewerk „fängt die seitlichen Kräfte ab, sodass die Wände selbst weniger tragen müssen“."
   ],
   "traps": [
+   "Vergleich verdreht",
    "Gegenteil",
-   "Überverallgemeinerung",
-   "Zahl/Menge verdreht"
+   "Überverallgemeinerung"
   ]
  },
  {
   "id": "vr-0104",
   "topic": "Sport",
   "difficulty": 1,
-  "text": "Der Marathonlauf über 42,195 Kilometer gehört seit den ersten Olympischen Spielen der Neuzeit im Jahr 1896 zum Programm. Er geht auf eine antike Überlieferung zurück, nach der ein Bote nach einer Schlacht von Marathon nach Athen gelaufen sein soll, um einen Sieg zu verkünden. Ob diese Geschichte historisch zutrifft, ist unter Fachleuten umstritten. Die heutige Strecke wurde erst bei den Spielen in London im Jahr 1908 festgelegt; zuvor schwankte die Distanz von Veranstaltung zu Veranstaltung. Seit den 1970er-Jahren ist der Marathon auch zu einem Breitensport geworden. Große Stadtläufe ziehen heute jedes Jahr Zehntausende Teilnehmende an, von denen die meisten keine Spitzensportler sind. Viele Läuferinnen und Läufer trainieren mehrere Monate nach einem festen Plan, um die Strecke zu bewältigen. Medizinerinnen raten dazu, die Belastung langsam zu steigern und auf ausreichende Erholung zu achten. Für Anfänger gilt oft schon das Ankommen als Erfolg, während die schnellsten Läufer die Strecke in etwas mehr als zwei Stunden zurücklegen. Wer sich erstmals an die Strecke wagt, plant meist deutlich mehr Zeit ein als die Spitze.",
+  "text": "Der Marathonlauf über 42,195 Kilometer gehört seit den ersten Olympischen Spielen der Neuzeit im Jahr 1896 zum Programm. Er geht auf eine antike Überlieferung zurück, nach der ein Bote nach einer Schlacht von Marathon nach Athen gelaufen sein soll, um einen Sieg zu verkünden. Ob diese Geschichte historisch zutrifft, ist unter Fachleuten umstritten. Die heutige Länge wurde erstmals bei den Spielen in London im Jahr 1908 gelaufen und danach zum Standard; zuvor schwankte die Distanz von Veranstaltung zu Veranstaltung. Seit den 1970er-Jahren ist der Marathon auch zu einem Breitensport geworden. Große Stadtläufe ziehen heute jedes Jahr Zehntausende Teilnehmende an, von denen die meisten keine Spitzensportler sind. Viele Läuferinnen und Läufer trainieren mehrere Monate nach einem festen Plan, um die Strecke zu bewältigen. Medizinerinnen raten dazu, die Belastung langsam zu steigern und auf ausreichende Erholung zu achten. Für Anfänger gilt oft schon das Ankommen als Erfolg, während die schnellsten Läufer die Strecke in etwas mehr als zwei Stunden zurücklegen. Wer sich erstmals an die Strecke wagt, plant meist deutlich mehr Zeit ein als die Spitze.",
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
-   "Die einheitliche Strecke wurde erst nach den Spielen von 1896 festgelegt.",
-   "Der Marathon wurde erst in den 1970er-Jahren zu einer olympischen Disziplin, nachdem er zuvor nur Breitensport war.",
-   "Bei den großen Stadtläufen der Gegenwart starten fast ausschließlich Spitzensportlerinnen und Spitzensportler.",
+   "Die heutige Streckenlänge wurde erst nach den Spielen von 1896 zum Standard.",
+   "Der Marathon wurde erst in den 1970er-Jahren zu einer olympischen Disziplin.",
+   "Bei den großen Stadtläufen der Gegenwart starten vor allem Spitzensportlerinnen und Spitzensportler.",
    "Die Geschichte vom Boten nach Athen gilt unter Fachleuten als historisch gesichert."
   ],
   "answer": 0,
   "why": [
-   "Richtig: Die heutige Strecke wurde laut Text erst 1908 festgelegt, die ersten Spiele fanden 1896 statt.",
-   "Falsch: Der Marathon gehört „seit den ersten Olympischen Spielen der Neuzeit“ zum Programm; ab den 1970ern wurde er Breitensport.",
-   "Falsch: Die meisten Teilnehmenden sind laut Text „keine Spitzensportler“.",
+   "Richtig: Die heutige Länge wurde laut Text erst 1908 gelaufen und danach zum Standard; die ersten Spiele fanden 1896 statt.",
+   "Falsch: Der Marathon gehört „seit den ersten Olympischen Spielen der Neuzeit“ zum Programm; erst ab den 1970ern wurde er auch Breitensport.",
+   "Falsch: Von den Teilnehmenden sind „die meisten“ keine Spitzensportler.",
    "Falsch: Der Text nennt die Frage der historischen Richtigkeit „unter Fachleuten umstritten“."
   ],
   "traps": [
+   "Zeitangabe verdreht",
    "Gegenteil",
-   "Zeitangabe verdreht"
+   "Überverallgemeinerung"
   ]
  },
  {
@@ -107,20 +107,19 @@
   "options": [
    "Zweisprachige Kinder kennen in einer einzelnen Sprache anfangs oft weniger Wörter als einsprachige Kinder.",
    "Zweisprachige Kinder sprechen ihre ersten Wörter in der Regel deutlich später als einsprachige Kinder.",
-   "Der Gesamtwortschatz zweisprachiger Kinder ist stets exakt so groß wie der einsprachiger Kinder.",
-   "Das Wechseln zwischen zwei Sprachen im Gespräch zeigt, dass ein Kind beide Sprachen nur unsicher beherrscht."
+   "Der Gesamtwortschatz zweisprachiger Kinder ist in der Regel deutlich kleiner als der einsprachiger Kinder.",
+   "Das Wechseln zwischen den Sprachen im Gespräch gilt Forschenden häufig als Zeichen sprachlicher Unsicherheit."
   ],
   "answer": 0,
   "why": [
    "Richtig: Der Wortschatz verteilt sich auf zwei Sprachen, daher kennen sie „zunächst oft weniger Wörter“ in jeder einzelnen.",
    "Falsch: Der Text sagt, die ersten Wörter treten „im gleichen Zeitrahmen“ auf wie bei einsprachigen Kindern.",
-   "Falsch: Der Gesamtwortschatz liegt nur „in vergleichbarer Größenordnung“, von „stets exakt“ gleich ist nicht die Rede.",
-   "Falsch: Forschende sehen das Wechseln „nicht als Zeichen von Unsicherheit“, sondern häufig als Kompetenz."
+   "Falsch: Zusammengerechnet liegt der Gesamtwortschatz „in vergleichbarer Größenordnung“.",
+   "Falsch: Forschende betrachten das Wechseln „nicht als Zeichen von Unsicherheit“, sondern häufig als Ausdruck sprachlicher Kompetenz."
   ],
   "traps": [
-   "Zeitangabe verdreht",
    "Gegenteil",
-   "Überverallgemeinerung"
+   "Vergleich verdreht"
   ]
  },
  {
@@ -130,16 +129,16 @@
   "text": "Der Impressionismus entstand in der zweiten Hälfte des neunzehnten Jahrhunderts in Frankreich. Seinen Namen erhielt er von einem Kritiker, der ein Gemälde von Claude Monet mit dem Titel „Impression, Sonnenaufgang“ spöttisch kommentierte. Die Künstler dieser Richtung wollten flüchtige Eindrücke von Licht und Atmosphäre festhalten. Dafür malten sie häufig im Freien und setzten kurze, sichtbare Pinselstriche nebeneinander, statt Farben auf der Palette sorgfältig zu mischen. Typische Motive waren Landschaften, Stadtansichten, Gärten und Szenen aus dem Alltag. Möglich wurde das Arbeiten außerhalb des Ateliers auch durch neue Erfindungen, etwa durch Farben in Metalltuben, die sich leicht transportieren ließen. Die offiziellen Ausstellungen jener Zeit lehnten viele der Werke zunächst ab, weshalb die Gruppe eigene Ausstellungen organisierte. Erst mit den Jahren fanden die Bilder ein breites Publikum. Heute gehören sie zu den beliebtesten Werken in vielen großen Museen. Dennoch bildeten die beteiligten Maler keine einheitliche Gruppe; ihre Stile unterschieden sich in mehreren Punkten. Der Begriff wird heute neutral gebraucht und bezeichnet vor allem die Malweise dieser Zeit.",
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
-   "Impressionistische Maler arbeiteten nach dem Text ausschließlich in ihren Ateliers statt im Freien.",
+   "Impressionistische Maler arbeiteten überwiegend im Atelier und mischten ihre Farben sorgfältig auf der Palette.",
    "Der Name der Richtung stammt von Claude Monet selbst.",
-   "Die Bilder wurden schon zu Lebzeiten der Maler von allen Kritikern gelobt.",
+   "Die Bilder fanden schon zu Lebzeiten der Maler von Anfang an ein breites Publikum.",
    "Eigene Ausstellungen entstanden, weil offizielle Schauen viele Werke ablehnten."
   ],
   "answer": 3,
   "why": [
-   "Falsch: Die Maler arbeiteten „häufig im Freien“.",
+   "Falsch: Sie malten „häufig im Freien“ und setzten Striche nebeneinander, „statt Farben auf der Palette sorgfältig zu mischen“.",
    "Falsch: Den Namen vergab laut Text „ein Kritiker“, der Monets Gemälde spöttisch kommentierte.",
-   "Falsch: Der Text berichtet von Ablehnung und davon, dass die Bilder „erst mit den Jahren“ ein breites Publikum fanden.",
+   "Falsch: Offizielle Ausstellungen lehnten viele Werke zunächst ab; ein breites Publikum fanden die Bilder „erst mit den Jahren“.",
    "Richtig: Offizielle Ausstellungen lehnten „viele der Werke zunächst ab, weshalb die Gruppe eigene Ausstellungen organisierte“."
   ],
   "traps": [
@@ -150,26 +149,26 @@
  {
   "id": "vr-0107",
   "topic": "Naturwissenschaft",
-  "difficulty": 3,
+  "difficulty": 2,
   "text": "Korallenriffe bedecken nur einen sehr kleinen Teil des Meeresbodens, bieten aber einem großen Anteil der bekannten Meeresarten Lebensraum. Die Riffe werden von winzigen Tieren, den Korallenpolypen, aufgebaut. In deren Gewebe leben Algen, die Photosynthese betreiben und den Polypen einen Teil ihrer Nahrung liefern; im Gegenzug erhalten die Algen Schutz und Nährstoffe. Steigt die Wassertemperatur über längere Zeit stark an, stoßen die Polypen die Algen ab, und die Korallen verlieren ihre Farbe. Dieser Vorgang wird als Korallenbleiche bezeichnet. Eine gebleichte Koralle ist nicht automatisch tot: Sinkt die Temperatur rechtzeitig, können die Algen wieder einwandern und die Koralle kann sich erholen. Halten die ungünstigen Bedingungen jedoch an, verhungern die Polypen, und das Riff kann dauerhaft geschädigt werden. Neben der Erwärmung werden auch Verschmutzung, zerstörerische Fischereimethoden und eine zunehmende Versauerung des Meerwassers als Belastungen genannt. Wie widerstandsfähig ein einzelnes Riff ist, hängt nach Einschätzung vieler Forschender unter anderem von der Wasserqualität und der Zahl der Fische ab, die Algen abweiden.",
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
    "Korallenriffe nehmen einen großen Teil des Meeresbodens ein, weshalb dort viele Arten leben.",
-   "Eine gebleichte Koralle ist stets abgestorben, weil sie ihre Algen verloren hat.",
-   "Eine gebleichte Koralle kann sich erholen, wenn die Temperatur rechtzeitig sinkt.",
-   "Korallenbleiche wird ausschließlich durch eine Erwärmung des Wassers verursacht."
+   "Eine gebleichte Koralle erholt sich in der Regel auch dann, wenn die hohen Temperaturen anhalten.",
+   "Eine gebleichte Koralle ist nicht in jedem Fall abgestorben: Sinkt die Temperatur rechtzeitig, kann sie sich erholen.",
+   "Die Korallenbleiche entsteht vor allem durch Verschmutzung und Fischerei, die Erwärmung spielt dabei eine geringe Rolle."
   ],
   "answer": 2,
   "why": [
    "Falsch: Riffe bedecken laut Text „nur einen sehr kleinen Teil“ des Meeresbodens; die Artenvielfalt ist nicht damit begründet.",
-   "Falsch: „Nicht automatisch tot“ widerspricht dem Wort „stets“.",
-   "Richtig: Der Text sagt, eine gebleichte Koralle sei „nicht automatisch tot“, sie könne sich bei rechtzeitig sinkender Temperatur erholen.",
-   "Falsch: Die Bleiche wird mit steigender Wassertemperatur erklärt, andere Belastungen werden genannt; „ausschließlich“ ist nicht belegt."
+   "Falsch: Halten die ungünstigen Bedingungen an, verhungern die Polypen und das Riff kann dauerhaft geschädigt werden.",
+   "Richtig: Eine gebleichte Koralle ist „nicht automatisch tot“; sinkt die Temperatur rechtzeitig, können die Algen wieder einwandern und die Koralle kann sich erholen.",
+   "Falsch: Die Bleiche wird mit lang anhaltend steigender Wassertemperatur erklärt; Verschmutzung und Fischerei werden nur als weitere Belastungen genannt."
   ],
   "traps": [
-   "Überverallgemeinerung",
    "Gegenteil",
-   "Kausalität unterstellt"
+   "Kausalität unterstellt",
+   "Überverallgemeinerung"
   ]
  },
  {
@@ -179,14 +178,14 @@
   "text": "Wer neuen Stoff lernt, vergisst einen großen Teil davon innerhalb weniger Tage, wenn er ihn nicht wiederholt. Lernforschende empfehlen deshalb das sogenannte verteilte Wiederholen: Statt den Stoff in einer einzigen langen Sitzung durchzugehen, wird er in zeitlichen Abständen mehrmals aufgegriffen. In Studien mit Schülern und Studierenden behielten Personen, die ihr Lernen auf mehrere Termine verteilten, den Stoff im Mittel länger als Personen, die dieselbe Gesamtzeit am Stück lernten. Ein Grund dafür könnte sein, dass das Erinnern jedes Mal etwas Anstrengung kostet und gerade diese Anstrengung den Inhalt im Gedächtnis festigt. Eine zweite hilfreiche Methode ist das Abfragen: Wer sich selbst oder von anderen Fragen beantworten lässt, lernt oft besser als jemand, der den Text nur mehrfach liest. Lehrkräfte können beide Methoden in den Unterricht einbauen, etwa durch kurze Wiederholungsfragen zu Beginn der Stunde. Allerdings erfordert das Planung, denn die Abstände zwischen den Wiederholungen sollten zum Stoff und zum angestrebten Behaltenszeitraum passen. Ein einheitlicher Rhythmus für alle Fächer wird nicht empfohlen.",
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
-   "Für alle Fächer und jeden Behaltenszeitraum wird derselbe feste Wiederholungsrhythmus empfohlen.",
+   "Der Text empfiehlt einen einheitlichen Wiederholungsrhythmus, damit sich Lehrkräfte die Planung sparen können.",
    "Verteiltes Wiederholen verlangt weniger Anstrengung beim Erinnern als das Lernen am Stück in einer einzigen Sitzung.",
    "Verteilt lernende Personen behielten den Stoff im Mittel länger als Personen mit einer einzigen langen Sitzung.",
-   "Wer einen Text mehrfach liest, lernt nach den Studien immer besser als jemand, der sich abfragen lässt."
+   "Wer sich abfragen lässt, lernt nach dem Text meist schlechter als jemand, der den Text nur mehrfach liest."
   ],
   "answer": 2,
   "why": [
-   "Falsch: „Ein einheitlicher Rhythmus für alle Fächer wird nicht empfohlen.“",
+   "Falsch: „Ein einheitlicher Rhythmus für alle Fächer wird nicht empfohlen“; die Abstände sollen zu Stoff und Behaltenszeitraum passen, das erfordert Planung.",
    "Falsch: Gerade die Anstrengung beim Erinnern wird als möglicher Grund für die Festigung genannt, nicht deren Fehlen.",
    "Richtig: Personen mit verteiltem Lernen „behielten den Stoff im Mittel länger“ als solche, die dieselbe Gesamtzeit am Stück lernten.",
    "Falsch: Der Text sagt, Abfragen führe „oft“ zu besserem Lernen als mehrfaches Lesen, also das Gegenteil."
@@ -200,19 +199,19 @@
   "id": "vr-0109",
   "topic": "Psychologie",
   "difficulty": 3,
-  "text": "Als Placebo-Effekt bezeichnet man positive Veränderungen des Befindens, die auf die Erwartung einer Behandlung zurückgehen und nicht auf einen Wirkstoff. In klinischen Studien erhält deshalb häufig eine Kontrollgruppe ein wirkstofffreies Scheinmedikament, damit sich die tatsächliche Wirkung eines Präparats von Erwartungseffekten trennen lässt. Besonders deutlich zeigt sich der Placebo-Effekt bei subjektiv erlebten Beschwerden wie Schmerzen, Übelkeit oder Erschöpfung. Auf objektiv messbare Größen, etwa die Größe eines Tumors, hat er nach heutigem Kenntnisstand dagegen kaum Einfluss. Interessanterweise wirken manche Scheinbehandlungen selbst dann, wenn die Betroffenen wissen, dass sie ein Placebo erhalten; die Befunde dazu stammen allerdings aus kleinen Studien und gelten als vorläufig. Das Gegenstück zum Placebo-Effekt ist der Nocebo-Effekt: Wer starke Nebenwirkungen erwartet, berichtet diese häufiger, auch wenn er nur ein Scheinmedikament erhalten hat. Aus diesen Beobachtungen folgern Fachleute, dass die Art, wie Ärztinnen und Ärzte über eine Behandlung sprechen, deren Ergebnis beeinflussen kann. Sie warnen jedoch davor, Placebos als Ersatz für wirksame Therapien zu betrachten. Daher werden Patienten in klinischen Studien meist erst nach einer Aufklärung über das Vorgehen einbezogen.",
+  "text": "Als Placebo-Effekt bezeichnet man positive Veränderungen des Befindens, die auf die Erwartung einer Behandlung zurückgehen und nicht auf einen Wirkstoff. In klinischen Studien erhält deshalb häufig eine Kontrollgruppe ein wirkstofffreies Scheinmedikament, damit sich die tatsächliche Wirkung eines Präparats von Erwartungseffekten trennen lässt. Besonders deutlich zeigt sich der Placebo-Effekt bei subjektiv erlebten Beschwerden wie Schmerzen, Übelkeit oder Erschöpfung. Auf objektiv messbare Größen, etwa die Größe eines Tumors, hat er nach heutigem Kenntnisstand dagegen kaum Einfluss. Interessanterweise wirken manche Scheinbehandlungen selbst dann, wenn die Betroffenen wissen, dass sie ein Placebo erhalten; die Befunde dazu stammen allerdings aus kleinen Studien und gelten als vorläufig. Das Gegenstück zum Placebo-Effekt ist der Nocebo-Effekt: Wer starke Nebenwirkungen erwartet, berichtet diese häufiger, auch wenn er nur ein Scheinmedikament erhalten hat. Aus diesen Beobachtungen folgern Fachleute, dass die Art, wie Ärztinnen und Ärzte über eine Behandlung sprechen, deren Ergebnis beeinflussen kann. Sie warnen jedoch davor, Placebos als Ersatz für wirksame Therapien zu betrachten. Zudem werden Patienten in klinischen Studien meist erst nach einer Aufklärung über das Vorgehen einbezogen.",
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
    "Der Placebo-Effekt ist nach Ansicht von Fachleuten ein gleichwertiger Ersatz für wirksame Therapien.",
    "Der Nocebo-Effekt führt dazu, dass wirkstofffreie Scheinmedikamente echte körperliche Nebenwirkungen auslösen.",
-   "Placebos wirken nachweislich auch dann, wenn die Patienten über das Scheinmedikament Bescheid wissen.",
+   "Placebos wirken auch dann, wenn die Patienten über das Scheinmedikament Bescheid wissen; diese Befunde gelten als gesichert.",
    "Der Placebo-Effekt zeigt sich vor allem bei subjektiv erlebten Beschwerden, kaum bei messbaren Größen."
   ],
   "answer": 3,
   "why": [
    "Falsch: Fachleute warnen davor, Placebos „als Ersatz für wirksame Therapien“ zu betrachten.",
    "Falsch: Beim Nocebo-Effekt „berichtet“ man häufiger Nebenwirkungen; dass echte Nebenwirkungen ausgelöst werden, steht nicht im Text.",
-   "Falsch: Die Befunde dazu stammen „aus kleinen Studien und gelten als vorläufig“, „nachweislich“ geht zu weit.",
+   "Falsch: Die Befunde stammen „aus kleinen Studien und gelten als vorläufig“.",
    "Richtig: Der Effekt zeigt sich „besonders deutlich“ bei subjektiven Beschwerden und hat auf objektive Größen „kaum Einfluss“."
   ],
   "traps": [
@@ -231,36 +230,36 @@
    "Fachleute halten das Bild im Internet für einen vollwertigen Ersatz des Museumsbesuchs.",
    "Digitale Sammlungen machen auch empfindliche, selten gezeigte Objekte sichtbar.",
    "Die Digitalisierung der Bestände ist für Museen mit geringem Aufwand verbunden.",
-   "Alle Museen haben ihre Bestände inzwischen vollständig digitalisiert."
+   "Weil digitale Sammlungen den Besuch ersetzen, sinken die Besucherzahlen der Museen."
   ],
   "answer": 1,
   "why": [
    "Falsch: Das Bild „ersetzt“ den Besuch nach Ansicht vieler Fachleute „nicht“.",
    "Richtig: Empfindliche Stücke, „die selten oder nie ausgestellt werden“, lassen sich digital zeigen.",
    "Falsch: Der Text spricht von „einem hohen Aufwand“.",
-   "Falsch: Viele Häuser haben „zunächst nur einen Teil ihrer Bestände erfasst“."
+   "Falsch: Nach Ansicht vieler Fachleute ersetzt das Bild im Netz den Besuch nicht, Museen sehen die Angebote als Ergänzung; von sinkenden Besucherzahlen ist keine Rede."
   ],
   "traps": [
-   "Überverallgemeinerung",
+   "Kausalität unterstellt",
    "Gegenteil"
   ]
  },
  {
   "id": "vr-0111",
   "topic": "Raumfahrt",
-  "difficulty": 3,
+  "difficulty": 2,
   "text": "Funksignale breiten sich mit Lichtgeschwindigkeit aus, doch auch diese Geschwindigkeit ist im Weltraum nicht unbegrenzt schnell. Zum Mond benötigt ein Signal etwas mehr als eine Sekunde, sodass Gespräche mit Astronauten auf der Mondoberfläche nur geringfügig verzögert wären. Beim Mars ist die Lage anders: Weil sich die beiden Planeten auf unterschiedlichen Bahnen um die Sonne bewegen, schwankt ihr Abstand erheblich, und die einfache Laufzeit eines Signals liegt je nach Stellung zwischen wenigen Minuten und mehr als zwanzig Minuten. Eine Steuerung in Echtzeit ist deshalb unmöglich. Die Teams, die einen Mars-Rover betreuen, planen daher an jedem Marstag die Aufgaben des nächsten Tages und senden die Befehle gebündelt zum Fahrzeug. Damit der Rover dabei nicht in Gefahr gerät, besitzt er eigene Software, die ihn Hindernisse erkennen und kleine Ausweichmanöver selbst planen lässt. Kritische Entscheidungen, etwa über das Ziel einer längeren Fahrt, bleiben dennoch bei den Menschen auf der Erde. Zusätzlich gibt es Zeiten, in denen die Sonne zwischen Erde und Mars steht und die Verbindung vorübergehend stark gestört ist; in dieser Phase werden kaum Befehle gesendet.",
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
-   "Ein Mars-Rover führt jeden einzelnen Schritt ausschließlich nach Anweisung von der Erde aus.",
-   "Befehle für einen Mars-Rover werden gebündelt gesendet, da Echtzeitsteuerung unmöglich ist.",
+   "Ein Mars-Rover kann Hindernisse erkennen, über das Ziel längerer Fahrten entscheidet er aber selbstständig.",
+   "Eine Steuerung des Rovers in Echtzeit ist unmöglich, deshalb werden Befehle gebündelt gesendet.",
    "Die Signallaufzeit zum Mars ist über das ganze Jahr hinweg gleich lang, unabhängig von der Planetenstellung.",
    "Die Verzögerung im Funkverkehr zum Mond ist länger als die zum Mars."
   ],
   "answer": 1,
   "why": [
-   "Falsch: Der Rover besitzt eigene Software, die Hindernisse erkennt und „kleine Ausweichmanöver selbst planen“ lässt.",
-   "Richtig: Wegen der Laufzeit ist Echtzeitsteuerung „unmöglich“, deshalb werden Befehle „gebündelt zum Fahrzeug“ gesendet.",
+   "Falsch: Kritische Entscheidungen, etwa über das Ziel einer längeren Fahrt, bleiben bei den Menschen auf der Erde.",
+   "Richtig: Eine Echtzeitsteuerung ist wegen der Signallaufzeit „unmöglich“, daher werden Befehle „gebündelt zum Fahrzeug“ gesendet.",
    "Falsch: Der Abstand „schwankt erheblich“, die Laufzeit liegt „zwischen wenigen Minuten und mehr als zwanzig Minuten“.",
    "Falsch: Zum Mond braucht ein Signal „etwas mehr als eine Sekunde“, zum Mars deutlich länger."
   ],
@@ -273,19 +272,19 @@
  {
   "id": "vr-0112",
   "topic": "Medizin/Gesundheit",
-  "difficulty": 3,
-  "text": "Antibiotika töten Bakterien ab oder hemmen ihr Wachstum, wirken aber nicht gegen Viren. Gegen viele Antibiotika haben Bakterien inzwischen Resistenzen entwickelt. Dies geschieht unter anderem, weil durch den Einsatz der Mittel empfindliche Keime abgetötet werden, während zufällig widerstandsfähige Exemplare überleben und sich vermehren. Je häufiger und je unnötiger ein Antibiotikum verwendet wird, desto größer ist deshalb der Selektionsdruck. Fachgesellschaften empfehlen daher, Antibiotika nur bei bakteriellen Infektionen zu verschreiben und die verordnete Dosis wie vorgesehen einzunehmen. Ob ein vorzeitiges Absetzen die Resistenzbildung fördert, ist in der Forschung zunehmend umstritten; manche Studien deuten darauf hin, dass zu lange Behandlungen ebenfalls Probleme verursachen können. Resistente Keime treten besonders häufig in Krankenhäusern auf, wo viele Patienten mit geschwächtem Immunsystem behandelt werden und Antibiotika oft eingesetzt werden. Auch in der Tierhaltung werden die Mittel verwendet, was die Verbreitung von Resistenzen zusätzlich begünstigen kann. Die Entwicklung neuer Wirkstoffe gestaltet sich schwierig, da sie für Unternehmen wirtschaftlich wenig attraktiv ist. Aus diesem Grund beobachten Gesundheitsbehörden die Verbreitung resistenter Keime systematisch.",
+  "difficulty": 2,
+  "text": "Antibiotika töten Bakterien ab oder hemmen ihr Wachstum, wirken aber nicht gegen Viren. Gegen viele Antibiotika haben Bakterien inzwischen Resistenzen entwickelt. Dies geschieht unter anderem, weil durch den Einsatz der Mittel empfindliche Keime abgetötet werden, während zufällig widerstandsfähige Exemplare überleben und sich vermehren. Je häufiger und je unnötiger ein Antibiotikum verwendet wird, desto größer ist deshalb der Selektionsdruck. Fachgesellschaften empfehlen daher, Antibiotika nur bei bakteriellen Infektionen zu verschreiben und die verordnete Dosis wie vorgesehen einzunehmen. Ob ein vorzeitiges Absetzen die Resistenzbildung fördert, ist in der Forschung zunehmend umstritten; manche Studien deuten darauf hin, dass zu lange Behandlungen ebenfalls Probleme verursachen können. Resistente Keime treten besonders häufig in Krankenhäusern auf, wo viele Patienten mit geschwächtem Immunsystem behandelt werden und Antibiotika oft eingesetzt werden. Auch in der Tierhaltung werden die Mittel verwendet, was die Verbreitung von Resistenzen zusätzlich begünstigen kann. Die Entwicklung neuer Wirkstoffe gestaltet sich schwierig, da sie für Unternehmen wirtschaftlich wenig attraktiv ist. Zudem beobachten Gesundheitsbehörden die Verbreitung resistenter Keime systematisch.",
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
    "Die Entwicklung neuer Antibiotika ist wirtschaftlich besonders lohnend.",
-   "Resistenzen entstehen nach übereinstimmender Meinung der Forschung ausschließlich durch vorzeitiges Absetzen.",
+   "Resistenzen entstehen nach Ansicht der Forschung vor allem durch vorzeitiges Absetzen von Antibiotika.",
    "Antibiotika wirken sowohl gegen Bakterien als auch gegen Viren.",
    "Ein häufiger Einsatz von Antibiotika erhöht den Selektionsdruck, der widerstandsfähige Bakterien begünstigt."
   ],
   "answer": 3,
   "why": [
    "Falsch: Neue Wirkstoffe sind laut Text „wirtschaftlich wenig attraktiv“.",
-   "Falsch: Der Einfluss des vorzeitigen Absetzens ist „zunehmend umstritten“, und Resistenzen entstehen laut Text auch durch den Einsatz selbst.",
+   "Falsch: Ob vorzeitiges Absetzen die Resistenzbildung fördert, ist „zunehmend umstritten“; als Ursache genannt wird der Einsatz selbst (Selektion).",
    "Falsch: Antibiotika „wirken aber nicht gegen Viren“.",
    "Richtig: Je häufiger ein Antibiotikum verwendet wird, „desto größer ist der Selektionsdruck“; widerstandsfähige Exemplare überleben."
   ],
@@ -301,21 +300,21 @@
   "text": "Ein Passivhaus ist ein Gebäude, das so gut gedämmt ist, dass es nur sehr wenig Heizenergie benötigt. Der Name rührt daher, dass die Wärme überwiegend aus passiven Quellen stammt: aus der Sonneneinstrahlung durch die Fenster, aus der Abwärme der Bewohner und aus Geräten wie Kühlschränken oder Computern. Wesentliche Merkmale sind eine dicke Dämmschicht in Wänden, Dach und Boden, besonders dichte Fenster mit dreifacher Verglasung und eine möglichst luftdichte Gebäudehülle. Weil die Hülle so dicht ist, reicht natürliches Lüften über Fugen nicht aus; deshalb besitzt ein Passivhaus eine mechanische Lüftungsanlage. Diese entzieht der verbrauchten Abluft die Wärme und gibt sie an die frische Zuluft weiter, sodass der Wärmeverlust beim Lüften gering bleibt. Die Mehrkosten beim Bau gegenüber einem herkömmlichen Haus werden oft durch die geringeren Heizkosten über die Jahre ausgeglichen, wie lange das dauert, hängt aber vom Energiepreis ab. Gelegentlich wird gefragt, ob die Fenster nicht mehr geöffnet werden dürfen. Das ist ein Missverständnis: Fensterlüften ist weiterhin möglich, wird aber nicht benötigt, um die Luftqualität zu sichern.",
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
-   "Ein Passivhaus kommt ohne jede Wärmequelle aus und benötigt gar keine Heizenergie.",
-   "Eine Lüftungsanlage überträgt Wärme der Abluft auf die Zuluft.",
-   "Die Mehrkosten beim Bau werden stets innerhalb weniger Jahre ausgeglichen.",
+   "Ein Passivhaus deckt seinen Wärmebedarf überwiegend über die Heizung, weil seine Hülle nur wenig Wärme hält.",
+   "Die Lüftungsanlage eines Passivhauses überträgt Wärme der Abluft auf die frische Zuluft.",
+   "Die Mehrkosten beim Bau werden spätestens nach zehn Jahren durch geringere Heizkosten ausgeglichen.",
    "In einem Passivhaus dürfen die Fenster nicht geöffnet werden."
   ],
   "answer": 1,
   "why": [
-   "Falsch: Die Wärme stammt „überwiegend“ aus passiven Quellen, das Haus braucht aber „nur sehr wenig Heizenergie“, nicht gar keine.",
+   "Falsch: Die Hülle ist so gut gedämmt, dass nur sehr wenig Heizenergie benötigt wird; die Wärme stammt „überwiegend aus passiven Quellen“.",
    "Richtig: Die Anlage „entzieht der verbrauchten Abluft die Wärme und gibt sie an die frische Zuluft weiter“.",
-   "Falsch: Der Ausgleich geschieht „oft“, und die Dauer „hängt vom Energiepreis ab“; „stets innerhalb weniger Jahre“ ist nicht belegt.",
+   "Falsch: Der Ausgleich geschieht „oft“, und wie lange er dauert, „hängt vom Energiepreis ab“; eine Frist von zehn Jahren nennt der Text nicht.",
    "Falsch: Fensterlüften ist laut Text „weiterhin möglich“; das Gegenteil sei ein Missverständnis."
   ],
   "traps": [
-   "Gegenteil",
-   "Überverallgemeinerung"
+   "Zahl/Menge verdreht",
+   "Gegenteil"
   ]
  },
  {
@@ -325,14 +324,14 @@
   "text": "Gebärdensprachen sind vollwertige Sprachen mit eigener Grammatik und eigenem Wortschatz. Sie werden mit Händen, Mimik und Körperhaltung ausgedrückt und nicht über Laute. Ein verbreiteter Irrtum besteht in der Annahme, es gebe eine einzige internationale Gebärdensprache. Tatsächlich haben sich Gebärdensprachen wie die gesprochenen Sprachen in verschiedenen Gemeinschaften unabhängig entwickelt; die Deutsche Gebärdensprache unterscheidet sich zum Beispiel deutlich von der Britischen. Sie ist auch keine bloße Übersetzung der Lautsprache Wort für Wort, sondern besitzt eine eigene Satzstruktur, in der etwa mehrere Informationen gleichzeitig durch Handform, Ort und Bewegung ausgedrückt werden können. Für gehörlose Kinder gilt der frühe Zugang zu einer Gebärdensprache als wichtig, weil sich die Sprachentwicklung bei fehlendem Sprachangebot verzögern kann. Hörende Eltern gehörloser Kinder lernen die Gebärdensprache häufig erst später. Es gibt zudem ein internationales Gebärdensystem, das bei Konferenzen eingesetzt wird; es ist aber weniger komplex als einzelne Gebärdensprachen und wird nicht als Muttersprache erlernt. In Deutschland ist die Gebärdensprache seit dem Jahr 2002 gesetzlich anerkannt.",
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
-   "Es gibt eine einzige internationale Gebärdensprache, die von gehörlosen Menschen weltweit verstanden wird.",
+   "Die meisten gehörlosen Menschen weltweit verständigen sich über eine gemeinsame internationale Gebärdensprache.",
    "Die Deutsche Gebärdensprache ist eine Übersetzung der Lautsprache Wort für Wort.",
    "Gebärdensprachen haben sich in verschiedenen Gemeinschaften unabhängig voneinander entwickelt.",
    "Das internationale Gebärdensystem ist komplexer als einzelne Gebärdensprachen."
   ],
   "answer": 2,
   "why": [
-   "Falsch: Die Annahme einer einzigen internationalen Gebärdensprache nennt der Text einen „verbreiteten Irrtum“.",
+   "Falsch: Die Annahme einer einzigen internationalen Gebärdensprache nennt der Text einen „verbreiteten Irrtum“; Gebärdensprachen entwickelten sich in verschiedenen Gemeinschaften unabhängig.",
    "Falsch: Sie ist „keine bloße Übersetzung der Lautsprache Wort für Wort“, sondern hat eine eigene Satzstruktur.",
    "Richtig: Gebärdensprachen „haben sich … in verschiedenen Gemeinschaften unabhängig entwickelt“.",
    "Falsch: Das internationale System „ist aber weniger komplex“ als einzelne Gebärdensprachen."
@@ -350,7 +349,7 @@
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
    "Mosaike wurden erst im Mittelalter in byzantinischen Kirchen erfunden.",
-   "Die Qualität eines Mosaiks hängt ausschließlich von der Wahl der Farben ab.",
+   "Die Qualität eines Mosaiks hängt vor allem von der Wahl der Farben ab, die Ausrichtung der Steine spielt kaum eine Rolle.",
    "Wandmalereien sind in der Regel länger erhalten geblieben als Mosaike.",
    "Die Steinchen werden in eine aushärtende Mörtelschicht gedrückt."
   ],
@@ -376,20 +375,19 @@
   "options": [
    "Aufwärmen senkt nach eindeutiger Studienlage das Verletzungsrisiko.",
    "Langes Dehnen direkt vor einem Sprint kann die Leistung kurzfristig leicht senken.",
-   "Dynamische Bewegungen vor dem Sport werden heute von Fachleuten grundsätzlich abgelehnt.",
-   "Die ideale Dauer des Aufwärmens beträgt immer genau zwanzig Minuten."
+   "Statisches Dehnen unmittelbar vor dem Sport wird heute stärker empfohlen als früher.",
+   "Nach der Belastung soll auf ein Abwärmen verzichtet werden, damit der Kreislauf aktiv bleibt."
   ],
   "answer": 1,
   "why": [
    "Falsch: Der Einfluss auf das Verletzungsrisiko ist „weniger eindeutig belegt“ als der auf die Leistungsfähigkeit.",
    "Richtig: Langes statisches Dehnen vor Kraft- oder Sprintleistung „kann die Leistung kurzfristig leicht verringern“.",
-   "Falsch: „Dynamische Bewegungen“ werden „stattdessen“ empfohlen.",
-   "Falsch: Die Dauer „hängt von der Sportart, der Umgebungstemperatur und dem Trainingsniveau ab“, genannt werden „zehn bis zwanzig Minuten“."
+   "Falsch: Ältere Empfehlungen sahen ausgiebiges Dehnen vor; heute werden „stattdessen“ dynamische Bewegungen empfohlen.",
+   "Falsch: Nach der Belastung „empfiehlt sich ein Abwärmen mit lockerer Bewegung, das den Kreislauf langsam beruhigt“."
   ],
   "traps": [
-   "Überverallgemeinerung",
-   "Zahl/Menge verdreht",
-   "Gegenteil"
+   "Gegenteil",
+   "Vergleich verdreht"
   ]
  },
  {
@@ -399,41 +397,42 @@
   "text": "Vulkane entstehen dort, wo flüssiges Gestein, das Magma, aus dem Erdinneren an die Oberfläche gelangt. Die meisten Vulkane liegen an den Rändern der großen Erdplatten, die langsam gegeneinander verschoben werden. Wo eine Platte unter eine andere taucht, schmilzt Gestein in der Tiefe, und das Magma steigt nach oben. Ein bekanntes Beispiel ist der sogenannte Pazifische Feuerring, an dem viele aktive Vulkane liegen. Daneben gibt es Vulkane, die nicht an Plattengrenzen entstehen, sondern über sogenannten heißen Flecken, etwa auf Hawaii. Ausbrüche verlaufen unterschiedlich: Bei einigen fließt Lava vergleichsweise ruhig aus dem Krater, bei anderen werden Asche und Gesteinsbrocken explosionsartig in die Luft geschleudert. Welche Form auftritt, hängt unter anderem von der Zähigkeit des Magmas und seinem Gasgehalt ab. Große Ausbrüche können Asche weit in die Atmosphäre tragen und dadurch den Flugverkehr stören. Vulkanologen überwachen deshalb Erdbeben, Gasaustritte und Verformungen der Erdoberfläche, um Anzeichen eines bevorstehenden Ausbruchs zu erkennen. Eine genaue Vorhersage ist jedoch nicht in jedem Fall möglich.",
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
-   "Vulkanausbrüche lassen sich heute in jedem Fall genau vorhersagen.",
+   "Der Pazifische Feuerring liegt im Inneren einer Erdplatte, nicht an deren Rändern.",
    "Nicht alle Vulkane liegen an den Grenzen von Erdplatten.",
-   "Bei jedem Vulkanausbruch fließt die Lava ruhig aus dem Krater.",
+   "Welche Form ein Ausbruch hat, hängt vor allem von der Größe des Vulkans ab.",
    "Alle Vulkane entstehen an den Rändern der Erdplatten."
   ],
   "answer": 1,
   "why": [
-   "Falsch: Eine genaue Vorhersage ist „nicht in jedem Fall möglich“.",
+   "Falsch: Der Feuerring wird als Beispiel für Vulkane an den Rändern der Erdplatten genannt.",
    "Richtig: Es gibt Vulkane, die „nicht an Plattengrenzen entstehen, sondern über sogenannten heißen Flecken“, etwa auf Hawaii.",
-   "Falsch: Bei anderen Ausbrüchen werden Asche und Gesteinsbrocken „explosionsartig“ geschleudert.",
+   "Falsch: Die Form hängt „unter anderem von der Zähigkeit des Magmas und seinem Gasgehalt“ ab; die Größe des Vulkans nennt der Text nicht.",
    "Falsch: Der Text sagt nur, dass die „meisten“ Vulkane an den Rändern liegen."
   ],
   "traps": [
    "Überverallgemeinerung",
-   "Gegenteil"
+   "Gegenteil",
+   "Kausalität unterstellt"
   ]
  },
  {
   "id": "vr-0118",
   "topic": "Medizin/Gesundheit",
-  "difficulty": 3,
+  "difficulty": 2,
   "text": "Impfungen schützen nicht nur die geimpfte Person, sondern können auch indirekt andere schützen. Dieses Phänomen wird als Herdenimmunität bezeichnet: Ist ein ausreichend großer Anteil einer Bevölkerung gegen einen Erreger immun, so findet dieser kaum noch neue Wirte und kann sich nur schwer ausbreiten. Davon profitieren auch Menschen, die nicht geimpft werden können, etwa Neugeborene oder Personen mit stark geschwächtem Immunsystem. Welcher Anteil dafür nötig ist, hängt von der Ansteckungsfähigkeit der Krankheit ab; bei sehr ansteckenden Erkrankungen wie den Masern wird ein besonders hoher Anteil benötigt. Eine Herdenimmunität gegen jede Krankheit lässt sich allerdings nicht erreichen: Erkrankungen wie Tetanus werden nicht von Mensch zu Mensch übertragen, sodass eine hohe Impfquote in der Bevölkerung die einzelne ungeimpfte Person dort nicht schützt. Sinkt die Impfquote unter die nötige Schwelle, können Ausbrüche wieder auftreten, wie es in einzelnen Regionen bei den Masern beobachtet wurde. Gesundheitsbehörden verfolgen daher die Impfquoten und informieren über den Nutzen der Impfungen. Dabei sind sie auf das Vertrauen der Bevölkerung angewiesen, das sich nicht verordnen lässt.",
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
-   "Bei Tetanus schützt eine hohe Impfquote Ungeimpfte nicht.",
-   "Für alle Krankheiten ist derselbe Anteil an Geimpften für einen Schutz der Bevölkerung nötig.",
+   "Nicht gegen jede Krankheit lässt sich eine Herdenimmunität erreichen, zum Beispiel nicht gegen Tetanus.",
+   "Bei Masern genügt ein ähnlich niedriger Anteil an Geimpften wie bei weniger ansteckenden Krankheiten.",
    "Wenn die Impfquote sinkt, treten Masernausbrüche zwangsläufig überall auf.",
-   "Herdenimmunität lässt sich gegen jede Infektionskrankheit erreichen."
+   "Neugeborene sind durch Herdenimmunität laut Text nicht geschützt, weil sie nicht geimpft werden können."
   ],
   "answer": 0,
   "why": [
-   "Richtig: Tetanus wird „nicht von Mensch zu Mensch übertragen“, daher schützt eine hohe Quote die ungeimpfte Person „dort nicht“.",
-   "Falsch: Der nötige Anteil „hängt von der Ansteckungsfähigkeit der Krankheit ab“.",
+   "Richtig: Eine Herdenimmunität gegen jede Krankheit lässt sich „nicht erreichen“; Tetanus wird „nicht von Mensch zu Mensch übertragen“.",
+   "Falsch: Der nötige Anteil „hängt von der Ansteckungsfähigkeit der Krankheit ab“; bei Masern wird „ein besonders hoher Anteil“ benötigt.",
    "Falsch: Ausbrüche „können“ wieder auftreten und wurden „in einzelnen Regionen“ beobachtet, nicht zwangsläufig überall.",
-   "Falsch: Der Text sagt ausdrücklich, Herdenimmunität „gegen jede Krankheit“ lasse sich „nicht erreichen“."
+   "Falsch: Von der Herdenimmunität profitieren „auch Menschen, die nicht geimpft werden können, etwa Neugeborene“."
   ],
   "traps": [
    "Gegenteil",
@@ -449,16 +448,16 @@
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
    "Wer zwanzig Dollar erhielt, passte seine Einstellung stärker an als diejenigen mit einem Dollar.",
-   "Dissonanz kann nach Festinger nur durch eine Änderung des Verhaltens verringert werden.",
+   "Nach Festinger lässt sich Dissonanz am wirksamsten dadurch verringern, dass man das Verhalten ändert.",
    "Die Gruppe mit einem Dollar fand die Aufgabe später angenehmer als die mit zwanzig Dollar.",
-   "Das Spannungsgefühl entsteht nur bei Personen, die wissentlich etwas Schädliches wie Rauchen tun."
+   "Das Spannungsgefühl entsteht laut Text vor allem bei gesundheitsschädlichem Verhalten wie Rauchen."
   ],
   "answer": 2,
   "why": [
    "Falsch: Die Einstellung passte laut Text die Gruppe mit der geringen Bezahlung an, nicht die mit zwanzig Dollar.",
-   "Falsch: Es gibt „drei Wege“: Verhalten ändern, Einstellung anpassen oder neue Argumente finden.",
+   "Falsch: Der Text nennt drei Wege (Verhalten ändern, Einstellung anpassen, neue Argumente finden) und stuft keinen davon als wirksamsten ein.",
    "Richtig: Wer „nur einen Dollar“ erhielt, bewertete die Aufgabe später „als angenehmer“ als die Gruppe mit zwanzig Dollar.",
-   "Falsch: Das Rauchen ist nur ein „klassisches Beispiel“; Dissonanz entsteht bei jedem Widerspruch zwischen Überzeugungen oder Verhalten."
+   "Falsch: Rauchen ist nur ein „klassisches Beispiel“; Dissonanz entsteht bei jedem Widerspruch zwischen Überzeugungen oder Verhaltensweisen."
   ],
   "traps": [
    "Überverallgemeinerung",
@@ -497,15 +496,15 @@
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
    "Immaterielles Kulturerbe bleibt nur erhalten, solange es ausgeübt wird.",
-   "Immaterielles Kulturerbe besteht ausschließlich aus Bauwerken und Denkmälern.",
-   "Die Aufnahme in ein Verzeichnis garantiert nach dem Text den Schutz einer Tradition.",
+   "Immaterielles Kulturerbe besteht überwiegend aus Bauwerken und Denkmälern.",
+   "Die Aufnahme in ein Verzeichnis soll eine Tradition vor allem durch Verbote und Auflagen schützen.",
    "Kritiker und Befürworter sind sich einig, dass ein Eintrag Traditionen unverändert erhält."
   ],
   "answer": 0,
   "why": [
    "Richtig: Es bleibt „nur erhalten, solange es von Menschen ausgeübt und weitergegeben wird“.",
-   "Falsch: Der Text beschreibt Traditionen, Künste, Bräuche und Handwerkstechniken, Bauwerke zählen zum materiellen Erbe.",
-   "Falsch: Die Aufnahme gilt „weniger als Schutzgarantie, sondern vielmehr als Anerkennung“.",
+   "Falsch: Immaterielles Kulturerbe umfasst Überlieferungen, Künste, Bräuche, Naturwissen und Handwerkstechniken; Gebäude und Denkmäler nennt der Text als anderen Teil des Kulturerbes.",
+   "Falsch: Die Aufnahme gilt „weniger als Schutzgarantie, sondern vielmehr als Anerkennung“; das Erbe lässt sich „nicht durch Mauern oder Verbote“ schützen.",
    "Falsch: Kritiker fürchten Veränderungen, Befürworter betonen den Wandel; von Einigkeit ist keine Rede."
   ],
   "traps": [
@@ -519,17 +518,17 @@
   "text": "Die deutsche Sprache hat im Lauf ihrer Geschichte viele Wörter aus anderen Sprachen übernommen. Schon in der Antike und im frühen Mittelalter gelangten lateinische Wörter ins Deutsche, etwa Fenster, Straße oder Mauer. Spätere Wellen brachten Wörter aus dem Französischen, zum Beispiel Balkon oder Büro, und in jüngerer Zeit vor allem aus dem Englischen, etwa Computer oder Team. Sprachwissenschaftler unterscheiden dabei zwischen Lehnwörtern und Fremdwörtern. Lehnwörter haben sich in Aussprache, Schreibung und Beugung der aufnehmenden Sprache so weit angepasst, dass viele Sprecher sie gar nicht mehr als fremd empfinden. Fremdwörter dagegen behalten Merkmale ihrer Herkunftssprache und werden deshalb eher als fremd wahrgenommen. Die Grenze zwischen beiden Gruppen ist allerdings nicht scharf, und ein Wort kann im Lauf der Zeit vom Fremdwort zum Lehnwort werden. Immer wieder gab es Bestrebungen, fremde Wörter durch deutsche Neubildungen zu ersetzen. Manche davon haben sich durchgesetzt, andere nicht. Der Sprachwandel durch Entlehnung gilt unter Fachleuten grundsätzlich als normaler Vorgang, der in allen Sprachen zu beobachten ist.",
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
-   "Die Grenze zwischen Lehnwort und Fremdwort ist völlig eindeutig.",
+   "Die Grenze zwischen Lehnwort und Fremdwort lässt sich meist klar ziehen.",
    "Wörter aus dem Englischen gelangten als erste Fremdsprache ins Deutsche.",
    "Lehnwörter sind stärker an die aufnehmende Sprache angepasst als Fremdwörter.",
-   "Alle Versuche, fremde Wörter durch deutsche Neubildungen zu ersetzen, waren erfolgreich."
+   "Die Bestrebungen, fremde Wörter durch deutsche Neubildungen zu ersetzen, waren überwiegend erfolgreich."
   ],
   "answer": 2,
   "why": [
-   "Falsch: Die Grenze ist „allerdings nicht scharf“.",
+   "Falsch: Die Grenze ist „allerdings nicht scharf“; ein Wort kann vom Fremdwort zum Lehnwort werden.",
    "Falsch: Lateinische Wörter kamen schon „in der Antike und im frühen Mittelalter“, Englisch erst „in jüngerer Zeit“.",
    "Richtig: Lehnwörter haben sich „in Aussprache, Schreibung und Beugung der aufnehmenden Sprache“ angepasst, Fremdwörter behalten Merkmale ihrer Herkunft.",
-   "Falsch: „Manche davon haben sich durchgesetzt, andere nicht.“"
+   "Falsch: Es heißt nur „Manche davon haben sich durchgesetzt, andere nicht“; ein Überwiegen der Erfolge steht nicht im Text."
   ],
   "traps": [
    "Zeitangabe verdreht",
@@ -545,15 +544,15 @@
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
    "Pflanzen atmen nicht, weil sie ihre Energie aus Licht gewinnen.",
-   "Neben Pflanzen betreiben auch Algen und bestimmte Bakterien Photosynthese.",
-   "Photosynthese findet bei Pflanzen nur im Boden statt.",
+   "Nachts findet keine Photosynthese statt, die Atmung der Pflanzen läuft aber weiter.",
+   "Photosynthese findet bei den meisten Pflanzen hauptsächlich in den Wurzeln statt.",
    "Auch nachts stellen Pflanzen weiterhin Traubenzucker durch Photosynthese her."
   ],
   "answer": 1,
   "why": [
    "Falsch: Pflanzen atmen „wie alle Lebewesen auch“ und verbrauchen dabei Sauerstoff.",
-   "Richtig: „Auch Algen und bestimmte Bakterien betreiben Photosynthese.“",
-   "Falsch: Der größte Teil findet bei den meisten Pflanzen in den Blättern statt, nicht im Boden.",
+   "Richtig: „Nachts, wenn kein Licht zur Verfügung steht, findet keine Photosynthese statt, die Atmung läuft aber weiter.“",
+   "Falsch: Bei den meisten Pflanzen findet der größte Teil der Photosynthese in den Blättern statt.",
    "Falsch: „Nachts … findet keine Photosynthese statt“, nur die Atmung läuft weiter."
   ],
   "traps": [
@@ -568,20 +567,20 @@
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
    "Hängebrücken eignen sich nach dem Text besonders für kurze Strecken.",
-   "Alle Hängebrücken des neunzehnten Jahrhunderts sind durch Wind eingestürzt.",
+   "Die Windanfälligkeit von Hängebrücken wurde erst im zwanzigsten Jahrhundert zum Problem.",
    "Die Windanfälligkeit spielt bei der Planung heutiger Hängebrücken keine Rolle.",
    "Hauptkabel werden auf Zug, Pylone vor allem auf Druck beansprucht."
   ],
   "answer": 3,
   "why": [
    "Falsch: Für kürzere Strecken werden „andere Konstruktionen gewählt“; Hängebrücken überspannen größere Entfernungen.",
-   "Falsch: Es heißt, „mehrere“ Brücken gerieten ins Schwingen und „einige“ stürzten ein, nicht alle.",
+   "Falsch: Schon im neunzehnten und zwanzigsten Jahrhundert gerieten mehrere Brücken durch Wind in gefährliche Schwingungen.",
    "Falsch: Entwürfe werden „häufig im Windkanal an Modellen geprüft“.",
    "Richtig: Die Hauptkabel „werden auf Zug belastet“, die Pylone „vor allem auf Druck beansprucht“."
   ],
   "traps": [
-   "Gegenteil",
-   "Überverallgemeinerung"
+   "Zeitangabe verdreht",
+   "Gegenteil"
   ]
  },
  {
@@ -592,15 +591,15 @@
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
    "Beim Einzelzeitfahren ist das Fahren im Windschatten erlaubt, aber unüblich.",
-   "Bergauf ist der Vorteil des Windschattens geringer, weil das Tempo niedriger ist.",
+   "Beim Einzelzeitfahren ist das Fahren im Windschatten untersagt, deshalb zählen dort allein Leistung und Sitzposition.",
    "Bergauf spielt der Windschatten die größte Rolle, weil dort der Luftwiderstand am höchsten ist.",
    "Im Peloton sind die Fahrer an der Spitze am besten vor dem Wind geschützt."
   ],
   "answer": 1,
   "why": [
    "Falsch: Beim Einzelzeitfahren ist das Fahren im Windschatten „untersagt“.",
-   "Richtig: Bergauf „fällt der Vorteil … geringer aus, weil das Tempo dort niedriger“ ist.",
-   "Falsch: Bergauf ist das Tempo niedriger und der Luftwiderstand „weniger bedeutend“, der Vorteil also geringer.",
+   "Richtig: Bei Einzelzeitfahren ist das Windschattenfahren „untersagt“, weshalb „allein die Leistung des einzelnen Fahrers und seine Sitzposition“ zählen.",
+   "Falsch: Bergauf ist das Tempo niedriger und der Luftwiderstand „weniger bedeutend“, der Vorteil des Windschattens also geringer.",
    "Falsch: Die Fahrer in der Mitte sind am besten geschützt, die an der Spitze benötigen mehr Energie."
   ],
   "traps": [
@@ -611,20 +610,20 @@
  {
   "id": "vr-0126",
   "topic": "Raumfahrt",
-  "difficulty": 3,
+  "difficulty": 2,
   "text": "Seit dem Beginn der Raumfahrt im Jahr 1957 sammelt sich im Erdorbit Weltraumschrott an: ausgediente Satelliten, abgetrennte Raketenstufen und Trümmer aus Kollisionen und Explosionen. Radar und Teleskope verfolgen mehrere zehntausend größere Objekte; die Zahl kleinerer Fragmente, die sich kaum erfassen lassen, wird auf viele Millionen geschätzt. Wegen der hohen Geschwindigkeiten von mehreren Kilometern pro Sekunde kann schon ein winziges Teil einen Satelliten beschädigen. Betreiber lassen ihre Satelliten daher Ausweichmanöver durchführen, wenn eine Annäherung an ein bekanntes Objekt droht. Wie lange ein Objekt im Orbit bleibt, hängt von seiner Höhe ab: In niedrigen Bahnen bremst die dünne Restatmosphäre die Teile ab, sodass sie nach einigen Jahren in tiefere Schichten geraten und verglühen. In großen Höhen ist der Effekt so gering, dass Teile Jahrhunderte oder länger kreisen können. Ein Szenario, das Fachleute beschäftigt, ist eine Kettenreaktion, bei der Zusammenstöße immer mehr Trümmer erzeugen und einzelne Bahnen unnutzbar machen könnten; dieser Fall wird als Kessler-Syndrom bezeichnet. Bisher gilt diese Entwicklung als Risiko, nicht als eingetretene Tatsache. Neue Satelliten sollen daher am Ende ihrer Betriebszeit aus dem Orbit entfernt werden.",
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
    "Das Kessler-Syndrom, eine Kettenreaktion von Zusammenstößen, ist laut Text bereits eingetreten.",
    "Ausweichmanöver sind für Satelliten technisch nicht möglich.",
-   "Radar und Teleskope erfassen alle Trümmerteile im Orbit, auch die kleinsten.",
+   "Die Zahl der Trümmerteile im Orbit ist durch Radar und Teleskope inzwischen recht genau bekannt.",
    "Objekte in niedrigen Bahnen verglühen in der Regel früher als solche in großen Höhen."
   ],
   "answer": 3,
   "why": [
    "Falsch: Die Entwicklung gilt „als Risiko, nicht als eingetretene Tatsache“.",
    "Falsch: Betreiber lassen ihre Satelliten „Ausweichmanöver durchführen“.",
-   "Falsch: Kleinere Fragmente lassen sich „kaum erfassen“ und werden nur geschätzt.",
+   "Falsch: Die Zahl kleinerer Fragmente, die sich „kaum erfassen“ lassen, wird nur „auf viele Millionen geschätzt“.",
    "Richtig: In niedrigen Bahnen bremst die Restatmosphäre, Teile verglühen „nach einigen Jahren“; in großer Höhe kreisen sie „Jahrhunderte oder länger“."
   ],
   "traps": [
@@ -642,7 +641,7 @@
   "options": [
    "Es ist wissenschaftlich abschließend geklärt, dass abendliches Licht die innere Uhr des Menschen stört.",
    "Kaltweißes Licht schont Insekten stärker als warmweißes Licht.",
-   "Lichtverschmutzung wirkt sich ausschließlich in Städten aus.",
+   "Lichtverschmutzung betrifft vor allem Städte, ländliche Gebiete bleiben davon nahezu unberührt.",
    "Abgeschirmte Lampen, die nach unten strahlen, werden als Maßnahme gegen Lichtverschmutzung empfohlen."
   ],
   "answer": 3,
@@ -661,25 +660,26 @@
  {
   "id": "vr-0128",
   "topic": "Medizin/Gesundheit",
-  "difficulty": 3,
+  "difficulty": 2,
   "text": "Stress ist zunächst eine natürliche Reaktion des Körpers auf Anforderungen. Bei akuter Belastung schüttet der Körper Hormone wie Adrenalin und Cortisol aus: Herzschlag und Aufmerksamkeit steigen, Energie wird bereitgestellt. Kurzfristig kann diese Reaktion nützlich sein, etwa bei einer Prüfung oder in einer gefährlichen Situation. Problematisch wird es nach Ansicht vieler Fachleute, wenn die Belastung über lange Zeit anhält und der Körper kaum zur Ruhe kommt. Chronischer Stress wird mit Schlafstörungen, Bluthochdruck und einem erhöhten Risiko für Depressionen in Verbindung gebracht. Ob und in welchem Ausmaß er diese Folgen direkt verursacht, ist im Einzelnen nicht immer geklärt, denn Menschen mit hoher Belastung leben oft auch ungesünder, schlafen weniger oder bewegen sich seltener. Cortisol wird übrigens nicht nur bei Stress freigesetzt; seine Konzentration schwankt auch im Tagesverlauf und ist am Morgen meist am höchsten. Wie stark Menschen auf dieselbe Belastung reagieren, ist sehr verschieden und hängt unter anderem davon ab, ob sie die Situation als bewältigbar einschätzen. Empfohlen werden Bewegung, ausreichend Schlaf und Entspannungsverfahren, die dabei helfen können, die Folgen von Belastung zu begrenzen.",
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
-   "Cortisol wird ausschließlich in Stresssituationen ausgeschüttet.",
-   "Kurzfristiger Stress kann nützlich sein, problematisch wird vor allem lang anhaltender Stress.",
-   "Studien haben eindeutig bewiesen, dass chronischer Stress Bluthochdruck verursacht.",
-   "Stress wirkt sich bei allen Menschen in gleicher Weise und in gleicher Stärke auf die Gesundheit aus."
+   "Cortisol wird nach dem Text vor allem nachts ausgeschüttet.",
+   "Ob chronischer Stress seine Folgen direkt verursacht, ist laut Text nicht immer geklärt.",
+   "Nach dem Text ist belegt, dass chronischer Stress Bluthochdruck und Depressionen verursacht.",
+   "Wie stark Menschen auf Belastung reagieren, hängt nach dem Text im Wesentlichen vom Alter ab."
   ],
   "answer": 1,
   "why": [
-   "Falsch: Cortisol wird „nicht nur bei Stress freigesetzt“ und schwankt im Tagesverlauf.",
-   "Richtig: Die Reaktion „kann nützlich sein“, problematisch wird es, „wenn die Belastung über lange Zeit anhält“.",
-   "Falsch: Ob chronischer Stress diese Folgen direkt verursacht, „ist … nicht immer geklärt“; es wird nur ein Zusammenhang genannt.",
-   "Falsch: Die Reaktion ist „sehr verschieden“."
+   "Falsch: Cortisol schwankt im Tagesverlauf und ist „am Morgen meist am höchsten“.",
+   "Richtig: Ob und in welchem Ausmaß Stress die Folgen direkt verursacht, „ist im Einzelnen nicht immer geklärt“; genannt wird zunächst ein Zusammenhang.",
+   "Falsch: Chronischer Stress wird mit Bluthochdruck und Depressionen „in Verbindung gebracht“; ob er sie direkt verursacht, ist „nicht immer geklärt“.",
+   "Falsch: Die Reaktion ist „sehr verschieden“ und hängt „unter anderem“ von der Einschätzung der Situation als bewältigbar ab; das Alter nennt der Text nicht."
   ],
   "traps": [
    "Kausalität unterstellt",
-   "Überverallgemeinerung"
+   "Überverallgemeinerung",
+   "Nicht im Text (Weltwissen)"
   ]
  },
  {
@@ -692,14 +692,14 @@
    "Ringelmann stellte fest, dass die Kraft pro Person mit der Gruppengröße zunahm.",
    "Soziales Faulenzen wurde zuerst in Unternehmen untersucht, die Teamarbeit einführten.",
    "Der Effekt fällt geringer aus, wenn der Beitrag jedes Einzelnen erkennbar und bewertbar ist.",
-   "Soziales Faulenzen tritt in jeder Gruppe und bei jeder Art von Aufgabe unvermeidlich und in gleicher Stärke auf."
+   "Soziales Faulenzen tritt vor allem in großen Gruppen auf und lässt sich kaum verringern."
   ],
   "answer": 2,
   "why": [
    "Falsch: Die durchschnittliche Kraft pro Person „nahm ab“, je mehr Personen zogen.",
    "Falsch: Erstmals beschrieben wurde der Effekt bei einem Seilziehversuch von Ringelmann, nicht in Unternehmen.",
    "Richtig: Der Effekt fällt geringer aus, wenn der Beitrag „erkennbar und bewertbar“ ist.",
-   "Falsch: Der Text nennt den Effekt ausdrücklich „nicht unvermeidlich“."
+   "Falsch: Der Effekt ist „nicht unvermeidlich“ und fällt unter bestimmten Bedingungen geringer aus."
   ],
   "traps": [
    "Überverallgemeinerung",
@@ -715,20 +715,20 @@
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
    "Die Vergütung der Auszubildenden steigt mit jedem Ausbildungsjahr.",
-   "Die duale Ausbildung dauert unabhängig vom Beruf immer drei Jahre.",
+   "Die duale Ausbildung dauert in der Regel mindestens drei Jahre.",
    "Die Berufsschule übernimmt die gesamten Kosten, die dem Betrieb durch die Ausbildung entstehen.",
-   "Die niedrige Jugendarbeitslosigkeit wird als bewiesene Folge des dualen Systems angesehen."
+   "Befürworter führen die niedrige Jugendarbeitslosigkeit auf das duale System zurück; Fachleute haben diesen Zusammenhang einhellig bestätigt."
   ],
   "answer": 0,
   "why": [
    "Richtig: Im Betrieb erhalten die Auszubildenden „eine Vergütung, die mit jedem Ausbildungsjahr steigt“.",
-   "Falsch: Die Dauer „richtet sich nach dem Beruf“ und liegt zwischen zwei und dreieinhalb Jahren.",
+   "Falsch: Die Dauer richtet sich nach dem Beruf und beträgt „in der Regel zwischen zwei und dreieinhalb Jahren“.",
    "Falsch: Für die Betriebe ist die Ausbildung „mit Kosten verbunden“.",
-   "Falsch: Ein Beweis für den Zusammenhang ist es „nach Meinung mancher Fachleute allerdings nicht“."
+   "Falsch: Zwar sehen Befürworter den Zusammenhang, ein Beweis ist das „nach Meinung mancher Fachleute allerdings nicht“; von einhelliger Bestätigung ist keine Rede."
   ],
   "traps": [
    "Zahl/Menge verdreht",
-   "Nicht im Text (Weltwissen)",
+   "Teilweise richtig",
    "Kausalität unterstellt"
   ]
  },
@@ -741,20 +741,19 @@
   "options": [
    "Das Libretto ist die Musik, die der Komponist zu einer Oper schreibt.",
    "Viele Opern werden in der Originalsprache aufgeführt, Übertitel zeigen den Text.",
-   "Opern werden stets in der Sprache des jeweiligen Publikums gesungen, auch wenn sie anderswo entstanden.",
+   "Übertitel in Opernhäusern geben den Text in der Originalsprache der Oper wieder.",
    "Die Oper entstand erst im neunzehnten Jahrhundert in Deutschland und Österreich."
   ],
   "answer": 1,
   "why": [
    "Falsch: Das Libretto ist „ein Text“, den der Komponist „dann“ vertont.",
    "Richtig: Viele Opern werden „in der Sprache aufgeführt, in der sie komponiert wurden“, und Übertitel zeigen „den Text in der Landessprache“.",
-   "Falsch: Viele Opern werden in der Originalsprache aufgeführt, auch wenn das Publikum sie nicht versteht.",
+   "Falsch: Die Übertitel zeigen den Text „in der Landessprache“ über der Bühne.",
    "Falsch: Die Oper entstand „um das Jahr 1600 in Italien“."
   ],
   "traps": [
-   "Zeitangabe verdreht",
-   "Gegenteil",
-   "Überverallgemeinerung"
+   "Vergleich verdreht",
+   "Gegenteil"
   ]
  },
  {
@@ -765,20 +764,21 @@
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
    "Im Arabischen und Hebräischen bleiben Vokale meist unbezeichnet.",
-   "Das lateinische Alphabet wird ausschließlich für europäische Sprachen verwendet.",
+   "Die türkische Schrift verwendet seit 1928 arabische statt lateinischer Buchstaben.",
    "Im Chinesischen reichen für das Lesen einer Zeitung wenige Dutzend Zeichen aus.",
-   "Im Arabischen werden Vokale in jedem Text durch Zusatzzeichen angegeben."
+   "Im Arabischen werden Vokale in Kinderbüchern in der Regel weggelassen."
   ],
   "answer": 0,
   "why": [
    "Richtig: Es werden „vor allem Konsonanten geschrieben“, die Vokale „bleiben in der Regel unbezeichnet“.",
-   "Falsch: Es wird „für sehr viele Sprachen“ verwendet; eine Beschränkung auf Europa nennt der Text nicht.",
+   "Falsch: Die türkische Sprache wird „seit 1928 mit lateinischen statt arabischen Buchstaben geschrieben“.",
    "Falsch: Man braucht „mehrere tausend Zeichen“.",
-   "Falsch: Vokalzeichen stehen „nur in Lehrbüchern, im Koran und in Kinderbüchern“."
+   "Falsch: Vokale werden durch Zusatzzeichen angegeben „nur in Lehrbüchern, im Koran und in Kinderbüchern“, also gerade in Kinderbüchern."
   ],
   "traps": [
+   "Zeitangabe verdreht",
    "Zahl/Menge verdreht",
-   "Überverallgemeinerung"
+   "Gegenteil"
   ]
  },
  {
@@ -790,14 +790,14 @@
   "options": [
    "Der Rollfilm erleichterte Laien das Fotografieren, weil keine Chemikalien mehr angesetzt werden mussten.",
    "Die Digitalfotografie wurde bereits vor der Erfindung des Rollfilms verbreitet.",
-   "Mit der Daguerreotypie ließen sich beliebig viele Kopien eines Bildes herstellen, die dann an Interessierte verkauft wurden.",
+   "Die Daguerreotypie ermöglichte erstmals die Vervielfältigung von Fotos mithilfe von Negativen.",
    "Die Fotografie wurde von Beginn an allgemein als Kunstform anerkannt."
   ],
   "answer": 0,
   "why": [
    "Richtig: Der Rollfilm machte das Fotografieren „auch für Laien einfacher, weil man nicht mehr selbst chemische Lösungen ansetzen musste“.",
    "Falsch: Die Digitaltechnik verbreitete sich „ab den 1990er-Jahren“, der Rollfilm kam gegen Ende des neunzehnten Jahrhunderts.",
-   "Falsch: Jede Daguerreotypie war „ein Unikat“, Kopien ließen sich nicht herstellen.",
+   "Falsch: Jede Daguerreotypie war „ein Unikat“; Negative mit vielen Abzügen kamen erst später.",
    "Falsch: Ob Fotografie eine Kunst sei, „wurde lange diskutiert“; Museen und Galerien erreichte sie erst im zwanzigsten Jahrhundert."
   ],
   "traps": [
@@ -808,20 +808,20 @@
  {
   "id": "vr-0134",
   "topic": "Architektur",
-  "difficulty": 3,
+  "difficulty": 2,
   "text": "Städtische Grünflächen erfüllen mehrere Aufgaben zugleich. An heißen Sommertagen kühlen Parks und Baumreihen die Umgebung ab, weil Pflanzen Wasser verdunsten und Schatten spenden; in dicht bebauten Vierteln können die Temperaturen dadurch spürbar niedriger liegen als in versiegelten Gebieten. Außerdem können unbefestigte Flächen Regenwasser aufnehmen und damit die Kanalisation bei Starkregen entlasten. Untersuchungen zeigen zudem, dass Menschen, die in der Nähe von Grünflächen wohnen, im Durchschnitt häufiger über Wohlbefinden berichten. Ob die Nähe zum Grün dafür ursächlich ist, lässt sich allerdings schwer sagen, da Wohngebiete mit viel Grün oft auch in anderen Merkmalen, etwa dem Einkommen der Bewohner, abweichen. Die Planer stehen vor Zielkonflikten: In wachsenden Städten wird Wohnraum benötigt, und unbebaute Flächen sind teuer. Als Kompromisse gelten begrünte Dächer und Fassaden sowie kleine Parks, die sich in Lücken zwischen Gebäuden einfügen. Ein Vorteil solcher Lösungen ist, dass sie wenig Platz am Boden benötigen. Wichtig ist nach Ansicht vieler Fachleute, dass Grünflächen zu Fuß gut erreichbar und über die Stadt gerecht verteilt sind, was bisher nicht überall der Fall ist.",
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
    "Der Text weist nach, dass Grünflächen das Wohlbefinden der Anwohner verursachen.",
    "Begrünte Dächer und Fassaden benötigen viel zusätzlichen Platz am Boden der Stadt.",
-   "Grünflächen sind bereits in allen Stadtvierteln gerecht verteilt.",
+   "Nach Ansicht vieler Fachleute sind Grünflächen in den Städten inzwischen gerecht verteilt.",
    "Parks können die Umgebung abkühlen, unbefestigte Flächen Regenwasser aufnehmen."
   ],
   "answer": 3,
   "why": [
    "Falsch: Ob die Nähe zum Grün „ursächlich ist, lässt sich allerdings schwer sagen“; genannt wird nur ein Zusammenhang.",
    "Falsch: Solche Lösungen benötigen „wenig Platz am Boden“.",
-   "Falsch: Die gerechte Verteilung „ist bisher nicht überall“ der Fall.",
+   "Falsch: Gut erreichbare, gerecht verteilte Grünflächen sind ein Ziel, das „bisher nicht überall“ erreicht ist.",
    "Richtig: Parks „kühlen die Umgebung ab“ und unbefestigte Flächen „können Regenwasser aufnehmen“."
   ],
   "traps": [
@@ -838,7 +838,7 @@
   "options": [
    "Winter- und Sommerspiele finden bis heute im selben Jahr statt.",
    "Die Paralympischen Spiele wurden vor den ersten Olympischen Spielen der Neuzeit eingeführt.",
-   "Die ersten Olympischen Spiele der Neuzeit fanden 1924 in Chamonix statt und umfassten nur Wintersportarten.",
+   "Die ersten Olympischen Spiele der Neuzeit fanden 1924 in Chamonix statt und waren vor allem als Wintersportwoche angelegt.",
    "Seit 1994 gibt es alle zwei Jahre Olympische Spiele, im Wechsel Sommer und Winter."
   ],
   "answer": 3,
@@ -881,20 +881,20 @@
  {
   "id": "vr-0137",
   "topic": "Naturwissenschaft",
-  "difficulty": 3,
+  "difficulty": 2,
   "text": "Gletscher entstehen, wo über viele Jahre mehr Schnee fällt, als im Sommer abschmilzt. Der Schnee wird unter dem Gewicht neuer Schichten zu Firn und schließlich zu Eis verdichtet. Das Eis fließt unter seinem eigenen Gewicht langsam talwärts, im Gebirge oft nur wenige Meter pro Jahr. Ob ein Gletscher wächst oder schrumpft, bestimmt seine Massenbilanz, also das Verhältnis von Zuwachs durch Schneefall und Verlust durch Abschmelzen und das Abbrechen von Eisbergen. In den vergangenen Jahrzehnten haben die meisten Gletscher der Erde an Masse verloren; es gibt jedoch einzelne, die stabil blieben oder wuchsen. Das Schmelzwasser von Gletschern, die auf Land liegen, fließt letztlich ins Meer und erhöht dessen Wasserstand. Anders ist es bei Eis, das bereits im Wasser schwimmt, etwa dem Meereis: Wenn es schmilzt, steigt der Meeresspiegel kaum, ähnlich wie ein Eiswürfel im Glas den Wasserstand beim Schmelzen nicht merklich verändert. Für Regionen, die ihr Trinkwasser oder ihre Bewässerung aus Gletscherschmelze beziehen, hat der Rückgang besondere Bedeutung. Zunächst steigt dort die Wassermenge, später könnte sie sinken, wenn die Eisreserven aufgebraucht sind.",
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
    "Schmelzende Landgletscher erhöhen den Meeresspiegel, schmelzendes Meereis kaum.",
-   "In Regionen mit Gletscherwasser sinkt die verfügbare Wassermenge sofort mit dem Rückgang der Gletscher.",
-   "Alle Gletscher der Erde haben in den vergangenen Jahrzehnten an Masse verloren.",
+   "In Regionen mit Gletscherwasser steigt die Wassermenge dauerhaft, solange die Gletscher schmelzen.",
+   "Die Gletscher der Erde haben in den vergangenen Jahrzehnten überwiegend an Masse zugenommen.",
    "Das Schmelzen von Meereis lässt den Meeresspiegel deutlich ansteigen."
   ],
   "answer": 0,
   "why": [
    "Richtig: Schmelzwasser von Landgletschern erhöht den Wasserstand, bei schwimmendem Meereis „steigt der Meeresspiegel kaum“.",
-   "Falsch: „Zunächst steigt dort die Wassermenge, später könnte sie sinken.“",
-   "Falsch: Es sind „die meisten“, einzelne blieben „stabil oder wuchsen“.",
+   "Falsch: „Zunächst steigt dort die Wassermenge, später könnte sie sinken“, wenn die Eisreserven aufgebraucht sind.",
+   "Falsch: „Die meisten Gletscher“ haben an Masse verloren; einzelne blieben stabil oder wuchsen.",
    "Falsch: Beim Schmelzen von Meereis „steigt der Meeresspiegel kaum“."
   ],
   "traps": [
@@ -912,15 +912,15 @@
   "options": [
    "Fleisch, Fisch und Eier zählen zu den wichtigsten Ballaststoffquellen in der Ernährung.",
    "Weißmehl enthält weniger Ballaststoffe, weil die äußeren Kornschichten entfernt werden.",
-   "Ballaststoffe liefern dem Körper große Mengen an Energie und werden vollständig verdaut.",
-   "Die Ballaststoffmenge sollte bei einer Ernährungsumstellung sofort stark erhöht werden."
+   "Ballaststoffe liefern dem Körper viel Energie, fördern die Verdauung aber kaum.",
+   "Wer seine Ernährung umstellt, sollte die Ballaststoffmenge zunächst stark erhöhen und erst später mehr trinken."
   ],
   "answer": 1,
   "why": [
    "Falsch: Tierische Produkte „enthalten dagegen keine Ballaststoffe“.",
    "Richtig: Weißmehlprodukte enthalten weniger davon, „weil beim Mahlen die äußeren Schichten des Korns entfernt werden“.",
-   "Falsch: Sie liefern „keine nennenswerte Energie“.",
-   "Falsch: Der Anteil sollte „allmählich“ erhöht werden."
+   "Falsch: Sie liefern „keine nennenswerte Energie“, fördern aber durch Quellen im Darm die Verdauung.",
+   "Falsch: Der Anteil sollte „allmählich“ erhöht werden, zusammen mit „ausreichend“ Trinken."
   ],
   "traps": [
    "Gegenteil",
@@ -930,21 +930,21 @@
  {
   "id": "vr-0139",
   "topic": "Psychologie",
-  "difficulty": 3,
+  "difficulty": 2,
   "text": "Der deutsche Psychologe Hermann Ebbinghaus untersuchte im neunzehnten Jahrhundert als einer der Ersten das Vergessen mit experimentellen Methoden. Um Einflüsse von Vorwissen auszuschalten, lernte er Listen sinnloser Silben wie „DAX“ oder „BOK“ auswendig und prüfte nach unterschiedlich langen Pausen, wie viel er noch wusste. Versuchsperson war er selbst. Aus den Ergebnissen entwickelte er die sogenannte Vergessenskurve: Unmittelbar nach dem Lernen geht am meisten verloren, danach verlangsamt sich der Verlust. Spätere Untersuchungen mit anderen Teilnehmern bestätigten die grundsätzliche Form dieser Kurve. Die konkreten Werte hängen jedoch stark vom Material und von den Lernbedingungen ab: Sinnvoller Stoff, der mit Vorwissen verknüpft werden kann, wird deutlich besser behalten als Silbenlisten. Auch die Wiederholung verändert den Verlauf, denn wiederholt gelernter Stoff wird langsamer vergessen. Kritiker wenden ein, dass sinnlose Silben mit dem Lernen im Alltag wenig zu tun haben und die Ergebnisse eines einzelnen Probanden nicht ohne Weiteres auf alle Menschen übertragbar sind. Dennoch gilt Ebbinghaus als Begründer der experimentellen Gedächtnisforschung, und seine Methode, Ergebnisse messbar zu machen, prägte das Fach nachhaltig.",
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
    "Ebbinghaus führte seine Versuche mit einer großen Zahl von Versuchspersonen durch.",
    "Sinnvoller Stoff wird schlechter behalten als Listen sinnloser Silben.",
-   "Die Grundform der Kurve wurde später bestätigt, die Werte hängen vom Material ab.",
+   "Nach der Vergessenskurve geht unmittelbar nach dem Lernen am meisten verloren, danach verlangsamt sich der Verlust.",
    "Nach der Vergessenskurve verläuft das Vergessen gleichmäßig über die gesamte Zeit."
   ],
   "answer": 2,
   "why": [
    "Falsch: „Versuchsperson war er selbst.“",
    "Falsch: Sinnvoller Stoff wird „deutlich besser behalten“ als Silbenlisten.",
-   "Richtig: Spätere Untersuchungen bestätigten „die grundsätzliche Form“, die konkreten Werte hängen „stark vom Material“ ab.",
-   "Falsch: Unmittelbar nach dem Lernen geht „am meisten verloren, danach verlangsamt sich der Verlust“."
+   "Richtig: „Unmittelbar nach dem Lernen geht am meisten verloren, danach verlangsamt sich der Verlust.“",
+   "Falsch: Der Verlust ist gerade am Anfang am größten und verlangsamt sich dann, er verläuft also nicht gleichmäßig."
   ],
   "traps": [
    "Zahl/Menge verdreht",
@@ -959,17 +959,17 @@
   "text": "Die Arbeitswelt verändert sich schnell, und viele Berufe verlangen heute andere Kenntnisse als noch vor einigen Jahrzehnten. Deshalb wird das lebenslange Lernen immer wichtiger: Erwachsene bilden sich über ihre Schul- oder Ausbildungszeit hinaus weiter, um im Beruf auf dem aktuellen Stand zu bleiben oder sich neu zu orientieren. Dazu stehen vielfältige Wege offen, etwa Kurse an Volkshochschulen, berufsbegleitende Studiengänge, Seminare der Arbeitgeber und Online-Angebote, die sich zeitlich flexibel nutzen lassen. Viele Unternehmen unterstützen die Weiterbildung ihrer Beschäftigten, weil sie auf qualifizierte Mitarbeiter angewiesen sind. Trotzdem nehmen nicht alle Gruppen gleichermaßen an Weiterbildung teil. Als Hindernisse nennen Befragte häufig fehlende Zeit, hohe Kosten und mangelnde Information über passende Angebote. Beschäftigte in kleinen Betrieben und Menschen mit niedrigerem Bildungsabschluss nehmen seltener teil als andere. Bildungsexperten fordern daher mehr finanzielle Unterstützung und Beratungsangebote, damit die Chancen gerechter verteilt werden. Wer nach einer längeren Pause in den Beruf zurückkehrt, kann durch gezielte Kurse Lücken schließen und den Wiedereinstieg erleichtern. Dass Lernen allein ausreicht, um die Chancen auf dem Arbeitsmarkt zu sichern, behauptet jedoch niemand.",
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
-   "Online-Angebote sind nach dem Text nur zu festen Zeiten und an festen Orten nutzbar.",
+   "Online-Angebote gelten im Text als wenig geeignet für Berufstätige, weil sie viel Zeit kosten.",
    "Beschäftigte kleiner Betriebe nehmen häufiger an Weiterbildung teil als andere.",
    "Häufig genannt werden fehlende Zeit, hohe Kosten und mangelnde Information.",
-   "Alle Gruppen der Beschäftigten nehmen gleichermaßen häufig an Weiterbildung teil."
+   "Bildungsexperten fordern in erster Linie mehr Kurse an Volkshochschulen."
   ],
   "answer": 2,
   "why": [
    "Falsch: Online-Angebote lassen sich „zeitlich flexibel nutzen“.",
    "Falsch: Beschäftigte in kleinen Betrieben nehmen „seltener“ teil.",
    "Richtig: „Fehlende Zeit, hohe Kosten und mangelnde Information“ werden von Befragten häufig genannt.",
-   "Falsch: „Nicht alle Gruppen“ nehmen „gleichermaßen“ teil."
+   "Falsch: Gefordert werden „mehr finanzielle Unterstützung und Beratungsangebote“; ein Schwerpunkt auf Volkshochschulkursen steht nicht im Text."
   ],
   "traps": [
    "Gegenteil",
@@ -985,14 +985,14 @@
   "options": [
    "Gutenberg erfand das Drucken von Texten überhaupt erst und ersetzte damit die Holztafeln.",
    "Kurz nach Gutenbergs Erfindung konnte der Großteil der Bevölkerung lesen.",
-   "Nach Ansicht der Historiker war der Buchdruck der einzige Grund für den gesellschaftlichen Wandel.",
+   "Nach Ansicht der Historiker war der Buchdruck der wichtigste von mehreren Faktoren des gesellschaftlichen Wandels.",
    "Bewegliche Lettern ermöglichten viele Exemplare in kurzer Zeit und machten Bücher billiger."
   ],
   "answer": 3,
   "why": [
    "Falsch: Das Drucken „war nicht neu“, in Ostasien gab es schon Holztafeldruck.",
    "Falsch: Die Zahl der Lesekundigen „wuchs … nur allmählich“, ein großer Teil konnte noch lange nicht lesen.",
-   "Falsch: Der Buchdruck war „nur einer von mehreren Faktoren“.",
+   "Falsch: Der Buchdruck war „ein wichtiger Anstoß, aber nur einer von mehreren Faktoren“; eine Rangfolge nennt der Text nicht.",
    "Richtig: Der Buchdruck „ermöglichte es, in kurzer Zeit viele gleichlautende Exemplare herzustellen, wodurch Bücher billiger wurden“."
   ],
   "traps": [
@@ -1004,19 +1004,19 @@
  {
   "id": "vr-0142",
   "topic": "Sprache",
-  "difficulty": 3,
+  "difficulty": 2,
   "text": "Unter einem Dialekt versteht die Sprachwissenschaft eine regional gebundene Sprachvarietät, die sich von der Standardsprache in Aussprache, Wortschatz und Grammatik unterscheidet. Dialekte gelten dabei nicht als fehlerhafte Formen der Standardsprache; vielmehr sind beide aus gemeinsamen Vorformen hervorgegangen, und die Standardsprache hat sich erst im Lauf der Zeit als überregionale Norm herausgebildet. Im deutschen Sprachraum gehen die Dialekte in vielen Regionen zurück, vor allem in Städten und bei jüngeren Menschen. Gleichzeitig haben sich zwischen Dialekt und Standardsprache regionale Umgangssprachen entwickelt, die weniger stark vom Hochdeutschen abweichen als der Dialekt, aber dennoch regionale Besonderheiten bewahren. Ob Dialektsprecher in der Schule benachteiligt sind, wird seit Langem untersucht; die Ergebnisse fallen uneinheitlich aus, und einige Studien deuten darauf hin, dass der Wechsel zwischen Dialekt und Standardsprache sogar sprachliche Flexibilität fördern kann. Wer im Alltag beide Formen beherrscht, wählt meist je nach Situation, etwa zu Hause den Dialekt und im Beruf die Standardsprache. In einigen Regionen bemühen sich Vereine und Schulen, den Dialekt zu pflegen, weil sie ihn als Teil der regionalen Identität betrachten.",
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
    "Dialekte gelten in der Sprachwissenschaft als fehlerhafte und regional verfälschte Formen der Standardsprache.",
-   "Studien zeigen eindeutig, dass Dialektsprecher in der Schule schlechtere Leistungen erbringen.",
+   "Studien deuten darauf hin, dass Dialektsprecher in der Schule meist schlechtere Leistungen erbringen.",
    "Der Dialektgebrauch geht vielerorts zurück, zugleich haben sich regionale Umgangssprachen entwickelt.",
    "Die Standardsprache ist älter als die Dialekte, aus denen sie sich später gelöst hat."
   ],
   "answer": 2,
   "why": [
    "Falsch: Dialekte „gelten dabei nicht als fehlerhafte Formen“.",
-   "Falsch: Die Ergebnisse „fallen uneinheitlich aus“.",
+   "Falsch: Die Ergebnisse „fallen uneinheitlich aus“, einige Studien sehen sogar sprachliche Flexibilität gefördert.",
    "Richtig: Dialekte gehen „in vielen Regionen zurück“, und „zwischen Dialekt und Standardsprache“ haben sich Umgangssprachen entwickelt.",
    "Falsch: Beide gingen aus gemeinsamen Vorformen hervor, die Standardsprache bildete sich „erst im Lauf der Zeit“ als Norm heraus."
   ],
@@ -1034,16 +1034,16 @@
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
    "Materialien sollen möglichst wieder entfernbar sein, da frühere Stoffe schädigten.",
-   "Die Reinigung vergilbter Schutzlacke ist unter Fachleuten unumstritten.",
+   "Beim Entfernen vergilbter Schutzlacke besteht nach dem Text vor allem die Gefahr, die ursprüngliche Farbwirkung zu verlieren.",
    "Röntgen- und Infrarotuntersuchungen werden abgelehnt, weil sie Gemälde schädigen.",
-   "Alle Fachleute sind sich einig, dass fehlende Stellen unauffällig ergänzt werden sollen."
+   "Die Mehrheit der Restauratoren bevorzugt es, fehlende Stellen unauffällig zu ergänzen."
   ],
   "answer": 0,
   "why": [
    "Richtig: Materialien sollen „sich möglichst wieder entfernen lassen“, weil frühere Stoffe „das Original schädigten“.",
-   "Falsch: Das Entfernen der Lacke „wird unterschiedlich beurteilt“.",
+   "Falsch: Die Reinigung kann die ursprüngliche Farbwirkung „freilegen“, aber auch Originalschichten angreifen; das Urteil fällt unterschiedlich aus.",
    "Falsch: Die Untersuchungen machen vieles sichtbar, „ohne das Werk zu berühren“.",
-   "Falsch: Die Frage der Ergänzung ist „umstritten“; manche bevorzugen erkennbare Retuschen."
+   "Falsch: Die Frage ist „umstritten“: Manche bevorzugen erkennbare Retuschen, andere unauffällige; eine Mehrheit nennt der Text nicht."
   ],
   "traps": [
    "Überverallgemeinerung",
@@ -1058,14 +1058,14 @@
   "text": "Hochhäuser aus Holz sind in den vergangenen Jahren in mehreren Ländern entstanden. Möglich wurde dies durch Brettsperrholz, bei dem mehrere Schichten Holzbretter kreuzweise verklebt werden, sodass ein formstabiles und tragfähiges Bauteil entsteht. Befürworter verweisen auf den Klimaschutz: Ein wachsender Baum nimmt Kohlendioxid auf, und der Kohlenstoff bleibt im Holz gespeichert, solange es verbaut ist. Zudem verursacht die Herstellung von Holzbauteilen im Vergleich zu Stahl und Beton meist geringere Emissionen. Die Bauteile werden häufig in Werkhallen vorgefertigt und dann auf der Baustelle montiert, was die Bauzeit verkürzt und Lärm vor Ort verringert. Skepsis richtet sich vor allem auf den Brandschutz. Dicke Holzbauteile verkohlen im Brandfall an der Oberfläche, wodurch das Innere eine Zeit lang tragfähig bleibt; dennoch müssen zusätzliche Maßnahmen wie Sprinkleranlagen oder Verkleidungen aus nicht brennbaren Platten die Sicherheit gewährleisten. Ein weiteres Risiko ist Feuchtigkeit, die Holz schädigen kann, wenn es auf der Baustelle ungeschützt der Witterung ausgesetzt ist. In vielen Ländern begrenzen die Bauvorschriften die zulässige Höhe von Holzgebäuden, doch werden die Regeln allmählich angepasst, wenn Erfahrungen vorliegen.",
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
-   "In allen Ländern dürfen Holzgebäude beliebig hoch gebaut werden.",
+   "Die Regeln für die Höhe von Holzgebäuden bleiben unverändert, weil Erfahrungen mit Holzhochhäusern fehlen.",
    "Holzhochhäuser sind nach dem Text sicherer vor Feuer als Gebäude aus Beton.",
    "Die Vorfertigung der Bauteile verlängert die Bauzeit auf der Baustelle erheblich und erhöht den Lärm.",
    "Dicke Holzbauteile verkohlen außen und bleiben innen eine Zeit lang tragfähig."
   ],
   "answer": 3,
   "why": [
-   "Falsch: „In vielen Ländern“ begrenzen Bauvorschriften die Höhe.",
+   "Falsch: Die Regeln werden „allmählich angepasst, wenn Erfahrungen vorliegen“.",
    "Falsch: Der Text nennt zusätzliche Brandschutzmaßnahmen, einen Vergleich mit Beton zieht er dabei nicht.",
    "Falsch: Die Vorfertigung „verkürzt die Bauzeit“.",
    "Richtig: Dicke Holzbauteile „verkohlen im Brandfall an der Oberfläche, wodurch das Innere eine Zeit lang tragfähig bleibt“."
@@ -1079,14 +1079,14 @@
  {
   "id": "vr-0145",
   "topic": "Sport",
-  "difficulty": 3,
+  "difficulty": 2,
   "text": "Manche Ausdauersportler trainieren oder leben zeitweise in großer Höhe, weil dort der Sauerstoffgehalt der Luft geringer ist. Als Reaktion bildet der Körper nach einigen Wochen mehr rote Blutkörperchen, die Sauerstoff transportieren, sodass die Ausdauerleistung im Flachland steigen kann. Dieser Effekt hält nach der Rückkehr nur wenige Wochen an, weshalb Wettkämpfe zeitlich auf die Rückkehr abgestimmt werden. Eine verbreitete Strategie heißt „leben hoch, trainieren tief“: Die Athleten schlafen in der Höhe, trainieren aber niedriger, um dort mit höherer Intensität arbeiten zu können. Wie stark Sportler vom Höhentraining profitieren, ist individuell sehr verschieden; manche zeigen kaum eine Veränderung. Dem Nutzen stehen Risiken gegenüber: In großer Höhe leiden manche Menschen unter Kopfschmerzen, Übelkeit oder Schlafstörungen, und das Training kann anfangs sogar schlechter gelingen, weil der Sauerstoffmangel die Leistung senkt. Außerdem ist ein Höhenaufenthalt aufwendig und teuer. Als Alternative nutzen einige Sportler Höhenzelte oder Kammern, in denen die Luft sauerstoffärmer ist; ob diese Verfahren den gleichen Nutzen bringen wie ein echter Aufenthalt in den Bergen, gilt als weniger gut gesichert.",
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
-   "Höhenzelte bringen nachweislich denselben Nutzen wie ein Aufenthalt in den Bergen.",
+   "Höhenzelte und Kammern bringen nach heutigem Stand etwa denselben Nutzen wie ein echter Höhenaufenthalt.",
    "Der Höhenaufenthalt wirkt dauerhaft und muss deshalb nicht zeitlich auf Wettkämpfe abgestimmt werden.",
-   "Mehr rote Blutkörperchen bilden sich erst nach Wochen, der Effekt hält danach nur wenige Wochen an.",
-   "Alle Sportler profitieren gleichermaßen vom Höhentraining."
+   "Mehr rote Blutkörperchen bilden sich erst nach einigen Wochen, nach der Rückkehr hält der Effekt nur wenige Wochen an.",
+   "Sportler, die in großer Höhe trainieren, profitieren davon in der Regel deutlich."
   ],
   "answer": 2,
   "why": [
@@ -1110,14 +1110,14 @@
    "Bei der Transitmethode wird das Hin-und-her-Schwanken eines Sterns durch die Schwerkraft eines Planeten gemessen.",
    "Der erste bestätigte Exoplanet um einen sonnenähnlichen Stern wurde vor 1995 entdeckt.",
    "Große, sternnahe Planeten sind leichter zu finden, daher ist die bekannte Auswahl vermutlich verzerrt.",
-   "Planeten in der habitablen Zone sind nach heutigem Stand nachweislich von Leben bewohnt."
+   "Auf Planeten in der habitablen Zone wurden bisher erste Hinweise auf Leben gefunden."
   ],
   "answer": 2,
   "why": [
    "Falsch: Das Schwanken wird bei der Radialgeschwindigkeitsmethode untersucht; die Transitmethode misst die Helligkeit.",
    "Falsch: Der erste bestätigte Exoplanet um einen sonnenähnlichen Stern wurde „im Jahr 1995“ entdeckt.",
    "Richtig: Große, sternnahe Planeten werden „leichter“ gefunden, daher bilden die bekannten Exoplaneten die Verteilung „vermutlich nicht genau ab“.",
-   "Falsch: Die habitable Zone erlaubt „flüssiges Wasser“ nur möglicherweise; „Hinweise auf Leben wurden bisher nicht gefunden“."
+   "Falsch: „Hinweise auf Leben wurden bisher nicht gefunden“; die habitable Zone erlaubt flüssiges Wasser nur möglicherweise."
   ],
   "traps": [
    "Gegenteil",
@@ -1132,15 +1132,15 @@
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
    "Grundwasser bildet sich aus versickerndem Niederschlag in wasserführenden Schichten.",
-   "Nitrat gelangt ausschließlich auf natürlichem Weg aus dem Gestein ins Grundwasser.",
-   "Grundwasser bildet sich nach dem Text innerhalb weniger Tage vollständig neu und steht unbegrenzt bereit.",
+   "Das Nitrat im Grundwasser stammt nach dem Text vor allem aus Abwasser.",
+   "Grundwasser bildet sich meist innerhalb weniger Monate neu, sodass Entnahmen kaum Folgen haben.",
    "Grundwasser ist grundsätzlich stärker verschmutzt als Wasser aus Flüssen und Seen."
   ],
   "answer": 0,
   "why": [
    "Richtig: Niederschläge versickern und „sammeln sich in Hohlräumen“ von Sand, Kies oder Gestein, den Grundwasserleitern.",
-   "Falsch: Genannt wird Nitrat „aus Düngemitteln“, also auch aus menschlicher Tätigkeit.",
-   "Falsch: Die Neubildung verläuft „langsam“, es kann „Jahre bis Jahrzehnte“ dauern.",
+   "Falsch: Genannt werden Nitrat „aus Düngemitteln“, Pflanzenschutzmittel und Abwasser, ohne dass Abwasser als Hauptquelle bezeichnet wird.",
+   "Falsch: Die Neubildung verläuft „langsam“ (Jahre bis Jahrzehnte), und bei zu hoher Entnahme sinkt der Grundwasserspiegel.",
    "Falsch: Grundwasser ist „in der Regel sauberer“ als Wasser aus Flüssen und Seen."
   ],
   "traps": [
@@ -1157,16 +1157,16 @@
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
    "Videosprechstunden eignen sich für Beratung, stoßen aber bei körperlichen Untersuchungen an Grenzen.",
-   "Die Nutzung der Telemedizin ist seit der Pandemie in allen Praxen weiter gestiegen.",
-   "Telemedizin ist nur in Städten mit guter Infrastruktur nutzbar und für Landregionen ungeeignet.",
-   "Telemedizin soll nach Ansicht der Fachgesellschaften Praxisbesuche vollständig ersetzen und die Behandlung vor Ort überflüssig machen."
+   "Die Nutzung der Telemedizin ist nach der Pandemie bei vielen Praxen weiter gestiegen.",
+   "Telemedizin kann in Regionen mit weit auseinanderliegenden Praxen nur wenig helfen.",
+   "Fachgesellschaften sehen Telemedizin als Ergänzung, die persönliche Termine bei neuen Beschwerden künftig überflüssig machen soll."
   ],
   "answer": 0,
   "why": [
    "Richtig: Videosprechstunden eignen sich für „Beratungsgespräche“ und „Kontrolltermine“; Grenzen bestehen dort, wo „eine körperliche Untersuchung“ nötig ist.",
-   "Falsch: Die Nutzung ist „bei vielen Praxen wieder zurückgegangen“.",
-   "Falsch: Sie kann gerade in Regionen mit weit auseinanderliegenden Praxen helfen.",
-   "Falsch: Fachgesellschaften sehen sie „als Ergänzung … und nicht als deren Ersatz“."
+   "Falsch: Nach der Pandemie ist die Nutzung „bei vielen Praxen wieder zurückgegangen“.",
+   "Falsch: Sie kann „vor allem in Regionen helfen, in denen Praxen weit auseinanderliegen“.",
+   "Falsch: Bei neu auftretenden, unklaren Beschwerden wird „häufig ein persönlicher Termin empfohlen“; die Telemedizin gilt als Ergänzung „und nicht als deren Ersatz“."
   ],
   "traps": [
    "Gegenteil",
@@ -1180,14 +1180,14 @@
   "text": "Die Psychologie unterscheidet zwischen intrinsischer und extrinsischer Motivation. Intrinsisch motiviert ist, wer eine Tätigkeit um ihrer selbst willen ausübt, etwa weil sie Freude macht oder interessant ist. Extrinsisch motiviert ist, wer sie wegen einer äußeren Folge ausführt, etwa wegen einer Belohnung, einer Note oder um eine Strafe zu vermeiden. In mehreren Experimenten fiel auf, dass äußere Belohnungen die ursprüngliche Freude an einer Tätigkeit mindern können. So malten Kinder, die gern zeichneten, später seltener von sich aus, nachdem sie für das Zeichnen ein Zertifikat in Aussicht gestellt bekommen hatten. Diese Wirkung tritt aber nicht stets auf. Wurde die Belohnung nicht vorher angekündigt oder bestand sie in einem Lob für gute Leistung, blieb das Interesse meist erhalten. Nach der Selbstbestimmungstheorie von Edward Deci und Richard Ryan entsteht innere Motivation besonders dann, wenn Menschen sich als selbstbestimmt, als kompetent und in soziale Beziehungen eingebunden erleben. Belohnungen schaden danach vor allem dann, wenn sie als Kontrolle erlebt werden. Für die Praxis, etwa in Schulen und Unternehmen, folgt daraus, dass Anreize sorgfältig gewählt werden sollten, ohne dass man Belohnungen pauschal ablehnen müsste.",
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
-   "Innere Motivation entsteht nach Deci und Ryan nur durch Belohnungen.",
+   "Belohnungen können nach Deci und Ryan die innere Motivation stärken, auch wenn sie als Kontrolle erlebt werden.",
    "Belohnungen können unter Umständen das frühere Interesse an einer Tätigkeit mindern.",
    "Unerwartete Belohnungen schwächen die Motivation meist ebenso stark wie angekündigte.",
    "Äußere Belohnungen verringern das Interesse an einer Tätigkeit in jedem Fall."
   ],
   "answer": 1,
   "why": [
-   "Falsch: Innere Motivation entsteht besonders, wenn Menschen sich selbstbestimmt, kompetent und eingebunden erleben.",
+   "Falsch: Belohnungen schaden danach „vor allem dann, wenn sie als Kontrolle erlebt werden“.",
    "Richtig: Belohnungen „können“ die Freude mindern, „nicht stets“; sie schaden vor allem, wenn sie als Kontrolle erlebt werden.",
    "Falsch: Wurde die Belohnung „nicht vorher angekündigt“, blieb das Interesse „meist erhalten“.",
    "Falsch: Die Wirkung „tritt aber nicht stets auf“."
@@ -1206,16 +1206,16 @@
   "question": "Welche der folgenden Aussagen ist zutreffend?",
   "options": [
    "OER dürfen von Lehrkräften nicht an die Bedürfnisse der eigenen Klasse angepasst werden.",
-   "Frei zugängliche Materialien dürfen nicht automatisch weitergegeben werden.",
+   "Nicht jedes kostenlos verfügbare Material darf ohne Erlaubnis weitergegeben werden.",
    "Eine freie Lizenz garantiert zugleich die inhaltliche Qualität eines Materials.",
-   "Alle kostenlos online verfügbaren Materialien gelten als OER."
+   "Als OER gelten nach dem Text vor allem Materialien, die kostenlos im Internet verfügbar sind."
   ],
   "answer": 1,
   "why": [
    "Falsch: Lehrkräfte können OER „an die Bedürfnisse ihrer Klasse anpassen“.",
-   "Richtig: Viele frei zugängliche Materialien sind urheberrechtlich geschützt und dürfen „ohne Erlaubnis weder verändert noch weitergegeben“ werden.",
+   "Richtig: Viele frei zugängliche Texte und Bilder sind urheberrechtlich geschützt und dürfen „ohne Erlaubnis weder verändert noch weitergegeben“ werden.",
    "Falsch: Eine freie Lizenz „sagt … nichts über die Qualität“ aus.",
-   "Falsch: Das Gleichsetzen ist ein „verbreitetes Missverständnis“."
+   "Falsch: Das Gleichsetzen von kostenlos verfügbarem Material mit OER ist ein „verbreitetes Missverständnis“."
   ],
   "traps": [
    "Gegenteil"
