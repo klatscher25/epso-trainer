@@ -1,0 +1,418 @@
+[
+  {
+    "id": "es-01",
+    "title": "AI Act: preparing a public administration",
+    "task": "You are an official in the digital transformation unit of a European public administration. The Director-General has asked for advice on how the organisation should respond to the EU Artificial Intelligence Act. The organisation is piloting two tools: a generative AI assistant for drafting texts and an AI tool that pre-sorts job applications. Write a briefing note of 400–500 words for the Director-General. Summarise the obligations that matter for these two tools, explain how recent developments affect the timing, recommend priority actions and state the decision you need. Use the material provided; leave out anything that does not bear on your recommendation.",
+    "material": [
+      {
+        "title": "Fact sheet: AI literacy and the original application calendar",
+        "text": "Regulation (EU) 2024/1689, the AI Act, requires providers and deployers of AI systems to take measures so that their staff, and other people operating AI on their behalf, have a sufficient level of AI literacy. The measures should reflect the staff's technical knowledge, experience, education and training, the context in which the systems are used and the people on whom they are used. The Regulation defines AI literacy as the skills, knowledge and understanding that allow an informed deployment of AI and an awareness of its opportunities, risks and possible harm. In the original text, the general provisions and the prohibitions (Chapters I and II) apply from 2 February 2025. Rules on general-purpose AI models and on penalties apply from 2 August 2025. The Regulation as a whole applies from 2 August 2026, and the high-risk rules linked to product-safety law (Article 6(1)) apply from 2 August 2027. The European Data Protection Supervisor may fine Union institutions, agencies and bodies that fall within scope.",
+        "source": {
+          "title": "Regulation (EU) 2024/1689 (AI Act), Articles 3, 4 and 113",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+        }
+      },
+      {
+        "title": "Fact sheet: duties of public bodies that deploy AI",
+        "text": "Under the AI Act, systems used to recruit or select people, in particular to filter job applications or evaluate candidates, appear in Annex III among the use cases classified as high-risk. Deployers of high-risk systems must assign human oversight to people who have the necessary competence, training and authority, as well as support. In addition, deployers that are bodies governed by public law, or private entities providing public services, must assess the impact on fundamental rights before they first use a high-risk system of this kind (Article 27). The Regulation makes an exception for systems used in the area listed in point 2 of Annex III, which is critical infrastructure. The obligations on providers of general-purpose AI models, which apply from 2 August 2025, are addressed to the organisations that develop those models and place them on the market. Infringements can lead to administrative fines, and the penalty provisions apply from 2 August 2025.",
+        "source": {
+          "title": "Regulation (EU) 2024/1689 (AI Act), Articles 26, 27, 99 and Annex III",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+        }
+      },
+      {
+        "title": "Policy update: provisional agreement to simplify the AI Act (2026)",
+        "text": "In April 2026, negotiators of the European Parliament and the Council reached a provisional agreement on simplifying the AI Act. Under the deal, obligations for stand-alone high-risk systems, for example those used in biometrics, education, employment, law enforcement and border management, would apply from 2 December 2027, and obligations for AI embedded in products covered by EU safety law from 2 August 2028. Watermarking duties for AI-generated content would be delayed to 2 December 2026. The agreement also bans AI systems that create non-consensual intimate images or child sexual abuse material, with a compliance deadline of 2 December 2026. It removes some overlap with machinery rules, narrows the definition of a safety component and extends SME exemptions to small mid-cap companies. The Council announced its final green light on 29 June 2026. The sources summarised here do not say whether the wording of the AI literacy provision has changed.",
+        "source": {
+          "title": "European Parliament press release: AI Act, deal on simplification measures (27 April 2026)",
+          "url": "https://www.europarl.europa.eu/news/en/press-room/20260427IPR42011/"
+        }
+      },
+      {
+        "title": "Extract: the Commission's own approach (AI@EC Communication, January 2024)",
+        "text": "In January 2024 the European Commission adopted a Communication on Artificial Intelligence in the Commission, known as AI@EC. It presents generative AI as a chance to support staff, reduce administrative burden and improve the quality of the Commission's work, and stresses the need to understand and address risks so that AI use is safe, transparent, trustworthy and human-centred. The Commission commits to acting as an early adopter of the AI Act's risk-based approach. It will develop internal operational guidelines for staff who use, develop or procure AI systems, classify and assess the systems it uses or plans to use, refrain from using systems that are incompatible with European values, and set up a governance structure. Staff are to be supported through targeted training and reskilling, taking account of differences in digital literacy. Internal guidelines on third-party online generative AI tools already existed. A corporate AI@EC network, led by the Directorate-General for Translation, brings practitioners together. Priority use cases include summarising documents and preparing briefings.",
+        "source": {
+          "title": "European Commission, Communication C(2024) 380: Artificial Intelligence in the European Commission (AI@EC)",
+          "url": "https://commission.europa.eu/system/files/2024-01/EN%20Artificial%20Intelligence%20in%20the%20European%20Commission.PDF"
+        }
+      }
+    ],
+    "model_answer": "BRIEFING NOTE\nTo: Director-General\nFrom: Digital Transformation Unit\nSubject: Preparing for the AI Act: what we must do and when\n\n1. Purpose\nThis note explains how the AI Act applies to our two pilots, how recent changes affect the timetable, and asks you to approve three priority actions.\n\n2. What applies to us\n- AI literacy. Since 2 February 2025, organisations that deploy AI must take measures to ensure a sufficient level of AI literacy among the staff who operate it, adapted to their knowledge, experience and the context of use (Article 4). This covers both pilots, whatever their risk level.\n- The recruitment tool is high-risk. Systems that filter applications or evaluate candidates are listed in Annex III. As a body governed by public law, we must assess the impact on fundamental rights before deployment (Article 27) and assign human oversight to staff with the competence, training and authority to exercise it.\n- The drafting assistant raises fewer formal duties. Obligations on general-purpose models fall on the providers that develop them, not on us as users, so I have left them aside.\n\n3. Timing: the picture has changed\nThe original text applies the high-risk rules from 2 August 2026. However, a provisional agreement reached in April 2026, which the Council finally approved on 29 June 2026, would postpone obligations for stand-alone high-risk systems, such as recruitment tools, to 2 December 2027, and those for AI embedded in products to 2 August 2028. Publication in the Official Journal should be confirmed before we rely on these dates.\n\nThe delay gives us time to prepare well, not a reason to wait. Nothing in the material I reviewed shows that the literacy provision has changed, and the Commission has chosen to act as an early adopter of the risk-based approach. Penalties also apply, and the European Data Protection Supervisor can fine Union institutions.\n\n4. Recommended actions\n1. Launch AI literacy training now. Offer role-based sessions for pilot users and managers, with reskilling support, following the Commission's example.\n2. Classify both systems in a risk register and start the fundamental rights assessment for the recruitment tool, so that no live use begins without it.\n3. Adopt internal guidelines for staff on generative AI tools and name one owner for AI governance, as the Commission has done through its operational guidelines and governance structure.\n\n5. Decision requested\nPlease approve these three actions and agree that the recruitment tool stays in pilot until the fundamental rights assessment is complete. I will report on progress in three months.",
+    "checklist": [
+      "(1) The note has a clear heading block (To / From / Subject) and numbered sections in a logical order: purpose, obligations, timing, actions, decision.",
+      "(1) The recommendation or decision requested is stated early (purpose) and repeated at the end.",
+      "(2) No section repeats information; every sentence supports the Director-General's decision.",
+      "(2) The note stays within about 450 words without long background on the whole Regulation.",
+      "(3) Technical terms (AI literacy, high-risk, deployer) are explained in plain words or used only where needed.",
+      "(4) The tone and format suit a busy Director-General: short paragraphs, bullets, concrete asks, an owner or timeline for actions.",
+      "(5) Uses at least four facts from the material accurately (for example Article 4, Annex III recruitment, Article 27, the 2027/2028 dates).",
+      "(5) Recognises the conflict between the original 2026/2027 dates and the new dates, and says how to deal with it.",
+      "(5) Leaves out irrelevant material (general-purpose model duties, nudifier ban, SME exemptions) or mentions it only to dismiss it.",
+      "(5) Does not invent facts: uncertainty about the literacy provision or Official Journal publication is flagged."
+    ]
+  },
+  {
+    "id": "es-02",
+    "title": "Data Act: what small manufacturers need to know",
+    "task": "You work for a European association of small and medium-sized manufacturers. Write an article of 400–500 words for the association's monthly newsletter. Your readers are business owners and managers who are not lawyers; many of them make machines or devices that collect data. Explain what the Data Act changes for them, which dates matter, what they must and need not do, and where to start. Use the material provided and select what is most useful for this audience.",
+    "material": [
+      {
+        "title": "Fact sheet: key dates in the Data Act",
+        "text": "Regulation (EU) 2023/2854, known as the Data Act, applies from 12 September 2025. Its rule that connected products and related services must be designed so that users can access the data they generate (Article 3(1)) applies only to products placed on the market after 12 September 2026. The chapter on unfair contractual terms between businesses applies to contracts concluded after 12 September 2025. From 12 September 2027 it also covers older contracts, but only those that run for an indefinite period or were due to expire at least ten years after 11 January 2024. The Commission must evaluate the Regulation by 12 September 2028, including its impact on the capacity of SMEs to innovate and the burden of complying. Member States must designate competent authorities to enforce the rules. The Commission was also asked to recommend, before 12 September 2025, non-binding model contractual terms on data access and use.",
+        "source": {
+          "title": "Regulation (EU) 2023/2854 (Data Act), Articles 3, 41, 50 and 49",
+          "url": "https://eur-lex.europa.eu/eli/reg/2023/2854/oj"
+        }
+      },
+      {
+        "title": "Extract: how the Data Act treats small firms",
+        "text": "The Data Act contains several provisions for smaller businesses. First, the obligations in Chapter II, which give users access to the data generated by connected products and related services, do not apply to data from products made or designed, or services provided, by a microenterprise or small enterprise. The exemption is lost if that firm has a partner or linked enterprise that is not itself micro or small, or if it is subcontracted to make or design the product or service. A small firm can still be a data holder, with duties, if it is not the manufacturer of the product. Second, the recitals describe a one-year transitional period for a firm that has only recently become medium-sized. Third, micro and small enterprises must provide data to public bodies in exceptional need only to respond to a public emergency, and can claim compensation even then. Fourth, an unfair term that has been unilaterally imposed on any enterprise, including an SME, is not binding on it. A term is unilateral when it is take-it-or-leave-it and the other side could not influence its content.",
+        "source": {
+          "title": "Regulation (EU) 2023/2854 (Data Act), Article 7, Article 13 and recitals",
+          "url": "https://eur-lex.europa.eu/eli/reg/2023/2854/oj"
+        }
+      },
+      {
+        "title": "Statistics: cloud use by enterprise size (EU, 2025)",
+        "text": "Eurostat reports that 52.74% of EU enterprises bought paid cloud computing services in 2025. Use rises with company size: 49.3% of small enterprises, 66.78% of medium-sized enterprises and 84.67% of large enterprises. Among medium-sized firms the share was 59.09% in 2023. Among countries, Finland (79.21%), Italy (75.6%) and Malta (74.87%) were highest, and Romania (24.94%), Greece (24.33%) and Bulgaria (17.83%) were lowest. The data were extracted in January 2026, and the next update is planned for January 2027. The survey covers enterprises with ten or more employees. The gap between small and large enterprises is therefore about 35 percentage points, and medium-sized firms gained about 7.7 points between 2023 and 2025. Cloud use is not the same as data sharing: the figures describe the purchase of services, not whether firms exchange data with business partners or customers.",
+        "source": {
+          "title": "Eurostat, Cloud computing: statistics on the use by enterprises",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Cloud_computing_-_statistics_on_the_use_by_enterprises"
+        }
+      },
+      {
+        "title": "Background: why the Data Act pays attention to SMEs",
+        "text": "The recitals of the Data Act note that in sectors with many micro, small and medium-sized enterprises, there is often a lack of digital capacity and skills to collect, analyse and use data, and access is frequently restricted where one actor holds the data in a system or where data cannot be combined across services. They add that a party in a stronger bargaining position can use it to the detriment of the other, so that access to data becomes commercially less viable and many firms have no choice but to accept take-it-or-leave-it terms. At the same time, the Regulation respects contractual freedom in business-to-business relations. Only terms imposed unilaterally are tested for unfairness, and most terms that favour one side remain valid. Only excessive terms that grossly deviate from good commercial practice are caught. The Regulation also contains rules on switching between cloud and other data processing services and on access to data by public bodies in emergencies.",
+        "source": {
+          "title": "Regulation (EU) 2023/2854 (Data Act), recitals",
+          "url": "https://eur-lex.europa.eu/eli/reg/2023/2854/oj"
+        }
+      }
+    ],
+    "model_answer": "Data Act: what small manufacturers need to know\n\nIf you build machines or devices that collect data, the EU's Data Act affects your business. The good news is that smaller firms receive significant relief. Here is what to know and what to do.\n\nWhat is changing\nThe Data Act applies from 12 September 2025. Its core idea is that users of connected products, for example a farmer using your machine, should be able to access the data the product generates and share it with others.\n\nThe relief for small firms\nIf you are a micro or small enterprise, you do not have to meet the data-access obligations for products you make or design yourself. There are two warnings. The exemption disappears if you have a partner or linked company that is not itself micro or small, or if a larger firm subcontracts you to make or design the product. And you may still have duties as a data holder if you only distribute products made by others. Firms that have recently grown into medium-sized status benefit from a one-year transitional period.\n\nThree dates\n- 12 September 2025: the Regulation applies, including the fairness rules for data contracts signed from this date.\n- 12 September 2026: new connected products placed on the market must be designed so that users can access their data.\n- 12 September 2027: the fairness rules also reach older contracts, but only indefinite ones or those running at least ten years beyond January 2024.\n\nProtection in contracts\nMany small firms have to accept take-it-or-leave-it terms when negotiating access to data. Under the Data Act, an unfair term imposed on you in this way is not binding. Ordinary hard bargaining stays legal: only terms that were imposed unilaterally and grossly deviate from good commercial practice are caught. If you are unsure whether a term is unfair, ask your association or a legal adviser before you sign.\n\nWhat to do now\n1. Check your size and your links to other firms to see whether the exemption applies to you. Keep a list of the connected products you sell and the data they generate; it makes every other step easier.\n2. Review contracts that involve data, especially with a dominant customer or cloud provider.\n3. If you will launch new connected products after September 2026, plan the data-access design now.\n4. Look out for support: the Commission was asked to recommend non-binding model contract terms, and each Member State must designate an authority that handles complaints.\n\nWhy it matters\nSmaller firms often lack the digital capacity and skills to use their data. Cloud adoption shows the gap: 49.3% of small enterprises bought cloud services in 2025, against 84.67% of large ones.\n\nThe Commission will evaluate the rules by September 2028, including the burden on SMEs. If the rules cause you difficulty, tell us, so that we can pass your experience on.",
+    "checklist": [
+      "(1) The article has a headline, a short introduction and clear subheadings that follow the reader's questions (what, for whom, when, what to do).",
+      "(1) The dates are in chronological order and easy to find, for example as a short list.",
+      "(2) Each section adds something new; no repeated explanations of the same exemption.",
+      "(2) Legal detail that readers do not need (switching between cloud providers, public emergencies) is left out or reduced to one clause.",
+      "(3) Terms such as 'microenterprise', 'data holder' and 'unilaterally imposed' are explained in everyday words.",
+      "(4) Addresses the readers directly (you, your products) and ends with practical steps rather than a legal summary.",
+      "(4) The tone is informative and reassuring for non-lawyers, with a call to action.",
+      "(5) Uses at least four facts from the material accurately (12 September 2025/2026/2027 dates, the micro/small exemption and its two exceptions, unfair terms).",
+      "(5) Uses the statistics to support a point (cloud adoption by size) without claiming they measure data sharing.",
+      "(5) Does not overstate: mentions that the exemption has conditions and that the Commission recommends only non-binding model terms."
+    ]
+  },
+  {
+    "id": "es-03",
+    "title": "Cybersecurity of EU institutions: what comes next",
+    "task": "You work in the IT security unit of an EU institution. The Secretary-General is not a technical specialist and has asked for a memo on what the institution should do over the coming year to stay compliant with Regulation (EU, Euratom) 2023/2841 and to strengthen its resilience. Write a memo of 400–500 words. Explain which deadlines have already passed and which obligations keep recurring, recommend three or four priority actions with an owner for each, state the risk of inaction and say what decision you need. Select from the material what supports your recommendations.",
+    "material": [
+      {
+        "title": "Fact sheet: Regulation (EU, Euratom) 2023/2841",
+        "text": "Regulation (EU, Euratom) 2023/2841 lays down measures for a high common level of cybersecurity in the institutions, bodies, offices and agencies of the Union, called Union entities. It entered into force twenty days after its publication on 18 December 2023. The Interinstitutional Cybersecurity Board (IICB), on which the main institutions are represented, monitors and supports implementation and gives strategic direction to CERT-EU, the cybersecurity service for the Union entities. Each Union entity must set up an internal cybersecurity risk-management, governance and control framework. It must cover the whole unclassified ICT environment, including cloud services and outsourced assets, and rest on an all-hazards approach. The highest level of management oversees the framework and is responsible for implementation. It may be held liable for infringements even if it delegates tasks. Entities must also appoint a local cybersecurity officer, ensure that an adequate percentage of the ICT budget is spent on cybersecurity, and give senior officials and relevant staff regular training.",
+        "source": {
+          "title": "Regulation (EU, Euratom) 2023/2841, Articles 6 and 10",
+          "url": "https://eur-lex.europa.eu/eli/reg/2023/2841/oj"
+        }
+      },
+      {
+        "title": "Policy timeline: deadlines in the Regulation",
+        "text": "8 September 2024: the IICB issues guidelines on the initial review, the framework, maturity assessments and risk-management measures. 8 April 2025: each entity establishes its framework after an initial cybersecurity review. 8 July 2025: each entity carries out a first cybersecurity maturity assessment, and repeats it at least every two years. 8 September 2025: appropriate and proportionate technical, operational and organisational risk-management measures must be in place. 8 January 2026: the highest level of management approves a cybersecurity plan, which includes a cyber crisis management plan for major incidents, and submits it to the IICB. At least every four years: the framework is reviewed. The IICB, assisted by CERT-EU, reviews implementation and reports to the Commission, which reports in turn to the European Parliament and the Council, including on whether systems handling EU classified information should come within scope. Separately, Directive (EU) 2022/2555 sets cybersecurity rules for entities in the Member States, and CERT-EU cooperates with the national CSIRTs network created under that Directive.",
+        "source": {
+          "title": "Regulation (EU, Euratom) 2023/2841, Articles 5 to 9 and recitals",
+          "url": "https://eur-lex.europa.eu/eli/reg/2023/2841/oj"
+        }
+      },
+      {
+        "title": "Extract: incident reporting",
+        "text": "The Regulation lays down a multi-stage approach to the reporting of significant incidents. Within 24 hours of becoming aware of a significant incident, a Union entity sends CERT-EU an early warning, which indicates, where applicable, whether unlawful or malicious acts are suspected or whether the incident could have a cross-border impact. Within 72 hours it sends an incident notification that updates this information and adds an initial assessment of the incident. A final report follows no later than one month after the notification. If the incident is still ongoing at that point, the entity submits a progress report and then a final report within one month of handling the incident. Within 24 hours, the entity also informs the relevant counterparts in the Member State where it is located. The Regulation states that the mere act of notification does not subject the entity to increased liability. Users of affected systems are to be informed without undue delay where they are potentially affected.",
+        "source": {
+          "title": "Regulation (EU, Euratom) 2023/2841, Article 21",
+          "url": "https://eur-lex.europa.eu/eli/reg/2023/2841/oj"
+        }
+      },
+      {
+        "title": "Background: flexibility and institutional autonomy",
+        "text": "The recitals stress that Union entities differ widely. The measures should not interfere with the exercise of the entities' missions or encroach on their institutional autonomy. For that reason each entity builds its own framework, adopts its own risk-management measures and prepares its own plan, while taking account of synergies with other entities in order to manage resources and optimise cost. Maturity assessments may be carried out with a specialised third party, and entities with similar structures may cooperate in carrying them out. The results can be discussed in the IICB only on request and with the explicit consent of the entity concerned, so that the institutions can learn from experience and share good practice. Risk-management measures may include cybersecurity audits, which may involve risk, vulnerability and threat assessments and penetration testing by a trusted private provider. The IICB consults the EU Cybersecurity Agency (ENISA) when it issues its guidelines.",
+        "source": {
+          "title": "Regulation (EU, Euratom) 2023/2841, recitals and Articles 5, 7 and 8",
+          "url": "https://eur-lex.europa.eu/eli/reg/2023/2841/oj"
+        }
+      }
+    ],
+    "model_answer": "MEMO\nTo: Secretary-General\nFrom: IT Security Unit\nSubject: Keeping our cybersecurity compliance current under Regulation 2023/2841\n\n1. Purpose\nOur first compliance deadlines have passed. This memo explains which obligations now recur, recommends four actions for the coming year and asks for your decision.\n\n2. Where we stand\nThe Regulation required each Union entity to set up a risk-management framework (April 2025), to carry out a maturity assessment (July 2025), to adopt risk-management measures (September 2025) and to have senior management approve a cybersecurity plan (January 2026). Those deadlines were one-off. The obligations that remain are continuous:\n- a maturity assessment at least every two years, so the next is due by July 2027;\n- a review of the framework at least every four years;\n- incident reporting at any time: an early warning within 24 hours, a notification within 72 hours and a final report within one month.\nResponsibility rests with you as the highest level of management. You may be held liable for infringements even if you delegate tasks. I therefore suggest that you sponsor the work personally.\n\n3. Recommended actions\n1. Prepare the 2027 maturity assessment now, ideally with a specialised third party or jointly with a similar institution to share cost. Owner: Head of IT Security.\n2. Test the incident process with an exercise covering the 24-hour, 72-hour and one-month steps, including the 24-hour notice to the host Member State. Owner: local cybersecurity officer.\n3. Refresh the cybersecurity plan and crisis management plan using the assessment results, and confirm that an adequate share of the ICT budget goes to cybersecurity. Owner: Director of Resources.\n4. Train senior officials and relevant staff regularly, as the Regulation requires. Owner: Human Resources.\n\n4. Flexibility and support\nThe Regulation respects our institutional autonomy, so we decide how to implement these measures. We should still use the Interinstitutional Cybersecurity Board: our assessment results are discussed there only with our explicit consent, which lets us learn from peers while keeping control. Notifying an incident does not by itself increase our liability, so there is no reason to delay a report. CERT-EU, the cybersecurity service for the Union entities, supports us and cooperates with national incident response teams, so we do not face incidents alone.\n\n5. Risk of doing nothing\nWithout a maintained framework, weaknesses in our whole ICT environment, including cloud and outsourced services, can go unnoticed, and liability rests at management level. The Interinstitutional Cybersecurity Board monitors implementation, and the Commission reports to Parliament and the Council on how the Regulation works, so gaps will not stay private for long.\n\n6. Decision requested\nPlease approve the four actions and confirm the owners. I will report on progress in three months.",
+    "checklist": [
+      "(1) The memo has a heading block and numbered sections in logical order: purpose, situation, actions, risk, decision.",
+      "(1) Past deadlines and recurring obligations are clearly separated, for example in two lists.",
+      "(2) Avoids reproducing the whole Regulation; each sentence supports a recommendation.",
+      "(2) Owners and actions are stated in one line each rather than in long paragraphs.",
+      "(3) Explains terms for a non-technical reader (maturity assessment, framework, significant incident) in plain words.",
+      "(4) Addresses the Secretary-General directly, frames responsibility at the highest level of management and asks for a clear decision.",
+      "(4) Uses a memo register: short, formal, action-oriented.",
+      "(5) Uses at least four facts from the material accurately (the 2025/2026 deadlines, two-year and four-year cycles, 24h/72h/one month, liability of management).",
+      "(5) Recognises that the 2025 and 2026 deadlines have passed and does not present them as future tasks.",
+      "(5) Ignores or dismisses irrelevant details (NIS2 for Member State entities, ENISA consultation on guidelines) and does not invent facts."
+    ]
+  },
+  {
+    "id": "es-04",
+    "title": "Digital Decade 2030: the skills gap",
+    "task": "A Member of the European Parliament has written to the Commission's Directorate-General for Communications Networks, Content and Technology asking: \"Is the EU on track to give its citizens the digital skills the economy needs by 2030?\" You are asked to draft the Director-General's reply. Write a letter of 400–500 words. The Member is interested in policy but is not a statistician. Give a clear, balanced answer, explain what the figures show, identify the main gaps and say what the Commission will do next. Use the material provided.",
+    "material": [
+      {
+        "title": "Fact sheet: the Digital Decade targets for 2030",
+        "text": "Decision (EU) 2022/2481 establishes the Digital Decade Policy Programme 2030. Article 4 lists digital targets in four areas. On skills, at least 80% of people aged 16 to 74 should have at least basic digital skills, and at least 20 million ICT specialists should be employed in the Union, with the aim of gender balance and more ICT graduates. On infrastructure, all end users at a fixed location should be covered by a gigabit network, the EU should produce at least 20% of the world's cutting-edge semiconductors by value, at least 10 000 climate-neutral edge nodes should be deployed, and the EU should have its first computer with quantum acceleration by 2025. On business, at least 75% of enterprises should use cloud computing, big data or artificial intelligence, and more than 90% of SMEs should reach at least a basic level of digital intensity. On public services, key services should be 100% available online. The Commission must report every year on the state of the Digital Decade.",
+        "source": {
+          "title": "Decision (EU) 2022/2481 establishing the Digital Decade Policy Programme 2030, Article 4",
+          "url": "https://eur-lex.europa.eu/eli/dec/2022/2481/oj"
+        }
+      },
+      {
+        "title": "Statistics: basic digital skills of individuals (EU, 2025)",
+        "text": "Eurostat reports that in 2025, 60% of EU citizens aged 16 to 74 had at least basic digital skills, up from 54% in 2021 and 56% in 2023. To count as having at least basic overall skills, a person must have performed at least one activity in each of five areas of competence. Four countries had already surpassed the 80% target: the Netherlands (84%), Ireland (83%), Denmark and Finland (both 81%). The lowest shares were in Romania (32%) and Bulgaria (38%). Age and education make a large difference. Only 33% of people aged 65 to 74 had at least basic digital skills. The share was 82% among people with high formal education and 38% among those with no or low formal education. The data were extracted in January 2026, and the next update is planned for February 2027.",
+        "source": {
+          "title": "Eurostat, Skills for the digital age",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Skills_for_the_digital_age"
+        }
+      },
+      {
+        "title": "Statistics: ICT specialists in employment (EU, 2025)",
+        "text": "According to Eurostat, more than 10 million people were employed as ICT specialists in the European Union in 2025. They accounted for 5.0% of all employed people, compared with 3.5% in 2015. Their share of employment therefore rose by 1.5 percentage points in ten years. The number of ICT specialists increased by 59.4% between 2015 and 2025, whereas total employment grew by 9.8% over the same period. Women are strongly under-represented: in 2025, 19.5% of ICT specialists were women and 80.5% were men. The article states that the goal is to reach 20 million employed ICT specialists in the EU by 2030, with greater gender balance. The data were extracted in April 2026. Eurostat's article does not say whether the 2030 goal is likely to be met.",
+        "source": {
+          "title": "Eurostat, ICT specialists in employment",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=ICT_specialists_in_employment"
+        }
+      },
+      {
+        "title": "Background: review, reporting and monitoring",
+        "text": "The Decision requires the Commission to review the digital targets and the relevant definitions by 30 June 2026, taking into account information from Member States. It must report the outcome to the European Parliament and the Council and, where necessary to address technical, economic or societal developments, propose an amendment to the targets. Every year the Commission submits a report on the state of the Digital Decade, which covers progress on digital transformation and the Digital Economy and Society Index; the first was due by 9 January 2024. Member States must provide the statistics needed for monitoring, broken down by gender and by region where possible. Since 2019, the Digital Economy and Society Index has included a Women in Digital Scoreboard based on 12 indicators, which is meant to remain part of the annual report. The Commission's Digital Decade web page now lists a 2026 State of the Digital Decade package.",
+        "source": {
+          "title": "Decision (EU) 2022/2481, review and reporting provisions and recitals; Commission Digital Decade web page",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/europes-digital-decade"
+        }
+      }
+    ],
+    "model_answer": "Dear Member of the European Parliament,\n\nThank you for your question on whether the EU is on track to reach its 2030 digital skills goals. My short answer is that progress is real, but at the present pace we will fall short of both skills targets.\n\nThe targets\nThe Digital Decade Policy Programme, set up by Decision (EU) 2022/2481, has two skills targets for 2030: at least 80% of people aged 16 to 74 with at least basic digital skills, and at least 20 million ICT specialists in employment, with better gender balance.\n\nWhere we stand\nEurostat figures show that 60% of people aged 16 to 74 had at least basic digital skills in 2025, up from 54% in 2021 and 56% in 2023. That is a gain of about 1.5 percentage points a year. At that pace, the EU would reach roughly 67% in 2030, well below 80%.\n\nThe picture differs widely. Four Member States have already passed 80%, led by the Netherlands (84%) and Ireland (83%), while Romania (32%) and Bulgaria (38%) are lowest. Age and education matter: only 33% of people aged 65 to 74 have basic skills, and the share is 82% for people with high formal education but 38% for those with little or none.\n\nFor specialists, more than 10 million people worked as ICT specialists in 2025, 5.0% of all employment. Their number grew by 59.4% between 2015 and 2025, against 9.8% for employment overall. Reaching 20 million by 2030 would mean roughly doubling in five years, which is faster than in the past decade. Women are only 19.5% of ICT specialists.\n\nThe main gaps\nThree gaps deserve attention: the differences between Member States, the low skills of older people and those with little education, and the under-representation of women in ICT. The last is a particular concern, because the target itself calls for gender balance, yet four in five ICT specialists are men.\n\nWhat happens next\nThe Commission reports on progress every year in the State of the Digital Decade report. Member States must supply data broken down by gender and region where possible, so that we can see these gaps clearly. The figures in this letter come from Eurostat, which updates them every year; the next update on skills is planned for February 2027. The Decision also required us to review the targets by 30 June 2026 and to propose changes if needed, and the 2026 package is now listed on our website. The review gives Parliament an opportunity to discuss whether the targets, or the measures behind them, should change.\n\nI would also encourage you to ask your national authorities about their own data, since Member States provide the statistics we use. I would be glad to brief you or your staff in more detail.\n\nYours sincerely,\nDirector-General",
+    "checklist": [
+      "(1) The letter has a clear order: direct answer first, then targets, current position, gaps, next steps.",
+      "(1) Subheadings or signposting make the structure easy to follow in a formal letter.",
+      "(2) No decorative sentences: each paragraph adds an argument or a figure.",
+      "(2) Does not list every Digital Decade target; only the two skills targets are discussed.",
+      "(3) Explains figures in plain language, for example the pace of progress in percentage points per year and what doubling means.",
+      "(4) Uses a formal but accessible letter register (salutation, courtesy, signature) suited to an MEP, and answers the question posed.",
+      "(4) Balanced tone: acknowledges progress and shortfalls without alarmism or defensiveness.",
+      "(5) Uses at least five facts from the material accurately (80% and 20 million, 60% in 2025, 54%/56%, 10 million, 59.4%, 19.5%).",
+      "(5) Draws a correct inference from the data (pace needed vs pace achieved) and signals that it is an estimate.",
+      "(5) Leaves out irrelevant targets (gigabit coverage, semiconductors, quantum) and mentions the review and annual report as the next steps."
+    ]
+  },
+  {
+    "id": "es-05",
+    "title": "High-value datasets for innovators",
+    "task": "You work in the team that runs an EU open data portal. Write an article of 400–500 words for the portal's news section, aimed at start-ups, researchers and civic technologists who might build services on public data. Explain what high-value datasets are, what users can expect in terms of format, access, licence and cost, where the limits lie, and how to get started. Use the material provided and keep the tone practical.",
+    "material": [
+      {
+        "title": "Fact sheet: the Open Data Directive",
+        "text": "Directive (EU) 2019/1024, the Open Data Directive, establishes that documents held by public sector bodies are in general available for re-use for commercial or non-commercial purposes. Its recitals note that public sector information is a source of data for new products and services, and that intelligent use of data, including processing through artificial intelligence applications, can have a transformative effect on all sectors of the economy. The Directive defines high-value datasets as documents whose re-use brings important benefits for society, the environment and the economy, in particular because they suit the creation of value-added services and applications. It requires such datasets to be made available in a machine-readable format, through suitable APIs and, where relevant, as a bulk download. An annex lists six thematic categories, and the Commission may add categories later. The list of specific datasets and the conditions of publication and re-use were left to an implementing act. Special rules apply to libraries, museums and archives, and to public undertakings.",
+        "source": {
+          "title": "Directive (EU) 2019/1024 on open data and the re-use of public sector information",
+          "url": "https://eur-lex.europa.eu/eli/dir/2019/1024/oj"
+        }
+      },
+      {
+        "title": "Extract: the Implementing Regulation on high-value datasets",
+        "text": "Implementing Regulation (EU) 2023/138 lists the datasets in the six categories: geospatial; earth observation and environment; meteorological; statistics; companies and company ownership; and mobility. It was published on 20 January 2023 and applies from 16 months after its entry into force, that is, from June 2024. High-value datasets must be free of charge, in machine-readable format, accessible through APIs and bulk download where relevant, and available under the CC0 dedication, the Creative Commons BY 4.0 licence or an equivalent or less restrictive open licence. The licensor may require attribution. The free-of-charge rule does not apply to libraries, museums and archives, and for a limited period Member States could exempt individual public bodies on request. Data held by public undertakings are outside the scope of the Regulation. Where datasets contain personal data, the General Data Protection Regulation continues to apply. Member States may add related datasets and must report to the Commission on implementation two years after entry into force, and then on request.",
+        "source": {
+          "title": "Commission Implementing Regulation (EU) 2023/138 on high-value datasets",
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2023/138/oj"
+        }
+      },
+      {
+        "title": "Extract: what the statistics category covers",
+        "text": "The statistics category of the Implementing Regulation covers statistical datasets, with the exception of microdata related to the reporting obligations in the legal acts listed. For each dataset, the key variables and breakdowns are taken from existing EU statistical legislation, and time series must begin no later than the date on which the relevant legal act began to apply. The datasets named in the annex include industrial production and producer prices, volume of sales by activity, EU international trade in goods broken down by partner, product and flow, tourism flows, harmonised indices of consumer prices, main national accounts aggregates such as GDP, environmental accounts, population, fertility and mortality statistics, and current healthcare expenditure. The category on companies and company ownership covers basic company information and company documents and accounts at the level of the individual company. Geospatial data follow definitions from the INSPIRE Directive, which were established earlier for spatial information in the EU.",
+        "source": {
+          "title": "Commission Implementing Regulation (EU) 2023/138, Annex, category 4 (statistics)",
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2023/138/oj"
+        }
+      },
+      {
+        "title": "Statistics: use of AI in EU enterprises (2025)",
+        "text": "Eurostat reports that 19.95% of EU enterprises used AI technologies in 2025, an increase of 6.47 percentage points on the previous year. Use rises sharply with size: 17% of small enterprises, 30.36% of medium-sized enterprises and 55.03% of large enterprises. Denmark (42.03%), Finland (37.82%) and Sweden (35.04%) had the highest shares, and Romania (5.21%), Poland (8.36%) and Bulgaria (8.55%) the lowest. The article cites the Digital Decade goal that by 2030 three out of four EU companies should use cloud computing services, big data or artificial intelligence. The data were extracted in December 2025, and the next update is planned for 15 December 2026. The figures measure how many enterprises use AI; they say nothing about which data sources those enterprises rely on.",
+        "source": {
+          "title": "Eurostat, Use of artificial intelligence in enterprises",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Use_of_artificial_intelligence_in_enterprises"
+        }
+      }
+    ],
+    "model_answer": "Open data, ready to use: a guide to high-value datasets\n\nDo you want to build an app, a model or a study on public data? Since June 2024, EU rules have required public bodies to publish a core set of data in a form that is easy to use. These are the high-value datasets. Here is what that means for you.\n\nWhat counts as high-value\nHigh-value datasets are public documents whose re-use brings significant benefits for society, the environment and the economy. They fall into six categories: geospatial; earth observation and environment; meteorological; statistics; companies and company ownership; and mobility. The statistics category, for example, includes consumer price indices, GDP aggregates, trade in goods, tourism flows and population and mortality data.\n\nWhat you can expect\n- Format: machine-readable, through APIs and, where relevant, as bulk download.\n- Licence: CC0, CC BY 4.0 or an equivalent or less restrictive open licence. At most, you may have to credit the source.\n- Cost: free of charge.\nTogether, this means you can feed the data straight into software without negotiating licences or fees, and you can use it in commercial products as well as in research. Think of a price dashboard built on consumer price indices, a planning tool using tourism flows, or a risk tool using basic company information and accounts. The Open Data Directive itself notes that intelligent use of data, including processing by artificial intelligence, can transform all sectors.\n\nWhere the limits are\n- Libraries, museums and archives do not have to offer their datasets free of charge, and data held by public undertakings is outside the Regulation.\n- The statistics category excludes microdata related to reporting obligations.\n- Personal data remain protected. If a dataset contains personal data, the GDPR still applies to your re-use.\n- Member States may add datasets, so coverage differs between countries. Temporary exemptions from charging for some public bodies have also run out, so check each portal entry for its licence and price.\n\nHow to get started\n1. Search the portal by category and country.\n2. Check the licence and the API documentation before you build.\n3. Start with a small prototype on one dataset, then combine sources.\n4. Tell us what is missing. The rules have applied since June 2024, so Member States should already be publishing; if a dataset you need is absent or hard to use, say so. Member States report to the Commission on implementation, and your feedback shows where the gaps are.\n\nWhy it matters now\nIn 2025, only 19.95% of EU enterprises used AI, and 17% of small ones. Free, standardised data lowers one barrier for newcomers, although it does not remove the others, such as skills and computing capacity. If you build something with these datasets, share it with us.",
+    "checklist": [
+      "(1) The article has a headline, an introduction and subheadings that follow the reader's questions (what, what to expect, limits, how to start).",
+      "(1) Lists (format, licence, cost; steps) are used where they aid the reader, with a logical sequence.",
+      "(2) No repetition of the six categories or of the legal background; the legal references are kept short.",
+      "(2) Irrelevant detail (Member State reporting deadlines, INSPIRE definitions, the full statistics dataset list) is cut or reduced.",
+      "(3) Jargon (API, bulk download, CC BY 4.0, machine-readable) is explained or clearly understandable from context.",
+      "(4) Practical tone for builders and researchers: concrete steps, direct address and an invitation to give feedback.",
+      "(4) The article is written for the public, not for lawyers; it avoids article numbers and legal citations in the text.",
+      "(5) Uses at least five facts from the material accurately (six categories, free of charge, APIs, CC0/CC BY 4.0, June 2024, exceptions for libraries).",
+      "(5) Includes the limits honestly (exemptions, microdata exclusion, GDPR) rather than only promoting the benefits.",
+      "(5) Uses the AI statistic with care (figures describe AI use, not use of open data) or leaves it out."
+    ]
+  },
+  {
+    "id": "es-06",
+    "title": "Official statistics, trust and misinformation",
+    "task": "You work in the communication team of a national statistical institute that is part of the European Statistical System. A wave of online claims says that official figures are manipulated. The Head of Communication has asked for a short memo on how the institute should respond. Write a memo of 400–500 words recommending three measures, grounded in the legal principles and standards that apply to the institute. Make clear what the institute can do itself and what is the responsibility of others. Use the material provided and select carefully.",
+    "material": [
+      {
+        "title": "Extract: the statistical principles in the Regulation on European statistics",
+        "text": "Regulation (EC) No 223/2009 on European statistics states that the development, production and dissemination of European statistics are governed by six principles. Professional independence means producing statistics free from pressure from political or interest groups, including in the choice of methods, sources and the timing and content of releases. Impartiality means working in a neutral manner and giving all users equal treatment. Objectivity means working in a systematic, reliable and unbiased manner, with transparent policies and practices. Reliability means measuring reality as faithfully, accurately and consistently as possible, using scientific criteria. Statistical confidentiality protects data on single statistical units and forbids their use for non-statistical purposes or unlawful disclosure. Cost effectiveness means that the cost of producing statistics must be proportionate to their importance, with the response burden kept low. Dissemination must respect these principles, in particular confidentiality and equality of access.",
+        "source": {
+          "title": "Regulation (EC) No 223/2009 on European statistics, Articles 2 and 11 (original text of 2009)",
+          "url": "https://eur-lex.europa.eu/eli/reg/2009/223/oj"
+        }
+      },
+      {
+        "title": "Fact sheet: the European Statistics Code of Practice",
+        "text": "Article 11 of the Regulation states that the Code of Practice aims at ensuring public trust in European statistics by setting out how statistics are to be developed, produced and disseminated in line with the principles and with best international practice. The European Statistical System Committee reviews and updates the Code. According to Eurostat, the Code defines 16 principles for the institutional environment in which national and EU statistical authorities work, for statistical processes and for statistical output, and it includes 84 indicators of good practice. It was first adopted in 2005 and revised in 2011 and, most recently according to Eurostat's page, in November 2017, on the basis of the second round of peer reviews in the European Statistical System. The first principle concerns professional independence from political and external pressure. Eurostat says that the principles and indicators help to increase transparency in the European Statistical System. National statistical authorities are reviewed against the Code through peer reviews.",
+        "source": {
+          "title": "Eurostat, European Statistics Code of Practice",
+          "url": "https://ec.europa.eu/eurostat/web/quality/european-quality-standards/european-statistics-code-of-practice"
+        }
+      },
+      {
+        "title": "Fact sheet: the Code of Conduct on Disinformation",
+        "text": "The Code of Conduct on Disinformation, formerly the voluntary Code of Practice on Disinformation, was agreed by stakeholders such as online platforms, the advertising industry, fact-checkers and civil society. On 13 February 2025, the Commission and the European Board for Digital Services endorsed its official integration into the framework of the Digital Services Act. Its commitments became auditable from 1 July 2025, at the request of the signatories. For very large online platforms and search engines that adhere to its commitments, it serves as a relevant benchmark for assessing compliance with the Digital Services Act as regards disinformation risks. The code aims to combat disinformation risks while fully upholding freedom of speech. Signing is voluntary, and each signatory chooses which commitments to take on.",
+        "source": {
+          "title": "European Commission, The Code of Conduct on Disinformation",
+          "url": "https://digital-strategy.ec.europa.eu/en/library/code-conduct-disinformation"
+        }
+      },
+      {
+        "title": "Extract: official statistics as open data",
+        "text": "Under the Implementing Regulation on high-value datasets, a defined list of statistical datasets must be made available for re-use free of charge, in machine-readable format and through APIs, with bulk download where relevant. It includes harmonised indices of consumer prices, main national accounts aggregates, international trade in goods, industrial production and population statistics. The key variables and breakdowns follow existing EU statistical legislation. Licences must be CC0, CC BY 4.0 or an equivalent or less restrictive open licence. The statistics category excludes microdata related to the reporting obligations in the legal acts listed. The Regulation applies to public sector bodies in the Member States. It does not replace the rules on statistical confidentiality, which continue to protect the data of individual persons and businesses. Member States must report to the Commission on how they have implemented the rules.",
+        "source": {
+          "title": "Commission Implementing Regulation (EU) 2023/138, category 4 (statistics)",
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2023/138/oj"
+        }
+      }
+    ],
+    "model_answer": "MEMO\nTo: Head of Communication\nFrom: Communication Team\nSubject: Responding to claims that official statistics are manipulated\n\n1. Recommendation in brief\nWe should answer with transparency about how we work, not with a counter-campaign. A simple rebuttal would ask the public to take our word for it; the law gives us something better, namely published standards against which we can be checked, including peer reviews of national statistical authorities. I propose three measures and one boundary.\n\n2. Our strongest asset: a legal framework built for trust\nEU law requires European statistics to follow six principles: professional independence, impartiality, objectivity, reliability, statistical confidentiality and cost effectiveness. The Code of Practice translates them into 16 principles and 84 indicators, and the Regulation says its aim is to ensure public trust. Our communication should make these commitments visible instead of assuming people know them.\n\n3. Three measures\n1. Explain our safeguards in plain language. Show who decides methods and release dates, why political bodies cannot influence them (independence), and how every user receives figures on equal terms (impartiality). Owner: Communication, with the Director of Methodology.\n2. Make methods and corrections open. Publish methodology notes, a revision calendar and a clear corrections policy, which supports objectivity and reliability. Offer data through APIs under open licences, as the high-value dataset rules already require for key series such as consumer prices and GDP, so that anyone can check our figures. Owner: Head of Dissemination.\n3. Prepare a rapid factual response. Name a spokesperson, keep a short Q&A on the claims in circulation and answer with links to the source data. Add a one-page note on why figures are revised, because revisions can be misread as manipulation. Messages should be calm, factual and specific: say what we do, show where to check, and avoid speculating about who spreads the claims. Owner: Communication.\n\n4. A limit we must explain\nOpenness has boundaries. Statistical confidentiality protects single respondents, and the high-value dataset rules exclude microdata linked to reporting obligations. We should say so openly, so that silence is not mistaken for concealment.\n\n5. What is not ours to do\nThe Code of Conduct on Disinformation, integrated into the Digital Services Act framework in February 2025, is a voluntary code for platforms, advertisers and fact-checkers, and a benchmark for very large platforms. It does not bind us, and we should not try to police online content. Our task is to make our figures easy to find, to understand and to quote correctly.\n\n6. Next step\nIf you agree, I will prepare a three-month plan with these measures. I suggest we review the response after three months, using the number of media questions and requests for data that we receive.",
+    "checklist": [
+      "(1) The memo has a heading block and numbered sections; the recommendation is stated first.",
+      "(1) Each measure has a clear action and owner, and measures are numbered.",
+      "(2) The memo stays within about 450 words and does not explain each of the six principles at length.",
+      "(2) The material is condensed: legal references appear only where they justify a measure.",
+      "(3) Statistical and legal terms (impartiality, confidentiality, high-value datasets) are explained or used in plain context.",
+      "(4) Addresses the Head of Communication: practical, decision-oriented, with a next step.",
+      "(4) Distinguishes clearly what the institute can do and what belongs to platforms and regulators.",
+      "(5) Uses at least four facts from the material accurately (six principles, Code of Practice aim and 16 principles, open-data rules for statistics, the February 2025 integration).",
+      "(5) Weighs the conflict between openness and confidentiality instead of presenting only one side.",
+      "(5) Identifies the Code of Conduct on Disinformation as not directly applicable to the institute."
+    ]
+  },
+  {
+    "id": "es-07",
+    "title": "Generative AI in daily work: opportunities and risks",
+    "task": "You work in the human resources department of the European Commission. Write a notice of 400–500 words for the staff intranet that explains how colleagues can use generative AI tools in their daily work. Cover the main opportunities and risks and give clear rules for staff. Your readers are officials and contract staff without a technical background. The tone should be encouraging but firm. Use the material provided and select what staff need to know to act correctly.",
+    "material": [
+      {
+        "title": "Extract: the Commission's Communication on AI in the Commission (January 2024)",
+        "text": "The Communication C(2024) 380 on Artificial Intelligence in the European Commission (AI@EC) presents generative AI as a transformative shift with possibilities to support staff, reduce administrative burden and improve the quality and impact of the Commission's work. It also points to a clear need to improve understanding of AI and the ability to identify and address risks, so that AI use is safe, transparent, trustworthy and human-centred. The Commission names priority areas for implementation: better document summarisation, faster preparation of briefings and replies to questions, a conversational platform for non-classified dialogue and generative AI services that use the knowledge held in the administration. It plans to investigate multi-purpose conversational platforms within the Commission's own perimeter, capable of supporting up to sensitive non-classified information. Internal guidelines for the use of third-party online generative AI tools already existed when the Communication was adopted. Staff are to receive targeted training and reskilling.",
+        "source": {
+          "title": "European Commission, Communication C(2024) 380: AI in the European Commission (AI@EC)",
+          "url": "https://commission.europa.eu/system/files/2024-01/EN%20Artificial%20Intelligence%20in%20the%20European%20Commission.PDF"
+        }
+      },
+      {
+        "title": "Fact sheet: data protection rules for EU institutions (Regulation 2018/1725)",
+        "text": "Regulation (EU) 2018/1725 sets out how the EU institutions must process personal data. Personal data must be processed lawfully, fairly and transparently; collected for specified, explicit and legitimate purposes; adequate, relevant and limited to what is necessary (data minimisation); accurate and kept up to date, with inaccurate data erased or corrected without delay; stored no longer than necessary; and protected by appropriate security. The controller must be able to demonstrate compliance (accountability). People have the right not to be subject to a decision based solely on automated processing that produces legal effects concerning them or similarly significantly affects them, subject to exceptions. Where processing, in particular with new technologies, is likely to result in a high risk to people's rights and freedoms, the controller must carry out a data protection impact assessment beforehand and seek the advice of the data protection officer. The Regulation also covers the operational data of Union bodies in police and judicial matters, which is outside the scope of everyday office use.",
+        "source": {
+          "title": "Regulation (EU) 2018/1725 (EUDPR), Articles 4, 24 and 39",
+          "url": "https://eur-lex.europa.eu/eli/reg/2018/1725/oj"
+        }
+      },
+      {
+        "title": "Fact sheet: EDPS orientations on generative AI",
+        "text": "The European Data Protection Supervisor published its first orientations for EU institutions using generative AI in June 2024, and a revised version dated 28 October 2025. The revised version adds an action-oriented compliance checklist to help institutions assess whether their processing is lawful, clarifies when an institution acts as controller, joint controller or processor, and gives more detail on lawful bases, purpose limitation and the rights of individuals. The EDPS issues the orientations as a data protection supervisory authority and not in its new role as supervisor under the AI Act. The orientations are drafted to cover as many scenarios as possible and do not prescribe specific technical measures. A separate EDPS guidance of November 2025 on risk management of AI systems helps controllers to identify and reduce risks to the fundamental rights of individuals, and complements the orientations.",
+        "source": {
+          "title": "EDPS, First EDPS Orientations for EUIs using Generative AI (revised 28 October 2025)",
+          "url": "https://www.edps.europa.eu/data-protection/our-role-supervisor/first-edps-orientations-euis-using-generative-ai_en"
+        }
+      },
+      {
+        "title": "Extract: AI literacy and human oversight in the AI Act",
+        "text": "Regulation (EU) 2024/1689, the AI Act, requires providers and deployers of AI systems to take measures to ensure, to their best extent, a sufficient level of AI literacy among their staff and others who operate and use AI systems on their behalf, taking into account their knowledge, experience, education, training and the context of use. This obligation has applied since 2 February 2025, together with the prohibitions of certain AI practices. The recitals explain that literacy should equip people to make informed decisions, and can include understanding how to apply technical elements, what measures to take during use and how to interpret the output of an AI system. For high-risk systems, deployers must assign human oversight to people with the necessary competence, training and authority. The Regulation also contains separate duties for the providers who develop AI models, which apply from 2 August 2025 and do not concern ordinary users.",
+        "source": {
+          "title": "Regulation (EU) 2024/1689 (AI Act), Article 4, Article 26 and recitals",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+        }
+      }
+    ],
+    "model_answer": "Using generative AI at work: what you can do and five rules\n\nGenerative AI tools can summarise documents, draft briefings and help us prepare replies. The Commission's AI strategy sees real potential to reduce administrative burden and improve the quality of our work. It also warns that we must understand the risks. This notice explains both and sets out five rules.\n\nOpportunities\nThe Commission has named its priorities: summarising documents, preparing briefings and answers faster, and drawing on our own knowledge bases. Used well, these tools free time for analysis and judgement. Examples are a first summary of a long report or a draft structure for a note, which you then edit. The strategy also stresses that this transition must be inclusive and take account of differences in staff digital literacy, so nobody is expected to be an expert from day one.\n\nRisks\n- Confidentiality: anything you type into a public online tool leaves our control.\n- Personal data: EU rules require data to be limited to what is necessary, accurate and secure. A tool that invents facts about a person, or receives personal data it does not need, can breach these principles.\n- Convincing mistakes: outputs can be wrong or biased and still look professional.\n- Over-reliance: people have the right not to be subject to a decision based solely on automated processing that significantly affects them.\n\nFive rules\n1. Use only approved tools for work content. Separate internal guidelines already cover third-party online tools, and the Commission is developing secure tools inside its own perimeter.\n2. Never enter personal data or non-public information into public tools.\n3. Check every output before you use it. You remain responsible for the facts, the figures and the wording.\n4. Keep a human in charge. AI may prepare a draft; a person decides.\n5. Ask before you start something new. If you plan to use AI in a process that involves personal data, speak to your data protection coordinator first: a data protection impact assessment may be required.\n\nSupport for you\nThe AI Act requires organisations to ensure that staff who use AI have a sufficient level of AI literacy, and this obligation has applied since February 2025. Targeted training and reskilling are part of the Commission's plan, and the revised EDPS orientations of October 2025 offer a compliance checklist that our data protection officer will use.\n\nIn short: use AI to prepare, never to decide; protect people's data; check before you rely. If this notice and your service's own instructions differ, follow the stricter one. Questions are welcome, and if you are unsure whether a use is allowed, the answer for now is to ask first.",
+    "checklist": [
+      "(1) The notice has a title, a short introduction and clear sections: opportunities, risks, rules, support.",
+      "(1) The five rules are numbered and in a logical order, from tool choice to checking and escalation.",
+      "(2) The notice stays within about 450 words and avoids detailed legal citations.",
+      "(2) Provisions that do not concern ordinary users (provider duties, police and judicial data) are left out.",
+      "(3) Legal concepts (data minimisation, impact assessment, automated decision-making) are translated into everyday language.",
+      "(4) The tone is encouraging but firm and addresses colleagues directly; rules are phrased as instructions.",
+      "(4) Content is adapted to non-technical staff: examples and actions rather than technical details.",
+      "(5) Uses at least four facts from the material accurately (priority use cases, third-party tool guidelines, data minimisation and accuracy, human oversight, AI literacy since February 2025, EDPS checklist).",
+      "(5) Does not claim that approved internal tools exist for sensitive data; says the Commission is working on them.",
+      "(5) Does not invent rules not found in the material (for example a ban on all AI use) and distinguishes rules from recommendations."
+    ]
+  },
+  {
+    "id": "es-08",
+    "title": "Data centres: the green and digital transition",
+    "task": "You write for a policy magazine read by officials in the Member States and the EU institutions. Write an opinion article of 400–500 words on the energy use of data centres and what the EU should do about it. Take a position, present the evidence fairly and make two or three concrete proposals. Your readers know EU policy but are not energy specialists. Use the material provided and select what supports your argument; some of it may not be relevant.",
+    "material": [
+      {
+        "title": "Extract: the Commission's 2026 report on the energy efficiency of data centres",
+        "text": "A Commission report on the energy efficiency of data centres in the EU, published in autumn 2026, states that EU data centres consumed 68 TWh of electricity in 2024. It projects 114 TWh by 2030, equivalent to 3.2% of the EU's electricity demand. Between 2024 and 2030, that implies growth of roughly two thirds. An earlier Commission announcement from March 2024 had put the share at 2.7% in 2018 and at least 3.2% by 2030. The report reviews sustainability indicators including power usage effectiveness, water usage effectiveness, energy reuse factor and renewable energy factor. It notes that growth in digital services, artificial intelligence and computing capacity is driving demand for data centre infrastructure, and that this growth raises concerns about energy availability, electricity grids, carbon emissions and water resources.",
+        "source": {
+          "title": "European Commission, Report on the energy efficiency of data centres in the EU (2026)",
+          "url": "https://build-up.ec.europa.eu/en/resources-and-tools/publications/report-energy-efficiency-data-centres-eu"
+        }
+      },
+      {
+        "title": "Fact sheet: reporting rules for data centres",
+        "text": "The recast Energy Efficiency Directive (EU) 2023/1791 requires Member States to ensure that owners and operators of data centres with an installed IT power demand of at least 500 kW make certain information publicly available, with the first date being 15 May 2024 and annual repetition thereafter. Commission Delegated Regulation (EU) 2024/1364 of March 2024 sets the first phase of an EU-wide rating scheme. It defines the key performance indicators that operators must send to a European database, such as energy consumption, power utilisation, temperature set points, waste heat use, water use and renewable energy use, using a common methodology. Under the announcement of March 2024, operators had to report the indicators to the database by 15 September 2024 and then each year by 15 May from 2025. The database shows aggregated results at Member State and Union level. Operators could omit some indicators in the first reporting period if they could not collect them for technical reasons, with an explanation.",
+        "source": {
+          "title": "Directive (EU) 2023/1791, Article 12; Delegated Regulation (EU) 2024/1364",
+          "url": "https://eur-lex.europa.eu/eli/reg_del/2024/1364/oj/eng"
+        }
+      },
+      {
+        "title": "Fact sheet: Digital Decade targets on infrastructure",
+        "text": "The Digital Decade Policy Programme 2030, set up by Decision (EU) 2022/2481, includes targets for digital infrastructure. By 2030, all end users at a fixed location should be covered by a gigabit network and all populated areas by next-generation wireless networks at least equivalent to 5G. The production of cutting-edge semiconductors in the EU should reach at least 20% of world production by value. At least 10 000 climate-neutral, highly secure edge nodes should be deployed in the Union, distributed so that businesses everywhere have access to data services with low latency. The EU should also have its first computer with quantum acceleration by 2025. The Decision describes digital infrastructures as secure, resilient, performant and sustainable, and requires production and deployment to respect Union law on environmental sustainability. Edge nodes are meant to be distributed close to users, which sets them apart from the large data centres that are the subject of the reporting scheme.",
+        "source": {
+          "title": "Decision (EU) 2022/2481 establishing the Digital Decade Policy Programme 2030, Article 4",
+          "url": "https://eur-lex.europa.eu/eli/dec/2022/2481/oj"
+        }
+      },
+      {
+        "title": "Extract: policy options named in the 2026 report",
+        "text": "Looking ahead, the Commission's 2026 report on the energy efficiency of data centres discusses possible future measures: better reporting requirements, a common EU rating scheme for data centres, minimum performance standards and an assessment of pathways towards a net-zero-emission sector. The report treats these as options for discussion and does not itself adopt them. A Commission package dated 21 September 2026 would build on the 2024 delegated regulation by rating data centres through labels generated from the European database, and would let smaller operators with less than 500 kW join voluntarily; the documents seen here do not confirm whether it has been adopted. The rating scheme is being built in steps. The first step concerns data collection, and rating and labels would follow. The 500 kW threshold means that smaller facilities and server rooms in public administrations are not covered by the mandatory reporting.",
+        "source": {
+          "title": "European Commission, Report on the energy efficiency of data centres in the EU (2026); Commission package of 21 September 2026",
+          "url": "https://energy.ec.europa.eu/news/commission-adopts-eu-wide-scheme-rating-sustainability-data-centres-2024-03-15_en"
+        }
+      }
+    ],
+    "model_answer": "Digital growth needs transparent power use\n\nEurope wants to be both digital and green. Data centres show how hard that is. They run the cloud, streaming and, increasingly, artificial intelligence, and they take a growing share of our electricity. The EU should respond with better data first and firmer rules second.\n\nThe scale\nIn 2018, data centres accounted for 2.7% of EU electricity demand. A Commission report of 2026 puts their consumption at 68 TWh in 2024 and projects 114 TWh by 2030, or 3.2% of demand. A share of about three percent is modest. The growth is not: it is a rise of two thirds in six years, and the report itself warns of pressure on grids, water and emissions.\n\nWhat exists already\nOperators of data centres with at least 500 kW of IT power must publish information every year under the Energy Efficiency Directive. A delegated regulation of March 2024 created the first step of a rating scheme: operators send indicators on energy, water, waste heat and renewable energy to a European database, whose aggregated results are public at national and EU level. That is progress, but it is a measurement tool, not a limit. The 500 kW threshold also matters for public administrations: their own server rooms are mostly below it and so remain invisible in the data.\n\nWhat is missing\nReporting alone does not reduce consumption. Operators could leave out indicators in the first reporting period, results are published only in aggregate, and facilities under 500 kW fall outside the mandatory scheme. The report itself lists the next options: better reporting, a common rating, minimum performance standards and a pathway to net zero.\n\nA note on the Digital Decade\nThe target of 10 000 climate-neutral edge nodes shows that the EU wants more digital infrastructure and wants it climate-neutral. Edge nodes are, however, a different kind of facility from large data centres, so this target is not a substitute for rules on them.\n\nMy proposals\n1. Complete the data. End the exemptions for missing indicators as soon as technically possible, and check the quality of the reported figures.\n2. Move from reporting to rating. Adopt the labels now under discussion, so that customers, including public administrations, can compare data centres when they buy cloud services.\n3. Prepare minimum performance standards. Decide on them once two or three years of comparable data exist, and extend reporting step by step to smaller facilities.\n\nI recognise the counter-argument that more rules could slow investment in European digital capacity. That is why I propose steps, not a ban. The aim is not to slow digital growth but to make it accountable. A sector that is expected to use 114 TWh a year should be able to show how efficiently it does so.",
+    "checklist": [
+      "(1) The article has a clear line of argument: position, evidence, gaps, proposals, conclusion.",
+      "(1) Subheadings or signposting guide the reader and the proposals are numbered.",
+      "(2) No repetition of figures; each statistic is used once to support a point.",
+      "(2) Irrelevant material (semiconductors, gigabit networks, quantum) is not included or is dismissed in a sentence.",
+      "(3) Technical terms (TWh, kW, key performance indicator) are explained or clear from context; calculations are correct (68 to 114 TWh is about two thirds).",
+      "(4) Suits an opinion article for policy readers: takes a position, is fair to the evidence and ends with concrete proposals.",
+      "(4) Tone is persuasive but balanced; acknowledges that 3.2% is a modest share.",
+      "(5) Uses at least five facts from the material accurately (2.7% in 2018, 68 TWh, 114 TWh, 3.2%, 500 kW, March 2024 regulation, database aggregation).",
+      "(5) Weighs the conflict between different reporting dates or between edge nodes and data centres instead of mixing them up.",
+      "(5) Proposals follow from the evidence (gaps in the data, absence of ratings and standards), not from outside knowledge."
+    ]
+  }
+]
