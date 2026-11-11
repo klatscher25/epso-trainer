@@ -1,0 +1,1902 @@
+[
+  {
+    "id": "ad8-0001",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 1,
+    "question": "A company established in Brazil uses an AI system to score customers. The system's output is used in the Union. Under Art. 2, the AI Act applies to that deployer because",
+    "options": [
+      "the output produced by the AI system is used in the Union",
+      "the deployer processes the data of Union citizens in Brazil",
+      "the provider of the system is established in a Member State",
+      "the deployer has registered the system in the EU database"
+    ],
+    "answer": 0,
+    "explanation": "Art. 2(1)(c) covers providers and deployers established in third countries where the output of the AI system is used in the Union. Nationality of data subjects, provider location or registration are not the trigger.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 2(1)(c)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0002",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 1,
+    "question": "Which AI systems are excluded from the AI Act under Art. 2(3), regardless of the type of entity operating them?",
+    "options": [
+      "Systems used by any public authority in the course of its tasks",
+      "Systems used exclusively for military, defence or national security purposes",
+      "Systems used by law enforcement authorities for criminal investigations",
+      "Systems used by Union institutions for internal administration"
+    ],
+    "answer": 1,
+    "explanation": "Art. 2(3) excludes systems placed on the market, put into service or used exclusively for military, defence or national security purposes. Law enforcement and administrative uses remain in scope (and some are high-risk or prohibited).",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 2(3)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0003",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 2,
+    "question": "A start-up develops a model in its laboratory and has not placed it on the market. It now wants to test the model on real patients in a hospital to prepare market entry. Which statement is correct?",
+    "options": [
+      "All pre-market testing is excluded until the model is placed on the market",
+      "The test is excluded because the hospital is a public authority",
+      "The test is excluded if the start-up publishes its results in a journal",
+      "The pre-market exclusion does not cover testing in real-world conditions"
+    ],
+    "answer": 3,
+    "explanation": "Art. 2(8) excludes research, testing and development before placing on the market, but expressly states that testing in real-world conditions is not covered by that exclusion (see also Art. 60).",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 2(8)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0004",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 2,
+    "question": "Art. 2(12) exempts AI systems released under free and open-source licences from the Regulation, unless they are",
+    "options": [
+      "processing the personal data of natural persons located in the Union",
+      "provided by a company with more than 250 employees worldwide",
+      "used by public authorities or by Union institutions and bodies",
+      "placed on the market as high-risk or caught by Art. 5 or Art. 50"
+    ],
+    "answer": 3,
+    "explanation": "Art. 2(12) lifts the exemption only for high-risk systems and for systems under the prohibitions (Art. 5) or transparency duties (Art. 50). Personal-data processing is governed by GDPR/EUDPR in parallel, not by this carve-back.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 2(12)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0005",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 1,
+    "question": "A company established in the Union places on the Union market an AI system that bears the name and trademark of a company established in the US. In AI Act terms, the Union company is the system's",
+    "options": [
+      "distributor",
+      "provider",
+      "authorised representative",
+      "importer"
+    ],
+    "answer": 3,
+    "explanation": "Art. 3(6) defines an importer as a person in the Union that places on the market an AI system bearing the name or trademark of a third-country entity. A distributor (Art. 3(7)) is neither provider nor importer; an authorised representative acts on a written mandate.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 3(6)-(7)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0006",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 2,
+    "question": "A regional agency buys a high-risk recruitment-screening system already on the market from vendor X, puts its own name and trademark on it and supplies it to municipalities. Under Art. 25, the agency is considered",
+    "options": [
+      "a distributor, verifying only the CE marking",
+      "a deployer, using the system under its authority",
+      "an importer, verifying the conformity assessment",
+      "a provider of the high-risk system, subject to Art. 16"
+    ],
+    "answer": 3,
+    "explanation": "Art. 25(1)(a): anyone who puts their name or trademark on a high-risk system already on the market is considered its provider and bears the Art. 16 obligations, without prejudice to contractual allocation.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 25(1)(a)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0007",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 3,
+    "question": "After a downstream operator becomes the provider of a high-risk system under Art. 25(1), what applies to the provider that initially placed the system on the market?",
+    "options": [
+      "It remains jointly liable as provider together with the new provider of the system",
+      "It must register the system again in the EU database in its own name",
+      "It remains provider of the original version and must withdraw that version",
+      "It is no longer its provider but must cooperate and give access"
+    ],
+    "answer": 3,
+    "explanation": "Art. 25(2) states that the initial provider is no longer considered the provider of that specific system, but shall closely cooperate and provide the information and access reasonably expected so the new provider can comply.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 25(2)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0008",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 2,
+    "question": "Which change to a high-risk AI system on the market is a 'substantial modification' within Art. 3(23)?",
+    "options": [
+      "A change not foreseen in the initial assessment that affects compliance or purpose",
+      "Any software update released after the system has been placed on the market",
+      "Any retraining of the underlying model with new data supplied by deployers",
+      "Any change of the user-interface language made by an individual deployer"
+    ],
+    "answer": 0,
+    "explanation": "Art. 3(23) turns on a change not foreseen or planned in the initial conformity assessment that affects compliance or modifies the intended purpose. Not every update or retraining qualifies (Art. 43(4) exempts pre-determined learning changes).",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 3(23)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0009",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 2,
+    "question": "A malfunction of an AI system causes a serious and irreversible disruption of the operation of a regional electricity grid. Under Art. 3(49), this event is",
+    "options": [
+      "a serious incident",
+      "a serious incident only if a person also died",
+      "an incident that is reportable only if personal data were breached",
+      "a risk under Art. 79 that is not a serious incident"
+    ],
+    "answer": 0,
+    "explanation": "Art. 3(49)(b) lists a serious and irreversible disruption of the management or operation of critical infrastructure as a serious incident, independent of deaths or personal-data breaches.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 3(49)(b)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0010",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 2,
+    "question": "Which feature distinguishes a remote biometric identification system (Art. 3(41)) from biometric verification?",
+    "options": [
+      "It identifies people without their involvement, typically at a distance",
+      "It operates exclusively in real time on live video streams of public spaces",
+      "It processes exclusively facial images of the persons who are concerned",
+      "It always requires the explicit consent of every person who is identified"
+    ],
+    "answer": 0,
+    "explanation": "Art. 3(41) defines remote biometric identification as identification of natural persons without their active involvement, typically at a distance, by comparing biometric data with a reference database. Real-time operation is only one variant (Art. 3(42)); verification (one-to-one confirmation) is not covered.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 3(41)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0011",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 1,
+    "question": "As originally adopted, Art. 4 on AI literacy requires providers and deployers to",
+    "options": [
+      "certify every member of staff through an accredited notified body of their choice",
+      "appoint a dedicated chief AI officer for each AI system they deploy or provide",
+      "train only the management level that decides on the procurement of AI systems",
+      "take measures to ensure, to their best extent, sufficient AI literacy of staff"
+    ],
+    "answer": 3,
+    "explanation": "As originally adopted, Art. 4 is a best-efforts duty to ensure sufficient AI literacy of staff and others dealing with the operation and use of AI systems, taking account of their knowledge, experience and context. It prescribes no certification or specific role.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 4",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0012",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 1,
+    "question": "Which practice is prohibited under Art. 5(1) of the AI Act?",
+    "options": [
+      "AI-based assessment of the creditworthiness of natural persons by a bank",
+      "AI-enabled social scoring causing detrimental treatment in unrelated contexts",
+      "AI-based filtering of job applications by an employer for recruitment",
+      "A customer-service chatbot that does not disclose that it is an AI system"
+    ],
+    "answer": 1,
+    "explanation": "Art. 5(1)(c) prohibits social scoring with detrimental treatment in unrelated contexts or unjustified/disproportionate treatment. Credit scoring and recruitment systems are high-risk (Annex III), and undisclosed chatbots breach Art. 50, but none is prohibited.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 5(1)(c)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0013",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 2,
+    "question": "A call-centre operator plans an AI tool that infers its agents' emotions from voice during shifts to assess their performance. Under the AI Act, this use is",
+    "options": [
+      "prohibited, as workplace emotion inference is banned save medical or safety reasons",
+      "high-risk, and allowed once a fundamental rights impact assessment has been completed",
+      "allowed, provided that each of the agents gives individual and informed consent",
+      "allowed, provided that the agents are informed of its operation under Art. 50(3)"
+    ],
+    "answer": 0,
+    "explanation": "Art. 5(1)(f) prohibits AI systems that infer emotions of natural persons in the workplace and education institutions, except for medical or safety reasons. Consent or information duties do not lift the ban.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 5(1)(f)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0014",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 3,
+    "question": "A retailer uses an AI system to infer shoppers' emotions from facial expressions to judge advertising reactions. Which classification is correct?",
+    "options": [
+      "High-risk under Annex III point 1(c), with an Art. 50(3) information duty",
+      "Prohibited under Art. 5(1)(f), because emotions of natural persons are being inferred",
+      "Outside the scope of the AI Act, because shoppers are not employees of the retailer",
+      "Minimal risk, to which only voluntary codes of conduct under Art. 95 apply"
+    ],
+    "answer": 0,
+    "explanation": "The Art. 5(1)(f) ban covers only workplace and education settings. Emotion recognition elsewhere is high-risk (Annex III point 1(c)) and Art. 50(3) obliges deployers to inform the exposed persons.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 5(1)(f), Annex III point 1(c), Art. 50(3)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0015",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 1,
+    "question": "Real-time remote biometric identification in publicly accessible spaces for law enforcement is allowed only where strictly necessary for, among others,",
+    "options": [
+      "the monitoring of all visitors of a large football match to spot known hooligans",
+      "the targeted search for specific victims of abduction or trafficking and missing persons",
+      "the identification of every participant in a political demonstration in the city",
+      "routine identity checks of all passers-by in a busy city-centre shopping street"
+    ],
+    "answer": 1,
+    "explanation": "Art. 5(1)(h) allows real-time RBI only for three narrow objectives: targeted search for specific victims and missing persons; preventing a specific, substantial and imminent threat or terrorist attack; and locating suspects of serious Annex II offences.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 5(1)(h)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0016",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 3,
+    "question": "In a duly justified urgent case, law enforcement starts using real-time remote biometric identification without prior authorisation. Within what time must the authorisation be requested?",
+    "options": [
+      "Within 12 hours of the first use of the system",
+      "Within 48 hours of the first use of the system",
+      "Within 7 days of the first use of the system",
+      "Without undue delay and at the latest within 24 hours"
+    ],
+    "answer": 3,
+    "explanation": "Art. 5(3) requires the authorisation request without undue delay and at the latest within 24 hours; if rejected, use stops immediately and data are deleted. The 48-hour period belongs to post-remote identification (Art. 26(10)).",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 5(3)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0017",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 2,
+    "question": "Art. 5(1)(g) prohibits biometric categorisation systems that deduce or infer a person's",
+    "options": [
+      "trade union membership",
+      "health status or medical condition",
+      "age group or approximate age",
+      "nationality or country of origin"
+    ],
+    "answer": 0,
+    "explanation": "Art. 5(1)(g) lists race, political opinions, trade union membership, religious or philosophical beliefs, sex life and sexual orientation. Health status, age and nationality are not on the list.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 5(1)(g)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0018",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 3,
+    "question": "The Art. 5(1)(d) prohibition on assessing the risk that a person commits a crime does NOT apply to systems that",
+    "options": [
+      "rely solely on profiling, provided that a court has approved the system beforehand",
+      "support a human assessment already based on objective, verifiable facts",
+      "predict offending from personality traits, provided that only Union agencies use them",
+      "are used by authorities that have completed a fundamental rights impact assessment"
+    ],
+    "answer": 1,
+    "explanation": "Art. 5(1)(d) bans risk assessments based solely on profiling or personality traits, with a carve-out only for systems supporting a human assessment grounded in objective and verifiable facts directly linked to a criminal activity.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 5(1)(d)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0019",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 2,
+    "question": "Besides being a safety component of a product covered by Annex I legislation, what must also be true for high-risk status under Art. 6(1)?",
+    "options": [
+      "The system must perform profiling of natural persons in its intended use",
+      "The product must be required to undergo a third-party conformity assessment",
+      "The product must be placed on the market or used by a public authority",
+      "The system must, in addition, be listed in one of the areas of Annex III"
+    ],
+    "answer": 1,
+    "explanation": "Art. 6(1) has two cumulative conditions: safety component (or product itself) under Annex I legislation, and a required third-party conformity assessment for that product.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 6(1)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0020",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 2,
+    "question": "A provider concludes that its Annex III system only performs a narrow procedural task and is therefore not high-risk under Art. 6(3). What must it do?",
+    "options": [
+      "Obtain a written confirmation from the AI Office before placing it on the market",
+      "Ask a notified body to certify that the Art. 6(3) derogation is applicable",
+      "Nothing further, as the system then falls entirely outside the Regulation",
+      "Document the assessment before placing on the market and register under Art. 49(2)"
+    ],
+    "answer": 3,
+    "explanation": "Art. 6(4): the provider must document its assessment before the system is placed on the market, is subject to the registration duty of Art. 49(2) and must hand the documentation to national authorities on request. No prior approval is required.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 6(3)-(4)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0021",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 3,
+    "question": "A recruitment tool falls under Annex III point 4. Its provider argues that it only performs a preparatory task, but it builds personality profiles of candidates. The correct conclusion is that it is",
+    "options": [
+      "not high-risk, since preparatory tasks are exempt under Art. 6(3)",
+      "always high-risk, because it profiles natural persons",
+      "high-risk only if no human reviews its outputs",
+      "high-risk only if it makes fully automated rejections"
+    ],
+    "answer": 1,
+    "explanation": "The last subparagraph of Art. 6(3) states that an Annex III system is always high-risk where it performs profiling of natural persons, overriding the derogation conditions such as the preparatory task.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 6(3)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0022",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 1,
+    "question": "Which AI use is listed as high-risk in Annex III?",
+    "options": [
+      "Detecting financial fraud in card transactions",
+      "Evaluating the creditworthiness of natural persons",
+      "Filtering spam in an e-mail service",
+      "Recommending music to subscribers"
+    ],
+    "answer": 1,
+    "explanation": "Annex III point 5(b) covers creditworthiness evaluation and credit scoring of natural persons, expressly excluding systems used to detect financial fraud.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Annex III point 5(b)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0023",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 1,
+    "question": "Under Art. 9, the risk management system for a high-risk AI system is",
+    "options": [
+      "a one-off assessment that is completed before the system is placed on the market",
+      "a continuous iterative process planned and run throughout the system's lifecycle",
+      "an annual audit that is carried out by a notified body at the provider's expense",
+      "a process that is limited to the phase in which the model is being trained"
+    ],
+    "answer": 1,
+    "explanation": "Art. 9(2) describes the risk management system as a continuous iterative process planned and run throughout the entire lifecycle, requiring regular systematic review and updating.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 9(2)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0024",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 3,
+    "question": "Under Art. 10(5), when may providers exceptionally process special categories of personal data for bias detection and correction?",
+    "options": [
+      "Whenever the data subjects concerned have given their explicit consent to that purpose",
+      "Whenever the national data protection authority has approved the bias-correction project",
+      "Only where strictly necessary and other data, even synthetic or anonymised, do not suffice",
+      "Whenever the data concerned have manifestly been made public by the data subjects"
+    ],
+    "answer": 2,
+    "explanation": "Art. 10(5) allows it exceptionally, to the extent strictly necessary, if bias detection cannot be done with other data (including synthetic or anonymised) and subject to safeguards such as access controls, no onward transfer and deletion after use.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 10(5)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0025",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 1,
+    "question": "Art. 14(4) requires that persons assigned to human oversight be enabled to remain aware of the possible tendency to over-rely on the system's output. This tendency is called",
+    "options": [
+      "concept drift",
+      "confirmation bias",
+      "model collapse",
+      "automation bias"
+    ],
+    "answer": 3,
+    "explanation": "Art. 14(4)(b) refers to the tendency of automatically relying or over-relying on the output of a high-risk system, known as automation bias. Concept drift is a statistical phenomenon, not an oversight concern named there.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 14(4)(b)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0026",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 2,
+    "question": "For high-risk remote biometric identification systems under Annex III point 1(a), Art. 14(5) says no action or decision may be taken on the basis of an identification unless it has been separately verified and confirmed by",
+    "options": [
+      "at least two natural persons with the necessary competence, training and authority",
+      "a judicial authority, which must confirm each identification individually",
+      "one natural person who has been assigned to that task by the provider",
+      "the notified body that certified the system during its conformity assessment"
+    ],
+    "answer": 0,
+    "explanation": "Art. 14(5) requires separate verification by at least two competent natural persons, with an exception for law enforcement, migration, border control or asylum where Union or national law considers it disproportionate.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 14(5)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0027",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 3,
+    "question": "High-risk systems that continue to learn after being placed on the market must, according to Art. 15(4), be developed so as to",
+    "options": [
+      "freeze all further learning as soon as the system is placed on the market",
+      "report every model update to the AI Office within 15 days of its release",
+      "retain every single training sample for ten years after the last update",
+      "eliminate or reduce the risk of biased outputs feeding future inputs"
+    ],
+    "answer": 3,
+    "explanation": "Art. 15(4) addresses feedback loops: continual-learning systems must reduce the risk that possibly biased outputs feed back into future inputs. Learning after deployment is not prohibited.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 15(4)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0028",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 1,
+    "question": "Which obligation rests on the provider of a high-risk AI system, not on the deployer?",
+    "options": [
+      "Assigning human oversight to competent natural persons",
+      "Establishing a quality management system",
+      "Informing workers' representatives before workplace use",
+      "Monitoring operation on the basis of the instructions for use"
+    ],
+    "answer": 1,
+    "explanation": "Art. 16(c) with Art. 17 obliges providers to put a quality management system in place. Human oversight assignment, worker information and monitoring are deployer duties under Art. 26.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 16(c), Art. 17",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0029",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 2,
+    "question": "A provider finds that a high-risk system already on the market is not in conformity. According to Art. 20, it must",
+    "options": [
+      "immediately take corrective action or withdraw, disable or recall it, informing others",
+      "wait until the market surveillance authority has issued a formal corrective order",
+      "inform only the AI Office and continue to supply the system in the meantime",
+      "remedy the non-conformity in the next release that has already been planned"
+    ],
+    "answer": 0,
+    "explanation": "Art. 20(1) requires immediate corrective actions (conformity, withdrawal, disabling or recall) and information of distributors, deployers, authorised representative and importers. No prior order is needed.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 20(1)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0030",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 1,
+    "question": "A US provider wants to make a high-risk AI system available on the Union market without establishing itself there. Before doing so, Art. 22 requires it to",
+    "options": [
+      "obtain an authorisation from the AI Board for its high-risk system",
+      "register as a distributor in at least one Member State of the Union",
+      "set up a subsidiary that performs the conformity assessment on its behalf",
+      "appoint, by written mandate, an authorised representative established in the Union"
+    ],
+    "answer": 3,
+    "explanation": "Art. 22(1): providers established in third countries must, before making their high-risk systems available in the Union, appoint by written mandate an authorised representative established in the Union.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 22(1)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0031",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 2,
+    "question": "A deployer has reason to consider that using its high-risk system in line with the instructions may present a risk within Art. 79(1). What does Art. 26(5) require?",
+    "options": [
+      "Continue to use the system and inform the provider at the next scheduled review",
+      "Notify the AI Office and wait for its decision before taking any further step",
+      "Inform the national data protection authority and continue normal operation",
+      "Inform the provider or distributor and the authority at once, and suspend use"
+    ],
+    "answer": 3,
+    "explanation": "Art. 26(5) obliges the deployer to inform the provider or distributor and the relevant market surveillance authority without undue delay and to suspend use of the system.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 26(5)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0032",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 2,
+    "question": "A Union agency finds that a high-risk AI system it intends to use is not registered in the EU database. Under Art. 26(8), the agency",
+    "options": [
+      "may use the system after registering itself in the EU database as its provider",
+      "shall not use the system and shall inform the provider or the distributor",
+      "may use the system for six months pending the registration by the provider",
+      "may use the system if the EDPS has given a prior approval for that use"
+    ],
+    "answer": 1,
+    "explanation": "Art. 26(8) applies to public authorities and Union institutions, bodies, offices or agencies: if the envisaged high-risk system is not registered in the EU database, they must not use it and must inform the provider or distributor.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 26(8)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0033",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 2,
+    "question": "Which deployer must carry out a fundamental rights impact assessment under Art. 27 before first use?",
+    "options": [
+      "A private company using a CV-screening system for its own hiring",
+      "A private bank using a system to assess the creditworthiness of natural persons",
+      "A private operator using AI as a safety component in electricity supply",
+      "A private university using AI to plan the timetables of its lecture halls"
+    ],
+    "answer": 1,
+    "explanation": "Art. 27(1) covers public-law bodies, private entities providing public services, and deployers of Annex III point 5(b) and (c) systems. Point 2 (critical infrastructure) is excluded and a purely private recruiter is not covered.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 27(1)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0034",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 2,
+    "question": "Under Art. 86, a person affected by a decision based on the output of an Annex III high-risk system (other than point 2) has the right to obtain from the deployer",
+    "options": [
+      "a full copy of the system's source code together with its complete training data set",
+      "a new human decision on the case within 24 hours, in every single instance",
+      "financial compensation for the decision, without any proof of actual damage",
+      "clear and meaningful explanations of the system's role and the decision's main elements"
+    ],
+    "answer": 3,
+    "explanation": "Art. 86(1) grants a right to explanation of the system's role and the main elements of the decision when the decision has legal effects or similarly significantly affects health, safety or fundamental rights. It does not grant source-code access.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 86(1)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0035",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 3,
+    "question": "For a high-risk system under Annex III point 1 (biometrics), where the provider applied harmonised standards, Art. 43(1) allows the provider to choose between",
+    "options": [
+      "internal control (Annex VI) or a notified-body assessment (Annex VII)",
+      "a notified-body assessment under Annex VII, which is mandatory in every case",
+      "internal control under Annex VI, which is the only procedure that is available",
+      "an assessment carried out either by the AI Office or by a national accreditation body"
+    ],
+    "answer": 0,
+    "explanation": "Art. 43(1) gives biometrics providers that applied harmonised standards or common specifications a choice between Annex VI and Annex VII. Without (full) standards, Annex VII is mandatory.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 43(1)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0036",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 2,
+    "question": "For high-risk systems listed in Annex III points 2 to 8, which conformity assessment procedure applies under Art. 43(2)?",
+    "options": [
+      "Assessment by a notified body under Annex VII in all cases",
+      "Assessment by the AI Office after registration",
+      "Assessment by the national market surveillance authority",
+      "Internal control under Annex VI, without a notified body"
+    ],
+    "answer": 3,
+    "explanation": "Art. 43(2): for Annex III points 2 to 8 the provider follows the internal control procedure of Annex VI, which does not provide for notified-body involvement.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 43(2)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0037",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 3,
+    "question": "What is the maximum validity of a certificate issued by a notified body for an AI system covered by Annex III?",
+    "options": [
+      "Four years, with extension in further periods of up to four years",
+      "Two years, non-renewable",
+      "Five years, with extension in further periods of up to five years",
+      "Ten years, matching the documentation retention period"
+    ],
+    "answer": 0,
+    "explanation": "Art. 44(2): certificates may not exceed five years for Annex I systems and four years for Annex III systems; extensions follow a re-assessment, each within the same maximum.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 44(2)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0038",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 2,
+    "question": "A provider has a high-risk system that continues to learn after being placed on the market. When is a new conformity assessment required under Art. 43(4)?",
+    "options": [
+      "After every change in the system's performance, however small that change may be",
+      "On a substantial modification; pre-determined learning changes do not count",
+      "Every four years, at the point at which the notified body certificate expires",
+      "Only when a deployer of the system explicitly requests such a new assessment"
+    ],
+    "answer": 1,
+    "explanation": "Art. 43(4) requires a new assessment upon substantial modification, but changes and performance shifts pre-determined by the provider at the initial assessment and recorded in the technical documentation (Annex IV 2(f)) are not substantial modifications.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 43(4)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0039",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 2,
+    "question": "For exceptional reasons of public security or protection of life and health, who may authorise the placing on the market of a specific high-risk system before conformity assessment is completed (Art. 46)?",
+    "options": [
+      "The market surveillance authority of the Member State concerned, for a limited period",
+      "The AI Office, by a decision that is valid for the whole territory of the Union",
+      "A notified body chosen by the provider, by a decision valid for five years",
+      "The European Commission, by an implementing act adopted after a Board opinion"
+    ],
+    "answer": 0,
+    "explanation": "Art. 46(1): any market surveillance authority may authorise, on a duly justified request, specific high-risk systems within its Member State for a limited period while the conformity assessment is carried out; Commission and other Member States are informed.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 46(1)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0040",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 2,
+    "question": "Which high-risk systems are registered at national level instead of in the EU database (Art. 49)?",
+    "options": [
+      "Systems referred to in Annex III point 4 (employment)",
+      "Systems referred to in Annex III point 2 (critical infrastructure)",
+      "Systems referred to in Annex III point 3 (education)",
+      "Systems referred to in Annex III point 5 (essential services)"
+    ],
+    "answer": 1,
+    "explanation": "Art. 49(5): high-risk systems under Annex III point 2 are registered at national level. Art. 49(1) requires EU-database registration for the other Annex III areas.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 49(1), (5)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0041",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 3,
+    "question": "High-risk systems in law enforcement, migration, asylum and border control (Annex III points 1, 6, 7) are registered under Art. 49(4)",
+    "options": [
+      "in the public section of the EU database, with the sensitive data fields redacted",
+      "only in a national register kept by the market surveillance authority concerned",
+      "in a secure non-public section, accessible only to the Commission and national authorities",
+      "in the EU database, in a section visible to all market surveillance authorities and deployers"
+    ],
+    "answer": 2,
+    "explanation": "Art. 49(4) provides for a secure non-public section containing a reduced data set, accessible only to the Commission and the national authorities referred to in Art. 74(8).",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 49(4)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0042",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 1,
+    "question": "Art. 50(1) requires providers of AI systems intended to interact directly with natural persons to ensure that these persons are informed that they interact with an AI system, unless",
+    "options": [
+      "this is obvious to a reasonably well-informed, observant and circumspect person",
+      "the provider qualifies as an SME or a start-up under the Union recommendation",
+      "the interaction with the system is free of charge for the person concerned",
+      "the system has already been registered in the EU database by its provider"
+    ],
+    "answer": 0,
+    "explanation": "Art. 50(1) contains an exception only where the AI interaction is obvious from the viewpoint of a reasonably well-informed, observant and circumspect person, and for certain law-enforcement systems authorised by law.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 50(1)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0043",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 2,
+    "question": "Art. 50(2) requires providers of AI systems generating synthetic audio, image, video or text to ensure that outputs are",
+    "options": [
+      "accompanied by a visible watermark that the user is technically unable to remove",
+      "registered one by one in the EU database before they are made available",
+      "marked in machine-readable format and detectable as AI-generated or manipulated",
+      "reviewed by a human editor before they are published or otherwise shared"
+    ],
+    "answer": 2,
+    "explanation": "Art. 50(2) demands machine-readable marking and detectability, with technical solutions that are effective, interoperable, robust and reliable as far as technically feasible. It does not prescribe visible watermarks or registration.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 50(2)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0044",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 3,
+    "question": "A news site publishes an AI-drafted text on a matter of public interest. Under Art. 50(4), when may the deployer omit the disclosure that the text is AI-generated?",
+    "options": [
+      "The publisher qualifies as an SME or start-up within the meaning of Union law",
+      "The article is accessible to readers free of charge and without registration",
+      "Human review or editorial control occurred and someone is editorially responsible",
+      "The text is published exclusively online and not distributed in any printed form"
+    ],
+    "answer": 2,
+    "explanation": "Art. 50(4), second subparagraph, exempts AI-generated public-interest text that has undergone human review or editorial control where a natural or legal person holds editorial responsibility. Size, price or channel are irrelevant.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 50(4)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0045",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 2,
+    "question": "As originally adopted, by which date must each Member State have at least one national AI regulatory sandbox operational (Art. 57(1))?",
+    "options": [
+      "2 February 2025",
+      "2 August 2025",
+      "2 August 2027",
+      "2 August 2026"
+    ],
+    "answer": 3,
+    "explanation": "As originally adopted, Art. 57(1) set 2 August 2026 for at least one operational national sandbox, which may be set up jointly with other Member States or by joining an existing sandbox.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 57(1)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0046",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 1,
+    "question": "Which body may establish an AI regulatory sandbox for Union institutions, bodies, offices and agencies?",
+    "options": [
+      "The AI Office within the European Commission",
+      "The European Data Protection Supervisor (EDPS)",
+      "The European Union Agency for Cybersecurity (ENISA)",
+      "The European Artificial Intelligence Board"
+    ],
+    "answer": 1,
+    "explanation": "Art. 57(3) states that the EDPS may establish an AI regulatory sandbox for Union institutions, bodies, offices and agencies and exercise the roles of national competent authorities in that context.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 57(3)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0047",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 3,
+    "question": "A provider follows its sandbox plan and the competent authority's guidance in good faith, yet harm results for a third party. Under Art. 57(12), the provider",
+    "options": [
+      "is exempt from administrative fines and also from any liability for such damage",
+      "faces reduced administrative fines and remains liable for damage to third parties",
+      "faces no administrative fines only if the exit report is made publicly available",
+      "faces no administrative fines but remains liable for damage to third parties"
+    ],
+    "answer": 3,
+    "explanation": "Art. 57(12): participants remain liable under Union and national liability law for damage to third parties, but no administrative fines are imposed if they observe the sandbox plan and follow guidance in good faith.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 57(12)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0048",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 3,
+    "question": "The post-market monitoring plan required by Art. 72 is",
+    "options": [
+      "part of the EU declaration of conformity",
+      "a separate document filed only with the notified body",
+      "part of the technical documentation referred to in Annex IV",
+      "part of the instructions for use given to deployers"
+    ],
+    "answer": 2,
+    "explanation": "Art. 72(3): the post-market monitoring system is based on a plan that forms part of the technical documentation under Annex IV; the Commission was to adopt a template by implementing act.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 72(3)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0049",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 3,
+    "question": "A provider establishes a causal link between its high-risk system and a serious incident resulting in the death of a person. By when must the report be made at the latest (Art. 73(4))?",
+    "options": [
+      "Not later than 2 days after becoming aware",
+      "Not later than 15 days after becoming aware",
+      "Not later than 10 days after becoming aware",
+      "Not later than 30 days after becoming aware"
+    ],
+    "answer": 2,
+    "explanation": "Art. 73(4): in the event of death, the report is due immediately after the causal relationship is established or suspected, and not later than 10 days after awareness. The general limit is 15 days (Art. 73(2)); 2 days apply to widespread infringements and critical-infrastructure incidents.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 73(2)-(4)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0050",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 2,
+    "question": "To which authorities must a provider report a serious incident under Art. 73(1)?",
+    "options": [
+      "The AI Office, which then informs the Member States concerned of the incident",
+      "The notified body that certified the system in its conformity assessment",
+      "The market surveillance authorities of the Member States where the incident occurred",
+      "The authority of the Member State in which the provider is established"
+    ],
+    "answer": 2,
+    "explanation": "Art. 73(1) requires reports to the market surveillance authorities of the Member States where the incident occurred, not to the AI Office or the home authority of the provider.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 73(1)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0051",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 1,
+    "question": "Non-compliance with the Art. 5 prohibitions can lead to administrative fines of up to",
+    "options": [
+      "EUR 15 million or 3 % of worldwide annual turnover, whichever is higher",
+      "EUR 7.5 million or 1 % of worldwide annual turnover, whichever is higher",
+      "EUR 35 million or 7 % of worldwide annual turnover, whichever is higher",
+      "EUR 20 million or 4 % of worldwide annual turnover, whichever is higher"
+    ],
+    "answer": 2,
+    "explanation": "Art. 99(3) sets the top tier at EUR 35 million or 7 % for prohibited practices. The 15 million/3 % tier covers most operator obligations (Art. 99(4)); 20 million/4 % is the GDPR figure.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 99(3)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0052",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 3,
+    "question": "What is the maximum administrative fine under Art. 99(5) for supplying incorrect, incomplete or misleading information to notified bodies or national competent authorities?",
+    "options": [
+      "EUR 7.5 million or 1 % of worldwide annual turnover, whichever is higher",
+      "EUR 15 million or 3 % of worldwide annual turnover, whichever is higher",
+      "EUR 35 million or 7 % of worldwide annual turnover, whichever is higher",
+      "EUR 3.5 million or 0.5 % of worldwide annual turnover, whichever is higher"
+    ],
+    "answer": 0,
+    "explanation": "Art. 99(5) sets EUR 7.5 million or 1 % for incorrect, incomplete or misleading information. Operator-obligation breaches (Arts. 16, 26, 50 etc.) fall under the 15 million/3 % tier.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 99(5)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0053",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 2,
+    "question": "As originally adopted, how does Art. 99(6) treat fines for SMEs, including start-ups?",
+    "options": [
+      "Each fine is capped at the lower of the percentage and the fixed amount",
+      "Each fine is capped at the higher of the percentage and the fixed amount",
+      "SMEs are exempt from fines for first infringements",
+      "SMEs pay half of the fine applicable to other operators"
+    ],
+    "answer": 0,
+    "explanation": "Art. 99(6): for SMEs each fine reaches up to the percentage or amount of Art. 99(3)-(5), whichever is lower, whereas for other undertakings the higher figure applies.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 99(6)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0054",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 3,
+    "question": "What is the maximum administrative fine the EDPS can impose on a Union institution for non-compliance with the Art. 5 prohibitions (Art. 100)?",
+    "options": [
+      "EUR 1 500 000",
+      "EUR 750 000",
+      "EUR 7 500 000",
+      "EUR 35 000 000"
+    ],
+    "answer": 0,
+    "explanation": "Art. 100(2) caps fines on Union institutions, bodies, offices and agencies at EUR 1.5 million for Art. 5 breaches and, under Art. 100(3), EUR 750 000 for other non-compliance.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 100(2)-(3)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0055",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 2,
+    "question": "Which authority acts as market surveillance authority for AI systems of Union institutions, bodies, offices and agencies (except the Court of Justice acting in its judicial capacity)?",
+    "options": [
+      "The AI Office within the European Commission",
+      "The European Data Protection Supervisor (EDPS)",
+      "The Commission's Directorate-General for Communications Networks (DG CNECT)",
+      "The European Artificial Intelligence Board"
+    ],
+    "answer": 1,
+    "explanation": "Art. 74(9) designates the EDPS as the market surveillance authority for Union institutions, bodies, offices and agencies within the scope of the Regulation.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 74(9)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0056",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 3,
+    "question": "A market surveillance authority establishes that a provider misclassified an Annex III system as non-high-risk in order to circumvent Chapter III, Section 2. What follows under Art. 80(7)?",
+    "options": [
+      "The system is automatically withdrawn from the Union market",
+      "The provider loses the right to rely on Art. 6(3) for ever",
+      "The provider is subject to fines under Art. 99",
+      "The case passes to the AI Office for sole decision"
+    ],
+    "answer": 2,
+    "explanation": "Art. 80(7): where misclassification was intended to circumvent the requirements, the provider is subject to fines under Art. 99. Art. 80(2) additionally obliges the authority to require bringing the system into compliance.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 80(7)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0057",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 1,
+    "question": "As originally adopted, from which date did Chapters I and II (general provisions, including AI literacy, and prohibited practices) apply?",
+    "options": [
+      "2 February 2025",
+      "1 August 2024",
+      "2 August 2025",
+      "2 August 2026"
+    ],
+    "answer": 0,
+    "explanation": "Art. 113 as adopted: entry into force on the twentieth day after publication (1 August 2024); Chapters I and II apply from 2 February 2025, GPAI and governance rules from 2 August 2025, and the bulk of the Regulation from 2 August 2026.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 113",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0058",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 3,
+    "question": "As originally adopted, by when must providers and deployers of high-risk AI systems intended for use by public authorities that were already on the market comply (Art. 111(2))?",
+    "options": [
+      "2 August 2030",
+      "2 August 2027",
+      "2 August 2028",
+      "31 December 2030"
+    ],
+    "answer": 0,
+    "explanation": "Art. 111(2) sets 2 August 2030 for such public-authority systems. 31 December 2030 is the deadline for components of the large-scale IT systems listed in Annex X (Art. 111(1)).",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 111(1)-(2)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0059",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 3,
+    "question": "A high-risk AI system has been certified under a cybersecurity scheme adopted under the Cybersecurity Act (Regulation (EU) 2019/881). Art. 42(2) presumes that it complies with",
+    "options": [
+      "all of the requirements of Chapter III, Section 2 on high-risk AI systems",
+      "the data-governance requirements on training data in Art. 10(4) of the Regulation",
+      "the registration duties for high-risk systems that are set out in Art. 49",
+      "the cybersecurity requirements of Art. 15, so far as the certificate covers them"
+    ],
+    "answer": 3,
+    "explanation": "Art. 42(2) presumes conformity only with the Art. 15 cybersecurity requirements and only to the extent the certificate covers them. A presumption for Art. 10(4) arises from training on data of the right setting (Art. 42(1)).",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 42(2)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0060",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 2,
+    "question": "Which models are excluded from the definition of a general-purpose AI model in Art. 3(63)?",
+    "options": [
+      "Models that were trained with a large amount of data using self-supervision at scale",
+      "Models that can be integrated into a variety of downstream systems or applications",
+      "Models that are released under a free and open-source licence by their provider",
+      "AI models used for research, development or prototyping before being placed on the market"
+    ],
+    "answer": 3,
+    "explanation": "Art. 3(63) excludes pre-market research, development or prototyping models. Self-supervised training at scale and downstream integration are features of the definition, and open-source status does not remove a model from it.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 3(63)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0061",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 2,
+    "question": "Besides having high-impact capabilities, how else can a GPAI model be classified as one with systemic risk (Art. 51(1))?",
+    "options": [
+      "A majority decision of the AI Board, taken on a proposal of the AI Office",
+      "A decision of the national market surveillance authority of the provider's Member State",
+      "A declaration of the provider itself, without any involvement of a Union body",
+      "A Commission decision, ex officio or after a qualified alert from the scientific panel"
+    ],
+    "answer": 3,
+    "explanation": "Art. 51(1)(b) provides for classification by a Commission decision, ex officio or following a qualified alert from the scientific panel, taking Annex XIII criteria into account.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 51(1)(b)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0062",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 1,
+    "question": "A GPAI model is presumed to have high-impact capabilities when the cumulative computation used for training exceeds",
+    "options": [
+      "10^23 floating point operations",
+      "10^25 floating point operations",
+      "10^24 floating point operations",
+      "10^26 floating point operations"
+    ],
+    "answer": 1,
+    "explanation": "Art. 51(2) sets the presumption at more than 10^25 FLOPs of cumulative training computation.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 51(2)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0063",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 2,
+    "question": "How can the 10^25 FLOP threshold in Art. 51 be amended?",
+    "options": [
+      "By Commission implementing acts under Art. 98",
+      "By Commission delegated acts under Art. 97",
+      "By a binding opinion of the AI Board",
+      "By a Council decision on a Commission proposal"
+    ],
+    "answer": 1,
+    "explanation": "Art. 51(3) empowers the Commission to adopt delegated acts under Art. 97 to amend the thresholds and to supplement benchmarks and indicators as technology evolves.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 51(3)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0064",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 2,
+    "question": "A provider's GPAI model meets the 10^25 FLOP presumption. Within what time must it notify the Commission (Art. 52(1))?",
+    "options": [
+      "Within 72 hours of the completion of the training run of the model",
+      "Within 30 days of the placing of the model on the Union market",
+      "Without delay and in any event within two weeks of the requirement being met",
+      "Within three months of the first completed evaluation of the model"
+    ],
+    "answer": 2,
+    "explanation": "Art. 52(1) requires notification without delay and in any event within two weeks after the requirement is met or it becomes known that it will be met.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 52(1)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0065",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 3,
+    "question": "A provider whose model exceeds the 10^25 FLOP threshold believes it nevertheless presents no systemic risk. What may it do under Art. 52(2)-(3)?",
+    "options": [
+      "Omit the notification, since the presumption can be rebutted by the provider at will",
+      "Ask the national authority for a binding exemption from the systemic-risk status",
+      "Submit substantiated arguments with the notification; the Commission decides on them",
+      "Appeal to the AI Board, whose opinion on the classification is binding on the Commission"
+    ],
+    "answer": 2,
+    "explanation": "Art. 52(2) allows exceptional, substantiated arguments submitted with the notification; under Art. 52(3) the Commission rejects insufficiently substantiated arguments and the model is then considered a systemic-risk model. Notification remains compulsory.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 52(2)-(3)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0066",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 2,
+    "question": "After the Commission designates a model as presenting systemic risk, a provider may submit a reasoned request for reassessment at the earliest",
+    "options": [
+      "one month after the designation decision",
+      "six months after the designation decision",
+      "three months after the designation decision",
+      "one year after the designation decision"
+    ],
+    "answer": 1,
+    "explanation": "Art. 52(5): requests must contain objective, detailed and new reasons and may be made at the earliest six months after the designation decision (and again six months after any maintaining decision).",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 52(5)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0067",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 1,
+    "question": "Under Art. 53(1)(d), all providers of GPAI models must make publicly available a sufficiently detailed summary about",
+    "options": [
+      "the weights and the architecture of the model, to be published in full",
+      "the compute and the energy consumption of the training run of the model",
+      "the content used for training the model, following an AI Office template",
+      "the results of the adversarial testing that was carried out on the model"
+    ],
+    "answer": 2,
+    "explanation": "Art. 53(1)(d) requires a public summary of training content following the AI Office template. Technical documentation (Annex XI) goes to authorities, not the public.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 53(1)(d)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0068",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 3,
+    "question": "The copyright policy required of GPAI providers by Art. 53(1)(c) must in particular identify and comply with a reservation of rights expressed under",
+    "options": [
+      "Article 3 of Directive (EU) 2019/790 on copyright in the Digital Single Market",
+      "Article 17 of Directive (EU) 2019/790 on copyright in the Digital Single Market",
+      "Article 4(3) of Directive (EU) 2019/790 on copyright in the Digital Single Market",
+      "Article 5 of Directive 2001/29/EC on copyright in the information society"
+    ],
+    "answer": 2,
+    "explanation": "Art. 53(1)(c) refers to the text-and-data-mining opt-out in Art. 4(3) of Directive (EU) 2019/790. Art. 3 covers research organisations, Art. 17 online content-sharing platforms.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 53(1)(c)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0069",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 2,
+    "question": "Which obligations of Art. 53(1) do not apply to providers of GPAI models released under a free and open-source licence without systemic risk (Art. 53(2))?",
+    "options": [
+      "The obligation to put in place a policy on Union copyright law",
+      "The obligation to publish a summary of the content used for training",
+      "Technical documentation for authorities, and information for downstream providers",
+      "Every obligation of Articles 53 and 55 of the AI Act, including those on systemic risk"
+    ],
+    "answer": 2,
+    "explanation": "Art. 53(2) lifts only points (a) and (b), documentation and downstream information. The copyright policy and training summary still apply, and the exemption never applies to systemic-risk models.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 53(2)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0070",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 2,
+    "question": "A provider established in a third country wants to place a GPAI model, not released as open source, on the Union market. What does Art. 54 require?",
+    "options": [
+      "Appointing an importer that assumes all the obligations of the provider",
+      "Appointing an authorised representative in the Union by written mandate",
+      "Registering the model and its provider in the EU database before placing",
+      "Obtaining a prior authorisation from the AI Office for placing on the market"
+    ],
+    "answer": 1,
+    "explanation": "Art. 54(1) requires third-country providers to appoint an authorised representative in the Union by written mandate. The duty does not apply to open-source models without systemic risk (Art. 54(6)).",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 54",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0071",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 2,
+    "question": "Which obligation applies only to providers of GPAI models with systemic risk?",
+    "options": [
+      "Drawing up a policy to comply with Union law on copyright and related rights",
+      "Providing information and documentation to downstream providers of AI systems",
+      "Publishing a sufficiently detailed summary of the content used for training",
+      "Performing model evaluation, including adversarial testing"
+    ],
+    "answer": 3,
+    "explanation": "Art. 55(1)(a) adds model evaluation with adversarial testing for systemic-risk models, alongside risk assessment, incident reporting and cybersecurity. The other options already follow from Art. 53 for all providers.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 55(1)(a)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0072",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 2,
+    "question": "A provider of a GPAI model with systemic risk must report relevant serious-incident information without undue delay to",
+    "options": [
+      "the AI Board and, as appropriate, the members of the advisory forum",
+      "the EDPS and, as appropriate, the national data protection authorities",
+      "the AI Office and, as appropriate, national competent authorities",
+      "the notified body that assessed the model and, as appropriate, ENISA"
+    ],
+    "answer": 2,
+    "explanation": "Art. 55(1)(c) requires tracking, documenting and reporting serious incidents and possible corrective measures to the AI Office and, as appropriate, to national competent authorities.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 55(1)(c)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0073",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 3,
+    "question": "A systemic-risk GPAI provider neither adheres to an approved code of practice nor applies a harmonised standard. According to Art. 55(2), it must",
+    "options": [
+      "obtain a conformity certificate for the model from an accredited notified body",
+      "follow the conformity assessment procedure based on Annex VII of the Regulation",
+      "suspend the placing of the model on the Union market until a standard exists",
+      "demonstrate alternative adequate means of compliance for assessment by the Commission"
+    ],
+    "answer": 3,
+    "explanation": "Art. 55(2): codes of practice give a route to demonstrate compliance until a harmonised standard exists; those not adhering must demonstrate alternative adequate means, which the Commission assesses.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 55(2)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0074",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 2,
+    "question": "As originally adopted, Art. 56(9) required codes of practice for GPAI to be ready at the latest by",
+    "options": [
+      "2 February 2025",
+      "2 August 2025",
+      "2 May 2025",
+      "2 August 2026"
+    ],
+    "answer": 2,
+    "explanation": "Art. 56(9): codes of practice were to be ready by 2 May 2025; if none could be finalised or was deemed inadequate by 2 August 2025, the Commission could adopt common rules by implementing act.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 56(9)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0075",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 3,
+    "question": "How can the Commission give an approved code of practice general validity within the Union (Art. 56(6))?",
+    "options": [
+      "By a delegated act adopted by the Commission under the procedure of Art. 97",
+      "By a binding opinion that is adopted by the European AI Board",
+      "By an implementing act adopted under the examination procedure of Art. 98(2)",
+      "By a decision that is taken by the AI Office on its own authority"
+    ],
+    "answer": 2,
+    "explanation": "Art. 56(6) lets the Commission approve a code by implementing act under the examination procedure, giving it general validity. A delegated act is the tool for amending thresholds and annexes.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 56(6)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0076",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 2,
+    "question": "In the General-Purpose AI Code of Practice published on 10 July 2025, which chapter is relevant only to providers of GPAI models with systemic risk?",
+    "options": [
+      "Transparency",
+      "Safety and Security",
+      "Copyright",
+      "Model documentation"
+    ],
+    "answer": 1,
+    "explanation": "The Code has three chapters: Transparency and Copyright (for all GPAI providers, Art. 53) and Safety and Security (only for systemic-risk providers, Art. 55).",
+    "source": {
+      "title": "European Commission, Contents of the General-Purpose AI Code of Practice",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai"
+    }
+  },
+  {
+    "id": "ad8-0077",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 2,
+    "question": "The European AI Office was established by a Commission Decision of 24 January 2024 as part of",
+    "options": [
+      "an independent decentralised EU agency with its own legal personality",
+      "the administrative structure of DG CNECT within the European Commission",
+      "an executive agency of the Commission managed by a steering committee",
+      "the secretariat of the European Data Protection Board in Brussels"
+    ],
+    "answer": 1,
+    "explanation": "The Decision set up the AI Office inside the Commission, in the administrative structure of the Directorate-General for Communications Networks, Content and Technology; Art. 64 AI Act refers to it as the Commission's AI expertise body.",
+    "source": {
+      "title": "European Commission, Commission Decision establishing the European AI Office (24 January 2024)",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/commission-decision-establishing-european-ai-office"
+    }
+  },
+  {
+    "id": "ad8-0078",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 1,
+    "question": "Which body provides the secretariat for the European Artificial Intelligence Board (Art. 65(8))?",
+    "options": [
+      "The European Data Protection Supervisor",
+      "The AI Office",
+      "The General Secretariat of the Council",
+      "ENISA"
+    ],
+    "answer": 1,
+    "explanation": "Art. 65(8): the Board is chaired by a Member State representative, while the AI Office provides the secretariat, convenes meetings at the Chair's request and prepares the agenda.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 65(8)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0079",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 1,
+    "question": "What is the role of the European Data Protection Supervisor in the AI Board (Art. 65(2))?",
+    "options": [
+      "Voting member",
+      "Permanent chair",
+      "Co-chair with the Commission",
+      "Observer"
+    ],
+    "answer": 3,
+    "explanation": "Art. 65(2): the Board comprises one representative per Member State; the EDPS participates as observer and the AI Office attends without voting.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 65(2)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0080",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 2,
+    "question": "Which of the following is a task of the AI Board under Art. 66?",
+    "options": [
+      "Designating general-purpose AI models as presenting systemic risk",
+      "Imposing fines on providers of general-purpose AI models",
+      "Issuing recommendations and written opinions on implementation",
+      "Approving codes of practice and giving them general validity"
+    ],
+    "answer": 2,
+    "explanation": "Art. 66(e) lets the Board issue recommendations and written opinions. Designation, GPAI fines and approval of codes are Commission powers (Arts. 52, 101, 56(6)).",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 66",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0081",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 3,
+    "question": "Which bodies are permanent members of the advisory forum under Art. 67(5)?",
+    "options": [
+      "The EDPS, the EDPB, ENISA, Europol and ETSI",
+      "The Fundamental Rights Agency, the EDPS, the JRC and ETSI",
+      "The Fundamental Rights Agency, ENISA, CEN, CENELEC and ETSI",
+      "ENISA, EUIPO, CEN, CENELEC and ISO"
+    ],
+    "answer": 2,
+    "explanation": "Art. 67(5) names the Fundamental Rights Agency, ENISA, CEN, CENELEC and ETSI as permanent members; the other members are appointed by the Commission as a balanced selection of stakeholders.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 67(5)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0082",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 2,
+    "question": "Under Art. 68, the scientific panel of independent experts consists of experts who must in particular be",
+    "options": [
+      "nominated by each Member State and employed by the national authorities",
+      "delegated by the providers of the most advanced general-purpose AI models",
+      "appointed by the AI Board by a simple majority of its members",
+      "selected by the Commission and independent from any provider"
+    ],
+    "answer": 3,
+    "explanation": "Art. 68(2): experts are selected by the Commission on the basis of expertise, must be independent from any provider of AI systems or GPAI models and able to act diligently and objectively.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 68(2)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0083",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 3,
+    "question": "What may follow a qualified alert from the scientific panel under Art. 90?",
+    "options": [
+      "The model is automatically withdrawn from the Union market without any further procedure",
+      "The AI Board must suspend the model's authorisation",
+      "The Commission may designate the GPAI model as presenting systemic risk",
+      "National authorities must impose fines within 30 days"
+    ],
+    "answer": 2,
+    "explanation": "Art. 90 lets the panel alert the AI Office of a concrete identifiable Union-level risk or of a model meeting Art. 51 conditions; Art. 52(4) allows the Commission to designate following such an alert. No automatic measure follows.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 90, Art. 52(4)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0084",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 1,
+    "question": "Each Member State must establish or designate as national competent authorities at least (Art. 70(1))",
+    "options": [
+      "one notifying authority and one market surveillance authority",
+      "one notifying authority and one data protection authority",
+      "one market surveillance authority and one standardisation body",
+      "one AI authority combining all competences in a single body"
+    ],
+    "answer": 0,
+    "explanation": "Art. 70(1) requires at least one notifying authority and at least one market surveillance authority, acting independently and impartially. Combining roles is not prescribed.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 70(1)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0085",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 3,
+    "question": "Where the Commission considers it necessary, which measure may it request from a GPAI model provider under Art. 93?",
+    "options": [
+      "Suspending the authorised representative of the provider in the Union",
+      "Blocking the provider's access to the EU database for high-risk systems",
+      "Restricting the making available of the model, or withdrawing or recalling it",
+      "Revoking the certificate that a notified body issued for the model"
+    ],
+    "answer": 2,
+    "explanation": "Art. 93(1) lets the Commission request providers to take appropriate measures to comply, to implement risk-mitigation measures where there is serious concern about systemic risk, and to restrict, withdraw or recall the model.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 93",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0086",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 1,
+    "question": "The Commission can impose fines on providers of GPAI models of up to",
+    "options": [
+      "3 % of worldwide annual turnover or EUR 15 million, whichever is higher",
+      "7 % of worldwide annual turnover or EUR 35 million, whichever is higher",
+      "1 % of worldwide annual turnover or EUR 7.5 million, whichever is higher",
+      "4 % of worldwide annual turnover or EUR 20 million, whichever is higher"
+    ],
+    "answer": 0,
+    "explanation": "Art. 101(1) caps fines for GPAI providers at 3 % or EUR 15 million, whichever is higher. The 7 %/35 million tier is for Art. 5 breaches by other operators (Art. 99(3)).",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 101(1)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0087",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 2,
+    "question": "Providers of GPAI models placed on the market before 2 August 2025 must take the necessary steps to comply with the Regulation by",
+    "options": [
+      "2 August 2026",
+      "2 August 2027",
+      "2 August 2028",
+      "2 August 2030"
+    ],
+    "answer": 1,
+    "explanation": "Art. 111(3): GPAI models placed on the market before 2 August 2025 must comply by 2 August 2027; 2 August 2030 is the deadline for certain public-authority high-risk systems (Art. 111(2)).",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 111(3)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0088",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 1,
+    "question": "Who has exclusive powers to supervise and enforce the GPAI rules of Chapter V?",
+    "options": [
+      "The Commission, which entrusts the tasks to the AI Office",
+      "The national market surveillance authorities of the Member States",
+      "The European Artificial Intelligence Board together with its sub-groups",
+      "The European Data Protection Supervisor, in cooperation with the AI Office"
+    ],
+    "answer": 0,
+    "explanation": "Art. 88(1): the Commission has exclusive powers over Chapter V, delegated in practice to the AI Office; market surveillance authorities can only request the Commission to act (Art. 88(2)).",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 88(1)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0089",
+    "pkg": "ad8-ki",
+    "area": "gpai-office",
+    "difficulty": 3,
+    "question": "Among the criteria in Annex XIII, impact on the internal market is presumed when a GPAI model has been made available to at least",
+    "options": [
+      "1 000 registered business users established in the Union",
+      "10 000 registered business users established in the Union",
+      "100 000 registered end-users in the Union",
+      "10 million registered end-users worldwide"
+    ],
+    "answer": 1,
+    "explanation": "Annex XIII(f) presumes high impact on the internal market when the model is available to at least 10 000 registered business users established in the Union; the number of registered end-users is a separate criterion (g) without a stated threshold.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Annex XIII(f)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0090",
+    "pkg": "ad8-ki",
+    "area": "ai-act",
+    "difficulty": 2,
+    "question": "A company builds a chatbot on top of a third-party model. In AI Act terms, the chatbot is a ... and the company is a ...",
+    "options": [
+      "general-purpose AI model; provider of a GPAI model",
+      "general-purpose AI system; downstream provider",
+      "narrow AI system; deployer",
+      "high-risk AI system; importer"
+    ],
+    "answer": 1,
+    "explanation": "Art. 3(66) defines a general-purpose AI system as a system based on a GPAI model that can serve various purposes, and Art. 3(68) a downstream provider as a provider of an AI system that integrates an AI model, whether its own or another entity's.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 3(66), (68)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0091",
+    "pkg": "ad8-ki",
+    "area": "trustworthy-ai",
+    "difficulty": 1,
+    "question": "Which of the following is one of the seven key requirements in the HLEG Ethics Guidelines for Trustworthy AI?",
+    "options": [
+      "Economic competitiveness and market growth",
+      "Data sovereignty of the Union and Member States",
+      "Cost efficiency of the deployed AI solution",
+      "Societal and environmental well-being"
+    ],
+    "answer": 3,
+    "explanation": "The seven requirements are human agency and oversight; technical robustness and safety; privacy and data governance; transparency; diversity, non-discrimination and fairness; societal and environmental well-being; accountability.",
+    "source": {
+      "title": "European Commission, Ethics Guidelines for Trustworthy AI (HLEG, 8 April 2019)",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai"
+    }
+  },
+  {
+    "id": "ad8-0092",
+    "pkg": "ad8-ki",
+    "area": "trustworthy-ai",
+    "difficulty": 1,
+    "question": "According to the HLEG Ethics Guidelines, trustworthy AI should be",
+    "options": [
+      "transparent, fair and accountable",
+      "safe, secure and private",
+      "lawful, ethical and robust",
+      "explainable, inclusive and sustainable"
+    ],
+    "answer": 2,
+    "explanation": "The Guidelines define three components of trustworthy AI: lawful (respecting laws), ethical (respecting ethical principles and values) and robust (technically and socially). The seven requirements operationalise them.",
+    "source": {
+      "title": "European Commission, Ethics Guidelines for Trustworthy AI (HLEG, 8 April 2019)",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai"
+    }
+  },
+  {
+    "id": "ad8-0093",
+    "pkg": "ad8-ki",
+    "area": "trustworthy-ai",
+    "difficulty": 2,
+    "question": "Which set lists the four ethical principles on which the HLEG Guidelines build?",
+    "options": [
+      "Human agency, technical robustness, privacy and data governance, and accountability",
+      "Transparency, non-discrimination, safety and sustainability",
+      "Respect for human autonomy, prevention of harm, fairness and explicability",
+      "Lawfulness, proportionality, necessity and accountability"
+    ],
+    "answer": 2,
+    "explanation": "Chapter I of the Guidelines grounds trustworthy AI in respect for human autonomy, prevention of harm, fairness and explicability; the seven requirements in Chapter II derive from them and should not be confused with these principles.",
+    "source": {
+      "title": "European Commission, Ethics Guidelines for Trustworthy AI (HLEG, 8 April 2019)",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai"
+    }
+  },
+  {
+    "id": "ad8-0094",
+    "pkg": "ad8-ki",
+    "area": "trustworthy-ai",
+    "difficulty": 2,
+    "question": "What is the Assessment List for Trustworthy AI (ALTAI)?",
+    "options": [
+      "A mandatory conformity assessment procedure laid down by the AI Act",
+      "A certification scheme for AI systems that is operated by ENISA",
+      "A harmonised standard for AI risk management adopted by CEN and CENELEC",
+      "A voluntary self-assessment checklist, also available as a web tool"
+    ],
+    "answer": 3,
+    "explanation": "The HLEG presented the final ALTAI on 17 July 2020 as a practical, voluntary self-assessment for developers and deployers. It has no binding legal status under the AI Act.",
+    "source": {
+      "title": "European Commission, Assessment List for Trustworthy AI (ALTAI) for self-assessment (17 July 2020)",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/assessment-list-trustworthy-artificial-intelligence-altai-self-assessment"
+    }
+  },
+  {
+    "id": "ad8-0095",
+    "pkg": "ad8-ki",
+    "area": "trustworthy-ai",
+    "difficulty": 1,
+    "question": "Which HLEG requirement corresponds most directly to the human oversight obligation in Art. 14 of the AI Act?",
+    "options": [
+      "Human agency and oversight",
+      "Accountability",
+      "Transparency",
+      "Technical robustness and safety"
+    ],
+    "answer": 0,
+    "explanation": "Art. 14 requires that high-risk systems can be effectively overseen by natural persons, including the ability to override or stop the system, mirroring the HLEG requirement of human agency and oversight.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 14; HLEG Ethics Guidelines (requirement 1)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0096",
+    "pkg": "ad8-ki",
+    "area": "trustworthy-ai",
+    "difficulty": 2,
+    "question": "Which AI Act provision addresses the HLEG requirement of diversity, non-discrimination and fairness mainly through data governance practices?",
+    "options": [
+      "Art. 12, which requires the automatic recording of events over the system's lifetime",
+      "Art. 13, which requires transparency and instructions for use for deployers",
+      "Art. 10, which requires examination of data sets for bias and mitigation measures",
+      "Art. 17, which requires the provider to operate a quality management system"
+    ],
+    "answer": 2,
+    "explanation": "Art. 10(2)(f)-(g) requires examination for biases likely to affect health, safety or fundamental rights or lead to prohibited discrimination, and measures to detect, prevent and mitigate them.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 10(2)(f)-(g)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0097",
+    "pkg": "ad8-ki",
+    "area": "trustworthy-ai",
+    "difficulty": 3,
+    "question": "Art. 95 encourages voluntary codes of conduct applying certain requirements to AI systems other than high-risk ones. Which element is listed among the objectives in Art. 95(2)?",
+    "options": [
+      "Facilitating inclusive and diverse design, including diverse teams and stakeholders",
+      "Obtaining a CE marking for AI systems that fall into the minimal-risk category",
+      "Registering all low-risk AI systems in the EU database before first use",
+      "Replacing the conformity assessment for limited-risk AI systems"
+    ],
+    "answer": 0,
+    "explanation": "Art. 95(2) lists applicable elements of the Union ethical guidelines, environmental sustainability, AI literacy, inclusive and diverse design and the protection of vulnerable persons. Voluntary codes do not replace mandatory procedures.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 95(2)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0098",
+    "pkg": "ad8-ki",
+    "area": "trustworthy-ai",
+    "difficulty": 2,
+    "question": "According to Art. 15(4), the robustness of high-risk AI systems may be achieved through",
+    "options": [
+      "technical redundancy solutions, which may include backup or fail-safe plans",
+      "the publication of the full model weights together with the training code",
+      "an annual external audit that covers the complete training data of the system",
+      "the mandatory use of open-source components for every part of the system"
+    ],
+    "answer": 0,
+    "explanation": "Art. 15(4) mentions technical redundancy, including backup or fail-safe plans, and resilience against errors, faults and inconsistencies, reflecting the HLEG requirement of technical robustness and safety.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 15(4)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0099",
+    "pkg": "ad8-ki",
+    "area": "trustworthy-ai",
+    "difficulty": 3,
+    "question": "According to Art. 10(2)(f), data governance practices for high-risk systems must include examination of data sets for biases that are likely to",
+    "options": [
+      "reduce the accuracy of the model below the level declared in the instructions for use",
+      "increase the annotation cost of the provider beyond its budgeted level",
+      "affect health and safety, harm fundamental rights or cause prohibited discrimination",
+      "cause the outputs to differ from one deployer to the next deployer"
+    ],
+    "answer": 2,
+    "explanation": "Art. 10(2)(f) defines the relevant biases by their consequences for health, safety, fundamental rights or prohibited discrimination, especially where outputs influence future inputs, not by accuracy or cost.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 10(2)(f)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  },
+  {
+    "id": "ad8-0100",
+    "pkg": "ad8-ki",
+    "area": "trustworthy-ai",
+    "difficulty": 3,
+    "question": "Which statement about the relationship between the HLEG Guidelines and the AI Act is correct?",
+    "options": [
+      "The Guidelines are voluntary; the Act makes several requirements binding",
+      "The Guidelines are annexed to the Act and are legally binding for every AI system",
+      "The Act replaces the Guidelines and prohibits their voluntary use by providers",
+      "The Guidelines apply only to public authorities, whereas the Act applies to companies"
+    ],
+    "answer": 0,
+    "explanation": "The Guidelines are voluntary ethics guidance; Chapter III, Section 2 of the Act binds high-risk systems, and Art. 95 promotes voluntary application of such requirements to other systems.",
+    "source": {
+      "title": "Regulation (EU) 2024/1689 (AI Act), Art. 95 and Chapter III Section 2",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  }
+]
