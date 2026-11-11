@@ -272,10 +272,10 @@
     "difficulty": 2,
     "question": "With what aim does the AI Continent Action Plan announce a Cloud and AI Development Act?",
     "options": [
-      "At least doubling EU data-centre capacity within three years",
-      "Capping data-centre energy consumption at 2025 levels",
+      "At least doubling EU data-centre capacity within the next three years",
+      "Capping the energy consumption of EU data centres at 2025 levels",
       "At least tripling EU data-centre capacity within five to seven years",
-      "Placing hyperscale cloud providers under public ownership"
+      "Placing all hyperscale cloud providers in the Union under public ownership"
     ],
     "answer": 2,
     "explanation": "The Plan says the Act should at least triple EU data-centre capacity within the next five to seven years, with simplified permitting for resource-efficient projects.",
@@ -294,7 +294,7 @@
       "Replacing national market surveillance authorities",
       "Nationalising Europe's AI Gigafactories",
       "Banning open-source AI models in public bodies",
-      "Strengthening AI skills and talent"
+      "Strengthening AI skills and talent in the Union"
     ],
     "answer": 3,
     "explanation": "The Plan has five areas: computing and data infrastructure, data for AI, adoption in strategic sectors, AI skills and talent, and regulatory compliance and simplification. The other options appear nowhere in it.",
@@ -310,10 +310,10 @@
     "difficulty": 1,
     "question": "Which description fits the AI Factories launched under the EuroHPC framework?",
     "options": [
-      "Notified bodies that assess conformity of high-risk AI systems before placing",
-      "Market surveillance authorities that supervise compliance with AI Act rules",
+      "Notified bodies that assess the conformity of high-risk AI systems before they are placed on the market",
+      "Market surveillance authorities that supervise compliance with the AI Act rules in each Member State",
       "Ecosystems combining AI-optimised supercomputing, data and talent for trustworthy generative AI",
-      "Public registries in which all high-risk AI systems must be recorded"
+      "Public registries in which all high-risk AI systems must be recorded before deployment"
     ],
     "answer": 2,
     "explanation": "The Commission describes AI Factories as EU-backed hubs combining computing power, data and talent, drawing on EuroHPC supercomputing. Conformity assessment, supervision and registration are AI Act functions.",
@@ -329,10 +329,10 @@
     "difficulty": 2,
     "question": "Which EU programmes fund the GenAI4EU initiative on generative AI in strategic sectors?",
     "options": [
-      "Horizon Europe, the Digital Europe Programme and the European Innovation Council",
-      "Cohesion Fund, European Social Fund Plus and Erasmus+",
-      "InvestEU, Connecting Europe Facility and the European Defence Fund",
-      "LIFE, Creative Europe and the EU4Health programme"
+      "Horizon Europe, Digital Europe and the European Innovation Council (EIC)",
+      "The Cohesion Fund, the European Social Fund Plus and the Erasmus+ programme",
+      "InvestEU, the Connecting Europe Facility and the European Defence Fund together",
+      "The LIFE programme, Creative Europe and the EU4Health health programme"
     ],
     "answer": 0,
     "explanation": "The Commission's GenAI4EU page lists calls under Horizon Europe, the Digital Europe Programme and the EIC, with close to EUR 700 million of investment.",
@@ -370,7 +370,7 @@
       "A legal duty for public authorities to use AI in every administrative decision",
       "Companies and public bodies to consider AI for problem-solving, weighing benefits and risks",
       "An exemption of public-sector AI systems from the obligations of the AI Act",
-      "A ban on non-European AI models in all public procurement procedures"
+      "A ban on non-European AI models in all public procurement procedures launched by public bodies"
     ],
     "answer": 1,
     "explanation": "The Strategy encourages organisations to integrate AI, building on European solutions, while evaluating benefits and risks. It creates no legal obligation, exemption or ban.",
@@ -424,13 +424,13 @@
     "difficulty": 3,
     "question": "Under the Commission's own AI@EC Communication (2024), which body coordinates the AI@EC initiative and drafts operational guidelines for AI use?",
     "options": [
-      "The AI Office, within DG CNECT",
-      "The European Artificial Intelligence Board",
-      "The European Data Protection Supervisor",
-      "The Interservice Steering Group on AI (ISG-AI)"
+      "The AI Office, established within DG CNECT",
+      "The European Artificial Intelligence Board of Member State representatives",
+      "The European Data Protection Supervisor acting as supervisory authority",
+      "The Commission's Interservice Steering Group on AI (ISG-AI)"
     ],
     "answer": 3,
-    "explanation": "Section 2.2.1 creates the ISG-AI as a subgroup of the Information Management Steering Board, led by DIGIT. The AI Office and AI Board are AI Act bodies, not internal Commission governance.",
+    "explanation": "Section 2.2.1 creates the ISG-AI as the Commission's internal coordinating body for AI@EC. The AI Office and the AI Board are AI Act bodies, not internal Commission governance.",
     "source": {
       "title": "Communication C(2024) 380, Artificial Intelligence in the European Commission (AI@EC), Section 2.2.1",
       "url": "https://commission.europa.eu/system/files/2024-01/EN%20Artificial%20Intelligence%20in%20the%20European%20Commission.PDF"
@@ -443,10 +443,10 @@
     "difficulty": 2,
     "question": "Under the Digital Services Act, which providers must assess systemic risks, including from their algorithmic systems, at least once every year?",
     "options": [
-      "Providers of all hosting services offered in the Union",
-      "Providers of very large online platforms and search engines",
-      "Providers of all online platforms offered in the Union",
-      "Providers of micro and small online platforms in the Union"
+      "Providers of all hosting services offered to recipients in the Union",
+      "Providers of very large online platforms and search engines in the Union",
+      "Providers of all online platforms offered to recipients in the Union",
+      "Providers of micro and small online platforms established in the Union"
     ],
     "answer": 1,
     "explanation": "Art. 34(1) imposes annual systemic-risk assessments on VLOPs and VLOSEs, i.e. services with at least 45 million average monthly active recipients in the Union (Art. 33(1)).",
@@ -462,13 +462,13 @@
     "difficulty": 3,
     "question": "Under the Digital Markets Act, the turnover presumption for significant impact on the internal market requires at least EUR 7.5 billion annual Union turnover in each of how many last financial years?",
     "options": [
-      "One",
-      "Two",
-      "Three",
-      "Five"
+      "1 year",
+      "2 years",
+      "3 years",
+      "5 years"
     ],
     "answer": 2,
-    "explanation": "Art. 3(2)(a) DMA presumes significant impact at annual Union turnover of at least EUR 7.5 billion in each of the last three financial years, or market capitalisation of at least EUR 75 billion in the last one.",
+    "explanation": "Art. 3(2)(a) DMA presumes significant impact at annual Union turnover of at least EUR 7.5 billion in each of the last three financial years, or an average market capitalisation (or fair market value) of at least EUR 75 billion in the last financial year, plus the same core platform service in at least three Member States.",
     "source": {
       "title": "Regulation (EU) 2022/1925 (Digital Markets Act), Art. 3(2)(a)",
       "url": "https://eur-lex.europa.eu/eli/reg/2022/1925/oj"
@@ -558,9 +558,9 @@
     "question": "Under the AI Act definitions, what is validation data used for?",
     "options": [
       "Evaluating the trained system and tuning its non-learnable parameters",
-      "Fitting the learnable parameters of the trained system",
-      "Independently confirming performance before market placement",
-      "Supplying the data on which a deployed system produces outputs"
+      "Fitting the learnable parameters of the system during its training",
+      "Independently confirming expected performance before market placement",
+      "Supplying the data from which a deployed system produces its outputs"
     ],
     "answer": 0,
     "explanation": "Art. 3(30) defines validation data as data used to evaluate the trained system and tune non-learnable parameters, inter alia to prevent under- or overfitting. Fitting parameters uses training data (Art. 3(29)).",
@@ -584,8 +584,8 @@
     "answer": 2,
     "explanation": "The data are split into 5 folds of 200. Each iteration trains on 4 folds (800) and validates on the remaining 200. 200 is the validation size.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "scikit-learn User Guide, Cross-validation",
+      "url": "https://scikit-learn.org/stable/modules/cross_validation.html"
     }
   },
   {
@@ -595,16 +595,16 @@
     "difficulty": 1,
     "question": "Which pattern most clearly indicates overfitting?",
     "options": [
-      "High training error and high validation error",
-      "Equal training and validation error at a low level",
-      "Validation error far lower than training error",
-      "Low training error but much higher validation error"
+      "High training error and equally high validation error",
+      "Equal training and validation error at a low level overall",
+      "Validation error far lower than the training error throughout",
+      "Low training error but a much higher validation error"
     ],
     "answer": 3,
     "explanation": "Overfitting means the model memorises training specifics and generalises poorly, giving a large gap with validation error. High error on both indicates underfitting.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "Hastie, Tibshirani, Friedman, The Elements of Statistical Learning (2nd ed.)",
+      "url": "https://hastie.su.domains/ElemStatLearn/"
     }
   },
   {
@@ -622,8 +622,8 @@
     "answer": 1,
     "explanation": "The L1 penalty's geometry produces sparse solutions. The L2 penalty shrinks coefficients towards zero without usually reaching it, and the other two are not penalties.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "Hastie, Tibshirani, Friedman, The Elements of Statistical Learning (2nd ed.)",
+      "url": "https://hastie.su.domains/ElemStatLearn/"
     }
   },
   {
@@ -641,8 +641,8 @@
     "answer": 1,
     "explanation": "Model A: 4 + 1 + 2 = 7. Model B: 1 + 3 + 2 = 6. Noise adds equally to both, and low variance alone does not decide.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "Hastie, Tibshirani, Friedman, The Elements of Statistical Learning (2nd ed.)",
+      "url": "https://hastie.su.domains/ElemStatLearn/"
     }
   },
   {
@@ -650,7 +650,7 @@
     "pkg": "ad8-ki",
     "area": "ml-foundations",
     "difficulty": 2,
-    "question": "Training and validation accuracy are both about 60 % and have plateaued. What is the most appropriate next step?",
+    "question": "Training and validation accuracy are both about 60 % and have plateaued, on a task where far higher accuracy is known to be attainable. What is the most appropriate next step?",
     "options": [
       "Add stronger regularisation to the training objective",
       "Stop the training run earlier than planned",
@@ -660,8 +660,8 @@
     "answer": 3,
     "explanation": "Both scores being low signals underfitting (high bias), so the model needs more capacity or better features. Regularisation and early stopping fight overfitting and would make it worse.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "Hastie, Tibshirani, Friedman, The Elements of Statistical Learning (2nd ed.)",
+      "url": "https://hastie.su.domains/ElemStatLearn/"
     }
   },
   {
@@ -671,7 +671,7 @@
     "difficulty": 2,
     "question": "What is the typical consequence of setting the learning rate of gradient descent far too high?",
     "options": [
-      "The loss oscillates or diverges",
+      "The loss oscillates or diverges instead of falling",
       "Training converges faster to the global minimum",
       "The model stops learning because gradients vanish by design",
       "Overfitting is automatically avoided"
@@ -679,8 +679,8 @@
     "answer": 0,
     "explanation": "Excessively large steps overshoot minima, so the loss can oscillate or diverge. Too small a rate causes slow progress, not divergence.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "Goodfellow, Bengio, Courville, Deep Learning (2016)",
+      "url": "https://www.deeplearningbook.org/"
     }
   },
   {
@@ -692,14 +692,14 @@
     "options": [
       "Each update uses a noisy gradient estimate from a subset, at lower cost",
       "Each update uses the exact gradient, so the loss falls monotonically",
-      "It requires the loss function to be convex to converge",
-      "It needs no learning rate because batches are small"
+      "It requires the loss function to be convex in order to converge at all",
+      "It needs no learning rate at all because the batches used are small"
     ],
     "answer": 0,
     "explanation": "Mini-batch gradients are noisy estimates of the full gradient and cheaper per update, which often helps escape poor regions. It still needs a learning rate and does not need convexity.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "Goodfellow, Bengio, Courville, Deep Learning (2016)",
+      "url": "https://www.deeplearningbook.org/"
     }
   },
   {
@@ -717,8 +717,8 @@
     "answer": 1,
     "explanation": "Precision = TP / (TP + FP) = 40 / 50 = 0.80. Recall is 0.67, F1 is 0.73 and accuracy is 0.85.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "scikit-learn User Guide, Metrics and scoring",
+      "url": "https://scikit-learn.org/stable/modules/model_evaluation.html"
     }
   },
   {
@@ -736,8 +736,8 @@
     "answer": 1,
     "explanation": "Recall = 72 / 120 = 0.60. The value 0.80 is the precision (72 / 90).",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "scikit-learn User Guide, Metrics and scoring",
+      "url": "https://scikit-learn.org/stable/modules/model_evaluation.html"
     }
   },
   {
@@ -755,8 +755,8 @@
     "answer": 1,
     "explanation": "F1 is the harmonic mean: 2 x 0.9 x 0.6 / 1.5 = 0.72. The arithmetic mean 0.75 overstates it because the harmonic mean is pulled towards the lower value.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "scikit-learn User Guide, Metrics and scoring",
+      "url": "https://scikit-learn.org/stable/modules/model_evaluation.html"
     }
   },
   {
@@ -766,16 +766,16 @@
     "difficulty": 3,
     "question": "A rare-disease model predicts 'healthy' for everyone, and 1 % of the population is ill. Which metric exposes the failure?",
     "options": [
-      "Overall accuracy (99 %)",
-      "Specificity (100 %)",
+      "Overall accuracy of the model (99 %)",
+      "Specificity, the true-negative rate (100 %)",
       "Recall on the positive class (0 %)",
       "Negative predictive value (99 %)"
     ],
     "answer": 2,
     "explanation": "Always predicting 'healthy' yields 99 % accuracy, 100 % specificity and 99 % NPV, but recall for the ill class is 0 %.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "scikit-learn User Guide, Metrics and scoring",
+      "url": "https://scikit-learn.org/stable/modules/model_evaluation.html"
     }
   },
   {
@@ -786,15 +786,15 @@
     "question": "What does a ROC-AUC of 0.8 mean?",
     "options": [
       "A random positive outranks a random negative with probability 0.8",
-      "80 % of all predictions are correct at the threshold of 0.5",
-      "Precision equals 0.8 at every possible decision threshold",
-      "80 % of positives are found without producing false positives"
+      "80 % of all predictions are correct at the default threshold of 0.5",
+      "Precision equals 0.8 at every possible decision threshold of the model",
+      "80 % of positives are found without producing any false positives"
     ],
     "answer": 0,
     "explanation": "AUC equals the probability that a randomly chosen positive is ranked above a randomly chosen negative. It is threshold-independent, so it says nothing about accuracy at 0.5.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "scikit-learn User Guide, Metrics and scoring",
+      "url": "https://scikit-learn.org/stable/modules/model_evaluation.html"
     }
   },
   {
@@ -804,16 +804,16 @@
     "difficulty": 3,
     "question": "For a detection task with 0.5 % positives, why can ROC-AUC look flattering?",
     "options": [
-      "The false-positive rate divides by the huge negative class, so false alarms barely register",
-      "ROC curves ignore the true-positive rate of the classifier",
-      "AUC is mathematically undefined for imbalanced data sets",
-      "Precision is computed over the negative class only"
+      "FPR divides by the huge negative class, so false alarms barely show",
+      "ROC curves ignore the true-positive rate of the classifier altogether",
+      "AUC is mathematically undefined whenever the data set is imbalanced",
+      "Precision is computed over the negative class only, not the positives"
     ],
     "answer": 0,
-    "explanation": "FPR = FP / (FP + TN) stays small even with many false alarms when negatives dominate, whereas precision falls. Precision-recall curves are more informative here.",
+    "explanation": "FPR = FP / (FP + TN) stays small even with many false alarms when negatives dominate, whereas precision falls. Precision-recall curves are often more informative here.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "Saito & Rehmsmeier (2015), The Precision-Recall Plot Is More Informative than the ROC Plot on Imbalanced Datasets",
+      "url": "https://doi.org/10.1371/journal.pone.0118432"
     }
   },
   {
@@ -831,8 +831,8 @@
     "answer": 3,
     "explanation": "Lowering the threshold: recall 50/60 = 0.83 (was 40/60), precision 50/80 = 0.63 (was 40/50). It is the classic trade-off: more positives found, more false alarms.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "scikit-learn User Guide, Metrics and scoring",
+      "url": "https://scikit-learn.org/stable/modules/model_evaluation.html"
     }
   },
   {
@@ -850,8 +850,8 @@
     "answer": 1,
     "explanation": "Class weights change the loss, not the data. Oversampling before the split leaks duplicates into the test set, and altering the test set or reporting accuracy distorts evaluation.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "He & Garcia (2009), Learning from Imbalanced Data, IEEE TKDE",
+      "url": "https://doi.org/10.1109/TKDE.2008.239"
     }
   },
   {
@@ -861,16 +861,16 @@
     "difficulty": 3,
     "question": "A team fits a feature scaler on the full data set, then splits it into training and test sets. What problem arises?",
     "options": [
-      "Concept drift once the model runs in production",
-      "Data leakage, which gives an optimistic test estimate",
-      "Class imbalance within the final test set",
-      "Underfitting of the final trained model"
+      "Concept drift, which appears once the model runs in production",
+      "Data leakage, which gives an overly optimistic test estimate",
+      "Class imbalance, which arises inside the final test set only",
+      "Underfitting, which limits the final trained model's capacity"
     ],
     "answer": 1,
     "explanation": "Test-set statistics influence the preprocessing, so information leaks into training and the test score is optimistic. Scalers must be fitted on training data only.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "scikit-learn User Guide, Common pitfalls (data leakage)",
+      "url": "https://scikit-learn.org/stable/common_pitfalls.html"
     }
   },
   {
@@ -882,14 +882,14 @@
     "options": [
       "Integer codes 1 to 27",
       "Alphabetical rank scaled to 0-1",
-      "One-hot encoding",
+      "One-hot encoding with binary columns",
       "Replacing each country by its string length"
     ],
     "answer": 2,
     "explanation": "One-hot encoding avoids imposing a false order on nominal categories. Integer codes would let a linear model treat 'country 27' as 27 times 'country 1'.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "scikit-learn User Guide, Preprocessing data (one-hot encoding)",
+      "url": "https://scikit-learn.org/stable/modules/preprocessing.html"
     }
   },
   {
@@ -907,8 +907,8 @@
     "answer": 3,
     "explanation": "Gini = 1 - (0.6^2 + 0.4^2) = 1 - 0.52 = 0.48. The value 0.52 is the sum of squared proportions, which the formula subtracts from 1.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "scikit-learn User Guide, Decision Trees (Gini impurity)",
+      "url": "https://scikit-learn.org/stable/modules/tree.html"
     }
   },
   {
@@ -919,15 +919,15 @@
     "question": "How does a random forest reduce prediction variance compared with a single deep decision tree?",
     "options": [
       "It fits each new tree sequentially to the residuals of the previous trees",
-      "It prunes a single tree until its training error is exactly zero",
-      "It averages many trees fitted on bootstrap samples with random feature subsets",
+      "It prunes a single tree repeatedly until its training error is exactly zero",
+      "It averages many trees fitted on bootstrap samples and random feature subsets",
       "It trains one tree on features sorted by their correlation with the label"
     ],
     "answer": 2,
     "explanation": "Random forests combine bagging with random feature selection, so decorrelated trees average out variance. Sequential residual fitting describes gradient boosting.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "scikit-learn User Guide, Ensembles (bagging, random forests, gradient boosting)",
+      "url": "https://scikit-learn.org/stable/modules/ensemble.html"
     }
   },
   {
@@ -938,15 +938,15 @@
     "question": "Which description fits gradient boosting?",
     "options": [
       "Trees are trained independently on bootstrap samples and then averaged",
-      "A single deep tree is pruned using cross-validation scores",
-      "Trees are trained on disjoint feature sets and then vote",
-      "Trees are added sequentially, each fitted to the current ensemble's errors"
+      "A single deep tree is pruned step by step using cross-validation scores",
+      "Trees are trained on disjoint feature sets and then combined by a vote",
+      "Trees are added sequentially, each fitted to the ensemble's current errors"
     ],
     "answer": 3,
     "explanation": "Boosting builds an additive model stage by stage, each learner fitting the negative gradient (residuals) of the loss. Independent bootstrap averaging is bagging.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "scikit-learn User Guide, Ensembles (bagging, random forests, gradient boosting)",
+      "url": "https://scikit-learn.org/stable/modules/ensemble.html"
     }
   },
   {
@@ -956,16 +956,16 @@
     "difficulty": 2,
     "question": "Why do neural networks need non-linear activation functions such as ReLU?",
     "options": [
-      "They are required to compute the loss function value",
-      "They reduce the number of trainable parameters per layer",
-      "They guarantee convergence to a global loss minimum",
+      "They are required in order to compute the value of the loss function",
+      "They reduce the number of trainable parameters in every single layer",
+      "They guarantee convergence to a global minimum of the loss function",
       "Without them, stacked layers collapse into one linear transformation"
     ],
     "answer": 3,
     "explanation": "A composition of linear maps is itself linear, so depth would add no expressive power. Activations provide non-linearity but guarantee neither convergence nor fewer parameters.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "Goodfellow, Bengio, Courville, Deep Learning (2016)",
+      "url": "https://www.deeplearningbook.org/"
     }
   },
   {
@@ -975,16 +975,16 @@
     "difficulty": 2,
     "question": "What does backpropagation compute in a neural network?",
     "options": [
-      "The optimal learning rate for every layer of the network",
-      "The final class labels for all samples of the test set",
+      "The optimal learning rate for every single layer of the whole network",
+      "The final class labels for all of the samples in the whole test set",
       "Gradients of the loss with respect to the weights, via the chain rule",
-      "The best activation function for each individual neuron"
+      "The best activation function for each individual neuron in the network"
     ],
     "answer": 2,
     "explanation": "Backpropagation applies the chain rule layer by layer to obtain gradients, which an optimiser such as gradient descent then uses to update the weights.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "Goodfellow, Bengio, Courville, Deep Learning (2016)",
+      "url": "https://www.deeplearningbook.org/"
     }
   },
   {
@@ -1002,8 +1002,8 @@
     "answer": 2,
     "explanation": "Embeddings are dense vectors in which semantic similarity corresponds to geometric closeness, e.g. high cosine similarity. Their dimension is fixed, independent of text length.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "Mikolov et al. (2013), Efficient Estimation of Word Representations in Vector Space",
+      "url": "https://arxiv.org/abs/1301.3781"
     }
   },
   {
@@ -1021,8 +1021,8 @@
     "answer": 2,
     "explanation": "The dot product is 3x4 + 4x3 = 24 and each norm is 5, so the cosine is 24 / 25 = 0.96. It would be 1.00 only for vectors in the same direction.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "scikit-learn User Guide, Pairwise metrics (cosine similarity)",
+      "url": "https://scikit-learn.org/stable/metrics.html"
     }
   },
   {
@@ -1034,14 +1034,14 @@
     "options": [
       "Randomly deactivates units in each step, acting as a regulariser",
       "Permanently removes the least important neurons after training",
-      "Reduces the learning rate when validation loss rises",
-      "Drops training samples that have high loss"
+      "Reduces the learning rate whenever the validation loss starts to rise",
+      "Drops those training samples that have a particularly high loss"
     ],
     "answer": 0,
     "explanation": "Dropout randomly zeroes activations during training so units cannot co-adapt, which reduces overfitting. At inference all units are used, with scaling to compensate.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "Goodfellow, Bengio, Courville, Deep Learning (2016)",
+      "url": "https://www.deeplearningbook.org/"
     }
   },
   {
@@ -1053,8 +1053,8 @@
     "options": [
       "Raw data stay on local devices or sites; only model updates are shared",
       "All raw data are first pooled in one central data lake for training",
-      "Training happens without any exchange of gradients or parameters",
-      "Data are anonymised, so privacy risks disappear entirely"
+      "Training happens without any exchange of gradients or model parameters",
+      "Data are anonymised by design, so privacy risks disappear entirely"
     ],
     "answer": 0,
     "explanation": "In federated learning clients train locally and send updates for aggregation. EDPS notes that this reduces data movement but does not eliminate privacy risks, since updates can still leak information.",
@@ -1078,8 +1078,8 @@
     "answer": 1,
     "explanation": "Per 10 000 people: 95 true positives (100 x 0.95) and 495 false positives (9 900 x 0.05). The positive predictive value is 95 / 590, about 16 %. Many mistake it for sensitivity.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "Gigerenzer et al. (2007), Helping Doctors and Patients Make Sense of Health Statistics",
+      "url": "https://doi.org/10.1111/j.1539-6053.2008.00033.x"
     }
   },
   {
@@ -1097,8 +1097,8 @@
     "answer": 1,
     "explanation": "With k = 1 the decision boundary follows individual points (low bias, high variance). Larger k smooths predictions, increasing bias and lowering variance.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "Hastie, Tibshirani, Friedman, The Elements of Statistical Learning (2nd ed.)",
+      "url": "https://hastie.su.domains/ElemStatLearn/"
     }
   },
   {
@@ -1108,10 +1108,10 @@
     "difficulty": 2,
     "question": "Which statement about explaining a model's predictions is correct?",
     "options": [
-      "Post-hoc explanations are always exact reproductions of model reasoning",
-      "Deep neural networks are inherently self-interpretable by design",
-      "Self-interpretable models show input influence directly; black-box models need post-hoc methods",
-      "Explainability only becomes relevant once a model is in production"
+      "Post-hoc explanations are always exact reproductions of the reasoning inside the model",
+      "Deep neural networks are inherently self-interpretable by design, needing no extra methods",
+      "Self-interpretable models show input influence; black-box models need post-hoc methods",
+      "Explainability only becomes relevant once a model has been deployed in production and used"
     ],
     "answer": 2,
     "explanation": "EDPS distinguishes self-interpretable models from opaque ones that need post-hoc techniques, whose faithfulness is limited. Neither claim of exactness nor inherent deep-network interpretability holds.",
@@ -1135,8 +1135,8 @@
     "answer": 3,
     "explanation": "Early stopping monitors a validation metric and stops (often restoring the best checkpoint) when it no longer improves, limiting overfitting. Training loss keeps falling even while generalisation worsens.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "Goodfellow, Bengio, Courville, Deep Learning (2016)",
+      "url": "https://www.deeplearningbook.org/"
     }
   },
   {
@@ -1154,8 +1154,8 @@
     "answer": 0,
     "explanation": "Tokenisers split text into units such as words or word fragments that are mapped to IDs. Context limits and API pricing are expressed in tokens.",
     "source": {
-      "title": "Regulation (EU) 2024/1689 (AI Act), Recital 97 (training of general-purpose AI models)",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+      "title": "Sennrich, Haddow, Birch (2016), Neural Machine Translation of Rare Words with Subword Units",
+      "url": "https://aclanthology.org/P16-1162/"
     }
   },
   {
@@ -1165,16 +1165,16 @@
     "difficulty": 1,
     "question": "What is the context window of an LLM?",
     "options": [
-      "The maximum number of tokens it can process in one request, output included",
-      "The number of documents contained in its training corpus",
-      "The period of time that its training data covers",
-      "The number of parameters contained in its attention layers"
+      "The maximum number of tokens the model can handle in a single request",
+      "The number of documents contained in the corpus used for its training",
+      "The period of time that its training data covers, up to the cutoff",
+      "The number of parameters contained in each of its attention layers"
     ],
     "answer": 0,
     "explanation": "The context window bounds how many tokens (prompt and generated text) the model can attend to at once. The training-data period is the knowledge cutoff.",
     "source": {
-      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
-      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+      "title": "Brown et al. (2020), Language Models are Few-Shot Learners (context window)",
+      "url": "https://arxiv.org/abs/2005.14165"
     }
   },
   {
@@ -1184,16 +1184,16 @@
     "difficulty": 1,
     "question": "What does lowering the sampling temperature towards 0 do?",
     "options": [
-      "It makes output more varied, as low-probability tokens gain extra weight",
+      "It makes output more varied, as low-probability tokens gain much more weight",
       "It makes output more deterministic, as the likeliest token is nearly always chosen",
-      "It makes output longer, as the end-of-sequence token is suppressed",
-      "It makes output factually correct, as hallucinations are switched off"
+      "It makes output longer, as the end-of-sequence token is strongly suppressed",
+      "It makes output factually correct, as hallucinations are completely switched off"
     ],
     "answer": 1,
     "explanation": "Temperature rescales the logits before sampling; at 0 the model effectively performs greedy decoding. This improves repeatability, not truthfulness.",
     "source": {
-      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
-      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+      "title": "Holtzman et al. (2020), The Curious Case of Neural Text Degeneration (temperature, sampling)",
+      "url": "https://arxiv.org/abs/1904.09751"
     }
   },
   {
@@ -1222,16 +1222,16 @@
     "difficulty": 1,
     "question": "Which measure most directly reduces ungrounded answers from an enterprise assistant?",
     "options": [
-      "Raising the sampling temperature to encourage more diverse wording",
+      "Raising the sampling temperature to encourage more diverse wording in answers",
       "Retrieving approved documents and requiring answers from them, with citations",
-      "Increasing the maximum output length allowed per answer",
-      "Removing the system prompt to give the model more freedom"
+      "Increasing the maximum output length allowed for each generated answer",
+      "Removing the system prompt altogether to give the model more freedom"
     ],
     "answer": 1,
     "explanation": "Grounding answers in retrieved sources and requiring citations constrains the model and lets users verify claims. Higher temperature increases randomness, so it worsens fabrication.",
     "source": {
-      "title": "EDPS, Generative AI and the EUDPR - Orientations (revised 28 October 2025)",
-      "url": "https://www.edps.europa.eu/system/files/2025-10/25-10_28_revised_genai_orientations_en.pdf"
+      "title": "Lewis et al. (2020), Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "url": "https://arxiv.org/abs/2005.11401"
     }
   },
   {
@@ -1241,16 +1241,16 @@
     "difficulty": 1,
     "question": "In a RAG system, what is the role of an embedding model?",
     "options": [
-      "It generates the final answer text from the retrieved chunks",
-      "It ranks candidate tokens by probability during decoding",
-      "It filters out prompts that violate the usage policy",
-      "It maps text to vectors so that similar passages lie close together"
+      "It generates the final answer text from the retrieved chunks of text",
+      "It ranks candidate tokens by their probability during the decoding step",
+      "It filters out all prompts that violate the usage policy of the operator",
+      "It maps passages to vectors, so that similar passages lie close together"
     ],
     "answer": 3,
     "explanation": "Embedding models turn queries and chunks into vectors for similarity search. The generator, a separate LLM, writes the answer.",
     "source": {
-      "title": "EDPS, Generative AI and the EUDPR - Orientations (revised 28 October 2025)",
-      "url": "https://www.edps.europa.eu/system/files/2025-10/25-10_28_revised_genai_orientations_en.pdf"
+      "title": "Lewis et al. (2020), Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "url": "https://arxiv.org/abs/2005.11401"
     }
   },
   {
@@ -1260,16 +1260,16 @@
     "difficulty": 1,
     "question": "What is few-shot prompting?",
     "options": [
-      "Fine-tuning the model on a few examples using gradient updates",
-      "Training the model on only a few tokens from each sample",
+      "Fine-tuning the model on a few examples by means of gradient updates",
+      "Training the model on only a few tokens taken from every training sample",
       "Including a few worked examples in the prompt, with no weight updates",
-      "Running the model a few times and averaging the resulting weights"
+      "Running the model a few times and averaging the resulting model weights"
     ],
     "answer": 2,
     "explanation": "Few-shot prompting uses in-context examples; the weights stay fixed. Fine-tuning changes the weights, so it is a different technique.",
     "source": {
-      "title": "EDPS, Generative AI and the EUDPR - Orientations (revised 28 October 2025)",
-      "url": "https://www.edps.europa.eu/system/files/2025-10/25-10_28_revised_genai_orientations_en.pdf"
+      "title": "Brown et al. (2020), Language Models are Few-Shot Learners (few-shot in-context learning)",
+      "url": "https://arxiv.org/abs/2005.14165"
     }
   },
   {
@@ -1279,16 +1279,16 @@
     "difficulty": 2,
     "question": "In a transformer, how are the self-attention weights of a token computed?",
     "options": [
-      "From a fixed table of word co-occurrence counts built in advance",
-      "From a recurrent state passed on sequentially from the previous token",
-      "From scaled query-key dot products across all tokens, normalised by softmax",
-      "From the token's position index alone, ignoring all content vectors"
+      "From a fixed table of word co-occurrence counts that was built in advance",
+      "From a recurrent state passed on sequentially from the previous token step",
+      "From scaled query-key dot products over all tokens, normalised by softmax",
+      "From the token's position index alone, ignoring all of the content vectors"
     ],
     "answer": 2,
     "explanation": "Attention scores come from query-key dot products, scaled by the square root of the key dimension and passed through softmax to weight the value vectors. Recurrence belongs to RNNs.",
     "source": {
-      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
-      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+      "title": "Vaswani et al. (2017), Attention Is All You Need (scaled dot-product attention)",
+      "url": "https://arxiv.org/abs/1706.03762"
     }
   },
   {
@@ -1298,16 +1298,16 @@
     "difficulty": 2,
     "question": "In nucleus (top-p) sampling with p = 0.9, from which tokens does the model sample?",
     "options": [
-      "The smallest set of likeliest tokens whose cumulative probability reaches 0.9",
-      "The 90 likeliest tokens, regardless of their probabilities",
-      "Every token whose individual probability lies above 0.9",
-      "The top 90 % of the vocabulary ranked by training frequency"
+      "The smallest set of likeliest tokens whose total probability reaches 0.9",
+      "The 90 likeliest tokens at every step, regardless of their probabilities",
+      "Every token whose individual probability lies above the value of 0.9",
+      "The top 90 % of the vocabulary, ranked by frequency in the training data"
     ],
     "answer": 0,
     "explanation": "Top-p adapts the candidate set size to the distribution. A fixed number of candidates such as 90 is top-k sampling.",
     "source": {
-      "title": "EDPS, Generative AI and the EUDPR - Orientations (revised 28 October 2025)",
-      "url": "https://www.edps.europa.eu/system/files/2025-10/25-10_28_revised_genai_orientations_en.pdf"
+      "title": "Holtzman et al. (2020), The Curious Case of Neural Text Degeneration (nucleus sampling)",
+      "url": "https://arxiv.org/abs/1904.09751"
     }
   },
   {
@@ -1325,8 +1325,8 @@
     "answer": 1,
     "explanation": "Annotators rank candidate responses; the reward model learns to predict these preferences and guides policy optimisation. The pre-training objective is next-token prediction.",
     "source": {
-      "title": "EDPS, Generative AI and the EUDPR - Orientations (revised 28 October 2025)",
-      "url": "https://www.edps.europa.eu/system/files/2025-10/25-10_28_revised_genai_orientations_en.pdf"
+      "title": "Ouyang et al. (2022), Training language models to follow instructions with human feedback",
+      "url": "https://arxiv.org/abs/2203.02155"
     }
   },
   {
@@ -1336,16 +1336,16 @@
     "difficulty": 2,
     "question": "A ministry's chatbot must answer from policy documents that change weekly and show its sources. Which approach fits best?",
     "options": [
-      "Fine-tuning the model weekly on the new documents",
-      "Pre-training a new model from scratch each quarter",
-      "Retrieval-augmented generation over the document store",
-      "Increasing the sampling temperature"
+      "Fine-tuning the model every week on the newly published documents",
+      "Pre-training a completely new model from scratch each quarter",
+      "Retrieval-augmented generation over the live document store",
+      "Increasing the sampling temperature of the existing model"
     ],
     "answer": 2,
     "explanation": "RAG reflects document changes at once through the index and can cite the retrieved passages. Fine-tuning bakes knowledge into weights, which is slow and offers no source attribution.",
     "source": {
-      "title": "EDPS, Generative AI and the EUDPR - Orientations (revised 28 October 2025)",
-      "url": "https://www.edps.europa.eu/system/files/2025-10/25-10_28_revised_genai_orientations_en.pdf"
+      "title": "Lewis et al. (2020), Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "url": "https://arxiv.org/abs/2005.11401"
     }
   },
   {
@@ -1355,16 +1355,16 @@
     "difficulty": 2,
     "question": "What does LoRA do during fine-tuning?",
     "options": [
-      "It freezes pre-trained weights and trains small low-rank update matrices",
+      "It freezes pre-trained weights and trains low-rank update matrices",
       "It retrains every weight of the model at reduced numerical precision",
-      "It permanently prunes the weights with the lowest magnitude",
-      "It trains a second model to imitate the first model's outputs"
+      "It permanently prunes those weights that have the lowest magnitude",
+      "It trains a second model to imitate the outputs of the first model"
     ],
     "answer": 0,
     "explanation": "LoRA adds trainable low-rank matrices to selected layers while the original weights stay frozen, cutting trainable parameters and memory. Imitating a larger model is distillation.",
     "source": {
-      "title": "EDPS, Generative AI and the EUDPR - Orientations (revised 28 October 2025)",
-      "url": "https://www.edps.europa.eu/system/files/2025-10/25-10_28_revised_genai_orientations_en.pdf"
+      "title": "Hu et al. (2021), LoRA: Low-Rank Adaptation of Large Language Models",
+      "url": "https://arxiv.org/abs/2106.09685"
     }
   },
   {
@@ -1374,16 +1374,16 @@
     "difficulty": 2,
     "question": "Which sequence describes a basic RAG pipeline at query time?",
     "options": [
-      "Generate an answer first, embed it, then search for chunks to keep",
-      "Embed the query, retrieve nearest chunks, optionally rerank, add to prompt, generate",
-      "Fine-tune on the retrieved chunks, then embed the query, then generate",
-      "Rerank all documents, chunk the winners, then embed the query"
+      "Generate an answer first, embed that answer, then search for chunks to keep",
+      "Embed the query, retrieve nearest chunks, rerank, add them to the prompt, generate",
+      "Fine-tune on the retrieved chunks, then embed the query, then generate the answer",
+      "Rerank all documents, chunk the winning ones, then embed the query and generate"
     ],
     "answer": 1,
     "explanation": "At query time the query is embedded, top-k chunks retrieved, optionally reranked, inserted into the prompt and the LLM generates the answer. Chunking and indexing happen beforehand.",
     "source": {
-      "title": "EDPS, Generative AI and the EUDPR - Orientations (revised 28 October 2025)",
-      "url": "https://www.edps.europa.eu/system/files/2025-10/25-10_28_revised_genai_orientations_en.pdf"
+      "title": "Lewis et al. (2020), Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "url": "https://arxiv.org/abs/2005.11401"
     }
   },
   {
@@ -1393,16 +1393,16 @@
     "difficulty": 2,
     "question": "In RAG indexing, what is the main drawback of very large chunks?",
     "options": [
-      "Embeddings become exact, so that reranking becomes unnecessary",
-      "Retrieval recall always improves because no text is ever split",
-      "Retrieved passages hold more irrelevant text, diluting relevance and using context",
-      "Vector search becomes faster because fewer dimensions are needed"
+      "Embeddings become exact, so that a reranking step becomes entirely unnecessary",
+      "Retrieval recall always improves because no relevant text is ever split apart",
+      "Passages carry more irrelevant text, which dilutes relevance and wastes context",
+      "Vector search becomes faster because far fewer dimensions are needed per vector"
     ],
     "answer": 2,
     "explanation": "Large chunks blur a single embedding across topics and waste context-window space. Chunk size does not change embedding dimensions, and recall does not always improve.",
     "source": {
-      "title": "EDPS, Generative AI and the EUDPR - Orientations (revised 28 October 2025)",
-      "url": "https://www.edps.europa.eu/system/files/2025-10/25-10_28_revised_genai_orientations_en.pdf"
+      "title": "Lewis et al. (2020), Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "url": "https://arxiv.org/abs/2005.11401"
     }
   },
   {
@@ -1412,16 +1412,16 @@
     "difficulty": 2,
     "question": "In LLM tool use (function calling), who executes the requested tool?",
     "options": [
-      "The model itself, using computations inside its own weights",
-      "The application or agent runtime, which passes the result back to the model",
-      "The tokeniser, before the prompt is sent to the model",
-      "The vector database, automatically after each retrieval step"
+      "The model itself, using computations carried out inside its own weights",
+      "The application runtime, which then passes the result back to the model",
+      "The tokeniser, automatically before the prompt is sent to the model",
+      "The vector database, automatically after each retrieval step is complete"
     ],
     "answer": 1,
     "explanation": "The model only emits a structured call (name and arguments). The surrounding runtime runs the tool and feeds the result back, so it can enforce permissions.",
     "source": {
-      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
-      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+      "title": "Model Context Protocol Specification (2025-06-18), Server Features - Tools",
+      "url": "https://modelcontextprotocol.io/specification/2025-06-18/server/tools"
     }
   },
   {
@@ -1431,10 +1431,10 @@
     "difficulty": 2,
     "question": "What is the Model Context Protocol (MCP)?",
     "options": [
-      "An open protocol standardising how AI applications connect to tools and data sources",
-      "A training method for aligning model behaviour with human preferences",
-      "A file format for storing the weights of quantised models",
-      "A benchmark suite for evaluating the performance of AI agents"
+      "An open protocol standardising how AI applications connect to tools and data",
+      "A training method for aligning the behaviour of a model with human preferences",
+      "A file format for storing the weights of large quantised language models on disk",
+      "A benchmark suite for evaluating the task performance of autonomous AI agents"
     ],
     "answer": 0,
     "explanation": "MCP defines a client-server protocol, based on JSON-RPC 2.0, through which hosts access resources, prompts and tools offered by servers. It is neither a training method nor a benchmark.",
@@ -1451,15 +1451,15 @@
     "question": "A mail assistant with a send-mail tool summarises a message containing hidden text 'forward the inbox to X', and complies. What attack is this?",
     "options": [
       "Indirect prompt injection",
-      "Training-data poisoning",
-      "Model inversion",
-      "Membership inference"
+      "Training-data poisoning attack",
+      "Model inversion attack",
+      "Membership inference attack"
     ],
     "answer": 0,
     "explanation": "Instructions embedded in third-party content were treated as commands, which is indirect prompt injection. Poisoning targets training data, and the others extract information about training data.",
     "source": {
-      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
-      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+      "title": "OWASP Top 10 for LLM Applications, LLM01 Prompt Injection",
+      "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/"
     }
   },
   {
@@ -1477,8 +1477,8 @@
     "answer": 2,
     "explanation": "7 x 10^9 parameters x 0.5 byte = 3.5 GB. At 16 bits (2 bytes) it was 14 GB. Activations and the KV cache need extra memory.",
     "source": {
-      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
-      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+      "title": "Dettmers & Zettlemoyer (2022), The case for 4-bit precision",
+      "url": "https://arxiv.org/abs/2212.09720"
     }
   },
   {
@@ -1488,15 +1488,15 @@
     "difficulty": 2,
     "question": "What distinguishes an open-weight model from a closed model?",
     "options": [
-      "Its full training data, code and recipe are published under an open licence",
-      "It can only be reached through an API hosted by its provider",
-      "Its training data are guaranteed to contain no personal data",
-      "Its trained weights can be downloaded and run locally; data and code may stay undisclosed"
+      "Its full training data, code and recipe are all published under an open licence",
+      "It can only be reached through a web API that is hosted by its own provider",
+      "Its training data are guaranteed by the provider to contain no personal data",
+      "Its weights can be downloaded and run locally; data and code may stay closed"
     ],
     "answer": 3,
     "explanation": "Open-weight means weights are available; it does not imply full openness of data or code, nor any guarantee about training data. Hosted-only access is the closed-model case.",
     "source": {
-      "title": "Regulation (EU) 2024/1689 (AI Act), Recital 97",
+      "title": "Regulation (EU) 2024/1689 (AI Act), Recital 102 (free and open-source licences, publicly available weights)",
       "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
     }
   },
@@ -1515,8 +1515,8 @@
     "answer": 3,
     "explanation": "Distillation trains a smaller model on the teacher's soft outputs, capturing much of its behaviour at lower cost. LoRA, by contrast, adapts a single model.",
     "source": {
-      "title": "EDPS, Generative AI and the EUDPR - Orientations (revised 28 October 2025)",
-      "url": "https://www.edps.europa.eu/system/files/2025-10/25-10_28_revised_genai_orientations_en.pdf"
+      "title": "Hinton, Vinyals, Dean (2015), Distilling the Knowledge in a Neural Network",
+      "url": "https://arxiv.org/abs/1503.02531"
     }
   },
   {
@@ -1534,8 +1534,8 @@
     "answer": 3,
     "explanation": "Precision@5 = 3/5 = 0.60 and recall@5 = 3/4 = 0.75. Swapping the denominators gives the tempting wrong pair.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "Manning, Raghavan, Schutze, Introduction to Information Retrieval, Evaluation of ranked retrieval results",
+      "url": "https://nlp.stanford.edu/IR-book/html/htmledition/evaluation-of-ranked-retrieval-results-1.html"
     }
   },
   {
@@ -1545,16 +1545,16 @@
     "difficulty": 3,
     "question": "Why do transformers add positional information to token embeddings?",
     "options": [
-      "To reduce the size of the vocabulary used by the tokeniser",
-      "To make the cost of attention linear in sequence length",
-      "To replace the feed-forward layers inside every block",
+      "To reduce the size of the vocabulary that is used by the tokeniser",
+      "To make the computational cost of attention linear in sequence length",
+      "To replace the feed-forward layers that sit inside every single block",
       "Attention has no notion of token order, which would otherwise be lost"
     ],
     "answer": 3,
     "explanation": "Self-attention treats the input as a set of vectors; positional encodings inject order. Standard attention cost remains quadratic in sequence length.",
     "source": {
-      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
-      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+      "title": "Vaswani et al. (2017), Attention Is All You Need (positional encoding)",
+      "url": "https://arxiv.org/abs/1706.03762"
     }
   },
   {
@@ -1572,8 +1572,8 @@
     "answer": 1,
     "explanation": "2 x 4096 x 8 = 65 536. The value 16 777 216 is the full matrix, 32 768 counts only one factor, and 131 072 would correspond to r = 16.",
     "source": {
-      "title": "EDPS, Generative AI and the EUDPR - Orientations (revised 28 October 2025)",
-      "url": "https://www.edps.europa.eu/system/files/2025-10/25-10_28_revised_genai_orientations_en.pdf"
+      "title": "Hu et al. (2021), LoRA: Low-Rank Adaptation of Large Language Models",
+      "url": "https://arxiv.org/abs/2106.09685"
     }
   },
   {
@@ -1583,16 +1583,16 @@
     "difficulty": 3,
     "question": "Why do production RAG systems often use approximate nearest-neighbour indexes such as HNSW?",
     "options": [
-      "They guarantee exact top-k results while using less memory",
-      "They remove the need for embeddings by indexing keywords instead",
+      "They guarantee exact top-k results while also using much less memory",
+      "They remove the need for embeddings by indexing keywords instead of vectors",
       "They trade a little recall for much lower latency on large collections",
       "They shrink vector dimensionality without any loss of information"
     ],
     "answer": 2,
     "explanation": "ANN indexes avoid exhaustive comparison and may miss some true neighbours. They are therefore approximate, not exact.",
     "source": {
-      "title": "EDPS, Generative AI and the EUDPR - Orientations (revised 28 October 2025)",
-      "url": "https://www.edps.europa.eu/system/files/2025-10/25-10_28_revised_genai_orientations_en.pdf"
+      "title": "Malkov & Yashunin (2016/2020), Efficient and robust approximate nearest neighbor search using HNSW graphs",
+      "url": "https://arxiv.org/abs/1603.09320"
     }
   },
   {
@@ -1602,16 +1602,16 @@
     "difficulty": 3,
     "question": "Why is a cross-encoder reranker applied only to the top-k candidates of first-stage retrieval?",
     "options": [
-      "It scores passages independently of the query, which makes it cheaper",
+      "It scores passages independently of the query, which therefore makes it much cheaper",
       "It scores each query-passage pair jointly: accurate, but too costly for the whole corpus",
-      "It is less accurate than bi-encoder retrieval but runs faster",
-      "It writes the final answer text separately for each candidate"
+      "It is less accurate than bi-encoder retrieval but runs much faster on large corpora",
+      "It writes the final answer text separately for each one of the retrieved candidate passages"
     ],
     "answer": 1,
     "explanation": "Joint encoding of query and passage captures fine interactions but requires one forward pass per pair, so it is used on a short list. Bi-encoders allow pre-computed vectors and fast search.",
     "source": {
-      "title": "EDPS, Generative AI and the EUDPR - Orientations (revised 28 October 2025)",
-      "url": "https://www.edps.europa.eu/system/files/2025-10/25-10_28_revised_genai_orientations_en.pdf"
+      "title": "Nogueira & Cho (2019), Passage Re-ranking with BERT",
+      "url": "https://arxiv.org/abs/1901.04085"
     }
   },
   {
@@ -1619,12 +1619,12 @@
     "pkg": "ad8-ki",
     "area": "genai-llm",
     "difficulty": 3,
-    "question": "Which transports does the MCP specification define for client-server communication?",
+    "question": "Which transports does the MCP specification (version 2025-06-18) define for client-server communication?",
     "options": [
-      "gRPC and MQTT",
+      "gRPC streaming and MQTT",
       "stdio and Streamable HTTP",
-      "SOAP and WebDAV",
-      "WebRTC and SMTP"
+      "SOAP over HTTP and WebDAV",
+      "WebRTC data channels and SMTP"
     ],
     "answer": 1,
     "explanation": "The 2025-06-18 specification defines two standard transports, stdio for local processes and Streamable HTTP for remote servers. Messages are JSON-RPC 2.0 in both cases.",
@@ -1641,15 +1641,15 @@
     "question": "Which control best limits the damage of a successful prompt injection against a tool-using agent?",
     "options": [
       "A system prompt that tells the model to ignore malicious instructions",
-      "Setting the sampling temperature to zero for all requests",
-      "Enlarging the context window to hold more safety instructions",
+      "Setting the sampling temperature to zero for every request sent to the model",
+      "Enlarging the context window to hold many more safety instructions for the model",
       "Least-privilege tool permissions plus human approval of sensitive actions"
     ],
     "answer": 3,
     "explanation": "Because injected text cannot be reliably told apart from legitimate instructions, defence relies on limiting what the agent can do. Prompt wording and temperature do not constrain a compromised model.",
     "source": {
-      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
-      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+      "title": "OWASP Top 10 for LLM Applications, LLM01 Prompt Injection",
+      "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/"
     }
   },
   {
@@ -1659,16 +1659,16 @@
     "difficulty": 3,
     "question": "A model scores very high on a public benchmark but poorly on a new private test of the same skill. What is the most likely cause?",
     "options": [
-      "Underfitting caused by an excessive number of training tokens",
-      "A learning rate that was set too low during inference",
-      "Class imbalance among the benchmark's answer options",
-      "Benchmark contamination: test items leaked into the training data"
+      "Underfitting caused by an excessive number of tokens used in training",
+      "A learning rate that had been set far too low during the inference runs",
+      "Class imbalance among the answer options of the public benchmark itself",
+      "Benchmark contamination: test items had leaked into the training data"
     ],
     "answer": 3,
     "explanation": "Public benchmarks can appear in web-scale training corpora, inflating scores through memorisation. Private fresh test sets are therefore used to check generalisation.",
     "source": {
-      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
-      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+      "title": "Magar & Schwartz (2022), Data Contamination: From Memorization to Exploitation",
+      "url": "https://arxiv.org/abs/2203.08242"
     }
   },
   {
@@ -1686,8 +1686,8 @@
     "answer": 2,
     "explanation": "LLM judges show verbosity and position biases, which is why order is randomised and results calibrated against human ratings. They can grade free text without references.",
     "source": {
-      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
-      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+      "title": "Zheng et al. (2023), Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+      "url": "https://arxiv.org/abs/2306.05685"
     }
   },
   {
@@ -1698,15 +1698,15 @@
     "question": "What does the KV cache do during autoregressive generation?",
     "options": [
       "It stores keys and values of earlier tokens, avoiding their recomputation",
-      "It caches earlier user answers to return identical responses",
-      "It stores the vocabulary embeddings on disk between requests",
-      "It keeps the training corpus available for later retrieval"
+      "It caches earlier user answers in order to return identical responses later",
+      "It stores the vocabulary embeddings on disk between two separate requests",
+      "It keeps the training corpus available for later retrieval by the model"
     ],
     "answer": 0,
     "explanation": "Each new token attends to all earlier tokens; caching their key and value tensors avoids recomputation, at the price of memory growing with context length.",
     "source": {
-      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
-      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+      "title": "Pope et al. (2022), Efficiently Scaling Transformer Inference (KV cache)",
+      "url": "https://arxiv.org/abs/2211.05102"
     }
   },
   {
@@ -1716,10 +1716,10 @@
     "difficulty": 1,
     "question": "In a customer table, 8 % of mandatory 'date of birth' fields are empty. Which data-quality dimension is mainly affected?",
     "options": [
-      "Accuracy",
-      "Uniqueness",
-      "Timeliness",
-      "Completeness"
+      "Accuracy of the stored values",
+      "Uniqueness of the customer rows",
+      "Timeliness of the data updates",
+      "Completeness of the data fields"
     ],
     "answer": 3,
     "explanation": "Missing mandatory values reduce completeness. Art. 10(3) of the AI Act requires data sets to be, as far as possible, free of errors and complete in view of the intended purpose.",
@@ -1735,10 +1735,10 @@
     "difficulty": 1,
     "question": "What does data lineage record?",
     "options": [
-      "The access-control list that applies to each data set",
+      "The access-control list that applies to each individual data set",
       "The origin of data and the transformations applied along its path",
-      "The storage cost per terabyte for each data store",
-      "The distribution of every feature over time in production"
+      "The storage cost per terabyte for each data store in the organisation",
+      "The distribution of every feature over time while in production use"
     ],
     "answer": 1,
     "explanation": "Lineage traces sources and processing steps, supporting audits. Art. 10(2)(b)-(c) of the AI Act requires governance of data origin, collection and preparation such as cleaning and labelling.",
@@ -1754,16 +1754,16 @@
     "difficulty": 1,
     "question": "What is the main purpose of a model registry?",
     "options": [
-      "Storing raw training data together with row-level lineage records",
-      "Serving predictions to client applications at very low latency",
-      "Versioned storage of trained models with metadata and stage, for controlled promotion",
-      "Labelling new training data through a pool of crowd workers"
+      "Storing raw training data together with row-level lineage records for audits",
+      "Serving predictions to client applications at very low latency under load",
+      "Versioned storage of trained models with metadata and stage, for promotion",
+      "Labelling new training data through a managed pool of crowd workers at scale"
     ],
     "answer": 2,
     "explanation": "A registry keeps model artefacts, versions, metrics and stage (e.g. staging or production), enabling traceable promotion and rollback. It does not serve predictions or hold raw data.",
     "source": {
-      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
-      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+      "title": "Kreuzberger, Kuhl, Hirschl (2023), Machine Learning Operations (MLOps): Overview, Definition, and Architecture",
+      "url": "https://arxiv.org/abs/2205.02302"
     }
   },
   {
@@ -1773,16 +1773,16 @@
     "difficulty": 2,
     "question": "Which problem does a feature store mainly help prevent?",
     "options": [
-      "Training-serving skew from computing features differently offline and online",
-      "Overfitting that results from having too many model parameters",
-      "Label noise that is already present in the training set",
-      "Vanishing gradients that occur in very deep networks"
+      "Training-serving skew from differing offline and online feature code",
+      "Overfitting that results from having far too many model parameters",
+      "Label noise that is already present in the labelled training data set",
+      "Vanishing gradients that occur during training of very deep networks"
     ],
     "answer": 0,
     "explanation": "A feature store provides one definition of each feature for both training and serving, so that the model sees consistent inputs. It does not address overfitting or label quality.",
     "source": {
-      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
-      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+      "title": "Kreuzberger, Kuhl, Hirschl (2023), Machine Learning Operations (MLOps): Overview, Definition, and Architecture",
+      "url": "https://arxiv.org/abs/2205.02302"
     }
   },
   {
@@ -1790,18 +1790,18 @@
     "pkg": "ad8-ki",
     "area": "data-mlops",
     "difficulty": 2,
-    "question": "Besides code tests, what should a CI/CD pipeline for ML use to gate promotion of a new model?",
+    "question": "Besides code tests, which additional gate is typical in a CI/CD pipeline for ML before a new model is promoted?",
     "options": [
-      "Only unit tests that cover the model-serving code",
-      "A decrease of the training loss, taken on its own",
-      "Data validation and evaluation against a baseline model",
-      "The size of the container image, taken on its own"
+      "Only unit tests that cover the model-serving code and its API",
+      "A decrease of the training loss on the training data, taken on its own",
+      "Data validation checks and evaluation against the baseline model",
+      "The size of the container image built by the pipeline, on its own"
     ],
     "answer": 2,
     "explanation": "ML pipelines must validate data and compare evaluation metrics with the current model before release, since failures often come from data or performance regressions, not code.",
     "source": {
-      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
-      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+      "title": "Kreuzberger, Kuhl, Hirschl (2023), Machine Learning Operations (MLOps): Overview, Definition, and Architecture",
+      "url": "https://arxiv.org/abs/2205.02302"
     }
   },
   {
@@ -1819,8 +1819,8 @@
     "answer": 2,
     "explanation": "Concept drift means P(y|x) changes. Covariate shift concerns changes in P(x) with a stable relationship, which is not the case here.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "Gama et al. (2014), A survey on concept drift adaptation, ACM Computing Surveys",
+      "url": "https://doi.org/10.1145/2523813"
     }
   },
   {
@@ -1830,16 +1830,16 @@
     "difficulty": 2,
     "question": "Which technique compares a numeric feature's production distribution with its training distribution to detect drift?",
     "options": [
-      "Confusion matrix on live labels",
-      "k-fold cross-validation",
-      "Backpropagation",
+      "Confusion matrix computed on live labels",
+      "k-fold cross-validation on the training data",
+      "Backpropagation through the trained network",
       "Two-sample Kolmogorov-Smirnov test"
     ],
     "answer": 3,
     "explanation": "The two-sample KS test measures the maximum distance between two empirical distributions and needs no labels. A confusion matrix requires ground truth.",
     "source": {
-      "title": "ENISA, Securing Machine Learning Algorithms (2021)",
-      "url": "https://www.enisa.europa.eu/publications/securing-machine-learning-algorithms"
+      "title": "Rabanser, Gunnemann, Lipton (2019), Failing Loudly: An Empirical Study of Methods for Detecting Dataset Shift",
+      "url": "https://arxiv.org/abs/1810.11953"
     }
   },
   {
@@ -1857,8 +1857,8 @@
     "answer": 0,
     "explanation": "In shadow mode the new model receives a copy of production requests but its outputs are only logged. A canary release serves real responses to a small share of users, as does an A/B test.",
     "source": {
-      "title": "ENISA, Multilayer Framework for Good Cybersecurity Practices for AI (2023)",
-      "url": "https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai"
+      "title": "Kreuzberger, Kuhl, Hirschl (2023), Machine Learning Operations (MLOps): Overview, Definition, and Architecture",
+      "url": "https://arxiv.org/abs/2205.02302"
     }
   },
   {
@@ -1868,10 +1868,10 @@
     "difficulty": 3,
     "question": "Under the AI Act, how must high-risk systems that continue to learn after deployment be developed with regard to their outputs?",
     "options": [
-      "To forbid any retraining once the system is on the market",
-      "To retrain automatically whenever accuracy drops by 1 %",
-      "To log outputs without taking any steps against feedback loops",
-      "To eliminate or reduce the risk of biased outputs feeding future inputs (feedback loops)"
+      "To forbid any further retraining or updating once the system is on the market",
+      "To retrain itself automatically whenever its accuracy drops by 1 % or more",
+      "To log outputs without taking any steps against feedback loops from biased outputs",
+      "To eliminate or reduce the risk of biased outputs that feed into future inputs"
     ],
     "answer": 3,
     "explanation": "Art. 15(4) requires such systems to be developed so that feedback loops are eliminated or reduced and duly addressed with mitigation measures. It neither forbids learning nor fixes a retraining trigger.",
@@ -1887,10 +1887,10 @@
     "difficulty": 3,
     "question": "What is the purpose of post-market monitoring by providers of high-risk AI systems?",
     "options": [
-      "To replace the conformity assessment done before market placement",
-      "To collect and analyse performance data over the lifetime to check continuing compliance",
-      "To let deployers retrain models without any documentation duties",
-      "To register every single inference in an EU-wide database"
+      "To replace the whole conformity assessment that is done before market placement",
+      "To collect and analyse performance data throughout the lifetime to check compliance",
+      "To let deployers retrain the models freely without any documentation duties at all",
+      "To register every single inference of the system in a central EU-wide database"
     ],
     "answer": 1,
     "explanation": "Art. 72(2) requires a system that actively and systematically collects, documents and analyses performance data throughout the lifetime. It complements, not replaces, ex-ante conformity assessment.",
