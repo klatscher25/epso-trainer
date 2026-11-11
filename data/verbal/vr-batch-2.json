@@ -6,21 +6,21 @@
     "text": "Inflation bezeichnet einen anhaltenden Anstieg des allgemeinen Preisniveaus in einer Volkswirtschaft. Gemessen wird sie in der Regel anhand eines Warenkorbs, der typische Ausgaben privater Haushalte abbildet, etwa für Nahrungsmittel, Wohnen, Verkehr und Freizeit. Steigt der Gesamtpreis dieses Warenkorbs von einem Jahr zum nächsten, spricht man von einer positiven Inflationsrate. Sinken die Preise dagegen über längere Zeit, liegt Deflation vor. Moderate Inflation gilt vielen Zentralbanken als unproblematisch, weil sie Spielraum für Anpassungen von Löhnen und Preisen lässt. Hohe Inflation hingegen verringert die Kaufkraft von Ersparnissen, wenn die Zinsen auf Guthaben niedriger sind als die Preissteigerung. Besonders belastet sind Haushalte mit geringem Einkommen, da sie einen größeren Teil ihres Geldes für Güter des täglichen Bedarfs ausgeben, deren Preise oft schneller steigen. Zentralbanken versuchen, die Teuerung durch die Anpassung der Leitzinsen zu steuern. Eine Erhöhung der Zinsen verteuert Kredite und dämpft dadurch tendenziell die Nachfrage. Die Entwicklung der Preise wird von statistischen Ämtern regelmäßig veröffentlicht und in der Öffentlichkeit aufmerksam verfolgt.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Ersparnisse verlieren an Kaufkraft, wenn Guthaben niedriger verzinst werden, als die Preise steigen.",
-      "Die Inflationsrate wird in der Regel anhand der Preisentwicklung eines einzelnen Leitprodukts wie Brot oder Benzin ermittelt.",
-      "Moderate Inflation gilt allen Zentralbanken ohne Einschränkung als unproblematisch, weil sie Spielraum für Anpassungen von Löhnen lässt.",
-      "Eine Erhöhung der Leitzinsen senkt die Teuerung in jedem Fall, weil Kredite dadurch günstiger werden."
+      "Bei hoher Inflation verlieren Ersparnisse an Kaufkraft, wenn die Guthabenzinsen unter der Preissteigerung liegen.",
+      "Die Inflationsrate ergibt sich in der Regel aus der Preisentwicklung eines einzelnen Leitprodukts wie Brot oder Benzin.",
+      "Moderate Inflation gilt vielen Zentralbanken als unproblematisch, weil sie Haushalte mit geringem Einkommen besonders entlastet.",
+      "Eine Erhöhung der Leitzinsen senkt die Teuerung stets, weil sie Kredite verteuert."
     ],
     "answer": 0,
     "why": [
       "Richtig: Laut Text verringert hohe Inflation die Kaufkraft von Ersparnissen, „wenn die Zinsen auf Guthaben niedriger sind als die Preissteigerung“.",
-      "Falsch: Gemessen wird „anhand eines Warenkorbs“, nicht anhand eines einzelnen Produkts.",
-      "Falsch: Der Text sagt nur, moderate Inflation gelte „vielen Zentralbanken“ als unproblematisch, nicht allen.",
-      "Falsch: Der Text spricht nur davon, höhere Zinsen dämpften „tendenziell die Nachfrage“; eine sichere Senkung der Inflation wird nicht behauptet."
+      "Falsch: Gemessen wird die Inflation „anhand eines Warenkorbs“ typischer Ausgaben, nicht anhand eines einzelnen Produkts.",
+      "Falsch: Der Grund für die Gelassenheit der Zentralbanken ist laut Text der „Spielraum für Anpassungen von Löhnen und Preisen“. Haushalte mit geringem Einkommen werden dagegen „besonders belastet“.",
+      "Falsch: Der Text sagt nur, höhere Zinsen dämpften „tendenziell die Nachfrage“. Eine sichere Senkung der Teuerung („stets“) wird nicht behauptet."
     ],
     "traps": [
       "Gegenteil",
-      "Überverallgemeinerung",
+      "Kausalität unterstellt",
       "Modalität (kann/muss)"
     ]
   },
@@ -31,22 +31,22 @@
     "text": "Zölle sind Abgaben, die beim Import von Waren über eine Grenze erhoben werden. Sie verteuern ausländische Produkte und sollen dadurch heimische Hersteller schützen oder dem Staat Einnahmen verschaffen. In Zollunionen verzichten die Mitgliedstaaten auf Zölle im Handel untereinander und erheben gegenüber Drittstaaten einen gemeinsamen Außenzoll. Die Europäische Union ist eine solche Zollunion. Waren, die in einem Mitgliedstaat zollrechtlich abgefertigt wurden, können danach grundsätzlich ohne weitere Zollkontrolle in andere Mitgliedstaaten weitergeliefert werden. Freihandelszonen unterscheiden sich davon: Ihre Mitglieder schaffen zwar Zölle untereinander ab, legen aber gegenüber Drittstaaten jeweils eigene Zollsätze fest. Dadurch könnten Waren aus Drittländern, die über ein Land mit niedrigem Zoll eingeführt werden, innerhalb der Freihandelszone weitergehandelt werden. Um das zu verhindern, verlangen Freihandelsabkommen meist Ursprungsnachweise, die belegen, wo eine Ware überwiegend hergestellt wurde. Zölle sind nicht das einzige Handelshemmnis; auch technische Normen und Genehmigungsverfahren können den Marktzugang erschweren. Welche Regeln im Einzelnen gelten, legen die beteiligten Staaten in Verträgen fest, die oft über viele Jahre ausgehandelt werden.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "In einer Zollunion legt jeder Mitgliedstaat die Außenzölle gegenüber Drittstaaten selbst fest.",
-      "Ursprungsnachweise sind in sämtlichen Freihandelsabkommen vorgeschrieben, um die Herkunft jeder Ware zu belegen.",
-      "In Freihandelszonen können Mitglieder gegenüber Drittstaaten unterschiedliche Zollsätze erheben.",
-      "Zölle sind das bedeutendste aller Handelshemmnisse, noch vor technischen Normen und Genehmigungsverfahren."
+      "In einer Zollunion bestimmt jeder Mitgliedstaat die Zollsätze gegenüber Drittstaaten selbst.",
+      "Ursprungsnachweise belegen, wo eine Ware überwiegend hergestellt wurde, und sichern damit den gemeinsamen Außenzoll einer Zollunion gegen Umgehung.",
+      "In einer Freihandelszone entscheidet jedes Mitglied selbst, welche Zollsätze es gegenüber Drittländern anwendet.",
+      "Technische Normen und Genehmigungsverfahren erschweren den Marktzugang weniger stark als Zölle und werden daher kaum beachtet."
     ],
     "answer": 2,
     "why": [
-      "Falsch: In Zollunionen gibt es „einen gemeinsamen Außenzoll“.",
-      "Falsch: Der Text sagt nur, Abkommen verlangten „meist“ Ursprungsnachweise.",
-      "Richtig: Freihandelszonen-Mitglieder legen „gegenüber Drittstaaten jeweils eigene Zollsätze fest“.",
-      "Falsch: Der Text nennt Zölle „nicht das einzige“ Hemmnis, stuft sie aber nicht als bedeutendstes ein."
+      "Falsch: Zollunionen erheben laut Text „gegenüber Drittstaaten einen gemeinsamen Außenzoll“. Eigene Zollsätze legen nur die Mitglieder einer Freihandelszone fest.",
+      "Falsch: Ursprungsnachweise werden laut Text von „Freihandelsabkommen“ verlangt, damit Drittlandswaren nicht über ein Land mit niedrigem Zoll einsickern. Von der Zollunion ist in diesem Zusammenhang nicht die Rede.",
+      "Richtig: Freihandelszonen legen laut Text „gegenüber Drittstaaten jeweils eigene Zollsätze“ fest. Das „jedes“ ist durch „jeweils eigene“ gedeckt.",
+      "Falsch: Der Text sagt nur, Zölle seien „nicht das einzige Handelshemmnis“. Eine Rangfolge der Wirkung wird nicht aufgestellt."
     ],
     "traps": [
       "Gegenteil",
-      "Überverallgemeinerung",
-      "Vergleich verdreht"
+      "Vergleich verdreht",
+      "Nicht im Text (Weltwissen)"
     ]
   },
   {
@@ -57,21 +57,21 @@
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
       "Steigende Marktzinsen erhöhen in der Regel den Kurs bereits ausgegebener Anleihen mit niedrigem Kupon.",
-      "Wer eine Anleihe bis zum Laufzeitende hält, ist von Kursschwankungen nicht betroffen, sofern der Staat zahlt.",
-      "Sämtliche Staatsanleihen haben Laufzeiten von mehreren Jahrzehnten und werden erst am Ende der Laufzeit verzinst.",
-      "Versicherungen halten Staatsanleihen, weil diese höhere Zinsen bieten als alle anderen Anlageformen."
+      "Wer die Anleihe bis zur Rückzahlung behält, muss Kursverluste durch steigende Marktzinsen nicht fürchten, solange der Staat zahlt.",
+      "Staaten mit hohem wahrgenommenem Ausfallrisiko zahlen niedrigere Zinsen, weil Anleger dort einen Ausgleich für die Laufzeit verlangen.",
+      "Versicherungen halten Staatsanleihen, weil diese höhere Zinsen bieten als Bankguthaben."
     ],
     "answer": 1,
     "why": [
-      "Falsch: Bei steigenden Marktzinsen „sinkt“ der Kurs solcher Anleihen.",
-      "Richtig: Wer bis zum Ende hält, „ist von diesen Kursschwankungen nicht betroffen, sofern der Staat seine Verpflichtungen erfüllt“.",
-      "Falsch: Die Laufzeiten reichen „von wenigen Monaten bis zu mehreren Jahrzehnten“.",
-      "Falsch: Als Grund nennt der Text „planbare Erträge“, nicht höhere Zinsen als bei anderen Anlagen."
+      "Falsch: Laut Text sinkt bei steigenden Marktzinsen „in der Regel der Kurs“ bereits ausgegebener Anleihen mit niedrigerem Kupon.",
+      "Richtig: „Wer eine Anleihe bis zum Laufzeitende hält, ist von diesen Kursschwankungen nicht betroffen, sofern der Staat seine Verpflichtungen erfüllt.“",
+      "Falsch: Je größer das wahrgenommene Ausfallrisiko, „desto höhere Zinsen verlangen die Käufer“. Das Gegenteil wird behauptet.",
+      "Falsch: Versicherungen halten Staatsanleihen laut Text, weil sie „planbare Erträge versprechen“. Ein Zinsvorsprung gegenüber Bankguthaben wird nicht genannt."
     ],
     "traps": [
       "Gegenteil",
-      "Überverallgemeinerung",
-      "Kausalität unterstellt"
+      "Kausalität unterstellt",
+      "Überverallgemeinerung"
     ]
   },
   {
@@ -81,20 +81,21 @@
     "text": "Kurzarbeit ist ein arbeitsmarktpolitisches Instrument, mit dem Unternehmen bei vorübergehenden Auftragseinbrüchen Entlassungen vermeiden können. Dabei wird die Arbeitszeit der Beschäftigten befristet verringert, und die Sozialversicherung gleicht einen Teil des dadurch entfallenden Entgelts aus. Die Beschäftigten behalten ihren Arbeitsvertrag und bleiben in der Regel im Betrieb, sodass Fachwissen erhalten bleibt. Für Unternehmen sinken die Lohnkosten, ohne dass sie bei einer Erholung der Nachfrage neues Personal suchen und einarbeiten müssen. Die Regelung ist an Voraussetzungen gebunden: Der Arbeitsausfall muss auf wirtschaftlichen Gründen oder auf einem unabwendbaren Ereignis beruhen und darf nur vorübergehend sein. Außerdem müssen die Beschäftigten ihre Arbeitsplätze grundsätzlich weiterhin ausfüllen können, sobald die Lage sich bessert. In der Finanzkrise 2008/2009 wurde Kurzarbeit in mehreren europäischen Ländern stark genutzt. Kritiker wenden ein, dass sie Strukturwandel verzögern kann, wenn Unternehmen dauerhaft nicht mehr tragfähige Arbeitsplätze mit öffentlichen Mitteln stützen. Die Bedingungen im Einzelnen sind gesetzlich geregelt und werden von den zuständigen Behörden geprüft, bevor Leistungen ausgezahlt werden.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Kurzarbeit setzt voraus, dass der Arbeitsausfall dauerhaft ist und nicht auf wirtschaftlichen Gründen beruht.",
-      "Die Beschäftigten verlieren bei Kurzarbeit ihren Arbeitsvertrag, behalten aber ihr Fachwissen.",
-      "Kurzarbeit verzögert nachweislich den Strukturwandel in allen Branchen.",
-      "Kurzarbeit senkt die Lohnkosten der Unternehmen, ohne dass diese Beschäftigte entlassen müssen."
+      "Kurzarbeit kann beantragt werden, sobald ein Unternehmen dauerhaft keine tragfähigen Arbeitsplätze mehr hat.",
+      "Kurzarbeit wird von den Betrieben selbst finanziert, die Sozialversicherung prüft lediglich die Voraussetzungen.",
+      "Kurzarbeit verzögert nachweislich in allen Branchen den Strukturwandel.",
+      "Bei Kurzarbeit bleibt das Arbeitsverhältnis bestehen, während die Lohnkosten des Betriebs vorübergehend sinken."
     ],
     "answer": 3,
     "why": [
-      "Falsch: Der Arbeitsausfall darf „nur vorübergehend sein“.",
-      "Falsch: Die Beschäftigten „behalten ihren Arbeitsvertrag“.",
-      "Falsch: Kritiker meinen nur, sie „kann“ den Strukturwandel verzögern; ein Nachweis oder eine Wirkung in allen Branchen steht nicht im Text.",
-      "Richtig: Laut Text sinken „die Lohnkosten“, und Entlassungen werden vermieden."
+      "Falsch: Der Arbeitsausfall darf laut Text „nur vorübergehend“ sein. Dauerhaft nicht tragfähige Arbeitsplätze nennen Kritiker als Problem der Kurzarbeit, nicht als Voraussetzung.",
+      "Falsch: Laut Text „gleicht“ die Sozialversicherung „einen Teil des dadurch entfallenden Entgelts aus“. Sie trägt also selbst zur Finanzierung bei.",
+      "Falsch: Der Text gibt nur den Einwand von Kritikern wieder, Kurzarbeit „kann“ den Strukturwandel verzögern. Von einem Nachweis oder von allen Branchen steht dort nichts.",
+      "Richtig: Die Beschäftigten „behalten ihren Arbeitsvertrag“, und „für Unternehmen sinken die Lohnkosten“, ohne dass Entlassungen nötig werden."
     ],
     "traps": [
       "Gegenteil",
+      "Zahl/Menge verdreht",
       "Modalität (kann/muss)"
     ]
   },
@@ -105,22 +106,22 @@
     "text": "Moore sind Feuchtgebiete, in denen sich abgestorbene Pflanzenreste wegen dauerhafter Nässe nur unvollständig zersetzen und als Torf ablagern. Obwohl Moore nur einen kleinen Teil der Landfläche der Erde einnehmen, speichern sie große Mengen Kohlenstoff, mehr als alle Wälder zusammen. Solange ein Moor nass bleibt, bleibt dieser Kohlenstoff im Boden gebunden. Wird ein Moor jedoch entwässert, etwa um Flächen für Landwirtschaft oder Torfabbau zu gewinnen, dringt Sauerstoff in den Torf ein. Dann zersetzt er sich, und es werden Treibhausgase freigesetzt. In Europa sind viele Moore im Laufe der vergangenen Jahrhunderte trockengelegt worden. Naturschutzverbände fordern deshalb die Wiedervernässung ehemaliger Moorflächen. Sie kann, wie Pilotprojekte zeigen, die Emissionen verringern, braucht aber oft Jahre, bis sich wieder eine Vegetation einstellt, die neuen Torf bildet. Zudem müssen Landwirte, die ihre Flächen bislang nutzten, für den Verlust ihrer Einnahmen entschädigt oder bei der Umstellung auf nassere Bewirtschaftung unterstützt werden. Die genaue Fläche der weltweiten Moore ist schwer zu bestimmen, da sich Schätzungen auf unterschiedliche Definitionen stützen.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Moore nehmen einen großen Teil der Landfläche der Erde ein und speichern dort mehr Kohlenstoff als alle Wälder.",
-      "Wiedervernässte Moorflächen bilden schon nach kurzer Zeit wieder neuen Torf und binden dabei Kohlenstoff.",
-      "Wird ein Moor entwässert, dringt Sauerstoff in den Torf ein, der sich zersetzt, und es werden Treibhausgase freigesetzt.",
-      "Landwirte lehnen die Wiedervernässung von Mooren grundsätzlich ab, auch wenn sie entschädigt werden."
+      "Die Fläche der weltweiten Moore ist genau bekannt, weil sich alle Schätzungen auf einheitliche Definitionen stützen.",
+      "Nach der Wiedervernässung eines Moores sinken die Emissionen, und schon im ersten Jahr bildet sich wieder neuer Torf.",
+      "Wird ein Moor trockengelegt, zersetzt sich der Torf, sobald Sauerstoff eindringt, und es entweichen Treibhausgase.",
+      "Für Landwirte ist die Wiedervernässung in jedem Fall unproblematisch, da sie ihre Flächen unverändert weiternutzen können."
     ],
     "answer": 2,
     "why": [
-      "Falsch: Moore nehmen laut Text „nur einen kleinen Teil der Landfläche“ ein.",
-      "Falsch: Es dauert „oft Jahre“, bis eine torfbildende Vegetation entsteht.",
-      "Richtig: Bei Entwässerung „dringt Sauerstoff in den Torf ein“, der sich zersetzt, und „Treibhausgase“ werden freigesetzt.",
-      "Falsch: Der Text sagt nur, Landwirte müssten entschädigt oder unterstützt werden; von grundsätzlicher Ablehnung ist keine Rede."
+      "Falsch: Laut Text ist die Fläche „schwer zu bestimmen“, weil Schätzungen auf „unterschiedlichen Definitionen“ beruhen.",
+      "Falsch: Die Wiedervernässung „braucht aber oft Jahre“, bis sich eine Vegetation einstellt, die neuen Torf bildet. Eine Torfbildung schon im ersten Jahr wird nicht gestützt.",
+      "Richtig: „Wird ein Moor jedoch entwässert … dringt Sauerstoff in den Torf ein. Dann zersetzt er sich, und es werden Treibhausgase freigesetzt.“",
+      "Falsch: Landwirte müssen laut Text „für den Verlust ihrer Einnahmen entschädigt oder bei der Umstellung auf nassere Bewirtschaftung unterstützt werden“. Unveränderte Weiternutzung ist nicht vorgesehen."
     ],
     "traps": [
       "Gegenteil",
       "Zeitangabe verdreht",
-      "Nicht im Text (Weltwissen)"
+      "Gegenteil"
     ]
   },
   {
@@ -130,20 +131,21 @@
     "text": "Der Meeresspiegel steigt aus zwei Hauptgründen. Zum einen dehnt sich Wasser aus, wenn es sich erwärmt; ein wärmer werdender Ozean beansprucht daher mehr Raum. Zum anderen gelangt zusätzliches Wasser in die Meere, wenn Landeis schmilzt, etwa von Gletschern und den großen Eisschilden in Grönland und der Antarktis. Dagegen trägt das Abschmelzen von Meereis, das bereits im Wasser schwimmt, kaum zum Anstieg bei. Der Anstieg verläuft nicht überall gleich schnell, weil Meeresströmungen, Windverhältnisse und die Schwerkraft großer Eismassen regionale Unterschiede erzeugen. Auch das Land selbst kann sich heben oder senken, sodass der an einer Küste gemessene Wasserstand nicht allein vom Ozean abhängt. Für Küstenregionen bedeutet ein höherer Meeresspiegel häufigere Überflutungen bei Sturmfluten sowie das Eindringen von Salzwasser in Grundwasser und Böden. Anpassungsmaßnahmen reichen von Deichen über Sturmflutwehre bis zur Umsiedlung gefährdeter Siedlungen. Welche Maßnahme sinnvoll ist, hängt von den örtlichen Gegebenheiten und den verfügbaren finanziellen Mitteln ab. Gemessen wird an Pegelstationen an Küsten sowie seit einigen Jahrzehnten zusätzlich mit Satelliten, die den Wasserstand großräumig erfassen.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Der an einer Küste gemessene Wasserstand kann auch durch Bewegungen des Landes beeinflusst sein.",
-      "Das Abschmelzen von schwimmendem Meereis ist die Hauptursache des Meeresspiegelanstiegs.",
-      "Der Meeresspiegel steigt an allen Küsten der Erde gleich schnell, unabhängig von Strömungen und Winden.",
-      "Sturmflutwehre sind die wirksamste Anpassungsmaßnahme an einen höheren Meeresspiegel, noch vor Deichen."
+      "Ein gemessener Küstenpegel hängt nicht allein vom Ozean ab, denn auch das Land kann sich heben oder senken.",
+      "Schmilzt schwimmendes Meereis, trägt das ähnlich stark zum Anstieg bei wie das Abschmelzen von Gletschern.",
+      "Regionale Unterschiede beim Anstieg des Meeresspiegels beruhen ausschließlich auf Messfehlern der Pegelstationen.",
+      "Welche Anpassungsmaßnahme sinnvoll ist, richtet sich nach der Höhe des Anstiegs und nicht nach den örtlichen Gegebenheiten."
     ],
     "answer": 0,
     "why": [
-      "Richtig: Das „Land selbst kann sich heben oder senken“, daher hängt der gemessene Wasserstand „nicht allein vom Ozean“ ab.",
-      "Falsch: Meereis trägt „kaum zum Anstieg bei“; Hauptgründe sind Ausdehnung und Landeis.",
-      "Falsch: Der Anstieg „verläuft nicht überall gleich schnell“.",
-      "Falsch: Der Text nennt mehrere Maßnahmen und sagt, die sinnvolle hänge von den örtlichen Gegebenheiten ab; eine wirksamste wird nicht benannt."
+      "Richtig: „Auch das Land selbst kann sich heben oder senken, sodass der an einer Küste gemessene Wasserstand nicht allein vom Ozean abhängt.“",
+      "Falsch: Das Abschmelzen von Meereis „trägt … kaum zum Anstieg bei“, anders als Landeis von Gletschern und Eisschilden.",
+      "Falsch: Regionale Unterschiede entstehen laut Text durch „Meeresströmungen, Windverhältnisse und die Schwerkraft großer Eismassen“, nicht durch Messfehler.",
+      "Falsch: Laut Text hängt die sinnvolle Maßnahme „von den örtlichen Gegebenheiten und den verfügbaren finanziellen Mitteln ab“."
     ],
     "traps": [
       "Gegenteil",
+      "Vergleich verdreht",
       "Nicht im Text (Weltwissen)"
     ]
   },
@@ -151,23 +153,23 @@
     "id": "vr-0057",
     "topic": "Energie",
     "difficulty": 2,
-    "text": "Pumpspeicherkraftwerke dienen dazu, elektrische Energie über Stunden bis Tage zu speichern. Sie bestehen aus zwei Wasserbecken in unterschiedlicher Höhe. Wenn im Stromnetz mehr Strom erzeugt als verbraucht wird, pumpen elektrische Pumpen Wasser aus dem unteren in das obere Becken. Steigt der Verbrauch, fließt das Wasser durch Turbinen zurück nach unten und erzeugt wieder Strom. Dabei geht ein Teil der Energie verloren; der Gesamtwirkungsgrad liegt typischerweise bei etwa drei Vierteln. Pumpspeicher gelten als erprobte und kostengünstige Technik für große Speichermengen, setzen jedoch geeignete Geländeformen voraus. Ihr Bau greift stark in die Landschaft ein und stößt deshalb oft auf Widerstand vor Ort. Mit dem wachsenden Anteil von Wind- und Solarenergie, deren Erzeugung schwankt, steigt der Bedarf an Speichern. Neben Pumpspeichern kommen dafür Batteriespeicher infrage, die schneller reagieren, aber bei sehr großen Energiemengen derzeit teurer sind. Welche Technik sich durchsetzt, hängt von Kosten, Standortbedingungen und der Entwicklung der Stromnachfrage ab. Die Anlagen werden meist von großen Energieversorgern betrieben und über viele Jahrzehnte genutzt, bevor umfangreiche Erneuerungen anstehen.",
+    "text": "Pumpspeicherkraftwerke dienen dazu, elektrische Energie über Stunden bis Tage zu speichern. Sie bestehen aus zwei Wasserbecken in unterschiedlicher Höhe. Wenn im Stromnetz mehr Strom erzeugt als verbraucht wird, pumpen elektrische Pumpen Wasser aus dem unteren in das obere Becken. Steigt der Verbrauch, fließt das Wasser durch Turbinen zurück nach unten und erzeugt wieder Strom. Dabei geht ein Teil der Energie verloren; der Gesamtwirkungsgrad liegt typischerweise bei etwa drei Vierteln. Pumpspeicher gelten als erprobte und kostengünstige Technik für große Speichermengen, setzen jedoch zwingend geeignete Geländeformen voraus. Ihr Bau greift stark in die Landschaft ein und stößt deshalb oft auf Widerstand vor Ort. Mit dem wachsenden Anteil von Wind- und Solarenergie, deren Erzeugung schwankt, steigt der Bedarf an Speichern. Neben Pumpspeichern kommen dafür Batteriespeicher infrage, die schneller reagieren, aber bei sehr großen Energiemengen derzeit teurer sind. Welche Technik sich durchsetzt, hängt von Kosten, Standortbedingungen und der Entwicklung der Stromnachfrage ab. Die Anlagen werden meist von großen Energieversorgern betrieben und über viele Jahrzehnte genutzt, bevor umfangreiche Erneuerungen anstehen.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Beim Pumpen und Zurückfließen des Wassers geht keine Energie verloren, der Wirkungsgrad beträgt nahezu hundert Prozent.",
-      "Batteriespeicher sind bei sehr großen Energiemengen derzeit günstiger als Pumpspeicher, reagieren aber langsamer.",
-      "Pumpspeicher speichern Strom vorrangig über mehrere Monate hinweg und gleichen so saisonale Schwankungen aus.",
-      "Pumpspeicher brauchen geeignetes Gelände, und ihr Bau stößt wegen der Eingriffe in die Landschaft oft auf Widerstand."
+      "Rund drei Viertel der eingesetzten Energie gehen beim Pumpspeicher verloren.",
+      "Bei sehr großen Energiemengen sind Batteriespeicher derzeit günstiger als Pumpspeicher, reagieren aber langsamer.",
+      "Pumpspeicher sind vor allem dafür gedacht, saisonale Schwankungen über mehrere Monate auszugleichen.",
+      "Pumpspeicher können nur dort entstehen, wo das Gelände geeignet ist, und stoßen wegen des Eingriffs in die Landschaft oft auf Widerstand."
     ],
     "answer": 3,
     "why": [
-      "Falsch: Es „geht ein Teil der Energie verloren“, der Wirkungsgrad liegt bei etwa drei Vierteln.",
-      "Falsch: Batteriespeicher sind bei sehr großen Mengen „derzeit teurer“.",
-      "Falsch: Genannt werden „Stunden bis Tage“, nicht Monate.",
-      "Richtig: Sie „setzen jedoch geeignete Geländeformen voraus“, und der Bau „stößt deshalb oft auf Widerstand vor Ort“."
+      "Falsch: Der Gesamtwirkungsgrad liegt „bei etwa drei Vierteln“. Verloren gehen also etwa ein Viertel, nicht drei Viertel.",
+      "Falsch: Batteriespeicher „reagieren schneller“ und sind bei sehr großen Energiemengen „derzeit teurer“. Beides wird hier umgekehrt.",
+      "Falsch: Pumpspeicher speichern Energie „über Stunden bis Tage“, nicht über Monate.",
+      "Richtig: Pumpspeicher „setzen jedoch zwingend geeignete Geländeformen voraus“, und ihr Bau „greift stark in die Landschaft ein und stößt deshalb oft auf Widerstand vor Ort“. Das „nur“ ist durch „zwingend“ gedeckt."
     ],
     "traps": [
-      "Gegenteil",
+      "Zahl/Menge verdreht",
       "Vergleich verdreht",
       "Zeitangabe verdreht"
     ]
@@ -179,22 +181,22 @@
     "text": "Radschnellwege sind breite, möglichst kreuzungsarme Verbindungen, die für den Alltagsverkehr mit dem Fahrrad zwischen Städten und ihrem Umland gebaut werden. Anders als gewöhnliche Radwege sind sie so angelegt, dass Radfahrende auch längere Strecken zügig und sicher zurücklegen können. Sie haben meist getrennte Fahrspuren für beide Richtungen, einen glatten Belag und Vorrang an Kreuzungen. Die Planung solcher Strecken ist aufwendig, weil sie oft mehrere Gemeinden queren und viele Beteiligte abgestimmt werden müssen. Befürworter erhoffen sich, dass Berufspendler dadurch häufiger vom Auto aufs Rad umsteigen. Besonders interessant sind Strecken bis etwa zehn Kilometer, die sich mit dem Fahrrad in rund einer halben Stunde bewältigen lassen. Mit Elektrofahrrädern vergrößert sich der Radius, in dem das Fahrrad mit anderen Verkehrsmitteln konkurrieren kann. Ob Radschnellwege tatsächlich zu einer spürbaren Verlagerung führen, hängt unter anderem davon ab, wie gut sie mit Bahnhöfen und Arbeitsorten verknüpft sind. Einzelne Länder fördern den Bau durch finanzielle Zuschüsse, während andere die Verantwortung überwiegend den Kommunen überlassen.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Radschnellwege haben stets Vorrang an allen Kreuzungen.",
-      "Radschnellwege verbinden meist mehrere Gemeinden, was ihre Planung aufwendig macht.",
-      "Berufspendler steigen durch Radschnellwege nachweislich in großer Zahl auf das Rad um.",
-      "Elektrofahrräder verkleinern den Radius, in dem das Fahrrad konkurrenzfähig ist."
+      "Radschnellwege sind ausnahmslos kreuzungsfrei angelegt.",
+      "Weil Radschnellwege häufig mehrere Gemeinden durchqueren, müssen für ihre Planung viele Beteiligte abgestimmt werden.",
+      "Radschnellwege sorgen dafür, dass Berufspendler häufiger vom Auto aufs Rad umsteigen.",
+      "Besonders geeignet sind Strecken von etwa dreißig Kilometern, die in einer halben Stunde zu fahren sind."
     ],
     "answer": 1,
     "why": [
-      "Falsch: Sie haben nur „meist“ Vorrang an Kreuzungen.",
-      "Richtig: Die Planung ist aufwendig, „weil sie oft mehrere Gemeinden queren“.",
-      "Falsch: Befürworter „erhoffen sich“ den Umstieg; ob es zu einer Verlagerung kommt, bleibt offen.",
-      "Falsch: Mit E-Rädern „vergrößert“ sich der Radius."
+      "Falsch: Radschnellwege sind laut Text „möglichst kreuzungsarm“ und haben „Vorrang an Kreuzungen“. Völlig kreuzungsfrei sind sie nicht.",
+      "Richtig: Die Planung ist „aufwendig, weil sie oft mehrere Gemeinden queren und viele Beteiligte abgestimmt werden müssen“.",
+      "Falsch: Das ist laut Text nur eine Hoffnung der „Befürworter“. Ob es „tatsächlich zu einer spürbaren Verlagerung“ kommt, hängt von der Verknüpfung mit Bahnhöfen und Arbeitsorten ab.",
+      "Falsch: Genannt werden „Strecken bis etwa zehn Kilometer“ in „rund einer halben Stunde“, nicht dreißig Kilometer."
     ],
     "traps": [
       "Überverallgemeinerung",
       "Kausalität unterstellt",
-      "Gegenteil"
+      "Zahl/Menge verdreht"
     ]
   },
   {
@@ -204,20 +206,21 @@
     "text": "Fruchtfolge bezeichnet den planmäßigen Wechsel der auf einem Acker angebauten Kulturen von Jahr zu Jahr. Wer jahrelang dieselbe Pflanze auf derselben Fläche anbaut, riskiert, dass sich pflanzenspezifische Krankheitserreger und Schädlinge im Boden vermehren. Ein Wechsel unterbricht deren Entwicklung. Außerdem entziehen verschiedene Pflanzen dem Boden unterschiedliche Nährstoffe; durch den Wechsel wird der Boden gleichmäßiger genutzt. Hülsenfrüchte wie Erbsen oder Bohnen leben in Gemeinschaft mit Knöllchenbakterien, die Stickstoff aus der Luft binden. Folgt auf eine Hülsenfrucht eine stickstoffbedürftige Kultur wie Weizen, kann der Landwirt oft weniger Dünger einsetzen. Eine abwechslungsreiche Fruchtfolge verteilt zudem Arbeitsspitzen im Jahresverlauf und verringert das wirtschaftliche Risiko, weil nicht alles von einer einzigen Ernte abhängt. Dem stehen Nachteile gegenüber: Manche Kulturen sind weniger rentabel als andere, und für jede Pflanze werden eigene Maschinen und Kenntnisse benötigt. Viele Betriebe finden deshalb einen Kompromiss zwischen ökologischem Nutzen und Wirtschaftlichkeit. Welche Kulturen sich sinnvoll abwechseln lassen, hängt vom Klima, vom Boden und von den Absatzmöglichkeiten des jeweiligen Betriebs ab.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Ein Wechsel der Kulturen fördert die Vermehrung bodenbürtiger Schädlinge.",
-      "Auf eine Hülsenfrucht folgend kann Weizen oft mit weniger Dünger angebaut werden.",
-      "Hülsenfrüchte benötigen besonders viel Stickstoffdünger.",
+      "Durch den Anbau verschiedener Pflanzen werden dem Boden gleichmäßig dieselben Nährstoffe entzogen, sodass er auf Dauer ausgelaugt wird.",
+      "Auf eine Hülsenfrucht folgend braucht eine stickstoffbedürftige Kultur wie Weizen oft weniger Dünger, weil Knöllchenbakterien Stickstoff binden.",
+      "Hülsenfrüchte binden Stickstoff aus der Luft, weil sie besonders viel Stickstoffdünger erhalten.",
       "Eine abwechslungsreiche Fruchtfolge ist für jeden Betrieb die wirtschaftlich beste Lösung."
     ],
     "answer": 1,
     "why": [
-      "Falsch: Der Wechsel „unterbricht“ die Entwicklung der Schädlinge.",
-      "Richtig: Nach einer Hülsenfrucht kann der Landwirt „oft weniger Dünger einsetzen“.",
-      "Falsch: Hülsenfrüchte leben mit Bakterien zusammen, die Stickstoff aus der Luft binden.",
-      "Falsch: Der Text nennt auch Nachteile; Betriebe suchen einen Kompromiss."
+      "Falsch: Verschiedene Pflanzen entziehen dem Boden laut Text „unterschiedliche Nährstoffe“. Gerade deshalb wird der Boden durch den Wechsel gleichmäßiger genutzt.",
+      "Richtig: Hülsenfrüchte binden mit Knöllchenbakterien Stickstoff. Folgt eine stickstoffbedürftige Kultur wie Weizen, „kann der Landwirt oft weniger Dünger einsetzen“.",
+      "Falsch: Die Ursache wird umgedreht. Die Stickstoffbindung beruht laut Text auf der Gemeinschaft mit Knöllchenbakterien, nicht auf Düngung.",
+      "Falsch: Der Text nennt Nachteile („manche Kulturen sind weniger rentabel“) und verlangt einen „Kompromiss“. Welche Kulturen sich sinnvoll abwechseln lassen, hängt vom jeweiligen Betrieb ab."
     ],
     "traps": [
       "Gegenteil",
+      "Kausalität unterstellt",
       "Überverallgemeinerung"
     ]
   },
@@ -228,22 +231,22 @@
     "text": "Cloud-Computing bedeutet, dass Rechenleistung, Speicherplatz oder Programme nicht auf dem eigenen Computer, sondern über das Internet bei einem Anbieter genutzt werden. Nutzer müssen keine eigenen Server anschaffen und warten, sondern zahlen meist nur für die tatsächlich genutzten Kapazitäten. Das ist besonders für kleine Unternehmen attraktiv, die ihre Ausgaben dem schwankenden Bedarf anpassen wollen. Bei starker Nachfrage lassen sich zusätzliche Ressourcen innerhalb kurzer Zeit zuschalten und später wieder abbestellen. Kritisch gesehen wird die Abhängigkeit von wenigen großen Anbietern: Wer seine Daten und Anwendungen vollständig bei einem Anbieter betreibt, kann nur mit erheblichem Aufwand zu einem anderen wechseln. Zudem stellen sich Fragen des Datenschutzes, wenn Daten in Rechenzentren in anderen Ländern gespeichert werden. Für viele Organisationen ist deshalb entscheidend, in welchem Rechtsraum die Daten liegen und wer darauf zugreifen darf. Anbieter reagieren darauf teilweise mit Rechenzentren, die sich innerhalb bestimmter Regionen befinden. Anbieter unterscheiden sich in Preisen, Leistungsumfang und Sicherheitsstandards, weshalb ein sorgfältiger Vergleich vor einer Entscheidung ratsam ist.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Cloud-Nutzer müssen in jedem Fall feste Monatsbeträge unabhängig von der Nutzung zahlen.",
-      "Daten dürfen laut Text ausschließlich in Rechenzentren im eigenen Land gespeichert werden.",
-      "Zusätzliche Ressourcen lassen sich bei Cloud-Anbietern erst nach mehreren Monaten Vorlauf zuschalten und nicht kurzfristig.",
-      "Wer alle Anwendungen bei einem Anbieter betreibt, kann nur mit erheblichem Aufwand zu einem anderen wechseln."
+      "Cloud-Nutzer zahlen meist feste Pauschalen, die nicht von der tatsächlichen Nutzung abhängen.",
+      "Der Text fordert von Anbietern, dass Daten ausschließlich im Rechtsraum des jeweiligen Kunden gespeichert werden.",
+      "Zusätzliche Ressourcen lassen sich zwar kurzfristig zuschalten, können aber nicht wieder abbestellt werden.",
+      "Wer Daten und Anwendungen vollständig bei einem Anbieter betreibt, kann nur mit erheblichem Aufwand wechseln."
     ],
     "answer": 3,
     "why": [
-      "Falsch: Gezahlt wird „meist nur für die tatsächlich genutzten Kapazitäten“.",
-      "Falsch: Der Text sagt nur, es stellten sich Datenschutzfragen; ein Verbot gibt er nicht an.",
-      "Falsch: Ressourcen lassen sich „innerhalb kurzer Zeit“ zuschalten.",
-      "Richtig: Wer „vollständig bei einem Anbieter“ betreibt, kann „nur mit erheblichem Aufwand“ wechseln."
+      "Falsch: Nutzer zahlen laut Text „meist nur für die tatsächlich genutzten Kapazitäten“.",
+      "Falsch: Der Text fordert nichts von Anbietern. Er nennt nur, dass der Rechtsraum für viele Organisationen entscheidend ist und Anbieter „teilweise“ mit regionalen Rechenzentren reagieren.",
+      "Falsch: Ressourcen lassen sich laut Text zuschalten „und später wieder abbestellen“.",
+      "Richtig: „Wer seine Daten und Anwendungen vollständig bei einem Anbieter betreibt, kann nur mit erheblichem Aufwand zu einem anderen wechseln.“ „Vollständig“ und „nur“ stehen so im Text."
     ],
     "traps": [
       "Gegenteil",
       "Nicht im Text (Weltwissen)",
-      "Zeitangabe verdreht"
+      "Gegenteil"
     ]
   },
   {
@@ -253,21 +256,22 @@
     "text": "Das Bruttoinlandsprodukt (BIP) misst den Gesamtwert aller Waren und Dienstleistungen, die innerhalb eines Jahres in einem Land hergestellt werden und nicht als Vorleistung in andere Produkte eingehen. Es ist die am häufigsten verwendete Kennzahl, um die Größe einer Volkswirtschaft und ihr Wachstum zu beschreiben. Das reale BIP wird um Preisveränderungen bereinigt, sodass Vergleiche zwischen Jahren nicht durch Inflation verzerrt werden. Teilt man das BIP durch die Zahl der Einwohner, erhält man das BIP pro Kopf, das oft als grober Hinweis auf den Wohlstand dient. Kritiker weisen jedoch darauf hin, dass das BIP vieles nicht erfasst: unbezahlte Haus- und Pflegearbeit etwa oder die Zerstörung natürlicher Ressourcen. Zudem sagt der Durchschnittswert nichts darüber aus, wie gleichmäßig das Einkommen verteilt ist. Ein Land kann also ein hohes BIP pro Kopf aufweisen, obwohl große Teile der Bevölkerung nur über geringe Einkommen verfügen. Ergänzend werden deshalb weitere Indikatoren herangezogen, etwa zu Bildung, Gesundheit und Lebenszufriedenheit. Berechnet wird das BIP von den statistischen Ämtern der Länder nach international abgestimmten Regeln, damit die Werte vergleichbar bleiben.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Das BIP pro Kopf kann hoch sein, obwohl viele Menschen nur wenig verdienen.",
-      "Das reale BIP schließt unbezahlte Haus- und Pflegearbeit vollständig ein.",
-      "Das BIP misst den Wert aller Waren eines Jahres, einschließlich der Vorleistungen, die in andere Produkte eingehen.",
-      "Zur Beschreibung des Wohlstands wird ausschließlich das BIP pro Kopf verwendet."
+      "Ein hohes Pro-Kopf-BIP schließt nicht aus, dass große Teile der Bevölkerung geringe Einkommen beziehen.",
+      "Das reale BIP wird um unbezahlte Haus- und Pflegearbeit ergänzt, damit Vergleiche zwischen Jahren nicht verzerrt werden.",
+      "Das BIP umfasst den Wert der Waren eines Jahres einschließlich der Vorleistungen, die in andere Produkte eingehen.",
+      "Zur Beschreibung des Wohlstands gilt das BIP pro Kopf als aussagekräftigste Kennzahl, andere Indikatoren sind überholt."
     ],
     "answer": 0,
     "why": [
-      "Richtig: Der Durchschnittswert sage nichts über die Verteilung; ein hohes BIP pro Kopf sei trotz geringer Einkommen großer Teile der Bevölkerung möglich.",
-      "Falsch: Unbezahlte Haus- und Pflegearbeit gehört zu dem, was das BIP „nicht erfasst“.",
-      "Falsch: Gemessen werden Waren, die „nicht als Vorleistung in andere Produkte eingehen“.",
-      "Falsch: Es werden „ergänzend“ weitere Indikatoren herangezogen."
+      "Richtig: „Ein Land kann also ein hohes BIP pro Kopf aufweisen, obwohl große Teile der Bevölkerung nur über geringe Einkommen verfügen.“",
+      "Falsch: Das reale BIP wird „um Preisveränderungen bereinigt“. Unbezahlte Haus- und Pflegearbeit erfasst das BIP laut Kritikern gerade nicht.",
+      "Falsch: Das BIP misst Waren und Dienstleistungen, „die … nicht als Vorleistung in andere Produkte eingehen“.",
+      "Falsch: Das BIP pro Kopf dient nur als „grober Hinweis“. „Ergänzend“ werden weitere Indikatoren zu Bildung, Gesundheit und Lebenszufriedenheit herangezogen."
     ],
     "traps": [
-      "Gegenteil",
-      "Überverallgemeinerung"
+      "Überverallgemeinerung",
+      "Nicht im Text (Weltwissen)",
+      "Gegenteil"
     ]
   },
   {
@@ -277,17 +281,17 @@
     "text": "Der Containerverkehr hat den weltweiten Warentransport seit den 1960er-Jahren grundlegend verändert. Genormte Stahlboxen lassen sich zwischen Schiff, Zug und Lastwagen umladen, ohne dass die Ware selbst angefasst werden muss. Dadurch sanken Umschlagzeiten und Kosten, und der Transport über weite Strecken wurde für viele Güter erschwinglich. Die Reedereien setzten auf immer größere Schiffe, die pro Container günstiger fahren, aber nur wenige Häfen anlaufen können, die über ausreichend tiefe Zufahrten und leistungsfähige Kräne verfügen. Verzögert sich in einem solchen Knotenpunkt die Abfertigung, wirkt sich das auf viele nachfolgende Verbindungen aus. Das zeigte sich, als nach Störungen im Betrieb mehrerer Häfen in kurzer Zeit zahlreiche Schiffe warteten und Container an falschen Orten standen. Die Folge waren längere Lieferzeiten und zeitweise höhere Frachtraten. Unternehmen überprüfen deshalb ihre Lieferketten und halten teils größere Lagerbestände vor, wodurch ihre Kosten steigen. Ob sich dieses Verhalten dauerhaft durchsetzt, ist offen, da die Lagerhaltung wiederum Kapital bindet. Branchenverbände beobachten die Entwicklung genau und veröffentlichen regelmäßig Berichte über Auslastung und Wartezeiten in den großen Häfen.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Größere Containerschiffe können mehr Häfen anlaufen als kleinere, weshalb Störungen sich kaum ausbreiten.",
-      "Seit den Hafenstörungen halten alle Unternehmen ihre Lagerbestände auf Dauer größer, um Lieferengpässe auszugleichen.",
-      "Große Schiffe laufen nur wenige Häfen an, daher betreffen Verzögerungen an einem Knoten viele Verbindungen.",
-      "Höhere Frachtraten haben die Unternehmen dazu gebracht, ihre Lieferketten dauerhaft umzustellen und Lager abzubauen."
+      "Größere Containerschiffe können mehr Häfen anlaufen als kleinere, weshalb sich Störungen kaum ausbreiten.",
+      "Nach den Hafenstörungen haben alle Unternehmen ihre Lagerbestände dauerhaft erhöht und damit Kosten gespart.",
+      "Große Schiffe laufen nur wenige Knotenhäfen an, deshalb wirken sich dortige Verzögerungen auf viele Verbindungen aus.",
+      "Höhere Frachtraten waren die Ursache der Hafenstörungen und führten zu längeren Lieferzeiten."
     ],
     "answer": 2,
     "why": [
-      "Falsch: Große Schiffe können „nur wenige Häfen“ anlaufen.",
-      "Falsch: Der Text sagt nur, Unternehmen hielten „teils“ größere Bestände vor.",
-      "Richtig: Große Schiffe laufen „nur wenige Häfen“ an; verzögert sich dort die Abfertigung, „wirkt sich das auf viele nachfolgende Verbindungen aus“ (Kombination zweier Sätze).",
-      "Falsch: Ob sich das Verhalten dauerhaft durchsetzt, sei „offen“; zudem nennt der Text Lieferzeiten, nicht Frachtraten als Anlass."
+      "Falsch: Große Schiffe können laut Text „nur wenige Häfen anlaufen“. Gerade deshalb wirken sich Verzögerungen auf viele Verbindungen aus.",
+      "Falsch: Laut Text halten Unternehmen „teils“ größere Lagerbestände vor, „wodurch ihre Kosten steigen“. Ob sich das „dauerhaft durchsetzt, ist offen“.",
+      "Richtig: Große Schiffe laufen nur wenige gut ausgestattete Häfen an. „Verzögert sich in einem solchen Knotenpunkt die Abfertigung, wirkt sich das auf viele nachfolgende Verbindungen aus.“",
+      "Falsch: Die Richtung ist vertauscht. Die Störungen führten zu längeren Lieferzeiten und „zeitweise höheren Frachtraten“, nicht umgekehrt."
     ],
     "traps": [
       "Gegenteil",
@@ -302,20 +306,21 @@
     "text": "Versicherungen beruhen auf dem Prinzip des Risikoausgleichs. Viele Versicherte zahlen regelmäßig Beiträge in einen gemeinsamen Topf ein, aus dem die wenigen entschädigt werden, bei denen ein Schaden tatsächlich eintritt. Damit das funktioniert, müssen die Versicherer die Häufigkeit und Höhe von Schäden möglichst genau einschätzen. Sie stützen sich dabei auf statistische Erfahrungswerte aus der Vergangenheit und berechnen daraus die Beiträge. Je größer die Gruppe der Versicherten, desto zuverlässiger lassen sich die Schäden voraussagen. Problematisch wird es, wenn vor allem Personen mit hohem Risiko eine Versicherung abschließen, während Personen mit geringem Risiko darauf verzichten. In diesem Fall steigen die durchschnittlichen Kosten pro Versichertem, und die Beiträge müssen angehoben werden, was wiederum weitere Personen mit geringem Risiko abschreckt. Fachleute sprechen von Risikoselektion. Pflichtversicherungen sollen diesem Effekt entgegenwirken, indem sie alle Personen einer Gruppe einbeziehen. Dem steht gegenüber, dass sie die Wahlfreiheit der Einzelnen einschränken. Die Aufsicht über Versicherungsunternehmen liegt in den meisten Staaten bei staatlichen Behörden, die auch die finanzielle Stabilität der Anbieter überwachen.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Die Beiträge werden vor allem anhand der Zahl der Neukunden berechnet, die ein Versicherer gewinnt.",
-      "Bei Risikoselektion sinken die durchschnittlichen Kosten pro Versichertem, weshalb die Beiträge gesenkt werden können.",
-      "Pflichtversicherungen schränken die Wahlfreiheit der Einzelnen nicht ein, weil alle Personen einer Gruppe einbezogen sind.",
-      "Pflichtversicherungen sollen verhindern, dass sich vor allem Personen mit hohem Risiko versichern, indem sie alle Personen einer Gruppe einbeziehen."
+      "Die Beiträge werden vor allem nach der Zahl der Neukunden berechnet, die ein Versicherer gewinnt.",
+      "Bei Risikoselektion sinken die durchschnittlichen Kosten pro Versichertem, sodass die Beiträge gesenkt werden können.",
+      "Pflichtversicherungen bringen den Vorteil, dass sie die Wahlfreiheit der Einzelnen erweitern.",
+      "Eine Versicherungspflicht wirkt der Risikoselektion entgegen, weil sie alle Personen einer Gruppe einbezieht."
     ],
     "answer": 3,
     "why": [
-      "Falsch: Die Beiträge werden aus „statistischen Erfahrungswerten“ berechnet.",
-      "Falsch: Die Kosten „steigen“ bei Risikoselektion.",
-      "Falsch: Der Text sagt ausdrücklich, sie „schränken die Wahlfreiheit der Einzelnen ein“.",
-      "Richtig: Pflichtversicherungen „sollen diesem Effekt entgegenwirken, indem sie alle Personen einer Gruppe einbeziehen“."
+      "Falsch: Die Beiträge werden aus „statistischen Erfahrungswerten aus der Vergangenheit“ zu Häufigkeit und Höhe von Schäden berechnet, nicht aus Neukundenzahlen.",
+      "Falsch: Bei Risikoselektion „steigen die durchschnittlichen Kosten pro Versichertem, und die Beiträge müssen angehoben werden“.",
+      "Falsch: Pflichtversicherungen „schränken die Wahlfreiheit der Einzelnen ein“. Der Text nennt das als Gegenargument.",
+      "Richtig: „Pflichtversicherungen sollen diesem Effekt entgegenwirken, indem sie alle Personen einer Gruppe einbeziehen.“ „Alle“ steht so im Text."
     ],
     "traps": [
       "Nicht im Text (Weltwissen)",
+      "Gegenteil",
       "Gegenteil"
     ]
   },
@@ -326,20 +331,20 @@
     "text": "Eine Untersuchung in einem mittelgroßen EU-Land befragte mehrere tausend Beschäftigte zur Arbeit im Homeoffice. Rund die Hälfte der Befragten gab an, mindestens einen Tag pro Woche von zu Hause aus zu arbeiten. Als größten Vorteil nannten die meisten den Wegfall des Arbeitswegs, gefolgt von flexibleren Arbeitszeiten. Zugleich berichteten viele, dass die Grenze zwischen Arbeit und Privatleben verschwimme und sie häufiger auch abends erreichbar seien. Beschäftigte, die an mehr als drei Tagen pro Woche zu Hause arbeiteten, fühlten sich häufiger sozial isoliert als diejenigen, die nur ein bis zwei Tage zu Hause waren. Die Autoren der Studie betonen, dass sich daraus nicht ableiten lasse, Homeoffice führe zu Isolation: Möglicherweise arbeiteten Menschen, die ohnehin weniger soziale Kontakte hatten, aus Gründen der Bequemlichkeit häufiger zu Hause. Arbeitgeber, die Homeoffice anbieten, sollten ihrer Ansicht nach klare Regeln zur Erreichbarkeit festlegen. Die Untersuchung erfasste nur einen Zeitpunkt, sodass Entwicklungen im Zeitverlauf nicht beurteilt werden können. Die Befragung wurde online durchgeführt, und die Teilnehmenden stammten aus verschiedenen Branchen, Altersgruppen und Regionen des Landes.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Die Untersuchung belegt, dass Homeoffice an mehr als drei Tagen pro Woche zu sozialer Isolation führt.",
-      "Die Studie lässt offen, ob Homeoffice Isolation verursacht, da nur ein Zusammenhang beobachtet wurde.",
-      "Nahezu alle Befragten arbeiteten an mindestens einem Tag pro Woche zu Hause, meist wegen der Zeitersparnis.",
-      "Flexiblere Arbeitszeiten wurden von den meisten Befragten als größter Vorteil genannt."
+      "Beschäftigte mit ein bis zwei Homeoffice-Tagen fühlten sich häufiger isoliert als solche mit mehr als drei Tagen.",
+      "Die Befragung erfasste nur einen Zeitpunkt und erlaubt deshalb keine Aussagen über Entwicklungen im Zeitverlauf.",
+      "Etwa drei Viertel der Befragten arbeiteten mindestens einen Tag pro Woche von zu Hause aus, die meisten davon im ländlichen Raum.",
+      "Für die meisten Befragten war die Flexibilität der Arbeitszeiten der größte Vorteil des Homeoffice."
     ],
     "answer": 1,
     "why": [
-      "Falsch: Der Text verneint ausdrücklich, dass sich Isolation als Folge ableiten lasse.",
-      "Richtig: Die Autoren betonen, dass sich „nicht ableiten lasse, Homeoffice führe zu Isolation“; es gibt nur einen Zusammenhang.",
-      "Falsch: Es war „rund die Hälfte“, nicht nahezu alle.",
-      "Falsch: Größter Vorteil war der Wegfall des Arbeitswegs, flexiblere Zeiten kamen danach."
+      "Falsch: Isoliert fühlten sich häufiger die Beschäftigten, die „an mehr als drei Tagen“ zu Hause arbeiteten. Die Gruppen sind vertauscht.",
+      "Richtig: „Die Untersuchung erfasste nur einen Zeitpunkt, sodass Entwicklungen im Zeitverlauf nicht beurteilt werden können.“",
+      "Falsch: Es war „rund die Hälfte“ der Befragten, nicht drei Viertel.",
+      "Falsch: Als größter Vorteil wurde der Wegfall des Arbeitswegs genannt, „gefolgt von flexibleren Arbeitszeiten“."
     ],
     "traps": [
-      "Kausalität unterstellt",
+      "Vergleich verdreht",
       "Zahl/Menge verdreht",
       "Vergleich verdreht"
     ]
@@ -351,21 +356,22 @@
     "text": "Mikroplastik bezeichnet winzige Kunststoffteilchen mit einer Größe von weniger als fünf Millimetern. Man unterscheidet primäres Mikroplastik, das in dieser Größe hergestellt wird, etwa als Zusatz in manchen Kosmetika, von sekundärem Mikroplastik, das durch den Zerfall größerer Kunststoffteile entsteht. Reifenabrieb und Fasern aus synthetischer Kleidung zählen zu den wichtigen Quellen. Über Flüsse und Abwasser gelangen die Teilchen in die Meere, wo sie von Tieren aufgenommen werden können. Mikroplastik wurde inzwischen in sehr unterschiedlichen Lebensräumen nachgewiesen, von Tiefseesedimenten bis zu Gebirgsböden. Welche Auswirkungen die Teilchen auf Lebewesen und Menschen haben, ist noch nicht abschließend geklärt. Untersuchungen an Laborgeräten zeigen teils Schäden an Zellen, doch die dabei verwendeten Mengen entsprechen nicht immer den Mengen in der Umwelt. Forschende fordern daher weitere Studien. Unabhängig davon setzen sich viele Fachleute dafür ein, den Eintrag von Kunststoffen in die Umwelt zu verringern, etwa durch bessere Abfallsammlung und Filter in Waschmaschinen. Messmethoden für sehr kleine Teilchen sind aufwendig, weshalb Ergebnisse verschiedener Untersuchungen nicht immer direkt miteinander vergleichbar sind.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Die Auswirkungen von Mikroplastik auf Lebewesen und Menschen sind noch nicht abschließend geklärt.",
-      "Mikroplastik entsteht ausschließlich durch den Zerfall größerer Kunststoffteile in der Umwelt.",
-      "Mikroplastik wurde bisher nur in Meeren und Flüssen nachgewiesen, nicht aber in Böden oder Gebirgen.",
-      "Laborversuche haben gezeigt, dass Mikroplastik für Menschen schädlich ist, auch in geringen Mengen."
+      "Wie stark Mikroplastik Lebewesen und Menschen schädigt, kann die Forschung bislang noch nicht abschließend beurteilen.",
+      "Primäres Mikroplastik entsteht, wenn größere Kunststoffteile in der Umwelt zerfallen.",
+      "Mikroplastik wurde bislang in Gewässern und Böden gefunden, nicht aber in Gebirgsregionen oder der Tiefsee.",
+      "Laborversuche an Zellen haben Schäden gezeigt, die sich unmittelbar auf die Mengen in der Umwelt übertragen lassen."
     ],
     "answer": 0,
     "why": [
-      "Richtig: Der Text sagt, die Auswirkungen seien „noch nicht abschließend geklärt“.",
-      "Falsch: Es gibt auch „primäres Mikroplastik“, das in dieser Größe hergestellt wird.",
-      "Falsch: Nachweise gibt es auch in „Gebirgsböden“ und anderen Lebensräumen.",
-      "Falsch: Die Laborergebnisse zeigen „teils“ Zellschäden, entsprechen aber nicht immer den Umweltmengen."
+      "Richtig: „Welche Auswirkungen die Teilchen auf Lebewesen und Menschen haben, ist noch nicht abschließend geklärt.“",
+      "Falsch: Primäres Mikroplastik wird laut Text „in dieser Größe hergestellt“. Durch Zerfall entsteht das sekundäre.",
+      "Falsch: Nachgewiesen wurde es laut Text „von Tiefseesedimenten bis zu Gebirgsböden“.",
+      "Falsch: Die Laborversuche zeigen „teils Schäden an Zellen“, doch die verwendeten Mengen „entsprechen nicht immer den Mengen in der Umwelt“."
     ],
     "traps": [
-      "Überverallgemeinerung",
-      "Teilweise richtig"
+      "Gegenteil",
+      "Gegenteil",
+      "Kausalität unterstellt"
     ]
   },
   {
@@ -375,17 +381,17 @@
     "text": "In dicht bebauten Städten ist es im Sommer oft deutlich wärmer als im Umland. Dieses Phänomen wird als städtische Wärmeinsel bezeichnet. Ursache ist unter anderem, dass Asphalt, Beton und dunkle Dächer Sonnenenergie stark aufnehmen und nachts langsam wieder abgeben. Zudem fehlen in versiegelten Flächen Pflanzen und Wasser, die durch Verdunstung kühlend wirken. Hinzu kommt Abwärme von Verkehr, Gebäuden und Klimaanlagen. Besonders in windarmen Nächten kühlt es in Innenstädten kaum noch ab, was für ältere Menschen und Kranke zu einer Belastung werden kann. Stadtplaner setzen deshalb auf mehr Grünflächen, Bäume, begrünte Fassaden und helle Oberflächen. Frischluftschneisen sollen kühlere Luft aus dem Umland ins Zentrum führen, sofern sie nicht durch Gebäude blockiert werden. Allerdings konkurrieren solche Maßnahmen mit dem Bedarf an Wohnraum, der in vielen Städten ebenfalls dringend ist. Wie stark sich eine Wärmeinsel ausprägt, hängt von der Größe der Stadt, ihrer Bauweise und ihrer Lage ab. Messungen in verschiedenen Großstädten zeigen, dass die Temperaturunterschiede zum Umland von Nacht zu Nacht und von Stadtviertel zu Stadtviertel schwanken.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Frischluftschneisen kühlen Innenstädte in jedem Fall, unabhängig davon, ob Gebäude sie blockieren oder nicht.",
-      "Stadtplaner halten mehr Wohnraum für wichtiger als zusätzliche Grünflächen und Bäume in der Innenstadt.",
-      "Asphalt und dunkle Dächer nehmen viel Sonnenenergie auf und geben sie nachts langsam wieder ab.",
-      "Die Stärke einer Wärmeinsel hängt allein von der Größe der Stadt ab, nicht von Bauweise oder Lage."
+      "Frischluftschneisen führen kühlere Luft ins Zentrum, auch wenn Gebäude sie blockieren.",
+      "Stadtplaner halten Grünflächen und zusätzlichen Wohnraum für gleich wichtig, Zielkonflikte gebe es kaum.",
+      "Dunkle, versiegelte Oberflächen heizen sich tagsüber auf und geben die Wärme erst allmählich wieder ab.",
+      "Die Stärke einer Wärmeinsel hängt von der Bauweise ab, nicht aber von der Lage der Stadt."
     ],
     "answer": 2,
     "why": [
-      "Falsch: Frischluftschneisen wirken nur, „sofern sie nicht durch Gebäude blockiert werden“.",
-      "Falsch: Der Text stellt nur fest, dass Maßnahmen mit dem Wohnraumbedarf konkurrieren; eine Rangfolge nennt er nicht.",
-      "Richtig: Asphalt, Beton und dunkle Dächer „nehmen Sonnenenergie stark auf und geben sie nachts langsam wieder ab“.",
-      "Falsch: Es hängt von „Größe, Bauweise und Lage“ ab."
+      "Falsch: Das gilt laut Text nur, „sofern sie nicht durch Gebäude blockiert werden“.",
+      "Falsch: Laut Text „konkurrieren“ die Maßnahmen mit dem Bedarf an Wohnraum. Es besteht also ein Zielkonflikt.",
+      "Richtig: „Asphalt, Beton und dunkle Dächer“ nehmen „Sonnenenergie stark auf und geben sie nachts langsam wieder ab“.",
+      "Falsch: Die Ausprägung hängt laut Text „von der Größe der Stadt, ihrer Bauweise und ihrer Lage ab“."
     ],
     "traps": [
       "Überverallgemeinerung",
@@ -400,22 +406,22 @@
     "text": "Wärmepumpen entziehen der Umgebung Wärme und heben sie mithilfe von Strom auf ein für Heizungen nutzbares Temperaturniveau. Als Wärmequellen dienen Außenluft, Erdreich oder Grundwasser. Die Effizienz einer Wärmepumpe wird durch die Jahresarbeitszahl ausgedrückt. Sie gibt an, wie viele Einheiten Wärme pro eingesetzter Einheit Strom über ein Jahr erzeugt werden. Je geringer der Temperaturunterschied zwischen Wärmequelle und Heizsystem, desto höher fällt dieser Wert aus. Daher arbeiten Wärmepumpen besonders sparsam in Gebäuden mit Flächenheizungen, die mit niedrigen Vorlauftemperaturen auskommen. Erdreich und Grundwasser weisen im Winter meist höhere Temperaturen auf als die Außenluft, weshalb Anlagen mit diesen Quellen oft effizienter sind. Sie sind allerdings aufwendiger zu installieren, da Bohrungen oder Flächenkollektoren erforderlich sind und teils behördliche Genehmigungen benötigt werden. Luft-Wärmepumpen sind einfacher einzubauen und deshalb stärker verbreitet. Ob der Betrieb klimafreundlich ist, hängt auch davon ab, wie der verwendete Strom erzeugt wird. Die Anschaffungskosten einer Anlage sind meist höher als bei herkömmlichen Heizungen, werden aber in einigen Ländern durch staatliche Programme unterstützt.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Luft-Wärmepumpen sind effizienter als Erdreich-Wärmepumpen, weil die Außenluft im Winter wärmer ist als der Boden.",
-      "Wärmepumpen arbeiten in Gebäuden mit hohen Vorlauftemperaturen besonders sparsam und effizient.",
-      "Erdreich- und Grundwasseranlagen sind oft effizienter, aber aufwendiger zu installieren als Luftanlagen.",
-      "Wärmepumpen sind unabhängig davon klimafreundlich, wie der von ihnen verwendete Strom erzeugt wird."
+      "Luft-Wärmepumpen arbeiten effizienter als Erdreich-Anlagen, weil die Außenluft im Winter wärmer ist als der Boden.",
+      "Die Jahresarbeitszahl steigt, wenn der Temperaturunterschied zwischen Wärmequelle und Heizsystem größer wird.",
+      "Erdreich- und Grundwasser-Wärmepumpen sind oft effizienter als Luftanlagen, aber aufwendiger im Einbau.",
+      "Der Betrieb einer Wärmepumpe ist klimafreundlich, weil die genutzte Umweltwärme vollständig kostenlos zur Verfügung steht."
     ],
     "answer": 2,
     "why": [
-      "Falsch: Die Außenluft ist im Winter meist kälter als Erdreich und Grundwasser, nicht wärmer.",
-      "Falsch: Besonders sparsam arbeiten sie bei „niedrigen Vorlauftemperaturen“.",
-      "Richtig: Erdreich und Grundwasser seien im Winter meist wärmer als die Luft, daher „oft effizienter“, aber wegen Bohrungen oder Kollektoren „aufwendiger zu installieren“ (Kombination).",
-      "Falsch: Der Text sagt, die Klimafreundlichkeit hänge auch davon ab, „wie der verwendete Strom erzeugt wird“."
+      "Falsch: Erdreich und Grundwasser sind im Winter „meist“ wärmer als die Außenluft. Deshalb sind diese Anlagen „oft effizienter“.",
+      "Falsch: „Je geringer der Temperaturunterschied …, desto höher fällt dieser Wert aus.“ Die Richtung ist umgekehrt.",
+      "Richtig: Erdreich- und Grundwasseranlagen sind „oft effizienter“, aber „aufwendiger zu installieren“, da Bohrungen oder Flächenkollektoren nötig sind.",
+      "Falsch: Ob der Betrieb klimafreundlich ist, hängt laut Text davon ab, „wie der verwendete Strom erzeugt wird“. Die Kosten der Wärmequelle werden nicht als Grund genannt."
     ],
     "traps": [
       "Vergleich verdreht",
       "Gegenteil",
-      "Überverallgemeinerung"
+      "Nicht im Text (Weltwissen)"
     ]
   },
   {
@@ -425,19 +431,20 @@
     "text": "Der Schienengüterverkehr gilt als vergleichsweise energieeffizient, weil Stahlräder auf Stahlschienen nur wenig Rollwiderstand erzeugen und ein Zug viele Wagen gleichzeitig befördern kann. Pro transportierter Tonne und Kilometer verursacht die Bahn in der Regel weniger Treibhausgase als der Lastwagen. Dennoch liegt ihr Anteil am Güterverkehr in vielen europäischen Ländern deutlich unter dem der Straße. Gründe sind unter anderem, dass die Bahn an feste Strecken gebunden ist und selten bis zur Haustür des Empfängers fährt. Für den letzten Abschnitt werden daher meist Lastwagen benötigt. Außerdem erschweren unterschiedliche Strom- und Signalsysteme den grenzüberschreitenden Verkehr, weil Lokomotiven teils für mehrere Systeme ausgerüstet sein müssen oder an Grenzen gewechselt werden. Die Verlagerung von der Straße auf die Schiene ist ein erklärtes Ziel der europäischen Verkehrspolitik. Um sie zu erreichen, werden Terminals für den kombinierten Verkehr ausgebaut, in denen Container oder Lkw-Auflieger zwischen Straße und Schiene umgeladen werden. Betreiber von Güterzügen unterscheiden sich in Größe und Ausrichtung; neben staatlichen Unternehmen sind in vielen Ländern auch private Anbieter aktiv.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Der grenzüberschreitende Bahnverkehr wird durch unterschiedliche Strom- und Signalsysteme erschwert.",
-      "Der Schienengüterverkehr verursacht pro Tonne und Kilometer stets mehr Treibhausgase als der Lastwagen.",
-      "Die Bahn fährt in der Regel bis zur Haustür des Empfängers.",
-      "Der Bahnanteil am Güterverkehr ist in vielen europäischen Ländern höher als der Straßenanteil."
+      "Verschiedene Strom- und Signalsysteme erschweren den Bahngüterverkehr über Landesgrenzen.",
+      "Pro Tonne und Kilometer verursachen Bahn und Lastwagen etwa gleich viele Treibhausgase, weshalb die Verlagerung kaum Klimavorteile bringt.",
+      "Den letzten Abschnitt zum Empfänger übernimmt meist die Bahn, weil sie dichter am Kunden liegt als der Lastwagen.",
+      "In den meisten europäischen Ländern übertrifft der Bahnanteil am Güterverkehr den Anteil der Straße."
     ],
     "answer": 0,
     "why": [
-      "Richtig: „Unterschiedliche Strom- und Signalsysteme erschweren den grenzüberschreitenden Verkehr“.",
-      "Falsch: Die Bahn verursacht „in der Regel weniger“ Treibhausgase.",
-      "Falsch: Sie fährt „selten bis zur Haustür“.",
-      "Falsch: Der Bahnanteil liegt „deutlich unter dem der Straße“."
+      "Richtig: „Außerdem erschweren unterschiedliche Strom- und Signalsysteme den grenzüberschreitenden Verkehr“, weil Lokomotiven mehrere Systeme beherrschen oder an Grenzen gewechselt werden müssen.",
+      "Falsch: Die Bahn verursacht laut Text „in der Regel weniger Treibhausgase als der Lastwagen“.",
+      "Falsch: Die Bahn fährt „selten bis zur Haustür“. Für den letzten Abschnitt werden „meist Lastwagen benötigt“.",
+      "Falsch: Der Bahnanteil liegt „in vielen europäischen Ländern deutlich unter dem der Straße“."
     ],
     "traps": [
+      "Gegenteil",
       "Gegenteil",
       "Vergleich verdreht"
     ]
@@ -449,19 +456,20 @@
     "text": "Bodenerosion bezeichnet den Abtrag fruchtbarer Bodenschichten durch Wasser oder Wind. Besonders gefährdet sind Äcker, die über längere Zeit ohne Pflanzenbewuchs brach liegen, etwa zwischen Ernte und Neuaussaat. Wurzeln und Pflanzendecke halten den Boden fest und bremsen Regentropfen ab, bevor sie auf die Erde treffen. An Hängen fließt Regenwasser schneller ab und nimmt dabei Bodenpartikel mit. Da sich neue Bodenschichten nur sehr langsam bilden, gilt der Verlust als kaum umkehrbar. Der Landwirtschaft entstehen dadurch langfristig geringere Erträge, außerdem gelangen mit dem abgeschwemmten Boden Nährstoffe in Gewässer. Zu den Gegenmaßnahmen zählen Zwischenfrüchte, die den Boden nach der Ernte bedecken, das Pflügen quer zum Hang und der Verzicht auf tiefes Wenden des Bodens. Hecken und Grasstreifen am Feldrand können Wind bremsen und abfließendes Wasser aufhalten. Viele dieser Maßnahmen kosten zunächst Geld oder Arbeitszeit, zahlen sich aber meist erst nach einigen Jahren aus. Die Wirkung der Maßnahmen wird durch Messungen auf Versuchsflächen überprüft, die von landwirtschaftlichen Forschungsanstalten betreut werden.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Neue Bodenschichten bilden sich so schnell, dass der Verlust leicht auszugleichen ist.",
-      "Äcker ohne Pflanzenbewuchs sind besonders gefährdet, da Wurzeln und Pflanzendecke den Boden festhalten.",
-      "Das Pflügen in Richtung des Hanggefälles gilt als Gegenmaßnahme.",
-      "Gegenmaßnahmen gegen Erosion zahlen sich für Landwirte stets sofort aus."
+      "Der Verlust von Boden durch Erosion gilt als unproblematisch, da er sich innerhalb weniger Jahre wieder ausgleicht.",
+      "Brachliegende Äcker sind anfällig für Abtrag, weil ohne Bewuchs nichts den Boden festhält.",
+      "Pflügen entlang des Hanggefälles gilt als wirksamer Schutz vor Abtrag, besonders bei starkem Regen.",
+      "Gegenmaßnahmen gegen Erosion zahlen sich für Landwirte meist schon im ersten Jahr aus."
     ],
     "answer": 1,
     "why": [
-      "Falsch: Neue Schichten bilden sich „nur sehr langsam“, der Verlust gilt als kaum umkehrbar.",
-      "Richtig: Brachliegende Äcker sind besonders gefährdet; „Wurzeln und Pflanzendecke halten den Boden fest“.",
-      "Falsch: Genannt wird das Pflügen „quer zum Hang“.",
-      "Falsch: Die Maßnahmen zahlen sich „meist erst nach einigen Jahren“ aus."
+      "Falsch: Neue Bodenschichten bilden sich laut Text „nur sehr langsam“. Der Verlust gilt als „kaum umkehrbar“.",
+      "Richtig: Besonders gefährdet sind brachliegende Äcker. „Wurzeln und Pflanzendecke halten den Boden fest und bremsen Regentropfen ab.“",
+      "Falsch: Als Gegenmaßnahme genannt wird das „Pflügen quer zum Hang“. Entlang des Gefälles fließt das Wasser schneller ab.",
+      "Falsch: Die Maßnahmen kosten zunächst Geld oder Arbeitszeit und zahlen sich „meist erst nach einigen Jahren“ aus."
     ],
     "traps": [
+      "Gegenteil",
       "Gegenteil",
       "Zeitangabe verdreht"
     ]
@@ -473,21 +481,22 @@
     "text": "Ende-zu-Ende-Verschlüsselung stellt sicher, dass eine Nachricht nur vom Absender und vom vorgesehenen Empfänger gelesen werden kann. Die Nachricht wird auf dem Gerät des Absenders verschlüsselt und erst auf dem Gerät des Empfängers wieder entschlüsselt. Der Betreiber des Dienstes, über dessen Server die Nachricht läuft, sieht daher nur unlesbare Daten. Das schützt auch dann, wenn Server angegriffen werden oder Behörden Daten herausverlangen. Allerdings bleiben sogenannte Metadaten, etwa wer wann mit wem kommuniziert, in vielen Systemen sichtbar. Zudem schützt die Verschlüsselung nicht, wenn das Endgerät selbst mit Schadsoftware infiziert ist, denn dann kann der Inhalt vor der Verschlüsselung oder nach der Entschlüsselung ausgelesen werden. Sicherheitsbehörden argumentieren, dass die Technik die Aufklärung schwerer Straftaten behindere, während Datenschützer darauf verweisen, dass jede Hintertür für Ermittler auch von Kriminellen ausgenutzt werden könne. Wie diese Interessen abzuwägen sind, wird politisch diskutiert und ist in den einzelnen Staaten unterschiedlich geregelt. Die technischen Einzelheiten solcher Verfahren sind für Nutzer meist nicht sichtbar, da sie im Hintergrund der Anwendungen ablaufen.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Bei Ende-zu-Ende-Verschlüsselung bleiben auch die Metadaten über Absender und Empfänger stets verborgen.",
-      "Der Betreiber des Dienstes kann bei dieser Verschlüsselung den Inhalt der Nachrichten auf seinen Servern lesen.",
-      "Datenschützer lehnen jede Verschlüsselung ab, weil Kriminelle sie ausnutzen könnten, und fordern Zugang für Ermittler.",
-      "Auch bei Ende-zu-Ende-Verschlüsselung kann der Inhalt ausgelesen werden, wenn das Endgerät infiziert ist."
+      "Bei Ende-zu-Ende-Verschlüsselung entschlüsselt der Server des Betreibers die Nachricht kurz, bevor er sie an den Empfänger weiterleitet.",
+      "Die Verschlüsselung schützt den Inhalt auch dann, wenn das Endgerät mit Schadsoftware infiziert ist.",
+      "Datenschützer sehen in Hintertüren für Ermittler ein Risiko, weil diese ausschließlich Kriminellen nützen würden.",
+      "Der Betreiber, über dessen Server die Nachricht läuft, sieht bei dieser Verschlüsselung nur unlesbare Daten."
     ],
     "answer": 3,
     "why": [
-      "Falsch: Metadaten bleiben „in vielen Systemen sichtbar“.",
-      "Falsch: Der Betreiber sieht „nur unlesbare Daten“.",
-      "Falsch: Datenschützer warnen vor Hintertüren für Ermittler; von einer Ablehnung der Verschlüsselung steht nichts im Text.",
-      "Richtig: Bei infiziertem Endgerät kann „der Inhalt vor der Verschlüsselung oder nach der Entschlüsselung ausgelesen werden“."
+      "Falsch: Entschlüsselt wird „erst auf dem Gerät des Empfängers“. Der Betreiber sieht „nur unlesbare Daten“.",
+      "Falsch: Bei einem infizierten Endgerät kann der Inhalt „vor der Verschlüsselung oder nach der Entschlüsselung ausgelesen werden“.",
+      "Falsch: Datenschützer warnen, dass jede Hintertür „auch von Kriminellen ausgenutzt werden könne“. Von „ausschließlich“ ist keine Rede.",
+      "Richtig: „Der Betreiber des Dienstes … sieht daher nur unlesbare Daten.“ „Nur“ steht so im Text."
     ],
     "traps": [
       "Gegenteil",
-      "Nicht im Text (Weltwissen)"
+      "Gegenteil",
+      "Überverallgemeinerung"
     ]
   },
   {
@@ -497,21 +506,22 @@
     "text": "Genossenschaften sind Zusammenschlüsse von Personen, die gemeinsam ein Unternehmen betreiben, um ihre wirtschaftlichen Interessen zu fördern. Jedes Mitglied erwirbt mindestens einen Anteil und ist damit Miteigentümer. Bei Abstimmungen hat in der Regel jedes Mitglied eine Stimme, unabhängig davon, wie viele Anteile es hält. Das unterscheidet Genossenschaften von Aktiengesellschaften, in denen das Stimmrecht meist an die Zahl der Aktien gebunden ist. Es gibt Genossenschaften in vielen Bereichen, etwa Banken, Landwirtschaft, Wohnungsbau und Energieerzeugung. In Wohnungsgenossenschaften zahlen die Mitglieder eine Nutzungsgebühr für ihre Wohnung und haben in der Regel ein dauerhaftes Wohnrecht. Gewinne werden häufig ganz oder teilweise an die Mitglieder ausgeschüttet oder in das Unternehmen investiert. Das Ziel besteht dabei meist nicht darin, den Ertrag Dritter zu maximieren, sondern die Mitglieder mit Gütern oder Dienstleistungen zu versorgen. Kritiker bemängeln, dass Entscheidungen in großen Genossenschaften mit vielen Mitgliedern schwerfällig werden können. Die rechtlichen Grundlagen für Genossenschaften sind in den einzelnen Ländern verschieden, ebenso die Anforderungen an Gründung und Prüfung.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "In einer Genossenschaft hat in der Regel jedes Mitglied eine Stimme, unabhängig von den Anteilen.",
-      "Bei Aktiengesellschaften hat jeder Aktionär unabhängig von der Zahl seiner Aktien nur eine Stimme.",
-      "Genossenschaften gibt es ausschließlich im Bankwesen und in der Landwirtschaft, nicht aber in anderen Branchen.",
-      "Genossenschaftsgewinne werden stets vollständig an die Mitglieder ausgezahlt und nie im Unternehmen belassen."
+      "Jedes Mitglied einer Genossenschaft erwirbt mindestens einen Anteil und wird dadurch Miteigentümer.",
+      "In Aktiengesellschaften ist das Stimmrecht meist an die Person gebunden, nicht an die Zahl der Aktien.",
+      "Genossenschaften gibt es vor allem im Bankwesen und in der Landwirtschaft, in anderen Branchen kommen sie selten vor.",
+      "Gewinne einer Genossenschaft werden meist in das Unternehmen investiert und seltener an die Mitglieder ausgeschüttet."
     ],
     "answer": 0,
     "why": [
-      "Richtig: „In der Regel“ hat jedes Mitglied eine Stimme, unabhängig von den Anteilen.",
-      "Falsch: Bei Aktiengesellschaften ist das Stimmrecht „meist an die Zahl der Aktien gebunden“.",
-      "Falsch: Genannt werden auch Wohnungsbau und Energieerzeugung („etwa“ ist nur eine Auswahl).",
-      "Falsch: Gewinne werden „häufig ganz oder teilweise“ ausgeschüttet oder investiert."
+      "Richtig: „Jedes Mitglied erwirbt mindestens einen Anteil und ist damit Miteigentümer.“ Die Verallgemeinerung steht so im Text.",
+      "Falsch: In Aktiengesellschaften ist das Stimmrecht laut Text „meist an die Zahl der Aktien gebunden“.",
+      "Falsch: Genannt werden „Banken, Landwirtschaft, Wohnungsbau und Energieerzeugung“. Dass andere Branchen selten sind, steht nicht im Text.",
+      "Falsch: Gewinne werden laut Text „häufig ganz oder teilweise an die Mitglieder ausgeschüttet oder in das Unternehmen investiert“. Ein Übergewicht der Investition wird nicht genannt."
     ],
     "traps": [
       "Gegenteil",
-      "Überverallgemeinerung"
+      "Überverallgemeinerung",
+      "Nicht im Text (Weltwissen)"
     ]
   },
   {
@@ -521,22 +531,22 @@
     "text": "Der Onlinehandel ist in den vergangenen Jahren in vielen Ländern stark gewachsen, bleibt jedoch in den meisten Warengruppen hinter dem stationären Handel zurück. Besonders hoch ist der Online-Anteil bei Büchern, Elektronik und Bekleidung. Kunden schätzen die große Auswahl, den Preisvergleich und die Lieferung nach Hause. Zugleich ist die Rückgabe ein wichtiger Kostenfaktor: Vor allem bei Kleidung bestellen manche Kunden mehrere Größen und schicken einen Teil zurück. Händler müssen die Ware prüfen, wieder einlagern und teils zu niedrigeren Preisen verkaufen. Die Transportwege der Rücksendungen belasten zusätzlich die Umwelt. Einige Händler erheben deshalb Gebühren für Rücksendungen. Gesetzlich ist in der Europäischen Union ein Widerrufsrecht von mindestens vierzehn Tagen für Fernabsatzverträge vorgesehen, Ausnahmen gelten etwa für schnell verderbliche Waren. Stationäre Geschäfte reagieren auf die Konkurrenz, indem sie Online- und Ladenangebote verbinden, etwa durch Abholung vor Ort. Ob dieses Modell die Innenstädte dauerhaft stabilisieren kann, ist umstritten. Auch die Zahl der Anbieter ist gewachsen, sodass Kunden heute zwischen großen Plattformen und kleinen Spezialshops wählen können.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Der Onlinehandel liegt in den meisten Warengruppen vor dem stationären Handel und verdrängt ihn zunehmend.",
+      "Der Onlinehandel hat den stationären Handel in den meisten Warengruppen überholt, lediglich bei Lebensmitteln liegt der Laden vorn.",
       "Händler dürfen in der EU keine Gebühren für Rücksendungen erheben, weil diese gesetzlich ausgeschlossen sind.",
-      "Das Widerrufsrecht gilt in der EU ausnahmslos für alle Waren, auch für schnell verderbliche.",
-      "Bei Kleidung sind Rücksendungen ein wichtiger Kostenfaktor, weil manche Kunden mehrere Größen bestellen."
+      "Das Widerrufsrecht in der EU beträgt höchstens vierzehn Tage und gilt auch für schnell verderbliche Waren.",
+      "Besonders im Modehandel verteuern Rücksendungen das Geschäft, weil Kunden teils mehrere Größen bestellen und einen Teil zurückschicken."
     ],
     "answer": 3,
     "why": [
-      "Falsch: Er „bleibt hinter dem stationären Handel zurück“.",
-      "Falsch: Der Text sagt nur, einige Händler erhöben Gebühren; ein Verbot wird nicht erwähnt.",
-      "Falsch: Es gibt Ausnahmen, etwa für schnell verderbliche Waren.",
-      "Richtig: Bei Kleidung bestellen manche Kunden „mehrere Größen und schicken einen Teil zurück“, die Rückgabe ist „ein wichtiger Kostenfaktor“."
+      "Falsch: Der Onlinehandel bleibt laut Text „in den meisten Warengruppen hinter dem stationären Handel zurück“.",
+      "Falsch: Laut Text erheben „einige Händler“ Gebühren für Rücksendungen. Ein gesetzliches Verbot wird nicht erwähnt.",
+      "Falsch: Vorgesehen ist ein Widerrufsrecht „von mindestens vierzehn Tagen“, mit Ausnahmen etwa für schnell verderbliche Waren.",
+      "Richtig: „Vor allem bei Kleidung bestellen manche Kunden mehrere Größen und schicken einen Teil zurück.“ Die Rückgabe ist „ein wichtiger Kostenfaktor“."
     ],
     "traps": [
-      "Vergleich verdreht",
+      "Gegenteil",
       "Nicht im Text (Weltwissen)",
-      "Überverallgemeinerung"
+      "Zahl/Menge verdreht"
     ]
   },
   {
@@ -546,20 +556,21 @@
     "text": "Beim Sparen kommt es nicht nur darauf an, wie viel man zurücklegt, sondern auch darauf, wie lange das Geld angelegt bleibt. Der Grund ist der Zinseszinseffekt: Erhalten Sparer Zinsen und lassen sie auf dem Konto, werden diese im nächsten Jahr ebenfalls verzinst. Der Zuwachs beschleunigt sich dadurch mit der Zeit. Bei einem gleichbleibenden Zinssatz wächst ein Guthaben in den ersten Jahren nur langsam, in späteren Jahren dagegen deutlich schneller. Wer früh anfängt, hat daher einen Vorteil gegenüber jemandem, der später größere Beträge einzahlt. Der Effekt gilt allerdings nur, solange der Zins tatsächlich positiv ist und die Erträge nicht entnommen werden. Außerdem mindern Gebühren und Steuern den Ertrag. Wenn die Inflation höher liegt als der Zins, kann das Guthaben trotz Zinseszinses real an Wert verlieren. Verbraucherschützer raten deshalb, auf Kosten zu achten und das Geld breit zu streuen. Sichere Geldanlagen mit geringem Zins eignen sich vor allem für kurzfristig benötigte Rücklagen. Wer sich unsicher ist, kann bei Verbraucherzentralen unabhängige Beratung erhalten, die meist nicht an den Verkauf bestimmter Produkte gebunden ist.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Das Guthaben wächst bei gleichbleibendem Zins in den ersten Jahren schneller als später.",
-      "Gebühren und Steuern haben keinen Einfluss auf den Ertrag, den ein Sparer am Ende tatsächlich erhält.",
-      "Der Zinseszinseffekt wirkt nur, wenn Erträge auf dem Konto bleiben und der Zins positiv ist.",
-      "Bei einer Inflation über dem Zins steigt das Guthaben real weiter an, nur langsamer."
+      "Bei gleichbleibendem Zins wächst ein Guthaben in den ersten Jahren schneller als in späteren.",
+      "Gebühren und Steuern mindern den Ertrag vor allem dann, wenn Sparer ihre Zinsen auf dem Konto belassen.",
+      "Der Zinseszinseffekt greift nur, solange der Zins positiv ist und die Erträge auf dem Konto angelegt bleiben.",
+      "Liegt die Inflation über dem Zins, steigt das Guthaben real weiter an, nur langsamer."
     ],
     "answer": 2,
     "why": [
-      "Falsch: Es wächst „in den ersten Jahren nur langsam, in späteren Jahren deutlich schneller“.",
-      "Falsch: Gebühren und Steuern „mindern den Ertrag“.",
-      "Richtig: Der Effekt gilt laut Text „nur, solange der Zins tatsächlich positiv ist und die Erträge nicht entnommen werden“.",
-      "Falsch: Es kann „real an Wert verlieren“."
+      "Falsch: Das Guthaben wächst „in den ersten Jahren nur langsam, in späteren Jahren dagegen deutlich schneller“.",
+      "Falsch: Der Text sagt nur, dass „Gebühren und Steuern den Ertrag mindern“. Ein Zusammenhang mit dem Belassen der Zinsen wird nicht hergestellt.",
+      "Richtig: „Der Effekt gilt allerdings nur, solange der Zins tatsächlich positiv ist und die Erträge nicht entnommen werden.“",
+      "Falsch: Liegt die Inflation über dem Zins, „kann das Guthaben trotz Zinseszinses real an Wert verlieren“."
     ],
     "traps": [
-      "Vergleich verdreht",
+      "Gegenteil",
+      "Kausalität unterstellt",
       "Gegenteil"
     ]
   },
@@ -570,20 +581,20 @@
     "text": "Das duale Ausbildungssystem verbindet praktische Ausbildung im Betrieb mit theoretischem Unterricht in der Berufsschule. Die Auszubildenden schließen einen Vertrag mit einem Unternehmen, erhalten eine Vergütung und lernen die Abläufe eines Berufs direkt am Arbeitsplatz kennen. Je nach Beruf dauert die Ausbildung zwei bis dreieinhalb Jahre und endet mit einer Prüfung vor einer zuständigen Stelle, etwa einer Kammer. Befürworter verweisen darauf, dass der enge Praxisbezug den Übergang in den Arbeitsmarkt erleichtert; in Ländern mit dualer Ausbildung ist die Jugendarbeitslosigkeit häufig niedriger. Ein möglicher Nachteil besteht darin, dass sich das Angebot an Ausbildungsplätzen nach der Konjunktur richtet: In schwachen Wirtschaftsphasen bilden Betriebe weniger aus. Außerdem entscheiden sich viele Jugendliche inzwischen für ein Studium, sodass Betriebe in manchen Berufen Schwierigkeiten haben, ihre Plätze zu besetzen. Das duale System setzt zudem voraus, dass Betriebe bereit und in der Lage sind, Ausbildungskosten zu tragen, was für kleine Unternehmen besonders schwierig sein kann. Die Inhalte der Ausbildung sind in Ordnungen festgelegt, die gemeinsam von Vertretern der Wirtschaft, der Gewerkschaften und des Staates erarbeitet werden.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Die duale Ausbildung dauert in allen Berufen genau drei Jahre und endet mit einer Prüfung vor einer Kammer.",
-      "Das Angebot an Ausbildungsplätzen schwankt mit der Konjunktur, weil Betriebe in Krisen weniger ausbilden.",
+      "Die duale Ausbildung endet mit einer Prüfung, die der Ausbildungsbetrieb selbst abnimmt.",
+      "Wenn die Wirtschaft schwächelt, bieten Betriebe weniger Ausbildungsplätze an.",
       "In Ländern mit dualer Ausbildung ist die Jugendarbeitslosigkeit ausnahmslos niedriger als in anderen Ländern.",
-      "Auszubildende erhalten während der Betriebsphase keine Vergütung, sondern nur Sachleistungen."
+      "Auszubildende erhalten für die Zeit im Betrieb eine Vergütung, die allerdings vom Staat getragen wird."
     ],
     "answer": 1,
     "why": [
-      "Falsch: Die Dauer beträgt „je nach Beruf“ zwei bis dreieinhalb Jahre.",
-      "Richtig: Das Angebot „richtet sich nach der Konjunktur“, in schwachen Phasen „bilden Betriebe weniger aus“.",
-      "Falsch: Die Jugendarbeitslosigkeit ist nur „häufig“ niedriger.",
-      "Falsch: Auszubildende „erhalten eine Vergütung“."
+      "Falsch: Die Prüfung findet laut Text „vor einer zuständigen Stelle, etwa einer Kammer“ statt.",
+      "Richtig: Das Angebot richtet sich „nach der Konjunktur: In schwachen Wirtschaftsphasen bilden Betriebe weniger aus“.",
+      "Falsch: Die Jugendarbeitslosigkeit ist laut Text „häufig niedriger“, nicht ausnahmslos.",
+      "Falsch: Die Auszubildenden schließen einen Vertrag mit einem Unternehmen und erhalten von diesem eine Vergütung. Die „Ausbildungskosten“ tragen die Betriebe."
     ],
     "traps": [
-      "Zahl/Menge verdreht",
+      "Gegenteil",
       "Überverallgemeinerung",
       "Gegenteil"
     ]
@@ -595,19 +606,21 @@
     "text": "Altglas lässt sich ohne Qualitätsverlust beliebig oft einschmelzen und zu neuen Behältern verarbeiten. Dazu wird es in Containern nach Farben getrennt gesammelt, da schon geringe Mengen falschfarbigen Glases die Farbe der neuen Flaschen beeinträchtigen können. In den Glashütten wird das gesammelte Glas zerkleinert, von Fremdstoffen wie Metallkappen befreit und mit frischen Rohstoffen gemischt. Der Einsatz von Altglas senkt den Energiebedarf der Schmelze, weil Scherben bei niedrigerer Temperatur schmelzen als die Ausgangsstoffe Sand, Soda und Kalk. Je höher der Scherbenanteil, desto weniger Energie wird benötigt. Auch Rohstoffe werden eingespart. Nicht in den Altglascontainer gehören Keramik, Porzellan und Trinkgläser, weil sie bei anderen Temperaturen schmelzen und das Glas verunreinigen. Mehrwegflaschen werden dagegen nicht eingeschmolzen, sondern gereinigt und mehrfach befüllt, was in der Regel noch ressourcenschonender ist. Die Sammelquote für Altglas ist in einigen europäischen Ländern hoch, in anderen aber deutlich niedriger. Informationen darüber, was in welchen Behälter gehört, stellen die Gemeinden meist auf ihren Internetseiten und in Abfallkalendern bereit.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Porzellan darf in den Altglascontainer, weil es bei ähnlicher Temperatur schmilzt wie Glas.",
-      "Je höher der Scherbenanteil in der Schmelze ist, desto weniger Energie benötigt die Glasherstellung insgesamt.",
-      "Altglas verliert bei jedem Einschmelzen etwas an Qualität, weshalb es nur begrenzt wiederverwertbar ist.",
-      "Mehrwegflaschen werden vor der Wiederverwendung eingeschmolzen und zu neuen Flaschen verarbeitet."
+      "Porzellan und Keramik stören die Glasherstellung nicht, weil sie bei ähnlicher Temperatur schmelzen wie Glas.",
+      "Altglas lässt sich beliebig oft einschmelzen, ohne dass die Qualität des neuen Glases leidet.",
+      "Ein höherer Scherbenanteil erhöht den Energiebedarf der Schmelze, weil Scherben bei höherer Temperatur schmelzen als die Ausgangsstoffe.",
+      "Mehrwegflaschen werden nach der Rückgabe zerkleinert und mit frischen Rohstoffen zu neuen Flaschen geschmolzen."
     ],
     "answer": 1,
     "why": [
-      "Falsch: Porzellan gehört „nicht“ in den Container, da es bei anderen Temperaturen schmilzt.",
-      "Richtig: „Je höher der Scherbenanteil, desto weniger Energie wird benötigt.“",
-      "Falsch: Altglas lässt sich „ohne Qualitätsverlust“ einschmelzen.",
-      "Falsch: Mehrwegflaschen werden „nicht eingeschmolzen“, sondern gereinigt."
+      "Falsch: Keramik, Porzellan und Trinkgläser gehören nicht in den Container, weil sie „bei anderen Temperaturen schmelzen und das Glas verunreinigen“.",
+      "Richtig: „Altglas lässt sich ohne Qualitätsverlust beliebig oft einschmelzen und zu neuen Behältern verarbeiten.“",
+      "Falsch: Scherben schmelzen „bei niedrigerer Temperatur“ als die Ausgangsstoffe. Je höher der Scherbenanteil, „desto weniger Energie wird benötigt“.",
+      "Falsch: Mehrwegflaschen „werden … nicht eingeschmolzen, sondern gereinigt und mehrfach befüllt“."
     ],
     "traps": [
+      "Gegenteil",
+      "Gegenteil",
       "Gegenteil"
     ]
   },
@@ -618,22 +631,22 @@
     "text": "Gletscher bilden sich dort, wo über viele Jahre mehr Schnee fällt, als im Sommer abschmilzt. Der Schnee verdichtet sich zu Eis und beginnt unter seinem eigenen Gewicht langsam talwärts zu fließen. In vielen Gebirgsregionen sind Gletscher wichtige Wasserspeicher: Im Winter halten sie Niederschlag als Eis zurück, im Sommer geben sie ihn als Schmelzwasser an Bäche und Flüsse ab. Seit mehreren Jahrzehnten verlieren Gletscher in zahlreichen Regionen der Erde, nicht nur in den Alpen, an Masse. Solange sie schrumpfen, führt das zusätzliche Schmelzwasser zunächst zu einem erhöhten Abfluss in den Flüssen. Unterschreitet ein Gletscher jedoch eine gewisse Größe, nimmt der Abfluss wieder ab, weil weniger Eis zum Schmelzen übrig ist. Fachleute sprechen vom Zeitpunkt des höchsten Abflusses. Wann dieser erreicht wird, unterscheidet sich je nach Größe und Höhenlage der Gletscher. Für Gebiete, die im Sommer stark auf Schmelzwasser angewiesen sind, etwa für Bewässerung oder Wasserkraft, ist der spätere Rückgang des Abflusses besonders bedeutsam. Allerdings wird die Wasserführung vieler Flüsse zusätzlich durch Regen und Schneefall im Einzugsgebiet bestimmt, deren Entwicklung sich von Region zu Region unterscheidet.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Solange Gletscher schrumpfen, nimmt der Abfluss der von ihnen gespeisten Flüsse stetig zu.",
-      "Gletscher verlieren ausschließlich in den Alpen an Masse, in anderen Regionen bleiben sie stabil.",
-      "Ein schrumpfender Gletscher kann zunächst für mehr Abfluss sorgen, später geht dieser aber zurück.",
-      "Die Wasserführung der Flüsse wird allein vom Schmelzwasser der Gletscher bestimmt, nicht von Niederschlägen."
+      "Solange ein Gletscher schrumpft, sinkt der Abfluss der von ihm gespeisten Flüsse stets.",
+      "Gletscher verlieren ausschließlich in den Alpen an Masse, anderswo bleiben sie stabil.",
+      "Ein schrumpfender Gletscher kann zunächst mehr Wasser in die Flüsse leiten, später aber weniger.",
+      "Die Wasserführung vieler Flüsse hängt vor allem vom Schmelzwasser ab, Regen und Schneefall spielen kaum eine Rolle."
     ],
     "answer": 2,
     "why": [
-      "Falsch (nur teilweise richtig): Der Abfluss nimmt zunächst zu, später aber „wieder ab“, also nicht stetig.",
-      "Falsch: Gletscher verlieren „nicht nur in den Alpen“ an Masse.",
-      "Richtig: Zunächst führt das Schmelzwasser „zu einem erhöhten Abfluss“, nach Unterschreiten einer gewissen Größe „nimmt der Abfluss wieder ab“.",
-      "Falsch: Die Wasserführung wird „zusätzlich durch Regen und Schneefall im Einzugsgebiet bestimmt“."
+      "Falsch: Solange Gletscher schrumpfen, führt das Schmelzwasser „zunächst zu einem erhöhten Abfluss“. Erst später nimmt er ab.",
+      "Falsch: Gletscher verlieren laut Text „in zahlreichen Regionen der Erde, nicht nur in den Alpen“ an Masse.",
+      "Richtig: Zunächst gibt es mehr Abfluss. „Unterschreitet ein Gletscher jedoch eine gewisse Größe, nimmt der Abfluss wieder ab.“",
+      "Falsch: Die Wasserführung wird „zusätzlich durch Regen und Schneefall im Einzugsgebiet bestimmt“. Deren Rolle wird nicht als gering dargestellt."
     ],
     "traps": [
-      "Teilweise richtig",
-      "Gegenteil",
-      "Überverallgemeinerung"
+      "Zeitangabe verdreht",
+      "Überverallgemeinerung",
+      "Gegenteil"
     ]
   },
   {
@@ -643,22 +656,22 @@
     "text": "Windkraftanlagen auf dem Meer, sogenannte Offshore-Anlagen, nutzen die dort stärkeren und gleichmäßigeren Winde. Auf See gibt es weniger Hindernisse als an Land, sodass die Anlagen mehr Strom pro installierter Leistung erzeugen können. Zudem lassen sich sehr große Rotoren einsetzen, deren Transport über Straßen an Land schwierig wäre. Dem stehen höhere Kosten gegenüber: Fundamente müssen im Meeresboden verankert, die Anlagen gegen Salzwasser geschützt und die Kabel zum Festland verlegt werden. Auch Wartungsarbeiten sind aufwendiger, weil sie von Schiffen oder Hubschraubern aus erfolgen und vom Wetter abhängen. In vielen Ländern entstehen die Anlagen deshalb in Windparks, in denen mehrere Dutzend Turbinen gemeinsam an das Netz angeschlossen werden, was Kabelkosten spart. Umweltverbände weisen darauf hin, dass der Bau Lärm unter Wasser erzeugt, der Meeressäuger stören kann, und fordern Schutzmaßnahmen wie Schallschutzvorhänge. Die Stromerzeugung auf See schwankt je nach Wetter, weshalb sie durch Speicher, Netzausbau oder andere Kraftwerke ergänzt werden muss. Die Zahl der Anlagen auf See hat in den vergangenen Jahren in mehreren Küstenstaaten spürbar zugenommen.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Offshore-Anlagen lassen sich günstiger bauen und warten als Anlagen an Land, weil das Wetter keine Rolle spielt.",
-      "Der Unterwasserlärm beim Bau schädigt Meeressäuger nachweislich und ist deshalb gesetzlich verboten.",
-      "Schallschutzvorhänge sind beim Bau von Offshore-Windparks in allen Küstenstaaten gesetzlich vorgeschrieben.",
-      "Wegen geringerer Hindernisse können Offshore-Anlagen pro installierter Leistung mehr Strom liefern."
+      "Bau und Wartung sind auf See günstiger als an Land, weil die Anlagen dort gebündelt in Windparks stehen.",
+      "Der Unterwasserlärm beim Bau schädigt Meeressäuger nachweislich und ist deshalb in den meisten Küstenstaaten gesetzlich verboten.",
+      "Umweltverbände halten Schallschutzmaßnahmen für überflüssig, weil Meeressäuger durch den Baulärm nicht gestört werden.",
+      "Offshore-Anlagen erzeugen pro installierter Leistung mehr Strom, weil auf See weniger Hindernisse den Wind bremsen."
     ],
     "answer": 3,
     "why": [
-      "Falsch: Der Text nennt „höhere Kosten“ und aufwendigere Wartung.",
-      "Falsch: Der Lärm „kann Meeressäuger stören“; ein Nachweis einer Schädigung steht nicht im Text.",
-      "Falsch: Umweltverbände „fordern“ solche Maßnahmen; eine Vorschrift wird nicht erwähnt.",
-      "Richtig: „Auf See gibt es weniger Hindernisse“, sodass die Anlagen „mehr Strom pro installierter Leistung erzeugen können“."
+      "Falsch: Dem Vorteil stehen laut Text „höhere Kosten“ gegenüber, und die Wartung ist „aufwendiger“. Die Bündelung in Windparks spart nur Kabelkosten.",
+      "Falsch: Der Lärm „kann“ Meeressäuger stören, so der Text. Ein Nachweis oder ein gesetzliches Verbot werden nicht genannt.",
+      "Falsch: Umweltverbände „fordern Schutzmaßnahmen wie Schallschutzvorhänge“, weil der Lärm Meeressäuger stören kann.",
+      "Richtig: „Auf See gibt es weniger Hindernisse als an Land, sodass die Anlagen mehr Strom pro installierter Leistung erzeugen können.“"
     ],
     "traps": [
-      "Gegenteil",
+      "Vergleich verdreht",
       "Modalität (kann/muss)",
-      "Nicht im Text (Weltwissen)"
+      "Gegenteil"
     ]
   },
   {
@@ -668,21 +681,21 @@
     "text": "Der Umstieg auf Elektrofahrzeuge hängt nicht nur von den Fahrzeugen selbst ab, sondern auch von der Verfügbarkeit von Lademöglichkeiten. Der überwiegende Teil des Ladens findet nach Angaben von Betreibern und Verbänden zu Hause oder am Arbeitsplatz statt, wo Fahrzeuge ohnehin stundenlang stehen. Öffentliche Ladepunkte sind vor allem für Menschen wichtig, die keine eigene Garage haben, sowie für längere Fahrten. Schnellladesäulen können eine Batterie in kurzer Zeit weitgehend auffüllen, benötigen aber hohe Anschlussleistungen und sind daher teurer in Bau und Betrieb. Wo viele Fahrzeuge gleichzeitig laden, kann das lokale Stromnetz an seine Grenzen stoßen. Netzbetreiber setzen daher auf gesteuertes Laden, bei dem Fahrzeuge bevorzugt zu Zeiten geringer Netzbelastung geladen werden. Ob eine ausreichende Zahl öffentlicher Ladepunkte vorhanden ist, wird unterschiedlich beurteilt: Während Verbände auf Lücken in ländlichen Regionen verweisen, halten Betreiber in manchen Städten das Angebot bereits für ausreichend, sodass die Auslastung einzelner Säulen gering bleibe. Strittig ist zudem, wer die Kosten des Netzausbaus tragen soll.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Netzbetreiber setzen auf gesteuertes Laden, weil viele gleichzeitig ladende Fahrzeuge das Netz belasten können.",
-      "Der größte Teil der Ladevorgänge findet nach Angaben der Betreiber an öffentlichen Schnellladesäulen statt.",
-      "Schnellladesäulen sind in Bau und Betrieb teurer, weil sie Batterien schonender auffüllen als normale Säulen.",
+      "Damit das lokale Netz nicht überlastet wird, sollen Fahrzeuge bevorzugt dann laden, wenn wenig Strom nachgefragt wird.",
+      "Die meisten Ladevorgänge finden nach Angaben der Betreiber an öffentlichen Schnellladesäulen statt, weil Fahrzeuge dort in kurzer Zeit laden können.",
+      "Schnellladesäulen sind teurer in Bau und Betrieb, weil sie vor allem in ländlichen Regionen stehen.",
       "Betreiber halten das öffentliche Ladeangebot in allen Städten für ausreichend, auch in ländlichen Regionen."
     ],
     "answer": 0,
     "why": [
-      "Richtig: Das Netz „kann an seine Grenzen stoßen“, „Netzbetreiber setzen daher auf gesteuertes Laden“ (Kombination zweier Sätze).",
-      "Falsch: Der „überwiegende Teil“ des Ladens findet zu Hause oder am Arbeitsplatz statt.",
-      "Falsch: Der Grund für die höheren Kosten sind „hohe Anschlussleistungen“, nicht schonenderes Laden.",
-      "Falsch: Das gilt nur „in manchen Städten“, Verbände verweisen zudem auf Lücken auf dem Land."
+      "Richtig: Netzbetreiber setzen auf gesteuertes Laden, „bei dem Fahrzeuge bevorzugt zu Zeiten geringer Netzbelastung geladen werden“, weil das Netz bei gleichzeitigem Laden „an seine Grenzen stoßen“ kann.",
+      "Falsch: Der „überwiegende Teil des Ladens“ findet „zu Hause oder am Arbeitsplatz“ statt.",
+      "Falsch: Der Grund sind laut Text die „hohen Anschlussleistungen“. Der Standort wird nicht genannt.",
+      "Falsch: Betreiber halten das Angebot nur „in manchen Städten“ für ausreichend. Auf Lücken in ländlichen Regionen verweisen die Verbände."
     ],
     "traps": [
-      "Gegenteil",
       "Kausalität unterstellt",
+      "Zahl/Menge verdreht",
       "Überverallgemeinerung"
     ]
   },
@@ -693,22 +706,22 @@
     "text": "Der ökologische Landbau verzichtet auf chemisch-synthetische Pflanzenschutzmittel und leicht lösliche mineralische Stickstoffdünger. Stattdessen setzen Betriebe auf vielfältige Fruchtfolgen, organischen Dünger wie Mist und Kompost sowie auf die Förderung natürlicher Gegenspieler von Schädlingen. In der Tierhaltung gelten besondere Vorgaben, etwa zu Platzangebot, Auslauf und Futter. Produkte dürfen das Bio-Siegel der Europäischen Union nur tragen, wenn der Betrieb regelmäßig von zugelassenen Kontrollstellen überprüft wird. Die Erträge pro Hektar liegen im Ökolandbau in der Regel niedriger als im konventionellen Anbau, wobei der Unterschied je nach Kultur und Standort verschieden ausfällt. Dafür erzielen die Betriebe häufig höhere Preise und geben weniger für zugekaufte Betriebsmittel aus. Befürworter verweisen auf positive Wirkungen für Artenvielfalt und Wasserqualität. Kritiker entgegnen, dass wegen der geringeren Erträge für dieselbe Erntemenge mehr Fläche benötigt werde, was an anderer Stelle Natur beanspruchen könnte. Wie sich diese Effekte gegeneinander aufwiegen, hängt von der betrachteten Region und den Anbauverfahren ab. Die Vorschriften für Erzeugung und Kennzeichnung sind in der Europäischen Union in gemeinsamen Verordnungen festgelegt.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Im Ökolandbau sind die Erträge pro Hektar stets niedriger als im konventionellen Anbau, bei jeder Kultur.",
-      "Das EU-Bio-Siegel dürfen Produkte nur tragen, wenn der Betrieb regelmäßig von zugelassenen Kontrollstellen überprüft wird.",
-      "Der Ökolandbau verzichtet auf jede Form der Düngung und setzt allein auf natürliche Gegenspieler.",
-      "Kritiker bestreiten, dass der Ökolandbau die Artenvielfalt und die Wasserqualität verbessert."
+      "Die Erträge pro Hektar liegen im Ökolandbau niedriger als konventionell, dafür sind auch die Preise niedriger, sodass sich der Ökolandbau selten rechnet.",
+      "Ein Produkt darf das EU-Bio-Siegel nur führen, wenn der erzeugende Betrieb regelmäßig von zugelassenen Stellen kontrolliert wird.",
+      "Der Ökolandbau verzichtet auf Dünger und setzt zur Nährstoffversorgung auf Gegenspieler von Schädlingen.",
+      "Kritiker führen an, dass die geringeren Erträge die Artenvielfalt auf den bewirtschafteten Flächen mindern und Wasserquellen belasten."
     ],
     "answer": 1,
     "why": [
-      "Falsch: Die Erträge liegen nur „in der Regel“ niedriger, und der Unterschied fällt je nach Kultur und Standort verschieden aus.",
-      "Richtig: Das Siegel darf nur tragen, wer „regelmäßig von zugelassenen Kontrollstellen überprüft wird“.",
-      "Falsch: Genutzt wird „organischer Dünger wie Mist und Kompost“.",
-      "Falsch: Die Kritik betrifft den höheren Flächenbedarf; zur Artenvielfalt äußern die Kritiker sich im Text nicht."
+      "Falsch: Die Betriebe „erzielen häufig höhere Preise“ und geben weniger für zugekaufte Betriebsmittel aus.",
+      "Richtig: Produkte dürfen das Siegel „nur tragen, wenn der Betrieb regelmäßig von zugelassenen Kontrollstellen überprüft wird“.",
+      "Falsch: Die Betriebe setzen auf „organischen Dünger wie Mist und Kompost“. Verzichtet wird auf „leicht lösliche mineralische Stickstoffdünger“.",
+      "Falsch: Kritiker sorgen sich laut Text, dass „für dieselbe Erntemenge mehr Fläche benötigt“ wird, die „an anderer Stelle Natur beanspruchen“ könnte."
     ],
     "traps": [
-      "Überverallgemeinerung",
       "Gegenteil",
-      "Nicht im Text (Weltwissen)"
+      "Gegenteil",
+      "Kausalität unterstellt"
     ]
   },
   {
@@ -718,19 +731,20 @@
     "text": "Beim 3D-Druck wird ein Gegenstand Schicht für Schicht aus einem digitalen Modell aufgebaut. Je nach Verfahren wird dazu Kunststoff aufgeschmolzen und aufgetragen oder Metallpulver mit einem Laser verschmolzen. Im Gegensatz zu klassischen Verfahren wie Fräsen, bei denen Material von einem Block abgetragen wird, entsteht kaum Abfall. Besonders geeignet ist der 3D-Druck für kleine Stückzahlen und komplizierte Formen, etwa Prototypen, Ersatzteile oder individuell angepasste Prothesen. Für große Serien ist er in der Regel zu langsam und zu teuer, sodass dort Spritzguss und andere Massenverfahren überwiegen. Ein weiterer Vorteil ist, dass Ersatzteile bei Bedarf vor Ort hergestellt werden können, statt dass Lager unterhalten werden müssen. Allerdings hängt die Qualität der gedruckten Teile von Material und Verfahren ab; manche Bauteile erreichen nicht die Festigkeit gegossener oder gefräster Teile und müssen nachbearbeitet werden. Fachleute erwarten, dass der Anteil des 3D-Drucks in der Industrie weiter wächst, ohne dass er klassische Verfahren vollständig ersetzen wird. Die benötigten Geräte sind inzwischen in unterschiedlichen Größen und Preisklassen erhältlich, von einfachen Heimgeräten bis zu Industrieanlagen.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Für große Serien ist der 3D-Druck in der Regel zu langsam und zu teuer, weshalb dort Massenverfahren wie Spritzguss überwiegen.",
+      "Bei hohen Stückzahlen ist der 3D-Druck meist zu langsam und zu teuer, daher überwiegen dort Spritzguss und ähnliche Verfahren.",
       "Beim 3D-Druck wird das Werkstück aus einem festen Materialblock herausgearbeitet.",
-      "Fachleute erwarten, dass der 3D-Druck die klassischen Verfahren in der Industrie vollständig ersetzen wird.",
-      "Für Ersatzteile ist der 3D-Druck billiger als jedes andere Verfahren, auch bei großen Stückzahlen."
+      "Fachleute erwarten, dass der 3D-Druck die klassischen Verfahren in der Industrie schrittweise verdrängt und Spritzguss langfristig überflüssig macht.",
+      "Mit 3D-Druck gefertigte Ersatzteile sind meist fester als gegossene oder gefräste Teile."
     ],
     "answer": 0,
     "why": [
-      "Richtig: Für große Serien ist er „in der Regel zu langsam und zu teuer“.",
-      "Falsch: Das beschreibt das Fräsen; beim 3D-Druck wird „Schicht für Schicht“ aufgebaut.",
-      "Falsch: Er wird klassische Verfahren „nicht vollständig ersetzen“.",
-      "Falsch: Genannt wird nur, dass Lagerhaltung entfallen kann; ein Kostenvergleich mit „jedem anderen Verfahren“ steht nicht im Text."
+      "Richtig: Für große Serien ist der 3D-Druck „in der Regel zu langsam und zu teuer, sodass dort Spritzguss und andere Massenverfahren überwiegen“.",
+      "Falsch: Das beschreibt das Fräsen. Beim 3D-Druck wird der Gegenstand „Schicht für Schicht“ aufgebaut.",
+      "Falsch: Fachleute erwarten Wachstum des 3D-Drucks, „ohne dass er klassische Verfahren vollständig ersetzen wird“.",
+      "Falsch: Manche Bauteile erreichen laut Text „nicht die Festigkeit gegossener oder gefräster Teile“."
     ],
     "traps": [
+      "Vergleich verdreht",
       "Gegenteil",
       "Überverallgemeinerung"
     ]
@@ -742,22 +756,22 @@
     "text": "Ein gesetzlicher Mindestlohn legt eine Untergrenze für die Bezahlung pro Arbeitsstunde fest. Befürworter führen an, dass er Beschäftigte mit niedrigen Einkommen schützt und die Abhängigkeit von staatlichen Zuschüssen verringern kann. Kritiker befürchten dagegen, dass Betriebe bei zu hohen Löhnen Stellen abbauen oder weniger einstellen. Empirische Untersuchungen in mehreren Ländern kommen zu unterschiedlichen Ergebnissen. In vielen Studien blieben die Beschäftigungseffekte bei moderaten Erhöhungen gering, während die Löhne am unteren Ende der Verteilung spürbar stiegen. Bei sehr starken Erhöhungen oder in Regionen mit besonders niedrigem Lohnniveau fanden einige Untersuchungen jedoch Hinweise auf Beschäftigungsrückgänge in einzelnen Branchen. Fachleute betonen deshalb, dass die Wirkung von der Höhe des Mindestlohns im Verhältnis zum üblichen Lohnniveau abhängt. In einigen Ländern wird die Höhe durch eine Kommission aus Vertretern der Arbeitgeber, der Gewerkschaften und der Wissenschaft vorgeschlagen, in anderen legt die Regierung sie fest. Zudem gibt es meist Ausnahmen, etwa für Auszubildende oder bestimmte Praktika. Eine abschließende Bewertung fällt auch deshalb schwer, weil sich Länder in Wirtschaftsstruktur und Arbeitsmarktregeln unterscheiden.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Studien belegen einheitlich, dass Mindestlöhne in allen Branchen Arbeitsplätze vernichten und Löhne kaum erhöhen.",
-      "In allen Ländern wird die Höhe des Mindestlohns durch eine Kommission aus Sozialpartnern vorgeschlagen.",
-      "Die Wirkung eines Mindestlohns hängt nach Ansicht der Fachleute allein von seiner absoluten Höhe ab.",
-      "Einige Studien fanden bei sehr starken Erhöhungen Rückgänge, bei moderaten blieben die Effekte oft gering."
+      "Studien belegen einheitlich, dass Mindestlöhne in allen Branchen Arbeitsplätze vernichten und die Löhne kaum erhöhen, so die Mehrheit der Forscher.",
+      "In allen Ländern schlägt eine Kommission aus Sozialpartnern die Höhe des Mindestlohns vor, statt dass die Regierung sie festlegt.",
+      "Die Wirkung eines Mindestlohns hängt laut Fachleuten von seiner absoluten Höhe ab, nicht vom üblichen Lohnniveau.",
+      "Bei sehr starken Erhöhungen fanden einige Studien Beschäftigungsrückgänge, bei moderaten blieben die Effekte oft gering."
     ],
     "answer": 3,
     "why": [
-      "Falsch: Die Studien „kommen zu unterschiedlichen Ergebnissen“.",
-      "Falsch: Das gilt nur für „einige Länder“; in anderen legt die Regierung die Höhe fest.",
-      "Falsch: Entscheidend ist die Höhe „im Verhältnis zum üblichen Lohnniveau“, nicht die absolute Höhe.",
-      "Richtig: Bei „moderaten Erhöhungen“ blieben die Effekte „in vielen Studien gering“; bei „sehr starken Erhöhungen“ fanden „einige Untersuchungen“ Rückgänge (Kombination zweier Sätze)."
+      "Falsch: Die Studien „kommen zu unterschiedlichen Ergebnissen“. Bei moderaten Erhöhungen blieben die Beschäftigungseffekte oft gering, die Löhne stiegen „spürbar“.",
+      "Falsch: Laut Text wird die Höhe „in einigen Ländern“ von einer Kommission vorgeschlagen, „in anderen legt die Regierung sie fest“.",
+      "Falsch: Entscheidend ist laut Fachleuten die Höhe „im Verhältnis zum üblichen Lohnniveau“.",
+      "Richtig: „Bei sehr starken Erhöhungen … fanden einige Untersuchungen jedoch Hinweise auf Beschäftigungsrückgänge“, bei moderaten Erhöhungen „blieben die Beschäftigungseffekte … gering“."
     ],
     "traps": [
-      "Gegenteil",
       "Überverallgemeinerung",
-      "Teilweise richtig"
+      "Überverallgemeinerung",
+      "Gegenteil"
     ]
   },
   {
@@ -767,19 +781,20 @@
     "text": "Fairer Handel will Produzentinnen und Produzenten in Entwicklungs- und Schwellenländern bessere Handelsbedingungen verschaffen. Kernelemente sind Mindestpreise, die auch bei sinkenden Weltmarktpreisen gezahlt werden, langfristige Lieferbeziehungen und eine zusätzliche Prämie, die Gemeinschaftsprojekte wie Schulen oder Brunnen finanziert. Dafür müssen die Erzeuger bestimmte Standards einhalten, etwa zum Verbot von Kinderarbeit und zu Arbeitsbedingungen. Eine unabhängige Stelle kontrolliert regelmäßig, ob die Kriterien eingehalten werden, bevor Produkte ein Siegel tragen dürfen. In Europa wird fair gehandelte Ware vor allem über Supermärkte, Weltläden und Gastronomie verkauft; typische Produkte sind Kaffee, Kakao, Bananen und Baumwolle. Verbraucher zahlen für solche Produkte oft etwas mehr, wobei nicht immer klar ist, welcher Anteil des Aufpreises bei den Erzeugern ankommt. Kritiker bemängeln außerdem, dass nur ein Teil der Erzeuger Zugang zu den Programmen habe, weil die Zertifizierung Kosten verursacht. Befürworter halten dagegen, dass der faire Handel Verbesserungen für die beteiligten Gemeinschaften erkennbar mache und das Bewusstsein der Käufer für Produktionsbedingungen schärfe.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Fair gehandelte Ware wird in Europa ausschließlich in Weltläden verkauft, nicht im Supermarkt.",
+      "Fair gehandelte Ware wird in Europa vor allem in Weltläden verkauft, Supermärkte spielen kaum eine Rolle.",
       "Der gesamte Aufpreis, den Verbraucher für fair gehandelte Produkte zahlen, kommt bei den Erzeugern an.",
-      "Im fairen Handel werden Mindestpreise gezahlt, die auch dann gelten, wenn die Weltmarktpreise sinken, sowie eine Gemeinschaftsprämie.",
-      "Die Zertifizierung verursacht den Erzeugern keine Kosten, da sie von den Käufern getragen wird."
+      "Fairer Handel zahlt Erzeugern Mindestpreise, auch wenn die Weltmarktpreise sinken, und zusätzlich eine Gemeinschaftsprämie.",
+      "Die Zertifizierung ist nach Ansicht der Kritiker zu teuer, doch haben die meisten Erzeuger Zugang zum Programm."
     ],
     "answer": 2,
     "why": [
-      "Falsch: Verkauft wird „vor allem über Supermärkte, Weltläden und Gastronomie“.",
-      "Falsch: Es sei „nicht immer klar“, welcher Anteil beim Erzeuger ankommt.",
-      "Richtig: Kernelement sind „Mindestpreise, die auch bei sinkenden Weltmarktpreisen gezahlt werden“.",
-      "Falsch: Laut Kritikern „verursacht“ die Zertifizierung Kosten."
+      "Falsch: Vertrieben wird die Ware „vor allem über Supermärkte, Weltläden und Gastronomie“.",
+      "Falsch: Es sei „nicht immer klar, welcher Anteil des Aufpreises bei den Erzeugern ankommt“.",
+      "Richtig: Kernelemente sind „Mindestpreise, die auch bei sinkenden Weltmarktpreisen gezahlt werden“, und eine Prämie für Gemeinschaftsprojekte.",
+      "Falsch: Kritiker bemängeln, dass „nur ein Teil der Erzeuger Zugang zu den Programmen habe“, weil die Zertifizierung Kosten verursacht."
     ],
     "traps": [
+      "Gegenteil",
       "Überverallgemeinerung",
       "Gegenteil"
     ]
@@ -791,22 +806,22 @@
     "text": "Beim Crowdfunding finanzieren viele Einzelpersonen ein Vorhaben mit meist kleinen Beträgen, die über Internetplattformen eingesammelt werden. Man unterscheidet vier Hauptformen. Bei Spendenmodellen erhalten die Geldgeber nichts zurück, bei Belohnungsmodellen bekommen sie ein Produkt oder eine Gegenleistung, etwa das fertige Spiel oder eine Eintrittskarte. Beim Crowdinvesting beteiligen sich Geldgeber an einem Unternehmen und erhalten bei Erfolg einen Anteil am Gewinn, tragen aber das Risiko eines Totalverlusts. Bei Crowdlending vergeben sie Kredite und erwarten Zinsen. Häufig gilt das Prinzip „Alles oder nichts“: Das Geld wird nur eingezogen, wenn das Finanzierungsziel innerhalb einer festgelegten Frist erreicht wird. Für Gründer bietet das den Vorteil, ihre Idee zu testen, bevor sie größere Summen ausgeben. Allerdings erreichen nur wenige Projekte auf den Plattformen ihr Ziel, und der Aufwand für Werbung und Kommunikation mit den Unterstützern wird oft unterschätzt. Aufsichtsbehörden achten darauf, dass Anleger über die Risiken informiert werden, vor allem bei Investitionsmodellen. Die Plattformen finanzieren sich in der Regel über Gebühren, die sie von erfolgreichen Projekten einbehalten, und prüfen die Vorhaben vor der Veröffentlichung.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Wer sich per Crowdinvesting an einem Unternehmen beteiligt, trägt das Risiko, sein gesamtes eingesetztes Geld zu verlieren.",
+      "Beim Crowdinvesting können Geldgeber ihre Einlage vollständig verlieren.",
       "Bei Spendenmodellen erhalten Geldgeber eine Gegenleistung, etwa ein Produkt oder eine Eintrittskarte.",
       "Beim Crowdlending erhalten Geldgeber einen Anteil am Gewinn des Unternehmens, an dem sie sich beteiligen.",
-      "Das Prinzip „Alles oder nichts“ gilt bei allen Crowdfunding-Projekten und Plattformen ausnahmslos."
+      "Das Prinzip „Alles oder nichts“ gilt bei allen Crowdfunding-Projekten ausnahmslos."
     ],
     "answer": 0,
     "why": [
-      "Richtig: Crowdinvestoren „tragen das Risiko eines Totalverlusts“.",
-      "Falsch: Bei Spenden „erhalten die Geldgeber nichts zurück“.",
-      "Falsch: Beim Crowdlending vergeben Geldgeber Kredite und „erwarten Zinsen“; den Gewinnanteil gibt es beim Crowdinvesting.",
-      "Falsch: Das Prinzip gilt nur „häufig“."
+      "Richtig: Beim Crowdinvesting „tragen“ Geldgeber „das Risiko eines Totalverlusts“.",
+      "Falsch: Bei Spendenmodellen „erhalten die Geldgeber nichts zurück“. Eine Gegenleistung gibt es bei Belohnungsmodellen.",
+      "Falsch: Den Gewinnanteil gibt es beim Crowdinvesting. Beim Crowdlending „vergeben sie Kredite und erwarten Zinsen“.",
+      "Falsch: „Alles oder nichts“ gilt laut Text nur „häufig“, nicht ausnahmslos."
     ],
     "traps": [
+      "Überverallgemeinerung",
       "Gegenteil",
-      "Teilweise richtig",
-      "Überverallgemeinerung"
+      "Gegenteil"
     ]
   },
   {
@@ -816,22 +831,22 @@
     "text": "In der Europäischen Union arbeiten Frauen deutlich häufiger in Teilzeit als Männer. Als Gründe werden vor allem Betreuungsaufgaben für Kinder und pflegebedürftige Angehörige genannt. Der Anteil der Teilzeitbeschäftigten unterscheidet sich zwischen den Mitgliedstaaten stark: In einigen ist Teilzeit weit verbreitet, in anderen ist sie die Ausnahme. Teilzeit kann Beschäftigten helfen, Beruf und Familie zu vereinbaren, und Unternehmen können flexibel auf schwankenden Personalbedarf reagieren. Zugleich ist sie mit Nachteilen verbunden: Wer weniger Stunden arbeitet, verdient weniger, erwirbt geringere Rentenansprüche und hat teils schlechtere Aufstiegschancen. Besonders problematisch ist unfreiwillige Teilzeit, also wenn Beschäftigte gern mehr arbeiten würden, aber keine Vollzeitstelle finden. Diese Gruppe ist in manchen Ländern größer als in anderen. Zur Verringerung der Unterschiede werden unter anderem bessere Betreuungsangebote, flexiblere Arbeitszeitmodelle und ein Rückkehrrecht in Vollzeit diskutiert. Ob solche Maßnahmen die Aufteilung von Erwerbs- und Betreuungsarbeit tatsächlich verändern, hängt auch von gesellschaftlichen Erwartungen ab. Vergleichbare Statistiken werden von den europäischen Statistikbehörden erhoben, sodass sich die Entwicklung über mehrere Jahre verfolgen lässt, auch wenn Definitionen leicht abweichen können.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "In allen Mitgliedstaaten der EU ist Teilzeit weit verbreitet, besonders unter Männern.",
+      "In allen EU-Staaten ist Teilzeit weit verbreitet, wobei sich Frauen und Männer kaum unterscheiden.",
       "Wer in Teilzeit arbeitet, hat zwangsläufig schlechtere Aufstiegschancen und geringere Rentenansprüche.",
-      "Wer in Teilzeit arbeitet, obwohl er eine Vollzeitstelle sucht, ist unfreiwillig in Teilzeit.",
-      "Bessere Betreuungsangebote verändern nachweislich die Aufteilung von Erwerbs- und Betreuungsarbeit."
+      "Von unfreiwilliger Teilzeit spricht man, wenn Beschäftigte mehr arbeiten möchten, aber keine Vollzeitstelle finden.",
+      "Der Text erwartet, dass bessere Betreuungsangebote die Aufteilung von Erwerbs- und Betreuungsarbeit verändern."
     ],
     "answer": 2,
     "why": [
-      "Falsch: In anderen Mitgliedstaaten „ist sie die Ausnahme“.",
-      "Falsch: Teilzeit bringt nur „teils“ schlechtere Aufstiegschancen mit sich.",
-      "Richtig: Unfreiwillige Teilzeit liegt vor, wenn Beschäftigte „gern mehr arbeiten würden, aber keine Vollzeitstelle finden“.",
-      "Falsch: Ob solche Maßnahmen tatsächlich etwas verändern, „hängt auch von gesellschaftlichen Erwartungen ab“; ein Nachweis wird nicht genannt."
+      "Falsch: Frauen arbeiten laut Text „deutlich häufiger in Teilzeit als Männer“. Zudem ist Teilzeit in manchen Staaten „die Ausnahme“.",
+      "Falsch: Teilzeit bringt geringere Rentenansprüche, aber nur „teils“ schlechtere Aufstiegschancen. Eine Zwangsläufigkeit wird nicht behauptet.",
+      "Richtig: Unfreiwillig ist Teilzeit, „wenn Beschäftigte gern mehr arbeiten würden, aber keine Vollzeitstelle finden“.",
+      "Falsch: Ob solche Maßnahmen die Aufteilung tatsächlich verändern, „hängt auch von gesellschaftlichen Erwartungen ab“. Der Text erwartet das nicht."
     ],
     "traps": [
-      "Gegenteil",
-      "Modalität (kann/muss)",
-      "Kausalität unterstellt"
+      "Überverallgemeinerung",
+      "Überverallgemeinerung",
+      "Modalität (kann/muss)"
     ]
   },
   {
@@ -841,21 +856,22 @@
     "text": "Die Qualität von Flüssen und Seen wird anhand biologischer, chemischer und physikalischer Merkmale beurteilt. Biologische Merkmale umfassen etwa das Vorkommen von Fischen, Kleintieren und Wasserpflanzen, die empfindlich auf Verschmutzung reagieren. Zu den chemischen Merkmalen zählen Nährstoffe wie Stickstoff und Phosphor sowie Schadstoffe, etwa Reste von Pflanzenschutzmitteln oder Arzneimitteln. Gelangen zu viele Nährstoffe in ein Gewässer, wachsen Algen stark, und beim Abbau der abgestorbenen Algen wird Sauerstoff verbraucht, was Fische gefährden kann. Nährstoffe stammen aus der Landwirtschaft, aber auch aus Kläranlagen. Dort werden sie zwar zu einem großen Teil, aber nicht vollständig entfernt. In den vergangenen Jahrzehnten hat sich die Wasserqualität vieler Flüsse in Europa vor allem durch den besseren Ausbau der Kläranlagen verbessert. Dennoch erreicht in manchen Ländern ein erheblicher Teil der Gewässer die gesetzten Ziele noch nicht, wobei Begradigungen und Wehre den Lebensraum für Tiere zusätzlich einschränken. Die Europäische Union hat gemeinsame Ziele für den Zustand der Gewässer festgelegt, die die Mitgliedstaaten bis zu bestimmten Fristen erreichen sollen.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Kläranlagen entfernen Nährstoffe aus dem Abwasser vollständig, sodass keine Belastung mehr entsteht.",
-      "Zu viele Nährstoffe können Fische gefährden, weil beim Abbau der Algen Sauerstoff verbraucht wird.",
-      "Die Wasserqualität der Flüsse in Europa hat sich in den vergangenen Jahrzehnten verschlechtert.",
-      "Die Nährstoffe in Gewässern stammen ausschließlich aus der Landwirtschaft und nicht aus Kläranlagen."
+      "Kläranlagen entfernen die Nährstoffe aus dem Abwasser vollständig, sodass keine Belastung entsteht.",
+      "Zu viele Nährstoffe lassen Algen wuchern, deren Abbau verbraucht Sauerstoff, was Fische gefährden kann.",
+      "Die Wasserqualität vieler Flüsse hat sich vor allem durch weniger Pflanzenschutzmittel in der Landwirtschaft verbessert.",
+      "Nährstoffe in Gewässern stammen überwiegend aus Kläranlagen, die Landwirtschaft spielt kaum eine Rolle."
     ],
     "answer": 1,
     "why": [
-      "Falsch: Nährstoffe werden „nicht vollständig entfernt“.",
-      "Richtig: Starkes Algenwachstum führt dazu, dass beim Abbau der Algen „Sauerstoff verbraucht wird, was Fische gefährden kann“.",
-      "Falsch: Die Wasserqualität „hat sich verbessert“.",
-      "Falsch: Nährstoffe stammen „aus der Landwirtschaft, aber auch aus Kläranlagen“."
+      "Falsch: Kläranlagen entfernen Nährstoffe laut Text „zwar zu einem großen Teil, aber nicht vollständig“.",
+      "Richtig: „Gelangen zu viele Nährstoffe in ein Gewässer, wachsen Algen stark, und beim Abbau der abgestorbenen Algen wird Sauerstoff verbraucht, was Fische gefährden kann.“",
+      "Falsch: Als Grund der Verbesserung nennt der Text „vor allem“ den „besseren Ausbau der Kläranlagen“.",
+      "Falsch: Nährstoffe stammen „aus der Landwirtschaft, aber auch aus Kläranlagen“. Eine Gewichtung nennt der Text nicht."
     ],
     "traps": [
-      "Gegenteil",
-      "Überverallgemeinerung"
+      "Überverallgemeinerung",
+      "Kausalität unterstellt",
+      "Vergleich verdreht"
     ]
   },
   {
@@ -866,21 +882,21 @@
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
       "Beim Emissionshandel legt der Staat den Preis je Tonne fest, während die Gesamtmenge offen bleibt.",
-      "Die Einnahmen aus dem CO2-Preis werden in allen Ländern an die Bürger zurückgezahlt und nicht anderweitig verwendet.",
-      "Ökonomen halten den Emissionshandel für sozial gerechter als die CO2-Steuer, weil die Obergrenze sinkt.",
-      "Bei der CO2-Steuer steht der Preis fest und die Menge ist offen, beim Emissionshandel ist es umgekehrt."
+      "Die Einnahmen aus dem CO2-Preis werden in allen Ländern an die Bürger zurückgezahlt und nicht anderweitig verwendet oder investiert.",
+      "Ökonomen halten den Emissionshandel für sozial gerechter als die CO2-Steuer, weil die Obergrenze im Zeitverlauf sinkt und Haushalte entlastet.",
+      "Die CO2-Steuer legt den Preis fest und lässt die Menge offen, der Emissionshandel deckelt die Menge und lässt den Preis frei."
     ],
     "answer": 3,
     "why": [
-      "Falsch: Die Zuordnung ist vertauscht; beim Emissionshandel ist die Menge begrenzt.",
-      "Falsch: Das geschieht nur „in manchen Ländern“, teils werden die Einnahmen auch für Förderprogramme verwendet.",
-      "Falsch: Einen Vergleich der sozialen Wirkung beider Formen zieht der Text nicht; die sozialen Folgen werden für beide genannt.",
-      "Richtig: Bei der Steuer „legt der Staat den Preis je Tonne fest“, beim Emissionshandel legt er „eine Obergrenze für die Gesamtmenge fest“ und „der Preis bildet sich am Markt“ (Kombination)."
+      "Falsch: Das beschreibt die CO2-Steuer. Beim Emissionshandel legt der Staat „eine Obergrenze für die Gesamtmenge“ fest, der Preis „bildet sich am Markt“.",
+      "Falsch: Ein Teil der Einnahmen wird „in manchen Ländern“ zurückgezahlt „oder für Förderprogramme verwendet“.",
+      "Falsch: Ein sozialer Vergleich der beiden Formen steht nicht im Text. Ökonomen sehen als Vorteil beider, dass Emissionen dort vermieden werden, „wo es am günstigsten ist“.",
+      "Richtig: Bei der CO2-Steuer legt der Staat den Preis fest, die Menge „ergibt sich … aus dem Verhalten“. Beim Emissionshandel legt er die Gesamtmenge fest, der Preis bildet sich am Markt."
     ],
     "traps": [
       "Gegenteil",
       "Überverallgemeinerung",
-      "Vergleich verdreht"
+      "Nicht im Text (Weltwissen)"
     ]
   },
   {
@@ -890,21 +906,22 @@
     "text": "Biogas entsteht, wenn Mikroorganismen organische Stoffe wie Gülle, Pflanzenreste oder Speiseabfälle unter Luftabschluss abbauen. Das entstehende Gas besteht überwiegend aus Methan und Kohlendioxid. Es kann in Motoren verbrannt werden, um Strom und Wärme zu erzeugen, oder zu Biomethan aufbereitet und in das Erdgasnetz eingespeist werden. Werden Abfälle und Reststoffe genutzt, gilt Biogas als vergleichsweise klimafreundlich, da sonst aus Gülle Methan unkontrolliert in die Atmosphäre entweichen würde. Problematisch wird es, wenn eigens angebaute Energiepflanzen wie Mais in großem Umfang eingesetzt werden: Sie beanspruchen Ackerflächen, die dann nicht für die Nahrungsmittelproduktion zur Verfügung stehen, und können die Artenvielfalt beeinträchtigen. Der Gärrest, der nach der Vergärung übrig bleibt, kann als Dünger auf Feldern ausgebracht werden. Biogasanlagen liefern im Unterschied zu Wind- und Solaranlagen Strom unabhängig von Wetter und Tageszeit, was sie für den Ausgleich von Schwankungen im Netz interessant macht. Mehrere Staaten haben die Förderung neuer Anlagen eingeschränkt oder auf den Einsatz von Reststoffen konzentriert.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Biogas entsteht, wenn organische Stoffe unter Zufuhr von Sauerstoff durch Mikroorganismen abgebaut werden.",
-      "Der Gärrest muss als Abfall entsorgt werden und darf nicht auf Feldern ausgebracht werden.",
-      "Biogas ist unter allen Umständen klimafreundlich, auch wenn Energiepflanzen eingesetzt werden.",
-      "Biogasanlagen liefern unabhängig von Wetter und Tageszeit Strom und helfen so beim Netzausgleich."
+      "Biogas entsteht, wenn Mikroorganismen organische Stoffe wie Gülle oder Speiseabfälle unter Zufuhr von Sauerstoff abbauen.",
+      "Der Gärrest kann wegen seines Methangehalts nicht als Dünger genutzt werden.",
+      "Biogas aus Energiepflanzen wie Mais gilt als klimafreundlicher als Biogas aus Gülle.",
+      "Anders als Wind- und Solaranlagen liefern Biogasanlagen Strom unabhängig von Wetter und Tageszeit."
     ],
     "answer": 3,
     "why": [
-      "Falsch: Der Abbau erfolgt „unter Luftabschluss“.",
-      "Falsch: Der Gärrest „kann als Dünger“ auf Feldern ausgebracht werden.",
-      "Falsch: Als „vergleichsweise klimafreundlich“ gilt Biogas nur bei der Nutzung von Abfällen und Reststoffen; Energiepflanzen sind „problematisch“.",
-      "Richtig: Sie liefern Strom „unabhängig von Wetter und Tageszeit“, „was sie für den Ausgleich von Schwankungen im Netz interessant macht“."
+      "Falsch: Der Abbau erfolgt „unter Luftabschluss“, nicht unter Sauerstoffzufuhr.",
+      "Falsch: Der Gärrest „kann als Dünger auf Feldern ausgebracht werden“.",
+      "Falsch: Klimafreundlich ist Biogas laut Text vor allem bei Abfällen und Reststoffen. Der Einsatz von Energiepflanzen wird als „problematisch“ bezeichnet.",
+      "Richtig: Biogasanlagen liefern „im Unterschied zu Wind- und Solaranlagen Strom unabhängig von Wetter und Tageszeit, was sie für den Ausgleich von Schwankungen im Netz interessant macht“."
     ],
     "traps": [
       "Gegenteil",
-      "Überverallgemeinerung"
+      "Gegenteil",
+      "Vergleich verdreht"
     ]
   },
   {
@@ -915,21 +932,21 @@
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
       "Dauerhafter Fluglärm verursacht nachweislich Herz-Kreislauf-Erkrankungen und Schlafstörungen bei Anwohnern.",
-      "Weil die Zahl der Flüge gestiegen ist, sank die Gesamtbelastung an manchen Standorten nicht entsprechend.",
-      "Nachtflugbeschränkungen gelten an Flughäfen ausnahmslos, auch für Notfälle und verspätete Flüge.",
-      "Flughafenverband und Anwohnerinitiativen fordern gleichermaßen strengere Lärmgrenzen für den Luftverkehr."
+      "Trotz leiserer Triebwerke ist die Lärmbelastung an einigen Flughäfen nicht im gleichen Maß gesunken, weil mehr Flüge stattfinden.",
+      "An vielen Flughäfen gelten Nachtflugverbote, von denen Notfälle und Verspätungen ebenso betroffen sind wie planmäßige Flüge am Abend.",
+      "Der Flughafenverband fordert strengere Lärmgrenzen, während Anwohnerinitiativen auf die Bedeutung des Luftverkehrs für Beschäftigung hinweisen."
     ],
     "answer": 1,
     "why": [
-      "Falsch: Lärm „kann nach Ansicht vieler Medizinerinnen und Mediziner“ mit einem erhöhten Risiko „verbunden sein“; ein Nachweis wird nicht behauptet.",
-      "Richtig: Die Lautstärke einzelner Flugzeuge sank, doch „weil die Zahl der Flüge zugenommen hat“, ist die Gesamtbelastung „an manchen Standorten dennoch nicht entsprechend gesunken“.",
+      "Falsch: Dauerlärm „kann nach Ansicht vieler Medizinerinnen und Mediziner“ mit Schlafstörungen und einem „erhöhten Risiko“ verbunden sein. Ein Nachweis wird nicht behauptet.",
+      "Richtig: Die Lautstärke einzelner Flugzeuge ist gesunken, „weil aber die Zahl der Flüge zugenommen hat“, sank die Gesamtbelastung an manchen Standorten „nicht entsprechend“.",
       "Falsch: „Ausnahmen gelten häufig für Notfälle oder verspätete Flüge.“",
-      "Falsch: Strengere Grenzen fordern nur die Anwohnerinitiativen; der Verband betont die Bedeutung des Luftverkehrs."
+      "Falsch: Die Rollen sind vertauscht. Der Flughafenverband betont die wirtschaftliche Bedeutung, die Anwohnerinitiativen fordern „strengere Grenzen“."
     ],
     "traps": [
       "Modalität (kann/muss)",
-      "Gegenteil",
-      "Teilweise richtig"
+      "Kausalität unterstellt",
+      "Gegenteil"
     ]
   },
   {
@@ -939,21 +956,22 @@
     "text": "Die Landwirtschaft ist weltweit der größte Nutzer von Süßwasser. Bewässerung erhöht die Erträge, weil sie Pflanzen unabhängig von unregelmäßigem Regen mit Wasser versorgt, und macht in trockenen Regionen vielerorts erst Ackerbau möglich. Die einfachste Methode ist die Überflutung von Feldern; sie ist billig, doch ein großer Teil des Wassers verdunstet oder versickert ungenutzt. Sprinkleranlagen verteilen das Wasser gleichmäßiger, verlieren aber bei Wind und Hitze viel durch Verdunstung. Die Tropfbewässerung bringt das Wasser gezielt zu den Wurzeln und gilt als besonders sparsam, ist aber in der Anschaffung teurer und erfordert Wartung. Wird zu viel bewässert und schlecht entwässert, können Salze aus dem Wasser im Boden zurückbleiben und ihn auf Dauer unfruchtbar machen. Zudem sinkt in manchen Regionen der Grundwasserspiegel, weil mehr Wasser entnommen wird, als nachfließt. Landwirte erhalten deshalb vielerorts Hinweise zur bedarfsgerechten Bewässerung, etwa über Bodenfeuchtesensoren und Wetterdaten. Ob sich teurere, sparsamere Technik lohnt, hängt unter anderem vom Wasserpreis und von der Art der Kultur ab.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Die Tropfbewässerung bringt das Wasser gezielt zu den Wurzeln, spart besonders viel davon, ist aber teurer in der Anschaffung.",
-      "Die Überflutung von Feldern gilt als die sparsamste Bewässerungsmethode, weil kaum Wasser verloren geht.",
-      "Sprinkleranlagen verlieren bei Wind und Hitze kaum Wasser, da sie das Wasser sehr gezielt verteilen.",
+      "Tropfbewässerung gilt als besonders wassersparend, kostet aber in der Anschaffung mehr und braucht Wartung.",
+      "Die Überflutung von Feldern ist die günstigste Methode und verbraucht zugleich am wenigsten Wasser.",
+      "Sprinkleranlagen verlieren auch bei Wind und Hitze kaum Wasser, weil sie es sehr gezielt verteilen.",
       "Bewässerung führt zwangsläufig zur Versalzung des Bodens und macht ihn auf Dauer unfruchtbar."
     ],
     "answer": 0,
     "why": [
       "Richtig: Die Tropfbewässerung „gilt als besonders sparsam, ist aber in der Anschaffung teurer und erfordert Wartung“.",
-      "Falsch: Bei der Überflutung verdunstet oder versickert „ein großer Teil des Wassers“ ungenutzt.",
-      "Falsch: Sprinkleranlagen verlieren „viel durch Verdunstung“.",
-      "Falsch: Salze „können“ zurückbleiben, wenn zu viel bewässert und schlecht entwässert wird; zwangsläufig ist das nicht."
+      "Falsch: Die Überflutung ist zwar „billig“, doch „ein großer Teil des Wassers verdunstet oder versickert ungenutzt“.",
+      "Falsch: Sprinkleranlagen „verlieren … bei Wind und Hitze viel durch Verdunstung“.",
+      "Falsch: Salze bleiben nur zurück, wenn „zu viel bewässert und schlecht entwässert“ wird. Zwangsläufig ist das nicht."
     ],
     "traps": [
+      "Teilweise richtig",
       "Gegenteil",
-      "Modalität (kann/muss)"
+      "Überverallgemeinerung"
     ]
   },
   {
@@ -963,22 +981,22 @@
     "text": "Unter dem Internet der Dinge versteht man alltägliche Gegenstände, die mit Sensoren und einer Internetverbindung ausgestattet sind und Daten austauschen können. Beispiele reichen von Heizungsthermostaten über Fitnessarmbänder bis zu Maschinen in Fabriken, die ihren Zustand melden. In der Industrie ermöglichen solche Sensoren eine vorausschauende Wartung: Statt Maschinen in festen Abständen zu überholen, werden sie gewartet, wenn die Messwerte auf einen bevorstehenden Verschleiß hinweisen. In der Landwirtschaft liefern Bodensensoren Daten zur Bewässerung. Im Haushalt lassen sich Geräte per App steuern. Die Geräte sind jedoch oft nur schwach gegen Angriffe geschützt, weil Hersteller aus Kostengründen auf Sicherheitsfunktionen verzichten oder Aktualisierungen nur kurze Zeit anbieten. Werden Geräte übernommen, können sie für Angriffe auf andere Systeme missbraucht werden. Hinzu kommen Datenschutzfragen, da Sensoren im Haushalt Informationen über Gewohnheiten der Bewohner erfassen. Regulierer in der Europäischen Union arbeiten an Mindestanforderungen an die Sicherheit vernetzter Produkte. Wie wirksam sie sein werden, hängt davon ab, wie konsequent ihre Einhaltung kontrolliert wird.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Hersteller vernetzter Geräte bieten in der Regel über viele Jahre Sicherheitsaktualisierungen an, um Angriffe abzuwehren.",
-      "In der EU gelten bereits verbindliche Mindestanforderungen an die Sicherheit vernetzter Produkte, die streng kontrolliert werden.",
-      "Bei vorausschauender Wartung werden Maschinen gewartet, wenn Messwerte auf Verschleiß hinweisen, nicht nach festem Plan.",
+      "Hersteller vernetzter Geräte bieten in der Regel über viele Jahre Sicherheitsaktualisierungen an.",
+      "In der EU sind Mindestanforderungen an die Sicherheit vernetzter Produkte bereits in Kraft, ihre Wirksamkeit hängt von der Kontrolle ab.",
+      "Dank der Sensoren werden Maschinen nicht mehr turnusmäßig überholt, sondern erst, wenn die Messdaten auf nahenden Verschleiß deuten.",
       "Sensoren im Haushalt geben ihre Daten ausschließlich an die Bewohner weiter und nie an Dritte."
     ],
     "answer": 2,
     "why": [
-      "Falsch: Hersteller bieten Aktualisierungen teils „nur kurze Zeit“ an.",
-      "Falsch: Die Regulierer „arbeiten an“ solchen Anforderungen; sie gelten laut Text noch nicht.",
-      "Richtig: Maschinen werden „gewartet, wenn die Messwerte auf einen bevorstehenden Verschleiß hinweisen“, statt „in festen Abständen“.",
-      "Falsch: Über die Weitergabe der Daten sagt der Text nichts; er nennt nur Datenschutzfragen."
+      "Falsch: Hersteller bieten laut Text Aktualisierungen „nur kurze Zeit“ an oder verzichten aus Kostengründen auf Sicherheitsfunktionen.",
+      "Falsch: Regulierer „arbeiten an“ Mindestanforderungen. Dass sie bereits gelten, steht nicht im Text.",
+      "Richtig: Statt „in festen Abständen“ zu überholen, werden Maschinen gewartet, „wenn die Messwerte auf einen bevorstehenden Verschleiß hinweisen“.",
+      "Falsch: Der Text nennt gerade „Datenschutzfragen“, weil Sensoren im Haushalt Informationen über Gewohnheiten erfassen."
     ],
     "traps": [
       "Gegenteil",
       "Zeitangabe verdreht",
-      "Nicht im Text (Weltwissen)"
+      "Überverallgemeinerung"
     ]
   },
   {
@@ -988,46 +1006,47 @@
     "text": "Start-ups sind junge Unternehmen, die mit einer neuen Geschäftsidee schnell wachsen wollen. Weil sie anfangs meist Verluste machen, finanzieren sie sich häufig über Wagniskapital: Investoren stellen Geld bereit und erhalten dafür Anteile am Unternehmen. Sie nehmen in Kauf, dass viele der finanzierten Unternehmen scheitern, und erhoffen sich von wenigen Erfolgen so hohe Gewinne, dass diese die Verluste ausgleichen. Studien zeigen, dass in Europa weniger Wagniskapital zur Verfügung steht als in den Vereinigten Staaten, vor allem in späteren Finanzierungsrunden, wenn größere Summen benötigt werden. Gründer sind daher zum Teil auf ausländische Investoren angewiesen, oder sie verkaufen ihr Unternehmen früher an größere Konzerne. Ob dies zu einer Abwanderung von Wissen führt, wird unterschiedlich beurteilt. Öffentliche Förderprogramme sollen die Lücke verkleinern, indem sie Investitionen in frühen Phasen unterstützen. Kritiker wenden ein, dass staatliche Mittel Risiken tragen, die private Geldgeber scheuen, und dass der Nutzen schwer zu messen sei. Zudem zeigen Erfahrungen, dass nicht jede geförderte Gründung langfristig überlebt.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Wagniskapital ist in Europa ausschließlich in späteren Finanzierungsrunden knapper als in den Vereinigten Staaten, in frühen aber reichlicher.",
-      "Da in Europa vor allem später Wagniskapital knapp ist, sind Gründer teils auf ausländische Geldgeber angewiesen oder verkaufen früher.",
+      "In frühen Finanzierungsrunden steht in Europa weniger Wagniskapital zur Verfügung als in den Vereinigten Staaten, in späteren ähnlich viel.",
+      "Da in Europa vor allem späte Finanzierungsrunden knapp sind, setzen Gründer teils auf ausländische Investoren oder verkaufen früher.",
       "Der frühe Verkauf an Konzerne führt nachweislich zu einer Abwanderung von Wissen aus Europa in die Vereinigten Staaten.",
-      "Öffentliche Förderprogramme haben die Lücke beim Wagniskapital bereits geschlossen und Investitionen in frühen Phasen überflüssig gemacht."
+      "Öffentliche Förderprogramme haben die Lücke beim Wagniskapital vollständig geschlossen, sodass Gründer nicht mehr auf ausländische Investoren angewiesen sind."
     ],
     "answer": 1,
     "why": [
-      "Falsch: Die Knappheit zeigt sich „vor allem“, nicht „ausschließlich“ in späteren Runden; der Text sagt, dass insgesamt weniger Kapital zur Verfügung steht.",
-      "Richtig: Wagniskapital ist „vor allem in späteren Finanzierungsrunden“ knapper; „daher“ sind Gründer „zum Teil auf ausländische Investoren angewiesen“ oder verkaufen früher (Kombination).",
-      "Falsch: Ob dies zur Abwanderung führt, wird „unterschiedlich beurteilt“.",
-      "Falsch: Die Programme „sollen die Lücke verkleinern“; geschlossen ist sie laut Text nicht."
+      "Falsch: Die Lücke besteht laut Text „vor allem in späteren Finanzierungsrunden“. Die Phasen sind vertauscht.",
+      "Richtig: Weil später Wagniskapital knapp ist, sind Gründer „zum Teil auf ausländische Investoren angewiesen“ oder verkaufen früher an größere Konzerne.",
+      "Falsch: Ob der Verkauf zu einer Abwanderung von Wissen führt, „wird unterschiedlich beurteilt“. Von einem Nachweis oder den USA als Ziel steht nichts im Text.",
+      "Falsch: Die Programme „sollen die Lücke verkleinern“. Dass sie es getan haben oder Gründer unabhängig von Ausländern sind, steht nicht im Text."
     ],
     "traps": [
-      "Überverallgemeinerung",
+      "Vergleich verdreht",
       "Kausalität unterstellt",
-      "Gegenteil"
+      "Zeitangabe verdreht"
     ]
   },
   {
     "id": "vr-0092",
     "topic": "Handel",
     "difficulty": 1,
-    "text": "Der Großhandel steht in der Lieferkette zwischen Herstellern und Einzelhändlern. Großhändler kaufen Waren in großen Mengen bei den Produzenten, lagern sie und verkaufen sie in kleineren Einheiten an Geschäfte, Gastronomie oder Handwerksbetriebe weiter. Für Hersteller ist das vorteilhaft, weil sie nicht jeden einzelnen Händler beliefern müssen. Einzelhändler wiederum können bei einem Großhändler ein breites Sortiment aus einer Hand beziehen, statt bei vielen Herstellern einzeln zu bestellen. Man unterscheidet Sortimentsgroßhandel, der viele Warengruppen anbietet, vom Spezialgroßhandel, der sich auf einen engen Bereich konzentriert, etwa Baustoffe oder Lebensmittel. Manche Großmärkte verkaufen nur an gewerbliche Kunden und verlangen einen Nachweis. Durch das Internet haben Hersteller mehr Möglichkeiten, direkt an Kunden zu verkaufen, was den Großhandel unter Druck setzt. Viele Großhändler reagieren darauf mit zusätzlichen Dienstleistungen wie Beratung, Lieferplanung und Finanzierung. Ob ein Großhändler überlebt, hängt dann davon ab, ob er seinen Kunden einen Mehrwert bietet, den sie selbst nur mit hohem Aufwand erbringen könnten.",
+    "text": "Der Großhandel steht in der Lieferkette zwischen Herstellern und Einzelhändlern. Großhändler kaufen Waren in großen Mengen bei den Produzenten, lagern sie und verkaufen sie in kleineren Einheiten an Geschäfte, Gastronomie oder Handwerksbetriebe weiter. Für Hersteller ist das vorteilhaft, weil sie nicht jeden einzelnen Händler beliefern müssen. Einzelhändler wiederum können bei einem Großhändler ein breites Sortiment aus einer Hand beziehen, statt bei vielen Herstellern einzeln zu bestellen. Man unterscheidet Sortimentsgroßhandel, der viele Warengruppen anbietet, vom Spezialgroßhandel, der sich auf einen engen Bereich konzentriert, etwa Baustoffe oder Lebensmittel. Manche Großmärkte verkaufen ausschließlich an gewerbliche Kunden und verlangen dafür einen Nachweis. Durch das Internet haben Hersteller mehr Möglichkeiten, direkt an Kunden zu verkaufen, was den Großhandel unter Druck setzt. Viele Großhändler reagieren darauf mit zusätzlichen Dienstleistungen wie Beratung, Lieferplanung und Finanzierung. Ob ein Großhändler überlebt, hängt dann davon ab, ob er seinen Kunden einen Mehrwert bietet, den sie selbst nur mit hohem Aufwand erbringen könnten.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Einzelhändler können bei Großhändlern ein breites Sortiment aus einer Hand beziehen.",
-      "Der Großhandel kauft bei Einzelhändlern ein und verkauft die Waren an Hersteller weiter.",
-      "Alle Großmärkte verkaufen auch an Privatkunden und verlangen keinerlei Nachweis.",
-      "Das Internet hat den Großhandel überflüssig gemacht und seine Rolle in der Lieferkette beendet."
+      "Manche Großmärkte beliefern ausschließlich gewerbliche Kunden und verlangen dafür einen Nachweis.",
+      "Der Sortimentsgroßhandel konzentriert sich auf einen engen Bereich, der Spezialgroßhandel bietet viele Warengruppen an.",
+      "Der Großhandel wird sich gegen den Direktverkauf der Hersteller nicht halten können, weil Zusatzdienstleistungen zu teuer sind.",
+      "Großhändler kaufen Waren in kleinen Mengen bei den Einzelhändlern und verkaufen sie in großen Mengen an Hersteller weiter."
     ],
     "answer": 0,
     "why": [
-      "Richtig: Einzelhändler können „ein breites Sortiment aus einer Hand beziehen“.",
-      "Falsch: Großhändler kaufen bei Produzenten und verkaufen an Geschäfte, Gastronomie oder Handwerk.",
-      "Falsch: „Manche Großmärkte“ verkaufen nur an gewerbliche Kunden.",
-      "Falsch: Das Internet setzt den Großhandel „unter Druck“; von Überflüssigkeit steht nichts im Text."
+      "Richtig: „Manche Großmärkte verkaufen ausschließlich an gewerbliche Kunden und verlangen dafür einen Nachweis.“ „Ausschließlich“ steht so im Text.",
+      "Falsch: Die Zuordnung ist vertauscht. Der Sortimentsgroßhandel bietet „viele Warengruppen“ an, der Spezialgroßhandel konzentriert sich auf „einen engen Bereich“.",
+      "Falsch: Ob ein Großhändler überlebt, hängt davon ab, ob er einen Mehrwert bietet. Dass Zusatzdienstleistungen zu teuer seien, steht nicht im Text.",
+      "Falsch: Großhändler kaufen laut Text „in großen Mengen bei den Produzenten“ und verkaufen „in kleineren Einheiten“ an Geschäfte, Gastronomie oder Handwerk."
     ],
     "traps": [
       "Gegenteil",
-      "Überverallgemeinerung"
+      "Überverallgemeinerung",
+      "Gegenteil"
     ]
   },
   {
@@ -1038,16 +1057,16 @@
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
       "Ein niedriger Scorewert führt dazu, dass Banken stets Sicherheiten oder höhere Zinsen verlangen.",
-      "Nach EU-Datenschutzregeln müssen Unternehmen die Berechnungsformel des Scorewerts auf Verlangen offenlegen.",
-      "Betroffene dürfen fehlerhafte Daten berichtigen lassen, die genaue Berechnungsformel aber nicht einsehen.",
-      "Auskunfteien erfassen ausschließlich negatives Zahlungsverhalten, nicht aber pünktliche Zahlungen."
+      "Nach EU-Datenschutzregeln müssen Unternehmen die Formel des Scorewerts auf Verlangen offenlegen.",
+      "Betroffene können falsche Daten berichtigen lassen, haben aber keinen Anspruch auf die Berechnungsformel.",
+      "Auskunfteien erfassen vor allem negatives Zahlungsverhalten wie Kontoüberziehungen und verspätet bezahlte Rechnungen."
     ],
     "answer": 2,
     "why": [
-      "Falsch: Ein niedriger Wert „kann“ höhere Zinsen oder Sicherheiten zur Folge haben, muss es aber nicht.",
-      "Falsch: Die Formel darf als Geschäftsgeheimnis geschützt werden.",
-      "Richtig: Betroffene „können fehlerhafte Daten berichtigen lassen“, ein Recht auf Einsicht in die Formel „besteht allerdings nicht“ (Kombination zweier Sätze).",
-      "Falsch: Auskunfteien erfassen „das bisherige Zahlungsverhalten“, nicht nur negatives."
+      "Falsch: Ein niedriger Wert führt „nicht zwangsläufig zu einer Ablehnung“. Er „kann“ höhere Zinsen oder Sicherheiten zur Folge haben.",
+      "Falsch: Das Recht, die Formel einzusehen, „besteht allerdings nicht“, weil sie als Geschäftsgeheimnis geschützt werden darf.",
+      "Richtig: Personen „können fehlerhafte Daten berichtigen lassen“. Das Recht, die Formel einzusehen, „besteht allerdings nicht“.",
+      "Falsch: Auskunfteien erfassen „das bisherige Zahlungsverhalten von Personen“, ohne Beschränkung auf Negatives."
     ],
     "traps": [
       "Modalität (kann/muss)",
@@ -1062,17 +1081,17 @@
     "text": "Eine Befragung unter Beschäftigten in mehreren europäischen Ländern untersuchte die Teilnahme an beruflicher Weiterbildung. Etwa vier von zehn Befragten hatten in den vergangenen zwölf Monaten an einer Weiterbildung teilgenommen. Die Teilnahme war bei Personen mit Hochschulabschluss deutlich häufiger als bei Personen mit geringerer Qualifikation, bei Beschäftigten in großen Unternehmen häufiger als in kleinen Betrieben und bei jüngeren häufiger als bei älteren Beschäftigten. Als häufigste Hindernisse nannten Nichtteilnehmende Zeitmangel durch Arbeit und Familie, gefolgt von Kosten. Fehlendes Interesse spielte nur für eine Minderheit eine Rolle. Die Studienautoren weisen darauf hin, dass der Zusammenhang zwischen Größe des Betriebs und Weiterbildung teilweise dadurch erklärt werden könnte, dass in großen Unternehmen häufiger eigene Personalabteilungen Angebote organisieren; dies hat die Untersuchung allerdings nicht überprüft. Sie empfehlen, Angebote stärker auf die Bedürfnisse von Beschäftigten mit geringerer Qualifikation auszurichten und Freistellungen für Weiterbildung zu erleichtern. Die Teilnahmequoten sind zwischen den Ländern unterschiedlich, wobei die Autoren die Länder in der Zusammenfassung nicht einzeln aufführen.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Für die meisten Nichtteilnehmenden war fehlendes Interesse das Hauptproblem.",
-      "Die Untersuchung zeigt, dass Personalabteilungen großer Unternehmen die höhere Teilnahme verursachen.",
+      "Für die Mehrheit der Nichtteilnehmenden war fehlendes Interesse das wichtigste Hindernis.",
+      "Dass große Unternehmen mehr Weiterbildung anbieten, liegt der Studie zufolge an ihren eigenen Personalabteilungen.",
       "Etwa vier von zehn Befragten haben im gesamten Berufsleben mindestens einmal an einer Weiterbildung teilgenommen.",
-      "Unter den Nichtteilnehmenden wurde Zeitmangel häufiger als Hindernis genannt als die Kosten."
+      "Fehlendes Interesse nannte nur eine Minderheit der Nichtteilnehmenden als Hindernis."
     ],
     "answer": 3,
     "why": [
-      "Falsch: Fehlendes Interesse spielte „nur für eine Minderheit eine Rolle“.",
-      "Falsch: Die Erklärung wird nur als Möglichkeit genannt, und die Untersuchung hat sie „nicht überprüft“.",
-      "Falsch: Die vier von zehn bezogen sich auf „die vergangenen zwölf Monate“.",
-      "Richtig: Genannt wurde „Zeitmangel durch Arbeit und Familie, gefolgt von Kosten“."
+      "Falsch: Fehlendes Interesse spielte „nur für eine Minderheit eine Rolle“. Häufigstes Hindernis war Zeitmangel.",
+      "Falsch: Die Personalabteilungen werden nur als mögliche Erklärung genannt. „Dies hat die Untersuchung allerdings nicht überprüft.“",
+      "Falsch: Die vier von zehn bezogen sich auf „die vergangenen zwölf Monate“, nicht auf das gesamte Berufsleben.",
+      "Richtig: „Fehlendes Interesse spielte nur für eine Minderheit eine Rolle.“"
     ],
     "traps": [
       "Gegenteil",
@@ -1087,21 +1106,21 @@
     "text": "Naturnahe Wälder mit Bäumen unterschiedlichen Alters und verschiedener Arten bieten vielen Tieren, Pflanzen und Pilzen Lebensraum. Besonders wertvoll ist Totholz: Stehende und liegende abgestorbene Bäume werden von Käfern, Pilzen und Moosen besiedelt und dienen Spechten und Fledermäusen als Nahrungsquelle oder Quartier. In bewirtschafteten Wäldern wird Totholz oft entfernt, weil Förster befürchten, dass sich Schädlinge ausbreiten oder Wege versperrt werden. Wälder, die nur aus einer Baumart bestehen und im gleichen Alter gepflanzt wurden, sind artenärmer und gegenüber Stürmen, Trockenheit und Schädlingen häufig anfälliger. Deshalb setzen viele Forstverwaltungen auf Mischwälder, in denen mehrere Baumarten gemeinsam wachsen. Zugleich bleibt Holz ein wichtiger nachwachsender Rohstoff, sodass zwischen Naturschutz und Nutzung abgewogen werden muss. Einige Länder haben deshalb Teile ihrer Wälder aus der Nutzung genommen, während andere Flächen weiterhin bewirtschaftet werden. Wie sich das auf Artenvielfalt und Holzversorgung langfristig auswirkt, wird in Langzeitstudien untersucht. Auch private Waldbesitzer spielen eine große Rolle, da sie je nach Land einen erheblichen Anteil der Waldflächen bewirtschaften. Für sie bestehen vielfach Beratungs- und Fördermöglichkeiten.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Wälder aus einer Baumart gleichen Alters sind artenärmer und oft anfälliger für Stürme und Schädlinge.",
+      "Monokulturen gleichaltriger Bäume bieten weniger Arten Lebensraum und sind häufig empfindlicher gegenüber Stürmen, Dürre und Schädlingen.",
       "In bewirtschafteten Wäldern wird Totholz stets im Bestand belassen, weil Förster seinen ökologischen Wert kennen.",
       "Langzeitstudien haben gezeigt, dass die Stilllegung von Wäldern die Holzversorgung langfristig verringert.",
-      "Förster entfernen Totholz, weil es für Fledermäuse und andere Tiere wertlos ist."
+      "Förster entfernen Totholz hauptsächlich, weil es für Fledermäuse und andere Tiere keinen Nutzen hat."
     ],
     "answer": 0,
     "why": [
-      "Richtig: Solche Wälder sind „artenärmer und gegenüber Stürmen, Trockenheit und Schädlingen häufig anfälliger“.",
-      "Falsch: Totholz wird dort „oft entfernt“.",
-      "Falsch: Die Auswirkungen werden laut Text erst „in Langzeitstudien untersucht“; Ergebnisse nennt er nicht.",
-      "Falsch: Der Grund ist die Befürchtung, Schädlinge könnten sich ausbreiten oder Wege versperrt werden; Fledermäuse nutzen Totholz laut Text als Quartier."
+      "Richtig: Wälder aus einer Baumart im gleichen Alter „sind artenärmer und gegenüber Stürmen, Trockenheit und Schädlingen häufig anfälliger“.",
+      "Falsch: Totholz wird laut Text „oft entfernt“, weil Förster Schädlinge und versperrte Wege befürchten.",
+      "Falsch: Die Auswirkungen auf Artenvielfalt und Holzversorgung werden „in Langzeitstudien untersucht“. Ergebnisse nennt der Text nicht.",
+      "Falsch: Genannt werden als Gründe die Ausbreitung von Schädlingen und versperrte Wege. Für Fledermäuse ist Totholz laut Text Quartier oder Nahrungsquelle."
     ],
     "traps": [
       "Gegenteil",
-      "Zeitangabe verdreht",
+      "Nicht im Text (Weltwissen)",
       "Kausalität unterstellt"
     ]
   },
@@ -1112,20 +1131,21 @@
     "text": "Küstenschutz umfasst Maßnahmen, die Menschen und Siedlungen vor Sturmfluten und Erosion schützen. Klassische Methoden sind harte Bauwerke wie Deiche, Mauern und Wellenbrecher. Sie schützen zuverlässig vor Überflutungen, verändern aber oft die Strömung und können dazu führen, dass an benachbarten Küstenabschnitten mehr Sand abgetragen wird. Als Alternative gewinnen naturbasierte Lösungen an Bedeutung, etwa Salzwiesen, Dünen und Mangrovenwälder. Sie bremsen Wellen, können mit steigendem Meeresspiegel zumindest teilweise mitwachsen und bieten Lebensraum für Tiere. Ihre Schutzwirkung ist jedoch bei extremen Sturmfluten geringer als die eines hohen Deichs, weshalb sie meist als Ergänzung und nicht als Ersatz eingesetzt werden. Auch Sandvorspülungen, bei denen Sand an erodierten Stränden aufgeschüttet wird, sind verbreitet; sie müssen jedoch regelmäßig wiederholt werden und verursachen laufende Kosten. In dicht besiedelten Regionen werden meist mehrere Maßnahmen kombiniert. Planer weisen darauf hin, dass Schutzbauwerke eine falsche Sicherheit vermitteln können, weil sie bei Überschreitung ihrer Bemessung zu schweren Schäden führen und dennoch dazu verleiten, hinter ihnen dichter zu bauen.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Naturbasierte Lösungen wachsen mit dem Meeresspiegel vollständig mit und sind Deichen daher klar überlegen.",
-      "Deiche und Mauern haben keinerlei Auswirkungen auf Strömung oder Sandabtrag an benachbarten Küstenabschnitten.",
-      "Sandvorspülungen bieten dauerhaften Schutz ohne regelmäßige Wiederholung und ohne laufende Kosten.",
-      "Naturbasierte Lösungen ergänzen Deiche meist nur, weil sie bei extremen Sturmfluten weniger Schutz bieten."
+      "Naturbasierte Lösungen wachsen mit dem Meeresspiegel vollständig mit und sind Deichen daher klar überlegen, sodass der Deichbau langfristig entbehrlich wird.",
+      "Harte Bauwerke wie Deiche verhindern Erosion an benachbarten Küstenabschnitten, weil sie die Strömung beruhigen und Sand zurückhalten.",
+      "Sandvorspülungen müssen wiederholt werden, verursachen aber nach der ersten Aufschüttung kaum weitere Kosten.",
+      "Naturbasierte Schutzformen werden meist zusätzlich zu Deichen genutzt, weil sie bei extremen Sturmfluten schwächer schützen."
     ],
     "answer": 3,
     "why": [
-      "Falsch (nur teilweise richtig): Sie können „zumindest teilweise mitwachsen“, und bei extremen Sturmfluten ist ihre Wirkung geringer als die von Deichen.",
-      "Falsch: Solche Bauwerke verändern „oft die Strömung“ und können an Nachbarabschnitten mehr Sandabtrag verursachen.",
-      "Falsch: Sie „müssen regelmäßig wiederholt werden und verursachen laufende Kosten“.",
-      "Richtig: Ihre Schutzwirkung ist bei extremen Sturmfluten „geringer als die eines hohen Deichs, weshalb sie meist als Ergänzung und nicht als Ersatz eingesetzt werden“."
+      "Falsch: Naturbasierte Lösungen können „zumindest teilweise mitwachsen“, und ihre Schutzwirkung ist bei extremen Sturmfluten „geringer als die eines hohen Deichs“.",
+      "Falsch: Harte Bauwerke „verändern oft die Strömung“ und können dazu führen, dass an Nachbarabschnitten „mehr Sand abgetragen wird“.",
+      "Falsch: Sandvorspülungen „müssen … regelmäßig wiederholt werden und verursachen laufende Kosten“.",
+      "Richtig: Naturbasierte Lösungen werden „meist als Ergänzung und nicht als Ersatz“ eingesetzt, weil die Schutzwirkung bei extremen Sturmfluten geringer ist als die eines hohen Deichs."
     ],
     "traps": [
-      "Teilweise richtig",
+      "Überverallgemeinerung",
+      "Gegenteil",
       "Gegenteil"
     ]
   },
@@ -1136,21 +1156,21 @@
     "text": "Fernwärmenetze verteilen Wärme in Form von heißem Wasser aus einer zentralen Quelle an viele Gebäude. Als Quellen dienen Heizkraftwerke, Müllverbrennungsanlagen, Industrieabwärme und zunehmend auch Geothermie oder große Wärmepumpen. Besonders wirtschaftlich sind Netze in dicht bebauten Gebieten, weil die Leitungen kurz sind und viele Abnehmer angeschlossen werden können; in dünn besiedelten Gebieten gehen auf langen Leitungen verhältnismäßig hohe Wärmemengen verloren. Ein Vorteil für Gebäudeeigentümer ist, dass sie keine eigene Heizung warten müssen. Nachteil ist die Abhängigkeit von einem Anbieter, da in einem Gebiet meist nur ein Netz existiert und Kunden den Anbieter nicht wechseln können. Verbraucherschützer fordern daher eine stärkere Kontrolle der Preise. Ob Fernwärme klimafreundlich ist, hängt von der eingesetzten Energiequelle ab: Stammt die Wärme überwiegend aus Kohle oder Erdgas, ist die Bilanz weniger günstig als bei Abwärme oder Geothermie. Viele Betreiber planen deshalb, ihre Netze auf klimafreundlichere Quellen umzustellen, was langfristige Investitionen erfordert und über die Preise finanziert wird. Die Preise werden meist über Verträge mit langer Laufzeit geregelt, die den Anschluss an das Netz einschließen.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Fernwärmekunden können in der Regel zwischen mehreren Anbietern wählen und den Anbieter jederzeit wechseln.",
-      "Fernwärmenetze sind in dünn besiedelten Gebieten weniger wirtschaftlich, da lange Leitungen viel Wärme verlieren.",
-      "Fernwärme ist klimafreundlich, weil die Wärme zentral erzeugt wird und keine Brennstoffe verbraucht werden.",
-      "Die Betreiber haben ihre Netze bereits vollständig auf klimafreundliche Quellen umgestellt und die Kosten getragen."
+      "In einem Versorgungsgebiet gibt es meist mehrere Netze, sodass Kunden den Anbieter frei wählen können.",
+      "In dünn besiedelten Gebieten geht auf langen Leitungen verhältnismäßig viel Wärme verloren, daher sind Netze dort weniger wirtschaftlich.",
+      "Fernwärme ist unabhängig von der Energiequelle klimafreundlicher als dezentrale Heizungen, weil die Wärme zentral erzeugt und effizient verteilt wird.",
+      "Viele Betreiber haben ihre Netze bereits vollständig auf klimafreundliche Quellen umgestellt und die Kosten selbst getragen."
     ],
     "answer": 1,
     "why": [
-      "Falsch: In einem Gebiet existiert „meist nur ein Netz“, Kunden „können den Anbieter nicht wechseln“.",
-      "Richtig: Dichte Gebiete sind „besonders wirtschaftlich“, während in dünn besiedelten Gebieten „auf langen Leitungen verhältnismäßig hohe Wärmemengen“ verloren gehen (Folgerung aus zwei Teilaussagen).",
-      "Falsch: Die Klimafreundlichkeit „hängt von der eingesetzten Energiequelle ab“, nicht von der zentralen Erzeugung.",
-      "Falsch: Viele Betreiber „planen“ die Umstellung erst."
+      "Falsch: In einem Gebiet existiert „meist nur ein Netz“, und Kunden „können den Anbieter nicht wechseln“.",
+      "Richtig: In dünn besiedelten Gebieten „gehen auf langen Leitungen verhältnismäßig hohe Wärmemengen verloren“. Wirtschaftlich sind Netze besonders in dicht bebauten Gebieten.",
+      "Falsch: Die Klimafreundlichkeit „hängt von der eingesetzten Energiequelle ab“. Stammt die Wärme aus Kohle oder Erdgas, ist die Bilanz weniger günstig.",
+      "Falsch: Viele Betreiber „planen“ die Umstellung, die „über die Preise finanziert“ wird."
     ],
     "traps": [
       "Gegenteil",
-      "Kausalität unterstellt",
+      "Überverallgemeinerung",
       "Zeitangabe verdreht"
     ]
   },
@@ -1161,22 +1181,22 @@
     "text": "Beim Carsharing teilen sich mehrere Personen die Nutzung von Fahrzeugen, die sie nur für den Zeitraum bezahlen, in dem sie sie brauchen. Man unterscheidet stationsbasierte Angebote, bei denen Fahrzeuge an festen Stellplätzen abgeholt und zurückgegeben werden, von Angeboten ohne feste Station, bei denen Fahrzeuge innerhalb eines Gebiets überall abgestellt werden können. Untersuchungen in mehreren Städten zeigen, dass Haushalte, die stationsbasiertes Carsharing nutzen, häufiger auf ein eigenes Auto verzichten oder keines anschaffen. Bei Angeboten ohne feste Station ist dieser Effekt schwächer, da sie häufig für kurze Fahrten genutzt werden, die sonst zu Fuß, mit Rad oder öffentlichem Verkehr zurückgelegt würden. Ob Carsharing insgesamt zu weniger Verkehr führt, lässt sich daher nicht pauschal sagen. Städte erhoffen sich Entlastungen, weil ein geteiltes Fahrzeug mehrere private ersetzen kann und so Parkraum frei wird. Allerdings bemängeln Kritiker, dass Carsharing-Autos in manchen Vierteln vor allem Menschen nutzen, die ohnehin kein Auto besitzen. Die Wirkung hängt deshalb von Angebot, Standort und Nutzergruppen ab.",
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
-      "Carsharing ohne feste Station bewirkt stärker als stationsbasiertes, dass Haushalte auf ein eigenes Auto verzichten.",
+      "Haushalte, die Carsharing ohne feste Station nutzen, verzichten häufiger auf ein eigenes Auto als Nutzer stationsbasierter Angebote.",
       "Carsharing verringert den Verkehr in Städten in jedem Fall, weil ein Fahrzeug mehrere private Autos ersetzt.",
       "Der Verzicht auf ein eigenes Auto tritt laut den Untersuchungen eher bei stationsbasiertem Carsharing auf.",
-      "Kritiker lehnen Carsharing ab, weil geteilte Fahrzeuge in den Städten Parkraum beanspruchen."
+      "Kritiker bemängeln, dass Carsharing-Fahrzeuge in manchen Vierteln vor allem Menschen mit eigenem Auto nutzen."
     ],
     "answer": 2,
     "why": [
-      "Falsch: Der Effekt ist bei Angeboten ohne feste Station „schwächer“.",
-      "Falsch: Ob Carsharing zu weniger Verkehr führt, „lässt sich nicht pauschal sagen“.",
-      "Richtig: Bei Angeboten ohne feste Station ist der Effekt auf den Autoverzicht „schwächer“ als bei stationsbasierten.",
-      "Falsch: Die Kritik betrifft die Nutzergruppen; eine Ablehnung wegen des Parkraums steht nicht im Text."
+      "Falsch: Die Zuordnung ist vertauscht. Der Effekt des Autoverzichts ist laut Text bei stationsbasierten Angeboten stärker und bei Angeboten ohne feste Station „schwächer“.",
+      "Falsch: Ob Carsharing insgesamt zu weniger Verkehr führt, „lässt sich … nicht pauschal sagen“. Die Städte „erhoffen“ sich Entlastung.",
+      "Richtig: Haushalte mit stationsbasiertem Carsharing verzichten „häufiger auf ein eigenes Auto“. Bei Angeboten ohne feste Station „ist dieser Effekt schwächer“.",
+      "Falsch: Kritiker bemängeln, dass Nutzer „ohnehin kein Auto besitzen“. Es geht also um Menschen ohne eigenes Auto."
     ],
     "traps": [
-      "Vergleich verdreht",
+      "Nicht im Text (Weltwissen)",
       "Überverallgemeinerung",
-      "Nicht im Text (Weltwissen)"
+      "Gegenteil"
     ]
   },
   {
@@ -1188,15 +1208,15 @@
     "options": [
       "Der Stromverbrauch vertikaler Anlagen ist gering, weil LED-Lampen wenig Energie benötigen.",
       "Pflanzenschutzmittel sind in vertikalen Anlagen niemals nötig, da keine Schädlinge von außen eindringen.",
-      "Die vertikale Landwirtschaft wird sich in jedem Fall breit durchsetzen, sobald Strom günstiger wird.",
-      "Bisher rentiert sich der vertikale Anbau vor allem bei schnell wachsenden Salaten und Kräutern."
+      "Sinken die Energiekosten, wird sich die vertikale Landwirtschaft auch bei Getreide und Kartoffeln durchsetzen.",
+      "Wirtschaftlich trägt sich der Anbau in Gebäuden bislang hauptsächlich bei Kräutern und Blattgemüse, die rasch wachsen und hohe Preise erzielen."
     ],
     "answer": 3,
     "why": [
-      "Falsch: Der Strombedarf „ist groß“.",
-      "Falsch: Sie sind „meist kaum nötig“, nicht „niemals“.",
-      "Falsch: Die Verbreitung „hängt vor allem von den Energiekosten ab“.",
-      "Richtig: Lohnend ist der Anbau „bisher vor allem bei Kräutern, Salaten und Blattgemüse mit kurzer Wachstumszeit“."
+      "Falsch: Der „Bedarf an Strom für Beleuchtung und Klimatechnik ist groß“.",
+      "Falsch: Pflanzenschutzmittel sind laut Text „meist kaum nötig“, nicht niemals.",
+      "Falsch: Ob die Technik breitere Anwendung findet, „hängt vor allem von den Energiekosten ab“. Getreide und Kartoffeln werden „kaum angebaut“, ein Durchsetzen wird nicht vorhergesagt.",
+      "Richtig: Wirtschaftlich lohnt sich der Anbau „bisher vor allem bei Kräutern, Salaten und Blattgemüse mit kurzer Wachstumszeit, die zu höheren Preisen verkauft werden können“."
     ],
     "traps": [
       "Gegenteil",
@@ -1212,21 +1232,21 @@
     "question": "Welche der folgenden Aussagen ist zutreffend?",
     "options": [
       "Neuronale Systeme übersetzen Wörter einzeln anhand fester Regeln, ohne den Satzzusammenhang zu berücksichtigen.",
-      "Auch fehlerhafte Übersetzungen klingen flüssig, daher fallen Fehler bei Fachtexten nicht immer auf.",
+      "Maschinelle Übersetzungen klingen auch fehlerhaft flüssig, daher bleiben Fehler in Fachtexten leicht unentdeckt.",
       "Die Nachbearbeitung maschineller Vorschläge spart bei allen Textarten Zeit und senkt den Aufwand.",
-      "Berufsübersetzer werden durch die Systeme in absehbarer Zeit ihre Arbeit verlieren und müssen sich neue Berufsfelder suchen."
+      "Die Systeme werden den Beruf der Übersetzer nach Einschätzung der Fachleute in absehbarer Zeit überflüssig machen."
     ],
     "answer": 1,
     "why": [
-      "Falsch: Frühere Systeme arbeiteten so; neuronale Netze übersetzen „ganze Sätze im Zusammenhang“.",
-      "Richtig: Die Systeme machen Fehler, „die auf den ersten Blick nicht auffallen, weil der Text trotzdem flüssig klingt“.",
-      "Falsch: Zeit sparen kann es nur „bei standardisierten Texten“, bei anderen kann es mehr Aufwand verursachen.",
-      "Falsch: Die Einschätzungen zu den Auswirkungen „gehen auseinander“; ein Arbeitsplatzverlust wird nicht behauptet."
+      "Falsch: Das beschreibt frühere Systeme. Neuronale Netze übersetzen „ganze Sätze im Zusammenhang“.",
+      "Richtig: Die Systeme machen bei Fachtexten Fehler, „die auf den ersten Blick nicht auffallen, weil der Text trotzdem flüssig klingt“.",
+      "Falsch: Das kann bei standardisierten Texten Zeit sparen, bei kreativen oder rechtlich bedeutsamen Texten verursacht es dagegen „mehr Aufwand“.",
+      "Falsch: Über die Auswirkungen auf das Berufsbild „gehen die Einschätzungen auseinander“. Sicher ist nur, dass sich die Anforderungen verschieben."
     ],
     "traps": [
       "Gegenteil",
       "Überverallgemeinerung",
-      "Nicht im Text (Weltwissen)"
+      "Modalität (kann/muss)"
     ]
   }
 ]
