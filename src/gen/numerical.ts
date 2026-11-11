@@ -25,6 +25,7 @@ const PROGRAMS = ['Erasmus+', 'Horizont', 'LIFE', 'Digital EU', 'Kreativ EU', 'E
 const CITIES = ['Wien', 'Lyon', 'Porto', 'Gent', 'Turin', 'Brünn', 'Aarhus', 'Graz', 'Split', 'Bremen', 'Malmö', 'Cork'];
 const POOLS = { c: COUNTRIES, p: PROGRAMS, s: CITIES };
 const NOUN_PL = { c: 'Länder', p: 'Programme', s: 'Städte' };
+const NOUN_DAT = { c: 'Ländern', p: 'Programmen', s: 'Städten' };
 const NOUN = { c: 'Land', p: 'Programm', s: 'Stadt' };
 
 const INDS: Ind[] = [
@@ -116,7 +117,7 @@ function tableHtml(o: TableOpts): string {
 }
 
 function seriesTitle(s: Series): string {
-  return `${s.ind.name} nach ${NOUN_PL[s.ind.set]} (in ${s.ind.unit})`;
+  return `${s.ind.name} nach ${NOUN_DAT[s.ind.set]} (in ${s.ind.unit})`;
 }
 function seriesTable(s: Series): string {
   return tableHtml({
@@ -213,6 +214,7 @@ function assemble(spec: Spec, r: Rng, seed: number, tpl: Template): GenItem | nu
   for (const d of r.shuffle(spec.distract)) {
     const c = mk(d);
     if (!c || seen.has(c.t!)) continue;
+    if (c.v < 0 && truth > 0 && !spec.allowNeg) continue;
     seen.add(c.t!);
     pool.push(c);
   }
@@ -534,7 +536,7 @@ const W1: Template = {
     return {
       data: { a, b }, solve, stimulus: renderSeries(s, sh.mode, uid),
       prompt: `Wie hat sich ${ind.nom} von ${s.ents[e]} von ${s.years[y1]} bis ${s.years[y2]} in Prozent verändert?`,
-      note: `(${rn(1)}; Rückgang mit Minuszeichen)`, dec: 1, unit: `${NB}%`,
+      note: `(${rn(1)}; Rückgang mit Minuszeichen)`, dec: 1, unit: `${NB}%`, allowNeg: true,
       distract: [((b - a) / b) * 100, (b / a) * 100, (a / b) * 100, -t, b - a, ((b - a) / a) * 10],
       steps: [`1. ${s.ents[e]}: ${fmt(a, ind.dec)} (${s.years[y1]}) → ${fmt(b, ind.dec)} (${s.years[y2]}).`, `2. Veränderung = (${fmt(b, ind.dec)} − ${fmt(a, ind.dec)}) / ${fmt(a, ind.dec)} × 100 = ${fmt(t, 1)} %.`],
       tip: 'Basis ist immer der Ausgangswert (das frühere Jahr).',
@@ -557,7 +559,7 @@ const W2: Template = {
     const tot = ((b - a) / a) * 100;
     return {
       data: { a, b, n }, solve, stimulus: renderSeries(s, sh.mode, uid),
-      prompt: `Wie hoch war die durchschnittliche jährliche Wachstumsrate (konstante Rate, die in ${n} Jahren von ${s.years[y1]} auf ${s.years[y2]} zum gleichen Ergebnis führt) bei ${ind.nom} von ${s.ents[e]}?`,
+      prompt: `Wie hoch war die durchschnittliche jährliche Wachstumsrate ${ind.gen} von ${s.ents[e]} zwischen ${s.years[y1]} und ${s.years[y2]} (konstante Rate, die in ${n} Jahren zum gleichen Ergebnis führt)?`,
       note: `(${rn(1)})`, dec: 1, unit: `${NB}%`,
       distract: [tot / n, tot, (Math.pow(b / a, 1 / (n + 1)) - 1) * 100, (Math.pow(b / a, 1 / (n - 1)) - 1) * 100, tot / (n + 1), (Math.pow(b / a, n) - 1) * 100],
       steps: [`1. ${s.years[y1]}: ${fmt(a, ind.dec)}; ${s.years[y2]}: ${fmt(b, ind.dec)}; Zeitraum: ${n} Jahre.`, `2. Wachstumsfaktor insgesamt = ${fmt(b, ind.dec)} / ${fmt(a, ind.dec)} = ${fmt(b / a, 4)}.`, `3. Jährlicher Faktor = ${fmt(b / a, 4)}^(1/${n}) = ${fmt(Math.pow(b / a, 1 / n), 4)} → ${fmt(t, 1)} % pro Jahr.`],
@@ -588,7 +590,7 @@ const W3: Template = {
         rows: names.map((nm, i) => [nm, ...g[i].map((x) => fmt(x, 1))]),
       }),
       prompt: `Um wie viel Prozent lag ${ind.nom} von ${names[e]} Ende ${y0 + ny} über bzw. unter dem Wert von Ende ${y0}?`,
-      note: `(${rn(1)}; Rückgang mit Minuszeichen)`, dec: 1, unit: `${NB}%`,
+      note: `(${rn(1)}; Rückgang mit Minuszeichen)`, dec: 1, unit: `${NB}%`, allowNeg: true,
       distract: [sum, sum / ny, (g[e].slice(0, -1).reduce((p, x) => p * (1 + x / 100), 1) - 1) * 100, g[e][ny - 1], (g[e].reduce((p, x) => p * (1 - x / 100), 1) - 1) * 100, -t],
       steps: [`1. ${names[e]}: ${g[e].map((x) => fmt(x, 1, true) + ' %').join(', ')}.`, `2. Faktoren: ${fac} = ${fmt(g[e].reduce((p, x) => p * (1 + x / 100), 1), 4)}.`, `3. Gesamtveränderung = ${fmt(t, 1)} %.`],
       tip: 'Wachstumsraten aufeinanderfolgender Jahre nie addieren, sondern die Faktoren (1 + p/100) multiplizieren.',
@@ -611,7 +613,7 @@ const W4: Template = {
     return {
       data: { b, g }, solve,
       stimulus: tableHtml({
-        title: `${ind.name} nach ${NOUN_PL[ind.set]}`, first: NOUN[ind.set],
+        title: `${ind.name} nach ${NOUN_DAT[ind.set]}`, first: NOUN[ind.set],
         groups: [{ h: `${ind.name} ${y2}`, u: ind.unit, span: 1 }, { h: `Veränderung ${y1}–${y2}`, u: 'in %', span: 1 }],
         rows: names.map((nm, i) => [nm, fmt(rows[i].b), fmt(rows[i].g, 1, true)]),
       }),
@@ -652,15 +654,18 @@ const V1: Template = {
     if (!(u > 0)) return null;
     const vb = rd(pb * u, ind.dec), va = rd(pa * u, ind.dec);
     if (va < ind.lo * 0.5 || vb < ind.lo * 0.5) return null;
-    s.v[i][y] = va;
-    s.v[j][y] = vb;
+    for (const [k, nv] of [[i, va], [j, vb]] as [number, number][]) {
+      const old = s.v[k].slice();
+      const f = nv / old[y];
+      s.v[k] = old.map((x, yy) => (yy === y ? nv : rd(x * f, ind.dec)));
+    }
     const solve = (d: any) => d.a / d.b;
     if (Math.abs(va / vb - pa / pb) / (pa / pb) > 0.01) return null;
     const A = s.ents[i], B = s.ents[j];
     const cand = ratioCand(pa, pb);
     return {
       data: { a: va, b: vb }, solve, stimulus: renderSeries(s, sh.mode, uid),
-      prompt: `Wie lautet im Jahr ${s.years[y]} das Verhältnis ${ind.gen} von ${A} zu ${ind.nom} von ${B}?`,
+      prompt: `Wie lautet im Jahr ${s.years[y]} das Verhältnis ${ind.gen} zwischen ${A} und ${B} (${A} : ${B})?`,
       truth: cand, dec: 2, tol: 0.02, minGap: 0.06,
       distract: [ratioCand(pb, pa), ratioCand(pa + 1, pb), ratioCand(pa, pb + 1), ratioCand(pa * 2, pb), ratioCand(pa, pb * 2), nearestSimple((va - vb) / vb + 1.0001, 6), ratioCand(pa + pb, pb), ratioCand(pa, pa + pb)].filter((c) => c.v < 12 && c.v > 0.08),
       steps: [`1. ${A} ${s.years[y]}: ${fmt(va, ind.dec)}; ${B} ${s.years[y]}: ${fmt(vb, ind.dec)} (${ind.unit}).`, `2. Verhältnis = ${fmt(va, ind.dec)} : ${fmt(vb, ind.dec)} ≈ ${fmt(va / vb, 2)} : 1 = ${cand.t} (gekürzt).`],
