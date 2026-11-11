@@ -28,7 +28,7 @@ function SyncSection() {
     try {
       await signInWithEmail(addr);
       lsSet('sync:pendingEmail', addr); setPending(addr); setCool(60);
-      setInfo(`Mail an ${addr} geschickt. Code eingeben oder Link öffnen.`);
+      setInfo(`Mail an ${addr} geschickt. Falls ein Code enthalten ist, eingeben – oder den Link öffnen.`);
     } catch (e: any) {
       setInfo(e?.message ?? String(e));
       const w = /Bitte (\d+) Sekunden/.exec(e?.message ?? ''); if (w) setCool(Number(w[1]));
@@ -37,7 +37,7 @@ function SyncSection() {
   };
   const verify = async () => {
     setBusy(true); setInfo('');
-    try { await verifyEmailCode(pending, code); setCode(''); }
+    try { await verifyEmailCode(pending || email.trim(), code); setCode(''); }
     catch (e: any) { setInfo(e?.message ?? String(e)); }
     setBusy(false);
   };
@@ -61,13 +61,13 @@ function SyncSection() {
           <p class="muted small">Optional: Mit Anmeldung (Magic-Link per E-Mail) werden Fortschritt und Aufsätze zwischen Geräten abgeglichen und die KI-Bewertung freigeschaltet. Ohne Anmeldung bleibt alles lokal.</p>
           <label class="fld">E-Mail<input class="inp" type="email" inputMode="email" autocomplete="email" value={email} data-testid="sync-email-input" onInput={(e) => setEmail((e.target as HTMLInputElement).value)} /></label>
           <button class="btn primary wide" disabled={busy || cool > 0 || !/.+@.+\..+/.test(email)} data-testid="sync-send" onClick={send}>{cool > 0 ? `Erneut senden in ${cool} s` : 'Anmeldelink senden'}</button>
-          {pending ? (
+          {true ? (
             <>
-              <label class="fld">Code aus der E-Mail<input class="inp" inputMode="numeric" autocomplete="one-time-code" maxLength={8} value={code} data-testid="sync-code-input" onInput={(e) => setCode((e.target as HTMLInputElement).value.replace(/\D/g, ''))} /></label>
-              <button class="btn primary wide" disabled={busy || code.length < 6} data-testid="sync-verify" onClick={verify}>Anmelden</button>
+              <label class="fld">Code aus der E-Mail (optional)<input class="inp" inputMode="numeric" autocomplete="one-time-code" maxLength={8} value={code} data-testid="sync-code-input" onInput={(e) => setCode((e.target as HTMLInputElement).value.replace(/\D/g, ''))} /></label>
+              <button class="btn wide" disabled={busy || code.length < 6 || !(pending || /.+@.+\..+/.test(email))} data-testid="sync-verify" onClick={verify}>Anmelden</button>
             </>
           ) : null}
-          <p class="small muted">Den Code aus der Mail hier eingeben – das klappt auch in der installierten App. Alternativ den Link im selben Browser öffnen.</p>
+          <p class="small muted">Enthält die Mail einen 6-stelligen Code, hier eingeben – das klappt auch in der installierten App. Sonst den Link öffnen (auf Android klappt das meist auch für die installierte App; danach die App einmal neu öffnen).</p>
         </>
       )}
       {info ? <p role="status" data-testid="sync-info">{info}</p> : null}
