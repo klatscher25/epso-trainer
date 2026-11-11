@@ -468,7 +468,7 @@
       "The Commission by implementing act"
     ],
     "answer": 2,
-    "explanation": "Art. 39(4) assigns the list to the EDPS, who under Art. 39(6) first requests the EDPB to examine the draft list. The DPO only advises on individual DPIAs (Art. 39(2)).",
+    "explanation": "Art. 39(4) assigns the list to the EDPS (who, under Art. 39(6), requests the EDPB to examine it where it concerns processing with controllers other than Union institutions). The DPO only advises on individual DPIAs (Art. 39(2)).",
     "source": {
       "title": "Regulation (EU) 2018/1725 (EUDPR), Art. 39(4)",
       "url": "https://eur-lex.europa.eu/eli/reg/2018/1725/oj"
@@ -546,7 +546,7 @@
     "answer": 0,
     "explanation": "The Opinion requires that both direct (including probabilistic) extraction and the chance of obtaining personal data through queries be insignificant, taking account of all means reasonably likely to be used. Pseudonymised training alone does not suffice.",
     "source": {
-      "title": "EDPB, Opinion 28/2024 on AI models (adopted 18 December 2024)",
+      "title": "EDPB, Opinion 28/2024 on AI models (adopted 17 December 2024)",
       "url": "https://www.edpb.europa.eu/our-work-tools/our-documents/opinion-board-art-64/opinion-282024-certain-data-protection-aspects_en"
     }
   },
@@ -565,7 +565,7 @@
     "answer": 2,
     "explanation": "The test comprises (1) identifying the legitimate interest, (2) necessity of the processing, (3) balancing against interests and fundamental rights of data subjects. A DPIA or prior consultation is a separate matter.",
     "source": {
-      "title": "EDPB, Opinion 28/2024 on AI models (adopted 18 December 2024)",
+      "title": "EDPB, Opinion 28/2024 on AI models (adopted 17 December 2024)",
       "url": "https://www.edpb.europa.eu/our-work-tools/our-documents/opinion-board-art-64/opinion-282024-certain-data-protection-aspects_en"
     }
   },
@@ -584,7 +584,7 @@
     "answer": 1,
     "explanation": "In the second scenario, the deploying controller should conduct an appropriate assessment, looking at the source of the data and any findings of infringement, to meet Art. 5(1)(a) and Art. 6 accountability. Depth depends on the risks of the deployment.",
     "source": {
-      "title": "EDPB, Opinion 28/2024 on AI models (adopted 18 December 2024)",
+      "title": "EDPB, Opinion 28/2024 on AI models (adopted 17 December 2024)",
       "url": "https://www.edpb.europa.eu/our-work-tools/our-documents/opinion-board-art-64/opinion-282024-certain-data-protection-aspects_en"
     }
   },
@@ -603,7 +603,7 @@
     "answer": 1,
     "explanation": "The Opinion is an Art. 64(2) opinion on a matter of general application. Art. 65 leads to binding decisions in specific disputes, not general opinions.",
     "source": {
-      "title": "EDPB, Opinion 28/2024 on AI models (adopted 18 December 2024)",
+      "title": "EDPB, Opinion 28/2024 on AI models (adopted 17 December 2024)",
       "url": "https://www.edpb.europa.eu/our-work-tools/our-documents/opinion-board-art-64/opinion-282024-certain-data-protection-aspects_en"
     }
   },
@@ -707,7 +707,7 @@
     "pkg": "ad8-ki",
     "area": "data-acts",
     "difficulty": 2,
-    "question": "From 12 January 2027, what may providers of data processing services charge customers for the switching process under Art. 29 Data Act?",
+    "question": "As adopted, from 12 January 2027 what may providers of data processing services charge customers for the switching process under Art. 29 Data Act?",
     "options": [
       "Charges limited to actual costs incurred",
       "Reduced charges capped at half of egress fees",
@@ -787,11 +787,11 @@
     "options": [
       "A public sector body acting as manufacturer",
       "An enterprise established outside the Union",
-      "A not-for-profit organisation of any size",
+      "A large enterprise established in a Member State",
       "A micro or small enterprise without larger partner or linked enterprises"
     ],
     "answer": 3,
-    "explanation": "Art. 7(1) exempts micro and small enterprises that have no partner or linked enterprise that is larger. Third-country manufacturers are in scope if they place products on the Union market.",
+    "explanation": "Art. 7(1) exempts micro and small enterprises that have no partner or linked enterprise that is not itself micro or small (and are not mere subcontractors). Public bodies, third-country manufacturers placing products on the Union market, and large enterprises are in scope.",
     "source": {
       "title": "Regulation (EU) 2023/2854 (Data Act), Art. 7(1)",
       "url": "https://eur-lex.europa.eu/eli/reg/2023/2854/oj"
@@ -905,7 +905,7 @@
       "A mechanism for safe termination and interruption of execution"
     ],
     "answer": 3,
-    "explanation": "Art. 36(1) lists robustness and access control, safe termination and interruption, data archiving and continuity, and access control. It does not mandate a specific ledger type or certification.",
+    "explanation": "Art. 36(1) lists robustness and access control, safe termination and interruption, data archiving and continuity, access control, and consistency with the data sharing agreement. It does not mandate a particular ledger type, notified-body certification or registration with ENISA; Art. 36(2) requires a conformity assessment and an EU declaration of conformity.",
     "source": {
       "title": "Regulation (EU) 2023/2854 (Data Act), Art. 36(1)",
       "url": "https://eur-lex.europa.eu/eli/reg/2023/2854/oj"
@@ -973,7 +973,7 @@
     "pkg": "ad8-ki",
     "area": "data-acts",
     "difficulty": 2,
-    "question": "Under Art. 8 of the Data Governance Act, a competent body must decide on a request to re-use protected data within:",
+    "question": "Under Art. 9 of the Data Governance Act, a competent body must decide on a request to re-use protected data within:",
     "options": [
       "One month, extendable once by one month",
       "30 days, with no extension",
@@ -981,9 +981,9 @@
       "Six months, extendable by three months"
     ],
     "answer": 2,
-    "explanation": "Art. 8(1) sets two months, unless shorter national limits apply, and allows a 30-day extension for exceptionally extensive and complex requests.",
+    "explanation": "Art. 9(1) sets two months from receipt, unless shorter national limits apply, and allows an extension of up to 30 days for exceptionally extensive and complex requests.",
     "source": {
-      "title": "Regulation (EU) 2022/868 (Data Governance Act), Art. 8(1)",
+      "title": "Regulation (EU) 2022/868 (Data Governance Act), Art. 9(1)",
       "url": "https://eur-lex.europa.eu/eli/reg/2022/868/oj"
     }
   },
@@ -1505,7 +1505,7 @@
     "pkg": "ad8-ki",
     "area": "cyber-law",
     "difficulty": 2,
-    "question": "From which date do the vulnerability and incident reporting obligations of Art. 14 CRA apply?",
+    "question": "As adopted, from which date do the vulnerability and incident reporting obligations of Art. 14 CRA apply?",
     "options": [
       "11 December 2024",
       "11 June 2026",
