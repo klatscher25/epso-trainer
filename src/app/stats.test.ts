@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { accuracy, dailySeries, dayKey, errorItems, projected, streak, summarize, weakestGroups } from './stats';
 import type { AnswerPayload, AppEvent } from './types';
-import { planDaily } from './daily';
+import { answersForKind, dailyGroups, planDaily } from './daily';
 const D = 86400000;
 const NOW = new Date(2026, 5, 15, 12).getTime();
 const a = (itemId: string, type: any, correct: boolean, at: number, area?: string, ms = 60000): AnswerPayload => ({ itemId, type, area, correct, ms, mode: 'practice', at });
@@ -56,5 +56,20 @@ describe('planDaily', () => {
   });
   it('bricht ab, wenn nichts mehr da ist', () => {
     expect(planDaily([], NOW, ['verbal'], () => undefined)).toEqual([]);
+  });
+});
+describe('Tagesrunden getrennt', () => {
+  it('Logik enthält keine frmcq-Gruppen, Fachtest nur frmcq', () => {
+    expect(dailyGroups('logic', ['a', 'b']).some((g) => g.startsWith('frmcq'))).toBe(false);
+    expect(dailyGroups('field', ['a', 'b'])).toEqual(['frmcq:a', 'frmcq:b']);
+    expect(dailyGroups('field', [])).toEqual([]);
+  });
+  it('SRS-fällige Items nur aus der jeweiligen Art und dem Paket', () => {
+    const fq = (id: string, pkg: string) => ({ ...a(id, 'frmcq', false, NOW - 3 * D, 'x'), pkg });
+    const all = [a('v1', 'verbal', false, NOW - 3 * D), fq('f1', 'p1'), fq('f2', 'p2')];
+    expect(answersForKind(all, 'logic', 'p1').map((x) => x.itemId)).toEqual(['v1']);
+    expect(answersForKind(all, 'field', 'p1').map((x) => x.itemId)).toEqual(['f1']);
+    const ids = planDaily(answersForKind(all, 'field', 'p1'), NOW, dailyGroups('field', ['x']), () => undefined);
+    expect(ids).toEqual(['f1']);
   });
 });

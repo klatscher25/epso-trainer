@@ -14,7 +14,7 @@ export function App() {
   switch (segs[0]) {
     case 'practice': return <Practice />;
     case 'retry': return <PendingSessionPage />;
-    case 'daily': return <Daily />;
+    case 'daily': return <Daily kind={segs[1] === 'field' ? 'field' : 'logic'} key={segs[1] ?? 'logic'} />;
     case 'sim': return <Simulation />;
     case 'progress': return <Progress />;
     case 'learn': return segs[1] ? <Lesson slug={segs[1]} /> : <Learn />;

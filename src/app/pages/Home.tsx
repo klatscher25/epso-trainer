@@ -1,5 +1,5 @@
 import { go } from '../routes';
-import { orderedPackages, useEvents, usePkg, useKV } from '../state';
+import { typesOf, orderedPackages, useEvents, usePkg, useKV } from '../state';
 import { accuracy, answersOf, groupKey, streak } from '../stats';
 import { TESTS } from '../examConfig';
 import { IconGear } from '../components/icons';
@@ -11,7 +11,9 @@ export function Home() {
   const [pkg, setPkg] = usePkg();
   const answers = answersOf(events);
   const st = streak(events, Date.now());
-  const doneToday = events.some((e) => e.kind === 'daily' && new Date(e.payload.at).toDateString() === new Date().toDateString());
+  const today = new Date().toDateString();
+  const doneKind = (k: string) => events.some((e) => e.kind === 'daily' && e.payload.kind === k && (k === 'logic' || e.payload.pkg === pkg.id) && new Date(e.payload.at).toDateString() === today);
+  const hasField = (typesOf(pkg) as readonly string[]).includes('frmcq');
   const logic = answers.filter((a) => (LOGIC as readonly string[]).includes(a.type));
   const la = accuracy(logic);
   const per = LOGIC.map((t) => ({ t, ...accuracy(answers.filter((a) => groupKey(a) === t)) }));
@@ -50,10 +52,19 @@ export function Home() {
       <a class="tile start-link" href="#/learn/start-00-welcher-test" data-testid="tile-start"><span class="t1">Welcher Test wofür?</span><span class="t2">Kurzüberblick: Logiktests, Fachtest, Aufsatz je Paket</span></a>
 
       <div class="tiles">
-        <button class="tile big" data-testid="tile-daily" onClick={() => go('daily')}>
-          <span class="t1">5 Fragen am Tag</span>
-          <span class="t2">{doneToday ? 'Heute erledigt ✔' : 'unter 5 Minuten'} · 🔥 {st} {st === 1 ? 'Tag' : 'Tage'}</span>
-        </button>
+        <div class={`daily-row${hasField ? '' : ' one'}`}>
+          <button class="tile big" data-testid="tile-daily-logic" onClick={() => go('daily/logic')}>
+            <span class="t1">5 Fragen Logik</span>
+            <span class="t2">{doneKind('logic') ? '✓ heute erledigt' : 'Sprache, Zahlen, Form'}</span>
+          </button>
+          {hasField && (
+            <button class="tile big" data-testid="tile-daily-field" onClick={() => go('daily/field')}>
+              <span class="t1">5 Fragen Fachtest</span>
+              <span class="t2">{doneKind('field') ? '✓ heute erledigt' : 'Bereiche des Pakets'}</span>
+            </button>
+          )}
+          <span class="daily-streak" data-testid="daily-streak">🔥 {st} {st === 1 ? 'Tag' : 'Tage'} Serie</span>
+        </div>
         <button class="tile" data-testid="tile-practice" onClick={() => go('practice')}><span class="t1">Üben</span><span class="t2">mit Erklärung</span></button>
         <button class="tile" data-testid="tile-sim" onClick={() => go('sim')}><span class="t1">Prüfungs­simulation</span><span class="t2">{running ? 'läuft – fortsetzen' : 'wie im Original'}</span></button>
         <button class="tile" data-testid="tile-learn" onClick={() => go('learn')}><span class="t1">Lernen</span><span class="t2">Lektionen</span></button>

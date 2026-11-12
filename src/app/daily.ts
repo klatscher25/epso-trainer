@@ -34,3 +34,18 @@ export function planDaily(
   }
   return ids;
 }
+
+export type DailyKind = 'logic' | 'field';
+export const LOGIC_TYPES = ['verbal', 'numerical', 'abstract'] as const;
+
+/** Gruppen einer Tagesrunde: Logik = Sprache/Zahlen/Abstrakt, Fachtest = frmcq-Bereiche des Pakets. */
+export function dailyGroups(kind: DailyKind, areaIds: string[]): string[] {
+  return kind === 'logic' ? [...LOGIC_TYPES] : areaIds.map((a) => 'frmcq:' + a);
+}
+
+/** Antworten, die für die SRS-Fälligkeit der jeweiligen Art zählen (Fachtest nur des aktuellen Pakets). */
+export function answersForKind(answers: AnswerPayload[], kind: DailyKind, pkgId: string): AnswerPayload[] {
+  return answers.filter((a) => (kind === 'logic'
+    ? (LOGIC_TYPES as readonly string[]).includes(a.type)
+    : a.type === 'frmcq' && a.pkg === pkgId));
+}

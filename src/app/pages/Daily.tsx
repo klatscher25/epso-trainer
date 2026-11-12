@@ -3,19 +3,18 @@ import { Page } from '../components/Page';
 import { PracticeSession } from '../components/PracticeSession';
 import { Summary } from './Practice';
 import { go } from '../routes';
-import { usePkg, typesOf } from '../state';
+import { usePkg } from '../state';
 import { addEvent, allEvents } from '../store';
 import { answersOf, streak } from '../stats';
-import { planDaily } from '../daily';
+import { answersForKind, dailyGroups, planDaily, type DailyKind } from '../daily';
 import { frmcqPool, verbalPool } from '../data';
 import { newSeed } from '../prng';
 import { shuffle } from '../sampling';
 import type { Pkg, Q } from '../types';
 
-function buildPlan(pkg: Pkg): string[] {
-  const answers = answersOf(allEvents());
-  const groups: string[] = [...typesOf(pkg)].filter((t) => t !== 'frmcq');
-  if (pkg.frmcq) pkg.areas.forEach((a) => groups.push('frmcq:' + a.id));
+function buildPlan(pkg: Pkg, kind: DailyKind): string[] {
+  const answers = answersForKind(answersOf(allEvents()), kind, pkg.id);
+  const groups = dailyGroups(kind, pkg.frmcq ? pkg.areas.map((a) => a.id) : []);
   return planDaily(answers, Date.now(), groups, (g, exclude) => {
     if (g === 'verbal') return shuffle(verbalPool.map((i) => i.id)).find((id) => !exclude.has(id));
     if (g === 'numerical') return `num-${newSeed()}`;
@@ -25,9 +24,9 @@ function buildPlan(pkg: Pkg): string[] {
   });
 }
 
-export function Daily() {
+export function Daily({ kind = 'logic' }: { kind?: DailyKind }) {
   const [pkg] = usePkg();
-  const [ids] = useState(() => buildPlan(pkg));
+  const [ids] = useState(() => buildPlan(pkg, kind));
   const [results, setResults] = useState<{ q: Q; chosen: number | null; correct: boolean }[] | null>(null);
   if (results) {
     const st = streak(allEvents(), Date.now());
@@ -39,8 +38,8 @@ export function Daily() {
     );
   }
   return (
-    <PracticeSession title="5 Fragen" ids={ids} mode="daily" perQuestionSec={null}
-      onDone={(r) => { addEvent('daily', { at: Date.now(), correct: r.filter((x) => x.correct).length, n: r.length }); setResults(r); }}
+    <PracticeSession title={kind === 'logic' ? '5 Fragen Logik' : '5 Fragen Fachtest'} ids={ids} mode="daily" perQuestionSec={null}
+      onDone={(r) => { addEvent('daily', { kind, pkg: pkg.id, at: Date.now(), correct: r.filter((x) => x.correct).length, n: r.length }); setResults(r); }}
       onExit={() => go('')} />
   );
 }

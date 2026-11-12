@@ -68,6 +68,9 @@ select { display: block; width: 100%; min-height: 48px; font-size: 16px; margin-
 .tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px; }
 .tile { min-height: 72px; border-radius: 14px; border: 2px solid var(--border); background: var(--card); padding: 10px 12px; display: flex; flex-direction: column; justify-content: center; gap: 4px; text-align: left; }
 .tile.big { grid-column: 1 / -1; background: var(--accent); border-color: var(--accent); color: #fff; }
+.daily-row { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px; }
+.daily-row .tile.big { grid-column: auto; min-height: 64px; }
+.daily-streak { grid-column: 1 / -1; font-size: 13px; opacity: .85; }
 .tile.wide { grid-column: 1 / -1; min-height: 64px; }
 .t1 { font-weight: 800; font-size: 1rem; hyphens: auto; -webkit-hyphens: auto; overflow-wrap: break-word; } .t2 { font-size: .85rem; opacity: .85; }
 

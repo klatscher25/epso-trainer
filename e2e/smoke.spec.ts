@@ -105,9 +105,23 @@ test('Logiktests als ein Teil (65 Min.) mit Abschnitten', async ({ page }) => {
   await expect(page.getByRole('heading', { name: 'Abstraktes Denken' })).toBeVisible();
 });
 
+test('Zwei Tagesrunden bei AST3, Routen', async ({ page }) => {
+  await page.goto('./');
+  await expect(page.getByTestId('tile-daily-logic')).toBeVisible();
+  await expect(page.getByTestId('tile-daily-field')).toBeVisible();
+  await expect(page.getByTestId('daily-streak')).toBeVisible();
+  await page.getByTestId('tile-daily-field').click();
+  await expect(page).toHaveURL(/#\/daily\/field/);
+  await expect(page.getByTestId('opt-A')).toBeVisible();
+  await page.goto('./#/daily');
+  await expect(page.getByTestId('opt-A')).toBeVisible();
+});
+
 test('CAST: nur Logiktests', async ({ page }) => {
   await page.goto('./');
   await page.getByTestId('pkg-cast-fg4').click();
+  await expect(page.getByTestId('tile-daily-logic')).toBeVisible();
+  await expect(page.getByTestId('tile-daily-field')).toHaveCount(0);
   await page.getByTestId('tile-practice').click();
   await expect(page.getByTestId('type-frmcq')).toHaveCount(0);
   await page.goBack();
